@@ -111,7 +111,7 @@ We have defined a taxonomy of 40 figure types including "unknown". The full taxo
 | unknown | 12 | 0 |
 | **Total** | **4150** | **0** |
 
-## License
+## 📜 License
 
 ### Annotations and Metadata
 All annotations, labels, bounding boxes, and structured metadata in this repository are licensed under CC BY 4.0 (see LICENSE file).
