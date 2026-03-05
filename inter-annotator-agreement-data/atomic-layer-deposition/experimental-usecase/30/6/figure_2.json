@@ -1,0 +1,68 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_2",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart",
+        "c": "spectra chart"
+    },
+    "summarization": {
+        "a": "X-ray diffraction patterns of Fe<sub>2</sub>O<sub>3</sub> samples grown at 425\u00b0C.",
+        "b": "X-ray diffraction patterns of Fe<sub>2</sub>O<sub>3</sub>:MgO samples grown at 425\u00b0C with Mg/Fe = 0.02.",
+        "c": "X-ray diffraction patterns of Fe<sub>2</sub>O<sub>3</sub>:MgO samples grown at 425\u00b0C with Mg/Fe = 0.23."
+    },
+    "data_extraction": {
+        "a": "| Species | 2\u03b8, degree |\n|---|---|\n| Hematite as-deposited | Peaks at 24\u00b0, 34\u00b0, 36\u00b0, 41\u00b0, 49\u00b0, 54\u00b0, 57\u00b0, 64\u00b0, 65\u00b0 |\n| Magnetite FGA | Peaks at 30\u00b0, 36\u00b0, 44\u00b0, 54\u00b0 |",
+        "b": "| Species | 2\u03b8, degree |\n|---|---|\n| Hematite as-deposited | Peaks at 24\u00b0, 33\u00b0, 36\u00b0, 41\u00b0, 43\u00b0, 49\u00b0, 54\u00b0, 58\u00b0, 64\u00b0, 65\u00b0 |\n| Magnetite as-deposited | Peak at 30\u00b0 |\n| Magnetite FGA | Peaks at 35\u00b0, 43\u00b0, 54\u00b0 |",
+        "c": "| Species | 2\u03b8, degree |\n|---|---|\n| Hematite as-deposited | Peaks at 35\u00b0, 43\u00b0, 54\u00b0, 57\u00b0, 64\u00b0 |\n| Magnetite FGA | Peaks at 30\u00b0, 35\u00b0, 43\u00b0 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What were the Mg:Fe atomic ratios for films grown with 20 and 30 MgO cycles between Fe2O3 cycles?",
+                "answer_type": "Factoid",
+                "answer": "0.23 and 0.38, respectively."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What crystalline phase was observed in non-doped as-deposited films grown at 425 \u00b0C before annealing?",
+                "answer_type": "Factoid",
+                "answer": "Hematite (alpha-Fe2O3)."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What was the MgO:Fe2O3 cycle ratio used to obtain films containing both hematite and magnetite phases?",
+                "answer_type": "Factoid",
+                "answer": "3:100 (corresponding to an Mg:Fe atomic ratio of 0.02)."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does increasing MgO incorporation influence the phase composition and XRD reflections of Fe2O3 films before and after FGA when comparing all sub-figures?",
+                "answer_type": "Paragraph",
+                "answer": "At 425 \u00b0C, undoped Fe2O3 films initially crystallize as hematite, but after forming-gas annealing they convert completely to magnetite, exhibiting characteristic 311, 220, 400, and 422 reflections. Introducing small amounts of MgO (3 MgO cycles per 100 Fe2O3 cycles) produces mixed hematite-magnetite films that transform to magnetite or maghemite upon annealing. Further increasing Mg incorporation to 20-30 cycles shifts the diffraction peaks toward lower 2theta values corresponding to magnetite or maghemite, indicating suppression of hematite formation."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_3",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "The F 1s XPS spectra show a single dominant peak centered near 690 eV for both CF\u2084 fractions. Increasing \u03bd_CF\u2084 from 3.3% to 6.6% leads to a strong increase in peak intensity without a measurable chemical shift, indicating a higher fluorine surface concentration rather than a change in bonding state.",
+        "b": "The C 1s spectra reveal multiple fluorinated carbon components, including C\u2013CF\u2099, C\u2013F, C\u2013F\u2082, and C\u2013F\u2083. At higher CF\u2084 fraction, the relative contribution of fluorinated species (C\u2013F\u2093) increases while the hydrocarbon backbone contribution decreases. The shift of intensity toward higher binding energies reflects increased carbon\u2013fluorine coordination."
+    },
+    "data_extraction": {
+        "a": "| Binding Energy (eV) | Intensity (v_CF4 = 3.3%) (counts/s) | Intensity (v_CF4 = 6.6%) (counts/s) |\n|---|---|---|\n| 698.0 | ~400 | ~400 |\n| 696.0 | ~400 | ~400 |\n| 694.0 | ~400 | ~400 |\n| 692.0 | ~420 | ~420 |\n| 690.2 | ~3750 | ~6600 |\n| 688.0 | ~500 | ~1200 |\n| 686.0 | ~400 | ~300 |\n| 684.0 | ~400 | ~300 |\n| 682.0 | ~400 | ~300 |",
+        "b": "| Binding Energy (eV) | Intensity (v_CF4 = 3.3%) (counts/s) | Intensity (v_CF4 = 6.6%) (counts/s) |  Component |\n|---|---|---|---|\n| 285.0 | ~1500 | ~200 | C\u2013CF_n   |\n| 290.0 | ~450  | ~540 | C\u2013F      |\n| 292.5 | ~300  | ~540 | C\u2013F2     |\n| 294.5 | ~400  | ~300 | C\u2013F3     |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does increasing the CF\u2084 fraction from 3.3% to 6.6% increase the F 1s peak intensity?",
+                "answer_type": "Paragraph",
+                "answer": "Yes. \nEvidence: in panel (a), the peak for v_CF4 = 6.6%  shows higher intensity than for v_CF4 = 3.3%."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which CF\u2084 condition shows the stronger F 1s peak?",
+                "answer_type": "Factoid",
+                "answer": "\u03bd_CF\u2084 = 6.6%."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "How does increasing fluorination affect the binding energy of C 1s components?",
+                "answer_type": "Paragraph",
+                "answer": "As carbon bonds to an increasing number of fluorine atoms, electron density around carbon decreases due to fluorine\u2019s strong electronegativity. This causes a systematic shift of C 1s components to higher binding energies, with C\u2013F\u2083 appearing at the highest energies."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which of the identified fluorinated species (C-F, C-F\u2082, C-F\u2083) shows the largest relative increase in intensity when changing from 3.3% to 6.6% \u03bd_CF\u2084?",
+                "answer_type": "Factoid",
+                "answer": "The C\u2013F\u2082 and C\u2013F\u2083 species show the clearest increase, with C\u2013F\u2083 becoming a distinct peak."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

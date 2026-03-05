@@ -1,0 +1,54 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_11",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "Figure 11 shows the average oxidation state of manganese determined from TEY XANES as a function of lithium content. The results reveal a clear decrease in Mn oxidation state from about +3.7 to about +2.5 with increasing lithium concentration, including both unannealed and annealed samples."
+    },
+    "data_extraction": {
+        "a": "|Sample|Average Mn oxidation state (TEY XANES)|\n|------|--------------------------------------|\n|MnO\u2082|3.8|\n|10cLi\u2212MnO\u2082|3.7|\n|50cLi\u2212MnO\u2082|3.6|\n|100cLi\u2212MnO\u2082|3.3|\n|200cLi\u2212MnO\u2082|3.2|\n|200cLi\u2212MnO\u2082-600 (annealed)|3.1|\n|300cLi\u2212MnO\u2082|2.9|\n|300cLi\u2212MnO\u2082-600 (annealed)|2.5|"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Explain why understanding the decrease in manganese oxidation state with increasing lithium content is important for Li-Mn-O based functional materials.",
+                "answer_type": "Paragraph",
+                "answer": "The manganese oxidation state strongly influences the structural stability, electronic structure, and electrochemical behavior of Li-Mn-O materials. A decreasing oxidation state with increasing lithium content reflects changes in charge compensation and local bonding environments, which can affect lithium storage capacity, phase stability, and degradation mechanisms. Identifying unusually low oxidation states, such as those observed in highly lithiated and annealed samples, helps highlight potential structural distortions or impurity phases that may impact long-term performance in applications like lithium-ion batteries."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "List the observed trend in manganese oxidation state as lithium content increases across the samples.",
+                "answer_type": "List",
+                "answer": "MnO\u2082 starts at a high oxidation state (~+3.8), Oxidation state gradually decreases with increasing lithium content, 100cLi\u2212MnO\u2082 and 200cLi\u2212MnO\u2082 show intermediate oxidation states (~+3.3 to +3.2), Annealed samples show slightly lower oxidation states than unannealed ones, 300cLi\u2212MnO\u2082-600 exhibits the lowest oxidation state (~+2.5)"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Is the average manganese oxidation state in the samples determined using TEY XANES measurements?",
+                "answer_type": "Paragraph",
+                "answer": "Yes. The average oxidation state of manganese was determined from TEY XANES measurements."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the approximate manganese oxidation state for the 300cLi\u2212MnO\u2082-600 (annealed) sample?",
+                "answer_type": "Factoid",
+                "answer": "Approximately +2.5."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

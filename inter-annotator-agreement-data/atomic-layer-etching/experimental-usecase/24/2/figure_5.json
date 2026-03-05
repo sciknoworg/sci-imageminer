@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_5",
+    "classification": {
+        "a": "multi-axis chart"
+    },
+    "summarization": {
+        "a": "The chart shows the mass change and thickness changes over time at different temperatures for TMA and HF treatments."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | 250\u00b0C (ng/cm\u00b2) | 275\u00b0C (ng/cm\u00b2) | 300\u00b0C (ng/cm\u00b2) | 325\u00b0C (ng/cm\u00b2) |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 1000 | -50 | -100 | -250 | -375 |\n| 2000 | -100 | -250 | -500 | -750 |\n| 3000 | -100 | -450 | -750 | -1125 |\n| 4000 | -150 | -600 | -1000 | -1500 |\n| 5000 | -200 | -750 | -1250 | -1875 |\n| 6000 | -250 | -900 | -1500 | -2250 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What trend is observed in the etch rate as temperature increases?",
+                "answer_type": "Factoid",
+                "answer": "Etch rate increases approximately 5-fold from 0.14 \u00c5/cycle at 250\u00b0C to 0.75 \u00c5/cycle at 325\u00b0C."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Why is the dual y-axis (mass change and thickness) useful for presenting this data?",
+                "answer_type": "Paragraph",
+                "answer": "The dual axes allow direct comparison of the raw QCM measurement (mass change in ng/cm\u00b2) with the more practically relevant thickness change (in \u00c5). The thickness conversion uses the known Al\u2082O\u2083 density of 3.1 g/cm\u00b3, enabling readers to immediately understand the etch depth without manual calculation. This is particularly useful for process development where target etch depths are typically specified in thickness units."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What does the linearity of the curves indicate about the ALE process at all temperatures?",
+                "answer_type": "Factoid",
+                "answer": "Linear behavior confirms that the etch rate remains constant throughout 100 cycles at each temperature, indicating stable, reproducible etching."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How much Al\u2082O\u2083 thickness is removed after 100 ALE cycles at 325\u00b0C?",
+                "answer_type": "Factoid",
+                "answer": "Approximately 75 \u00c5 (based on 0.75 \u00c5/cycle \u00d7 100 cycles), as shown on the right y-axis."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

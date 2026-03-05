@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_3",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart",
+        "c": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "Subfigure (a) shows the Raman spectrum of a Mg\u2013Fe oxide film grown at 400 \u00b0C, dominated by \u03b1-Fe\u2082O\u2083 modes between 225\u2013613 cm\u207b\u00b9. Magnetite features at 538 and 668 cm\u207b\u00b9 are present but secondary, while the strong 1320 cm\u207b\u00b9 band confirms a hematite-rich structure.",
+        "b": "Subfigure (b) presents a Mg/Fe = 0.017 film grown at 375 \u00b0C, exhibiting strong magnetite bands (193\u2013668 cm\u207b\u00b9) together with \u03b3-Fe\u2082O\u2083 modes at 720, 1430, and 1580 cm\u207b\u00b9. This mixed spectral signature indicates coexistence of magnetite, maghemite, and hematite.",
+        "c": "Subfigure (c) compares spectra from Mg/Fe = 0.05\u20130.06 films grown at 425 \u00b0C and 375 \u00b0C. Hematite modes dominate, while magnetite and \u03b3-Fe\u2082O\u2083 features persist at lower intensity. Substrate-related Si (514 cm\u207b\u00b9) and SiO\u2082 (~1000 cm\u207b\u00b9) bands are also visible."
+    },
+    "data_extraction": {
+        "a": "| Raman shift (cm\u207b\u00b9) | Phase |\n|--------------------|-------|\n| 225 | \u03b1-Fe\u2082O\u2083 |\n| 293 | \u03b1-Fe\u2082O\u2083 |\n| 412 | \u03b1-Fe\u2082O\u2083 |\n| 498 | \u03b1-Fe\u2082O\u2083 |\n| 613 | \u03b1-Fe\u2082O\u2083 |\n| 538 | Fe\u2083O\u2084 |\n| 668 | Fe\u2083O\u2084 |\n| 1320 | \u03b1-Fe\u2082O\u2083 |",
+        "b": "| Raman shift (cm\u207b\u00b9) | Phase |\n|--------------------|-------|\n| 193 | Fe\u2083O\u2084 |\n| 306 | Fe\u2083O\u2084 |\n| 538 | Fe\u2083O\u2084 |\n| 668 | Fe\u2083O\u2084 |\n| 720 | \u03b3-Fe\u2082O\u2083 |\n| 1320 | \u03b1-Fe\u2082O\u2083 |\n| 1430 | \u03b3-Fe\u2082O\u2083 |\n| 1580 | \u03b3-Fe\u2082O\u2083 |",
+        "c": "| Raman shift (cm\u207b\u00b9) | Phase |\n|--------------------|-------|\n| 225 | \u03b1-Fe\u2082O\u2083 |\n| 293 | \u03b1-Fe\u2082O\u2083 |\n| 412 | \u03b1-Fe\u2082O\u2083 |\n| 498 | \u03b1-Fe\u2082O\u2083 |\n| 613 | \u03b1-Fe\u2082O\u2083 |\n| 514 | Si |\n| 538 | Fe\u2083O\u2084 |\n| 668 | Fe\u2083O\u2084 |\n| 720 | \u03b3-Fe\u2082O\u2083 |\n| 1000 | SiO\u2082 |\n| 1320 | \u03b1-Fe\u2082O\u2083 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which phase is responsible for the Raman mode near 720 cm\u207b\u00b9 observed in subfigure (c)?",
+                "answer_type": "Factoid",
+                "answer": "\u03b3-Fe\u2082O\u2083 (maghemite)."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does Mg incorporation influence the lattice vibrational features observed in the Raman spectrum of subfigure (a)?",
+                "answer_type": "Paragraph",
+                "answer": "In subfigure (a), Mg incorporation modifies the local Fe\u2013O coordination, leading to well-resolved \u03b1-Fe\u2082O\u2083 phonon modes between 225 and 613 cm\u207b\u00b9. The relative weakness of magnetite peaks suggests that Mg stabilizes hematite-like bonding environments, particularly after FGA treatment, by suppressing extensive reduction to Fe\u2083O\u2084."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What spectral features distinguish the mixed-phase response in subfigure (b) from the hematite-rich spectrum in subfigure (a)?",
+                "answer_type": "Paragraph",
+                "answer": "-Strong Fe\u2083O\u2084 modes at 193, 306, 538, and 668 cm\u207b\u00b9 appear in (b).\n-\u03b3-Fe\u2082O\u2083 bands at 720, 1430, and 1580 cm\u207b\u00b9 are present only in (b).\n-The 1320 cm\u207b\u00b9 \u03b1-Fe\u2082O\u2083 band is weaker relative to low-frequency modes in (b).\n-Overall spectral complexity in (b) indicates incomplete phase stabilization."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why might a mixed magnetite\u2013maghemite Raman signature be advantageous for functional coatings?",
+                "answer_type": "Paragraph",
+                "answer": "Magnetite and maghemite offer complementary magnetic and electronic properties. Their coexistence, as seen in subfigure (b), may enable tunable conductivity and magnetic response while retaining partial oxidation stability, which can be beneficial for sensing or catalytic applications."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_1",
+    "classification": {
+        "a": "molecular structure diagram",
+        "b": "molecular structure diagram"
+    },
+    "summarization": {
+        "a": "Crystal structure of cubic spinel LiMn\u2082O\u2084 (space group Fd3\u0304m). Green tetrahedra show Li\u207a in 8a Wyckoff sites; purple octahedra show Mn in 16d sites; red spheres are oxygen atoms in cubic close-packed arrangement.",
+        "b": "Crystal structure of tetragonal \u03b2-MnO\u2082 (pyrolusite, space group P4\u2082/mnm). Purple edge-sharing MnO\u2086 octahedra form one-dimensional channels. This structure contains no lithium."
+    },
+    "data_extraction": {
+        "a": "",
+        "b": ""
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Why can LiMn\u2082O\u2084 intercalate lithium ions reversibly while \u03b2-MnO\u2082 has limited Li\u207a capacity?",
+                "answer_type": "Paragraph",
+                "answer": "LiMn\u2082O\u2084 has a 3D cubic spinel framework with interconnected tetrahedral 8a sites that allow Li\u207a diffusion in all directions. In contrast, \u03b2-MnO\u2082 has 1D channels along the c-axis that can only accommodate limited Li\u207a before requiring structural transformation. This is why \u03b2-MnO\u2082 converts to the spinel phase once lithium concentration exceeds x \u2248 0.5."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What do the labels \"8a\" and \"16d\" in panel (a) refer to?",
+                "answer_type": "Factoid",
+                "answer": "Wyckoff positions. Specifically, 8a denotes the tetrahedral sites occupied by lithium, and 16d denotes the octahedral sites occupied by manganese."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is the low volume change of LiMn\u2082O\u2084 during cycling advantageous for thin-film batteries?",
+                "answer_type": "Factoid",
+                "answer": "It prevents mechanical degradation and maintains structural integrity in rigid all-solid-state battery architectures where electrodes cannot accommodate large dimensional changes."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What are the key structural differences between LiMn\u2082O\u2084 and \u03b2-MnO\u2082?",
+                "answer_type": "Paragraph",
+                "answer": "(1) Crystal system: cubic (Fd3\u0304m) vs. tetragonal (P4\u2082/mnm); (2) Li content: Li in tetrahedral 8a sites vs. no lithium; (3) Mn coordination: octahedral 16d in both, but different connectivity; (4) Diffusion pathways: 3D network vs. 1D channels."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

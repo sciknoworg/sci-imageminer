@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_4",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart"
+    },
+    "summarization": {
+        "a": "The figure shows a negative trend of \u0394M<sub>TMA</sub> with increasing TMA exposure time at 300\u00b0C.",
+        "b": "The figure shows a positive trend of \u0394M<sub>HF</sub> with increasing HF exposure time at 300\u00b0C."
+    },
+    "data_extraction": {
+        "a": "| TMA Exposure Time (s) | \u0394M<sub>TMA</sub> (ng/(cm<sup>2</sup> cycle)) |\n|---|---|\n| 0.0 | 0 |\n| 0.5 | -13 |\n| 1.0 | -20 |\n| 1.5 | -23 |\n| 2.0 | -30 |\n| 2.5 | -33 |",
+        "b": "| HF Exposure Time (s) | \u0394M<sub>HF</sub> (ng/(cm<sup>2</sup> cycle)) |\n|---|---|\n| 0.0 | 0 |\n| 0.5 | 11 |\n| 1.0 | 14 |\n| 1.5 | 16 |\n| 1.8 | 16 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Is there evidence for saturating behaviour with respect to the decrease in mass change for increasing TMA exposure time?",
+                "answer_type": "Paragraph",
+                "answer": "The last two data points have the same value and overall the mass change seems to saturate towards this value, so yes."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Is the trend in mass change difference with respect to TMA exposure time linear?",
+                "answer_type": "Yes/No",
+                "answer": "No, the trend is not linear."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the optimal HF exposure time and why?",
+                "answer_type": "Paragraph",
+                "answer": "The optimal HF exposure time is 1.5 s. At this time the mass change saturates, and is, in that saturated regime the lowest value that can be taken."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Does the mass change tell anything on the film composition?",
+                "answer_type": "Paragraph",
+                "answer": "No, with just the mass change the film composition cannot be determined. As with just this information it can not be determined which specific atoms are removed."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

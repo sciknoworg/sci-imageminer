@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_12",
+    "classification": {
+        "a": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays infrared absorption spectra at 300\u00b0C, comparing TMA (a) and HF (b) samples between 4000-2500 cm^-1."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | TMA | HF |\n|---|---|---|\n| 2500 | 0.002 | -0.002 |\n| 2750 | 0.002 | -0.002 |\n| 3000 | 0.003 | -0.003 |\n| 3250 | 0.000 | -0.001 |\n| 3500 | 0.000 | -0.001 |\n| 3750 | 0.000 | -0.001 |\n| 4000 | 0.000 | -0.001 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What temperature is used in the ALE process?",
+                "answer_type": "Factoid",
+                "answer": "300 \u00b0C"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which materials exhibit positive absorbance values?",
+                "answer_type": "Factoid",
+                "answer": "TMA"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which material supplies the surface with CH3 groups?",
+                "answer_type": "Factoid",
+                "answer": "TMA, based on the positive absorbance value."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What do positive and negative absorbance values represent?",
+                "answer_type": "Factoid",
+                "answer": "In this case, positive values represent groups being supplied to the surface. Conversely, negative values show groups being lost from the surface."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

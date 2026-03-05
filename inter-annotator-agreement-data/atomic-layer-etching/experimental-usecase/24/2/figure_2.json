@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_2",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "This QCM enlargement shows the stepwise mass changes during individual TMA and HF exposures in the steady-state Al\u2082O\u2083 ALE regime at 300\u00b0C. Each TMA exposure causes a mass decrease (\u0394M_TMA = \u221229 ng/cm\u00b2) as AlF\u2083 is removed via ligand-exchange. Each HF exposure causes a mass increase (\u0394M_HF = +13 ng/cm\u00b2) as Al\u2082O\u2083 is fluorinated to form a new AlF\u2083 layer. The net mass change per cycle (MCPC = \u0394M_TMA + \u0394M_HF) is \u221215.9 ng/(cm\u00b2 cycle), corresponding to 0.51 \u00c5/cycle etch rate."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass change (ng/cm\u00b2) |\n|----------|----------------------|\n| 6110 | -1440 |\n| 6115 | -1450 |\n| 6120 | -1460 |\n| 6135 | -1470 |\n| 6140 | -1470 |\n| 6145 | -1465 |\n| 6150 | -1455 |\n| 6155 | -1450 |\n| 6175 | -1450 |\n| 6180 | -1485 |\n| 6205 | -1490 |\n| 6210 | -1490 |\n| 6220 | -1475 |\n| 6235 | -1470 |\n| 6245 | -1505 |\n| 6268 | -1508 |\n| 6275 | -1490 |\n| 6300 | -1490 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What do the labels \u0394M_TMA and \u0394M_HF represent in this figure?",
+                "answer_type": "Factoid",
+                "answer": "\u0394M_TMA is the mass change after TMA exposure (\u221229 ng/cm\u00b2) and \u0394M_HF is the mass change after HF exposure (+13 ng/cm\u00b2)."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Why does TMA exposure cause mass loss while HF exposure causes mass gain?",
+                "answer_type": "Paragraph",
+                "answer": "TMA causes mass loss because it removes the AlF\u2083 surface layer through ligand-exchange, producing volatile AlF(CH\u2083)\u2082 that desorbs. HF causes mass gain because fluorination converts lighter Al\u2082O\u2083 (102 amu) into heavier AlF\u2083 (168 amu for 2AlF\u2083), a 65% mass increase for the converted layer."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How is MCPC calculated from the individual mass changes?",
+                "answer_type": "Factoid",
+                "answer": "MCPC = \u0394M_TMA + \u0394M_HF = (\u221229) + (+13) = \u221215.9 ng/(cm\u00b2 cycle)."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What does the consistent step height between cycles indicate about the ALE process?",
+                "answer_type": "Factoid",
+                "answer": "It indicates highly reproducible, steady-state etching with constant material removal per cycle."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

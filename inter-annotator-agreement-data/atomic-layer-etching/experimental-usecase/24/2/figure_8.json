@@ -1,0 +1,57 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_8",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart"
+    },
+    "summarization": {
+        "a": "Temperature dependence of \u0394M_TMA (blue) and \u0394M_HF (red) during Al\u2082O\u2083 ALE. Both magnitudes increase with temperature: \u0394M_TMA becomes more negative (from \u221210.5 to \u221241.9 ng/cm\u00b2) while \u0394M_HF becomes more positive (from +6.3 to +18.6 ng/cm\u00b2). This indicates that higher temperatures enable TMA to remove a larger fraction of the AlF\u2083 surface layer, which in turn allows more Al\u2082O\u2083 to be fluorinated in the subsequent HF step.",
+        "b": "MCPC versus temperature shows increasingly negative values from \u22124.2 ng/(cm\u00b2 cycle) at 250\u00b0C to \u221223.3 ng/(cm\u00b2 cycle) at 325\u00b0C, corresponding to etch rates of 0.14 to 0.75 \u00c5/cycle. The temperature dependence is dominated by the TMA reaction."
+    },
+    "data_extraction": {
+        "a": "| Temperature (\u00b0C) | \u0394M_{TMA} (ng/(cm\u00b2 cycle)) | \u0394M_{HF} (ng/(cm\u00b2 cycle)) |\n|---|---|---|\n| 250 | -9 | 6 |\n| 275 | -21 | 10 |\n| 300 | -33 | 15 |\n| 325 | -42 | 19 |",
+        "b": "| Temperature (\u00b0C) | MCPC (ng/(cm\u00b2 cycle)) |\n|---|---|\n| 250 | -3 |\n| 275 | -9 |\n| 300 | -15 |\n| 325 | -23 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the etch rates change across the temperature range studied?",
+                "answer_type": "Paragraph",
+                "answer": "250\u00b0C: 0.14 \u00c5/cycle; 275\u00b0C: 0.34 \u00c5/cycle; 300\u00b0C: 0.51 \u00c5/cycle; 325\u00b0C: 0.75 \u00c5/cycle."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Why does higher temperature lead to larger etch rates?",
+                "answer_type": "Paragraph",
+                "answer": "Higher temperatures enable TMA to remove a larger fraction of the AlF\u2083 surface layer during the ligand-exchange reaction. At 250\u00b0C, only ~19% of the AlF\u2083 layer is removed, while at 325\u00b0C, ~74% is removed. When more AlF\u2083 is removed, more fresh Al\u2082O\u2083 is exposed for fluorination in the subsequent HF step, leading to greater net material removal per cycle."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Why do both |\u0394M_TMA| and \u0394M_HF increase together with temperature?",
+                "answer_type": "Factoid",
+                "answer": "Greater AlF\u2083 removal by TMA exposes more Al\u2082O\u2083 surface, which allows more fluorination (and thus larger mass gain) during the subsequent HF exposure."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What practical advantage does the temperature dependence offer for Al\u2082O\u2083 ALE?",
+                "answer_type": "Factoid",
+                "answer": "It allows the etch rate to be tuned by adjusting process temperature, providing flexibility for different application requirements."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

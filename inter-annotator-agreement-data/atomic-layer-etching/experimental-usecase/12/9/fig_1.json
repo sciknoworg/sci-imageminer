@@ -1,0 +1,63 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_1",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "Show the Al\u2013O absorbance band between 800 and 1100 cm\u207b\u00b9, which decreases progressively with each SF6 plasma/TMA ALE cycle, indicating material removal from the Al2O3 film.",
+        "b": "Display the AlCH3 absorbance peaks at 2900 and 2950 cm\u207b\u00b9. These peaks increase after TMA dosing, reflecting the formation of surface methyl groups, and decrease after SF6 plasma exposure, corresponding to their removal via ligand exchange reactions. The spectra are referenced to the previous half-cycle to highlight these changes."
+    },
+    "data_extraction": {
+        "a": "|Wavenumbers (cm\u207b\u00b9)|Absorbance|\n|------------------|----------|\n|800|Decreasing with ALE cycles (Al\u2013O band)|\n|900|Decreasing with ALE cycles (Al\u2013O band)|\n|1000|Decreasing with ALE cycles (Al\u2013O band)|\n|1100|Decreasing with ALE cycles (Al\u2013O band)|",
+        "b": "|Wavenumbers (cm\u207b\u00b9)|TMA half-cycle|SF6 plasma half-cycle|\n|------------------|--------------|---------------------|\n|2900|Positive peak (AlCH3 formation)|Negative peak (AlCH3 removal)|\n|2950|Positive peak (AlCH3 formation)|Negative peak (AlCH3 removal)|"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "What is the reference point for the spectra in figure (a) and (b)?",
+                "answer_type": "Paragraph",
+                "answer": "In Figure (a), spectra are referenced to the as-deposited Al2O3 film before ALE cycles. In figure (b), spectra are referenced to the previous half-cycle to highlight changes after each TMA or SF6 plasma exposure."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "How does the SF6 plasma treatment affect the AlCH3 peaks?",
+                "answer_type": "List",
+                "answer": "The SF6 plasma removes surface methyl groups resulting in a decrease of the AlCH3 peaks due to ligand exchange reactions with fluorine atoms, Formation of Al\u2013F bonds and surface fluorination further suppress Al\u2013CH\u2083 related vibrational features in the FTIR spectra."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does a decrease in absorption in the IR spectra indicate, the removal of species from the Al2O3 surface, in Figure 1?",
+                "answer_type": "Paragraph",
+                "answer": "Yes, A decrease in absorption corresponds to the removal of species from the Al2O3 surface, such as the Al\u2013O bonds removed during each SF6 plasma/TMA ALE cycle."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What do the absorbance peaks at 2900 and 2950 cm\u207b\u00b9 represent?",
+                "answer_type": "Factoid",
+                "answer": "These peaks correspond to the symmetric and asymmetric stretching modes of AlCH3 groups on the surface, which form after TMA dosing."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

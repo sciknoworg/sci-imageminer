@@ -1,0 +1,49 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_7",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart",
+        "c": "spectra chart",
+        "d": "spectra chart",
+        "e": "spectra chart",
+        "f": "spectra chart"
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "f": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

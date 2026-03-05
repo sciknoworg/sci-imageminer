@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_11",
+    "classification": {
+        "a": "spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays infrared absorption spectra at 300\u00b0C, after a TMA (a) dose and after a HF (b) dose."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | Absorbance after TMA dose | Absorbance after HF dose |\n|-------------------|------------|------------|\n| 1300              | 0.00      | 0.00 |\n| 1220              | positive peak till 0.55|negative peak till -0.55|\n| 1100              | 0.00      |0.00      |\n| 1000              | 0.00       | broad negative peak till -0.02|\n| 980               | broad negative peak till -0.55    | 0.00 |\n| 850               | 0.00       | broad negative peak till -0.03|\n| 800               | 0.00       | 0.00|"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Application/Performance",
+                "question": "What does a positive or negative peak tell in an infrared spectrum?",
+                "answer_type": "Paragraph",
+                "answer": "A positive peak means that bonds with corresponding vibrations are added to the surface, whereas a negative peak indicates the removal of bonds from the surface."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Is the same amount of CH3 added and removed each cycle?",
+                "answer_type": "Factoid",
+                "answer": "Yes, the positive and negative CH3 absorption peak are equaly big."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Assuming that AlF3 is added to the surface upon HF exposure, can it then be said that the baseline correction of the IR spectrum is not performed correctly?",
+                "answer_type": "Paragraph",
+                "answer": "If AlF3 is added, this would result in a positive peak above 0, this is not observed, indicating that the baseline should likely be a bit higher."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Are the IR spectroscopy techniques that have sub-cycle accuracy?",
+                "answer_type": "List",
+                "answer": "Yes, FTIR is an option on powder samples, and RAIRS can be used on planar reflective substrates."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

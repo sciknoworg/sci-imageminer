@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_1",
+    "classification": {
+        "a": "molecular structure diagram",
+        "b": "molecular structure diagram"
+    },
+    "summarization": {
+        "a": "This subfigure shows the spinel crystal structure of LiMn\u2082O\u2084, visualized as a three-dimensional periodic lattice of MnO\u2086 octahedra and LiO\u2084 tetrahedra. The tetrahedral 8a and octahedral 16d interstitial sites are explicitly labeled, highlighting the crystallographic positions relevant to lithium occupation and diffusion. The structure emphasizes the framework that enables lithium intercalation.",
+        "b": "This subfigure presents the crystal structure of \u03b2-MnO\u2082, composed of corner- and edge-sharing MnO\u2086 octahedra forming a rutile-type lattice. Unlike the spinel structure, no lithium-occupied interstitial sites are present. The comparison highlights the structural differences between lithium-containing and lithium-free manganese oxides."
+    },
+    "data_extraction": {
+        "a": "",
+        "b": ""
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What crystallographic sites are highlighted in the spinel LiMn\u2082O\u2084 structure?",
+                "answer_type": "Paragraph",
+                "answer": "The spinel LiMn\u2082O\u2084 structure highlights tetrahedral 8a and octahedral 16d interstitial sites. Lithium ions occupy the tetrahedral 8a sites, while manganese ions are coordinated within MnO\u2086 octahedra. These sites are crucial because lithium transport between them governs electrochemical behavior."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Why are the 8a and 16d sites explicitly labeled in the spinel structure?",
+                "answer_type": "Paragraph",
+                "answer": "These sites determine where lithium resides and migrates within the lattice. Explicit labeling helps link crystallography to lithium diffusion pathways and electrochemical performance."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the crystal framework of \u03b2-MnO\u2082 differ from that of a spinel structure?",
+                "answer_type": "Paragraph",
+                "answer": "\u03b2-MnO\u2082 adopts a rutile-type framework composed only of edge- and corner-sharing MnO\u2086 octahedra. It does not contain lithium-accessible interstitial sites like the tetrahedral positions present in spinel structures. This difference leads to fundamentally different ion-transport properties."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Does \u03b2-MnO\u2082 support reversible lithium intercalation comparable to spinel LiMn\u2082O\u2084?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

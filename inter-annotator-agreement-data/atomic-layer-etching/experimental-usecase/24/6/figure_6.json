@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_6",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The chart shows the mass change over time at different temperatures (250\u00b0C, 275\u00b0C, 300\u00b0C, 325\u00b0C) on Al2O3 surface. The effect of temperature becomes visible after the first ALE cycle, or after 60 s."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | 250\u00b0C | 275\u00b0C | 300\u00b0C | 325\u00b0C |\n|---|---|---|---|---|\n| 0 | 25 | 25 | 25 | 25 |\n| 30 | 65 | 65 | 65 | 65 |\n| 60 | 70 | 50 | 45 | 25 |\n| 90 | 55 | 45 | 40 | 20 |\n| 120 | 75 | 60 | 55 | 40 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What temperatures were selected to investigate the effect of temperature on the mass change?",
+                "answer_type": "Factoid",
+                "answer": "250\u00b0C, 275\u00b0C, 300\u00b0C and 325\u00b0C."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "When does the effect of the temperature become visible in the graph?",
+                "answer_type": "Factoid",
+                "answer": "After 60 seconds, which corresponds to the beginning of the second ALE cycle."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What causes the mass gain for the first TMA exposure?",
+                "answer_type": "Factoid",
+                "answer": "These mass gains result from the reaction of AlOH* surface species with TMA according to AlOH* + Al(CH3)3 \u2192 AlOAl(CH3)2* + CH4."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does temperature affect the individual exposure steps?",
+                "answer_type": "Factoid",
+                "answer": "After the first ALE cycle, the mass loss during TMA exposure increases with temperature (roughly from 10 ng/cm^2 to 40 ng/cm^2), whereas the mass gain during HF exposure remains constant around 35-38 ng/cm^2."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

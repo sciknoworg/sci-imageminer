@@ -1,0 +1,97 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_2",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart",
+        "d": "multiple line chart",
+        "e": "multiple line chart",
+        "f": "multiple line chart"
+    },
+    "summarization": {
+        "a": "TOF-ERDA depth profile of the pristine MnO\u2082 film showing O (~65 at-%) and Mn (~33 at-%) concentrations. The Si signal indicates the film/substrate interface. No lithium present.",
+        "b": "Depth profile of 10cLi-MnO\u2082. Lithium (red) appears only at the very surface of the film (~0.6 at-% in top region).",
+        "c": "Depth profile of 50cLi-MnO\u2082. Lithium penetration extends ~20 nm into the film but not throughout.",
+        "d": "Depth profile of 100cLi-MnO\u2082. Lithium penetrates ~50 nm deep, roughly half the film thickness.",
+        "e": "Depth profile of 200cLi-MnO\u2082. Lithium now extends throughout the entire film thickness (~10 at-%).",
+        "f": "Depth profile of 300cLi-MnO\u2082. Lithium distributed uniformly throughout the film (~15 at-%), approaching stoichiometric LiMn\u2082O\u2084 composition."
+    },
+    "data_extraction": {
+        "a": "| Depth (x10\u00b9\u2075 at/cm\u00b2) | O (at-%) | Mn (at-%) | Si (at-%) | Li (at-%) |\n|---|---|---|---|---|\n| 250 | 60 | 39 | 0 | 0 |\n| 500 | 61 | 39 | 0 | 0 |\n| 750 | 62 | 37 | 0 | 0 |\n| 1000 | 63 | 36 | 0 | 0 |\n| 1250 | 60 | 34 | 5 | 0 |\n| 1500 | 25 | 15 | 60 | 0 |\n| 1750 | 2 | 1 | 97 | 0 |",
+        "b": "| Depth (x10\u00b9\u2075 at/cm\u00b2) | O (at-%) | Mn (at-%) | Si (at-%) | Li (at-%) |\n|---|---|---|---|---|\n| 250 | 60 | 39 | 0 | 0 |\n| 500 | 60 | 38 | 0 | 0 |\n| 750 | 61 | 37 | 0 | 0 |\n| 1000 | 60 | 36 | 1 | 0 |\n| 1250 | 35 | 20 | 45 | 0 |\n| 1500 | 5 | 3 | 92 | 0 |",
+        "c": "| Depth (x10\u00b9\u2075 at/cm\u00b2) | O (at-%) | Mn (at-%) | Si (at-%) | Li (at-%) |\n|---|---|---|---|---|\n| 250 | 60 | 37 | 0 | 3 |\n| 500 | 60 | 38 | 0 | 2 |\n| 750 | 61 | 37 | 0 | 2 |\n| 1000 | 60 | 36 | 1 | 2 |\n| 1250 | 50 | 28 | 20 | 1 |\n| 1500 | 15 | 8 | 77 | 0 |",
+        "d": "| Depth (x10\u00b9\u2075 at/cm\u00b2) | O (at-%) | Mn (at-%) | Si (at-%) | Li (at-%) |\n|---|---|---|---|---|\n| 250 | 57 | 36 | 0 | 6 |\n| 500 | 58 | 36 | 0 | 5 |\n| 750 | 60 | 36 | 0 | 4 |\n| 1000 | 58 | 35 | 2 | 4 |\n| 1250 | 45 | 25 | 25 | 2 |\n| 1500 | 10 | 5 | 85 | 0 |",
+        "e": "| Depth (x10\u00b9\u2075 at/cm\u00b2) | O (at-%) | Mn (at-%) | Si (at-%) | Li (at-%) |\n|---|---|---|---|---|\n| 250 | 56 | 34 | 0 | 10 |\n| 500 | 55 | 34 | 0 | 11 |\n| 750 | 57 | 31 | 0 | 11 |\n| 1000 | 58 | 30 | 1 | 10 |\n| 1250 | 55 | 28 | 5 | 10 |\n| 1500 | 25 | 10 | 60 | 5 |\n| 1750 | 2 | 1 | 97 | 0 |",
+        "f": "| Depth (x10\u00b9\u2075 at/cm\u00b2) | O (at-%) | Mn (at-%) | Si (at-%) | Li (at-%) |\n|---|---|---|---|---|\n| 250 | 52 | 30 | 0 | 18 |\n| 500 | 53 | 30 | 0 | 17 |\n| 750 | 55 | 30 | 0 | 15 |\n| 1000 | 55 | 30 | 0 | 15 |\n| 1250 | 54 | 28 | 5 | 12 |\n| 1500 | 25 | 10 | 60 | 5 |\n| 1750 | 2 | 1 | 97 | 0 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What does the gray Si signal indicate in these depth profiles?",
+                "answer_type": "Factoid",
+                "answer": "The Si signal marks the interface between the MnO\u2082/Li\u2093Mn\u2082O\u2084 film and the Si(100) substrate."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What analytical technique was used to obtain these depth profiles?",
+                "answer_type": "Factoid",
+                "answer": "Time-of-flight elastic recoil detection analysis (TOF-ERDA) using \u2077\u2079Br\u2077\u207a ions from a 5 MV tandem accelerator."
+            }
+        ],
+        "d": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Why does lithium suddenly penetrate the full film thickness between 100 and 200 cycles?",
+                "answer_type": "Paragraph",
+                "answer": "At x \u2248 0.5 in Li\u2093Mn\u2082O\u2084 (~100 cycles), the crystal structure transforms from tetragonal \u03b2-MnO\u2082 to cubic spinel. The spinel structure has 3D Li\u207a diffusion pathways, enabling lithium to migrate throughout the film rather than being confined to surface channels."
+            }
+        ],
+        "f": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does lithium distribution change with increasing LiO\u1d57Bu/H\u2082O ALD cycles?",
+                "answer_type": "Paragraph",
+                "answer": "At low cycle numbers (10-50), lithium penetrates only the surface region. At 100 cycles, Li reaches ~50% of the film depth. Above 100 cycles (200-300), lithium distributes throughout the entire film thickness, enabling stoichiometric LiMn\u2082O\u2084 formation."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "f": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

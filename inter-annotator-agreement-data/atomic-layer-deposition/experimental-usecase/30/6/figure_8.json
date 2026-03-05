@@ -1,0 +1,75 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_8",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart",
+        "d": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The figure shows hysteresis loops of magnetic material at various temperatures.",
+        "b": "The figure shows hysteresis loops of magnetic material at various temperatures.",
+        "c": "The figure shows hysteresis loops of magnetic material at various temperatures.",
+        "d": "The figure shows hysteresis loops of magnetic material at various temperatures."
+    },
+    "data_extraction": {
+        "a": "| Magnetic field, Oe | -7500 | -5000 | -2500 | 0 | 2500 | 5000 | 7500 |\n|---|---|---|---|---|---|---|---|\n| M, emu/cm\u00b3 | -200 | -100 | 0 | 100 | 200 | 300 | 400 |",
+        "b": "| Magnetic field, Oe | -7500 | -5000 | -2500 | 0 | 2500 | 5000 | 7500 |\n|---|---|---|---|---|---|---|---|\n| M, emu/cm\u00b3 | -600 | -400 | -200 | 0 | 200 | 400 | 600 |",
+        "c": "| Magnetic field, Oe | -7500 | -5000 | -2500 | 0 | 2500 | 5000 | 7500 |\n|---|---|---|---|---|---|---|---|\n| M, emu/cm\u00b3 | -300 | -150 | 0 | 150 | 300 | 450 | 600 |",
+        "d": "| Magnetic field, Oe | -7500 | -5000 | -2500 | 0 | 2500 | 5000 | 7500 |\n|---|---|---|---|---|---|---|---|\n| M, emu/cm\u00b3 | -300 | -150 | 0 | 150 | 300 | 450 | 600 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does Mg doping and annealing influence the magnetic properties of Fe2O3-based films deposited at 375 \u00b0C?",
+                "answer_type": "Paragraph",
+                "answer": "The coercive field (Hc) decreases systematically with increasing Mg doping, indicating that Mg addition softens the magnetic behaviour. For instance, Hc drops from roughly 485-1950 Oe in undoped films to 150-460 Oe at a Mg/Fe ratio of 0.062. Annealing further reduces Hc, consistent with structural relaxation and grain coarsening. Meanwhile, the saturation magnetization (\u03bcs) increases with moderate Mg incorporation, suggesting improved ferromagnetic ordering and a higher proportion of reduced iron oxide phases such as magnetite. However, excessive Mg content diminishes \u03bcs again, likely due to the formation of a nonmagnetic ternary phase like magnesioferrite."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the temperature range of the Curie temperatures observed for the doped iron oxide films?",
+                "answer_type": "Factoid",
+                "answer": "Between 820 and 895 K."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How do the Mg-doped iron oxide films compare to bulk magnetite?",
+                "answer_type": "Factoid",
+                "answer": "The Curie temperatures remain between 820 and 895 K, close to that of bulk magnetite, confirming that the dominant phase retains strong ferrimagnetic character."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What were the annealing conditions?",
+                "answer_type": "Factoid",
+                "answer": "Annealing of all films was carried out at 450 \u00b0C for 30 minutes."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

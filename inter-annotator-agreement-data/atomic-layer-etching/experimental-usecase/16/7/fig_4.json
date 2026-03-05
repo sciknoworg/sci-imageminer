@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_4",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart"
+    },
+    "summarization": {
+        "a": "Figure shows a multiline chart of the Etch rate (nm/cyc) vs. modification step duration (s)  for the following  materials - Al\u2082O\u2083, HfO\u2082, AlN, SiO\u2082, TiN. Very low etch rate of TiN and high etch rate of SiO\u2082 was observed.",
+        "b": "Figure shows an englarged multiline chart of the Etch rate (nm/cyc) vs. modification step duration (s)  for the selective  materials alone - Al\u2082O\u2083, HfO\u2082, AlNx.  Al\u2082O\u2083 and AlNx peak around 8\u201310 s, while HfO\u2082 plateaus, after 12 s a decrease in the etch rate is observed significantly for all three materials."
+    },
+    "data_extraction": {
+        "a": "|modification step duration,s | etch rate,nm/cyc - Al\u2082O\u2083| HfO\u2082 | AlNx | SiO\u2082 | TiN |\n|--------|-------|------|------|------|-----|\n|0  | 0.0078 | 0.01  |  0.02 | 0 | 0 |\n|5  | 0.153  | 0.07  |  0.17 | 0 | 0 |\n|7  | 0.168  | 0.091 |  0.18 | 0.45 | 0 |\n|10\t| 0.162  | 0.096 |  0.18 | 0.64 | 0 |\n|12\t|  0.16  | 0.097 |  0.17 | 0.65 | 0 |\n|15\t|  0.08  | 0.06  |  0.093| 0.8 | 0 |",
+        "b": "|modification step duration,s|etch rate,nm/cyc - Al\u2082O\u2083|HfO\u2082|AlNx |\n|--------|-------|------|------|\n|0   |0.0078 |\t0.0095\t|\t0.020|\n|5   |0.1532 |\t0.0687  |\t0.173|\n|7\t |0.168\t |\t0.0912\t|\t0.184|\n|10\t |0.1624 |\t0.0964  |\t0.182|\n|12\t |0.1602 |\t0.098\t|\t0.176|\n|15\t |0.081\t |\t0.06\t|\t0.093|"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does increasing the modification-step duration change the surface chemistry and therefore the etch rate in this ALE process?",
+                "answer_type": "Paragraph",
+                "answer": "Increasing the modification time gives the activating chemicals more time to react with the surface, breaking more bonds and making the material easier to remove. This creates a thicker or more reactive modified layer, which leads to a higher etch rate. However, this effect eventually levels off once the surface is fully saturated."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which of the studied materials exhibits the most stable and lowest etch rate irrespective of the modification step duration?",
+                "answer_type": "Factoid",
+                "answer": "HfO\u2082"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do etch-rate trends compare for Al\u2082O\u2083, AlN, and HfO\u2082 over 0\u201316 s modification step duration times?",
+                "answer_type": "List",
+                "answer": "- AlNx: shows the highest etch-rate increase with duration.\n- Al\u2082O\u2083: displays a moderate increase with duration.\n- HfO\u2082: increases more slowly and remains the lowest of the three across the range."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Would Al\u2082O\u2083 be suitable for a manufacturing process that requires precise etch-depth control independent of the modification-step duration ?",
+                "answer_type": "Yes/No",
+                "answer": "No. \n Al\u2082O\u2083 is not suitable for a process that must be highly precise and insensitive to modification-step duration."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

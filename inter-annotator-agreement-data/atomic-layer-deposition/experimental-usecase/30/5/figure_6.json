@@ -1,0 +1,81 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_6",
+    "classification": {
+        "a": "image panel",
+        "b": "image panel",
+        "c": "image panel",
+        "d": "image panel"
+    },
+    "summarization": {
+        "a": "The image shows a SEM micrograph of Fe2O3 particles with varying sizes.",
+        "b": "The image shows a SEM micrograph of Fe2O3 particles doped with MgO at a ratio of Mg/Fe = 0.021.",
+        "c": "The image shows a SEM micrograph of Fe2O3 particles doped with MgO at a ratio of Mg/Fe = 0.23.",
+        "d": "The image shows a SEM micrograph of Fe2O3 particles doped with MgO at a ratio of Mg/Fe = 0.38."
+    },
+    "data_extraction": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the effect of supercycle ratio on the growth per supercycle?",
+                "answer_type": "Paragraph",
+                "answer": "Increasing the Mg/Fe ratio seems to result in lower thicknesses and therefore lower GPCs. This could be an effect of nucleation delay of iron oxide growing on top of Magnesium oxide."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Application/Performance",
+                "question": "What other technique could be used to measure feature sizes as measured with the SEM?",
+                "answer_type": "Paragraph",
+                "answer": "Atomic force microscopy could be used, with this method actual height differences are identified."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Is there a general orientation in which iron oxide grows?",
+                "answer_type": "Paragraph",
+                "answer": "a\tIt seems that iron oxide grows both lateraly as well as vertically, indicating there is no preferred orientation."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "The thickness of subfigure a and b are similar, but, based on the images, are the average densities also similar?",
+                "answer_type": "Paragraph",
+                "answer": "In subfigure a, more height differences can be observed, indicating that the film consists of more voids, resulting in a lower density."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

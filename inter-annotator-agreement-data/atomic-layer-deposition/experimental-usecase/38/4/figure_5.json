@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_5",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "2\u03b8 X-ray diffraction patterns of  Li_{x}MnO_{2} phases at different concentrations.",
+        "b": "\u03b8\u22122\u03b8 X-ray diffraction patterns of Li_{x}MnO_{2} phases at different concentrations."
+    },
+    "data_extraction": {
+        "a": "| 2\u03b8 Position | (hkl) | 300cLi-MnO\u2093 | 200cLi-MnO\u2093 | 100cLi-MnO\u2093 |\n|-------------|-------|-------------|-------------|-------------|\n| ~18         | (111) | Yes         | Yes         | Yes         |\n| ~36         | (131) | Yes         | Yes         | Yes         |\n| ~65         | (440) | Yes         | Yes         | Yes         |\n| ~50         | *     | Yes         | Yes         | Yes         |",
+        "b": "| 2\u03b8 Position | Phase / (hkl)       | 300cLi-MnO\u2082 | 200cLi-MnO\u2082 | 100cLi-MnO\u2082 |\n|-------------|----------------------|-------------|-------------|-------------|\n| ~22         | Lithiated phase     | Yes         | Yes         | Yes         |\n| ~36         | Li\u2081\u208b\u2093Mn\u2082O\u2084 (400)    | Yes         | Yes         | Yes         |\n| ~28         | \u03b2-MnO\u2082 (200)        | No          | No          | Yes         |\n| ~32         | *                   | Yes         | Yes         | Yes         |\n| ~44         | Lithiated phase     | Yes         | Yes         | Yes         |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the inset in the image explain the geometry of the XRD measurements?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Where has Lithium penetrated?",
+                "answer_type": "Paragraph",
+                "answer": "in the samples 200cLi\u2212MnO2 and 300cLi\u2212MnO2, lithium has penetrated throughout the whole film thickness. These samples do not anymore have the \u03b2-MnO2 phase in the XRD patterns. The reflections from \u03b2-MnO2 disappear even before the structure has reached the stoichiometric LiMn2O4 composition."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "How do the peaks shift with Lithium?",
+                "answer_type": "Paragraph",
+                "answer": "As the concentration of lithium is increased,  two reflections from the lithiated phase shift to lower 2\u03b8\nvalues \n1. From 17.7\u00b0 to 17.1\u00b0 \n2. From 35.9\u00b0 to 34.7\u00b0"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How is the XRD data analysed?",
+                "answer_type": "Factoid",
+                "answer": "The graphs are shifted and the backgrounds have been subtracted for ease of analysis"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

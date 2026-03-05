@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_9",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The figure shows Al\u2082O\u2083 film thickness as a function of ALE cycle number measured at 300 \u00b0C using X-ray reflectivity and spectroscopic ellipsometry. Thickness decreases approximately linearly from ~140 \u00c5 to ~50 \u00c5 as cycles increase from 0 to 200. Also the figure shows Al\u2082O\u2083 thickness versus ALE cycle number measured at 200 \u00b0C. The thickness also decreases monotonically with cycle number but remains higher than at 300 \u00b0C for the same number of cycles."
+    },
+    "data_extraction": {
+        "a": "| Number of ALE Cycles | Al\u2082O\u2083 Thickness (\u00c5) at 200C|  Al\u2082O\u2083 Thickness (\u00c5) at 300C|\n|-------------|-------------| --------------------|\n|    25           |     170        |    140     |\n|    50           |     150        |   130     |\n|    100        |    140          |   110     |\n|    200        |      90          |    60      |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What feature of the x-axis indicates that thickness is evaluated after discrete ALE cycles?",
+                "answer_type": "Factoid",
+                "answer": "Thickness is plotted only at specific integer cycle counts rather than continuously in time."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "At which cycle count is the thickness difference between 200 \u00b0C and 300 \u00b0C largest?",
+                "answer_type": "Factoid",
+                "answer": "The difference is largest at 200 ALE cycles."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How do the thickness values at 200 \u00b0C compare with those at 300 \u00b0C for the same cycle number?",
+                "answer_type": "Paragraph",
+                "answer": "For the same number of ALE cycles, the thickness values at 200 \u00b0C are consistently higher than those at 300 \u00b0C. This difference is visible at intermediate and high cycle counts. The separation between the curves persists across the full range."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is plotting thickness versus ALE cycle number useful for process evaluation?",
+                "answer_type": "Paragraph",
+                "answer": "Plotting thickness versus cycle number allows direct tracking of material removal as processing proceeds. It provides a simple way to compare outcomes under different conditions. This is useful for assessing repeatability across cycles."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

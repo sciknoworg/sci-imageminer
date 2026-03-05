@@ -1,0 +1,79 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig2",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart",
+        "d": "line chart"
+    },
+    "summarization": {
+        "a": "The graph displays the saturation curve for the Al\u2082O\u2083 etching process, showing the Etch Per Cycle (EPC) increasing and saturating at ~3.1 \u00c5 after 5 seconds of SF\u2086 plasma exposure.",
+        "b": "The graph plots the EPC against the purge (pump) time following plasma exposure; the rate remains constant at ~3.1 \u00c5, indicating the fluorinated surface is stable during the purge.",
+        "c": "The graph shows the saturation behavior of the EPC as a function of TMA dosing time, confirming self-limiting etching at ~3.1 \u00c5 for doses > 0.3 seconds.",
+        "d": "The graph illustrates the effect of purge (pump) time following the TMA dose, showing stable EPC values that confirm no parasitic etching occurs during the purge steps."
+    },
+    "data_extraction": {
+        "a": "| SF plasma time (s) | EPC (\u00c5) |\n|---|---|\n| 0 | 0 |\n| 5 | 2 |\n| 10 | 3 |\n| 15 | 3 |\n| 20 | 3 |\n| 25 | 3 |\n| 30 | 3 |",
+        "b": "| Plasma pump time (s) | EPC (\u00c5) |\n|---|---|\n| 10 | 2.9 |\n| 20 | 3 |\n| 30 | 3 |",
+        "c": "| TMA dosing time (s) | EPC (\u00c5) |\n|---|---|\n| 0 | 0 |\n| 0.1 | -0.1 |\n| 0.2 | 0 |\n| 0.4 | 2 |\n| 0.6 | 3 |\n| 0.8 | 3 |",
+        "d": "| TMA pump time (s) | EPC (\u00c5) |\n|---|---|\n| 5 | 3.25 |\n| 10 | 3 |\n| 30 | 3 |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Based on the data presented in subfigures (b) and (d), is the etched surface prone to desorption or parasitic chemical vapor etching during the purge steps?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What does the stabilization of the Etch Per Cycle (EPC) values in subfigures (a) and (c) demonstrate about the chemical mechanism of this plasma ALE process?",
+                "answer_type": "Paragraph",
+                "answer": "The stabilization of EPC values as the reactant exposure times increase demonstrates the self-limiting nature of the surface reactions. In subfigure 2(a), the saturation indicates that once the surface is fully fluorinated by the SF\u2086 plasma, extending the exposure does not lead to further etching or modification depth (likely due to the formation of an AlF\u2083 diffusion barrier). Similarly, in 2(c), saturation shows that the ligand-exchange reaction with TMA is complete once all available fluorinated sites have reacted, fulfilling the fundamental requirement for atomic layer etching control."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Comparing subfigures (a) and (c), how do the saturation timescales for the SF\u2086 plasma exposure and the TMA dosing step differ?",
+                "answer_type": "Paragraph",
+                "answer": "The SF\u2086 plasma exposure [Figure 2(a)] requires a significantly longer duration to reach saturation, stabilizing after approximately 3 to 5 seconds. In contrast, the TMA dosing step [Figure 2(c)] saturates much faster, achieving a stable EPC with doses as short as 0.3 to 0.5 seconds. This suggests that the plasma fluorination of the oxide surface is the rate-limiting step compared to the rapid ligand-exchange reaction with the TMA precursor."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Application/Performance",
+                "question": "According to the saturation plateaus shown in this figure, what is the experimentally determined Etch Per Cycle (EPC) for Al\u2082O\u2083 at 260 \u00b0C?",
+                "answer_type": "Factoid",
+                "answer": "The experimentally determined Etch Per Cycle (EPC) is approximately 3.1 \u00c5/cycle."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

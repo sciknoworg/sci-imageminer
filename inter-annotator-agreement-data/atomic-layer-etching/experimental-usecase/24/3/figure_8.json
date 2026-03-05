@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_8",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart shows the change in mass (\u0394M) over temperature for TMA and HF, with negative values indicating mass loss at higher temperatures. The mass change related to the HF dose increases, while the mass change related to TMA decreases over the time.",
+        "b": "The line chart illustrates the change in MCPC (mass change per cycle) over temperature, showing a consistent decrease."
+    },
+    "data_extraction": {
+        "a": "| Temperature (\u00b0C) | \u0394M<sub>HF</sub> (ng/cm<sup>2</sup> cycle) | \u0394M<sub>TMA</sub> (ng/cm<sup>2</sup> cycle) |\n|---|---|---|\n| 250 | 5 | -10 |\n| 275 | 10 | -20 |\n| 300 | 16 | -30 |\n| 325 | 20 | -40 |",
+        "b": "| Temperature (\u00b0C) | MCPC (ng/cm<sup>2</sup> cycle) |\n|---|---|\n| 250 | -5 |\n| 275 | -10 |\n| 300 | -15 |\n| 325 | -20 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Application/Performance",
+                "question": "What performance does the mass change after TAM exhibit as a function of the temperature?",
+                "answer_type": "Factoid",
+                "answer": "Mass loss increases progressively with temperature after TMA exposure."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the mass change per cycle remain constant over time?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "At which temperature are the values of mass change per cycle lowest?",
+                "answer_type": "Factoid",
+                "answer": "250 \u00b0C"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which temperature exhibits lower values of mass change per cycle?",
+                "answer_type": "Factoid",
+                "answer": "TMA"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

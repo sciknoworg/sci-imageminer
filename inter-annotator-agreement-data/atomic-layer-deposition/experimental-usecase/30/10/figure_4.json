@@ -1,0 +1,88 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_4",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart",
+        "c": "multi spectra chart",
+        "d": "multi spectra chart",
+        "e": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "Multi-spectra XAS plots (O 1s and Fe 2p, TFY) for the non-doped sample at 400 \u00b0C, comparing as-deposited and forming-gas-annealed spectra.",
+        "b": "Multi-spectra XAS plots (O 1s and Fe 2p, TFY) for the 100:1 sample at 400 \u00b0C, comparing as-deposited and forming-gas-annealed spectra.",
+        "c": "Multi-spectra XAS plots (O 1s and Fe 2p, TFY) for the non-doped sample at 375 \u00b0C, comparing as-deposited and forming-gas-annealed spectra.",
+        "d": "Multi-spectra XAS plots (O 1s and Fe 2p, TFY) for the 100:2 sample at 375 \u00b0C, comparing as-deposited and forming-gas-annealed spectra.",
+        "e": "Multi-spectra XAS plots (O 1s and Fe 2p, TFY) for the 100:10 sample at 375 \u00b0C, comparing as-deposited and forming-gas-annealed spectra."
+    },
+    "data_extraction": {
+        "a": "| photon energy / eV | O 1s XAS (TFY) as deposited | O 1s XAS (TFY) forming gas annealed | Fe 2p XAS (TFY) as deposited | Fe 2p XAS (TFY) forming gas annealed |\n|---|---|---|---|---|\n|530 | | |710 | |\n|535 | | |715 | |\n|540 | | |720 | |\n|545 | | |725 | |\n|550 | | |730 | |",
+        "b": "| photon energy / eV | O 1s XAS (TFY) as deposited | O 1s XAS (TFY) forming gas annealed | Fe 2p XAS (TFY) as deposited | Fe 2p XAS (TFY) forming gas annealed |\n|---|---|---|---|---|\n|530 | | |710 | |\n|535 | | |715 | |\n|540 | | |720 | |\n|545 | | |725 | |\n|550 | | |730 | |",
+        "c": "| photon energy / eV | O 1s XAS (TFY) as deposited | O 1s XAS (TFY) forming gas annealed | Fe 2p XAS (TFY) as deposited | Fe 2p XAS (TFY) forming gas annealed |\n|---|---|---|---|---|\n|530 | | |710 | |\n|535 | | |715 | |\n|540 | | |720 | |\n|545 | | |725 | |\n|550 | | |730 | |",
+        "d": "| photon energy / eV | O 1s XAS (TFY) as deposited | O 1s XAS (TFY) forming gas annealed | Fe 2p XAS (TFY) as deposited | Fe 2p XAS (TFY) forming gas annealed |\n|---|---|---|---|---|\n|530 | | |710 | |\n|535 | | |715 | |\n|540 | | |720 | |\n|545 | | |725 | |\n|550 | | |730 | |",
+        "e": "| photon energy / eV | O 1s XAS (TFY) as deposited | O 1s XAS (TFY) forming gas annealed | Fe 2p XAS (TFY) as deposited | Fe 2p XAS (TFY) forming gas annealed |\n|---|---|---|---|---|\n|530 | | |710 | |\n|535 | | |715 | |\n|540 | | |720 | |\n|545"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Application/Performance",
+                "question": "What sample conditions are compared across the panels?",
+                "answer_type": "List",
+                "answer": "Non-doped, 100:1, 100:2, 100:10, 400\u202f\u00b0C, 375\u202f\u00b0C, As-deposited, Forming gas annealed"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which two absorption edges are shown in the XAS spectra?",
+                "answer_type": "Factoid",
+                "answer": "The O 1s edge and the Fe 2p edge."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Do all panels compare spectra measured under two different processing conditions?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does forming gas annealing affect the O 1s and Fe 2p XAS spectra across the samples?",
+                "answer_type": "Paragraph",
+                "answer": "Forming gas annealing leads to noticeable changes in the spectral features for both the O 1s and Fe 2p edges. In several panels, peak shapes and relative intensities are modified after annealing, indicating changes in the local electronic structure and bonding environment of oxygen and iron induced by the annealing process."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_13",
+    "classification": {
+        "a": "reaction scheme",
+        "b": "reaction scheme"
+    },
+    "summarization": {
+        "a": "The figure illustrates the molecular structures of aluminum alkyls interacting on an Al2O3 film. It shows the initial state with methyl groups attached to aluminum and the subsequent reaction with HF leading to the formation of water and methane.",
+        "b": "The figure illustrates the molecular structures of flurinated alumina on an Al2O3 film. It shows the initial state with fluorine atoms attached to aluminum and the subsequent reaction with methyl groups leading to the formation of a new aluminum alkyl compound."
+    },
+    "data_extraction": {
+        "a": "",
+        "b": ""
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which reaction products are given for the reaction with HF?",
+                "answer_type": "List",
+                "answer": "The reaction products are water (H2O) and methane (CH4)."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What would be the effect of background water in the reactor chamber?",
+                "answer_type": "Paragraph",
+                "answer": "Water reacts with the methyl groups creating aluminum oxide in the first half cycle. In the second half cycle, water can potentially react with the AlF(CH3)2, leading to the deposition of aluminum oxide, thereby reducing the etch rate."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What type of impurities can be present in the final film?",
+                "answer_type": "Paragraph",
+                "answer": "The top layer of the film will have a lot of carbon impurities. Fluorine can potentially penetrate the film deeper, leading to fluorine impurities."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What is an application of aluminum oxide thin films?",
+                "answer_type": "Factoid",
+                "answer": "As dielectric material in semiconductor electronics."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

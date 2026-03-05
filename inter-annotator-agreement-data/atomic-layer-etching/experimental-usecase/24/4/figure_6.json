@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_6",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "Expansion of first two ALE cycles showing the individual mass changes during the sequential TMA and HF exposures at 250, 275, 300, and  325\u00b0C on Al2O3 surface. The mass change increases sharply around 30 seconds and plateaus until 60 seconds, followed by a slight decrease during HF sequence and similar behaviour is again observed during the sequential HF treatment."
+    },
+    "data_extraction": {
+        "a": "| Time (s) |Mass Change at 250\u00b0C (ng/cm\u00b2) | Mass Change at 275\u00b0C (ng/cm\u00b2) | Mass Change at 300\u00b0C (ng/cm\u00b2) | Mass Change at 325\u00b0C (ng/cm\u00b2) |\n|---|---|---|---|---|\n| 0 | 25 | 25 | 25 | 25 |\n| 30 | 25 | 25 | 25 | 25 |\n| 35 | 65 | 65 | 65 | 50 |\n| 60 | 65 | 65 | 65 | 60 |\n| 65 | 60 | 50 | 45 | 25 |\n| 90 | 55 | 50 | 45 | 20 |\n| 120 | 65 | 60 | 57| 37 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the figure aid in evaluating nucleation delay at different temperatures?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How are the mass gains after first exposures of different reactants?",
+                "answer_type": "Paragraph",
+                "answer": "1. The first TMA exposure displays mass gains of \u0394MTMA = 27\u221232 ng/cm2 at 250\u2212325 \u00b0C\n2. The first HF exposure shows mass gains of \u0394MHF = 33\u221236 ng/cm2 at 250\u2212325 \u00b0C."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "which reaction is spontaneous?",
+                "answer_type": "Factoid",
+                "answer": "The fluorination reaction Al2O3 + 6HF \u2192 2AlF3 + 3H2Ois spontaneous over the temperature range from 250 to 325 \u00b0C"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What happens after subsequent exposures to different reactants?",
+                "answer_type": "Paragraph",
+                "answer": "After the first HF exposure, the next TMA exposure removes the AlF3 layer on the Al2O3 substrate. Figure shows that mass losses during the TMA and HF cycles begin with the second TMA and HF cycle for temperatures from 275\u2212325 \u00b0C. The\nTMA and HF cycles at 250 \u00b0C show a mass loss after the third ALE cycle. The higher temperatures produce both a larger mass loss for the removal of AlF3 by TMA and a larger mass gain for the subsequent fluorination of Al2O3 by HF."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

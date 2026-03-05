@@ -1,0 +1,77 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig2",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart",
+        "d": "line chart"
+    },
+    "summarization": {
+        "a": "The graph shows the relationship between SF<sub>6</sub> plasma exposure time and EPC (etch per cycle)  in \u00c5ngstr\u00f6ms, with a fixed 0.5 s TMA dose. The EPC rises quickly and then saturates around 3 \u00c5 per cycle.",
+        "b": "The graph illustrates the effect of plasma pump time on EPC (etch per cycle) in \u00c5ngstr\u00f6ms, with a fixed 5 s plasma exposure and 0.5 s TMA dose. EPC stays roughly constant with plasma pump time.",
+        "c": "The graph depicts the impact of TMA dosing time on EPC (etch per cycle) in \u00c5ngstr\u00f6ms, with a fixed 5 s plasma exposure. The EPC rises quickly and then saturates around 3 \u00c5 per cycle.",
+        "d": "The graph shows the influence of TMA pump time on EPC (etch per cycle) in \u00c5ngstr\u00f6ms, with a fixed 5 s plasma exposure and 0.5 s TMA dose. EPC stays roughly constant with TMA pump time."
+    },
+    "data_extraction": {
+        "a": "| SF<sub>6</sub> plasma time (s) | EPC (\u00c5) |\n|---|---|\n| 0 | 0 |\n| 0.5 | 2.3 |\n| 1.0 | 2.4 |\n| 2.6 | 3.0 |\n| 5.1 | 3.2 |\n| 7.5 | 3.2 |\n| 10.0 | 3.4 |\n| 30.0 | 3.6 |",
+        "b": "| Plasma pump time (s) | EPC (\u00c5) |\n|---|---|\n| 5 | 3.0 |\n| 10 | 3 .1|\n| 30 | 3.1 |",
+        "c": "| TMA dosing time (s) | EPC (\u00c5) |\n|---|---|\n| 0 | 0 |\n| 0.1 | -0.13|\n| 0.2 | 0.04 |\n| 0.3 | 2.3 |\n| 0.4 | 2.8 |\n| 0.5 | 3.2 |\n| 0.8 | 3.0 |",
+        "d": "| TMA pump time (s) | EPC (\u00c5) |\n|---|---|\n| 5 | 3.2 |\n| 10 | 3.1 |\n| 30 | 3.1 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "At what TMA dosing time does the process transition from net deposition to net etching?",
+                "answer_type": "Factoid",
+                "answer": "Around 0.2 s (based on the EPC crossing from negative to positive)."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "For which TMA dosing times does the half-process show self-limiting behavior?",
+                "answer_type": "Factoid",
+                "answer": "At about ~0.3 s TMA dose. It is clearly saturated by ~0.4\u20130.5 s"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Why does the EPC rise rapidly during the first ~5 s of SF\u2086 plasma exposure, but increase much more slowly at longer exposure times?",
+                "answer_type": "Paragraph",
+                "answer": "The initial fast increase comes from rapid fluorination of the surface. As the fluorinated layer thickens, additional fluorination becomes harder because reactants must penetrate through this layer. The fluorinated layer therefore acts as a diffusion barrier, leading to a slower EPC increase."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Approximately at what time does EPC begin to saturate?",
+                "answer_type": "Factoid",
+                "answer": "Around ~5 s."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

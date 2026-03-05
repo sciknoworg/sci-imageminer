@@ -1,0 +1,49 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_9",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The chart shows the thickness of Al\u2082O\u2083 as a function of the number of cycles at two temperatures: 300\u00b0C and 200\u00b0C. The thickness decreases with increasing cycles for both temperatures."
+    },
+    "data_extraction": {
+        "a": "| Number of Cycles | Al\u2082O\u2083 Thickness (\u00c5) |\n|---|---|\n| 0 | 175 |\n| 50 | 130 |\n| 100 | 100 |\n| 200 | 50 |",
+        "b": "| Number of Cycles | Al\u2082O\u2083 Thickness (\u00c5) |\n|---|---|\n| 0 | 160 |\n| 50 | 120 |\n| 100 | 90 |\n| 200 | 50 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which deposition temperature has the highest deposition rate?",
+                "answer_type": "Paragraph",
+                "answer": "The highest deposition rate is achieved at 200 degrees C as there the initial thickness is higher."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Is there a difference in etch per cycle for the two different substrates?",
+                "answer_type": "Paragraph",
+                "answer": "Such a difference is not visible as for both the substrates the slope is equal."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How many cycles are required to etch 5 nm?",
+                "answer_type": "Factoid",
+                "answer": "100 cycles of etching."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Do the different diagnostic techniques yield the same results?",
+                "answer_type": "Paragraph",
+                "answer": "In this specific instance both SE and XRR yield the same thicknesses."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

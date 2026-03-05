@@ -1,0 +1,50 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_12",
+    "classification": {
+        "a": "spectra chart"
+    },
+    "summarization": {
+        "a": "The FTIR spectra compare TMA and HF exposures on Al2O3 at 300 \u00b0C in the 4000\u20132500 cm^-1 region. The TMA spectrum shows a positive CH3 stretching feature near 2950 cm^-1, while the HF spectrum shows negative absorbance changes at this position. HF also produces a broader negative band near 3200 cm^-1, whereas the TMA trace remains close to baseline there. These differences show opposite surface reactions during the two exposures."
+    },
+    "data_extraction": {
+        "a": "| Wavenumber (cm\u207b\u00b9) | Absorbance | Condition |\n| ----------------- | ---------- | --------- |\n|      ~2950        |  ~+0.010   |    TMA    |\n|      ~2950        |  ~-0.005   |    HF     |\n|      ~3200        |  ~+0.002   |    TMA    |\n|      ~3200        |  ~-0.010   |    HF     |\n|      ~3600        |  ~0.000    |    TMA    |\n|      ~3600        |  ~-0.003   |    HF     |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What temperature were the FTIR spectra collected at?",
+                "answer_type": "Factoid",
+                "answer": "300 \u00b0C."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Does HF introduce a detectable change in absorption near 3200 cm^-1",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How do the TMA and HF spectra differ around 2950 cm^-1?",
+                "answer_type": "Paragraph",
+                "answer": "The TMA spectrum shows a small positive peak at this position, consistent with CH3 stretching from methyl groups bonded to the surface. In contrast, the HF spectrum displays a negative feature at the same location, indicating removal or changeof these groups. This opposite behavior shows the different surface chemistry  caused by the two exposures."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "List three wavenumber regions where TMA and HF show different absorbance signs.",
+                "answer_type": "List",
+                "answer": "~2950cm^-1, ~3200cm^-1, ~3600cm^-1"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

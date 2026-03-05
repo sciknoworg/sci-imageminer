@@ -1,0 +1,97 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_2",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart",
+        "d": "multiple line chart",
+        "e": "multiple line chart",
+        "f": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The figure shows ToF-ERDA depth profiles of the pristine MnO\u2082 film, where Mn and O are uniformly distributed and no lithium signal is detected, confirming the unlithiated starting structure.",
+        "b": "After 10 lithiation cycles (10cLi\u2013MnO\u2082), a weak lithium signal appears near the surface, indicating initial lithium incorporation and the onset of a surface-modified layer.",
+        "c": "At 50 lithiation cycles (50cLi\u2013MnO\u2082), the lithium concentration increases and penetrates further into the film, forming a clear core\u2013shell structure with lithium-rich surface regions.",
+        "d": "By 100 lithiation cycles (100cLi\u2013MnO\u2082), lithium is still largely confined to the near-surface region, while the film interior remains relatively lithium-poor.",
+        "e": "At 200 lithiation cycles (200cLi\u2013MnO\u2082), lithium penetrates through most of the film thickness, approaching the Si substrate, indicating bulk lithiation.",
+        "f": "After 300 lithiation cycles (300cLi\u2013MnO\u2082), lithium is uniformly distributed throughout the entire film thickness, reaching the Si substrate and confirming complete conversion to lithium manganese oxide."
+    },
+    "data_extraction": {
+        "a": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 500 | 62 | 38 | 0 | 0 |\n| 1000 | 63 | 36 | 0 | 0 |\n| 1500 | 45 | 18 | 35 | 0 |\n| 2000 | 2 | 0 | 98 | 0 |\n| 2500 | 0 | 0 | 100 | 0 |",
+        "b": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 500 | 60 | 38 | 0 | 0 |\n| 1000 | 60 | 35 | 5 | 0 |\n| 1500 | 10 | 5 | 85 | 0 |\n| 2000 | 0 | 0 | 100 | 0 |\n| 2500 | 0 | 0 | 100 | 0 |",
+        "c": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 500 | 60 | 38 | 0 | 2 |\n| 1000 | 60 | 36 | 2 | 1 |\n| 1500 | 15 | 5 | 80 | 0 |\n| 2000 | 0 | 0 | 100 | 0 |\n| 2500 | 0 | 0 | 100 | 0 |",
+        "d": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 500 | 58 | 36 | 0 | 5 |\n| 1000 | 60 | 35 | 1 | 3 |\n| 1500 | 5 | 2 | 92 | 1 |\n| 2000 | 0 | 0 | 100 | 0 |\n| 2500 | 0 | 0 | 100 | 0 |",
+        "e": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 500 | 55 | 32 | 0 | 12 |\n| 1000 | 58 | 30 | 0 | 10 |\n| 1500 | 50 | 25 | 15 | 8 |\n| 2000 | 2 | 0 | 98 | 0 |\n| 2500 | 0 | 0 | 100 | 0 |",
+        "f": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 500 | 55 | 30 | 0 | 18 |\n| 1000 | 55 | 30 | 0 | 15 |\n| 1500 | 40 | 20 | 30 | 10 |\n| 2000 | 2 | 0 | 98 | 0 |\n| 2500 | 0 | 0 | 100 | 0 |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Contrast the material structure between a partially lithiated film (e.g., 100cLi) and a fully lithiated film (300cLi). What key structural benefit does full lithiation provide?",
+                "answer_type": "Paragraph",
+                "answer": "Partial lithiation creates a layered structure with only the surface enriched in Li. Full lithiation produces a uniform bulk composition. This homogeneity improves mechanical and electrochemical stability."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "The image emphasizes the high purity of the gas-phase lithiated films. What evidence from the data supports this claim, and why is such purity critical for a battery cathode application?",
+                "answer_type": "Paragraph",
+                "answer": "Depth profiles show very low impurity levels. High purity minimizes side reactions, improves cycling stability, and is essential for achieving high performance and long life in battery cathodes."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Using the image and the depth profiles, report how the lithium content in the near-surface region increases across the 10cLi, 50cLi, and 100cLi samples. Also, identify the final crystalline phase formed after 300 cycles.",
+                "answer_type": "Paragraph",
+                "answer": "Lithium in the top layer rises from 0.6 at.% (10c) to 3.2 at.% (50c) to 9.6 at.% (100c). After 300 cycles, the film becomes stoichiometric LiMn\u2082O\u2084."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Based on the elemental depth profiles in the given chart, describe how the spatial distribution of lithium evolves within the MnO\u2082 film as the number of LiO\u1d57Bu\u2013H\u2082O ALD cycles increases from 10 to 300.",
+                "answer_type": "Paragraph",
+                "answer": "Lithium is initially confined to the surface region after 10\u2013100 cycles. It gradually penetrates deeper, achieving full, homogeneous distribution throughout the entire film after 200\u2013300 cycles."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "f": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

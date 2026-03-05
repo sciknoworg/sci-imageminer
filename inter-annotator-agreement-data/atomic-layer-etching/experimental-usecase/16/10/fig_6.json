@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_6",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "multiple line chart"
+    },
+    "data_extraction": {
+        "a": "| Cycles | Etch depth (nm) | Material |\n| - | - | - |\n| 10 | ~2.0 | SiO\u2082 |\n| 20 | ~8.0 | SiO\u2082 |\n| 40 | ~24.0 | SiO\u2082 |\n| 10 | ~0.7 | AlN\u2093 |\n| 20 | ~1.5 | AlN\u2093 |\n| 40 | ~2.5 | AlN\u2093 |\n| 10 | ~0.5 | Al\u2082O\u2083 |\n| 20 | ~1.2 | Al\u2082O\u2083 |\n| 40 | ~2.0 | Al\u2082O\u2083 |\n| 10 | ~0.3 | HfO\u2082 |\n| 20 | ~0.8 | HfO\u2082 |\n| 40 | ~1.5 | HfO\u2082 |\n| 10 | ~0.0 | TiN |\n| 20 | ~0.0 | TiN |\n| 40 | ~0.1 | TiN |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which material shows almost no change in etch depth over the cycle range given?",
+                "answer_type": "Factoid",
+                "answer": "TiN"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Does AINx etch faster than Al2O3 across the cycle range shown?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the etch depth curve differ among the different materials as the number of cycles increases?",
+                "answer_type": "Paragraph",
+                "answer": "The five materials show noticeably different slopes. SiO\u2082 increases the most rapidly and reaches the largest etch depth. AlN\u2093, Al\u2082O\u2083, and HfO\u2082 all rise more moderately, with HfO\u2082 showing the slowest increase of the three. TiN remains nearly flat across the entire range, with only a slight upward shift at the highest cycle count."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which materials show a clear increase in etch depth with cycles?",
+                "answer_type": "List",
+                "answer": "SiO2, AINx, Al2O3, HfO2"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

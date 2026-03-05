@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_1",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "GIXRD patterns (intensity vs 2\u03b8) of an iron oxide film grown at 500 \u00b0C from ferrocene (Fe(C5H5)2), comparing as-deposited vs forming gas annealed (FGA) states. Peaks are labeled mainly as \u03b1-Fe2O3 (hematite) (e.g., 012 ~24.1\u00b0, 104 ~33.15\u00b0, 110 ~35.6\u00b0), and the overall pattern remains hematite-dominant after FGA.",
+        "b": "GIXRD patterns of an iron oxide film grown at 400 \u00b0C from ferrocene, comparing as-deposited (hematite reflections) to FGA, where additional reflections labeled with spinel \u201cmagnetite\u201d indexing (e.g., 220 ~30.1\u00b0, 311 ~35.4\u00b0, 400 ~43.1\u00b0) appear, consistent with partial reduction toward magnetite/maghemite-like phase.",
+        "c": "GIXRD patterns of an iron oxide film grown at 375 \u00b0C from (dimethylaminomethyl)ferrocene (CpFeC5H4CHN(CH3)2), comparing as-deposited vs FGA. The labeled peaks are dominated by magnetite-like (spinel) reflections (e.g., 220, strong ~35.4\u00b0 peak indexed 311), indicating that at this lower growth temperature the film crystallizes largely in a magnetite/maghemite-type structure, with FGA mainly modifying peak intensity/position rather than switching back to hematite."
+    },
+    "data_extraction": {
+        "a": "| 2\u03b8 (degree) | As-deposited (Norm. Int.) | FGA (Norm. Int.) |\n|---|---|---|\n| 20.0 | 0.05 | 0.05 |\n| 24.1 | 0.25 | 0.20 |\n| 28.0 | 0.05 | 0.05 |\n| 33.2 | 1.00 | 1.00 |\n| 35.6 | 0.35 | 0.40 |\n| 40.5 | 0.15 | 0.08 |\n| 40.9 | 0.10 | 0.12 |\n| 49.5 | 0.22 | 0.20 |\n| 54.1 | 0.45 | 0.25 |\n| 57.6 | 0.10 | 0.10 |\n| 62.5 | 0.15 | 0.18 |\n| 64.0 | 0.15 | 0.18 |",
+        "b": "| 2\u03b8 (degree) | As-deposited (Norm. Int.) | FGA (Norm. Int.) |\n|---|---|---|\n| 20.0 | 0.05 | 0.05 |\n| 24.1 | 0.25 | 0.05 |\n| 30.1 | 0.05 | 0.40 |\n| 33.2 | 1.00 | 0.10 |\n| 35.4 | 0.10 | 1.00 |\n| 35.6 | 0.60 | 0.15 |\n| 40.9 | 0.20 | 0.05 |\n| 43.1 | 0.05 | 0.28 |\n| 49.5 | 0.30 | 0.05 |\n| 54.1 | 0.35 | 0.05 |\n| 62.6 | 0.10 | 0.35 |\n| 64.0 | 0.20 | 0.05 |",
+        "c": "| 2\u03b8 (degree) | As-deposited (Norm. Int.) | FGA (Norm. Int.) |\n|---|---|---|\n| 20.0 | 0.10 | 0.05 |\n| 30.1 | 0.20 | 0.28 |\n| 35.4 | 1.00 | 1.00 |\n| 43.1 | 0.10 | 0.25 |\n| 57.0 | 0.05 | 0.15 |\n| 62.6 | 0.15 | 0.40 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the dominant crystalline phase indicated by the diffraction patterns change as the growth temperature decreases from 500 \u00b0C to 375 \u00b0C (considering both as-deposited and FGA)?",
+                "answer_type": "Paragraph",
+                "answer": "At 500 \u00b0C (panel a), the film is hematite-dominant in the as-deposited state and remains qualitatively hematite-dominant after FGA. At 400 \u00b0C (panel b), the as-deposited film still shows hematite reflections, but after FGA the appearance of spinel-indexed peaks indicates partial conversion toward magnetite/maghemite. At 375 \u00b0C (panel c), the film already shows predominantly magnetite-like reflections in the as-deposited state, consistent with the authors\u2019 conclusion that lower growth temperature favors oxygen-deficient/spinel iron oxide phases."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What experimental \u201cpost-treatment\u201d condition does the figure compare against the as-deposited state, and what is its purpose in this study?",
+                "answer_type": "Paragraph",
+                "answer": "The figure compares the as-deposited films to films after forming gas annealing (FGA). In the paper, FGA is used to induce (partial) reduction of Fe2O3 toward Fe3O4 (magnetite) and thereby modify the phase composition and magnetic behavior. The GIXRD comparison in panels (b) and (c) specifically illustrates that magnetite-like reflections become more prominent after this treatment, especially for films grown at lower temperature."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is identifying (or inducing) magnetite/maghemite formation important for the broader goals of this paper?",
+                "answer_type": "Paragraph",
+                "answer": "A central goal of the paper is to connect phase composition to magnetic properties of ALD-grown iron oxide and Mg-doped iron oxide films. Magnetite/maghemite-type phases are typically associated with much stronger ferri/ferromagnetic responses than hematite, so promoting their formation (via lower growth temperature and/or FGA) is relevant for achieving higher saturation magnetization and useful hysteresis at practical temperatures. The paper explicitly frames the temperature/annealing dependence of phase (as seen here by GIXRD) as a prerequisite for interpreting the magnetometry trends reported later."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which labeled 2\u03b8 reflections in the 400 \u00b0C FGA pattern (panel b) are characteristic of a magnetite/maghemite-type spinel structure in this figure?",
+                "answer_type": "Paragraph",
+                "answer": "In panel (b), the FGA trace includes labeled spinel-indexed reflections such as:\n\n220 at ~30.095\u00b0\n\n311 at ~35.423\u00b0\n\n400 at ~43.053\u00b0"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig1",
+    "classification": {
+        "a": "timeline chart",
+        "b": "conceptual diagram"
+    },
+    "summarization": {
+        "a": "The chart illustrates a timeline of a single ALE cycle showing the values of the following process parameters: DC power, ICP power, CF4+H2 flow rate, and Ar flow rate .",
+        "b": "The figure illustrate a schematic overview of the dosing of reactants on a surface based on the timedependent information shown in subfigure a."
+    },
+    "data_extraction": {
+        "a": "| Cycle | W<sub>DC</sub>, W | W<sub>ICP</sub>, W | CF<sub>4</sub>+H<sub>2</sub>, sccm | Ar, sccm |\n|---|---|---|---|---|\n| 1 | 0 | 1500 | 10-25 | 50 |\n| 2 | 0 | 1500 | 0 | 50 |\n| 3 | 4-6 | 1500 | 0 | 50 |",
+        "b": "| | | | | |\n|---|---|---|---|---|\n| | | | | |\n| | | | | |\n| | | | | |\n| | | | | |\n| | | | | |\n| | | | | |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What are the three main steps of this ALE cycle and what function fullfills the last sub-cycle?",
+                "answer_type": "Paragraph",
+                "answer": "The three main parts in this ALE cycle are the dosing of a plasma containing Ar, CH4, and H2 related species, a plasma exposure, solely consisting of Ar, and lastly a Ar plasma exposure with a biased substrate. This last step is introduced to enable energetic ions to bombard the substrate, leading to selective etching."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Is the pressure in the reactor chamber constant during this process?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What information is missing in subfigure a, that prevents the reproduction of this process?",
+                "answer_type": "Paragraph",
+                "answer": "To be able to reproduce this experiment the dosing times should be present."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Based on the figure, is it likely that due to the ALE process the final substrate will contain carbon and fluorine contaminations, and what could be the reason of this?",
+                "answer_type": "Paragraph",
+                "answer": "Yes, in the most right part of subfigure b, there are still CF groups present at the surface. This incomplete removal by the Ar ions can be related to the ion energy as well as the binding energy of these groups to the surface."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

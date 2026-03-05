@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_6",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "Panel (a) compares Mn K-edge XANES (TEY) spectra of 100c\u2013300c Li-treated MnO\u2082 against MnO\u2082, LiMn\u2082O\u2084, and MnO references, with near-edge and pre-edge features (t\u2082g/e_g region) highlighted in the inset. Subtle shifts in white-line shape and near-edge intensity indicate progressive modification of Mn electronic structure with increasing lithiation.",
+        "b": "Panel (b) shows Fourier-transformed Mn K-edge EXAFS, where the Mn\u2013O first-shell peak and Mn\u2013Mn coordination feature evolve across cycle number, suggesting increasing local disorder and altered medium-range ordering. The LiMn\u2082O\u2084 structure schematic provides structural context for interpreting Mn\u2013O and Mn\u2013Mn pathways associated with a lithiated spinel-like environment."
+    },
+    "data_extraction": {
+        "a": "| Trace | Feature | Energy (eV) |\n|---|---|---|\n| 100cLi\u2013MnO\u2082 | t\u2082g pre-edge (inset marker) | ~6539.5 |\n| 100cLi\u2013MnO\u2082 | e_g pre-edge (inset marker) | ~6542.2 |\n| 100cLi\u2013MnO\u2082 | white-line maximum | ~6561.5\u20136562.0 |\n| 200cLi\u2013MnO\u2082 | white-line maximum | ~6561.5\u20136562.0 |\n| 300cLi\u2013MnO\u2082 | white-line maximum | ~6561.5\u20136562.0 |\n| LiMn\u2082O\u2084 ref. | white-line maximum | ~6559.5\u20136560.0 |\n| MnO ref. | white-line maximum | ~6556\u20136557 |\n| MnO\u2082 ref. | white-line maximum | ~6562 |",
+        "b": "| Trace | Peak assignment | R (\u00c5) |\n|---|---|---|\n| 100cLi\u2013MnO\u2082 | Mn\u2013O (first shell) | ~1.7\u20131.8 |\n| 100cLi\u2013MnO\u2082 | Mn\u2013Mn1 | ~2.7\u20132.9 |\n| 200cLi\u2013MnO\u2082 | Mn\u2013O (first shell) | ~1.7\u20131.8 |\n| 200cLi\u2013MnO\u2082 | Mn\u2013Mn1 | ~2.7\u20132.9 |\n| 300cLi\u2013MnO\u2082 | Mn\u2013O (first shell) | ~1.7\u20131.8 |\n| 300cLi\u2013MnO\u2082 | Mn\u2013Mn1 | ~2.7\u20132.9 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How do reference spectra (MnO\u2082, LiMn\u2082O\u2084, MnO) help interpret Mn K-edge XANES changes across 100c\u2013300c samples?",
+                "answer_type": "Paragraph",
+                "answer": "Reference spectra anchor oxidation-state and coordination interpretation. MnO\u2082 represents a more oxidized environment, MnO a reduced state, and LiMn\u2082O\u2084 a lithiated spinel-like framework. Comparing edge position, white-line shape, and near-edge features allows lithiation-induced electronic changes to be interpreted relative to these well-defined benchmarks."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What trend is expected in Mn electronic structure from 100cLi\u2013MnO\u2082 to 300cLi\u2013MnO\u2082?",
+                "answer_type": "Factoid",
+                "answer": "Increasing cycles indicate progressive modification toward a more lithiated, Mn-reduced electronic environment."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What does the Mn\u2013O first-shell peak in FT-EXAFS reveal about local coordination?",
+                "answer_type": "Paragraph",
+                "answer": "The Mn\u2013O peak reflects coherence and bond-length distribution within MnO\u2086 octahedra. Changes in peak intensity or width suggest increasing local disorder or mixed valence, while persistence of the peak indicates retention of octahedral coordination despite electronic changes."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What does increasing local disorder imply for functional performance?",
+                "answer_type": "Paragraph",
+                "answer": "-Greater risk of structural instability during cycling\n-Transport heterogeneity across the film\n-Higher likelihood of capacity fade\n-Increased sensitivity to degradation reactions"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

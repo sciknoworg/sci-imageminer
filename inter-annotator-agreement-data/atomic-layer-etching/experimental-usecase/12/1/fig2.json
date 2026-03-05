@@ -1,0 +1,81 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig2",
+    "classification": {
+        "a": "scatter plot",
+        "b": "scatter plot",
+        "c": "scatter plot",
+        "d": "scatter plot"
+    },
+    "summarization": {
+        "a": "EPC increases rapidly with SF\u2086 plasma exposure time and saturates at \u22483.4 \u00c5 after ~5s for a 0.5s TMA dose at 260 \u00b0C. The auto summary did not identify the saturation threshold or the self-limiting nature of the plasma step. The manual summary clarifies the time required to reach full fluorination.",
+        "b": "EPC remains constant at \u22483.1\u20133.3 \u00c5 across the full plasma pump-time range following SF\u2086 exposure. The auto summary described only a generic dependence, whereas the manual version highlights that pump time does not influence EPC once saturation is reached.",
+        "c": "EPC shows a sharp onset between 0.2 and 0.4 s TMA dosing and saturates near \u22483.3 \u00c5 for a fixed 5s SF\u2086 plasma exposure. The auto summary missed this threshold behavior and the implication of a self-limiting ligand-exchange step. The manual summary explicitly identifies the dosing time required for saturation.",
+        "d": "EPC is insensitive to TMA pump time and remains at \u22483.2\u20133.3 \u00c5 across all values shown. The auto summary implied a dependence without interpretation. The manual summary clarifies that the reaction completes during dosing and does not require extended pumping."
+    },
+    "data_extraction": {
+        "a": "| SF\u2086 plasma time (s) | EPC (\u00c5) |\n|---------------------|---------|\n| 0                   | 0.0     |\n| 1                   | 2.4     |\n| 3                   | 3.0     |\n| 5                   | 3.2     |\n| 10                  | 3.3     |\n| 20                  | 3.4     |\n| 30                  | 3.6     |",
+        "b": "| Plasma pump time (s) | EPC (\u00c5) |\n|----------------------|---------|\n| 5                    | 3.0     |\n| 10                   | 3.1     |\n| 20                   | 3.1     |\n| 30                   | 3.1     |",
+        "c": "| TMA dosing time (s) | EPC (\u00c5) |\n|---------------------|---------|\n| 0.00                | 0.0     |\n| 0.10                | -0.1    |\n| 0.20                | 0.0     |\n| 0.40                | 2.7     |\n| 0.50                | 3.1     |\n| 0.80                | 2.9     |",
+        "d": "| TMA pump time (s) | EPC (\u00c5) |\n|-------------------|---------|\n| 5                 | 3.3     |\n| 10                | 3.1     |\n| 20                | 3.1     |\n| 30                | 3.1     |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Is a long pump step after the TMA dose necessary to maintain consistent etch per cycle?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How long must the TMA dose be to achieve full saturation of the ligand-exchange step (5 s SF\u2086 exposure)?",
+                "answer_type": "Factoid",
+                "answer": "\u22650.4 s"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the minimum SF\u2086 plasma exposure time needed to reach >95 % of the saturated EPC at 260 \u00b0C?",
+                "answer_type": "Factoid",
+                "answer": "5 s"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does extending the pump time after SF\u2086 plasma exposure increase or decrease the etch per cycle?",
+                "answer_type": "Factoid",
+                "answer": "Neither; EPC remains constant at \u22483.3 \u00c5."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

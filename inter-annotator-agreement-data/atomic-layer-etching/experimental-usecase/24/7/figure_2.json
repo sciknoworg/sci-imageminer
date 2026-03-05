@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_2",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "This line chart represnts a mass change (ng/cm\u00b2) over time from 6000 to 6300 s at 300\u00b0C on Al\u2082O\u2083. The graph shows a stepwise decrease in mass. This chart is an enlarged view of a previous line chart (figure 2).   The TMA exposure results in a mass decrease. This behavior indicates TMA can remove the AlF\u2083 surface layer on the Al\u2082O\u2083 film."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass change (ng/cm\u00b2) | Precursor | Stage         |\n|--------|--------------------|-----|--------------------------|\n| 6120     | -1440                | \u2013   | Start of shown segment   |\n| 6130     | -1455                | TMA | Mass decrease (\u0394M_TMA)   |\n| 6160     | -1465                | TMA | End of TMA segment       |\n| 6185     | -1455                | HF  | Mass increase (\u0394M_HF)    |\n| 6210     | -1485                | HF  | End of HF segment        |\n| 6240     | -1475                | TMA | TMA pulse   |\n| 6260     | -1510                | HF  | HF pulse     |\n| 6290     | -1490                | HF  | End of last HF segment   |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "In a standard ALD (Deposition) process, a TMA pulse typically results in a mass gain due to adsorption. Here, the TMA pulse causes a mass decrease. What specific chemical event explains this reversal in behavior?",
+                "answer_type": "Factoid",
+                "answer": "The formation of volatile byproducts. \nIn ALD, TMA adsorbs onto the surface and remains there, leading to a net mass gain. In contrast, during this ALE process, TMA reacts with the fluorinated surface (AlF\u2083) to form volatile species such as dimethylaluminum fluoride, which desorb from the surface. This desorption removes surface atoms, resulting in the observed mass loss (\u0394M_TMA)."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Contrast this thermal ALE process with a purely thermal etch using only HF gas. Which process provides true layer-by-layer control, and what is the key limitation of the HF-only method?",
+                "answer_type": "Paragraph",
+                "answer": "The HF/TMA ALE cycle provides true layer-by-layer control, as the mass drop is discrete and self-limiting. A purely thermal HF etch would cause continuous, non-self-limiting mass loss, leading to poor depth control and potential damage from excessive etching, as it lacks the crucial TMA step to regulate the reaction."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What does the immediate, sharp mass drop during the TMA pulse indicate about the kinetics and mechanism of the etching reaction?",
+                "answer_type": "Paragraph",
+                "answer": "The immediate, sharp drop indicates a fast, self-limiting surface reaction. The mass loss is not gradual, confirming that TMA rapidly reacts with the pre-formed AlF\u2083 layer in a ligand-exchange process that is limited only by the number of AlF\u2083 sites created in the previous HF step."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "The QCM shows a repeatable, discrete mass loss per cycle. Does this guarantee the ALE process will etch a 10 nm Al\u2082O\u2083 film with perfect uniformity across a 300 mm wafer?",
+                "answer_type": "Yes/No",
+                "answer": "No.\nWhile QCM confirms self-limiting chemistry at the sensor spot, perfect wafer-scale uniformity depends on gas flow dynamics, temperature uniformity, and precursor delivery across the entire reactor chamber, which this single-point measurement cannot verify."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig1",
+    "classification": {
+        "a": "process timing diagram",
+        "b": "conceptual diagram"
+    },
+    "summarization": {
+        "a": "Time sequence of ALE process parameters over one cycle: ICP power held constant (~1500 W) and Ar flow steady (~50 sccm); CF\u2084 + H\u2082 flow (\u224810\u201325 sccm) is pulsed only during the modification step; the DC bias (\u22484\u20136 W) is applied only during the activation step to ion-energize Ar and drive the surface reaction/etch. Cycle boundaries are indicated by vertical dividers.",
+        "b": "Conceptual cartoons of the surface state through the cycle: (1) CF\u2084 + H\u2082 plasma deposits a polymer layer on the target surface (modification), (2) the film reaches saturation and uniformly covers the surface, and (3) Ar-ion activation reacts the polymer with the top atomic layer, ejecting by-products and removing a controlled thickness (etch)."
+    },
+    "data_extraction": {
+        "a": "| Step within cycle            | W_DC (W) | W_ICP (W) | CF4+H2 (sccm) | Ar (sccm) |\n|-------------------------------|--------------|----------------|--------------------|--------------|\n| Modification step  |        0 |      1500 |         10\u201325 |        50 |\n| Saturated layer formed  |        0 |      1500 |              0|        50 |\n| Activation step |      4\u20136 |      1500 |              0|        50 |",
+        "b": ""
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the gas conditions in the modification step differ from those in the activation step?",
+                "answer_type": "Factoid",
+                "answer": "The modification step uses an Ar + CF\u2084+H\u2082 plasma, while the activation step uses only Ar plasma."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What are the main steps of the ALE cycle shown in this figure, and why is purging between them essential?",
+                "answer_type": "Paragraph",
+                "answer": "The ALE cycle has two main steps: modification deposits a fluorocarbon polymer film from CF\u2084 + H\u2082 plasma until saturation, and activation uses Ar ion bombardment to drive surface reaction between polymer and target material, removing a precise thickness. Purging between steps removes unreacted precursors and prevents gas-phase mixing. This maintains self-limiting behavior and ensures etching occurs only through the controlled surface reaction mechanism."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Why is Ar used as the continuous background gas in all parts of the ALE cycle?",
+                "answer_type": "Paragraph",
+                "answer": "Ar provides a stable plasma environment for both the polymer-deposition and the activation steps. During modification, it dilutes CF\u2084+H\u2082 and helps form a controllable fluorocarbon film without over-fluorinating the surface. During activation, the same Ar plasma is accelerated by the DC bias to supply low-energy ion bombardment, so the chamber does not need to switch gases between steps, which improves repeatability of the self-limiting etch."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Is the DC bias applied continuously throughout the entire ALE cycle?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

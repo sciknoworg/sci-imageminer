@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_4",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "Etch per cycle increases with substrate temperature for all reported thermal ALE chemistries, with the SF\u2086 plasma/TMA process showing the strongest activation. This work reaches ~1.8 \u00c5/cycle at 200 \u00b0C and increases to ~3.5 \u00c5/cycle at 300 \u00b0C, exceeding all HF/TMA literature values. The highest reported HF/TMA result (Cano et al.) reaches ~2.5 \u00c5/cycle at 300 \u00b0C, while other studies remain at or below ~1 \u00c5/cycle. The comparison highlights a clear performance advantage of plasma-assisted fluorination."
+    },
+    "data_extraction": {
+        "a": "| Substrate temperature (\u00b0C) | SF\u2086/TMA (this work) (\u00c5/cycle) | Cano HF/TMA | Hennessy HF/TMA | Lee HF/TMA | Zywotko HF/TMA |\n|----------------|--------|----------|---------------|----------|--------------|\n| 150            | 0.0    | \u2013        | \u2013             | \u2013        | \u2013            |\n| 200            | 1.8    | 1.5      | \u2013             | \u2013        | \u2013            |\n| 250            | 2.7    | 2.3      | 0.8           | 0.2      | -0.5         |\n| 300            | 3.5    | 2.5      | 1.0           | 0.5      | 0.6          |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does the temperature dependence of EPC for the SF\u2086 plasma/TMA process developed in this work compare to the best previous HF/TMA result (Cano et al.)?",
+                "answer_type": "Paragraph",
+                "answer": "The SF\u2086 plasma/TMA process shows much stronger temperature activation than HF/TMA chemistries. At 250 \u00b0C it already matches or exceeds the highest HF/TMA values reported at 300 \u00b0C, and at 300 \u00b0C it reaches ~3.5 \u00c5/cycle. This indicates that plasma-assisted fluorination produces a more reactive surface for ligand exchange with TMA."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Across all reported thermal ALE processes at 300 \u00b0C, which chemistry delivers the highest etch per cycle and by what margin?",
+                "answer_type": "Factoid",
+                "answer": "SF\u2086 plasma/TMA (this work), at ~3.5 \u00c5/cycle."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What surface characteristic enabled by SF\u2086 plasma (instead of HF gas) is primarily responsible for the record-high 3.5 \u00c5/cycle at 300 \u00b0C?",
+                "answer_type": "Paragraph",
+                "answer": "SF\u2086 plasma produces a higher density of reactive fluorinated sites than HF gas exposure. The presence of energetic fluorine species increases fluorine coverage and accessibility at the surface, which enhances the efficiency of TMA-driven ligand exchange. This results in greater material removal per cycle at elevated temperature."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Does this work present the highest thermal (non-ion-enhanced) etch rate for Al\u2082O\u2083 atomic layer etching reported in the literature?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_4",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart",
+        "c": "multi spectra chart",
+        "d": "molecular structure diagram"
+    },
+    "summarization": {
+        "a": "The spectral chart displays Mn K-edge XANES spectra of MnO\u2082, 10Li\u2013MnO\u2082, and 50Li\u2013MnO\u2082 measured in the total electron yield (TEY) mode, showing changes in the Mn electronic structure with increasing lithium incorporation.",
+        "b": "The spectral chart shows the Fourier-transformed Mn K-edge EXAFS spectra of MnO\u2082, 10Li\u2013MnO\u2082, and 50Li\u2013MnO\u2082, providing information on the local atomic coordination and bond distances around Mn.",
+        "c": "The spectral chart displays Mn L-edge XANES spectra measured at a 45\u00b0 incident angle, illustrating the evolution of manganese oxidation states as a function of lithium content."
+    },
+    "data_extraction": {
+        "a": "| Energy (eV) | Absorption (arb. units) |\n|---|---|\n| 6540 | 0 |\n| 6542 | 0 |\n| 6544 | 0 |\n| 6546 | 0 |\n| 6548 | 0 |\n| 6550 | 0 |\n| 6552 | 0 |\n| 6554 | 0 |\n| 6556 | 0 |\n| 6558 | 0 |\n| 6560 | 0 |\n| 6562 | 0 |\n| 6564 | 0 |\n| 6566 | 0 |\n| 6568 | 0 |\n| 6570 | 0 |\n| 6572 | 0 |\n| 6574 | 0 |\n| 6576 | 0 |\n| 6578 | 0 |\n| 6580 | 0 |",
+        "b": "| | Intensity (arb. units) |\n|---|---|\n| 1 | 0 |\n| 2 | 0 |\n| 3 | 0 |\n| 4 | 0 |",
+        "c": "| Energy (eV) | Absorption (arb. units) |\n|---|---|\n| 635 | 0 |\n| 637 | 0 |\n| 639 | 0 |\n| 641 | 0 |\n| 643 | 0 |\n| 645 | 0 |\n| 647 | 0 |\n| 649 | 0 |\n| 651 | 0 |\n| 653 | 0 |\n| 655 | 0 |\n| 657 | 0 |\n| 659 | 0 |\n| 661 | 0 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Application/Performance",
+                "question": "The Mn L-edge XANES in (c) was measured at a 45\u00b0 incident angle, making it surface-sensitive. If these spectra differ from the bulk-sensitive K-edge, what could this imply for the lithiation process during cycling?",
+                "answer_type": "Paragraph",
+                "answer": "Differences between surface (L-edge) and bulk (K-edge) spectra suggest that the chemical state of manganese at the surface differs from the interior. This implies lithiation may proceed non-uniformly, with the surface transforming first."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Compare the spectrum of the '50Li-MnO2' sample (Blue line) with the 'LiMn2O4 ref. Does the 50-cycle process successfully convert the material into the target spinel phase? How does the graph support your answer?",
+                "answer_type": "Yes/No",
+                "answer": "No, it does not. The blue line overlaps almost perfectly with the black line (\u03b2-MnO\u2082) and looks completely different from the dashed line (LiMn\u2082O\u2084). This confirms that 50 cycles are insufficient to induce a bulk phase transformation to the spinel structure; the material remains in the precursor phase."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Based on the Mn K-edge and L-edge spectra, which sample\u201410cLi-MnO\u2082 or 50cLi-MnO\u2082\u2014shows more advanced conversion toward a lithium manganese oxide spinel structure, and what is the spectral evidence?",
+                "answer_type": "Paragraph",
+                "answer": "The 50cLi sample shows more advanced conversion. Its K-edge position is closer to the LiMn\u2082O\u2084 reference, and its L-edge fine structure more closely resembles the spinel than the 10cLi sample does."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Comparing the Fourier Transform EXAFS plots in (b), how does the local structure around manganese atoms change after 10 and 50 lithium cycles compared to the original MnO\u2082?",
+                "answer_type": "Paragraph",
+                "answer": "The main Mn-O coordination peak decreases in intensity and shifts slightly. This indicates increasing structural disorder and a change in bond lengths as lithium is inserted into the MnO\u2082 lattice."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

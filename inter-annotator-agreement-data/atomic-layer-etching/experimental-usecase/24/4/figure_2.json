@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_2",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart illustrates the enlarged linear region showing individual mass changes over time at 300\u00b0C on Al\u2082O\u2083, showing a stepwise decrease in mass with the sequential TMA and HF exposures."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass Change (ng/cm\u00b2) | Event      |\n|----------|------------------------|-----------|\n| 6150     | -1440                 | Start of MCPC |\n| 6160     | -1460                 | \u0394M_TMA (TMA exposure) |\n| 6170     | -1470                 | \u0394M_HF (HF exposure) |\n| 6200     | -1480                 | TMA pulse |\n| 6250     | -1500                 | HF pulse  |\n| 6300     | -1520                 | End of cycle |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Is the enlarged mass change versus time necessary?",
+                "answer_type": "Paragraph",
+                "answer": "Yes. It helps understand the pronouned mass changes after reactant exposure."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What does TMA exposure indicate?",
+                "answer_type": "Factoid",
+                "answer": "The TMA exposure results in a mass decrease. This behavior indicates TMA can remove the AlF3 surface layer on the Al2O3 film."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "List the change in mass after reactant exposure.",
+                "answer_type": "Paragraph",
+                "answer": "1. A mass loss of \u0394MTMA = \u221229 ng/cm2 was observed after 2.0 s of TMA exposure.\n2. A mass gain of \u0394MHF = 13 ng/cm2 after 1.0 s of HF exposure."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What does the mass gain indicate?",
+                "answer_type": "Paragraph",
+                "answer": "This mass gain is consistent with the fluorination of Al2O3 to form an AlF3 surface layer. This AlF3 surface layer is then ready for the ligand-exchange reaction during the next TMA exposure."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

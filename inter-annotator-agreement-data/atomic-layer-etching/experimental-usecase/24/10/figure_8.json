@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_8",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "line chart"
+    },
+    "summarization": {
+        "a": "The multiple line chart shows how \u0394M_TMA and \u0394M_HF vary with temperature. As temperature increases, \u0394M_TMA becomes more negative, indicating greater mass loss during TMA exposure, while \u0394M_HF increases, indicating greater mass gain during HF exposure.",
+        "b": "The line chart shows MCPC as a function of temperature. MCPC decreases steadily with increasing temperature, indicating a larger net mass loss per cycle at higher temperatures."
+    },
+    "data_extraction": {
+        "a": "| Temperature (\u00b0C) | \u0394M_TMA (ng/cm\u00b2\u00b7cycle) | \u0394M_HF (ng/cm\u00b2\u00b7cycle) |\n|------------------|------------------------|-----------------------|\n| 250              | ~-15                   | ~5                    |\n| 275              | ~-20                   | ~10                   |\n| 300              | ~-30                   | ~15                   |\n| 325              | ~-40                   | ~20                   |",
+        "b": "| Temperature (\u00b0C) | MCPC (ng/cm\u00b2\u00b7cycle) |\n|------------------|---------------------|\n| 250              | ~-10                |\n| 275              | ~-15                |\n| 300              | ~-20                |\n| 325              | ~-25                |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do \u0394M_TMA and \u0394M_HF change with increasing temperature?",
+                "answer_type": "Paragraph",
+                "answer": "\u0394M_TMA becomes increasingly negative with temperature, indicating greater mass loss during TMA exposure, while \u0394M_HF increases, indicating greater mass gain during HF exposure. This suggests that both half-reactions become more pronounced at higher temperatures."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the x-axis variable in both panels?",
+                "answer_type": "Factoid",
+                "answer": "Temperature."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which temperatures are shown in the figure?",
+                "answer_type": "List",
+                "answer": "250 \u00b0C, 275 \u00b0C, 300 \u00b0C, 325 \u00b0C"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Does MCPC decrease as temperature increases?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

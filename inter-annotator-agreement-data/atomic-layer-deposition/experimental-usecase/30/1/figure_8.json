@@ -1,0 +1,79 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_8",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart",
+        "d": "multiple line chart"
+    },
+    "summarization": {
+        "a": "This panel shows hysteresis loops for the Mg/Fe = 0.017 film in the as-deposited state. The saturation magnetization at room temperature is about 200 emu cm\u207b\u00b3, with a coercivity of roughly 300 Oe. The loops widen slightly as temperature decreases, showing stronger magnetic pinning at low temperature.",
+        "b": "This panel shows the as-deposited film with higher Mg content (Mg/Fe = 0.061). The room-temperature saturation magnetization is much higher, around 491 emu cm\u207b\u00b3, while the coercivity drops to about 150 Oe. The loops are steeper, indicating easier magnetic switching compared to panel (a).",
+        "c": "This panel shows the Mg/Fe = 0.017 film after forming-gas annealing. The saturation magnetization increases to about 280 emu cm\u207b\u00b3, while coercivity slightly decreases to around 280 Oe. The curves appear cleaner and more symmetric, suggesting improved magnetic ordering after annealing.",
+        "d": "This panel shows the annealed Mg/Fe = 0.061 film. The saturation magnetization decreases to about 274 emu cm\u207b\u00b3 compared to the as-deposited state, and coercivity increases to about 200 Oe. Annealing clearly modifies the magnetic response differently than in the low-Mg film."
+    },
+    "data_extraction": {
+        "a": "| Parameter      | Value |\n|----------------|-------|\n| Thickness      | 425 nm   |\n| Ms (RT)        | 200 emu cm\u207b\u00b3   |\n| Hc (RT )       | 300 Oe  |\n| Temperatures   | 300, 200, 100, 50, 10 K |",
+        "b": "| Parameter      | Value |\n|----------------|-------|\n| Thickness      | 411 nm   |\n| Ms (RT)        | 491 emu cm\u207b\u00b3 |\n| Hc (RT )       | 150 Oe   |\n| Temperatures   | 300, 200, 100, 50, 10 K |",
+        "c": "| Parameter      | Value |\n|----------------|-------|\n| Thickness      | 425 nm   |\n| Ms (RT)        | 280 emu cm\u207b\u00b3 |\n| Hc (RT )       | 280 Oe   |\n| Temperatures   | 300, 200, 100, 50, 10 K |",
+        "d": "| Parameter      | Value |\n|----------------|-------|\n| Thickness      | 411 nm   |\n| Ms (RT)        | 274 emu cm\u207b\u00b3 |\n| Hc (RT )       | 200 Oe   |\n| Temperatures   | 300, 200, 100, 50, 10 K |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Why are low-temperature hysteresis measurements useful for evaluating these films?",
+                "answer_type": "Paragraph",
+                "answer": "Measuring hysteresis down to 10 K reduces thermal activation of domain walls, making intrinsic magnetic anisotropy more apparent. This helps separate temperature-driven loop broadening from composition-dependent effects. The comparison clarifies how Mg content and annealing influence intrinsic magnetic ordering."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "How does forming-gas annealing influence coercivity in the low-Mg film?",
+                "answer_type": "Factoid",
+                "answer": "Coercivity decreases slightly from ~300 Oe to ~280 Oe after annealing."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Why does annealing increase saturation magnetization in the low-Mg film?",
+                "answer_type": "Paragraph",
+                "answer": "Annealing likely reduces structural disorder and improves cation distribution within the iron-oxide lattice. This suppresses antiferromagnetic coupling and enhances net magnetic alignment. The increase in saturation magnetization therefore reflects improved magnetic ordering rather than thickness effects."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does increasing Mg content affect saturation magnetization in the as-deposited films?",
+                "answer_type": "Factoid",
+                "answer": "Saturation magnetization increases from ~200 emu cm\u207b\u00b3 at low Mg content to ~491 emu cm\u207b\u00b3 at higher Mg content."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

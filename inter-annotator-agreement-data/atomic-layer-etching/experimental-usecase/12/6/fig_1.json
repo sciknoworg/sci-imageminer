@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_1",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays absorbance spectra for cycles 1 through 6, highlighting changes in the region between 800 and 1100 cm^-1, which is typically associated with the Al-O bond.",
+        "b": "The figure compares absorbance spectra between TMA reference to SF\u2086 plasma and SF\u2086 plasma reference to TMA for cycles 2, 4, and 6."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | Absorbance |\n|---|---|\n| 1000 | 0.002 |\n| 800 | 0.005 |",
+        "b": "| Wavenumbers (cm\u207b\u00b9) | TMA ref. to SF\u2086 plasma | SF\u2086 plasma ref. to TMA |\n|---|---|---|\n| 4000 | Cycle 2 | Cycle 4 |\n| 3500 | Cycle 4 | Cycle 6 |\n| 3000 | Cycle 6 | Cycle 2 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the absorbance change as the number of cycle increases/",
+                "answer_type": "Factoid",
+                "answer": "The absorbance decreases with the increasing number of ALE cycles, which corresponds to the removal of material after each ALE cycle."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What was the source of fluorine radicals in this ALE process?",
+                "answer_type": "Factoid",
+                "answer": "SF6."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "At which wavenumbers  are the absorbance peaks for Al-CH3 typically observed?",
+                "answer_type": "Factoid",
+                "answer": "At 2900 and 2950 cm^-1."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What do the observed difference spectra tell us about the process?",
+                "answer_type": "Paragraph",
+                "answer": "Sub-figure b shows how the absorbance has changed after SF6 exposure with a reference spectrum taken after TMA exposure (blue). The reverse is also shown in red. The baseline of these two difference spectra is marked by the dashed line. As the blue and red lines are almost perfect mirror images (relative to the dashed line), this tells us that SF6 and TMA successfully react to remove and form methyl surface groups during each half cycle respectively."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

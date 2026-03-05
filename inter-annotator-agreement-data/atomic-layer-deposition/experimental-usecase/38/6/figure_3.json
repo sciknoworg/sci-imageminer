@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_3",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays X-ray diffraction patterns (2\u03b8\u03c7) of the MnO2, 10cLi-MnO2 and 50cLi-MnO2 samples.",
+        "b": "The figure displays X-ray diffraction patterns (\u03b8\u22122\u03b8) of the MnO2, 10cLi-MnO2 and 50cLi-MnO2 samples."
+    },
+    "data_extraction": {
+        "a": "| Sample intensity (arb. units) | 2\u03b8\u03c7 (\u00b02\u03b8) |\n| --- | --- |\n| 50cLi-MnO2 | Peaks at 20, 37, 65 |\n| 10cLi-MnO2 | Peaks at 37, 65, 72 |\n| MnO2 | Peaks at 37, 40, 65, 72, 79 |",
+        "b": "| Intensity (arb. units) | \u03b8-2\u03b8 (\u00b02\u03b8) |\n| --- | --- |\n| 50cLi-MnO2 | Peaks at 15, 20, 33, 36, 42, 44 |\n| 10cLi-MnO2 | Peaks at 20, 33, 42, 44 |\n| MnO2 | Peaks at 20, 33, 42 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which two phases are observed among these three samples?",
+                "answer_type": "Factoid",
+                "answer": "The reflections match with Li1\u2212xMn2O4 and \u03b2-MnO2."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What does the reflection at 41.3\u00b0 correspond to?",
+                "answer_type": "Factoid",
+                "answer": "The  (200) reflection of the tetragonal pyrolusite MnO2."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Why is the reflection at 20.3\u00b0 \"forbidden\"?",
+                "answer_type": "Paragraph",
+                "answer": "The reflection at 20.3\u00b0 is indexed as (100), which  is forbidden for symmetry reasons in the tetragonal pyrolusite space group P42/mnm, but it may appear if the residual stress in the film deforms the structure to be slightly orthorhombic instead of tetragonal."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the impurity at 32.6\u00b0?",
+                "answer_type": "Factoid",
+                "answer": "This reflection is most likely caused by a lithium-rich Li2\u2212zMnO2 (ICDD PDF 38-1282) impurity phase, which has (100) reflection at 32.5\u00b0 and (012) reflection at 47.6\u00b0."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

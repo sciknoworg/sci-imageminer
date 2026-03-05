@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_5",
+    "classification": {
+        "a": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The Fe 2p XAS spectra show a clear evolution with increasing Mg content in Fe\u2082O\u2083:MgO films grown at 425 \u00b0C. All samples exhibit the characteristic Fe L\u2083 and L\u2082 edges near ~710 and ~724 eV, respectively, but the multiplet structure progressively broadens as Mg concentration increases. Even at 0.02 at.% Mg, reduced peak definition is visible relative to the non-doped film. At higher Mg levels (0.2\u20130.38 at.%), multiplet attenuation and baseline elevation indicate increased local disorder and modified Fe\u2013O coordination. The use of TEY emphasizes near-surface electronic changes induced by Mg incorporation."
+    },
+    "data_extraction": {
+        "a": "| Series (Mg content) | Spectral feature | Photon energy (eV) |\n|--------------------|------------------|--------------------|\n| All samples        | Fe L\u2083 edge       | ~710\u2013711           |\n| All samples        | Fe L\u2082 edge       | ~723\u2013726           |\n| Increasing Mg      | Multiplet shape  | Broadening in both L\u2083 and L\u2082 regions |\n| Measurement mode   |          \u2014                | TEY (surface-sensitive) |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does increasing Mg content affect the Fe 2p multiplet structure near the L\u2083 edge (~710\u2013715 eV)?",
+                "answer_type": "Paragraph",
+                "answer": "With increasing Mg content, the Fe L\u2083 multiplet structure becomes progressively broader and less well resolved. This trend reflects increasing distortion of the local Fe\u2013O coordination environment as Mg substitutes into the lattice. The attenuation of sharp multiplet features indicates a wider distribution of Fe\u2013O bond lengths and local electronic environments."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What spectral differences distinguish the non-doped film from the Mg 0.38 at.% film?",
+                "answer_type": "Paragraph",
+                "answer": "-Reduced intensity of Fe L\u2083 and L\u2082 multiplet peaks\n-Increased baseline signal across 720\u2013730 eV\n-Broader peak envelopes indicating electronic disorder\n-Suppressed shoulder features characteristic of crystalline Fe\u2082O\u2083"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which photon-energy range corresponds to the dominant Fe 2p\u2083/\u2082 absorption feature?",
+                "answer_type": "Factoid",
+                "answer": "Approximately 710\u2013711 eV."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is Fe 2p XAS in TEY mode well suited for detecting low-level Mg incorporation?",
+                "answer_type": "Paragraph",
+                "answer": "TEY detection probes only the near-surface region, where dopant-induced electronic changes are most pronounced. Low Mg concentrations primarily perturb local Fe\u2013O coordination rather than bulk crystallinity, making surface-sensitive techniques essential. TEY-XAS therefore highlights subtle multiplet modifications that would be averaged out in bulk-sensitive measurements."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

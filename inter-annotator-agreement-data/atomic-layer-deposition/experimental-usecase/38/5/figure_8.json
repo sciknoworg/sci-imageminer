@@ -1,0 +1,50 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_8",
+    "classification": {
+        "a": "spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays a series of X-ray absorption near-edge structure (XANES) spectra for various Li-MnO2 compositions, highlighting the changes in manganese oxidation states."
+    },
+    "data_extraction": {
+        "a": "| Energy (eV) | Absorbance MnO2 | Absorbance 10cLi-MnO2 | Absorbance 50cLi-MnO2 | Absorbance 100cLi-MnO2 | Absorbance 200cLi-MnO2 | Absorbance 300cLi-MnO2 |\n|---|---|---|---|---|---|---|\n|638|Constant |Constant |Constant |Constant |Constant |Constant |\n|640|Increase|Increase|Increase|Increase|Increase|Increase|\n|641|Mn3+ peak|Mn3+ peak|Mn3+ peak|Mn3+ peak|Mn3+ peak|Mn3+ peak|\n|642|Constant |Constant |Constant |Constant |Constant |Constant |\n|644|Mn4+ peak|Mn4+ peak|Mn4+ peak|Mn4+ peak|Mn4+ peak|Mn4+ peak|\n|646|Decrease |Decrease |Decrease |Decrease |Decrease |Decrease |\n|648|Decrease |Decrease |Decrease |Decrease |Decrease |Decrease |\n|650|Decrease |Decrease |Decrease |Decrease |Decrease |Decrease |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is a good measure to determine the lithium concentration in a film?",
+                "answer_type": "Paragraph",
+                "answer": "a\tThe ratio of the Mn4+ and Mn3+ oxidation state are a measure for determining the lithium content."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the lowest measured Mn4+/Mn3+ ratio?",
+                "answer_type": "Factoid",
+                "answer": "The lowest measured ratio is 60/40."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What material shows the most overlap with the reference data?",
+                "answer_type": "Factoid",
+                "answer": "a\t10cLi-MnO2"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Where is the used model to fit, based on the reference data, insufficient to fit the data?",
+                "answer_type": "Paragraph",
+                "answer": "a\tEnergies above 644 eV show the most deviation of the reference data, indicating that the model does not fit the data correctly there."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

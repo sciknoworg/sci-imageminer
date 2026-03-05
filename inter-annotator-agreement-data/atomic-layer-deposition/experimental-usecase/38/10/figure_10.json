@@ -1,0 +1,92 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_10",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart",
+        "c": "multi spectra chart",
+        "d": "multi spectra chart",
+        "e": "multi spectra chart",
+        "f": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "The multi spectra chart compares Mn K-edge XANES, Mn K-edge EXAFS, and O K-edge XANES measurements for annealed and unannealed Li\u2013Mn\u2013O samples prepared under different conditions. The panels highlight changes in spectral features associated with annealing, composition, and measurement geometry."
+    },
+    "data_extraction": {
+        "a": "| Energy (eV)  | Relative Absorbance|\n|--------------|--------------------|\n| 6535         | low                |\n| 6540         | rising             |\n| 6545         | shoulder           |\n| 6550         | edge onset         |\n| 6555         | main peak          |\n| 6560         | post-edge          |\n| 6565         | decreasing         |\n| 6570         | high-energy        |",
+        "b": "| Energy (eV) | Relative Absorbance |\n|-------------|---------------------|\n| 6535        | low                 |\n| 6540        | rising              |\n| 6545        | shoulder            |\n| 6550        | edge onset          |\n| 6555        | main peak           |\n| 6560        | post-edge           |\n| 6565        | decreasing          |\n| 6570        | high-energy         |",
+        "c": "| R (\u00c5) | Relative Intensity         |\n|-------|----------------------------|\n| 0.0   | background                 |\n| 1.0   | first-shell peak           |\n| 2.0   | dominant coordination peak |\n| 3.0   | higher-shell contribution  |\n| 4.0   | weak oscillations          |",
+        "d": "| R (\u00c5) | Relative Intensity         |\n|-------|----------------------------|\n| 0.0   | background                 |\n| 1.0   | first-shell peak           |\n| 2.0   | dominant coordination peak |\n| 3.0   | higher-shell contribution  |\n| 4.0   | weak oscillations          |",
+        "e": "| Energy (eV) | Relative Absorbance |\n|-------------|---------------------|\n| 635         | pre-edge            |\n| 640         | rising              |\n| 645         | shoulder            |\n| 650         | main peak           |\n| 655         | post-edge           |\n| 660         | high-energy         |",
+        "f": "| Energy (eV) | Relative Absorbance |\n|-------------|---------------------|\n| 526         | pre-edge            |\n| 528         | onset               |\n| 530         | main peak           |\n| 532         | secondary feature   |\n| 534         | decreasing          |\n| 536         | high-energy         |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What structural information is obtained from the EXAFS panels?",
+                "answer_type": "Paragraph",
+                "answer": "d The EXAFS panels provide information about changes in local atomic coordination and bonding distances around Mn."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What experimental processes are compared in this figure?",
+                "answer_type": "Factoid",
+                "answer": "The figure compares annealed and unannealed samples using Mn K-edge XANES, Mn K-edge EXAFS, and O K-edge XANES measurements."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is it useful to compare Mn K-edge and O K-edge XANES in this study?",
+                "answer_type": "Paragraph",
+                "answer": "Comparing both edges helps relate changes in Mn oxidation state to corresponding changes in the oxygen electronic structure, improving interpretation of material behaviour."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the Mn K-edge XANES features change after annealing compared to the unannealed samples?",
+                "answer_type": "Paragraph",
+                "answer": "a  Annealing results in changes to the edge position and post-edge features, indicating differences in the local electronic environment of Mn"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "f": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

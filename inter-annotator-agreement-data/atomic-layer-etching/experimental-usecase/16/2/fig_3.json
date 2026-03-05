@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_3",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart"
+    },
+    "summarization": {
+        "a": "A spectra chart displaying XPS intensity against binding energy in the 698-682 eV region, with two labeled curves representing different concentrations of CF4.",
+        "b": "A spectra chart displaying XPS intensity against binding energy in the 298-292 eV region, with multiple labeled peaks indicating different chemical bonds."
+    },
+    "data_extraction": {
+        "a": "| Binding Energy, eV | v_{CF4} = 3.3%  (Intensity, counts/s) | v_{CF4} = 6.6%  (Intensity, counts/s) |\n|---|---|---|\n| 698 | 350 | 350 | \n| 696 | 350 | 350 | \n| 694 | 350 | 350 | \n| 692 | 500 | 500 | \n| 691 | 2300 | 2400 | \n| 690 | 3750 | 6000 | \n| 689 | 1500 | 6500 | \n| 688 | 500 | 1500 | \n| 687 | 500 | 300 | \n| 685 | 300 | 250 | \n| 684 | 250 | 250 | \n| 682 | 250 | 250 |",
+        "b": "| Binding Energy, eV | v_{CF4} = 3.3%  (Intensity, counts/s) | v_{CF4} = 6.6%  (Intensity, counts/s) |\n|---|---|---|\n| 298 | 180 | 80 | \n| 296 | 190 | 80 | \n| 294 | 400 | 250 | \n| 292 | 250 | 500 | \n| 290 | 170 | 500 | \n| 288 | 300 | 600 | \n| 286 | 800 | 100 | \n| 285 | 1500 | 20 | \n| 284 | 350 | 20 | \n| 282 | 100 | 10 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "At what binding energy does the F(1s) peak appear in both deposited films?",
+                "answer_type": "Factoid",
+                "answer": "Between 689-690 eV."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the carbon bonding environment in the deposited fluorocarbon films change as the CF\u2084 plasma fraction increases from 3.3% to 6.6%?",
+                "answer_type": "Paragraph",
+                "answer": "The C(1s) spectra reveal that higher CF\u2084 fractions produce more heavily fluorinated polymer films. At 3.3% CF\u2084, the film shows predominantly lower-fluorination states (C-CFn peak around 285 eV) with modest C-F, C-F\u2082, and C-F\u2083 contributions. At 6.6% CF\u2084, the C-Fx peaks (C-F, C-F\u2082, C-F\u2083) become much more pronounced, indicating higher concentrations of carbon atoms bonded to multiple fluorine atoms."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Are C-F\u2083 bonds present in films deposited at both CF\u2084 fractions?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What carbon-fluorine bonding states are identified in the C(1s) spectra from low to high binding energy?",
+                "answer_type": "List",
+                "answer": "C-CFn (~285 eV),C-F (~290 eV),C-F\u2082 (~292 eV),C-F\u2083 (~295 eV)."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

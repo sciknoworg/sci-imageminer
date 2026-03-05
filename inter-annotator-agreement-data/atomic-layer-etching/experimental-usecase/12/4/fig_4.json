@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_4",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The multiple line chart compares the relationship between substrate temperature and EPC (\u00c5) across different studies."
+    },
+    "data_extraction": {
+        "a": "| Substrate Temperature (\u00b0C) | EPC (\u00c5) - This Work (SF\u2086/TMA) | EPC (\u00c5) - Cano (HF/TMA) | EPC (\u00c5) - Hennessy (HF/TMA) | EPC (\u00c5) - Lee (HF/TMA) | EPC (\u00c5) - Zywotko (HF/TMA) |\n|-----------------------------|--------------------------------|---------------------------|------------------------------|--------------------------|-----------------------------|\n| 150                         | 0 .1                               | -                            | -                        | -                       | -                         |\n| 175                         | 0.8                            |-                             | -                        | -                       | -                        |\n| 200                         | 2.1                            | 1.5                       |  -                       | -                       | -                        |\n| 225                         | 2.8                            | -                           | 0.8                    | 0.2                  | -0.4                   |\n| 250                         | 3.0                            | 2.3                       | 0.8                    | 0.4                 | 0                        |\n| 275                         | 3.2                            | -                           | 1.0                    | 0.5                 | 0.8                     |\n| 300                         | -                                | 2.5                       | 1.2                    | 0.8                | -                          |\n| 325                         | -                                 | -                           | -                         | -                    | 1.0                      |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Can the substrate temperature values from the literature deviate ?",
+                "answer_type": "Paragraph",
+                "answer": "Yes, depending on the reactor and process conditions used."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What parameters determine etching?",
+                "answer_type": "Paragraph",
+                "answer": "In previous work, ALD of AlF3 was observed to proceed in the wide temperature range of 50\u2013300 \u00b0C when using a short 10 ms TMA dose.This suggests\nthat not only the temperature but also exposure to the precursor determines whether deposition or etching occurs."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does plasma ALE differ from thermal ALE?",
+                "answer_type": "Factoid",
+                "answer": "In comparison to thermal ALE, the plasma ALE process exhibits a higher etch per cycle (EPC) over the entire temperature range investigated\nhere."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What causes increased etching with plasma ALE?",
+                "answer_type": "Paragraph",
+                "answer": "A significant etch rate of 0.8A\u02da /cycle was already observed at a relatively low temperature of 185 \u00b0C, highlighting one of the benefits of using a plasma process. It is thought that the fluorine radicals provided by the plasma allow for higher etch rates as a thicker fluorinated surface region is formed as compared to when using HF."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

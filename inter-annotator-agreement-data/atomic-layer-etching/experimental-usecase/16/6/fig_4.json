@@ -1,0 +1,57 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_4",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart"
+    },
+    "summarization": {
+        "a": "During the modification step, the etch rate increases linearly with step duration for SiO2. For Al2O3, HfO2 and AlNx, the etch rate first increases, the plateaus and lastly decreases beyond 12 s. On TiN, no etching occurs, but material is deposited instead.",
+        "b": "Enlarged graph of sub-figure a for Al2O3, HfO2 and AlNx. The etch rate initially increases, peaks at around 10 seconds, and then decreases for all materials."
+    },
+    "data_extraction": {
+        "a": "| modification step duration, s | etch rate, nm/cyc |\n|---|---|\n|0|0.00|\n|2|0.05|\n|4|0.10|\n|6|0.15|\n|8|0.20|\n|10|0.25|\n|12|0.30|\n|14|0.35|",
+        "b": "| modification step duration, s | etch rate, nm/cyc |\n|---|---|\n|0|0.00|\n|2|0.05|\n|4|0.10|\n|6|0.15|\n|8|0.20|\n|10|0.25|\n|12|0.30|\n|14|0.35|"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Between what modification-step durations was the ALE window observed and for which substrates?",
+                "answer_type": "Factoid",
+                "answer": "Between 5 and 12 seconds; Al2O3, HfO2 and AlNx."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which material showed no measurable etching regardless of modification step duration?",
+                "answer_type": "Factoid",
+                "answer": "TiN."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What possibly caused the stark difference in etch rate between SiO2 and TiN?",
+                "answer_type": "Paragraph",
+                "answer": "According to the authors, this is most likely due to the difference in volatility between the formed products: the sublimation point of titanium fluoride is at 284 \u25e6C and the boiling point of silicon-fluoride is -86 \u25e6C. Titanium fluoride is much less volatile, which makes etching more difficult and the etch rate slower. The sputtering rate of argon ions on SiO2 is also two to three times higher than that of the other studies materials, which adds to the etch rate."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What causes the etch rate values at 0 s modification step to be non-zero?",
+                "answer_type": "Factoid",
+                "answer": "Although insignificant, the minimal etching is attributed to sputtering by argon ions."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

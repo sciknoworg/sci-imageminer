@@ -1,0 +1,68 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_7",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart shows mass change versus time at 250 \u00b0C during alternating TMA and HF exposures. The mass change exhibits small stepwise variations, indicating a  relatively low mass change per cycle at this temperature.",
+        "b": "The line chart shows mass change versus time at 275 \u00b0C. Stepwise increases during TMA exposure and decreases during HF exposure are more pronounced than at 250 \u00b0C, indicating a higher mass change per cycle.",
+        "c": "The line chart shows mass change versus time at 325 \u00b0C. The stepwise mass changes are largest at this temperature, reflecting the highest mass change per cycle among the three conditions."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass change (ng/cm\u00b2) |\n|----------|----------------------|\n| 6150     | ~-320                |\n| 6200     | ~-330                |\n| 6250     | ~-320                |\n| 6300     | ~-330                |",
+        "b": "| Time (s) | Mass change (ng/cm\u00b2) |\n|----------|----------------------|\n| 6150     | ~-950                |\n| 6200     | ~-980                |\n| 6250     | ~-950                |\n| 6300     | ~-980                |",
+        "c": "| Time (s) | Mass change (ng/cm\u00b2) |\n|----------|----------------------|\n| 6150     | ~-2240               |\n| 6200     | ~-2280               |\n| 6250     | ~-2240               |\n| 6300     | ~-2280               |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which precursor exposure corresponds to the upward mass steps?",
+                "answer_type": "Factoid",
+                "answer": "TMA exposure."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does temperature affect the mass change per cycle in these plots?",
+                "answer_type": "Paragraph",
+                "answer": "The magnitude of the stepwise mass change increases with temperature. The 250 \u00b0C trace shows the smallest changes, while the 325 \u00b0C trace shows the largest stepwise mass loss, indicating stronger reactions at higher temperature."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "List the temperatures compared in this figure.",
+                "answer_type": "List",
+                "answer": "a3: 250 \u00b0C, 275 \u00b0C, 325 \u00b0C"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Does the highest temperature produce the largest mass change per cycle?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

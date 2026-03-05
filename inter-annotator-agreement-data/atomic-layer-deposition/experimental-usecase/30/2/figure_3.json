@@ -1,0 +1,68 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_3",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "multi spectra chart",
+        "c": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "Raman spectra (room temperature) of a 328 nm Mg\u2013Fe oxide film grown at 400 \u00b0C with cycle ratio 1:100 from FeCp\u2082. The spectrum is dominated by hematite (\u03b1-Fe\u2082O\u2083) bands (e.g., ~225, 293, 412, 498, 613, 1320 cm\u207b\u00b9), while magnetite (Fe\u2083O\u2084) bands (~538, 668 cm\u207b\u00b9) appear weak; the annealed spectrum is marked \u201cFGA\u201d.",
+        "b": "Raman spectra of a 425 nm Mg\u2013Fe oxide film grown at 375 \u00b0C with cycle ratio 2:100 (Mg/Fe = 0.017) from CpFeC\u2085H\u2084CHN(CH\u2083)\u2082. Strong magnetite markers (~193, 306, 538, 668 cm\u207b\u00b9) are present, and bands attributed to maghemite (\u03b3-Fe\u2082O\u2083) (~720 and features near ~1430/1580 cm\u207b\u00b9) are also indicated; the bold trace corresponds to FGA in this figure set.",
+        "c": "Raman spectra of Mg\u2013Fe oxide films grown with cycle ratio 5:100 (Mg/Fe \u2248 0.05\u20130.06) at 425 \u00b0C (65 nm) and 375 \u00b0C (223 nm). The 425 \u00b0C spectrum shows a mixture of hematite-type bands plus magnetite markers (538/668 cm\u207b\u00b9) and signs of maghemite, while the 375 \u00b0C spectrum is comparatively consistent with magnetite-dominant iron oxide; substrate-related features (e.g., Si 514 cm\u207b\u00b9, SiO\u2082) are also labeled."
+    },
+    "data_extraction": {
+        "a": "| Raman Shift (cm\u207b\u00b9) | As-deposited (Norm. Int.) | FGA (Norm. Int.) |\n|---|---|---|\n| 225 | 0.80 | 0.05 |\n| 293 | 0.80 | 0.05 |\n| 412 | 0.60 | 0.10 |\n| 498 | 0.20 | 0.05 |\n| 538 | 0.05 | 0.30 |\n| 613 | 0.40 | 0.10 |\n| 668 | 0.10 | 1.00 |\n| 1320 | 1.00 | 0.10 |",
+        "b": "| Raman Shift (cm\u207b\u00b9) | As-deposited (Norm. Int.) | FGA (Norm. Int.) |\n|---|---|---|\n| 193 | 0.15 | 0.15 |\n| 306 | 0.25 | 0.25 |\n| 538 | 0.35 | 0.35 |\n| 668 | 1.00 | 1.00 |\n| 720 | 0.20 | 0.25 |\n| 1320 | 0.10 | 0.15 |\n| 1430 | 0.45 | 0.50 |\n| 1580 | 0.40 | 0.45 |",
+        "c": "| Raman Shift (cm\u207b\u00b9) | 425\u00b0C (Norm. Int.) | 375\u00b0C (Norm. Int.) |\n|---|---|---|\n| 225 | 0.40 | 0.05 |\n| 293 | 0.40 | 0.05 |\n| 412 | 0.25 | 0.10 |\n| 514 (Si) | 1.00 | 0.30 |\n| 538 | 0.05 | 0.35 |\n| 613 | 0.15 | 0.10 |\n| 668 | 0.05 | 1.00 |\n| 720 | 0.05 | 0.20 |\n| 1320 | 0.50 | 0.10 |\n| 1400-1600 | 0.10 | 0.25 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "In this figure set, what does \u201cFGA\u201d mean, and how is it represented in the Raman spectra?",
+                "answer_type": "Paragraph",
+                "answer": "\u201cFGA\u201d refers to forming gas annealing applied after deposition. In this figure, spectra from annealed films are shown as bold traces and/or explicitly labeled \u201cFGA\u201d (clearest in panel a). The comparison is used to see how annealing changes the relative strength of hematite-, magnetite-, and maghemite-related Raman bands."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is it useful (in this paper) that Raman detects magnetite/maghemite features even when XRD may not clearly show them?",
+                "answer_type": "Paragraph",
+                "answer": "Magnetite/maghemite formation is directly relevant to the magnetic response targeted in the study, so confirming these phases matters for interpreting magnetization trends. Raman can reveal minor or mixed phases that are weak or overlapping in GIXRD, especially in the 375\u2013400 \u00b0C regime. The Raman results are therefore used as added evidence that reduced iron oxide (magnetite-like) is present in samples where diffraction alone is ambiguous."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the main trend in iron-oxide phase signatures when comparing the 400 \u00b0C case (panel a) to the 375 \u00b0C case (panel b)?",
+                "answer_type": "Paragraph",
+                "answer": "At 400 \u00b0C (panel a), the Raman spectrum is dominated by hematite bands, with only weak magnetite markers (538/668 cm\u207b\u00b9). At 375 \u00b0C (panel b), the magnetite markers become strong, and maghemite-related bands are also indicated. Overall, the lower growth temperature shifts the films toward more reduced/spinel-like iron oxide signatures."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which Raman bands are used here as practical markers for hematite, magnetite, and maghemite?",
+                "answer_type": "Paragraph",
+                "answer": "Hematite (\u03b1-Fe\u2082O\u2083): ~225, 293, 412, 498, 613, 1320 cm\u207b\u00b9\n\nMagnetite (Fe\u2083O\u2084): ~193, 306, 538, 668 cm\u207b\u00b9\n\nMaghemite (\u03b3-Fe\u2082O\u2083): ~380, 500, 720, ~1450, ~1580 cm\u207b\u00b9"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

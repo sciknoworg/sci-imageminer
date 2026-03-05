@@ -1,0 +1,57 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_11",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays a differential infrared absorption spectra at 300\u00b0C, comparing the effect of TMA exposure after HF exposure.",
+        "b": "The figure displays a differential infrared absorption spectra at 300\u00b0C, comparing the effect of HF exposure after TMA exposure."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | Absorbance |\n|-------------------|------------|\n| 1300              | 0.00      |\n| 1200              | 0.06       |\n| 1100              | 0.00      |\n| 1000              | 0.00       |\n| 900               | -0.06      |\n| 800               | 0.00       |",
+        "b": "| Wavenumbers (cm\u207b\u00b9) | Absorbance |\n|-------------------|------------|\n| 1300              | 0.00      |\n| 1200              | -0.06       |\n| 1100              | 0.00      |\n| 1000              | 0.00       |\n| 950               | -0.01      |\n| 900 | 0.00 |\n| 850 | -0.01 |\n| 800 | 0.00 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What observations are made during TMA exposure?",
+                "answer_type": "Paragraph",
+                "answer": "An increase in absorbance at 1212 cm^-1 is observed and a decrease between 850 and 975 cm^-1. The increase at 1212 cm^-1 is attributed to the formation of AlCH3* surface species, which may be present as either AlF(CH3)2*, AlF2(CH3)*, or \u2212OAl(CH3)2*. Given the high volatility of AlF(CH3)2, the most likely species are AlF2(CH3)* or \u2212OAl(CH3)2*. The loss of absorbance between 850 and 975 cm^-1 is consistent with the loss of Al-F bonds as TMA removes the AlF3 surface layer."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the implication of the magnitudes of absorbance loss and increase at 1212 cm^-1?",
+                "answer_type": "Factoid",
+                "answer": "As the magnitudes of absorbance loss and increase are the same, it means that all AlCH3* surface species get converted to AlF* surface species during HF exposure (and vice versa during TMA exposure)."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "In what range is the IR absorbance of Al2O3 observed?",
+                "answer_type": "Factoid",
+                "answer": "800 to 1100 cm^-1."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "In what range is the IR absorbance of AlF3 observed?",
+                "answer_type": "Factoid",
+                "answer": "800 to 975 cm^-1."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

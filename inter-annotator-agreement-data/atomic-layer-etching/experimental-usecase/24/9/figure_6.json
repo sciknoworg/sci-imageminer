@@ -1,0 +1,54 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_6",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "Figure 6 shows the mass changes during the first two Al\u2082O\u2083 ALE cycles at 250, 275, 300, and 325\u202f\u00b0C. The first TMA exposure produces mass gains of 27\u201332\u202fng/cm\u00b2, corresponding to the reaction of surface AlOH* with TMA. The subsequent HF exposure adds 33\u201336\u202fng/cm\u00b2 due to the conversion of AlCH\u2083* species to AlF* and formation of an AlF\u2083 surface layer. Mass changes are nearly constant across the temperatures during these early cycles, and higher temperatures lead to slightly larger gains. The figure highlights the initial nucleation behavior and the temperature-dependent early-stage mass changes."
+    },
+    "data_extraction": {
+        "a": "|Time (s)|\u0394M (ng/cm\u00b2) 250\u00b0C|\u0394M (ng/cm\u00b2) 275\u00b0C|\u0394M (ng/cm\u00b2) 300\u00b0C|\u0394M (ng/cm\u00b2) 325\u00b0C|\n|--------|-----------------|-----------------|-----------------|-----------------|\n|0|0|0|0|0|\n|15|27|29|31|32|\n|30|60|63|65|66|\n|45|60|63|65|66|\n|60|60|63|65|66|\n|75|60|63|65|66|\n|90|60|63|65|66|\n|105|60|63|65|66|\n|120|60|63|65|66|\n|135|60|63|65|66|\n|150|60|63|65|66|"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is understanding mass changes during the first two ALE cycles important for controlling Al\u2082O\u2083 etching?",
+                "answer_type": "Factoid",
+                "answer": "It helps determine the nucleation behavior, confirms self-limiting reactions, and allows estimation of the thickness of the AlF\u2083 surface layer, which is critical for precise etch depth control in ALE processes."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which surface species are responsible for the mass changes observed during TMA and HF exposures in the first two ALE cycles?",
+                "answer_type": "List",
+                "answer": "TMA exposure: AlOH reacting with Al(CH\u2083)\u2083 \u2192 formation of AlOAl(CH\u2083)\u2082, HF exposure: AlCH\u2083 reacting with HF \u2192 formation of AlF and AlF\u2083 surface layer"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How do the sequential TMA and HF exposures affect the mass of Al\u2082O\u2083 during the first two ALE cycles?",
+                "answer_type": "Paragraph",
+                "answer": "The first TMA exposure reacts with surface AlOH* species, resulting in a mass gain of 27\u201332\u202fng/cm\u00b2 depending on the temperature. The subsequent HF exposure converts AlCH\u2083* species to AlF* and forms an AlF\u2083 surface layer, producing an additional mass gain of 33\u201336\u202fng/cm\u00b2. These sequential reactions illustrate the self-limiting and surface-specific nature of the ALE process during the early cycles."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does the temperature affect the magnitude of mass changes during the first two ALE cycles?",
+                "answer_type": "Paragraph",
+                "answer": "Yes. Higher temperatures lead to slightly larger mass gains during both TMA and HF exposures, reflecting more efficient surface reactions."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

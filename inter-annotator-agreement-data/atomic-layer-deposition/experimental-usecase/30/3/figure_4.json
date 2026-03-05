@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_4",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays X-ray Absorption Spectroscopy (XAS), measured in total fluorescence yield (TFY) mode, data for O 1s, comparing 'as deposited' and 'forming gas annealed' conditions at various temperatures (375 \u00b0C and 400 \u00b0C).",
+        "b": "The figure displays X-ray Absorption Spectroscopy (XAS) measured in total fluorescence yield (TFY) mode, data for Fe 2p, comparing 'as deposited' and 'forming gas annealed' conditions at various temperatures (375 \u00b0C and 400 \u00b0C)."
+    },
+    "data_extraction": {
+        "a": "| photon energy / eV | a) | b) | c) | d) | e) |\n|---|---|---|---|---|---|\n| 530 | peak at 531, 532 eV | peak at 531, 532 eV | peak at 531 eV | peak at 530.5 eV | peak at 530.5 eV  |\n| 535 | - | - | - | - | - |\n| 540 | peak at 542 eV | peak at 542 eV | peak at 542 eV | peak at 542 eV | peak at 542 eV |\n| 545 | - | - | - | - | - |\n| 550 | - | - | - | - | - |",
+        "b": "| photon energy / eV | a) | b) | c) | d) | e) |\n|---|---|---|---|---|---|\n| 705 | - | - | - | - | - |\n| 710 | peak at 708.5, 710.5 eV | peak at 708.5, 710.5 eV | peak at 708.5, 710 eV | peak at 708.5, 710 eV | peak at 708.5, 710 eV |\n| 715 | - | - | - | - | - |\n| 720 | peak at 722 eV | peak at 722 eV | peak at 722 eV | peak at 722 eV | peak at 722 eV |\n| 725 | peak at 723.5 eV | peak at 723.5 eV | peak at 723.5 eV | peak at 723.5 eV | peak at 723.5 eV |\n| 730 | - | - | - | - | - |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which are the main variables studied?",
+                "answer_type": "Factoid",
+                "answer": "Film growth temperature, Fe2O3:MgO ratio, and treatment (as deposited or forming gas annealed)."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the spectra change when the ratio is altered from 100:2 to 100:10 at 375 \u00b0C?",
+                "answer_type": "Factoid",
+                "answer": "There is not a large difference in the spectra for those conditions."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Does the spectra show a difference between the samples as deposited and after forming gas annealed?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What conditions produce the greatest number of peaks in the spectrum?",
+                "answer_type": "Factoid",
+                "answer": "Non-doped at 400 \u00b0C, both as-deposited and the other forming gas annealed samples, exhibit the same behavior."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

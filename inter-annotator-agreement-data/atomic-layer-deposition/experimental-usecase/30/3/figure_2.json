@@ -1,0 +1,68 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_2",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "X-ray diffraction patterns of Fe2O3 samples as-deposited and FGA grown at 425\u00b0C.",
+        "b": "X-ray diffraction patterns of Fe2O3:MgO samples as-deposited and FGA grown at 425\u00b0C with Mg/Fe = 0.02.",
+        "c": "X-ray diffraction patterns of Fe2O3:MgO samples as-deposited and FGA grown at 425\u00b0C with Mg/Fe = 0.23."
+    },
+    "data_extraction": {
+        "a": "| 2\u03b8, degree | Intensity, arb. units |\n|---|---|\n| 20 | - |\n| 25 | peak at ~25\u00b0 |\n| 30 | - |\n| 35 | peak at ~33\u00b0, ~36\u00b0 |\n| 40 | peak at ~41\u00b0 |\n| 45 | peak at ~44\u00b0 |\n| 50 | peak at ~49\u00b0 |\n| 55 | peak at ~54\u00b0 |\n| 60 | peak at ~57\u00b0 |\n| 65 | peak at ~63\u00b0, ~64\u00b0 |",
+        "b": "| 2\u03b8, degree | Intensity, arb. units |\n|---|---|\n| 20 | - |\n| 25 | peak at ~24\u00b0 |\n| 30 | peak at ~30\u00b0 |\n| 35 | peak at ~33\u00b0, ~35\u00b0 |\n| 40 | peak at ~41\u00b0 |\n| 45 | - |\n| 50 | peak at ~49\u00b0 |\n| 55 | peak at ~54\u00b0, ~57\u00b0 |\n| 60 | - |\n| 65 | peak at ~63\u00b0, ~64\u00b0 |",
+        "c": "| 2\u03b8, degree | Intensity, arb. units |\n|---|---|\n| 20 | - |\n| 25 | - |\n| 30 | peak at ~30\u00b0 |\n| 35 | peak at ~36\u00b0 |\n| 40 | - |\n| 45 | peak at ~44\u00b0 |\n| 50 | - |\n| 55 | peak at ~54\u00b0 |\n| 60 | peak at ~57\u00b0 |\n| 65 | peak at ~63\u00b0 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Application/Performance",
+                "question": "How do the composition affect the phase present in the film?",
+                "answer_type": "Factoid",
+                "answer": "As the Mg:Fe ratio increases, the hematite phase becomes more prevalent."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which parameter was modified in order to identify the phases present in the film?",
+                "answer_type": "Factoid",
+                "answer": "The Mg:Fe ratio was evaluated in order to determine the phases present in the film."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which type of film exhibits a higher proportion of the hematite phase?",
+                "answer_type": "Factoid",
+                "answer": "The as-deposited film"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which composition shows the presence of both the hematite and magnetite phases?",
+                "answer_type": "Factoid",
+                "answer": "Mg:Fe = 0.02"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

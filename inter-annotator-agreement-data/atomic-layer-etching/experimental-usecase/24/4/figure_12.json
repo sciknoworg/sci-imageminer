@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_12",
+    "classification": {
+        "a": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays infrared absorption spectra from 2500 to 4000 cm\u207b\u00b9 at 300\u00b0C, comparing TMA (a) and HF (b) samples."
+    },
+    "data_extraction": {
+        "a": "| Wavenumber (cm\u207b\u00b9) | Absorbance (TMA, blue) | Absorbance (HF, red) |\n|--------------------|--------------------------|-----------------------|\n| 4000              | 0.00                    | 0.00                   |\n| 3750              | +0.001               | -0.002               |\n| 3500              | 0.00                    | -0.003               |\n| 3000              | +0.075               | -0.010               |\n| 2750              | +0.025               | -0.004               |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Does observing the absorbance in the range of 2500 to 4000cm-1 provide more information about the ALE mechanism compared to 800 to 1300cm-1?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What happens after TMA exposure?",
+                "answer_type": "Factoid",
+                "answer": "After the TMA exposure,  an increase in absorbance is observed at \u223c2900 and 2950 cm\u22121 ."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What forms new species and what removes species?",
+                "answer_type": "Paragraph",
+                "answer": "After TMA exposure, n increase in absorbance is observed at \u223c2900 and 2950 cm\u22121, this absorbance gain is in accord with the formation of AlF2(CH3)* or \u2212OAl(CH3)2* species .  After the HF exposure, an absorbance decrease at \u223c2900 and \u223c2950 cm\u22121 is consistent with the removal of the previously added AlCH3* species"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Does observing the IR absorbance at various spectra help with the understanding of the ALE mechanism?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

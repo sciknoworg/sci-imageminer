@@ -1,0 +1,69 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_4",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart",
+        "d": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The multiple line chart compares etch per cycle (EPC) as a function of substrate temperature for the SF\u2086 plasma/TMA process presented in this work and several literature-reported thermal HF/TMA processes. The EPC increases with temperature for all datasets, with the plasma-based process exhibiting consistently higher EPC values than thermal processes."
+    },
+    "data_extraction": {
+        "a": "| Substrate Temperature (\u00b0C) | This work (SF\u2086/TMA) | Canon HF/TMA | Cheng HF/TMA | Lee HF/TMA | Zyvox HF/TMA |\n|---|---|---|---|---|---|\n| 150 | ~0.2 | ~0.0 | ~0.0 | ~0.0 | ~0.0 |\n| 200 | ~1.2 | ~0.6 | ~0.4 | ~0.3 | ~0.2 |\n| 250 | ~2.7 | ~1.5 | ~0.9 | ~0.7 | ~0.6 |\n| 300 | ~3.5 | ~2.2 | ~1.3 | ~1.1 | ~1.0 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does EPC vary with substrate temperature across different ALE processes?",
+                "answer_type": "Paragraph",
+                "answer": "EPC increases with substrate temperature for all reported processes. The SF\u2086 plasma/TMA process shows a steeper increase and higher EPC values compared to thermal HF/TMA processes reported in the literature, particularly above 200 \u00b0C"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which process yields the highest EPC at a given temperature?",
+                "answer_type": "Factoid",
+                "answer": "The SF\u2086 plasma/TMA process reported in this work."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Why might substrate temperatures differ between this work and the literature?",
+                "answer_type": "Factoid",
+                "answer": "Temperatures in this work are measured in situ, while literature values are reported set points that may vary with reactor design and process conditions."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What advantages are demonstrated by the plasma-based ALE process?",
+                "answer_type": "List",
+                "answer": "Higher EPC, Stronger T-dependence, Better efficiency vs. thermal ALE"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

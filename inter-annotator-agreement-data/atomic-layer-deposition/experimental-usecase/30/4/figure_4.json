@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_4",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "O 1s peak from X-ray absorption spectroscopy (XAS) in total fluorescence yield (TFY) mode was used to characterize iron oxide thin films with varying Mg-doping levels, grown using two different iron precursors at two temperatures",
+        "b": "Fe 2p peak from X-ray absorption spectroscopy (XAS) in total fluorescence yield (TFY) mode was used to characterize iron oxide thin films with varying Mg-doping levels, grown using two different iron precursors at two temperatures"
+    },
+    "data_extraction": {
+        "a": "| Sample | Doping Ratio | Annealing Temp (\u00b0C) | O 1s Main Peak (~eV) | Secondary Features (~eV) | Notes |\n|--------|--------------|---------------------|-----------------|--------------------------|-------|\n| a) | non-doped | 400 | ~530 | shoulders at ~532, ~540 | Sharp main peak |\n| b) | 100:1 | 400 | ~530 | shoulders at ~532, ~540 | Similar to non-doped |\n| c) | non-doped | 375 | ~530 | shoulders at ~532, ~540 | Sharp main peak |\n| d) | 100:2 | 375 | ~530 | shoulders at ~532, ~540 | Similar profile |\n| e) | 100:10 | 375 | ~530 | broader peak at ~540 | More pronounced high energy feature |",
+        "b": "| Sample | Doping Ratio | Annealing Temp (\u00b0C) | Fe 2p Main Peak (~eV) | Satellite Features (~eV) | Notes |\n|--------|--------------|---------------------|-----------------|--------------------------|--------|\n| a) | non-doped | 400 | ~710 | multiplet structure 720-730 | Sharp L3 edge |\n| b) | 100:1 | 400 | ~710 | multiplet structure 720-730 | Similar to non-doped |\n| c) | non-doped | 375 | ~710 | multiplet structure 720-730 | Sharp L3 edge |\n| d) | 100:2 | 375 | ~710 | multiplet structure 720-730 | Similar profile |\n| e) | 100:10 | 375 | ~710 | multiplet structure 720-730 | Highest doping concentration |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Do all samples show a sharp pre-edge peak around 530 eV with broader features extending to 550 eV, characteristic of iron oxide?",
+                "answer_type": "Factoid",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Does the main features of the hematite and magnetite  overlap ?",
+                "answer_type": "Paragraph",
+                "answer": "Yes, the main features of the hematite and magnetite L3 XAS tend to overlap to a degree."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the film become magnetite after forming gas annealing?",
+                "answer_type": "Factoid",
+                "answer": "The annealing (FGA) procedure enhanced  and shifted the smaller L3 main peak slightly above 708.5 eV toward the main L3 peak at 710 eV, so that the overall spectral curve became more similar towhat has been observed for magnetite."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How thw O 1s and Fe 2p spectra help in determining the phase of the films?",
+                "answer_type": "Paragraph",
+                "answer": "The measured O 1s XA spectra agree well with the trends indicated by the Fe 2pspectra and give additional support to the proposition that magnetite (main peak at 709 eV) is indeed present and dominant in the samples deposited at 375\u25e6C from CpFeC5H4CHN(CH3)2."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

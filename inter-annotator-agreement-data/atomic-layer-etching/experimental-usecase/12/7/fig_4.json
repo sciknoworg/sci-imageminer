@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_4",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The line chart compares literature-reported etch-per-cycle (EPC) values for thermal HF/TMA processes with the SF\u2086 plasma/TMA process demonstrated in this work. Data from this study use in situ spectroscopic ellipsometry to measure the actual substrate temperature, whereas the literature values correspond to reported set-point temperatures. References include ->Cano (HF/TMA), Hennessy (HF/TMA), Lee (HF/TMA), Zywotko (HF/TMA)."
+    },
+    "data_extraction": {
+        "a": "| Substrate Temperature (\u00b0C) | EPC (\u00c5) | Materials |\n|---|---|---|\n| 150 | 0.07 | This work(SF6/TMA) |\n| 150 | - | Cano(HF/TMA) |\n| 150 | - | Hennessy (HF/TMA) |\n| 150 | - | Lee(HF/TMA) |\n| 150 | - | Zywotko (HF/TMA) |\n| 200 | 1.6 | This work(SF6/TMA) |\n| 200 | 4 | Cano(HF/TMA) |\n| 200 | - | Hennessy (HF/TMA) |\n| 200 | - | Lee(HF/TMA) |\n| 200 | - | Zywotko (HF/TMA) |\n| 250 | 2.9 | This work(SF6/TMA) |\n| 250 | 2.2 | Cano(HF/TMA) |\n| 250 | 0.8 | Hennessy (HF/TMA) |\n| 250 | 0.1 | Lee(HF/TMA) |\n| 250 | -0.3 | Zywotko (HF/TMA) |\n| 300 | - | This work(SF6/TMA) |\n| 300 | 2.4 | Cano(HF/TMA) |\n| 300 | 1.9 | Hennessy (HF/TMA) |\n| 300 | 0.4 | Lee(HF/TMA) |\n| 300 | 0.6 | Zywotko (HF/TMA) |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "List the two distinct chemical reactant combinations being compared in this study for atomic layer etching (ALE).",
+                "answer_type": "List",
+                "answer": "SF\u2086 plasma / TMA: The chemistry utilized in \"This work\" (Green square trace).\n\nThermal HF / TMA: The standard chemistry cited from literature sources (Cano, Hennessy, Lee, Zywotko)."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "In the temperature range of 200\u00b0C to 300\u00b0C, how does the Etch Per Cycle (EPC) performance of the proposed SF\u2086/TMA process compare to the majority of the HF/TMA literature data?",
+                "answer_type": "Paragraph",
+                "answer": "The SF\u2086/TMA process exhibits a significantly higher etch rate compared to the HF/TMA processes. While the HF/TMA data (excluding Cano) generally remains below 1.5 \u00c5/cycle, the SF\u2086/TMA process rapidly climbs from ~2.0 \u00c5/cycle to >3.0 \u00c5/cycle in this temperature window."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "The SF\u2086 plasma/TMA process maintains a high, stable EPC (~3 \u00c5/cycle) from 200\u00b0C to 300\u00b0C. What does this temperature independence imply about the nature of the rate-limiting surface reaction?",
+                "answer_type": "Factoid",
+                "answer": "It implies the etch rate is limited by a plasma-driven surface reaction with low activation energy, not by a thermally activated step like precursor decomposition or ligand desorption."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "For integrating Al\u2082O\u2083 ALE into the fabrication of advanced 3D NAND or DRAM memory chips, why would the SF\u2086 plasma/TMA process (this work) be the preferred choice over the thermal HF/TMA routes?",
+                "answer_type": "Paragraph",
+                "answer": "Modern memory chips contain temperature-sensitive materials (e.g., metals, organics) that cannot withstand the >275\u00b0C required for thermal HF/TMA etching. The SF\u2086 plasma/TMA process achieves the necessary etch rate at ~200\u00b0C, compatible with these thermal constraints. Furthermore, the wide temperature window (200-300\u00b0C) offers robust process control across a wafer, which is critical for the high-aspect-ratio structures in 3D memory."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

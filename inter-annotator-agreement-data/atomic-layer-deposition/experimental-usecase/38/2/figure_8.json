@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_8",
+    "classification": {
+        "a": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays a series of X-ray absorption near-edge structure (XANES) spectra for various Li-MnO2 compositions, highlighting the changes in manganese oxidation states."
+    },
+    "data_extraction": {
+        "a": "| Energy (eV) | MnO2 (Norm.) | 10cLi (Norm.) | 50cLi (Norm.) | 100cLi (Norm.) | 200cLi (Norm.) | 300cLi (Norm.) |\n|---|---|---|---|---|---|---|\n| 639.0 | 0.15 | 0.15 | 0.15 | 0.20 | 0.20 | 0.20 |\n| 641.0 | 0.60 | 0.65 | 0.70 | 0.75 | 0.85 | 0.90 |\n| 644.0 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 |\n| 648.0 | 0.40 | 0.40 | 0.40 | 0.45 | 0.50 | 0.50 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How were the Mn\u2074\u207a/Mn\u00b3\u207a ratios in the samples estimated?",
+                "answer_type": "Factoid",
+                "answer": "By comparing experimental L_III-edge spectra to linear combinations of Mn\u2074\u207a and Mn\u00b3\u207a reference spectra and finding the best match."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the Mn\u2074\u207a/Mn\u00b3\u207a ratio change across the sample series?",
+                "answer_type": "Paragraph",
+                "answer": "MnO\u2082 through 50cLi-MnO\u2082 show ~100% Mn\u2074\u207a. At 100-200 cycles, the ratio shifts to ~80/20 Mn\u2074\u207a/Mn\u00b3\u207a. At 300 cycles (near-stoichiometric LiMn\u2082O\u2084), it reaches ~60/40, consistent with the expected 1:1 ratio for LiMn\u2082O\u2084."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What do the two vertical lines at ~641 and ~644 eV indicate?",
+                "answer_type": "Factoid",
+                "answer": "Spectral features characteristic of Mn\u00b3\u207a (~641 eV) and Mn\u2074\u207a (~644 eV) oxidation states."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Does the 300cLi-MnO\u2082 sample achieve the expected 50/50 Mn\u2074\u207a/Mn\u00b3\u207a ratio for stoichiometric LiMn\u2082O\u2084?",
+                "answer_type": "Paragraph",
+                "answer": "Nearly. The 60/40 ratio is close to the expected 50/50 for Li\u2081.\u2080Mn\u2082O\u2084, consistent with the measured Li\u2081.\u2081Mn\u2082O\u2084 composition from TOF-ERDA."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

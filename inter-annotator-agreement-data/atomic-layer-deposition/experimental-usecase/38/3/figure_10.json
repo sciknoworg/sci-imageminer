@@ -1,0 +1,99 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_10",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart",
+        "d": "stacked spectra chart",
+        "e": "stacked spectra chart",
+        "f": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure shows absorbance spectra at different energies for various materials (LiMn2O4 ref, Mn2O3 ref, MnO2 ref, 200cLi-MnO2 and 200cLi-MnO2-600).",
+        "b": "The figure shows absorbance spectra at different energies for various materials (LiMn2O4 ref, Mn2O3 ref, MnO2 ref, 300cLi-MnO2 and 300cLi-MnO2-600).",
+        "c": "The figure shows the absorbance of different materials (LiMn2O4 ref, Mn2O3 ref, MnO2 ref, 200cLi-MnO2 and 200cLi-MnO2-600) as a function of distance R.",
+        "d": "The figure shows the absorbance of different materials (LiMn2O4 ref, Mn2O3 ref, MnO2 ref, 300cLi-MnO2 and 300cLi-MnO2-600) as a function of distance R.",
+        "e": "The figure shows absorbance spectra at different energies for different oxidation states of Mn (Mn+3 and Mn+4).",
+        "f": "The figure shows absorbance spectra at different energies for different oxidation states of Mn (Mn+3 and Mn+4)."
+    },
+    "data_extraction": {
+        "a": "| Energy (eV) | Absorbance (arb. units) |\n|---|---|\n| 6535 | - |\n| 6540 | - |\n| 6545 | - |\n| 6550 | peak at ~6560 |\n| 6555 | - |\n| 6560 | - |\n| 6565 | - |\n| 6570 | - |",
+        "b": "| Energy (eV) | Absorbance (arb. units) |\n|---|---|\n| 6535 | - |\n| 6540 | peak at ~6538 |\n| 6545 | - |\n| 6550 | peak at ~6550 |\n| 6555 | - |\n| 6560 | peak at ~6558 |\n| 6565 | peak at ~6563 |\n| 6570 | - |",
+        "c": "| R (\u00c5) | Absorbance (arb. units) |\n|---|---|\n| 0 | - |\n| 1 | peak at ~1.4 \u00c5 |\n| 2 | peak at ~1.8 \u00c5 |\n| 3 | peak at ~2.8 \u00c5 |\n| 4 | - |",
+        "d": "| R (\u00c5) | Absorbance (arb. units) |\n|---|---|\n| 0 | - |\n| 1 | peak at ~1.4 \u00c5 |\n| 2 | peak at ~1.8 \u00c5 |\n| 3 | peak at ~2.8 \u00c5 |\n| 4 | - |",
+        "e": "| Energy (eV) | Absorbance (arb. units) |\n|---|---|\n| 635 | - |\n| 640 | - |\n| 645 | peak at ~643 eV |\n| 650 | peak at ~653 eV |\n| 655 | - |\n| 660 | - |",
+        "f": "| Energy (eV) | Absorbance (arb. units) |\n|---|---|\n| 526 | - |\n| 528 | - |\n| 530 | peak at ~529.5 eV |\n| 532 | - |\n| 534 | - |\n| 536 | - |"
+    },
+    "vqa": {
+        "f": [
+            {
+                "question_type": "Application/Performance",
+                "question": "What effect does the annealing treatment have on the samples?",
+                "answer_type": "Factoid",
+                "answer": "It seems that the annealing treatment removes the Mn+3 peak from the spectra."
+            }
+        ],
+        "d": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which sample has the highest intensity of the Mg-O bond?",
+                "answer_type": "Factoid",
+                "answer": "300cLi-MnO2 without annealing treatment."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which samples were studied and shown in the absorbance spectra?",
+                "answer_type": "Factoid",
+                "answer": "LiMnO2O4, Mn2O3, and MnO2 films used as a reference. Also, 200cLi-MnO2, 300cLi-MnO2, and 200cLi-MnO2-600 without annealing treatment;  and 300cLi-MnO2-600, with annealing treatment."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What effect does the annealing treatment have on the 300cLi-MnO2 sample?",
+                "answer_type": "Factoid",
+                "answer": "The annealing treatment produces a shift in the peak to a higher energy values."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "f": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

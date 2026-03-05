@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_3",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays X-ray diffraction patterns of various lithium manganese oxide compounds at different concentrations.",
+        "b": "The figure shows X-ray diffraction patterns of lithium manganese oxide compounds and their lithiated phases."
+    },
+    "data_extraction": {
+        "a": "| \u00b020\u03c7 | Intensity (arb. units) MnO2 | Intensity (arb. units) 10cLi-MnO2| Intensity (arb. units) 50cLi-MnO2|\n| --- | --- | --- | --- |\n|20|-|-|Li1-xMn2O4 (111)|\n|30|-|-|-|\n|40|\u03b2-MnO2 (011)|\u03b2-MnO2 (011)|Li1-xMn2O4 (131)|\n|50|-|-|-|\n|65|\u03b2-MnO2 (002)|\u03b2-MnO2 (002)|Li1-xMn2O4 (440)|\n|70|\u03b2-MnO2 (031)|\u03b2-MnO2 (031)|-|\n|80|\u03b2-MnO2 (022)|-|-|",
+        "b": "| \u00b020 | Intensity (arb. units) MnO2 | Intensity (arb. units) 10cLi-MnO2| Intensity (arb. units) 50cLi-MnO2|\n| --- | --- | --- | --- |\n|15|-|-|-|\n|20|\u03b2-MnO2 (100)|\u03b2-MnO2 (100)|\u03b2-MnO2 (100)|\n|33|Peak|Peak|Peak|\n|35|-|-|Lithiated phase|\n|40|\u03b2-MnO2 (200)|\u03b2-MnO2 (200)|\u03b2-MnO2 (200)|\n|45|-|Li1-xMn2O4 (400)|Li1-xMn2O4 (400)|"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What peak makes it hard to fully distinguish between MnO2 and lithium doped MnO2?",
+                "answer_type": "Paragraph",
+                "answer": "a\tThe peak at 37 \u00b020\u03c7 is the biggest peak for all three eventhough they relate to different crystal orientations, making it hard to destinguish between the three of them."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Based on  the given spectra, is there any lithium incorporation for 10 lithium cycles?",
+                "answer_type": "Paragraph",
+                "answer": "a\tThe spectra for pristine MnO2 and 10 lithium cycles doped MnO2 show the exact same peaks, though with different intensities. The different intensities are likely not related to the structure of the film so it is likely that there is no lithium incorporation."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Are there still MnO2 specific peaks visible if the film contains lithium dopants?",
+                "answer_type": "Paragraph",
+                "answer": "b\tThe (100) and (200) peakls are still present in the lithium doped film, so yes these features are still present."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What angles should be inspected to gain information on the lithiated phase?",
+                "answer_type": "List",
+                "answer": "b\t18 \u00b020 and 36 \u00b020."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

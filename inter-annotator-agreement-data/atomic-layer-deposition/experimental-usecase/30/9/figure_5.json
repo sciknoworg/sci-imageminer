@@ -1,0 +1,54 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_5",
+    "classification": {
+        "a": "spectra chart"
+    },
+    "summarization": {
+        "a": "The figure presents X-ray absorption spectra measured in total electron yield mode for Fe\u2082O\u2083 thin films with varying magnesium content, all grown at 425\u202f\u00b0C from CpFeC5H4CHN(CH3)2. The spectra show that undoped films and those lightly doped with 0.02\u202fat.% Mg closely resemble hematite, exhibiting a characteristic Fe\u202f2p L3 main peak and shoulder at 708.5\u202feV. As the Mg doping increases to 0.2\u20130.38\u202fat.%, the shoulder intensity decreases, indicating the emergence of a minor magnetite component, in agreement with XRD data. These observations highlight the effect of Mg doping on the Fe\u202f2p electronic structure and phase composition of the films."
+    },
+    "data_extraction": {
+        "a": "|Photon energy (eV)|non-doped|Mg 0.02 at.%|Mg 0.2 at.%|Mg 0.38 at.%|\n|------------------|---------|------------|-----------|------------|\n|700|0|0|0|0|\n|705|0|0|0|0|\n|708.5|shoulder|shoulder|decreased|decreased|\n|710|main peak|main peak|main peak|main peak|\n|715|0|0|0|0|\n|720|0|0|0|0|\n|725|0|0|0|0|\n|730|0|0|0|0|\n|735|0|0|0|0|\n|740|0|0|0|0|"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is it important to study the effect of Mg doping on Fe\u2082O\u2083 thin films using XAS?",
+                "answer_type": "Paragraph",
+                "answer": "Understanding the influence of Mg doping on the Fe\u202f2p electronic structure helps to correlate doping levels with phase composition and material properties. The XAS spectra reveal how Mg incorporation modifies the balance between hematite and magnetite phases, which can impact the magnetic, electronic, and catalytic behavior of the films. Such knowledge is essential for tailoring the properties of Fe\u2082O\u2083-based functional materials for applications in sensors, catalysis, or spintronic devices."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which spectral features indicate the presence of hematite and magnetite in the Fe\u202f2p XAS data?",
+                "answer_type": "List",
+                "answer": "Hematite: L3 main peak around 710\u202feV, shoulder at 708.5\u202feV, Magnetite: Reduced intensity of the shoulder at 708.5\u202feV and changes in L3 peak shape"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does increasing the magnesium doping level affect the Fe\u202f2p XAS spectra of Fe\u2082O\u2083 films?",
+                "answer_type": "Paragraph",
+                "answer": "Yes, higher Mg doping levels reduce the intensity of the shoulder at 708.5\u202feV, indicating a partial shift from hematite toward a minor magnetite component."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the Fe\u202f2p spectra of undoped films compare to those lightly doped with 0.02\u202fat.% Mg?",
+                "answer_type": "Factoid",
+                "answer": "Both undoped films and those with 0.02\u202fat.% Mg exhibit spectra characteristic of hematite, with the Fe\u202f2p L3 main peak and a shoulder at 708.5\u202feV."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_6",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The chart shows the mass change over time at different temperatures (250\u00b0C, 275\u00b0C, 300\u00b0C, 325\u00b0C) on Al2O3 surface. The mass change increases sharply around 30 seconds and plateaus until 60 seconds, followed by a steep decrease, which plateas till 90 s. This happens in a cyclic fashion."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | 250\u00b0C | 275\u00b0C | 300\u00b0C | 325\u00b0C |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 30 | 30 | 30 | 30 | 25 |\n| 60 | 65 | 65 | 65 | 60 |\n| 90 | 60 | 50 | 45 | 20 |\n| 120 | 70 | 60 | 55 | 40 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which temperature results in the highest etch rate?",
+                "answer_type": "Paragraph",
+                "answer": "325 degrees results in a net decrease of around 20 nm/cm^2."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Is the initial cycle of dosing TMA and HF temperature dependent?",
+                "answer_type": "Paragraph",
+                "answer": "No, it seems as if the initial cycle is not temperature depentent. For all temperatures similar mass changes are recorded."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Is there a temperature that deviates from a linear increase in etch rate for increasing temperature?",
+                "answer_type": "Paragraph",
+                "answer": "If a linear relation is expected between etch rate and temperature, the final mass change level of 300 degrees celcius should be lower (equally spaced between the level of 275 and 325 degrees celcius)."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What could be a reason for the positive feature at 60 seconds at 250 degrees C?",
+                "answer_type": "Paragraph",
+                "answer": "It could be that there is net adsorption of TMA at the surface after which it starts etching as opposed to etching from the start."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

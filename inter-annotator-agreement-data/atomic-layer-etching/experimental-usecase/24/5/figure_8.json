@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_8",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart shows the change in mass (\u0394M) over temperature for two different subcycles (TMA and HF) with negative values indicating mass loss.",
+        "b": "The line chart illustrates the change in MCPC (mass change per cycle) over temperature, showing a consistent decrease for increasing temperature."
+    },
+    "data_extraction": {
+        "a": "| Temperature (\u00b0C) | \u0394M<sub>TMA</sub> (ng/cm<sup>2</sup> cycle) | \u0394M<sub>HF</sub> (ng/cm<sup>2</sup> cycle) |\n|---|---|---|\n| 250 | -20 | 5 |\n| 275 | -30 | 10 |\n| 300 | -40 | 15 |\n| 325 | -50 | 20 |",
+        "b": "| Temperature (\u00b0C) | MCPC (ng/cm<sup>2</sup> cycle) |\n|---|---|\n| 250 | -5 |\n| 275 | -10 |\n| 300 | -15 |\n| 325 | -20 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which subcycle is more temperature dependent?",
+                "answer_type": "Paragraph",
+                "answer": "a\tThe TMA dose seems to be more temperature dependent as the curve has a higher absolute slope."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Based on this figure, what is the MCPC at 325 degrees celcius?",
+                "answer_type": "Paragraph",
+                "answer": "The MCPC can be caluclated by adding both the delta M of TMA and HF, which gives an MCPC of -20 ng/cm^2."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Is it a given that a higher etch rate is achieved for an even higher temperature?",
+                "answer_type": "Paragraph",
+                "answer": "No, this is not given as at a certain point desorption can have a roll. Thereby eliminating the ALE mechanism."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "If a MCPC of -15 ng/cm^2 is desired, which process temperature should be chosen?",
+                "answer_type": "Factoid",
+                "answer": "b\tFor this MCPC 300 degrees celcius should be chosen as temperature."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

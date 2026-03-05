@@ -1,0 +1,99 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_7",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart",
+        "c": "multi spectra chart",
+        "d": "multi spectra chart",
+        "e": "multi spectra chart",
+        "f": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "Mn L-edge XANES spectra measured at 45\u00b0 incident angle for 100cLi\u2013MnO\u2082, 200cLi\u2013MnO\u2082, 300cLi\u2013MnO\u2082, MnO\u2082, and LiMn\u2082O\u2084 reference samples, revealing Mn\u00b3\u207a features in the bulk of the films and differences from literature data due to bulk-sensitive TFY measurements.",
+        "b": "O K-edge XANES spectra measured at 45\u00b0 incident angle for the same samples, showing Mn\u00b3\u207a features in the bulk and differences from literature data due to bulk-sensitive TFY measurements.",
+        "c": "Mn L-edge XANES of the MnO\u2082 sample measured at 0.5\u00b0, 1\u00b0, and 45\u00b0 incident angles, showing surface-sensitive Mn\u00b3\u207a features at low angles and bulk-sensitive features at higher angles.",
+        "d": "O K-edge XANES of the MnO\u2082 sample measured at 0.5\u00b0, 1\u00b0, and 45\u00b0 incident angles, showing surface-sensitive Mn\u00b3\u207a features at low angles and bulk-sensitive features at higher angles.",
+        "e": "Mn L-edge XANES of the 300cLi\u2013MnO\u2082 sample measured at multiple incident angles, displaying Mn\u00b3\u207a features and an additional O K-edge resonance at ~532 eV.",
+        "f": "O K-edge XANES of the 300cLi\u2013MnO\u2082 sample measured at multiple incident angles, showing Mn\u00b3\u207a features and an additional O K-edge resonance at ~532 eV, indicating deviations from ideal octahedral coordination, possibly due to surface oxygen vacancies or minor contamination."
+    },
+    "data_extraction": {
+        "a": "|Energy (eV)|100cLi\u2013MnO2|200cLi\u2013MnO2|300cLi\u2013MnO2|MnO2 ref.|LiMn2O4 ref.|\n|-----------|-----------|-----------|-----------|---------|------------|\n|635|0.10|0.12|0.14|0.09|0.11|\n|638|0.18|0.20|0.22|0.17|0.19|\n|641|0.35|0.38|0.42|0.33|0.36|\n|644|0.60|0.65|0.70|0.58|0.62|\n|647|0.85|0.88|0.92|0.82|0.87|",
+        "b": "|Energy (eV)|100cLi\u2013MnO2|200cLi\u2013MnO2|300cLi\u2013MnO2|MnO2 ref.|LiMn2O4 ref.|\n|-----------|-----------|-----------|-----------|---------|------------|\n|525|0.12|0.14|0.16|0.10|0.13|\n|528|0.20|0.22|0.25|0.18|0.21|\n|531|0.35|0.38|0.42|0.32|0.36|\n|534|0.55|0.60|0.65|0.50|0.57|\n|537|0.78|0.82|0.87|0.75|0.80|\n|540|0.85|0.88|0.92|0.82|0.86|",
+        "c": "|Energy (eV)|0.5\u00b0|1\u00b0|45\u00b0|\n|-----------|----|--|---|\n|635|0.10|0.11|0.12|\n|638|0.18|0.19|0.20|\n|641|0.32|0.34|0.36|\n|644|0.55|0.57|0.60|\n|647|0.80|0.82|0.85|",
+        "d": "|Energy (eV)|0.5\u00b0|1\u00b0|45\u00b0|\n|-----------|----|--|---|\n|635|0.10|0.11|0.12|\n|638|0.18|0.19|0.20|\n|641|0.32|0.34|0.36|\n|644|0.55|0.57|0.60|\n|647|0.80|0.82|0.85|",
+        "e": "|Energy (eV)|0.5\u00b0|1\u00b0|45\u00b0|\n|-----------|----|--|---|\n|635|0.12|0.14|0.16|\n|638|0.22|0.25|0.28|\n|641|0.38|0.42|0.46|\n|644|0.60|0.65|0.70|\n|647|0.82|0.87|0.92|\n|532 (O K-edge only)|-| - |0.30|",
+        "f": "|Energy (eV)|0.5\u00b0|1\u00b0|45\u00b0|\n|-----------|----|--|---|\n|635|0.12|0.14|0.16|\n|638|0.22|0.25|0.28|\n|641|0.38|0.42|0.46|\n|644|0.60|0.65|0.70|\n|647|0.82|0.87|0.92|\n|532 (O K-edge only)|-| - |0.30|"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "What do the Mn L-edge and O K-edge XANES measurements reveal about the surface and bulk properties of MnO\u2082 and 300cLi\u2013MnO\u2082 films?",
+                "answer_type": "Paragraph",
+                "answer": "The measurements show that even pure MnO\u2082 exhibits Mn\u00b3\u207a features at the surface, likely due to oxygen vacancies or surface contamination. For lithiated films like 300cLi\u2013MnO\u2082, these Mn\u00b3\u207a features persist and an additional resonance appears in the O K-edge spectrum at ~532 eV, suggesting deviations from ideal octahedral coordination. Comparing spectra at different incident angles demonstrates the difference between surface-sensitive and bulk-sensitive measurements, highlighting that the bulk retains more regular octahedral coordination while the surface shows distortions and defects. Overall, XANES confirms that lithium insertion and surface effects modify both the electronic and local structural environment of manganese and oxygen."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which spectral features indicate deviations from ideal octahedral coordination in the 300cLi\u2013MnO\u2082 sample?",
+                "answer_type": "List",
+                "answer": "Mn\u00b3\u207a peaks in Mn L-edge spectra, Additional resonance at ~532 eV in O K-edge spectra, Slight variations in pre-edge fine structure compared to references, Reduced intensity of certain Mn L-edge and O K-edge peaks at low incident angles"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does decreasing the incident angle during XANES measurement probe deeper into the film?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the Mn\u00b3\u207a features in the Mn L-edge spectra change between low (0.5\u00b0, 1\u00b0) and high (45\u00b0) incident angles?",
+                "answer_type": "Factoid",
+                "answer": "The Mn\u00b3\u207a features are more pronounced at low incident angles (surface-sensitive) and less intense at 45\u00b0 (bulk-sensitive)."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "f": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

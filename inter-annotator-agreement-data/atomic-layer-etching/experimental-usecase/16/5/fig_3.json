@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_3",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart"
+    },
+    "summarization": {
+        "a": "A spectra chart displaying intensity against binding energy with two labeled curves representing different concentrations of CF4.",
+        "b": "A spectra chart displaying intensity against binding energy with two labeled curves representing different concentrations of CF4. Multiple peaks are labeled indicating different chemical bonds."
+    },
+    "data_extraction": {
+        "a": "| Binding Energy, eV | Intensity, vCF4 = 3.3%, counts/s |Intensity, vCF4 = 6.6%, counts/s |\n|---|---|---|\n| 698 | 0 |0|\n| 696 | 0 |0|\n| 694 | 0 |0|\n| 692 | 0 |0|\n| 690 | peak till 4000 | peak till 7000|\n| 688 | 0 |0|\n| 686 | 0 |0|\n| 684 | 0 |0|\n| 682 | 0 |0|",
+        "b": "| Binding energy, eV | Intensity, vCF4 = 3.3%, counts/s |Intensity, vCF4 = 6.6%, counts/s |\n|---|---|---|\n| 298 | 0 | 0 |\n| 296 | peak till 400 | peak till 300|\n| 294 | 0 | 0 |\n| 292 | peak till 200 | peak till 500 |\n| 290 | 0 | peak till 500 |\n| 288 | 0 | peak till 600 |\n| 286 | peak till 1600 | peak till 100 |\n| 284 | 0 | 0 |\n| 282 | 0 | 0 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How is the fluorine content related to the CF4 concentration in the used plasma?",
+                "answer_type": "Paragraph",
+                "answer": "Based on subfigure a, it is shown that an increase in the CF4 concentration results in more fluorine in the film."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Can the shift in peak position for fluorine say something about the stoichiometry?",
+                "answer_type": "Paragraph",
+                "answer": "Yes, usually a shift in peak position indicates different stoichiometries. This is proven by the spectrum from carbon where the change in stoichiometry also introduces different peaks."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "How does the CF4 concentration determine the stoichiometry of the film?",
+                "answer_type": "Paragraph",
+                "answer": "An increase in CF4 concentration seems to induce a shift from more CF3 and C-CFx bonds towards more CF and CF2 bonds."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "can it be said that there is more carbon in the film in the case that the CF4 concentration is 3.3% with respect to the 6.6% case?",
+                "answer_type": "Paragraph",
+                "answer": "This conclusion can not be drawn from the bare carbon spectrum. Calculations of atomic composition require more material specific parameters than the pure XPS spectrum."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

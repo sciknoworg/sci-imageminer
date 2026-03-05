@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_2",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart illustrates the mass changes over time at 300\u00b0C on Al\u2082O\u2083 during the sequential dosing of TMA and HF,  showing a stepwise decrease in mass."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 6100 | -1440 |\n| 6150 | -1460 |\n| 6200 | -1490 |\n| 6250 | -1500 |\n| 6300 | -1490 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What describes the figure presented?",
+                "answer_type": "Factoid",
+                "answer": "The figure shows a zoom-in view of the entire mass change graph. Here, it is possible to observe the mass change after TMA and HF dosing at 300 \u00b0C on Al2O3, with decreasing values over the time and slight mass gains after the HF dose."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does mass change over the time?",
+                "answer_type": "Factoid",
+                "answer": "The figure shows a slight decrease as time increases. After the TMA dose, a mass loss can be observed. Subsequently, the HF dose leads to mass gain."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which reactant causes a loss of mass over time?",
+                "answer_type": "Factoid",
+                "answer": "TMA"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why does TMA produce a loss of mass over time?",
+                "answer_type": "Factoid",
+                "answer": "TMA can etch the fluorinated Al2O3 films, removing the AlF3 from the surface. This explains why decreases are observed after TMA dose."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

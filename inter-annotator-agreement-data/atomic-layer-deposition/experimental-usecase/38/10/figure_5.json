@@ -1,0 +1,58 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_5",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart"
+    },
+    "summarization": {
+        "a": "The figure presents multiple X-ray diffraction spectra comparing lithium-intercalated manganese oxide samples, highlighting the emergence and evolution of Li\u2093Mn\u2082O\u2084-related diffraction peaks as lithium content increases."
+    },
+    "data_extraction": {
+        "a": "| Intensity (arb. units) | \u00b020\u03c7 |\n| --- | --- |\n| Li_{x}Mn_{2}O_{4} (111) | 20 |\n| Li_{x}Mn_{2}O_{4} / (131) | 40 |\n| Li_{x}Mn_{2}O_{4} (440) | 60 |\n| 300cLi-MnO_{2} | 50 |\n| 200cLi-MnO_{2} | 70 |\n| 100cLi-MnO_{2} | 90 |",
+        "b": "| Intensity (arb. units) | \u00b020 |\n| --- | --- |\n| Lithiated phase | 15 |\n| Lithiated phase | 20 |\n| Lithiated phase | 25 |\n| Lithiated phase | 30 |\n| Lithiated phase | 35 |\n| Lithiated phase | 40 |\n| Lithiated phase | 45 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the diffraction patterns change as lithium content increases across the samples?",
+                "answer_type": "Paragraph",
+                "answer": "With increasing lithium content, new diffraction peaks associated with Li\u2093Mn\u2082O\u2084 become more prominent, while features associated with the original MnO\u2082 structure diminish, indicating a gradual phase transformation driven by lithium insertion."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What application-relevant insights can be inferred from the observed phase evolution?",
+                "answer_type": "List",
+                "answer": "Li intercalation confirmed, Spinel phase formation, Battery electrode relevance"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which crystalline phase becomes more evident after lithiation according to the diffraction patterns?",
+                "answer_type": "Factoid",
+                "answer": "Li\u2093Mn\u2082O\u2084."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the figure show that lithiation alters the crystal structure of manganese oxide?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

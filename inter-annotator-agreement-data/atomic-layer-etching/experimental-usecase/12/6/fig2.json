@@ -1,0 +1,79 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig2",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart",
+        "d": "line chart"
+    },
+    "summarization": {
+        "a": "The graph shows the relationship between SF<sub>6</sub> plasma exposure time and EPC (Etch Per Cycle) in \u00c5ngstr\u00f6ms.",
+        "b": "The graph illustrates the effect of plasma pump time on EPC in \u00c5ngstr\u00f6ms.",
+        "c": "The graph depicts the impact of TMA dosing time on EPC in \u00c5ngstr\u00f6ms.",
+        "d": "The graph shows the influence of TMA pump time on EPC in \u00c5ngstr\u00f6ms."
+    },
+    "data_extraction": {
+        "a": "| SF<sub>6</sub> plasma time (s) | EPC (\u00c5) |\n|---|---|\n| 0 | 0 |\n| 1 | 2.5 |\n| 2 | 3.25 |\n| 5 | 3.25 |\n| 7.5 | 3.25 |\n| 30 | 3.5 |",
+        "b": "| Plasma pump time (s) | EPC (\u00c5) |\n|---|---|\n| 5 | 3 |\n| 10 | 3 |\n| 30 | 3 |",
+        "c": "| TMA dosing time (s) | EPC (\u00c5) |\n|---|---|\n| 0 | 0 |\n| 0.1 | -0.1 |\n| 0.2 | 0.1 |\n| 0.3 | 2.5 |\n| 0.4 | 2.75 |\n| 0.5 | 3 |\n| 0.8 | 3 |",
+        "d": "| TMA pump time (s) | EPC (\u00c5) |\n|---|---|\n| 5 | 3.25 |\n| 10 | 3 |\n| 30 | 3 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What was the obtained etch per cycle value as a function of TMA dosing time?",
+                "answer_type": "Factoid",
+                "answer": "3.1 \u00c5."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What was the process temperature?",
+                "answer_type": "Factoid",
+                "answer": "260 \u00b0C."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How do the authors explain the quasi-saturated behaviour that is observed during SF6 exposure?",
+                "answer_type": "Paragraph",
+                "answer": "As the film is exposed to SF6 plasma, the formed fluorine radicals react quickly with surface Al2O3 molecules to form AlF3. This AlF3 then acts as a protective layer, which inhibits the remaining fluorine radicals from reacting with Al2O3 below the AlF3 film. However, this AlF3 does not completely prevent the fluorine radicals from reaching the lower layers of Al2O3, so more AlF3 gets formed as the exposure time of SF6 increases. After about 3 seconds, this reaction does become diffusion-limited, which explains the observed change."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What was the final, selected pump/purge time?",
+                "answer_type": "Factoid",
+                "answer": "10 s."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_7",
+    "classification": {
+        "a": "polar chart (rose chart)"
+    },
+    "summarization": {
+        "a": "The polar chart displays Al\u2082O\u2083 ALE etch rate (nm/cycle) across the wafer as a function of radius (cm) and polar angle; color scale from 0.131 to 0.139 nm/cycle shows that the highest etch is near the center."
+    },
+    "data_extraction": {
+        "a": "| Radius, cm | Value |\n|---|---|\n|0 < Radius < 0.8| 0.138 < Value < 0.139 |\n|0.8 < Radius < 1.2| 0.137 < Value < 0.138 |\n|1.2 < Radius < 1.6| 0.136 < Value < 0.137 |\n|1.6 < Radius < 2| 0.135 < Value < 0.136 |\n|2 < Radius < 2.2| 0.134 < Value < 0.135 |\n|2.2 < Radius < 2.5| 0.133 < Value < 0.134 |\n|2.5 < Radius < 2.6| 0.132 < Value < 0.133 |\n|2.6 < Radius < 2.7| 0.131 < Value < 0.132 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the maximum Al\u2082O\u2083 etch rate shown on the color scale?",
+                "answer_type": "Factoid",
+                "answer": "0.139 nm/cycle."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which spatial coordinates are used to describe the etch-rate map in this figure?",
+                "answer_type": "Paragraph",
+                "answer": "-) Radius from the wafer center (cm)\n\n-) Polar angle around the wafer (degrees)"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does the wafer center etch faster than the outer radial zone in this ALE run?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does the figure confirm that the Al\u2082O\u2083 ALE etch rate decreases toward the wafer edge, consistent with the statement that the uniformity is about \u00b13% from minimum to maximum?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_4",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart"
+    },
+    "summarization": {
+        "a": "Mass change after TMA exposure (\u0394M_TMA) as a function of TMA exposure time at 300 \u00b0C. \u0394M_TMA decreases with increasing exposure time and reaches a plateau at approximately \u221229 ng/cm\u00b2 after about 2 s, indicating nearly self-limiting removal of the AlF\u2083 surface layer.",
+        "b": "Mass change after HF exposure (\u0394M_HF) as a function of HF exposure time at 300 \u00b0C. \u0394M_HF increases initially and reaches a plateau at approximately 13 ng/cm\u00b2 after about 1 s, consistent with the formation of a passivating AlF\u2083 surface layer and self-limiting reaction behavior."
+    },
+    "data_extraction": {
+        "a": "|TMA Exposure Time (s)|\u0394M<sub>TMA</sub> (ng/(cm<sup>2</sup> cycle))|\n|---------------------|--------------------------------------------|\n|0.0|0|\n|0.5|-10|\n|1.0|-20|\n|1.5|-27|\n|2.0|-29|\n|2.5|-29|\n|3.0|-29|",
+        "b": "|HF Exposure Time (s)|\u0394M<sub>HF</sub> (ng/(cm<sup>2</sup> cycle))|\n|--------------------|-------------------------------------------|\n|0.0|0|\n|0.5|10|\n|1.0|13|\n|1.5|13|\n|2.0|13|"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is monitoring the exposure time versus mass change important for ALE process optimization?",
+                "answer_type": "Paragraph",
+                "answer": "Monitoring mass change versus exposure time allows determination of the exposure duration needed to reach self-limiting behavior. This ensures that each ALE cycle fully reacts without wasting precursor or risking over-etching. It is critical for process optimization, reproducibility, and achieving precise, conformal etching of Al\u2082O\u2083 films."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What does the plateau in mass change indicate about the surface layer formed during ALE?",
+                "answer_type": "List",
+                "answer": "\u0394MTMA plateau \u2192 AlF\u2083 removal reaches limit, \u0394MHF plateau \u2192 AlF\u2083 formation completes, Ensures controlled layer-by-layer etching"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Do the TMA and HF exposures exhibit self-limiting behavior during the ALE process at 300\u202f\u00b0C?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the trends of \u0394MTMA and \u0394MHF differ with exposure time?",
+                "answer_type": "Factoid",
+                "answer": "\u0394MTMA decreases with TMA exposure time, while \u0394MHF increases with HF exposure time."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

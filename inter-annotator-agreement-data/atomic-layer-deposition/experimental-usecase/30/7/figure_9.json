@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_9",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The plot shows the temperature dependence of magnetic susceptibility for Fe\u2082O\u2083 nanoparticles grown at 450 \u00b0C with an average diameter of 705 nm. Measurements were carried out using a field gradient apparatus (FGA) under an applied magnetic field of 1000 Oe, following zero-field-cooled (ZFC) and field-cooled (FC) protocols after forming gas annealing. Features associated with the Verwey transition temperature (T\ud835\udc49) of magnetite are indicated.",
+        "b": "This plot presents the temperature dependence of magnetic moment per gram for a composite consisting of 100 \u00d7 Fe\u2082O\u2083 and 4 \u00d7 (3 \u00d7 MgO + 100 \u00d7 Fe\u2082O\u2083), grown at 425 \u00b0C with an average diameter of 183 nm. Measurements were performed using an FGA under a magnetic field of 1000 Oe in both ZFC and FC modes after forming gas annealing. The Verwey transition temperature (TV) is marked.",
+        "c": "The plot shows the temperature dependence of magnetic moment per gram for a composite composed of 100 \u00d7 Fe\u2082O\u2083 and 15 \u00d7 (10 \u00d7 MgO + 100 \u00d7 Fe\u2082O\u2083), grown at 375 \u00b0C with an average diameter of 411 nm. Magnetization measurements were conducted using an FGA with an applied magnetic field of 1000 Oe under ZFC and FC conditions following forming gas annealing, with the Verwey transition temperature (T\ud835\udc49) indicated."
+    },
+    "data_extraction": {
+        "a": "| Temperature, K | FC | ZFC |\n|---|---|---|\n| 0 | ~0.10 | ~0.00 |\n| 50 | ~0.10 | ~0.00 |\n| 100 | ~0.10 | ~0.00 |\n| 150 | ~0.10 | ~0.00 |\n| 200 | ~0.10 | ~0.00 |\n| 250 | ~0.10 | ~0.00 |\n| 300 | ~0.10 | ~0.00 |",
+        "b": "| Temperature, K | FC | ZFC |\n|---|---|---|\n| 0 | ~0.06 | ~0.06 |\n| 50 | ~0.06 | ~0.06 |\n| 100 | ~0.06 | ~0.06 |\n| 150 | ~0.06 | ~0.06 |\n| 200 | ~0.06 | ~0.06 |\n| 250 | ~0.06 | ~0.06 |\n| 300 | ~0.06 | ~0.06 |",
+        "c": "| Temperature, K | FC | ZFC |\n|---|---|---|\n| 0 | ~0.069 | ~0.069 |\n| 50 | ~0.068 | ~0.068 |\n| 100 | ~0.067 | ~0.067 |\n| 150 | ~0.066 | ~0.066 |\n| 200 | ~0.065 | ~0.065 |\n| 250 | ~0.065 | ~0.065 |\n| 300 | ~0.065 | ~0.065 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Which films are better suited for cryogenic magnetic sensors versus room-temperature applications?",
+                "answer_type": "Paragraph",
+                "answer": "Cryogenic sensors: Prefer films with a sharp Verwey transition and strong ZFC/FC separation (e.g., thick, low-Mg film), as these provide distinct low-temperature magnetic signatures. 2. Room-temperature devices: Favor films with suppressed or broadened T\u1d65 (e.g., high-Mg film), ensuring stable magnetic behavior across 150\u2013300\u202fK without abrupt changes."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What does the presence of the Verwey transition in ZFC/FC curves indicate about the effect of forming gas annealing (FGA) on the films?",
+                "answer_type": "Paragraph",
+                "answer": "The Verwey transition (T\u1d65 \u2248 120\u2013125\u202fK) is a hallmark of magnetite (Fe\u2083O\u2084) with long-range charge ordering. Its appearance after FGA shows that annealing in a reducing atmosphere successfully converted hematite or maghemite phases into magnetite and improved crystallinity. This process also reduces oxygen content and stabilizes Fe\u00b2\u207a/Fe\u00b3\u207a mixed valence states, essential for magnetite formation."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do Mg/Fe ratio and growth temperature influence the Verwey transition and ZFC/FC behavior?",
+                "answer_type": "Paragraph",
+                "answer": "Pure Fe\u2082O\u2083 film (450\u202f\u00b0C, thick): Shows a sharp T\u1d65 at ~125\u202fK and strong ZFC/FC separation, indicating well-ordered magnetite after FGA.\nLow Mg doping (Mg/Fe \u2248 0.021, 425\u202f\u00b0C): T\u1d65 shifts slightly lower (~120\u202fK) and ZFC/FC separation narrows, suggesting smaller grains and mild disorder. High Mg doping (Mg/Fe \u2248 0.062, 375\u202f\u00b0C): T\u1d65 is broadened or suppressed, and ZFC/FC curves nearly overlap, indicating disrupted charge ordering and increased structural disorder due to Mg substitution and lower growth temperature"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What structural factors control the sharpness of the Verwey transition and ZFC/FC irreversibility?",
+                "answer_type": "Paragraph",
+                "answer": "The Verwey transition depends on stoichiometric magnetite with ordered Fe\u00b2\u207a/Fe\u00b3\u207a distribution. Mg substitution and oxygen vacancies disrupt this order, lowering or smearing T\u1d65. Grain size and strain also matter: larger, well-crystallized grains show sharp T\u1d65 and strong ZFC/FC splitting, while smaller or defect-rich grains broaden the transition and reduce irreversibility."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_8",
+    "classification": {
+        "a": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "The figure presents Mn LIII-edge XANES spectra for Li\u2013MnO\u2082 samples with varying lithiation levels, compared to Mn\u00b3\u207a and Mn\u2074\u207a reference spectra, illustrating how the Mn oxidation state evolves as lithium content increases."
+    },
+    "data_extraction": {
+        "a": "| Energy (eV) | 638 | 640 | 642 | 644 | 646 | 648 | 650 |\n|---|---|---|---|---|---|---|---|\n| 100/0 |  |  |  |  |  |  |  |\n| 80/20 |  |  |  |  |  |  |  |\n| 60/40 |  |  |  |  |  |  |  |\n| L<sub>III</sub> |  |  |  |  |  |  |  |\n| Mn<sup>4+</sup> / Mn<sup>3+</sup> |  |  |  |  |  |  |  |\n| Mn<sup>3+</sup> |  |  |  |  |  |  |  |\n| Mn<sup>4+</sup> |  |  |  |  |  |  |  |\n| MnO<sub>2</sub> |  |  |  |  |  |  |  |\n| 10cLi-MnO<sub>2</sub> |  |  |  |  |  |  |  |\n| 50cLi-MnO<sub>2</sub> |  |  |  |  |  |  |  |\n| 100cLi-MnO<sub>2</sub> |  |  |  |  |  |  |  |\n| 200cLi-MnO<sub>2</sub> |  |  |  |  |  |  |  |\n| 300cLi-MnO<sub>2</sub> |  |  |  |  |  |  |  |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the Mn LIII-edge XANES spectra vary across the Li\u2013MnO\u2082 samples?",
+                "answer_type": "Paragraph",
+                "answer": "The spectra show systematic shifts and intensity changes near the absorption edge, indicating a progressive reduction in manganese oxidation state as lithium content increases, moving from Mn\u2074\u207a-dominant toward Mn\u00b3\u207a-rich compositions."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which oxidation states of manganese are compared in this figure?",
+                "answer_type": "Factoid",
+                "answer": "Mn\u00b3\u207a and Mn\u2074\u207a."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What insights about material behavior can be drawn from this figure?",
+                "answer_type": "List",
+                "answer": "Li\u2013Mn oxidation correlation, Electronic structure changes, Redox tuning relevance."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the figure suggest that increasing lithium content leads to the reduction of manganese ions?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

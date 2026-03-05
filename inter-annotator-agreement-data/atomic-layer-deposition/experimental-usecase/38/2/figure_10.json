@@ -1,0 +1,97 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_10",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart",
+        "c": "multi spectra chart",
+        "d": "multi spectra chart",
+        "e": "stacked spectra chart",
+        "f": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "Mn K-edge XANES of 200cLi-MnO\u2082 samples (annealed at 600\u00b0C and unannealed) compared to LiMn\u2082O\u2084, Mn\u2082O\u2083, and MnO\u2082 powder references. Inset shows pre-edge region with t\u2082g and eg crystal field splitting features.",
+        "b": "Mn K-edge XANES of 300cLi-MnO\u2082 samples (annealed and unannealed) compared to the same references. The arrow indicates the absorption edge shift upon lithiation.",
+        "c": "Fourier transform of Mn K-edge EXAFS for 200cLi-MnO\u2082 samples showing Mn-O (~1.5 \u00c5) and Mn-Mn1 (~2.5 \u00c5) coordination shells, matching LiMn\u2082O\u2084 reference.",
+        "d": "Fourier transform of Mn K-edge EXAFS for 300cLi-MnO\u2082 samples. The 300cLi-MnO\u2082-600 sample shows an additional feature at ~3.5 \u00c5 not present in stoichiometric spinel.",
+        "e": "Mn L-edge XANES (L_III and L_II edges) at 45\u00b0 incidence, vertically stacked for comparison. Mn\u00b3\u207a and Mn\u2074\u207a features indicate mixed oxidation states.",
+        "f": "O K-edge XANES at 45\u00b0 incidence, vertically stacked. Features at ~529 and ~532 eV relate to hybridization with Mn\u2074\u207a and Mn\u00b3\u207a states respectively."
+    },
+    "data_extraction": {
+        "a": "| Energy, eV | LiMn\u2082O\u2084 ref. | Mn\u2082O\u2083 ref. | MnO\u2082 ref. | 200cLi-MnO\u2082 | 300cLi-MnO\u2082 | 200cLi-MnO\u2082-600 | 300cLi-MnO\u2082-600 |\n|---|---|---|---|---|---|---|---|\n| 6535 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 |\n| 6550 | 0.6 | 1.0 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |\n| 6558 | 1.0 | 0.6 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |\n| 6570 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 |",
+        "b": "| Energy, eV | LiMn\u2082O\u2084 ref. | Mn\u2082O\u2083 ref. | MnO\u2082 ref. | 200cLi-MnO\u2082 | 300cLi-MnO\u2082 | 200cLi-MnO\u2082-600 | 300cLi-MnO\u2082-600 |\n|---|---|---|---|---|---|---|---|\n| 6535 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 |\n| 6550 | 0.6 | 1.0 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |\n| 6558 | 1.0 | 0.6 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |\n| 6570 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 |",
+        "c": "| R, \u00c5 | LiMn\u2082O\u2084 ref. | 200cLi-MnO\u2082 | 200cLi-MnO\u2082-600 |\n|---|---|---|---|\n| 1.8 (Mn-O) | 1.0 | 0.85 | 0.90 |\n| 2.9 (Mn-Mn1) | 0.55 | 0.30 | 0.45 |",
+        "d": "| R, \u00c5 | LiMn\u2082O\u2084 ref. | 300cLi-MnO\u2082 | 300cLi-MnO\u2082-600 |\n|---|---|---|---|\n| 1.8 (Mn-O) | 1.0 | 0.85 | 0.90 |\n| 2.9 (Mn-Mn1) | 0.55 | 0.30 | 0.45 |",
+        "e": "| Energy, eV | LiMn\u2082O\u2084 ref. | Mn\u2082O\u2083 ref. | MnO\u2082 ref. | 200cLi-MnO\u2082 | 300cLi-MnO\u2082 | 200cLi-MnO\u2082-600 | 300cLi-MnO\u2082-600 |\n|---|---|---|---|---|---|---|---|\n| 643 (L_III, Mn\u00b3\u207a) | 0.70 | 0.70 | 0.70 | 0.70 | 0.70 |0.70 | 0.70 |\n| 645 (L_III, Mn\u2074\u207a) | 0.70 | 0.70 | 0.70 | 0.70 | 0.70 |0.70 | 0.70 |\n| 654 (L_II) | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |",
+        "f": "| Energy, eV | LiMn\u2082O\u2084 ref. | Mn\u2082O\u2083 ref. | MnO\u2082 ref. | 200cLi-MnO\u2082 | 300cLi-MnO\u2082 | 200cLi-MnO\u2082-600 | 300cLi-MnO\u2082-600 |\n|---|---|---|---|---|---|---|---|\n| 528 (Mn\u2074\u207a) | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 |\n| 531 (Mn\u00b3\u207a) | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |\n| 533 (Mn\u2074\u207a) | 0.5 |  0.5 |  0.5 | 0.5 |  0.5 |  0.5 |  0.5 |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What do the two peaks labeled Mn-O and Mn-Mn1 in panels (c) and (d) represent?",
+                "answer_type": "Factoid",
+                "answer": "They represent the first two coordination shells around Mn: the Mn-O bond distance (~1.5 \u00c5) and the nearest Mn-Mn distance (~2.5 \u00c5) between edge-sharing octahedra."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does annealing at 600\u00b0C affect the Mn K-edge EXAFS of the lithiated samples?",
+                "answer_type": "Paragraph",
+                "answer": "For 200cLi-MnO\u2082-600, annealing sharpens the Mn-O and Mn-Mn1 peaks, indicating improved local order matching the LiMn\u2082O\u2084 reference. For 300cLi-MnO\u2082-600, an unexpected peak appears at ~3.5 \u00c5, suggesting a secondary phase with non-octahedral Mn coordination."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why does the 300cLi-MnO\u2082-600 sample show anomalous EXAFS behavior?",
+                "answer_type": "Paragraph",
+                "answer": "It likely contains an impurity phase (Li\u2082\u208b\u1d64MnO\u2082) where Mn has ~+2 oxidation state. This explains the MnO-like pre-edge shape in XANES and the extra peak at 3.5 \u00c5 in EXAFS. XRD also detected this impurity phase."
+            }
+        ],
+        "e": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What do the L_III and L_II labels in panel (e) indicate?",
+                "answer_type": "Factoid",
+                "answer": "They denote the two spin-orbit split components of the Mn L-edge, arising from transitions from 2p\u2083/\u2082 (L_III) and 2p\u2081/\u2082 (L_II) core levels to empty 3d states."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "f": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

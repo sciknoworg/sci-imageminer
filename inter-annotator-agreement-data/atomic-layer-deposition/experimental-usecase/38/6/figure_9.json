@@ -1,0 +1,79 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_9",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart",
+        "c": "spectra chart",
+        "d": "spectra chart"
+    },
+    "summarization": {
+        "a": "2\u03b8\u03c7 measurements of the samples 200cLi\u2212MnO2 and 200cLi-MnO2-600.",
+        "b": "\u03b8\u22122\u03b8 measurements of the samples 200cLi\u2212MnO2 and 200cLi-MnO2-600.",
+        "c": "2\u03b8\u03c7 measurements of the samples 300cLi\u2212MnO2 and 300cLi-MnO2-600.",
+        "d": "\u03b8\u22122\u03b8 measurements of the samples 300cLi\u2212MnO2 and 300cLi-MnO2-600."
+    },
+    "data_extraction": {
+        "a": "| Sample | \u00b02\u03b8\u03c7 |\n|---|---|\n| 200cLi-MnO\u2082-600 | Peaks at 19, 36, 37, 64, 66 |\n| 200cLi-MnO\u2082 | Peaks at 37, 48, 65 |",
+        "b": "| Sample | \u03b8-2\u03b8 (\u00b02\u03b8) |\n|---|---|\n| 200cLi-MnO\u2082-600 | Peaks at 18, 21, 32.5, 35, 42.5 |\n| 200cLi-MnO\u2082 | Peaks at 17.5, 35 |",
+        "c": "| Sample | \u00b02\u03b8\u03c7 |\n|---|---|\n| 300cLi-MnO\u2082-600 | Peaks at 19, 36, 37, 64, 66 |\n| 300cLi-MnO\u2082 | Peaks at 37, 65 |",
+        "d": "| Sample | \u03b8-2\u03b8 (\u00b02\u03b8) |\n|---|---|\n| 300cLi-MnO\u2082-600 | Peaks at 19, 32.5, 36 |\n| 300cLi-MnO\u2082 | Peaks at 17.5, 33, 35 |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What additional reflection appears at 32.6\u00b0 in the 300cLi\u2013MnO\u2082\u2013600 sample, and what is it attributed to?",
+                "answer_type": "Factoid",
+                "answer": "A peak at 32.6\u00b0, attributed to an impurity phase Li(2\u2212z)MnO\u2082."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which two reflections can be indexed in the out-of-plane \u03b8\u20132\u03b8 patterns as belonging to the LiMn\u2082O\u2084 phase?",
+                "answer_type": "Factoid",
+                "answer": "(111) and (311)."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "At approximately what 2\u03b8 angle does the (111) reflection of the LiMn\u2082O\u2084 phase appear in the in-plane (2\u03b8\u03c7) measurement after lithiation?",
+                "answer_type": "Factoid",
+                "answer": "Around 18.5\u00b0."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "After annealing the 200cLi\u2013MnO\u2082 sample at 600 \u00b0C, which phase\u2019s reflections reappear?",
+                "answer_type": "Factoid",
+                "answer": "The beta-MnO2 phase."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

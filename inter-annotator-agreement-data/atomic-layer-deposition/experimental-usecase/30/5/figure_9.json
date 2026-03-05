@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_9",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The figure shows the temperature dependence of magnetic susceptibility for Fe\u2082O\u2083 nanoparticles grown at 450\u00b0C with a diameter of 705 nm, after a forming gas anneal (FGA) and a magnetic field of 1000 Oe.",
+        "b": "The figure shows the temperature dependence of magnetic moment per gram for a composite material consisting of 100 x Fe\u2082O\u2083 and 4 x (3 x MgO + 100 x Fe\u2082O\u2083) grown at 425\u00b0C with a diameter of 183 nm, after a forming gas anneal (FGA) and a magnetic field of 1000 Oe.",
+        "c": "The figure shows the temperature dependence of magnetic moment per gram for a composite material consisting of 100 x Fe\u2082O\u2083 and 15 x (10 x MgO + 100 x Fe\u2082O\u2083) grown at 375\u00b0C with a diameter of 411 nm, after a forming gas anneal (FGA) and a magnetic field of 1000 Oe."
+    },
+    "data_extraction": {
+        "a": "| Temperature, K | FC | ZFC |\n|---|---|---|\n| 0 | ~0.095 | ~0.00 |\n| 50 | ~0.095 | ~0.02 |\n| 100 | ~0.095 | ~0.05 |\n| 150 | ~0.115 | ~0.115 |\n| 200 | ~0.10 | ~0.10 |\n| 250 | ~0.10 |~0.10 |\n| 300 | ~0.10 | ~0.10 |",
+        "b": "| Temperature, K | FC | ZFC |\n|---|---|---|\n| 0 | ~0.055 | ~0.015 |\n| 50 | ~0.0556 | ~0.04 |\n| 100 | ~0.055 | ~0.05 |\n| 150 | ~0.0555 | ~0.055 |\n| 200 | ~0.055 | ~0.055|\n| 250 | ~0.055 | ~0.05 |\n| 300 | ~0.055 | ~0.05 |",
+        "c": "| Temperature, K | FC | ZFC |\n|---|---|---|\n| 0 | ~0.069 | ~0.065 |\n| 50 | ~0.069 | ~0.067 |\n| 100 | ~0.069 | ~0.068 |\n| 150 | ~0.069 | ~0.069|\n| 200 | ~0.068 | ~0.068 |\n| 250 | ~0.067 | ~0.067 |\n| 300 | ~0.066 | ~0.066 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What is the dopant level of this film?",
+                "answer_type": "Factoid",
+                "answer": "c\tThe dopant level is Mg/Fe = 0.062."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "At what temperature does the Verwey transition of magnitite occur?",
+                "answer_type": "Factoid",
+                "answer": "a\tThe temperature is 125 K."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What effect does the dopant level have on the magnetization?",
+                "answer_type": "Paragraph",
+                "answer": "It seems that increasing the doping level, slightly increases the magnetic moment."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Can the thickness of the films be excluded as a determining factor in the magnetization?",
+                "answer_type": "Paragraph",
+                "answer": "For all three graphs, samples with different thickness are used. So it could be that this thickness plays a factor in the different magnetizations."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

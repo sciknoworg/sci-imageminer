@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_5",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The chart shows the etch rate (nm/cycle) of Al2O3, HfO2, AlNx, TiN and SiO2 against the activation step duration in seconds. The etch rate for all materials starts at a negative value, which corresponds to film formation. The etch rate of all materials increases with time."
+    },
+    "data_extraction": {
+        "a": "| activation step duration, s | etch rate, nm/cycle | Al2O3 | HfO2 | AlNx | TiN | SiO2 |\n|---|---|---|---|---|---|---|\n| 0 | | -0.5 | -0.5 | -0.5 | -0.5 | -0.5 |\n| 5 | | 0 | 0 | 0 | 0 | 0.4 |\n| 10 | | 0.2 | 0.1 | 0.2 | 0 | 0.6 |\n| 20 | | 0.3 | 0.2 | 0.3 | 0.1 | 0.8 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What does a negative etch rate mean?",
+                "answer_type": "Factoid",
+                "answer": "A negative etch rate corresponds to film growth/formation, rather than etching."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What was the constant modification-step duration used in this experiment?",
+                "answer_type": "Factoid",
+                "answer": "10 seconds."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What causes the lower slope (etch-rate dependence) for HfO2 compared to Al2O3 and AlN3?",
+                "answer_type": "Factoid",
+                "answer": "HfO2 has a higher sputtering threshold."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "The ALE window is seemingly absent for the activation step. Why is this the case according to the authors?",
+                "answer_type": "Factoid",
+                "answer": "It is probably due to the non-monoenergetic ion distribution function. The incline observed in the ALE window for the activation step may hamper reproducibility."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

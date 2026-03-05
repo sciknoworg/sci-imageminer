@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_5",
+    "classification": {
+        "a": "multi-axis chart"
+    },
+    "summarization": {
+        "a": "The chart shows the change in mass and thickness over time at different temperatures 250, 275, 300, and 325 \u00b0C,  after sequential TMA and HF treatments."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass Change (ng/cm\u00b2) at 250\u00b0C | Mass Change (ng/cm\u00b2) at 275\u00b0C | Mass Change (ng/cm\u00b2) at 300\u00b0C | Mass Change (ng/cm\u00b2) at 325\u00b0C |\n|----------|-------------------|-----------------------|--------------------|-------------------|\n| 0            |  0                          | 0                                | 0                           | 0                          |\n| 2000     | -100                    | -250                          | -600                    | -800                 |\n| 4000     | -200                    | -1000                        | -1000                 | -1500                 |\n| 6000     | -250                    | -800                           | -1500                 | -2250                 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does mass changes versus time during Al2O3 ALE remain linear at all temperatures?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does Mass change and thickness relate in the graph?",
+                "answer_type": "Factoid",
+                "answer": "These MCPCs correspond to etch rates hence a mass loss is a direct indicator of thickness decreasing and vice versa."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What are the etch rates ?",
+                "answer_type": "Paragraph",
+                "answer": "Etch rates are\n1. 0.14 \u00c5/cycle at 250 \u00b0C \n2.  0.75 \u00c5/cycle at 325 \u00b0C"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How are the etch rates determined?",
+                "answer_type": "Paragraph",
+                "answer": "The determination of these etch rates is based on the Al2O3 ALD film density of 3.1 g/cm3, the MCPC, the number of ALE cycles."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

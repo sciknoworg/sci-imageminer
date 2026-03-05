@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_11",
+    "classification": {
+        "a": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays infrared absorption spectra from 800 to 1300 cm\u207b\u00b9 at 300\u00b0C, comparing TMA (a) and HF (b) samples."
+    },
+    "data_extraction": {
+        "a": "| Wavenumber (cm\u207b\u00b9) | a  Absorbance (TMA, blue) | b Absorbance (HF, red) |\n|--------------------|--------------------------|-----------------------|\n| 1300              | 0.00                   | 0.00                |\n| 1220              | +0.05                | -0.05               |\n| 1100              | -0.002              | +0.002            |\n| 950               | -0.04                  | +0.02             |\n| 800               | 0.00                    | 0.00                 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the IR spectra differ after TMA and HF exposure?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What does del(CH3) species mean at ~1212cm-1 what does it consist of?",
+                "answer_type": "Paragraph",
+                "answer": "del(CH3) = AlCH3* species may be present as either\n1. AlF(CH3)2*\n2. AlF2(CH3)*\n3. \u2212OAl(CH3)2*."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What does Al(CH3)* species mean at ~1212cm-1 what does it consist of?",
+                "answer_type": "Paragraph",
+                "answer": "AlCH3* represents methyl deformation mode and species may be present as either\n1. AlF(CH3)2*\n2. AlF2(CH3)*\n3. \u2212OAl(CH3)2*."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "what happens to Al(CH3)* after different exposures.",
+                "answer_type": "Paragraph",
+                "answer": "AlF(CH3)2 is expected to have a higher volatility than other species, the vibrational feature at 1212 cm\u22121 is likely attributed to AlF2(CH3)* or \u2212OAl(CH3)2* . In addition, a decrease in absorbance between \u223c850 and 975 cm\u22121 is observed that is consistent with the loss of absorbance from Al\u2212F stretching vibrations as TMA removes the AlF3 surface layer. The absorbance is completely removed for the vibrational feature attributed to the addition of AlCH3* species after HF exposure. This loss of absorbance is in accord with the conversion of AlCH3* surface species to AlF* species. This is in agreement with the conversion of Al2O3 into AlF. Hence alternating the exposure eventually leads to removal/etching."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

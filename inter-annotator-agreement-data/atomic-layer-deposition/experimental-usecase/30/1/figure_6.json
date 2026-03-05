@@ -1,0 +1,79 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_6",
+    "classification": {
+        "a": "image panel",
+        "b": "image panel",
+        "c": "image panel",
+        "d": "image panel"
+    },
+    "summarization": {
+        "a": "The pure Fe\u2082O\u2083 film shows large, faceted grains with sharp edges. The surface is rough and loosely packed. This morphology is typical of high-temperature hematite growth without modifiers.",
+        "b": "With a small amount of Mg added, the grains become smaller and less faceted. The surface looks more compact than in (a). Grain boundaries are still visible but less pronounced.",
+        "c": "At higher Mg content, the grain size is strongly reduced. The surface appears dense and uniform, with rounded features. Grain coarsening is clearly suppressed.",
+        "d": "At the highest Mg/Fe ratio, the surface consists of very fine, closely packed grains. Individual grain shapes are hard to distinguish. This indicates strong inhibition of surface diffusion and crystallite growth."
+    },
+    "data_extraction": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does increasing MgO insertion within the ALD cycle sequence influence grain morphology across the sample series?",
+                "answer_type": "Paragraph",
+                "answer": "Increasing MgO insertion suppresses grain growth, driving a transition from large faceted grains to finer, more rounded features. This indicates reduced surface diffusion and interrupted crystallite coalescence during growth. The effect strengthens monotonically with Mg/Fe ratio, consistent with Mg acting as a kinetic growth modifier."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which applications would benefit most from the fine-grained morphology observed at this high Mg content?",
+                "answer_type": "Paragraph",
+                "answer": "-Catalysis requiring high surface area\n-Gas-sensing layers\n-Electrochemical interfaces\n-Diffusion-barrier coatings"
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which morphological feature visible in this micrograph most directly indicates suppressed surface diffusion?",
+                "answer_type": "Factoid",
+                "answer": "Reduced grain size with rounded grain boundaries."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What morphological differences distinguish the pure Fe\u2082O\u2083 film in this panel from the Mg-rich film in panel (d)?",
+                "answer_type": "Paragraph",
+                "answer": "-Panel (a): large, plate-like, faceted grains\n-Panel (d): fine, rounded grains with high packing density\n-Panel (a): broader grain-size distribution\n-Panel (d): narrow grain-size distribution"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

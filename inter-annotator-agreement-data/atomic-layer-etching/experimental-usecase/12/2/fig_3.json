@@ -1,0 +1,68 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_3",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart"
+    },
+    "summarization": {
+        "a": "The graph shows the Al\u2082O\u2083 film thickness during repeated exposure to SF\u2086 plasma pulses (Half-cycle A) without TMA. The thickness shows a slight initial increase of ~1 \u00c5 due to surface fluorination (formation of AlF\u2083), followed by a plateau, confirming that the plasma alone does not continuously etch the material.",
+        "b": "The graph tracks the film thickness during repeated TMA doses (Half-cycle B) immediately following the plasma step. The thickness drops initially by ~3 \u00c5 as the fluorinated layer is removed (ligand exchange), then stabilizes, proving that TMA alone does not etch the bulk oxide.",
+        "c": "The graph displays the full Atomic Layer Etching (ALE) process with alternating SF\u2086 plasma and TMA pulses. The film thickness decreases linearly with the number of cycles, indicating a stable, controlled etch rate of 3.1 \u00c5/cycle."
+    },
+    "data_extraction": {
+        "a": "| Number of Pulses/Cycles | Film Thickness (\u00c5) | Phase / Condition |\n|---|---|---|\n| 0 | 206 | (a) SF\u2086 Plasma Only |\n| 5 | 206 | (a) SF\u2086 Plasma Only |\n| 10 | 207 | (a) SF\u2086 Plasma Only |\n| 15 | 207 | (a) SF\u2086 Plasma Only |\n| 20 | 207 | (a) SF\u2086 Plasma Only |\n| 25 | 207 | (a) SF\u2086 Plasma Only |\n| 30 | 207 | (a) SF\u2086 Plasma Only |\n| 35 | 204 | (b) TMA Dose Only |\n| 40 | 204 | (b) TMA Dose Only |\n| 45 | 204 | (b) TMA Dose Only |\n| 50 | 204 | (b) TMA Dose Only |\n| 55 | 204 | (b) TMA Dose Only |\n| 60 | 204 | (b) End of Half-cycle B |\n| 65 | 189 | (c) Full ALE (Etching) |\n| 70 | 173 | (c) Full ALE (Etching) |\n| 75 | 157 | (c) Full ALE (Etching) |\n| 80 | 141 | (c) Full ALE (Etching) |\n| 85 | 125 | (c) Full ALE (Etching) |\n| 90 | 109 | (c) Full ALE (Etching) |\n| 95 | 93 | (c) Full ALE (Etching) |\n| 100 | 77 | (c) Full ALE (Etching) |\n| 105 | 61 | (c) Full ALE (Etching) |\n| 110 | 45 | (c) Full ALE (Etching) |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Application/Performance",
+                "question": "What is the Etch Per Cycle (EPC) rate calculated from the slope of the linear fit in subfigure (c)?",
+                "answer_type": "Factoid",
+                "answer": "The Etch Per Cycle (EPC) is 3.1 \u00c5/cycle."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What does the behavior of the film thickness in regions (a) and (b) indicate about the interactions of the individual reactants (SF\u2086 plasma and TMA) with the Al\u2082O\u2083 surface?",
+                "answer_type": "Paragraph",
+                "answer": "The data in region (a) shows that exposure to SF\u2086 plasma alone results in a slight mass gain (thickness increase) due to surface fluorination but does not cause continuous etching. Similarly, region (b) shows that after the removal of the fluorinated layer, prolonged exposure to TMA does not result in further thickness loss. Together, these results demonstrate that neither reactant can spontaneously etch the bulk material on its own; etching only occurs through the synergistic, sequential application of both reactants."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What chemical transformation causes the initial ~1 \u00c5 thickness increase observed in subfigure (a)?",
+                "answer_type": "Factoid",
+                "answer": "The thickness increase is attributed to the fluorination of the Al\u2082O\u2083 surface, forming a lower-density AlF\u2083 (or AlO\u2093F\u1d67) layer, which involves a volume expansion compared to the original oxide."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the etch profile observed in the full ALE cycle [subfigure (c)] compare to the \"spontaneous etching\" tests in subfigures (a) and (b)?",
+                "answer_type": "Paragraph",
+                "answer": "In subfigure (c), the film thickness exhibits a continuous, linear decrease with a constant negative slope, characteristic of a controlled layer-by-layer etching process. In contrast, subfigures (a) and (b) show saturation behavior where the thickness stabilizes (plateaus) after an initial change. This comparison highlights that the linear removal of material is exclusive to the cyclic alternation of the two reactants."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

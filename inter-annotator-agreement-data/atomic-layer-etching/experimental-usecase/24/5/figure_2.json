@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_2",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart illustrates the mass change over time at 300\u00b0C on Al\u2082O\u2083, showing a stepwise average decrease in mass."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 6100 | -1440 |\n| 6150 | -1470 |\n| 6175 | -1460 |\n| 6200 | -1490 |\n| 6230 | -1470 |\n| 6270 | -1510 |\n| 6300 | -1490 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How much is the average mass change per cycle?",
+                "answer_type": "Factoid",
+                "answer": "The MCPC is around -20 ng/cm\u00b2."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Why is there a mass increase after an HF exposure?",
+                "answer_type": "Paragraph",
+                "answer": "CH3 has an atomic mass of 15 amu, F has an atomic mass of 19 amuu. So the replacement of a singel CH3 group with a F atom increases the mass with 4 amu."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How long does a single cycle take?",
+                "answer_type": "Factoid",
+                "answer": "Around 65 seconds."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Is the effect every cycle the same?",
+                "answer_type": "Paragraph",
+                "answer": "Based on the few shown cycles it seems that the mass changes are constant for the different cycles."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

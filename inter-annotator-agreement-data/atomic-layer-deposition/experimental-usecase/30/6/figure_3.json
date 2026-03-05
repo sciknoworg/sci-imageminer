@@ -1,0 +1,68 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_3",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart",
+        "c": "spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays Raman spectra of as-deposited and annealed (in bold) iron oxide films, undoped,  grown at 425 \u00b0C.",
+        "b": "The figure shows Raman spectra of as-deposited and annealed (in bold) iron oxide films, with 2:100 doping of MgO, grown at 425 \u00b0C.",
+        "c": "The figure presents Raman spectra of as deposited iron oxide films, with 5:100 doping of MgO, grown at 425 \u00b0C (top line) and 375 \u00b0C (bottom line)."
+    },
+    "data_extraction": {
+        "a": "| Raman shift, cm\u207b\u00b9 | Intensity, arb.unit. |\n|---|---|\n| 200 | 538, 668 cm\u207b\u00b9 magnetite |\n| 400 | 225, 293, 412, 498, 613,cm\u207b\u00b9 |\n| 600 | 538, 668 cm\u207b\u00b9 magnetite |\n| 800 | 538, 668 cm\u207b\u00b9 magnetite |\n| 1000 | 538, 668 cm\u207b\u00b9 magnetite |\n| 1200 | 538, 668 cm\u207b\u00b9 magnetite |\n| 1400 | \u03b1, 1320cm\u207b\u00b9 |\n| 1600 | FGA |\n| 1800 | FGA |",
+        "b": "| Raman shift, cm\u207b\u00b9 | Intensity, arb.unit. |\n|---|---|\n| 200 | m, 306 cm\u207b\u00b9 |\n| 400 | m, 538 cm\u207b\u00b9 |\n| 600 | m, 668 cm\u207b\u00b9 |\n| 800 | \u03b1, 1320cm\u207b\u00b9 |\n| 1000 | \u03b3, 720 cm\u207b\u00b9 |\n| 1200 | \u03b3, 1430 cm\u207b\u00b9 |\n| 1400 | \u03b3, 1580 cm\u207b\u00b9 |\n| 1600 | m, 193 cm\u207b\u00b9 |\n| 1800 | m, 193 cm\u207b\u00b9 |",
+        "c": "| Raman shift, cm\u207b\u00b9 | Intensity, arb.units. |\n|---|---|\n| 200 | \u03b1, 225,293, 412, 498, 613,cm\u207b\u00b9 |\n| 400 | Si, 514 cm\u207b\u00b9 |\n| 600 | m, 538 cm\u207b\u00b9 |\n| 800 | m, 668 cm\u207b\u00b9 |\n| 1000 | SiO\u2082 |\n| 1200 | \u03b1, 1320cm\u207b\u00b9 |\n| 1400 | 425\u00b0C |\n| 1600 | 375\u00b0C |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which Raman bands (in cm^-1) are characteristic of the hematite (alpha-Fe2O3) phase?",
+                "answer_type": "List",
+                "answer": "225, 293, 412, 498, 613, 1320"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which phase was detected by Raman spectroscopy but not clearly by GIXRD?",
+                "answer_type": "Factoid",
+                "answer": "Maghemite (gamma-Fe2O3, bottom panel)."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What was the Mg:Fe ratio in the middle panel?",
+                "answer_type": "Factoid",
+                "answer": "0.017."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What Raman feature may suggest the presence of magnesioferrite in the films?",
+                "answer_type": "Factoid",
+                "answer": "A shoulder at approximately 700 cm^-1 next to the main 668 cm^-1 magnetite band (middle panel)."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

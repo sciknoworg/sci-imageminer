@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_4",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The line chart illustrates the relationship between substrate temperature and EPC (\u00c5) across different studies."
+    },
+    "data_extraction": {
+        "a": "| Substrate Temperature (\u00b0C) | EPC (\u00c5) This work | EPC (\u00c5) Cano | EPC (\u00c5) Hennessy | EPC (\u00c5) Lee | EPC (\u00c5) Zywotk |\n|---|---|---|---|---|---|\n| 140 | -0.1 |  |  |  |  | \n| 160 | 0.25 |  |  |  |  |\n| 175 | 0.75 |  |  |  |  |\n| 200 |  | 1.5 |  |  |  |\n| 210 | 2 |  |  |  |  |\n| 225 | 2.75 |  | 0.7 |  |  |\n| 230 | 2.9 |  |  |  |  |\n| 250 |  | 2.3 | 0.8 | 0.1 | -0.25 |\n| 260 | 3.0 |  |  |  |  |\n| 265 | 3.1 |  |  |  |  |\n| 275 |  |  | 1.0 | 0.3 | 0 |\n| 300 |  | 2.5 | 1.1 | 0.5 |  |\n| 325 |  |  |  | 0.75 | 1.2 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the EPC value at the highest substrate temperature studied (285 \u00b0C)?",
+                "answer_type": "Factoid",
+                "answer": "3.4 \u00c5."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "At what substrate temperature does the EPC become negative for this work, indicating a transition to ALD?",
+                "answer_type": "Factoid",
+                "answer": "140 \u00b0C."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the EPC of the plasma ALE process compare with the thermal HF/TMA ALE process over the studied temperature range?",
+                "answer_type": "Factoid",
+                "answer": "The plasma ALE process shows a higher EPC at all temperatures."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What process parameter, besides temperature, affects whether the SF6/TMA sequence results in ALD or ALE?",
+                "answer_type": "Factoid",
+                "answer": "The TMA exposure dose, which resulted in AlF3 ALD for exposure times of 10 ms."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

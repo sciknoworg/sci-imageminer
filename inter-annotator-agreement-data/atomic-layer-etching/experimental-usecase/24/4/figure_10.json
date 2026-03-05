@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_10",
+    "classification": {
+        "a": "spectra chart"
+    },
+    "summarization": {
+        "a": "The chart shows absorbance values between wavenumber 800 and 100 $cm^{-1}$ for Al\u2082O\u2083 at 300\u00b0C, with absorbance decreasing as the number of ALE cycles increases."
+    },
+    "data_extraction": {
+        "a": "| Wavenumber (cm\u207b\u00b9) | Absorbance (Cycle 0) | Absorbance (Cycle 4) | Absorbance (Cycle 6) | Absorbance (Cycle 8) |\n|--------------------|-----------------------|-----------------------|-----------------------|-----------------------|\n| 1300              | 0.00                 | 0.00                 | 0.00                 | 0.00                 |\n| 1100              | 0.10                 | 0.08                 | 0.06                 | 0.05                 |\n| 950               | 0.60                 | 0.50                 | 0.40                 | 0.30                 |\n| 900               | 0.55                 | 0.45                 | 0.35                 | 0.25                 |\n| 700               | 0.00                 | 0.00                 | 0.00                 | 0.00                 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What does 0, 4, 6, 8 in the graph represent?",
+                "answer_type": "Factoid",
+                "answer": "It describes the number of ALE cycles and how the FTIR spectra changes after 4 ALE cycles, 6 ALE cycles and 8 ALE cycles."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What is the range of Al-O stretching?",
+                "answer_type": "Factoid",
+                "answer": "Al-O stretching is observed between 800 cm-1 and 1000 cm\u22121"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What happens in the FTIR spectra after ALE?",
+                "answer_type": "Paragraph",
+                "answer": "the sample temperature was raised to 300 \u00b0C, and the Al2O3 film was etched using sequential exposures of TMA and HF. FTIR spectra recorded during the TMA and HF exposures at 300 \u00b0C. The progressive loss in absorbance between 800 and 1000 cm\u22121 with ALE cycles is in agreement with the etching of the Al2O3 film."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Was there a reference to FTIR spectra.",
+                "answer_type": "Paragraph",
+                "answer": "Yes. These FTIR spectra were referenced to the initial ZrO2 nanoparticles"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

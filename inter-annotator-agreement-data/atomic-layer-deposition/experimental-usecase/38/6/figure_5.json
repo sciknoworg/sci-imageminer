@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_5",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart"
+    },
+    "summarization": {
+        "a": "2\u03b8\u03c7 measurements of the samples 100cLi\u2212MnO2, 200cLi-MnO2, 300cLi\u2212MnO2.",
+        "b": "\u03b8\u22122\u03b8 measurements of the samples 100cLi\u2212MnO2, 200cLi-MnO2, 300cLi\u2212MnO2."
+    },
+    "data_extraction": {
+        "a": "| Sample | \u00b02\u03b8\u03c7 |\n| --- | --- |\n| 300cLi-MnO_{2} | Peaks at 20, 36, 65 |\n| 200cLi-MnO_{2} | Peaks at 20, 36, 47, 65 |\n| 100cLi-MnO_{2} | Peaks at 37, 65 |",
+        "b": "| Sample | \u03b8\u22122\u03b8 (\u00b02\u03b8) |\n| --- | --- |\n| 300cLi-MnO_{2} | Peaks at 18, 33, 35 |\n| 200cLi-MnO_{2} | Peaks at 18, 33, 36 |\n| 100cLi-MnO_{2} | Peaks at 18, 32, 33, 36, 42, 45 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "The XRD patterns of which samples are shown here?",
+                "answer_type": "Factoid",
+                "answer": "The in-plane 2\u03b8\u03c7 and out-of-plane \u03b8\u22122\u03b8 measurements of the samples 100cLi\u2212MnO2, 200cLi-MnO2, 300cLi\u2212MnO2."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does lithiation affect the 2\u03b8 positions of the main reflections in Figure 5?",
+                "answer_type": "Factoid",
+                "answer": "They shift to lower 2\u03b8 values as lithium concentration increases."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the relationship between the d-spacings of the two main reflections in the lithiated samples?",
+                "answer_type": "Factoid",
+                "answer": "The higher-angle reflection has half the d-spacing of the lower-angle reflection."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does an increase in lithium content (with an increasing number of lithium ALD cycles) affect the material properties?",
+                "answer_type": "Paragraph",
+                "answer": "As the number of lithium ALD cycles increases, so too does the Li content, which leads to changes in the crystalline phase. The reflection at around 42 \u00b02\u03b8, which corresponds to the beta-MnO2 phase, completely disappears when going from 100 to 200 ALD cycles even before the structure has reached stoichiometric LiMn2O4."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

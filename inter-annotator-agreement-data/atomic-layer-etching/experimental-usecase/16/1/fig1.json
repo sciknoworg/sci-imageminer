@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig1",
+    "classification": {
+        "a": "process timing diagram",
+        "b": "conceptual diagram"
+    },
+    "summarization": {
+        "a": "One ALE cycle timing: W_ICP \u2248 1500 W and Ar \u2248 50 sccm are held constant. During adsorption/passivation, CF4+H2 (10\u201325 sccm) is pulsed with W_DC = 0; during activation/etch, CF4+H2 is off and W_DC is pulsed to ~4\u20136 W.",
+        "b": "Schematics depict the sequence: adsorption/passivation of the surface, saturation/coverage, then DC-biased activation that removes a thin layer, yielding a controlled etched thickness per cycle."
+    },
+    "data_extraction": {
+        "a": "",
+        "b": ""
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Is W_DC bias applied only during the activation/etch step?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the application of Ar differ from the CF\u2084+H\u2082 gas during the ALE cycle?",
+                "answer_type": "Paragraph",
+                "answer": "The Ar flow is continuous and constant at 50 sccm throughout the entire cycle, whereas the CF\u2084+H\u2082  flow is pulsed, occurring only during the initial step."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "According to the conceptual diagram, what is the first step of the etching mechanism?",
+                "answer_type": "Factoid",
+                "answer": "The first step involves the adsorption of reactant species (fluorine and carbon atoms) onto the surface of the target layer."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What physical property of the target layer is modified by completing one ALE cycle?",
+                "answer_type": "Factoid",
+                "answer": "The thickness of the target layer is reduced, as indicated by the \"Etched thickness\" label in the final schematic."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

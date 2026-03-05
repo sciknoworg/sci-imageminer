@@ -1,0 +1,63 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_5",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "In-plane 2\u03b8\u03c7 XRD patterns of MnO\u2082 films lithiated from 100cLi to 300cLi, revealing the disappearance of \u03b2-MnO\u2082 reflections and a systematic shift of lithiated-phase peaks to lower angles with increasing lithium content.",
+        "b": "Out-of-plane \u03b8\u20132\u03b8 XRD patterns of the same samples, confirming full lithiation of thicker films and indicating lattice expansion and structural distortion in the lithiated phase."
+    },
+    "data_extraction": {
+        "a": "| Intensity (arb. units) | \u00b02\u03b8\u03c7 |\n|---|---|\n| \u03b2-MnO\u2082 (100) | 20.3 |\n| Li\u2081\u2212xMn\u2082O\u2084 (111) | 17.7 |\n| Li\u2081\u2212xMn\u2082O\u2084 (311) | 35.9 |\n| Li\u2081\u2212xMn\u2082O\u2084 (400) | 44.4 |\n| Li\u2082\u2212zMnO\u2082 (012) * | 47.6 |\n| \u03b2-MnO\u2082 (200) | 41.3 |",
+        "b": "| Intensity (arb. units) | \u00b02\u03b8 |\n| --- | --- |\n| Lithiated phase | 17.1 |\n| Lithiated phase | 20 |\n| Lithiated phase | 25 |\n| Lithiated phase | 30 |\n| Lithiated phase | 34.7 |\n| Lithiated phase | 40 |\n| Lithiated phase | 45 |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "What does the evolution of the XRD patterns indicate about the phase composition and structural stability of MnO\u2082 films under high lithium concentrations?",
+                "answer_type": "Paragraph",
+                "answer": "The XRD patterns show that at higher lithium concentrations (200cLi\u2013MnO\u2082 and 300cLi\u2013MnO\u2082), the \u03b2-MnO\u2082 phase disappears, indicating complete lithiation throughout the film thickness. The reflections of the lithiated phase shift systematically to lower angles, reflecting lattice expansion and possible one-dimensional distortion due to stress. Higher-order reflections further suggest the preservation of cubic symmetry with minor structural deformation. Together, these results indicate that lithium insertion significantly alters the phase composition while maintaining the overall crystal framework, though with some stress-induced distortion."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which structural changes are observed in the XRD patterns upon increasing lithium content in the films?",
+                "answer_type": "List",
+                "answer": "Disappearance of \u03b2-MnO\u2082 reflections, Shift of lithiated-phase peaks to lower 2\u03b8 angles, Appearance of higher-order reflections at multiples of the fundamental peak, Indication of lattice expansion and one-dimensional distortion due to stress"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does lithium fully penetrate the thicker MnO\u2082 films at 200cLi\u2013MnO\u2082 and 300cLi\u2013MnO\u2082 concentrations?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the 2\u03b8 positions of the lithiated phase reflections shift as lithium concentration increases?",
+                "answer_type": "Factoid",
+                "answer": "From 17.7\u00b0 to 17.1\u00b0 and from 35.9\u00b0 to 34.7\u00b0."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

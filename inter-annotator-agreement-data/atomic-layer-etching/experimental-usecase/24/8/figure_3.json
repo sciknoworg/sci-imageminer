@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_3",
+    "classification": {
+        "a": "scatter plot",
+        "b": "scatter plot"
+    },
+    "summarization": {
+        "a": "The figure shows the change in MCPC (mass change per cycle) and \u0394M (mass change due to HF and TMA) over cycles at 300\u00b0C on Al<sub>2</sub>O<sub>3</sub>. The values remain relative constant, \u0394M values have an outlier (first cycle).",
+        "b": "The figure displays the ratio of \u0394M<sub>TMA</sub> to MCPC over cycles. The value remains relatively constant."
+    },
+    "data_extraction": {
+        "a": "| Number of Cycles | MCPC (ng/(cm\u00b2 cycle)) | \u0394M<sub>HF</sub> (ng/(cm\u00b2 cycle)) |  \u0394M<sub>TMA</sub> (ng/(cm\u00b2 cycle)) |\n|---|---|---|---|\n| 1 | -7.8 | 33 .5 | 31 | \n| 2 | -13 | 15.5 |-23 | \n| 50 | -15 | 13.6 | -28 | \n| 86 | -23 | 12.9 | -35 | \n| 100 | 15.7 | 13.3 | -29 |",
+        "b": "| Number of Cycles | Ratio (\u0394M<sub>TMA</sub> / MCPC) |\n|---|---|\n| 1 | 0.5 |\n| 2 | 2.8 |\n| 3 | 1.8 |\n| 25 | 1.8 |\n| 50 | 1.8 |\n| 75 | 1.8 |\n| 100 | 1.8 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which step produces the larger mass change?",
+                "answer_type": "Factoid",
+                "answer": "TMA exposure."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What do the values of  \u0394M<sub>TMA</sub> and \u0394M<sub>HF</sub> imply about what each reactant is doing during the ALE cycle?",
+                "answer_type": "Paragraph",
+                "answer": "A positive \u0394M<sub>HF</sub> means the HF step increases the surface mass, consisting with fluorinating the surface. A negative \u0394M<sub>TMA</sub> means the TMA step decreases the surface mass, indicating it removes material by converting the surface species into volatile products that leave the surface. Overall, HF builds a fluorinated layer, and TMA strips it."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which cycles are clear outliers?",
+                "answer_type": "Factoid",
+                "answer": "First two cycles."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does the ALE process appear to be in steady state between cycles 40 and 80?",
+                "answer_type": "Yes/No",
+                "answer": "Yes."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

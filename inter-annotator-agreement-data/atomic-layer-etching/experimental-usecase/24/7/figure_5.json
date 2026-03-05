@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_5",
+    "classification": {
+        "a": "multi-axis chart"
+    },
+    "summarization": {
+        "a": "The multi axis chart shows the mass change (ng/cm\u00b2) and thickness (\u00c5) changes over time at different temperatures (250, 275, 300, and 325 \u00b0C) for TMA and HF exposures. The mass changes versus time during Al\u2082O\u2083 ALE are linear at all  temperatures. These results indicate that the Al\u2082O\u2083 etch rate can be controlled by the reaction temperature."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Temperature (\u00b0C) | Mass Change (ng/cm\u00b2) | Thickness (\u00c5) |\n|----------|------------------|----------------------|---------------|\n| 0        | 250              | 0                    | 0             |\n| 0        | 275              | 0                    | 0             |\n| 0        | 300              | 0                    | 0             |\n| 0        | 325              | 0                    | 0             |\n| 2000     | 250              | -250                 | -10           |\n| 2000     | 275              | -500                 | -20           |\n| 2000     | 300              | -1100                | -45           |\n| 2000     | 325              | -1750                | -70           |\n| 4000     | 250              | -500                 | -20           |\n| 4000     | 275              | -1100                | -45           |\n| 4000     | 300              | -1900                | -75           |\n| 4000     | 325              | -2400                | -95           |\n| 6000     | 250              | -750                 | -30           |\n| 6000     | 275              | -1600                | -65           |\n| 6000     | 300              | -2400                | -95           |\n| 6000     | 325              | -2600                | -105          |\n| 8000     | 250              | -1000                | -40           |\n| 8000     | 275              | -2000                | -80           |\n| 8000     | 300              | -2700                | -110          |\n| 8000     | 325              | -2750                | -110          |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "List the four-step sequence of one complete Al\u2082O\u2083 ALE cycle as labeled. What is the purpose of the numeric notation (e.g., \"2-30-1-30\")?",
+                "answer_type": "List",
+                "answer": "TMA dose (2 s) \u2192 2. Purge (30 s) \u2192 3. HF dose (1 s) \u2192 4. Purge (30 s).\nThe notation defines the precise timing: reactant dose length and purge length. This controls reactant exposure and byproduct removal, ensuring self-limiting surface reactions and preventing gas-phase mixing."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Compare operating at 250\u00b0C vs. 325\u00b0C. For etching a 10 nm film with a strict thermal budget of \u2264300\u00b0C, which temperature is ruled out, and what is gained by using the highest allowed temperature?",
+                "answer_type": "Paragraph",
+                "answer": "325\u00b0C is ruled out. Using 300\u00b0C (the highest allowed) maximizes the etch rate within the constraint, reducing process time. The trade-off is operating near the budget limit, which may increase thermal stress compared to 250\u00b0C, but offers significantly faster throughput."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How does increasing temperature affect the slope of the mass and thickness loss lines? State the kinetic principle responsible.",
+                "answer_type": "Paragraph",
+                "answer": "Increasing temperature increases the slope (etch rate). This follows the Arrhenius law, where higher thermal energy accelerates the surface reaction kinetics of both the fluorination (HF) and ligand-exchange (TMA) steps, leading to more material removed per unit time."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "If the reactant purge times were insufficient, leading to CVD-like parasitic growth, how would the shape of these mass change curves likely deviate from the linear decrease shown here?",
+                "answer_type": "Paragraph",
+                "answer": "If CVD-like growth occurred (e.g., TMA and HF mixing in the gas phase), the net mass change would likely turn positive (mass gain) or the etch rate would slow down drastically, causing the curves to flatten or curve upward. The fact that the lines remain strictly negative and linear confirms that the process is operating in a pure etching mode with no competing deposition artifacts."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

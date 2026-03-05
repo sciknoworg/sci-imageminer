@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_12",
+    "classification": {
+        "a": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "This figure displays FTIR difference spectra from 2500 to 4000 cm\u207b\u00b9 recorded during the fifth Al\u2082O\u2083 ALE cycle at 300\u00b0C. The blue spectrum (after TMA exposure) shows positive absorbance peaks at ~2900 cm\u207b\u00b9 and ~2950 cm\u207b\u00b9, corresponding to symmetric and asymmetric C\u2013H stretching vibrations (\u03bdas,s(CH\u2083)) of AlCH\u2083* surface species formed when TMA reacts with the AlF\u2083 surface layer. The red spectrum (after HF exposure) shows negative absorbance at these same positions, indicating complete removal of methyl groups as HF converts AlCH\u2083* to AlF* species. Importantly, neither spectrum shows vibrational features in the \u03bd(HF) region (3000\u20133675 cm\u207b\u00b9), confirming the absence of HF* surface species at 300\u00b0C\u2014a key factor enabling etching rather than AlF\u2083 deposition."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | (a) TMA (Absorbance) | (b) HF (Absorbance) |\n|---|---|---|\n| 4000 | 0.001 | -0.001 |\n| 3900 | 0.001 | -0.001 |\n| 3800 | 0.001 | -0.002 |\n| 3700 | 0.001 | -0.002 |\n| 3600 | 0.000 | -0.002 |\n| 3500 | 0.000 | -0.002 |\n| 3400 | 0.000 | -0.002 |\n| 3300 | 0.000 | -0.002 |\n| 3200 | 0.000 | -0.002 |\n| 3100 | 0.000 | -0.003 |\n| 3000 | 0.001 | -0.003 |\n| 2950 | 0.003 | -0.006 |\n| 2925 | 0.005 | -0.008 |\n| 2900 | 0.007 | -0.010 |\n| 2875 | 0.006 | -0.009 |\n| 2850 | 0.004 | -0.006 |\n| 2800 | 0.002 | -0.005 |\n| 2750 | 0.001 | -0.003 |\n| 2700 | 0.001 | -0.003 |\n| 2600 | 0.001 | -0.003 |\n| 2500 | 0.001 | -0.003 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the mechanistic significance of the absence of HF* surface species at 300\u00b0C during Al\u2082O\u2083 ALE?",
+                "answer_type": "Paragraph",
+                "answer": "The absence of HF* surface species at 300\u00b0C is critical for enabling etching rather than deposition. At lower temperatures, HF* species remain adsorbed on the surface and react with incoming TMA to form AlF\u2083, leading to AlF\u2083 ALD growth. At 300\u00b0C, HF* species desorb from the surface, which allows TMA to instead accept fluorine directly from the underlying AlF\u2083 layer through the ligand-exchange transmetalation reaction, producing volatile AlF(CH\u2083)\u2082 etch products. Temperature therefore determines whether the TMA/HF chemistry leads to AlF\u2083 ALD or Al\u2082O\u2083 ALE."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the C\u2013H stretching vibration intensities change between TMA and HF exposures?",
+                "answer_type": "Factoid",
+                "answer": "The C\u2013H stretching peaks at ~2900 and ~2950 cm\u207b\u00b9 show positive absorbance (gain) after TMA exposure and negative absorbance (complete loss) after HF exposure."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What vibrational modes do the peaks at ~2900 cm\u207b\u00b9 and ~2950 cm\u207b\u00b9 correspond to?",
+                "answer_type": "Factoid",
+                "answer": "These peaks correspond to the symmetric (~2900 cm\u207b\u00b9) and asymmetric (~2950 cm\u207b\u00b9) C\u2013H stretching vibrations of AlCH\u2083* surface species."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How does this FTIR data in the 2500\u20134000 cm\u207b\u00b9 region complement the 800\u20131300 cm\u207b\u00b9 data for understanding Al\u2082O\u2083 ALE?",
+                "answer_type": "Paragraph",
+                "answer": "The two spectral regions provide complementary information about different aspects of the ALE surface chemistry. The 800\u20131300 cm\u207b\u00b9 region monitors the Al\u2013O and Al\u2013F stretching vibrations, revealing the removal of the AlF\u2083 surface layer during TMA exposure and fluorination of Al\u2082O\u2083 during HF exposure. The 2500\u20134000 cm\u207b\u00b9 region tracks the C\u2013H stretching vibrations, confirming the cyclic addition and removal of methyl groups during TMA and HF half-cycles. Additionally, the higher wavenumber region allows detection of any HF* surface intermediates; their absence at 300\u00b0C explains why etching occurs rather than AlF\u2083 deposition. Together, these data provide a complete picture of the surface species involved in each half-reaction."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_8",
+    "classification": {
+        "a": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays a series of Mn L3-edge X-ray absorption near-edge structure (XANES) spectra of the samples (solid lines) overlaid with theoretical curves (dotted lines) calculated from linear combinations of Mn (4+) and Mn (3+) references. The spectra highlight the progressive reduction of manganese over cycles."
+    },
+    "data_extraction": {
+        "a": "| Assignment | Energy (eV) | Absorbance of Sample, a.u. | Absorbance of Linear combination of Mn (4+) and Mn(3+) references, a.u. |  Reference Ratio Mn(4+)/Mn(3+) | \n|---|---|---|---|---|\n| 300cLi-MnO2 |  638  |  0.32 |  0.32 |  60/40 | \n| 300cLi-MnO2 |  641  |  17 | 17 |  60/40 | \n| 300cLi-MnO2 |  644  |  18 |  19 |  60/40 | \n| 300cLi-MnO2 |  646  |  9 |  13 |  60/40 | \n| 300cLi-MnO2 |  650  |  9 |  11 |  60/40 | \n| 200cLi-MnO2 |  638  |  0.32 |  0.32 |  80/20 | \n| 200cLi-MnO2 |  641  |  15 | 15 | 80/20 | \n| 200cLi-MnO2 |  644  |  19 |  19 | 80/20 | \n| 200cLi-MnO2 |  646  |  10 |  12 | 80/20 | \n| 200cLi-MnO2 |  650  |  9 |  10 | 80/20 | \n| 100cLi-MnO2 |  638  |  0.72 |  0.72 | 80/20 | \n| 100cLi-MnO2 |  641  |  15 | 15 | 80/20 | \n| 100cLi-MnO2 |  644  |  18 |  18 | 80/20 | \n| 100cLi-MnO2 |  646  |  10 |  11 | 80/20 | \n| 100cLi-MnO2 |  650  |  8 |  10 | 80/20 | \n| 50cLi-MnO2 |  638  |  0.46 |  0.46| 100/0| \n| 50cLi-MnO2 |  641  |  15 | 15 | 100/0| \n| 50cLi-MnO2 |  644  |  19 |  19 | 100/0| \n| 50cLi-MnO2 |  646  |  11 |  14 | 100/0| \n| 50cLi-MnO2 |  650  |  8 |  10 | 100/0| \n| 10cLi-MnO2 |  638  |  0.3 |  0.3| 100/0| \n| 10cLi-MnO2 |  641  |  16 | 16 | 100/0| \n| 10cLi-MnO2 |  644  |  20 |  20 | 100/0| \n| 10cLi-MnO2 |  646  |  11 |  13 | 100/0| \n| 10cLi-MnO2 |  650  |  9 |  10 | 100/0| \n| MnO2 |  638  |  0.3 |  0.3| 100/0| \n| MnO2 |  641  |  16 | 16 | 100/0| \n|MnO2 |  644  |  20 |  20 | 100/0| \n|MnO2 |  646  |  12 |  14 | 100/0| \n| MnO2 |  650  |  9 |  11 | 100/0|"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What happens with manganese with progressive incorporation of lithium into the film? What supports this conclusion?",
+                "answer_type": "Paragraph",
+                "answer": "With the progressive incorporation of lithium, manganese reduces from a pure +4 oxidation state to a mixed state containing significant amounts of +3. This is supported by visual trend, where the spectral peaks for pure manganese oxide closely match the theoretical model for 100% Mn (4+). Upon cycling, the peak for Mn (4+) becomes smaller, and the peak for Mn (3+) becomes taller. The spectra of highly lithiated samples better match the theoretical model for mixed Mn (4+)/Mn(3+) compositions."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which electronic transition is being probed in this experiment?",
+                "answer_type": "Factoid",
+                "answer": "From 2p to 3d orbitals (L3-edge)."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What specific spectral change corresponds to the reduction of manganese?",
+                "answer_type": "Factoid",
+                "answer": "The shift of the absorption intensity from the higher energy peak (~644 eV) to the lower energy peak (~641 eV)."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the average oxidation state in the sample after 300 cycles?",
+                "answer_type": "Factoid",
+                "answer": "+ 3.6, based on the 60/40 Mn(4+)/Mn(3+) ratio."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

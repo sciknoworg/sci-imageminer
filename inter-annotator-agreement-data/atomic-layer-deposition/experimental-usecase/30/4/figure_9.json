@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_9",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart"
+    },
+    "summarization": {
+        "a": "Magnetization versus measurement temperature curves of selected samples after forming gas annealing shown for undoped Fe2O3 films. This gives the temperature dependence of magnetic moment per gram for different Fe2O3 films.",
+        "b": "Magnetization versus measurement temperature curves of Mg doped Fe2O3 films grown 425",
+        "c": "Magnetization versus measurement temperature curves of Mg doped Fe2O3 films grown 375"
+    },
+    "data_extraction": {
+        "a": "| Temperature, K | FC | ZFC |\n|---|---|---|\n| 0 | ~0.10 | ~0.00 |\n| 50 | ~0.10 | ~0.00 |\n| 100 | ~0.10 | ~0.00 |\n| 150 | ~0.10 | ~0.00 |\n| 200 | ~0.10 | ~0.00 |\n| 250 | ~0.10 | ~0.00 |\n| 300 | ~0.10 | ~0.00 |",
+        "b": "| Temperature, K | FC | ZFC |\n|---|---|---|\n| 0 | ~0.06 | ~0.06 |\n| 50 | ~0.06 | ~0.06 |\n| 100 | ~0.06 | ~0.06 |\n| 150 | ~0.06 | ~0.06 |\n| 200 | ~0.06 | ~0.06 |\n| 250 | ~0.06 | ~0.06 |\n| 300 | ~0.06 | ~0.06 |",
+        "c": "| Temperature, K | FC | ZFC |\n|---|---|---|\n| 0 | ~0.069 | ~0.069 |\n| 50 | ~0.068 | ~0.068 |\n| 100 | ~0.067 | ~0.067 |\n| 150 | ~0.066 | ~0.066 |\n| 200 | ~0.065 | ~0.065 |\n| 250 | ~0.065 | ~0.065 |\n| 300 | ~0.065 | ~0.065 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the magnetic field used for these magnetization trends?",
+                "answer_type": "Factoid",
+                "answer": "The temperature dependence of magnetic moment was measured at a magnetic moment of 1000 Oe"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What is Verwey transition?",
+                "answer_type": "Paragraph",
+                "answer": "A jump in magnetization-versus-temperature curves is  known as the Verwey transition. At the Verwey transition temperature, TV, ca. 120 K, magnetite is supposed to transform from cubic (T > TV) to monoclinic (T < TV) symmetry. This transformation is related to changes in cation ordering and, at a slightly higher temperature (ca. 130 K) to changes in magnetocrystalline anisotropy as well as switching the easy and hard magnetization axes. The Verwey transition can be used for identification of magnetite in pure or mixed phase samples."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Are the verwey transitions observed in after annealing the films in forming gas?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "When is the verwey transition not observed?",
+                "answer_type": "Paragraph",
+                "answer": "The transition lost its prominence in as-deposited films, in relatively disordered films grown at the lowest temperatures examined and in films containing relatively higher amounts of magnesium oxide"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

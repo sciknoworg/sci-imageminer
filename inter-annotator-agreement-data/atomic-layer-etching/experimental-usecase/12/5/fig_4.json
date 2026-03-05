@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_4",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The line chart illustrates the relationship between substrate temperature and EPC (\u00c5) across different studies."
+    },
+    "data_extraction": {
+        "a": "| Substrate Temperature (\u00b0C) | EPC (\u00c5) green|EPC (\u00c5) red|EPC (\u00c5) black|EPC (\u00c5) purple|EPC (\u00c5) brown|\n|---|---|---|---|---|---|\n| 150 | 0 |-|-|-|-|\n| 200 | 1.5 |1.5|-|-|-|\n| 250 | 3 |2.5|1|0|-0.5|\n| 300 | - |2.5|1|0.5|0.5|"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the affect of increasing temperature on the EPC?",
+                "answer_type": "Paragraph",
+                "answer": "For increasing temperature, regardless of the chemistry, the EPC increases."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What could be a reason for the very different literature results?",
+                "answer_type": "Paragraph",
+                "answer": "It could be that different types of AlOx are etched. It is known that deposition method of the substrate can have an impact on etch rate."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which researcher has shown deposition with the given chemistries?",
+                "answer_type": "Paragraph",
+                "answer": "Zywotko has shown that there is deposition of 0.5 angstrom/cycle at 250 degrees celcius."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "For the SF6/TMA process, what etch rate is achieved at 250 degrees celcius?",
+                "answer_type": "Factoid",
+                "answer": "at 250 degrees celcius an etch rate of 3 angstrom/cycle is achieved."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

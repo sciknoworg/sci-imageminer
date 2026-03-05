@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_4",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The etch rate initially increases for Al2O3, AlNx, and HfO2, plateaus at 5-12 seconds, then decreases. SiO2 continuously increases. TiN remains near zero.",
+        "b": "The etch rate initially increases, peaks at around 10 seconds, and then decreases for all materials."
+    },
+    "data_extraction": {
+        "a": "| modification step duration (s) |  Al2O3 | HfO2 | AlNx | TiN | SiO2 |\n|---|---|---|---|---|---|\n| 0 | 0.01 | 0.01 | 0.02 | 0 | 0.03 |\n| 5 | 0.15 | 0.07 | 0.17 | -0.01 | 0.3 |\n| 7 | 0.165 | 0.09 | 0.18 | 0 | 0.45 |\n| 10 | 0.155 | 0.0925 | 0.15 | 0 | 0.625 |\n| 12 | 0.1525 | 0.095 | 0.14 | -0.015 | 0.65 |\n| 15 | 0.08 | 0.055 | 0.09 | -0.02 | 0.8 |",
+        "b": "| modification step duration (s) |  Al2O3 | HfO2 | AlNx |\n|---|---|---|---|\n| 0 | 0.01 | 0.01 | 0.02 |\n| 5 | 0.15 | 0.07 | 0.17 |\n| 7 | 0.165 | 0.09 | 0.18 |\n| 10 | 0.155 | 0.0925 | 0.15 |\n| 12 | 0.1525 | 0.095 | 0.14 |\n| 15 | 0.08 | 0.055 | 0.09 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Why does SiO2 show continuously increasing etch rate with modification step duration while TiN shows negligible etching, and what are the implications for process selectivity?",
+                "answer_type": "Paragraph",
+                "answer": "SiO2 exhibits continuously increasing etch rate because silicon fluoride (SiF4) desorbs easily at lower temperatures, making it easily removed even with relatively low ion energy bombardment. In contrast, TiN shows virtually no etching because titanium fluoride has a much higher sublimation point, making desorption of reaction products extremely difficult at the process conditions used. This difference in etch behavior provides good selectivity for etching Al2O3, AlNx, and HfO2 over a TiN hard mask."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which material shows the highest etch rate per cycle in this ALE process?",
+                "answer_type": "Factoid",
+                "answer": "AlNx"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "At what modification step duration does the ALE window begin for Al2O3, AlNx, and HfO2?",
+                "answer_type": "Factoid",
+                "answer": "About 5-6 seconds"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does the etch rate behavior differ between Al2O3, AlNx, and HfO2 as the modification step duration increases, and what does this reveal about the ALE process window?",
+                "answer_type": "Paragraph",
+                "answer": "All three materials show similar behavior with initial etch rate increase, followed by a plateau at 5-12 seconds representing the ALE window. After 12 seconds, the etch rate decreases. This self-limiting plateau demonstrates atomic layer etching behavior."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

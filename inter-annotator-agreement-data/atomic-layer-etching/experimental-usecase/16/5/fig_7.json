@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_7",
+    "classification": {
+        "a": "polar chart (rose chart)"
+    },
+    "summarization": {
+        "a": "The polar chart displays the relationship between the location on the wafer and etch rate of Al2O3."
+    },
+    "data_extraction": {
+        "a": "| Radius, cm | etch rate, nm/cycle |\n|---|---|\n|0|0.139|\n|0.5|0.139|\n|1|0.137|\n|1.5|0.137|\n|2|0.135|\n|2.5|0.133|"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the highest observed difference in etch rate on the wafer?",
+                "answer_type": "Factoid",
+                "answer": "The largest difference in etch rate is 0.008 nm/cycle"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What can be a reason for non-uniformity in processing?",
+                "answer_type": "Paragraph",
+                "answer": "An explanation for non-uniformity in ALE processes is the non-uniform distribution of reactants in the reactor."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which trend can be identified regarding the dependence of the etch rate on the position in the reactor?",
+                "answer_type": "Paragraph",
+                "answer": "There seems to be solely a radial dependence. There is no uni-directional trend visible."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Where has the etch process the highest performance (i.e. etch rate)?",
+                "answer_type": "Factoid",
+                "answer": "In the center of the reactor, in a circle with a radius of around 1 cm."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

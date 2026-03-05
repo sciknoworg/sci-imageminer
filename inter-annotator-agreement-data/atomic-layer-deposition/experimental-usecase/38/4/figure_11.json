@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_11",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart illustrates the change in the average oxidation state of manganese (Mn) as a function of lithium cycles and showing a decreasing trend with increase in cycles"
+    },
+    "data_extraction": {
+        "a": "| Amount of lithium cycles | Mn average oxidation state |\n|---|---|\n|MnO2 | 3.8 |\n|10 | 3.7 |\n|50 | 3.6 |\n|100 | 3.3 |\n|200 | 3.2 |\n|200+A | 3.1 |\n|300 | 2.9 |\n|300+A | 2.5 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Are the measured oxidation states realistic?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What influences chemical shifts in absorption spectra?",
+                "answer_type": "Paragraph",
+                "answer": "1. valence of the absorbing atom\n2. structural variations\n3.  ligand type \n4.  geometry\n5.  coordination number\n6.  bond lengths\n7. covalent or ionic character of the bonds"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "From the image, which samples show low oxidation states?",
+                "answer_type": "Factoid",
+                "answer": "300cLi\u2212MnO2 and 300cLi\u2212MnO2-600"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What are other characterisation method was used to study the oxidation states?",
+                "answer_type": "Paragraph",
+                "answer": "The determination of the oxidation states was also attempted from the average Mn\u2212O bond lengths obtained from the EXAFS results. The analysis was based on the bond valence model50,51 where the oxidation state of an ion is correlated to the nearest neighbor distance in the metal\u2212ligand bond. The oxidation states determined by this method varied in the range of +4 to +3.5, but without any correlation to the lithium concentration."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

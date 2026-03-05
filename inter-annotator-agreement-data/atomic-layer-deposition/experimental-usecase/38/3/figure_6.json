@@ -1,0 +1,28 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_6",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "molecular structure diagram"
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

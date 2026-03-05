@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_5",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The 2\u03b8\u03c7 XRD patterns of 100cLi\u2013MnO\u2082, 200cLi\u2013MnO\u2082, and 300cLi\u2013MnO\u2082 show dominant reflections indexed to the lithiated spinel-like phase Li\u2081\u2212xMn\u2082O\u2084, including the (111), (131), and (440) planes at ~18\u00b0, ~36\u201337\u00b0, and ~65\u201366\u00b0, respectively. With increasing cycle count, these Li\u2081\u2212xMn\u2082O\u2084 peaks remain clearly resolved and comparable in relative intensity.",
+        "b": "The \u03b8\u20132\u03b8 XRD patterns highlight surface-normal diffraction features of the same samples, with pronounced \u201clithiated phase\u201d peaks appearing near ~18\u00b0 and ~35\u00b0, along with Li\u2081\u2212xMn\u2082O\u2084 (400) reflections near ~44.5\u00b0. Residual \u03b2-MnO\u2082 is observed through the (200) reflection around ~40\u201341\u00b0, most clearly in the 100cLi\u2013MnO\u2082 sample."
+    },
+    "data_extraction": {
+        "a": "| Sample (trace) | Peak assignment (as labeled) | 2\u03b8 (\u00b0) |\n|---|---|---|\n| 100cLi\u2013MnO\u2082 | Li\u2081\u2212xMn\u2082O\u2084 (111) | ~18 |\n| 100cLi\u2013MnO\u2082 | Li\u2081\u2212xMn\u2082O\u2084 (131) | ~36.5\u201337 |\n| 100cLi\u2013MnO\u2082 | Li\u2081\u2212xMn\u2082O\u2084 (440) | ~65\u201366 |\n| 200cLi\u2013MnO\u2082 | Li\u2081\u2212xMn\u2082O\u2084 (111) | ~18 |\n| 200cLi\u2013MnO\u2082 | Li\u2081\u2212xMn\u2082O\u2084 (131) | ~36.5\u201337 |\n| 200cLi\u2013MnO\u2082 | * Li\u2082\u2212zMnO\u2082 (impurity) | ~49 |\n| 200cLi\u2013MnO\u2082 | Li\u2081\u2212xMn\u2082O\u2084 (440) | ~65\u201366 |\n| 300cLi\u2013MnO\u2082 | Li\u2081\u2212xMn\u2082O\u2084 (111) | ~18 |\n| 300cLi\u2013MnO\u2082 | Li\u2081\u2212xMn\u2082O\u2084 (131) | ~36.5\u201337 |\n| 300cLi\u2013MnO\u2082 | * Li\u2082\u2212zMnO\u2082 (impurity) | ~49 |\n| 300cLi\u2013MnO\u2082 | Li\u2081\u2212xMn\u2082O\u2084 (440) | ~65\u201366 |",
+        "b": "| Sample (trace) | Peak assignment (as labeled) | 2\u03b8 (\u00b0) |\n|---|---|---|\n| 100cLi\u2013MnO\u2082 | Lithiated phase (left) | ~18 |\n| 100cLi\u2013MnO\u2082 | * Li\u2082\u2212zMnO\u2082 (impurity) | ~31 |\n| 100cLi\u2013MnO\u2082 | Lithiated phase (right) | ~35 |\n| 100cLi\u2013MnO\u2082 | \u03b2-MnO\u2082 (200) | ~40\u201341 |\n| 100cLi\u2013MnO\u2082 | Li\u2081\u2212xMn\u2082O\u2084 (400) | ~44.5 |\n| 200cLi\u2013MnO\u2082 | Lithiated phase (left) | ~18 |\n| 200cLi\u2013MnO\u2082 | Lithiated phase (right) | ~35 |\n| 200cLi\u2013MnO\u2082 | Li\u2081\u2212xMn\u2082O\u2084 (400) | ~44.5 |\n| 300cLi\u2013MnO\u2082 | Lithiated phase (left) | ~18 |\n| 300cLi\u2013MnO\u2082 | Lithiated phase (right) | ~35 |\n| 300cLi\u2013MnO\u2082 | Li\u2081\u2212xMn\u2082O\u2084 (400) | ~44.5 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What structural implication arises from observing Li\u2081\u2212xMn\u2082O\u2084 reflections together with residual \u03b2-MnO\u2082 peaks in the 2\u03b8\u03c7 scan?",
+                "answer_type": "Paragraph",
+                "answer": "The coexistence of Li\u2081\u2212xMn\u2082O\u2084 and \u03b2-MnO\u2082 reflections indicates incomplete or spatially heterogeneous lithiation. This suggests that some regions of the material have transformed into the lithiated spinel-like phase, while others retain the original \u03b2-MnO\u2082 structure. Such phase coexistence points to limitations in lithium penetration, reaction kinetics, or structural accessibility during cycling."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is it important to monitor the presence of the Li\u2082\u2212zMnO\u2082 impurity phase in XRD patterns?",
+                "answer_type": "Paragraph",
+                "answer": "-Impurity phases can reduce electrochemically active material fraction.\n-They may introduce structural instability during cycling.\n-Phase impurities can affect capacity retention and voltage behavior.\n-Identifying impurities helps optimize processing and cycling conditions."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does a \u03b8\u20132\u03b8 scan primarily report diffraction from lattice planes oriented parallel to the sample surface?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which labeled peaks indicate the \u201clithiated phase\u201d in the \u03b8\u20132\u03b8 patterns, and where do they appear?",
+                "answer_type": "Paragraph",
+                "answer": "-Lithiated phase (left): ~18\u00b0\n-Lithiated phase (right): ~35\u00b0"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

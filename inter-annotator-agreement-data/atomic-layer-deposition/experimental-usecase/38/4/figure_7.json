@@ -1,0 +1,99 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_7",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart",
+        "d": "stacked spectra chart",
+        "e": "stacked spectra chart",
+        "f": "spectra chart"
+    },
+    "summarization": {
+        "a": "The figure shows  Mn L-edge and O K-edge XANES spectra of various manganese oxides and lithium-manganese oxide compounds at different energies measured at incident angles of 0.5\u00b0, 1\u00b0, and 45\u00b0.",
+        "b": "The figure shows  Mn L-edge and O K-edge XANES spectra of various manganese oxides and lithium-manganese oxide compounds at different energies measured at incident angles of 0.5\u00b0, 1\u00b0, and 45\u00b0.",
+        "c": "The figure shows  Mn L-edge and O K-edge XANES spectra of various manganese oxides and lithium-manganese oxide compounds at different energies measured at incident angles of 0.5\u00b0, 1\u00b0, and 45\u00b0.",
+        "d": "The figure shows  Mn L-edge and O K-edge XANES spectra of various manganese oxides and lithium-manganese oxide compounds at different energies measured at incident angles of 0.5\u00b0, 1\u00b0, and 45\u00b0.",
+        "e": "The figure shows  Mn L-edge and O K-edge XANES spectra of various manganese oxides and lithium-manganese oxide compounds at different energies measured at incident angles of 0.5\u00b0, 1\u00b0, and 45\u00b0.",
+        "f": "The figure shows  Mn L-edge and O K-edge XANES spectra of various manganese oxides and lithium-manganese oxide compounds at different energies measured at incident angles of 0.5\u00b0, 1\u00b0, and 45\u00b0."
+    },
+    "data_extraction": {
+        "a": "| Energy (eV) | Mn\u00b3\u207a Feature | Mn\u2074\u207a Feature | 100cLi-MnO\u2082 | 200cLi-MnO\u2082 | 300cLi-MnO\u2082 | MnO\u2082 ref. | Mn\u2082O\u2083 ref. | LiMn\u2082O\u2084 ref. |\n|-------------|-------------|-------------|-------------|-------------|-------------|-----------|------------|--------------|\n| ~640        | Yes         | No          | Yes         | Yes         | Yes         | Yes       | Yes        | Yes          |\n| ~642        | Yes         | Yes         | Yes         | Yes         | Yes         | Yes       | Yes        | Yes          |\n| ~644        | No          | Yes         | Yes         | Yes         | Yes         | Yes       | Yes        | Yes          |\n| ~648        | No          | Yes         | Yes         | Yes         | Yes         | Yes       | Yes        | Yes          |",
+        "b": "| Energy (eV) | Mn\u2074\u207a Feature | Mn\u00b3\u207a Feature | 100cLi-MnO\u2082 | 200cLi-MnO\u2082 | 300cLi-MnO\u2082 | MnO\u2082 ref. | Mn\u2082O\u2083 ref. | LiMn\u2082O\u2084 ref. |\n|-------------|-------------|-------------|-------------|-------------|-------------|-----------|------------|--------------|\n| ~528        | Yes         | No          | Yes         | Yes         | Yes         | Yes       | Yes        | Yes          |\n| ~531        | Yes         | Yes         | Yes         | Yes         | Yes         | Yes       | Yes        | Yes          |\n| ~534        | No          | Yes         | Yes         | Yes         | Yes         | Yes       | Yes        | Yes          |",
+        "c": "| Energy (eV) | Feature | MnO\u2082 (0.5\u00b0) | MnO\u2082 (1\u00b0) | MnO\u2082 (45\u00b0) | 300cLi-MnO\u2082 (0.5\u00b0) | 300cLi-MnO\u2082 (1\u00b0) | 300cLi-MnO\u2082 (45\u00b0) |\n|-------------|---------|-------------|-----------|------------|----------------------|-------------------|--------------------|\n| ~640        | Mn\u00b3\u207a    | Yes         | Yes       | Yes        | Yes                  | Yes               | Yes                |\n| ~642        | Mn\u00b3\u207a    | Yes         | Yes       | Yes        | Yes                  | Yes               | Yes                |\n| ~644        | Mn\u2074\u207a    | Yes         | Yes       | Yes        | Yes                  | Yes               | Yes                |",
+        "d": "| Energy (eV) | Feature | MnO\u2082 (0.5\u00b0) | MnO\u2082 (1\u00b0) | MnO\u2082 (45\u00b0) | 300cLi-MnO\u2082 (0.5\u00b0) | 300cLi-MnO\u2082 (1\u00b0) | 300cLi-MnO\u2082 (45\u00b0) |\n|-------------|---------|-------------|-----------|------------|----------------------|-------------------|--------------------|\n| ~640        | Mn\u00b3\u207a    | Yes         | Yes       | Yes        | Yes                  | Yes               | Yes                |\n| ~642        | Mn\u00b3\u207a    | Yes         | Yes       | Yes        | Yes                  | Yes               | Yes                |\n| ~644        | Mn\u2074\u207a    | Yes         | Yes       | Yes        | Yes                  | Yes               | Yes                |",
+        "e": "| Energy (eV) | Feature | MnO\u2082 (0.5\u00b0) | MnO\u2082 (1\u00b0) | MnO\u2082 (45\u00b0) | 300cLi-MnO\u2082 (0.5\u00b0) | 300cLi-MnO\u2082 (1\u00b0) | 300cLi-MnO\u2082 (45\u00b0) |\n|-------------|---------|-------------|-----------|------------|----------------------|-------------------|--------------------|\n| ~640        | Mn\u00b3\u207a    | Yes         | Yes       | Yes        | Yes                  | Yes               | Yes                |\n| ~642        | Mn\u00b3\u207a    | Yes         | Yes       | Yes        | Yes                  | Yes               | Yes                |\n| ~644        | Mn\u2074\u207a    | Yes         | Yes       | Yes        | Yes                  | Yes               | Yes                |",
+        "f": "| Energy (eV) | Feature | MnO\u2082 (0.5\u00b0) | MnO\u2082 (1\u00b0) | MnO\u2082 (45\u00b0) | 300cLi-MnO\u2082 (0.5\u00b0) | 300cLi-MnO\u2082 (1\u00b0) | 300cLi-MnO\u2082 (45\u00b0) |\n|-------------|---------|-------------|-----------|------------|----------------------|-------------------|--------------------|\n| ~640        | Mn\u00b3\u207a    | Yes         | Yes       | Yes        | Yes                  | Yes               | Yes                |\n| ~642        | Mn\u00b3\u207a    | Yes         | Yes       | Yes        | Yes                  | Yes               | Yes                |\n| ~644        | Mn\u2074\u207a    | Yes         | Yes       | Yes        | Yes                  | Yes               | Yes                |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Is there Mn3+ in the bulk?",
+                "answer_type": "Factoid",
+                "answer": "Both the Mn L-edge and the O K-edge XANES of the 100cLi\u2212MnO2\u2212300cLi\u2212MnO2 samples have features that\nshow the presence of Mn3+ in the film bulk (images a and b)"
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Does a higher incident angle probe deeper into the film?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Why does all the samples show Mn3+ on the surface?",
+                "answer_type": "Paragraph",
+                "answer": "All the samples, even MnO2, show Mn3+ features on the surface of the film in both the Mn L-edge and in the O K-edge XANES. These features can be exhibited because of the surface contamination or oxygen vacancies that result in a reduced octahedral symmetry of oxygen atoms at the surface. The 300cLi\u2212MnO2 sample also has an additional resonance at around 532 eV in the O K-edge XANES (f). On the basis of the peak shape, the manganese and oxygen atoms do not form an octahedron. The sample may have carbon\ncontamination because according to the literature the K-edge of oxygen bonded to carbon has features similar to that of the surface of the 300cLi\u2212MnO2 sample.45 However, because TOF-ERDA shows a low carbon content, the odd fine structure could be a result of oxygen vacancies on the very surface of the film."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What are the angles used for XANES measurement?",
+                "answer_type": "List",
+                "answer": "0.5\u00b0,1\u00b0,45\u00b0"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "f": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

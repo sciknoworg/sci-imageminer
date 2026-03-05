@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_3",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The chart plots film thickness (\u00c5) versus number of pulses/cycles. Thickness stays nearly constant through the SF\u2086 half-cycles (cycles 0-30) and the TMA half-cycles (cycles 30-60), then decreases approximately linearly during repeated full ALE cycles, corresponding to  the etch rate ~3.1 \u00c5 per cycle."
+    },
+    "data_extraction": {
+        "a": "| Number of pulses/cycles | Film thickness (\u00c5) | Step |\n|---|---|---|\n| 0 | 206.28 | Start SF6 Half-cycle (5 s) |\n| 5 | 206.71 | Start SF6 Half-cycle (5 s) |\n| 10 | 207.22 | Start SF6 Half-cycle (5 s) |\n| 15 | 207.06 | Start SF6 Half-cycle (5 s) |\n| 20 | 207.22 | Start SF6 Half-cycle (5 s) |\n| 25 | 207.05 | Start SF6 Half-cycle (5 s) |\n| 30 | 207.17 | Start TMA  Half-cycle (0.5 s) |\n| 35 | 204.3 | Start TMA  Half-cycle (0.5 s) |\n| 40 | 204.35 | Start TMA  Half-cycle (0.5 s) |\n| 45 | 204.3 | Start TMA  Half-cycle (0.5 s) |\n| 50 | 204.24 | Start TMA  Half-cycle (0.5 s) |\n| 55 | 204.2 | Start TMA  Half-cycle (0.5 s) |\n| 60 | 204.19 | Start full ALE cycle cycle (plasma + TMA) |\n| 65 | 188.93 | Start full ALE cycle cycle (plasma + TMA) |\n| 70 | 172.41 | Start full ALE cycle cycle (plasma + TMA) |\n| 75 | 156.2 | Start full ALE cycle cycle (plasma + TMA) |\n| 80 | 139.95 | Start full ALE cycle cycle (plasma + TMA) |\n| 85 | 123.87 | Start full ALE cycle cycle (plasma + TMA) |\n| 90 | 107.86 | Start full ALE cycle cycle (plasma + TMA) |\n| 95 | 91.81 | Start full ALE cycle cycle (plasma + TMA) |\n| 100 | 75.98 | Start full ALE cycle cycle (plasma + TMA) |\n| 105 | 60.06 | Start full ALE cycle cycle (plasma + TMA) |\n| 110 | 44.57 | Start full ALE cycle cycle (plasma + TMA) |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What does the film-thickness response during the SF\u2086 plasma half-cycle and the TMA half-cycle indicate about whether each step is self-limiting or not?",
+                "answer_type": "Paragraph",
+                "answer": "The nearly unchanged thickness during both half-cycles indicates that neither the SF\u2086 plasma step nor the TMA step continues to etch (or grow) the film on its own once the surface reaction is complete. This is consistent with self-limited half-reactions. A non-self-limiting process would show a sustained thickness drift during a single half-cycle."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the thickness evolution demonstrate reactant synergy between the SF\u2086 plasma and TMA steps?",
+                "answer_type": "Paragraph",
+                "answer": "The thickness remains essentially unchanged during the isolated SF\u2086 half-step and the isolated TMA half-step, indicating little net removal from either reactant alone. When the steps are alternated in repeated full cycles, the thickness decreases steadily with cycle number and yields a consistent etch per cycle. This difference shows that net etching is driven by the combined, cyclic chemistry of the two steps (reactant synergy)."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Is etch rate constant or does it vary during the full-cycle ALE?",
+                "answer_type": "Factoid",
+                "answer": "Etch rate is constant in the full ALE cycle region."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Within cycles 0\u201350, after which cycle(s) does the thickness response deviate most from other cycles?",
+                "answer_type": "Factoid",
+                "answer": "Right after cycle 30 (the transition into the TMA half-cycle)."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

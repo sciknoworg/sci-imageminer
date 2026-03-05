@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_11",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "This figure shows the evolution of the average manganese oxidation state in x-Li\u2093Mn\u2082O\u2084 as a function of lithium cycling, determined using TEY XANES. The Mn oxidation state decreases progressively with increasing cycle number, indicating gradual reduction associated with lithium insertion. Reference levels corresponding to MnO\u2082, LiMn\u2082O\u2084, and MnO provide chemical benchmarks for interpretation. Additional annealing steps (\u201c+A\u201d) at high cycle numbers lead to further reduction, suggesting enhanced structural or electronic reorganization at advanced lithiation stages."
+    },
+    "data_extraction": {
+        "a": "| Amount of lithium cycles | Mn average oxidation state |\n|--------------------------|----------------------------|\n| MnO\u2082 (reference) | ~3.8 |\n| 10               | ~3.7 |\n| 50               | ~3.6 |\n| 100              | ~3.25 |\n| 200              | ~3.3 |\n| 200 + A          | ~3.1 |\n| 300              | ~2.9 |\n| 300 + A          | ~2.5 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How is the average manganese oxidation state determined in this figure?",
+                "answer_type": "Paragraph",
+                "answer": "The oxidation state is extracted from TEY XANES measurements by comparing the Mn absorption edge position and spectral shape with reference compounds of known oxidation state. This allows an average Mn valence to be assigned for each lithium cycling condition."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What overall trend is observed in the Mn oxidation state with increasing lithium cycles?",
+                "answer_type": "Factoid",
+                "answer": "The Mn oxidation state decreases as the number of lithium cycles increases."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Between 100 and 200 lithium cycles, how does the Mn oxidation state change?",
+                "answer_type": "Factoid",
+                "answer": "It decreases slightly, from about ~3.25 to ~3.1\u20133.15."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What potential degradation mechanism is suggested by Mn oxidation states approaching ~2.5?",
+                "answer_type": "Paragraph",
+                "answer": "Oxidation states near ~2.5 imply significant Mn\u00b3\u207a content, which can drive Jahn\u2013Teller distortion, lattice strain, and eventual capacity fading. This highlights a trade-off between lithiation depth and structural stability."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

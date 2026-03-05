@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_11",
+    "classification": {
+        "a": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "This figure displays FTIR difference spectra from 800 to 1300 cm\u207b\u00b9 recorded during the fifth Al\u2082O\u2083 ALE cycle at 300\u00b0C. The blue spectrum (after TMA exposure, referenced to the previous HF exposure) shows a positive absorbance peak at ~1212 cm\u207b\u00b9 corresponding to the symmetric methyl deformation mode \u03b4\u209b(CH\u2083), indicating addition of AlCH\u2083* surface species (likely AlF\u2082(CH\u2083)* or \u2013OAl(CH\u2083)\u2082*). Simultaneously, decreased absorbance between ~850\u2013975 cm\u207b\u00b9 reflects loss of Al\u2013F stretching vibrations as TMA removes the AlF\u2083 surface layer. The red spectrum (after HF exposure, referenced to the previous TMA exposure) shows complete removal of the 1212 cm\u207b\u00b9 methyl peak as AlCH\u2083* converts to AlF*, a broad absorbance loss between 800\u20131100 cm\u207b\u00b9 from Al\u2082O\u2083 fluorination, and a small absorbance increase between ~850\u2013950 cm\u207b\u00b9 consistent with AlF\u2083 layer formation."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | (a) TMA (Absorbance) | (b) HF (Absorbance) |\n|---|---|---|\n| 1300 | 0.000 | 0.000 |\n| 1280 | 0.000 | -0.002 |\n| 1260 | 0.005 | -0.010 |\n| 1240 | 0.020 | -0.035 |\n| 1220 | 0.045 | -0.055 |\n| 1200 | 0.055 | -0.060 |\n| 1180 | 0.035 | -0.035 |\n| 1160 | 0.010 | -0.010 |\n| 1140 | 0.000 | 0.000 |\n| 1120 | -0.002 | 0.000 |\n| 1100 | -0.003 | 0.000 |\n| 1080 | -0.003 | -0.001 |\n| 1060 | -0.004 | -0.002 |\n| 1040 | -0.005 | -0.003 |\n| 1020 | -0.006 | -0.005 |\n| 1000 | -0.008 | -0.007 |\n| 980 | -0.012 | -0.009 |\n| 960 | -0.020 | -0.011 |\n| 940 | -0.045 | -0.013 |\n| 900 | -0.040 | -0.005 |\n| 880 | -0.015 | -0.012 |\n| 860 | -0.005 | -0.018 |\n| 840 | 0.000 | -0.022 |\n| 820 | 0.000 | -0.020 |\n| 800 | 0.000 | -0.010 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What surface species are identified by FTIR after each half-reaction in the Al\u2082O\u2083 ALE cycle?",
+                "answer_type": "Paragraph",
+                "answer": "After the TMA exposure, AlCH\u2083* surface species are identified (as AlF\u2082(CH\u2083)* or \u2013OAl(CH\u2083)\u2082*) via the methyl deformation mode at ~1212 cm\u207b\u00b9. After the HF exposure, AlF* surface species are formed, and the AlCH\u2083* species are removed."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the spectral changes after TMA exposure compare to those after HF exposure in the 800\u20131000 cm\u207b\u00b9 region?",
+                "answer_type": "Paragraph",
+                "answer": "The spectral changes in the 800\u20131000 cm\u207b\u00b9 region are opposite for TMA and HF exposures, reflecting their complementary roles in the ALE mechanism. After TMA exposure, a decrease in absorbance is observed in this region, corresponding to the loss of Al\u2013F stretching vibrations as TMA removes the AlF\u2083 surface layer through the ligand-exchange reaction. After HF exposure, the spectrum shows a complex pattern: a broad absorbance loss from Al\u2082O\u2083 being converted to AlF\u2083, with a smaller absorbance increase between ~850\u2013950 cm\u207b\u00b9 superimposed, indicating formation of the new AlF\u2083 layer. This cyclic behavior confirms the fluorination/ligand-exchange mechanism."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Why is the vibrational feature at 1212 cm\u207b\u00b9 attributed to AlF\u2082(CH\u2083)* or \u2013OAl(CH\u2083)\u2082* rather than AlF(CH\u2083)\u2082?",
+                "answer_type": "Paragraph",
+                "answer": "Although all these species would exhibit a methyl deformation mode near 1212 cm\u207b\u00b9, the vibrational feature is attributed to surface-bound AlF\u2082(CH\u2083)* or \u2013OAl(CH\u2083)\u2082* rather than AlF(CH\u2083)\u2082 because AlF(CH\u2083)\u2082 is a volatile species with a vapor pressure of 80 Torr at 100\u00b0C. At the 300\u00b0C reaction temperature, any AlF(CH\u2083)\u2082 formed would rapidly desorb from the surface and would not be detected in the FTIR spectrum. The observed 1212 cm\u207b\u00b9 peak therefore corresponds to methyl-containing species that remain bound to the surface after TMA exposure."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Do the FTIR difference spectra show evidence of HF* surface species at 300\u00b0C?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

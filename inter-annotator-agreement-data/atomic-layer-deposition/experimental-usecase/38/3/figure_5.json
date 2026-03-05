@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_5",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "X-ray diffraction patterns of 300cLi-MnO2, 200cLi-MnO2, and 100cLi-MnO2 samples, showing the different orientations of Li1-xMn2O4.",
+        "b": "X-ray diffraction patterns of 300cLi-MnO2, 200cLi-MnO2, and 100cLi-MnO2 samples, showing the Lithiated phase, Li1-xMn2O4 (400), and \u00df-MnO2 (200)."
+    },
+    "data_extraction": {
+        "a": "| \u00b020\u03c7  | 300cLi-MnO2 | 200cLi-MnO2 | 100cLi-MnO2 |\n| --- | --- | --- | --- |\n| 20 | peak at ~19\u00b0 | - | - |\n| 30 | - | - | - |\n| 40 | peak at ~38\u00b0| peak at ~38\u00b0 | peak at ~38\u00b0 |\n| 50 | - | peak at ~48\u00b0 | - |\n| 60 | - | - | - |\n| 70 | peak at ~66\u00b0 | peak at ~66\u00b0 | peak at ~66\u00b0 |\n| 80 | - | - | - |",
+        "b": "| \u00b020  | 300cLi-MnO2 | 200cLi-MnO2 | 100cLi-MnO2 |\n| --- | --- | --- | --- |\n| 15 | peak at ~17\u00b0 | peak at ~18\u00b0 | peak at ~18\u00b0 |\n| 20 | - | - | - |\n| 25 | - | - | - |\n| 30 | - | - | - |\n| 35 | peak at ~33\u00b0, ~35\u00b0 | peak at ~33\u00b0, ~36\u00b0 | peak at ~33\u00b0, ~36\u00b0 |\n| 40 | - | - | peak at ~41\u00b0 |\n| 45 | - | - | peak at ~33\u00b0, ~45\u00b0 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the intensity of the peaks change when the number of lithium cycles increases?",
+                "answer_type": "Factoid",
+                "answer": "As the number lithium cycles increases, higher peaks can be observed."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "At which value can an impurity phase be observed?",
+                "answer_type": "Factoid",
+                "answer": "At approximately 47\u00b0."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How can it be possible to avoid the impurity phase?",
+                "answer_type": "Factoid",
+                "answer": "This can be achieved using either 100 or 300 cycles of lithium deposition, since this phase can be observed at 200 lithium cycles."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the difference between the two XRD diffractograms shown in the figures?",
+                "answer_type": "Factoid",
+                "answer": "\u00b02\u0398\u03c7 represents the in-plane and \u00b02\u0398 represent the out-of-plane (\u0398-2\u0398)."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

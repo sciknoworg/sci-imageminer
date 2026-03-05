@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_6",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The chart shows the mass change over time at different temperatures (250\u00b0C, 275\u00b0C, 300\u00b0C, 325\u00b0C) on Al2O3 surface. The mass change increases for around 60 seconds (first TMA and HF exposures),  followed by a decrease till 90 seconds (second TMA exposure). After second HF exposure, the curves show slight increase."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | 250\u00b0C | 275\u00b0C | 300\u00b0C | 325\u00b0C |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 2 | 28 | 25 | 25  | 21|\n| 32 | 30 | 30 | 31 | 27 |\n| 63 | 66 | 62 | 65 | 60 |\n| 96 | 57 | 46 | 41 | 20 |\n| 120 | 69 | 60 | 56| 39 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How many ALE cycles are shown on the figure?",
+                "answer_type": "Factoid",
+                "answer": "2 cycles."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What role does TMA play in the cycles shown?",
+                "answer_type": "Paragraph",
+                "answer": "The first TMA exposure causes a mass gain because TMA reacts with Al\u2082O\u2083 surface, leaving Al\u2013CH\u2083\u2013containing surface species. This methylation increases the measured mass. After HF converts the surface into an AlF\u2083-like fluorinated layer, TMA mainly acts as the etch step by reacting with that fluoride to form volatile AlF(CH\u2083)\u2082 that desorbs, producing the mass drop."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which half-cycle (TMA exposure or HF exposure) shows the strongest temperature dependence, and what evidence supports this conclusion?",
+                "answer_type": "Paragraph",
+                "answer": "The TMA exposure half-cycle shows the strongest temperature dependence. This is indicated by the increasing magnitude of the mass drop during TMA as temperature rises, meaning TMA removes a larger fraction of the fluorinated surface at higher temperature. By comparison, the HF step\u2019s mass gain changes much less across the same temperature range, consistent with it reaching a self-limited endpoint under the pulse conditions used."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which temperature  is closest to  etch/deposition balance?",
+                "answer_type": "Factoid",
+                "answer": "250\u00b0C"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

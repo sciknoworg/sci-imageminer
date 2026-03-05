@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_6",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The multi-line chart represents the mass change (ng/cm\u00b2) over time from 0 to 120 seconds at different temperatures (250 \u00b0C, 275 \u00b0C, 300 \u00b0C, 325 \u00b0C) on the Al\u2082O\u2083 surface. The mass change increases sharply around 30 seconds and plateaus until 60 seconds, followed by a slight decrease and then a step-like growth. The individual mass changes correspond to the sequential TMA and HF exposures at those temperatures."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass change (ng/cm\u00b2) | Temperature (\u00b0C) | Precursor |\n|---------|----------------------|------------------|-----|\n| 0        | 0                    | 250              | TMA |\n| 20       | 30                   | 250              | TMA |\n| 30       | 65                   | 250              | HF  |\n| 60       | 75                   | 250              | TMA |\n| 90       | 80                   | 250              | HF  |\n| 0        | 0                    | 275              | TMA |\n| 20       | 28                   | 275              | TMA |\n| 30       | 63                   | 275              | HF  |\n| 60       | 70                   | 275              | TMA |\n| 90       | 68                   | 275              | HF  |\n| 0        | 0                    | 300              | TMA |\n| 20       | 26                   | 300              | TMA |\n| 30       | 60                   | 300              | HF  |\n| 60       | 65                   | 300              | TMA |\n| 90       | 60                   | 300              | HF  |\n| 0        | 0                    | 325              | TMA |\n| 20       | 24                   | 325              | TMA |\n| 30       | 58                   | 325              | HF  |\n| 60       | 40                   | 325              | TMA |\n| 90       | 45                   | 325              | HF  |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Identify the specific timepoint where the actual 'etching' (material removal) occurs. Why does the mass increase significantly at the 35-second mark (HF pulse) instead of decreasing?",
+                "answer_type": "Factoid",
+                "answer": "Etching occurs at ~65 seconds (TMA pulse)."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Evaluate the net process outcome at 250\u00b0C (Red line). After the full sequence (TMA ->HF -> TMA -> HF), is the final mass lower than the starting mass?",
+                "answer_type": "Yes/No",
+                "answer": "No, the final mass is effectively higher (or barely changed) compared to the start of the cycle."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Compare the mass loss during the TMA pulse (t=65s) for the 250\u00b0C sample (Red) versus the 325\u00b0C sample (Green). What does this disparity indicate about the activation energy of the ligand-exchange reaction?",
+                "answer_type": "Paragraph",
+                "answer": "At 250\u00b0C (Red), the mass drop is negligible, implying the thermal energy is insufficient to drive the ligand-exchange reaction between TMA and the fluorinated surface. In contrast, at 325\u00b0C (Green), the massive drop indicates the barrier has been overcome, enabling rapid and efficient volatilization. This strong temperature dependence confirms the process is kinetically controlled by a significant energy barrier."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "A process engineer observes the Green curve (325\u00b0C) and notes that the mass continues to drift downward slightly between 70s and 90s (after the sharp drop). What does this instability suggest about the 'Self-Limiting' nature of the etch at high temperatures?",
+                "answer_type": "Paragraph",
+                "answer": "Ideally, an ALE step should be self-limiting, showing a sharp drop followed by a flat plateau (saturation). The slight continuous downward slope seen in the Green line (325\u00b0C) suggests a loss of self-limiting behavior, potentially due to thermal desorption of the film itself or a secondary CVD-like reaction. This instability makes precise depth control more difficult compared to the stable plateaus seen at intermediate temperatures (e.g., 300\u00b0C, Black line)."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

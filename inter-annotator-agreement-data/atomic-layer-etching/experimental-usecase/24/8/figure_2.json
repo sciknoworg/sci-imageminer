@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_2",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart illustrates the mass change over time at 300\u00b0C on Al\u2082O\u2083. The mass decreases after the treatment with TMA and grows after the treatment with HF."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass Change (ng/cm\u00b2) | Step |\n|---|---|---|\n| 6112 | -1440 | TMA dosing start |\n| 6142 | -1470 | HF dosing start  |\n| 6174 | -1457 | TMA dosing start |\n| 6206 | -1486 | HF dosing start  |\n| 6237 | -1474 | TMA dosing start |\n| 6269 | -1503 | HF dosing start |\n| 6279 | -1490 | Purging |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How many cycles are shown on the figure?",
+                "answer_type": "Factoid",
+                "answer": "3 cycles."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the approximate mass change per cycle for the second cycle shown in the graph?",
+                "answer_type": "Factoid",
+                "answer": "MCPC = -1474 - (-1457) = - 17 (ng/cm\u00b2\u22c5 cycle)"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Why do the mass changes are followed by plateaus?",
+                "answer_type": "Paragraph",
+                "answer": "The plateaus occur because after each TMA or HF pulse, the surface reactions quickly reach completion, so the mass stops changing. During the purge periods, excess precursor and volatile byproducts are flushed out without further reaction on the surface, which also keeps the signal flat. The graph therefore shows step changes during dosing and stable plateaus once the chamber returns to a reactant-free state."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the order of the process steps within one cycle?",
+                "answer_type": "List",
+                "answer": "TMA exposure, Purge, HF exposure, Purge"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

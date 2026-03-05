@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_7",
+    "classification": {
+        "a": "polar chart (rose chart)"
+    },
+    "summarization": {
+        "a": "The polar chart illustrates the varying etch-rate uniformity across a wafer using a color scale. The points/ co-ordinates on the wafer denoted by ordinate axis which is radius of wafer from its center and angle"
+    },
+    "data_extraction": {
+        "a": "| Radius, cm | Angle, deg | etch rate  |\n|---|---|--- |\n|0|0|0.139 |\n|0.5|90| 0.139 |\n|1| 60| 0.137 |\n|1|90| 0.139 |\n|1|120| 0.137 |\n|1|210| 0.137 |\n|1|300| 0.139 |\n|1.5|60| 0.135 |\n|1.5|90| 0.136 |\n|1.5| 120| 0.136|\n|1.5|210| 0.135|\n|1.5|300| 0.137 |\n|2|60| 0.133 |\n|2|90| 0.134 |\n|2| 120| 0.134|\n|2|210| 0.133|\n|2|300| 0.135 |\n|2.5|60| 0.133 |\n|2.5|90| 0.132 |\n|2.5| 120| 0.131|\n|2.5|210| 0.131|\n|2.5|300| 0.133 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Is the etch rate constant through out the wafer?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Where is the etch rate highest?",
+                "answer_type": "Factoid",
+                "answer": "At the center of the wafer"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Where does the etch rate decrease?",
+                "answer_type": "Factoid",
+                "answer": "The etch rate decreases towards the edge"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the relative error in the uniformity or etch-rate distribution?",
+                "answer_type": "Factoid",
+                "answer": "Based on the maximum and minimum values in the color scale,  difference of 0.004nm is observed and the average value is 0.135nm, therefore the relative error is 3% (difference/average)"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

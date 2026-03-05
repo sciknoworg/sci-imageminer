@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_6",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "Etch depth increases approximately linearly with the number of ALE cycles for most materials, indicating a near-constant etch-per-cycle under a 10 s activation step. SiO\u2082 exhibits the steepest slope and the largest accumulated etch depth, reaching ~27 nm after 40 cycles. AlN\u2093 and Al\u2082O\u2083 show moderate linear removal, while HfO\u2082 etches slowly. TiN shows essentially no measurable etch depth across all cycles, indicating strong resistance to the ALE process. Dashed lines represent linear fits to the experimental data."
+    },
+    "data_extraction": {
+        "a": "| Cycles | Al2O3 etch depth (nm) | HfO2 etch depth (nm) | AlNx etch depth (nm) | TiN etch depth (nm) | SiO2 etch depth (nm) |\n|---|---|---|---|---|---|\n| 0  | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 |\n| 15 | ~2.0 | ~1.5 | ~3.0 | ~0.0 | ~6.0 |\n| 20 | ~3.5 | ~2.5 | ~5.0 | ~0.0 | ~12.0 |\n| 30 | ~5.0 | ~3.2 | ~6.0 | ~0.0 | ~20.0 |\n| 40 | ~6.0 | ~4.0 | ~7.5 | ~0.0 | ~27.0 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does etch depth increase approximately linearly with cycle count for each material?",
+                "answer_type": "Factoid",
+                "answer": "Yes, approximately linear for Al2O3, HfO2, AlNx, SiO2;  TiN shows flat/near-zero change."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which material exhibits the largest etch depth after 40 cycles?",
+                "answer_type": "Factoid",
+                "answer": "\u201cSiO2\u201d\nEvidence: \u201cAt 40 cycles it has the largest etch depth  compared with other materials.\""
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How does material identity relate to etch per cycle inferred from the dashed linear fits?",
+                "answer_type": "Paragraph",
+                "answer": "EPC depends strongly on material. SiO2 has the highest slope, followed by AlNx and Al2O3, while HfO2 is low and TiN is \u22480. This ranking indicates, how etch depth varies with increasing number of cycles."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which material is the best candidate for an etch-stop (mask) under these ALE conditions, and why?",
+                "answer_type": "Paragraph",
+                "answer": "TiN is the best candidate for an etch-stop under these ALE conditions. Its etch depth stays zero after 40 cycles, giving an etch-per-cycle of 0 nm/cycle. In the plot, its markers lie near the x-axis and the dashed fit has nearly zero slope, whereas other materials show measurable slopes and larger depths. Therefore, TiN would maintain thickness during etching and serve as an effective mask/stop layer."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

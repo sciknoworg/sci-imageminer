@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_8",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart"
+    },
+    "summarization": {
+        "a": "The chart shows the change in mass (\u0394M) over temperature range 250 - 325 \u00b0C  after exposure with two different reagents (TMA and HF). TMA curve shows a negative trend, while HF curve shows a positive trend.",
+        "b": "The chart illustrates the change in MCPC (mass change per cycle) over temperature range 250 - 325 \u00b0C. The curve is decreasing with higher temperatures."
+    },
+    "data_extraction": {
+        "a": "| Temperature (\u00b0C) | \u0394M<sub>TMA</sub> (ng/cm<sup>2</sup> cycle) | \u0394M<sub>HF</sub> (ng/cm<sup>2</sup> cycle) |\n|---|---|---|\n| 250 | -10 | 6 |\n| 275 | -20 | 10 |\n| 300 | -29 | 13 |\n| 325 | -42 | 19 |",
+        "b": "| Temperature (\u00b0C) | MCPC (ng/cm<sup>2</sup> cycle) |\n|---|---|\n| 250 | -4 |\n| 275 | -10 |\n| 300 | -16 |\n| 325 | -23 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which half-cycle contributes more to the net mass change at 275\u00b0C?",
+                "answer_type": "Factoid",
+                "answer": "TMA half-cycle (|\u221240| > |+15|)."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Is the process deposition-dominated at  300\u00b0C?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What does the MCPC value at 325\u00b0C  imply about etch vs deposition balance?",
+                "answer_type": "Paragraph",
+                "answer": "At  325 \u00b0C, the MCPC point is below zero, which means the net mass change per cycle is negative. That implies the process is etch-dominated at this temperature.  In other words, deposition during the HF half-cycle does not fully compensate the loss from the TMA half-cycle, so you get net etching."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "To minimize material loss per cycle, which temperature from the range 250 - 325 \u00b0C should be chosen?",
+                "answer_type": "Factoid",
+                "answer": "250 \u00b0C"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_2",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart",
+        "c": "spectra chart"
+    },
+    "summarization": {
+        "a": "X-ray diffraction patterns of Fe<sub>2</sub>O<sub>3</sub> samples grown at 425\u00b0C.",
+        "b": "X-ray diffraction patterns of Fe<sub>2</sub>O<sub>3</sub>:MgO samples grown at 425\u00b0C with Mg/Fe = 0.02.",
+        "c": "X-ray diffraction patterns of Fe<sub>2</sub>O<sub>3</sub>:MgO samples grown at 425\u00b0C with Mg/Fe = 0.23."
+    },
+    "data_extraction": {
+        "a": "| 2\u03b8, degree | Intensity, arb. units |\n|---|---|\n| 20 | 012<sub>H</sub> |\n| 25 | 104<sub>H</sub> |\n| 30 | 220<sub>M</sub> |\n| 35 | 110<sub>H</sub> 311<sub>M</sub> |\n| 40 | 202<sub>H</sub> 113<sub>H</sub> 400<sub>M</sub> |\n| 45 | 024<sub>H</sub> 116<sub>H</sub> 122<sub>H</sub> 422<sub>M</sub> |\n| 50 | 300<sub>H</sub> 214<sub>H</sub> |",
+        "b": "| 2\u03b8, degree | Intensity, arb. units |\n|---|---|\n| 20 | 012<sub>H</sub> |\n| 25 | 104<sub>H</sub> |\n| 30 | 220<sub>M</sub> |\n| 35 | 110<sub>H</sub> 311<sub>M</sub> |\n| 40 | 202<sub>H</sub> 113<sub>H</sub> 400<sub>M</sub> |\n| 45 | 024<sub>H</sub> 116<sub>H</sub> 122<sub>H</sub> 422<sub>M</sub> |\n| 50 | 300<sub>H</sub> 214<sub>H</sub> |",
+        "c": "| 2\u03b8, degree | Intensity, arb. units |\n|---|---|\n| 20 | 012<sub>H</sub> |\n| 25 | 104<sub>H</sub> |\n| 30 | 220<sub>M</sub> |\n| 35 | 110<sub>H</sub> 311<sub>M</sub> |\n| 40 | 202<sub>H</sub> 113<sub>H</sub> 400<sub>M</sub> |\n| 45 | 024<sub>H</sub> 116<sub>H</sub> 122<sub>H</sub> 422<sub>M</sub> |\n| 50 | 300<sub>H</sub> 214<sub>H</sub> |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does the addition of magnesium have an affect on crystallinity after the FGA?",
+                "answer_type": "Paragraph",
+                "answer": "It seems that for all three cases the final peaks are similar after the FGA, this suggests that magnesium does not have a huge impact."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the supercycle rate of magnesium and iron oxide?",
+                "answer_type": "Factoid",
+                "answer": "c\tThe supercycle ratio is 0.23."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Does a functional gas anneal have an influence on the crystallinity of iron oxide? If so, what effect?",
+                "answer_type": "Paragraph",
+                "answer": "a\tThe FGA shifts the hematite phase to the magnetite phase."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What could be a reason for the initial 100 cycles of iron oxide before the supercycle process is started?",
+                "answer_type": "Paragraph",
+                "answer": "It could be that magnesium oxide does not grow that good on a different substrate than on iron oxide. By first depositing iron oxide, nucleation delays can be suppressed."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

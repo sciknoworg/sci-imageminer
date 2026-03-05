@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_2",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The figure shows the deposition rate on different materials (Si, Al2O3, HfO2, AlNx, TiN, SiO2) against the fraction of CF4 in the plasma mixture. For all materials, the deposition rate increases rapidly at low CF\u2084 content and then decreases again at higher CF\u2084 concentrations.",
+        "b": "The figure illustrates the concentration of F, CF2, and CF species against the fraction of CF4 in the plasma mixture. For all three species, the concentration increases with CF\u2084 content, but the increase becomes more gradual at higher CF\u2084 concentrations."
+    },
+    "data_extraction": {
+        "a": "| v_{CF4} % | Si, nm/min | Al2O3, nm/min | HfO2, nm/min | AlNx, nm/min | TiN, nm/min | SiO2, nm/min |\n|---|---|---|---|---|---|---|\n| 3.3 | 1.53 | 2.72 | 2.16 | 2.33 | 2.50 | 0.64 |\n| 5.0 | 4.06 | 5.73 | 5.97 | 6.19 | 2.82 | 1.22 |\n| 6.6 | 5.61 | 5.70 | 5.39 | 6.29 | 1.49 | - 2.82 |\n| 10 | 3.93 | 4.69 | 3.50 | 5.07 | - 0.9 | - 5.51 |\n| 13.3 | 2.02 | 3.79 | 3.33 | 4.01 | - 0.37 | - 4.98 |",
+        "b": "| v_{CF4} % | F, cm^-3 | CF2, cm^-3 | CF, cm^-3|\n|---|---|---|---|\n| 3.3 | 7300000000000 | 39000000000 | 16000000000 |\n| 5.0 | 13000000000000 | 62000000000 | 21000000000 |\n| 6.6 | 28000000000000 | 90000000000 | 36000000000 |\n| 10 | 56000000000000 | 177000000000 | 90000000000 |\n| 13.3 | 78000000000000 | 180000000000 | 109000000000 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Will SiO2 be etched in a plasma containing 7% CF4?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Based solely on the graph, which material appears to be the best choice for industrial applications? Why?",
+                "answer_type": "Paragraph",
+                "answer": "The graph shows how the deposition rate changes with CF4 fraction for different materials. Based only on this data, AlNx looks like the best choice for industrial use. It has the highest deposition rate and stays relatively high across the whole CF4 concentration range, which would enable faster processing."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the optimal CF4 fraction for deposition on Si?",
+                "answer_type": "Factoid",
+                "answer": "6.6% (fastest deposition)."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the most likely reason why the deposition rate for most of the studied materials slows down or even become negative when the CF4 fraction in the mixture reaches about 5% or higher?",
+                "answer_type": "Paragraph",
+                "answer": "The plot indicates that as the CF4 fraction in the plasma increases, the F concentration rises extremely rapidly for mixtures above about 5% CF4, growing by several orders of magnitude relative to CF and CF2 (due to the logarithmic scale). While CF and CF2 radicals contribute mainly to film growth, F atoms favor the formation of volatile fluorides and thus promote etching. When F becomes predominant in the plasma, deposition is progressively suppressed and, for some materials, the overall process switches from film growth to etching."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

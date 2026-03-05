@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig1",
+    "classification": {
+        "a": "process timing diagram",
+        "b": "conceptual diagram"
+    },
+    "summarization": {
+        "a": "The chart illustrates a multi-axis cycle of atomic layer etching sequence with four variables: DC power, ICP power, CF4+H2 flow rate, and Ar flow rate, each varying over time.",
+        "b": "Conceptual diagram describing the state of the process corresponding to the etching sequence"
+    },
+    "data_extraction": {
+        "a": "| W<sub>DC</sub>, W | W<sub>ICP</sub>, W | CF<sub>4</sub>+H<sub>2</sub>, sccm | Ar, sccm |\n|---|---|---|---|\n| 0-(4-6) | 0 -(1500) | 0-(10-25) | 0-50 |\n|  0   | 1500 |  10-25  |50 |  \n|  0   | 1500 |  0  |50| \n|  0   | 1500 |  0  |50| \n|  0   | 1500 |  0  |50|  \n|  0   | 1500 |  0  |50| \n|  4-6  | 1500 |  0 |50 | \n|  0   | 1500 |  10-25  |50 | \n|  0   | 1500 |  10-25  |50 | \n|  0   | 1500 |  0  |50| \n|  0   | 1500 |  0  |50| \n|  0   | 1500 |  0  |50| \n|  0   | 1500 |  0  |50| \n|  0   | 1500 |  0  |50| \n|  0   | 1500 |  10-25  |50 | \n|  0   | 1500 |  10-25  |50 |",
+        "b": "|conceptual image number | sequence|\n|---|---|\n|1|x |\n|2| y|\n|3|z |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Is there constant DC bias during the atomic layer etching sequence",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What parameters remain constant throughout the process",
+                "answer_type": "Factoid",
+                "answer": "ICP power and Ar flow are constant throughout the process"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "When is the atom of target layer etched away?",
+                "answer_type": "Paragraph",
+                "answer": "During the third sequence in the ALE cycle, DC bias step."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "When does the surface reach saturation?",
+                "answer_type": "Paragraph",
+                "answer": "During the second step in the cycle, the C, F atoms on the target surface appear to have reached saturation"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

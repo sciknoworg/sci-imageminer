@@ -1,0 +1,63 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_13",
+    "classification": {
+        "a": "molecular structure diagram",
+        "b": "molecular structure diagram"
+    },
+    "summarization": {
+        "a": "Schematic of the HF reaction step in Al\u2082O\u2083 ALE, where HF reacts with AlCH\u2083* surface species to form AlF* species and CH\u2084, and also reacts with the underlying Al\u2082O\u2083 film to generate an AlF\u2083 surface layer and H\u2082O as reaction products.",
+        "b": "Schematic of the TMA reaction step, where TMA reacts with the AlF\u2083 surface layer to form volatile AlF(CH\u2083)\u2082 products and AlF\u2082(CH\u2083)* surface species. Additional TMA exposure can remove AlF\u2082(CH\u2083)* species, and TMA may also react with the Al\u2082O\u2083 substrate to regenerate AlCH\u2083* surface species."
+    },
+    "data_extraction": {
+        "a": "| Description |\n|---|\n| HF reacts with AlCH\u2083* surface species to form AlF* and CH\u2084. |\n| HF reacts with underlying Al\u2082O\u2083 to form an AlF\u2083 surface layer and H\u2082O. |\n| The AlF\u2083 surface layer prepares the surface for the subsequent TMA reaction. |",
+        "b": "| Description |\n|---|\n| TMA reacts with the AlF\u2083 surface to form volatile AlF(CH\u2083)\u2082 products. |\n| AlF\u2082(CH\u2083)* surface species may form as intermediates. |\n| Additional TMA can remove AlF\u2082(CH\u2083)* via Al(CH\u2083)\u2083 + AlF\u2082(CH\u2083)* \u2192 2AlF(CH\u2083)\u2082. |\n| TMA can also react with Al\u2082O\u2083 to regenerate AlCH\u2083* surface species. |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "What does the proposed reaction mechanism indicate about the self-limiting nature and effectiveness of the Al\u2082O\u2083 ALE process?",
+                "answer_type": "Paragraph",
+                "answer": "The schematic shows that the sequential HF and TMA reactions are self-limiting: HF selectively reacts with AlCH\u2083* and Al\u2082O\u2083 to form AlF* and AlF\u2083, while TMA reacts with the AlF\u2083 surface to produce volatile AlF(CH\u2083)\u2082 and remove intermediate species. This controlled sequence ensures that only a defined amount of Al\u2082O\u2083 is etched per cycle, demonstrating the effectiveness of ALE in achieving precise, layer-by-layer material removal."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which surface species are involved in the etching process during Al\u2082O\u2083 ALE according to the schematic?",
+                "answer_type": "List",
+                "answer": "AlCH\u2083, AlF, AlF\u2082(CH\u2083), AlF\u2083, Al(CH\u2083)\u2083"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does HF react with AlCH\u2083* surface species during the ALE process to form AlF* and CH\u2084?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the reaction of TMA differ from the reaction of HF in the proposed ALE mechanism?",
+                "answer_type": "Factoid",
+                "answer": "TMA reacts with the AlF\u2083 surface layer to form volatile AlF(CH\u2083)\u2082 products and can remove AlF\u2082(CH\u2083)* species, while HF reacts with AlCH\u2083* species and Al\u2082O\u2083 to form AlF* and AlF\u2083, respectively."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

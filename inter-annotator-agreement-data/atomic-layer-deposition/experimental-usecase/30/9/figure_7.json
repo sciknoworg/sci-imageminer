@@ -1,0 +1,54 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_7",
+    "classification": {
+        "a": "image panel"
+    },
+    "summarization": {
+        "a": "The figure shows a single cross-sectional SEM/EDX image of a 72 nm thick iron oxide film grown on 3D substrates. The SEM image illustrates the conformal growth of the film into high-aspect-ratio trenches, while the EDX mappings reveal the distribution of iron, silica and oxygen throughout the film, including the trench bottoms and sidewalls."
+    },
+    "data_extraction": {
+        "a": "| Element / Feature | SEM image | Iron (Fe) | Oxygen (O) |\n|-----------------|-----------|------------|-------------|\n| 3D Film Cross-section | Image | EDX mapping | EDX mapping |\n| Trench bottom       | Conformal growth visible | Fe detected | O detected |\n| Sidewalls           | Conformal growth visible | Fe detected | O detected |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "How does the figure support the potential application of ALD iron oxide films on 3D substrates?",
+                "answer_type": "Paragraph",
+                "answer": "The figure shows that ALD-grown iron oxide films can coat complex 3D structures uniformly, maintaining consistent thickness and conformality even in deep trenches. The EDX mappings confirm that both iron and oxygen are present throughout the film depth, indicating that the deposition process achieves complete coverage and stoichiometry. This suggests that such films could be reliably used in devices requiring high surface-area coatings or patterned 3D architectures."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What structural features can be observed in the SEM/EDX image?",
+                "answer_type": "List",
+                "answer": "Conformal film growth along trench walls and bottoms, Uniform thickness of the iron oxide layer (~72 nm), Depth-resolved elemental distribution of Fe and O"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the figure show that the iron oxide film can grow conformally into high-aspect-ratio trenches?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which elements are mapped in the cross-sectional EDX image?",
+                "answer_type": "Factoid",
+                "answer": "Iron (Fe), and oxygen (O)."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

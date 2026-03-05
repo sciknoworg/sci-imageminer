@@ -1,0 +1,54 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_10",
+    "classification": {
+        "a": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "The FTIR absorbance spectra show Al\u2082O\u2083 ALD films on ZrO\u2082 nanoparticles during sequential TMA and HF exposures at 300 \u00b0C. The absorbance in the 800\u20131000 cm\u207b\u00b9 region decreases progressively with increasing Al\u2082O\u2083 ALE cycles, indicating etching of the Al\u2082O\u2083 film and loss of Al\u2013O stretching vibrations."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | Absorbance (a.u.) |\n|---|---|\n| 800 | 0.50 |\n| 850 | 0.45 |\n| 900 | 0.40 |\n| 950 | 0.35 |\n| 1000 | 0.30 |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "What does the observed decrease in Al\u2013O absorbance imply about the performance of the ALE process on Al\u2082O\u2083 films?",
+                "answer_type": "Paragraph",
+                "answer": "The progressive loss of Al\u2013O absorbance indicates effective etching of the Al\u2082O\u2083 film during ALE cycles. This confirms that the sequential TMA and HF exposures at 300\u202f\u00b0C can selectively remove Al\u2082O\u2083 layers on ZrO\u2082 nanoparticles, which is critical for controlled layer-by-layer modification in atomic layer etching applications."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which structural feature of Al\u2082O\u2083 is monitored in the FTIR spectra during ALE?",
+                "answer_type": "List",
+                "answer": "Al\u2013O stretching vibrations in bulk Al\u2082O\u2083, Surface hydroxyl (Al\u2013OH) groups, indicating surface reactions during ALE"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the FTIR data indicate that Al\u2082O\u2083 is being etched during the ALE cycles at 300\u202f\u00b0C?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the absorbance in the 800\u20131000\u202fcm\u207b\u00b9 region change as the number of Al\u2082O\u2083 ALE cycles increases?",
+                "answer_type": "Factoid",
+                "answer": "The absorbance progressively decreases with increasing ALE cycles."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

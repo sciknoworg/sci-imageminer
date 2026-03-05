@@ -1,0 +1,68 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_2",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "X-ray diffraction patterns of undoped Fe<sub>2</sub>O<sub>3</sub> samples grown at 425\u00b0C, using a cycle sequence 500 x 1.5 - 0.5 - 2.0 - 0.5s. The spectra are shown for the film as-deposited and after forming gas annealing.",
+        "b": "X-ray diffraction patterns of undoped Fe<sub>2</sub>O<sub>3</sub>: MgO samples grown at 425\u00b0C with Mg/Fe = 0.02. The spectra are shown for the film as-deposited and after forming gas annealing.",
+        "c": "X-ray diffraction patterns of undoped Fe<sub>2</sub>O<sub>3</sub>: MgO samples grown at 425\u00b0C with Mg/Fe = 0.23. The spectra are shown for the film as-deposited and after forming gas annealing."
+    },
+    "data_extraction": {
+        "a": "| Sample | Assignment |2\u03b8, degree | Intensity, arb. units |\n|---|---|---|---|\n| as-dep. | 012 H (Hematite) | 24.16 | 87 |\n| as-dep. | 104 H (Hematite) | 33.03 | 72 |\n| as-dep. | 110 H / 311 M | 35.5 | 129 |\n| as-dep. | 113 H (Hematite) | 40.92 | 35 |\n| as-dep. | 202 H (Hematite) | 43.19 | 29 |\n| as-dep. | 024 H (Hematite) | 49.4 | 23 |\n| as-dep. | 116 H (Hematite) | 53.8 | 21 |\n| as-dep. | 122 H (Hematite) | 57.19 | 11 |\n| as-dep. | 214 H (Hematite) | 62.8 | 29 |\n| as-dep. | 300 H (Hematite) | 63.9 | 15 |\n| FGA| 220 M (Magnetite) | 29.97 | 42 |\n| FGA | 110 H / 311 M | 35.5 | 89 |\n| FGA | 400 M (Magnetite) | 43.14 | 31 |\n| FGA | 422 M (Magnetite) | 53.69 | 13 |\n| FGA | - | 57.14 | 15 |\n| FGA | - | 62.8 | 45 |",
+        "b": "| Sample | Assignment | 2\u03b8, degree | Intensity, arb. units |\n|---|---|---|---|\n| as-dep. | 012 H (Hematite) | 24.08 | 120 |\n| as-dep. | 220 M (Magnetite) | 30.18 | 91 |\n| as-dep. | 104 H (Hematite) | 33.05 | 100 |\n| as-dep. | 110 H (Hematite) | 35.6 | 190 |\n| as-dep. | 113 H (Hematite) | 40.92 | 39 |\n| as-dep. | 202 H (Hematite) | 43.29 | 35 |\n| as-dep. | 024 H (Hematite) | 49.53 | 22 |\n| as-dep. | 116 H (Hematite) | 54.17 | 17 |\n| as-dep. | 122 H (Hematite) | 57.36 | 11 |\n| as-dep. | 214 H (Hematite) | 62.91 | 18 |\n| as-dep. | 300 H (Hematite) | 64.09 | 3 |\n| FGA | - | 30.05 | 60 |\n| FGA | 311 M (Magnetite) | 35.46 | 175 |\n| FGA | - | 36.97 | 36 |\n| FGA | 400 M (Magnetite) | 42.97 | 45 |\n| FGA | 422 M (Magnetite) | 53.4 | 21 |\n| FGA | - | 57.04 | 37 |\n| FGA | - | 62.59 | 60 |",
+        "c": "| Sample | Assignment | 2\u03b8, degree | Intensity, arb. units |\n|---|---|---|---|\n| as-dep. | - | 30.54 | 64 |\n| as-dep. | 110 H  | 35.87 | 120 |\n| as-dep. | 202 H (Hematite) | 43.42 | 21 |\n| as-dep. | 116 H (Hematite) | 53.87 | 5 |\n| as-dep. | 122 H (Hematite) | 57.36 | 11 |\n| as-dep. | 214 H (Hematite) | 63.06 | 16 |\n| FGA | 220 M (Magnetite) | 30.22 | 28 |\n| FGA | 311 M (Magnetite) | 35.45 | 98 |\n| FGA | 400 M (Magnetite) | 43.31 | 10 |\n| FGA | - | 53.55 | 1 |\n| FGA | - | 57.2 | 3 |\n| FGA | - | 62.69 | 11 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What changes occur in the film after forming gas annealing?",
+                "answer_type": "Factoid",
+                "answer": "The film transforms from hematite to magnetite."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the dominant peak before and after annealing?",
+                "answer_type": "Factoid",
+                "answer": "Before annealing: 110 (Hematite), after FGA: 311 (Magnetite)."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which pattern shows a \"hump\" in the baseline signal?",
+                "answer_type": "Factoid",
+                "answer": "As-deposited sample (shows a \"hump\" in the baseline at low angles)."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the effect of FGA on the doped film? What supports this conclusion?",
+                "answer_type": "Paragraph",
+                "answer": "Forming gas annealing transforms the lightly doped film from a mixed structure into the magnetite phase. Before annealing, though the structure is dominated by hematite, the peaks of both hematite and magnetite can be observed. After the annealing, the hematite peaks dissappear compeltely. This confirms the reduction of hematite during FGA."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

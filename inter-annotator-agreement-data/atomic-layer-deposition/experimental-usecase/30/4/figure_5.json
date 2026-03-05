@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_5",
+    "classification": {
+        "a": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays Fe 2p XAS and TEY spectra for Fe\u2082O\u2083:MgO thin films grown at 425 \u00b0C, comparing non-doped samples with those doped with Mg at different concentrations."
+    },
+    "data_extraction": {
+        "a": "| Sample | Mg Doping (at.%) | Fe L\u2083 Edge (~eV) | Fe L\u2082 Edge (~eV) | Relative Intensity |\n|--------|------------------|------------------|------------------|-------------------|\n| non-doped | 0 | ~710 | ~720-725 | Highest |\n| Low doping | 0.02 | ~710 | ~720-725 | High |\n| Medium doping | 0.2 | ~710 | ~720-725 | Medium |\n| High doping | 0.38 | ~710 | ~720-725 | Lowest |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the difference between TFY and TEY?",
+                "answer_type": "Factoid",
+                "answer": "Total Electron Yield (TEY) and Total Fluorescence Yield (TFY) are common detection modes in X-ray Absorption Spectroscopy (XAS), especially soft X-ray XAS (NEXAFS), where TEY measures emitted secondary electrons (surface-sensitive) and TFY measures all emitted X-ray fluorescence (bulk-sensitive)."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What are the magnesium content of the spectra analysed?",
+                "answer_type": "Paragraph",
+                "answer": "The doped films grown at 425\u25e6C from CpFeC5H4CHN(CH3)2 have the following concentrations, \n1. Mg 0.02 at %\n2. Mg 0.2 at %\n3. Mg 0.38 at %"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How does TEY differentiate hematite and magnetite component?",
+                "answer_type": "Paragraph",
+                "answer": "The undoped Fe2O3 samples and those doped with 0.02 at.%Mg resembled the hematite spectrum, while samples with increased doping level (0.2 at.% and 0.4 at.%) showed a decreased intensity of the shoulder at 708.5 eV in the Fe 2p spectrum, possibly due to the presence of a small magnetite component."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the XAS TFY and TEY detect similar trends in the films analysed?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

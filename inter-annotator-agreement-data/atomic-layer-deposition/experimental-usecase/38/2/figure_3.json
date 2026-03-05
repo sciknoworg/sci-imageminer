@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_3",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "In-plane 2\u03b8\u03c7 XRD of MnO\u2082, 10cLi-MnO\u2082, and 50cLi-MnO\u2082. Red labels indicate \u03b2-MnO\u2082 reflections; blue labels indicate emerging Li\u2081\u208b\u2093Mn\u2082O\u2084 spinel phase. Inset shows the in-plane measurement geometry.",
+        "b": "Out-of-plane \u03b8-2\u03b8 XRD of the same samples. \u03b2-MnO\u2082 (100) and (200) reflections dominate. Weak \"lithiated phase\" peaks appear with increasing Li content. Asterisk marks an impurity reflection (likely Li\u2082\u208b\u1d64MnO\u2082). Inset shows measurement geometry."
+    },
+    "data_extraction": {
+        "a": "| 2\u03b8_chi (\u00b0) | MnO2 (Norm.) | 10cLi-MnO2 (Norm.) | 50cLi-MnO2 (Norm.) |\n|---|---|---|---|\n| 18.5 | 0.05 | 0.05 | 0.20 |\n| 37.5 | 1.00 | 1.00 | 1.00 |\n| 42.5 | 0.30 | 0.15 | 0.05 |\n| 65.0 | 0.55 | 0.30 | 0.05 |\n| 66.0 | 0.05 | 0.05 | 0.30 |\n| 71.5 | 0.35 | 0.15 | 0.05 |",
+        "b": "| 2\u03b8 (\u00b0) | MnO2 (Norm.) | 10cLi-MnO2 (Norm.) | 50cLi-MnO2 (Norm.) |\n|---|---|---|---|\n| 17.8 | 0.05 | 0.05 | 0.10 |\n| 20.4 | 0.15 | 0.15 | 0.05 |\n| 33.0 | 1.00 | 1.00 | 1.00 |\n| 36.0 | 0.05 | 0.05 | 0.10 |\n| 41.2 | 0.60 | 0.55 | 0.65 |\n| 44.5 | 0.05 | 0.25 | 0.15 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the XRD patterns change from MnO\u2082 to 50cLi-MnO\u2082?",
+                "answer_type": "Paragraph",
+                "answer": "The \u03b2-MnO\u2082 reflections persist but weaken, while Li\u2081\u208b\u2093Mn\u2082O\u2084 spinel reflections emerge\u2014(111), (131), and (440) in-plane; (400) out-of-plane. At these low lithium concentrations (x < 0.5), the samples are mixtures of both phases."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the difference between the two XRD measurement geometries shown?",
+                "answer_type": "Factoid",
+                "answer": "Panel (a) uses in-plane 2\u03b8\u03c7 geometry probing planes parallel to the substrate; panel (b) uses out-of-plane \u03b8-2\u03b8 geometry probing planes perpendicular to the substrate."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What does the asterisk (*) in panel (b) indicate?",
+                "answer_type": "Factoid",
+                "answer": "An impurity reflection at ~32.6\u00b0, likely from a lithium-rich Li\u2082\u208b\u1d64MnO\u2082 phase (ICDD PDF 38-1282)."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is the (100) reflection of \u03b2-MnO\u2082 visible even though it's symmetry-forbidden?",
+                "answer_type": "Factoid",
+                "answer": "Residual stress in the film deforms the tetragonal structure slightly toward orthorhombic, breaking the P4\u2082/mnm space group symmetry and allowing the forbidden reflection."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

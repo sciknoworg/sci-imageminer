@@ -1,0 +1,81 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_8",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart",
+        "d": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The figure shows hysteresis loops of as-deposited Mg doped Fe2O3  at Mg/Fe ratio of 0.017",
+        "b": "The figure shows hysteresis loops of as-deposited Mg doped Fe2O3  at Mg/Fe ratio of 0.061",
+        "c": "The figure shows hysteresis loops of annealed Mg doped Fe2O3  at Mg/Fe ratio of 0.017",
+        "d": "The figure shows hysteresis loops of annealed Mg doped Fe2O3  at Mg/Fe ratio of 0.061"
+    },
+    "data_extraction": {
+        "a": "| Temperature (K) | Saturation Magnetization Ms (emu/cm\u00b3) | Coercivity Hc (Oe) |\n|-----------------|---------------------------------------|-------------------|\n| 300 | ~200 | 300 |\n| 200 | ~200 | ~300 |\n| 100 | ~200 | ~300 |\n| 50 | ~200 | ~300 |",
+        "b": "| Temperature (K) | Saturation Magnetization Ms (emu/cm\u00b3) | Coercivity Hc (Oe) |\n|-----------------|---------------------------------------|-------------------|\n| 300 | 491 | 150 |\n| 200 | ~500 | ~150 |\n| 100 | ~500 | ~150 |\n| 50 | ~500 | ~150 |\n| 10 | ~500 | ~150 |",
+        "c": "| Temperature (K) | Saturation Magnetization Ms (emu/cm\u00b3) | Coercivity Hc (Oe) |\n|-----------------|---------------------------------------|-------------------|\n| 300 | 280 | 280 |\n| 200 | ~290 | ~280 |\n| 100 | ~290 | ~280 |\n| 50 | ~290 | ~280 |\n| 10 | ~290 | ~280 |",
+        "d": "| Temperature (K) | Saturation Magnetization Ms (emu/cm\u00b3) | Coercivity Hc (Oe) |\n|-----------------|---------------------------------------|-------------------|\n| 300 | 274 | 200 |\n| 200 | ~280 | ~200 |\n| 100 | ~280 | ~200 |\n| 50 | ~280 | ~200 |\n| 10 | ~280 | ~200 |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What does annealing do?",
+                "answer_type": "Factoid",
+                "answer": "The annealing procedure also decreased the HC."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Application/Performance",
+                "question": "What is disadvantage of high magnesium content?",
+                "answer_type": "Paragraph",
+                "answer": "The coercivity and magnetic moment decreased with increase in magnesium content. Therefore, high amounts of magnesium may not be advantageous in terms of increasing both HC and \u03bcS, maybe due to the formation of an additive ternary phase, e.g. magnesioferrite, in the film bulk."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Does the magnetic moment of the iron oxide films increase with increase in Mg content?",
+                "answer_type": "Paragraph",
+                "answer": "Yes, only up to a certain limit."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What are the coercivities of the nondoped and doped films?",
+                "answer_type": "Paragraph",
+                "answer": "1. In the nondoped and as-deposited films the HC ranged from 485 to 1950 Oe between 300 and 10 K.\n2. In the films with Mg/Fe atomic ratio of 0.017 the HC was in the range of 300\u20131260 Oe between 300 and 10 K. \n3. With  increase in the Mg content to Mg/Fe ratio of 0.062 the HC decreased toward the range of 150\u2013460 Oe between 300 and 10 K."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

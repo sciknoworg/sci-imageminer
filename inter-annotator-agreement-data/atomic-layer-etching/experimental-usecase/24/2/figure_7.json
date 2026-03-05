@@ -1,0 +1,68 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_7",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart"
+    },
+    "summarization": {
+        "a": "Steady-state ALE at 250\u00b0C showing small mass changes: \u0394M_TMA = \u221210.5 ng/cm\u00b2 (mass loss) and \u0394M_HF = +6.3 ng/cm\u00b2 (mass gain), yielding MCPC = \u22124.2 ng/(cm\u00b2 cycle).",
+        "b": "Steady-state ALE at 275\u00b0C with intermediate mass changes: \u0394M_TMA = \u221220.5 ng/cm\u00b2 and \u0394M_HF = +9.9 ng/cm\u00b2, yielding MCPC = \u221210.6 ng/(cm\u00b2 cycle).",
+        "c": "Steady-state ALE at 325\u00b0C showing the largest mass changes: \u0394M_TMA = \u221241.9 ng/cm\u00b2 and \u0394M_HF = +18.6 ng/cm\u00b2, yielding MCPC = \u221223.3 ng/(cm\u00b2 cycle)."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 6120 | -318 |\n| 6130 | -318 |\n| 6135 | -320 |\n| 6140 | -325 |\n| 6145 | -325 |\n| 6150 | -324 |\n| 6155 | -323 |\n| 6170 | -322 |\n| 6175 | -322 |\n| 6180 | -330 |\n| 6195 | -332 |\n| 6200 | -335 |\n| 6210 | -338 |\n| 6220 | -331 |\n| 6225 | -331 |\n| 6230 | -331 |\n| 6235 | -331 |\n| 6240 | -331 |\n| 6245 | -333 |\n| 6250 | -335 |\n| 6260 | -337 |\n| 6270 | -339 |\n| 6280 | -335 |\n| 6290 | -337 |",
+        "b": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 6120 | -945 |\n| 6130 | -960 |\n| 6135 | -968 |\n| 6140 | -969 |\n| 6145 | -969 |\n| 6150 | -955 |\n| 6155 | -955 |\n| 6160 | -955 |\n| 6175 | -955 |\n| 6180 | -972 |\n| 6190 | -974 |\n| 6195 | -975 |\n| 6200 | -975 |\n| 6210 | -975 |\n| 6220 | -967 |\n| 6225 | -965 |\n| 6230 | -965 |\n| 6240 | -965 |\n| 6245 | -982 |\n| 6250 | -982 |\n| 6260 | -983 |\n| 6270 | -984 |\n| 6275 | -979 |\n| 6300 | -979 |",
+        "c": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 6120 | -2210 |\n| 6130 | -2245 |\n| 6135 | -2245 |\n| 6140 | -2245 |\n| 6145 | -2245 |\n| 6150 | -2245 |\n| 6155 | -2245 |\n| 6160 | -2243 |\n| 6165 | -2240 |\n| 6170 | -2238 |\n| 6175 | -2260 |\n| 6180 | -2274 |\n| 6200 | -2275 |\n| 6210 | -2276 |\n| 6220 | -2265 |\n| 6225 | -2260 |\n| 6230 | -2260 |\n| 6235 | -2260 |\n| 6240 | -2260 |\n| 6245 | -2295 |\n| 6250 | -2295 |\n| 6260 | -2295 |\n| 6270 | -2300 |\n| 6275 | -2290 |\n| 6280 | -2280 |\n| 6300 | -2280 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Application/Performance",
+                "question": "What etch rate does the MCPC of \u221223.3 ng/(cm\u00b2 cycle) at 325\u00b0C correspond to?",
+                "answer_type": "Factoid",
+                "answer": "Based on an Al\u2082O\u2083 density of 3.1 g/cm\u00b3, this MCPC corresponds to an etch rate of 0.75 \u00c5/cycle."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the magnitude of \u0394M_TMA change with increasing temperature?",
+                "answer_type": "Factoid",
+                "answer": "\u0394M_TMA increases from \u221210.5 ng/cm\u00b2 at 250\u00b0C to \u221220.5 ng/cm\u00b2 at 275\u00b0C to \u221241.9 ng/cm\u00b2 at 325\u00b0C, indicating more AlF\u2083 removal at higher temperatures."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Why does the HF exposure produce mass gain while TMA produces mass loss?",
+                "answer_type": "Paragraph",
+                "answer": "HF fluorinates the Al\u2082O\u2083 surface to form a heavier AlF\u2083 layer (Al\u2082O\u2083 + 6HF \u2192 2AlF\u2083 + 3H\u2082O), causing mass gain. TMA then removes this AlF\u2083 layer through ligand-exchange, producing volatile AlF(CH\u2083)\u2082 that leaves the surface, causing mass loss."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What do the dashed lines labeled \"MCPC\" represent in each panel?",
+                "answer_type": "Factoid",
+                "answer": "The dashed lines indicate the mass change per cycle (MCPC), which is the net mass loss after one complete TMA + HF cycle, equal to \u0394M_TMA + \u0394M_HF."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

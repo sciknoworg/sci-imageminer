@@ -1,0 +1,79 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_8",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart",
+        "d": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The figure shows hysteresis loops of magnetic material Mg/Fe = 0.017 at various temperatures (10, 50, 100, 200, 300 K) with as deposited condition , the thickness of the film ~425 nm",
+        "b": "The figure shows hysteresis loops of magnetic material Mg/Fe = 0.061 at various temperatures (10, 50, 100, 200, 300 K) with as deposited condition , the thickness of the film ~411 nm",
+        "c": "The figure shows hysteresis loops of magnetic material Mg/Fe = 0.017 at various temperatures after annealing at 450\u25e6C",
+        "d": "The figure shows hysteresis loops of magnetic material Mg/Fe = 0.061 at various temperatures after annealing at 450\u25e6C.  The hysteresis loops shows noticable magnetic behavior with high magnetic saturations and low coercive fields."
+    },
+    "data_extraction": {
+        "a": "| Magnetic field, Oe | -7500 | -5000 | -2500 | 0 | 2500 | 5000 | 7500 |\n|---|---|---|---|---|---|---|---|\n| M, emu/cm\u00b3 | -200 | -100 | 0 | 100 | 200 | 300 | 400 |",
+        "b": "| Magnetic field, Oe | -7500 | -5000 | -2500 | 0 | 2500 | 5000 | 7500 |\n|---|---|---|---|---|---|---|---|\n| M, emu/cm\u00b3 | -600 | -400 | -200 | 0 | 200 | 400 | 600 |",
+        "c": "| Magnetic field, Oe | -7500 | -5000 | -2500 | 0 | 2500 | 5000 | 7500 |\n|---|---|---|---|---|---|---|---|\n| M, emu/cm\u00b3 | -300 | -150 | 0 | 150 | 300 | 450 | 600 |",
+        "d": "| Magnetic field, Oe | -7500 | -5000 | -2500 | 0 | 2500 | 5000 | 7500 |\n|---|---|---|---|---|---|---|---|\n| M, emu/cm\u00b3 | -300 | -150 | 0 | 150 | 300 | 450 | 600 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Which film composition and treatment are most suitable for magnetic sensor or spintronic applications, and why?",
+                "answer_type": "Paragraph",
+                "answer": "The as-deposited film with Mg/Fe\u202f=\u202f0.061 offers the best performance for sensors and spintronics due to its high M\u209b (491\u202femu/cm\u00b3) and low Hc (150\u202fOe), enabling strong magnetic response and easy switching. FGA-treated low-Mg films (Mg/Fe\u202f=\u202f0.017) are suitable for applications requiring moderate coercivity and thermal stability, while high-Mg annealed films may be useful for data storage where higher Hc provides stability against demagnetization."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does forming gas annealing (FGA at 450\u202f\u00b0C for 30\u202fmin) affect the magnetic hysteresis behavior of Mg-doped iron oxide films grown at 375\u202f\u00b0C?",
+                "answer_type": "Paragraph",
+                "answer": "FGA modifies both saturation magnetization (M\u209b) and coercivity (Hc). For low Mg content (Mg/Fe\u202f=\u202f0.017), M\u209b increases from 200 \u2192 280\u202femu/cm\u00b3, and Hc slightly decreases from 300 \u2192 280\u202fOe, indicating improved magnetite crystallinity and reduced pinning. For higher Mg content (Mg/Fe\u202f=\u202f0.061), M\u209b decreases from 491 \u2192 274\u202femu/cm\u00b3, while Hc increases from 150 \u2192 200\u202fOe, suggesting that excess Mg and annealing lead to cation redistribution and reduced magnetic Fe content."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do Mg/Fe ratio and annealing state influence magnetic properties such as M\u209b and Hc?",
+                "answer_type": "Paragraph",
+                "answer": "As-deposited: Increasing Mg/Fe from 0.017 to 0.061 significantly raises M\u209b (200 \u2192 491\u202femu/cm\u00b3) and lowers Hc (300 \u2192 150\u202fOe), indicating that moderate Mg promotes magnetite formation and soft magnetic behavior.\nAfter FGA: Low Mg films gain magnetization (M\u209b = 280\u202femu/cm\u00b3), while high Mg films lose magnetization (M\u209b = 274\u202femu/cm\u00b3) and become harder (Hc rises to 200\u202fOe).\nMg doping initially enhances magnetization, but excessive Mg combined with annealing reduces Fe magnetic sites and increases anisotropy."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What structural changes explain the observed variations in magnetic properties with Mg doping and annealing?",
+                "answer_type": "Paragraph",
+                "answer": "Mg incorporation and FGA alter the cation distribution in the spinel lattice. At moderate Mg levels, magnetite formation is favored, increasing M\u209b and lowering Hc. At higher Mg levels, Mg\u00b2\u207a substitutes Fe\u00b3\u207a in octahedral sites, reducing magnetic exchange interactions and introducing lattice strain, which increases coercivity and decreases magnetization. Annealing further modifies grain boundaries and defect density, influencing domain wall motion."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

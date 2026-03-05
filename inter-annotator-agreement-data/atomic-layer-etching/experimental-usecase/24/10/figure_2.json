@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_2",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The trace shows stepwise mass changes during alternating TMA and HF exposures at 300 \u00b0C on Al2O3. Each TMA pulse produces a small mass loss, while each HF pulse results in a larger step down. The labeled \u0394M_TMA and \u0394M_HF segments highlight the different magnitudes associated with the two reactions. The sequence demonstrates repeated, cyclic removal of material during the ALE process."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass change (ng/cm\u00b2) |          Note           |\n| -------- | -------------------- | ----------------------- |\n|  ~6150   |        ~-1440        | Before TMA step         |\n|  ~6165   |        ~-1455        | After TMA step (\u0394M_TMA) |\n|  ~6200   |        ~-1480        | After HF step (\u0394M_HF)   |\n|  ~6235   |        ~-1495        | Next TMA step           |\n|  ~6265   |        ~-1510        | Next HF step            |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the mass changes caused by TMA and HF exposures differ in this QCM trace?",
+                "answer_type": "Paragraph",
+                "answer": "The plot shows that each HF pulse produces a larger mass decrease than each TMA pulse. TMA steps create small, shallow decreases, while HF steps cause deeper drops. This difference in step magnitude reflects the stronger etching action of HF compared to the ligand-exchange removal associated with TMA."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What temperature was the experiment conducted at?",
+                "answer_type": "Factoid",
+                "answer": "300 \u00b0C."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Does the mass trace ever increase during the sequence?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which labeled features in the plot denote the separate contributions of TMA and HF?",
+                "answer_type": "List",
+                "answer": "\u0394M_TMA, \u0394M_HF, TMA, HF arrows"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_11",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart"
+    },
+    "summarization": {
+        "a": "Difference FTIR absorbance spectra from 800\u20131300 cm\u207b\u00b9 after TMA exposure during the fifth Al\u2082O\u2083 ALE cycle at 300 \u00b0C show an increase at ~1212 cm\u207b\u00b9 attributed to AlCH\u2083* surface species, along with a decrease between ~850\u2013975 cm\u207b\u00b9 consistent with removal of Al\u2013F bonds.",
+        "b": "After HF exposure, the ~1212 cm\u207b\u00b9 absorbance is removed, indicating conversion of AlCH\u2083* to AlF* species, while a broad decrease between 800\u20131100 cm\u207b\u00b9 reflects conversion of Al\u2082O\u2083 to AlF\u2083. A small increase between ~850\u2013950 cm\u207b\u00b9 indicates formation of an AlF\u2083 layer."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | Absorbance |\n|-------------------|------------|\n| 1300 | 0.00 |\n| 1250 | 0.05 |\n| 1212 | 0.10 |\n| 1150 | 0.05 |\n| 1000 | -0.05 |\n| 975  | -0.08 |\n| 900  | -0.08 |\n| 850  | -0.05 |\n| 800  | 0.00 |",
+        "b": "| Wavenumbers (cm\u207b\u00b9) | Absorbance |\n|-------------------|------------|\n| 1300 | 0.00 |\n| 1250 | -0.05 |\n| 1212 | -0.10 |\n| 1150 | -0.05 |\n| 1100 | -0.08 |\n| 1000 | -0.10 |\n| 975  | -0.08 |\n| 950  | -0.05 |\n| 900  | -0.02 |\n| 850  | 0.02 |\n| 800  | 0.00 |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "What do the observed changes in the difference FTIR spectra imply about the effectiveness of the Al\u2082O\u2083 ALE process at 300\u202f\u00b0C?",
+                "answer_type": "Paragraph",
+                "answer": "The FTIR difference spectra demonstrate that the ALE process effectively modifies the Al\u2082O\u2083 surface. TMA exposures form AlCH\u2083* species, while subsequent HF exposures remove these species and convert Al\u2082O\u2083 to AlF\u2083, as indicated by broad absorbance changes. This confirms that the sequential, self-limiting reactions are working as intended, enabling controlled layer-by-layer etching of Al\u2082O\u2083 on ZrO\u2082 nanoparticles."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which vibrational features in the FTIR difference spectra indicate changes in the Al\u2082O\u2083 surface during ALE?",
+                "answer_type": "List",
+                "answer": "Al\u2013O stretching vibrations (~850\u2013975\u202fcm\u207b\u00b9), AlCH\u2083 methyl deformation (~1212\u202fcm\u207b\u00b9), Al\u2013F stretching and AlF\u2083 formation (~850\u20131100\u202fcm\u207b\u00b9)"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does TMA exposure during ALE lead to the formation of AlCH\u2083* surface species?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the absorbance at ~1212\u202fcm\u207b\u00b9 change after HF exposure compared to after TMA exposure?",
+                "answer_type": "Factoid",
+                "answer": "The absorbance at ~1212\u202fcm\u207b\u00b9 decreases after HF exposure, indicating conversion of AlCH\u2083* to AlF* species."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_4",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays X-ray Absorption Spectroscopy (XAS) data in Total Fluorescence Yield (TFY) mode for O 1s transitions for five different films.",
+        "b": "The figure displays XAS (TFY) data for Fe 2p transitions for five different films."
+    },
+    "data_extraction": {
+        "a": "| Index | Fe2O3:MgO cycle ratio | Temperature |  Photon energy (eV) |\n|---|---|---|---|\n| e | 100:10 | 375 | Peaks at 530, 542 |\n| d | 100:2 | 375 | Peaks at 530, 542 |\n| c | Non-doped | 375 | Peaks at 530, 542 |\n| b | 100:1 | 400 | Peaks at 530, 532, 542 |\n| a | Non-doped | 400 | Peaks at 530, 532, 542 |",
+        "b": "| Index | Fe2O3:MgO cycle ratio | Temperature |  Photon energy (eV) |\n|---|---|---|---|\n| e | 100:10 | 375 | Peaks at 708, 710, 722, 724 |\n| d | 100:2 | 375 | Peaks at 708, 710, 722, 724 |\n| c | Non-doped | 375 | Peaks at 708, 710, 722, 724 |\n| b | 100:1 | 400 | Peaks at 708, 710, 722, 724 |\n| a | Non-doped | 400 | Peaks at 708, 710, 722, 724 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the effect of annealing become apparent from the XAS spectra?",
+                "answer_type": "Paragraph",
+                "answer": "When the films are annealed, the hematite could transition to (a larger fraction of) magnetite. Visually, in the Fe 2p region, the smaller L_3 peak at 708.5 eV shifts toward the main L_3 peak at 710 eV in that case. A similar trend is also observable for the O 1s region where the peak at 530 eV shifts toward 532 eV. Annealing has no significant effect on films grown at 400 \u00b0C (a, b), but does have a significant effect on films grown at 375 \u00b0C (c, d, e)."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the Mg/Fe fraction for the films grown with a 100:10 cycle of Fe2O3 to MgO?",
+                "answer_type": "Factoid",
+                "answer": "0.062"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What are the relevant peaks in the O 1s region?",
+                "answer_type": "Factoid",
+                "answer": "The peaks at 530 and 532 eV."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What are the relevant peaks in the Fe 2p region?",
+                "answer_type": "Factoid",
+                "answer": "The peaks at 708.5 and 710 eV."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

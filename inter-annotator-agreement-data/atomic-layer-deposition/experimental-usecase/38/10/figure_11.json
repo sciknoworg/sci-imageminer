@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_11",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart shows how the average oxidation state of manganese decreases as the number of lithium insertion cycles increases, progressing from MnO\u2082 toward lower oxidation states at higher lithium loadings."
+    },
+    "data_extraction": {
+        "a": "| Amount of lithium cycles | Mn average oxidation state |\n|---|---|\n|MnO2 | 3.8 |\n|10 | 3.7 |\n|50 | 3.6 |\n|100 | 3.3 |\n|200 | 3.2 |\n|200+A | 3.1 |\n|300 | 2.9 |\n|300+A | 2.5 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the average manganese oxidation state change with increasing lithium insertion cycles?",
+                "answer_type": "Paragraph",
+                "answer": "The average manganese oxidation state decreases steadily as the number of lithium cycles increases, indicating progressive reduction of Mn from values characteristic of MnO\u2082 toward lower oxidation states at higher lithium loadings."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What is the approximate manganese oxidation state after 300 lithium cycles with additional treatment (300 + A)?",
+                "answer_type": "Factoid",
+                "answer": "~ 2.5"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What performance-relevant effects are suggested by the reduction of manganese oxidation state with lithium insertion?",
+                "answer_type": "List",
+                "answer": "More Li uptake, Mn reduction, Shift toward LiMn\u2082O\u2084 phase"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What performance-relevant effects are suggested by the reduction of manganese oxidation state with lithium insertion?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

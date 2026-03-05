@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_12",
+    "classification": {
+        "a": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "The FTIR difference spectrum recorded after the TMA half-cycle at 300 \u00b0C shows a strong positive band in the C\u2013H stretching region (2950\u20132900 cm\u207b\u00b9), indicating formation of surface \u2013CH\u2083 species relative to the preceding HF-terminated state. After the HF half-cycle, the same C\u2013H region exhibits a strong negative signal, demonstrating removal of these CH-containing species formed during TMA exposure."
+    },
+    "data_extraction": {
+        "a": "| Wavenumber (cm\u207b\u00b9) | \u0394Absorbance (after TMA) | \u0394Absorbance (after HF) |\n|------------------|-------------------------|------------------------|\n| 4000 | ~0.0000 | ~\u22120.0015 |\n| 3750 | ~0.0000 | ~\u22120.0015 |\n| 3500 | ~0.0000 | ~\u22120.0015 |\n| 3250 | ~0.0000 | ~\u22120.0015 |\n| 2950 | ~+0.0070 | ~\u22120.0100 |\n| 2900 | ~+0.0070 | ~\u22120.0100 |\n| 2750 | ~+0.0020 | ~\u22120.0030 |\n| 2500 | ~+0.0020 | ~\u22120.0030 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What does the sign flip in the 2950\u20132900 cm\u207b\u00b9 region between the TMA and HF steps indicate about surface CH\u2083/C\u2013H species during one ALE cycle?",
+                "answer_type": "Paragraph",
+                "answer": "In FTIR difference spectra, a positive signal indicates formation of a vibrational species relative to the reference state, while a negative signal indicates its removal. The positive band at ~2950\u20132900 cm\u207b\u00b9 after TMA shows that CH\u2083/C\u2013H-containing surface species are formed during the TMA half-cycle. After HF, the same region becomes strongly negative, indicating that these species are consumed or removed. This sign inversion directly demonstrates cyclic surface termination changes that are characteristic of Al\u2082O\u2083 ALE."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which half-cycle produces the larger magnitude change in the CH stretching region, based on the curated data?",
+                "answer_type": "Factoid",
+                "answer": "a\tThe HF half-cycle produces the larger magnitude change (\u2248 \u22120.010) compared with the TMA half-cycle (\u2248 +0.007)."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which spectral regions are most diagnostic for CH\u2083/C\u2013H species and for HF-related changes, and how do they respond in each half-cycle?",
+                "answer_type": "Paragraph",
+                "answer": "-CH\u2083/C\u2013H region (~2950\u20132900 cm\u207b\u00b9):\n1) After TMA: positive (\u2248 +0.0070)\n2) After HF: negative (\u2248 \u22120.0100)\n\n-Lower C\u2013H tail (~2750\u20132500 cm\u207b\u00b9):\n1) After TMA: small positive (\u2248 +0.0020)\n2) After HF: small negative (\u2248 \u22120.0030)\n\n-\u03bd(HF)-marked higher wavenumbers (~4000\u20133250 cm\u207b\u00b9):\n1) After TMA: ~0.0000 (near baseline)\n2) After HF: slightly negative (\u2248 \u22120.0015)"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How could these difference spectra be used as a simple in situ check of ALE process health?",
+                "answer_type": "Paragraph",
+                "answer": "A robust acceptance criterion is the behavior of the CH stretching region around 2950\u20132900 cm\u207b\u00b9. A healthy process should show a reproducible positive excursion after TMA and a reproducible negative excursion after HF. Loss of the positive CH signal after TMA would suggest incomplete methylation, while failure of the signal to invert after HF would indicate insufficient HF reaction or purge issues. Monitoring both sign and magnitude provides a simple, chemistry-specific indicator of cycle completeness."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

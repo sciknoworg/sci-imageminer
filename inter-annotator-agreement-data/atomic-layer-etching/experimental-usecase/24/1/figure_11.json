@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_11",
+    "classification": {
+        "a": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "After TMA exposure at 300 \u00b0C, the FTIR difference spectrum shows a strong positive band near ~1225cm\u207b\u00b9, assigned to the symmetric deformation mode \u03b4\u209b(CH\u2083), indicating formation of surface methyl species on Al\u2082O\u2083. In contrast, after HF exposure, this CH\u2083-related band becomes negative,  howing removal or consumption of methyl termination during the HF half-cycle. Negative features also strengthen and extend into the ~1000\u2013800 cm\u207b\u00b9 region after HF, corresponding to fluorinated Al\u2013O / AlF\u2093-like environments. Together, the spectra directly visualize the alternating methylation and fluorination steps that drive cyclic Al\u2082O\u2083 ALE."
+    },
+    "data_extraction": {
+        "a": "| Wavenumber (cm\u207b\u00b9) | \u0394Absorbance (a: after TMA) | \u0394Absorbance (b: after HF) |\n| ----------------- | -------------------------- |----------------------------|\n| 1300              | 0.0000                     | 0.0000 |\n| 1225              | 0.0600                     |-0.0600 |\n| 1200              | 0.0100                     |-0.0100 |\n| 1100              | 0.0000                     | 0.0000 |\n| 1000              | 0.0000                     |-0.0100 |\n| 960               | -0.0200                    |-0.0200 |\n| 940               | -0.0500                    |-0.0000 |\n| 900               | 0.0000                     |-0.0400 |\n| 850               | 0.0000                     |-0.0300 |\n| 800               | 0.0000                     | 0.0000 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "In one ALE cycle at 300 \u00b0C, what does the sign change of the ~1225 cm\u207b\u00b9 band between the TMA and HF steps imply about the surface chemistry?",
+                "answer_type": "Paragraph",
+                "answer": "Because these are FTIR difference spectra, the sign of a feature indicates whether a vibrational mode is being created or removed relative to the reference state. After TMA exposure, the positive \u03b4\u209b(CH\u2083) peak near ~1225 cm\u207b\u00b9 shows that methyl groups are added to the surface, producing a methyl-terminated Al\u2082O\u2083 surface. After HF exposure, the same feature becomes negative, indicating that these CH\u2083 species are consumed or removed. This sign inversion directly demonstrates the self-limiting alternation between methylation and demethylation that underpins the ALE cycle."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the spectral response differ between the Al\u2082O\u2083-labeled region (~1100\u2013900 cm\u207b\u00b9) and the AlF\u2083-labeled region (~950\u2013800 cm\u207b\u00b9) after TMA versus after HF?",
+                "answer_type": "Paragraph",
+                "answer": "After TMA (blue):\n-Strong positive CH\u2083 band at ~1225 cm\u207b\u00b9\n-Negative deviation mainly centered near ~960\u2013900 cm\u207b\u00b9\n-Perturbation of oxide vibrations due to surface methylation\nAfter HF (red):\n-CH\u2083 band becomes negative (methyl removal)\n-Negative features extend more strongly into ~900\u2013800 cm\u207b\u00b9\n-Spectral evolution consistent with fluorination and AlF\u2093-like surface formation"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How do the TMA and HF half-cycles alter surface termination, and how is this reflected in the IR spectra?",
+                "answer_type": "Paragraph",
+                "answer": "The TMA half-cycle converts surface Al sites into methyl-terminated species, which is clearly reflected by the strong positive \u03b4\u209b(CH\u2083) feature near ~1225 cm\u207b\u00b9. This methyl termination modifies the local Al\u2013O bonding environment, producing negative deviations in the oxide-related spectral region. The HF half-cycle reverses this chemistry by removing methyl groups and introducing fluorine, leading to disappearance or inversion of the CH\u2083 band and stronger negative features in the lower-wavenumber region associated with fluorinated Al\u2013O or AlF\u2093-like structures. Structurally, this alternating termination is essential for achieving self-limiting ALE rather than uncontrolled etching."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What practical process insights does this figure provide for monitoring or controlling Al\u2082O\u2083 ALE at 300 \u00b0C?",
+                "answer_type": "Paragraph",
+                "answer": "-The ~1225 cm\u207b\u00b9 \u03b4\u209b(CH\u2083) band can serve as a cycle-completion marker: positive after TMA and negative after HF.\n-Residual positive CH\u2083 signal after HF would indicate incomplete HF reaction or insufficient purge.\n-Growth of negative features in the ~900\u2013800 cm\u207b\u00b9 region confirms effective fluorination during HF exposure.\n-Consistent alternation between CH\u2083 and AlF\u2093 spectral signatures verifies that the process is operating in a true ALE regime rather than continuous etching."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

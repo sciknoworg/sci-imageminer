@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_2",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "This zoomed QCM mass\u2013time trace at 300 \u00b0C on Al\u2082O\u2083 resolves discrete mass steps during sequential TMA and HF exposures. Upward mass changes coincide with TMA pulses (\u0394M_TMA), while downward steps occur during HF exposure (\u0394M_HF), yielding a net negative mass change per cycle (MCPC). Flat regions between steps indicate stable plateaus rather than continuous drift, consistent with stepwise, self-limited behavior in this window."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass change (ng/cm\u00b2) |\n|----------|----------------------|\n| 6100 | -1440 |\n| 6120 | -1470 |\n| 6150 | -1460 |\n| 6200 | -1490 |\n| 6220 | -1470 |\n| 6250 | -1510 |\n| 6280 | -1490 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What happens to the mass signal during the TMA step in this zoomed region?",
+                "answer_type": "Factoid",
+                "answer": "The mass increases (becomes less negative), appearing as an upward step corresponding to \u0394M_TMA."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What happens to the mass signal during the HF step in this zoomed region?",
+                "answer_type": "Factoid",
+                "answer": "The mass decreases (becomes more negative), appearing as a downward step associated with \u0394M_HF."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which half-cycle produces the larger step magnitude in this trace, TMA or HF?",
+                "answer_type": "Paragraph",
+                "answer": "The HF step produces the larger step magnitude, reaching a lower mass level of roughly \u22121510 ng/cm\u00b2. The TMA step shows a smaller upward recovery to around \u22121470 ng/cm\u00b2. Visually, the HF-related drop is sharper and deeper than the TMA-related gain in this zoomed window."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which practical ALE metrics can be estimated from this zoomed mass\u2013time trace?",
+                "answer_type": "Paragraph",
+                "answer": "-\u0394M_TMA from the upward mass step during TMA.\n-\u0394M_HF from the downward mass step during HF.\n-MCPC from the net mass change across one full cycle.\n-Presence of plateaus indicating stepwise behavior."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_3",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays Raman spectra of a material, highlighting peaks at specific wavenumbers corresponding to different phases of iron oxide at 400 \u00b0C.",
+        "b": "The figure shows Raman spectra with distinct peaks indicating various phases of iron oxides, including \u03b1-Fe\u2082O\u2083, \u03b3-Fe\u2082O\u2083, and Fe\u2083O\u2084 375 \u00b0C.",
+        "c": "The figure presents Raman spectra at two different temperatures, showcasing the presence of Si, SiO\u2082, and various iron oxide phases at 400 \u00b0C and 375 \u00b0C."
+    },
+    "data_extraction": {
+        "a": "| Raman shift, cm\u207b\u00b9 | Intensity, arb.unit. |\n|---|---|\n| 200 | peak at 225, 293 cm\u207b\u00b9 |\n| 400 | peak at 412, 498 cm\u207b\u00b9 |\n| 600 | peak at 613, 668 cm\u207b\u00b9 |\n| 800 | - |\n| 1000 | - |\n| 1200 | - |\n| 1400 | 1320cm\u207b\u00b9 |\n| 1600 | - |\n| 1800 | - |",
+        "b": "| Raman shift, cm\u207b\u00b9 | Intensity, arb.unit. |\n|---|---|\n| 200 | peak at 193 cm\u207b\u00b9 |\n| 400 | peak at 306 cm\u207b\u00b9 |\n| 600 | peak at 538, 668 cm\u207b\u00b9 |\n| 800 | peak at 720 cm\u207b\u00b9 |\n| 1000 | - |\n| 1200 | - |\n| 1400 | peak at 1320, 1430 cm\u207b\u00b9 |\n| 1600 | peak at 1580 cm\u207b\u00b9 |\n| 1800 | - |",
+        "c": "| Raman shift, cm\u207b\u00b9 | Intensity, arb.units. |\n|---|---|\n| 200 | peak at 225, 293 cm\u207b\u00b9 |\n| 400 | peak at 424, 498 cm\u207b\u00b9 |\n| 600 | peak at 514, 538, 668 cm\u207b\u00b9 |\n| 800 | peak at 720 cm\u207b\u00b9 |\n| 1000 | peak at 950 cm\u207b\u00b9 |\n| 1200 | - |\n| 1400 | peak at 1320 cm\u207b\u00b9 |\n| 1600 | - |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which phases are present in the figure?",
+                "answer_type": "Factoid",
+                "answer": "Hematite, maghemite, and magnetite."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "At which temperature does the film allow the formation of more phases?",
+                "answer_type": "Factoid",
+                "answer": "425 \u00b0C"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Application/Performance",
+                "question": "How does the annealing treatment affect the Raman spectra?",
+                "answer_type": "Factoid",
+                "answer": "The as-deposited film and the film after annealing show the same peaks i.e. same phases."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the peaks change from one sample to another?",
+                "answer_type": "Factoid",
+                "answer": "Both samples exhibit the same peaks, but with slightly different intensities."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

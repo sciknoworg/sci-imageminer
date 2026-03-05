@@ -1,0 +1,63 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_12",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart"
+    },
+    "summarization": {
+        "a": "After TMA exposure, increases in absorbance are observed at ~2900\u202fcm\u207b\u00b9 and ~2950\u202fcm\u207b\u00b9, corresponding to the symmetric and asymmetric stretching vibrations of AlCH\u2083* surface species, indicating the formation of AlF\u2082(CH\u2083)* or \u2212OAl(CH\u2083)\u2082* species.",
+        "b": "After HF exposure, the AlCH\u2083* absorbance features are removed, consistent with the removal of these species. No vibrational features are observed between ~3000\u20133675\u202fcm\u207b\u00b9, confirming the absence of HF* species at this temperature."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | Absorbance |\n|-------------------|------------|\n| 4000 | 0.000 |\n| 3750 | 0.000 |\n| 3675 | 0.000 |\n| 3500 | 0.000 |\n| 3250 | 0.000 |\n| 3000 | 0.000 |\n| 2950 | 0.05  |\n| 2900 | 0.05  |\n| 2750 | 0.000 |\n| 2500 | 0.000 |",
+        "b": "| Wavenumbers (cm\u207b\u00b9) | Absorbance |\n|-------------------|------------|\n| 4000 | 0.000 |\n| 3750 | 0.000 |\n| 3675 | 0.000 |\n| 3500 | 0.000 |\n| 3250 | 0.000 |\n| 3000 | 0.000 |\n| 2950 | -0.05 |\n| 2900 | -0.05 |\n| 2750 | 0.000 |\n| 2500 | 0.000 |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "What do the changes observed in the 2500\u20134000\u202fcm\u207b\u00b9 difference spectra indicate about the effectiveness of the Al\u2082O\u2083 ALE process?",
+                "answer_type": "Paragraph",
+                "answer": "The increase in absorbance at ~2900 and 2950\u202fcm\u207b\u00b9 after TMA exposure and their subsequent removal after HF exposure demonstrate that the ALE process is effectively forming and removing AlCH\u2083* surface species. The absence of HF* features in this region indicates that at 300\u202f\u00b0C, HF desorbs efficiently, enabling TMA to react with the underlying AlF\u2083 layer and produce controlled etching of Al\u2082O\u2083. These trends confirm the self-limiting nature and effectiveness of the ALE process under the described conditions."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which vibrational features in the 2500\u20134000\u202fcm\u207b\u00b9 region are relevant for monitoring surface changes during ALE?",
+                "answer_type": "List",
+                "answer": "Symmetric stretching of AlCH\u2083 (~2900\u202fcm\u207b\u00b9), Asymmetric stretching of AlCH\u2083 (~2950\u202fcm\u207b\u00b9), Absence of HF vibrational features between ~3000\u20133675\u202fcm\u207b\u00b9"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does TMA exposure lead to the formation of AlCH\u2083* species on the Al\u2082O\u2083 surface during ALE at 300\u202f\u00b0C?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the absorbance values at ~2900\u202fcm\u207b\u00b9 and ~2950\u202fcm\u207b\u00b9 change after HF exposure compared to TMA exposure?",
+                "answer_type": "Factoid",
+                "answer": "The absorbance at ~2900\u202fcm\u207b\u00b9 and ~2950\u202fcm\u207b\u00b9 decreases after HF exposure, indicating removal of AlCH\u2083* species."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

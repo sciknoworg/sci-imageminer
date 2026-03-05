@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_5",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The chart shows the etch rate of various materials (Al2O3, HfO2, AlNx, TiN, SiO2) against the activation step duration. For all materials, the etch rate initially increases rapidly and then continues to increase more gradually over time."
+    },
+    "data_extraction": {
+        "a": "| activation step duration, s | etch rate on SiO2, nm/cyc | etch rate on TiN, nm/cyc | etch rate on AlNx, nm/cyc | etch rate on HfO2, nm/cyc | etch rate on Al2O3, nm/cyc |\n|---|---|---|---|---|---|\n| 0 | -0.5 | - 0.4 | -0.5 | - 0.5 | -0.6 |\n| 5 | 0.4 | - 0.04 | 0.03 | 0.03 | 0.03 |\n| 10 | 0.6 | - 0.02 | 0.19 | 0.1 | 0.19 |\n| 20 | 0.7 | 0.05 | 0.3 | 0.16 | 0.3 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does any of the materials etch without the activation step?",
+                "answer_type": "Yes/No",
+                "answer": "No."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "After the activation, which material becomes most volatile and which remains least volatile? How can this be inferred from the plot?",
+                "answer_type": "Paragraph",
+                "answer": "A strong time-dependent increase in etch rate indicates that more volatile products are generated as the activation time increases. Almost no volatile species are produced during the activation of TiN, since its etch rate remains essentially zero over the entire activation-time range. In contrast, SiO\u2082 is the most volatile, exhibiting the highest etch rate and a continuous rise with activation time."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "At which activation step duration does AlNx transition from net deposition to etching?",
+                "answer_type": "Factoid",
+                "answer": "At around 5 seconds."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How thick will the film deposited on the surface of AlNx be after two cycles without the activation step?",
+                "answer_type": "Factoid",
+                "answer": "About 1 nm thick (0.5 nm/cycle)."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

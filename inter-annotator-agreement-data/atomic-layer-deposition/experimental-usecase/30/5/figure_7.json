@@ -1,0 +1,81 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_7",
+    "classification": {
+        "a": "image panel",
+        "b": "image panel",
+        "c": "image panel",
+        "d": "image panel"
+    },
+    "summarization": {
+        "a": "Cross-sectional SEM image of the deposited Fe2O3 film.",
+        "b": "Cross-sectional EDX image, showing the silicon content thoughout the sample.",
+        "c": "Cross-sectional EDX image, showing the iron content thoughout the sample.",
+        "d": "Cross-sectional EDX image, showing the oxygen content thoughout the sample."
+    },
+    "data_extraction": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What types of oxides can be identified in the film?",
+                "answer_type": "Paragraph",
+                "answer": "d\tAt the interface between the silicon substrate and iron oxide a different density of oxygen atoms is measured than in the bulk iron oxide. This indicates that there is likely a SiO2 interface layer."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Is iron susceptible for diffusion?",
+                "answer_type": "Paragraph",
+                "answer": "c\tIn the figure it can be seen that iron atoms are present all through the sample, even in the silicon substrate. This indicates that iron diffuses into the substrate."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What vertical features can there be identified?",
+                "answer_type": "Paragraph",
+                "answer": "a\tFrom the 3D structure upwards vertical lines can be identified which can be grainboundaries or local density fluctuations."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which materials are homogeneously distributed in the sample and which are not?",
+                "answer_type": "Paragraph",
+                "answer": "Silicon and oxygen are more or less homogeneously distributed in the areas where they are supposed to be. Iron on the other side shows fluctuations in density, even in the iron oxide layer."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

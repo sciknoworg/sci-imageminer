@@ -1,0 +1,99 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_2",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart",
+        "d": "multiple line chart",
+        "e": "multiple line chart",
+        "f": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The figure shows the depth profile of the unmodified MnO\u2082 film, displaying high concentrations of oxygen and manganese across the film thickness with no lithium signal detected.",
+        "b": "The figure shows the depth profile after 10 lithium cycles, where only a trace amount of lithium appears.",
+        "c": "The figure shows the depth profile after 50 lithium cycles, exhibiting a distinct lithium peak restricted to the near-surface region.",
+        "d": "The figure shows the depth profile after 100 lithium cycles, indicating that lithium has penetrated deeper into the film.",
+        "e": "The figure shows the depth profile after 200 lithium cycles, where the medium lithium concentration is distributed throughout the entire film thickness.",
+        "f": "The figure shows the depth profile after 300 lithium cycles, displaying a high lithium concentration distributed across the entire depth of the film."
+    },
+    "data_extraction": {
+        "a": "| Depth (x10^15 at/cm\u00b2) | Concentration (at.%) | Species | \n|---|---|---|\n| 133,33 | 0,93 | Mn |\n| 300,00 | 37,67 | Mn |\n| 1266,67 | 32,56 | Mn |\n| 1766,67 | 2,33 | Mn |\n| 2511,11 | 0,00 | Mn |\n| 77,78 | 0,47 | O |\n| 288,89 | 60,00 | O |\n| 1255,56 | 63,72 | O |\n| 1711,11 | 7,44 | O |\n| 2511,11 | 0,00 | O |\n| 77,78 | 0,47 | Si |\n| 500,00 | 0,47 | Si |\n| 1188,89 | 1,40 | Si |\n| 1888,89 | 94,88 | Si |\n| 2488,89 | 99,07 | Si |",
+        "b": "| Depth (x10^15 at/cm\u00b2) | Concentration (at.%) | Species | \n|---|---|---|\n| 134,53 | 0,47 | Li |\n| 930,49 | 0,00 | Li |\n| 2320,63 | 0,00 | Li |\n| 112,11 | 0,93 | Mn |\n| 269,06 | 35,35 | Mn |\n| 1042,60 | 38,14 | Mn |\n| 1502,24 | 1,86 | Mn |\n| 2432,74 | 0,00 | Mn |\n| 56,05 | 3,72 | O |\n| 190,58 | 63,72 | O |\n| 1042,60 | 38,14 | O |\n| 1121,08 | 59,07 | O |\n| 1491,03 | 3,72 | O |\n| 2466,37 | 0,93 | O |\n| 33,48 | 0,93 | Si |\n| 970,98 | 1,86 | Si |\n| 1595,98 | 97,21 | Si |\n| 2500,00 | 99,53 | Si |",
+        "c": "| Depth (x10^15 at/cm\u00b2) | Concentration (at.%) | Species | \n|---|---|---|\n| 33,33 | 0,47 | Li |\n| 144,44 | 1,86 | Li |\n| 211,11 | 6,98 | Li |\n| 544,44 | 0,00 | Li |\n| 1255,56 | 0,93 | Li |\n| 1700,00 | 0,00 | Li |\n| 2322,22 | 0,00 | Li |\n| 33,33 | 0,47 | Mn |\n| 100,00 | 0,93 | Mn |\n| 277,78 | 36,28 | Mn |\n| 700,00 | 34,88 | Mn |\n| 1133,33 | 35,81 | Mn |\n| 1355,56 | 19,07 | Mn |\n| 1577,78 | 2,33 | Mn |\n| 2200,00 | 0,47 | Mn |\n| 33,33 | 0,47 | O |\n| 55,56 | 3,72 | O |\n| 222,22 | 60,47 | O |\n| 522,22 | 59,53 | O |\n| 1166,67 | 58,14 | O |\n| 1400,00 | 34,88 | O |\n| 1611,11 | 5,12 | O |\n| 2200,00 | 0,47 | O |\n| 243,36 | 0,00 | Si |\n| 1161,50 | 3,26 | Si |\n| 1736,73 | 96,28 | Si |\n| 2477,88 | 100,47 | Si |",
+        "d": "| Depth (x10^15 at/cm\u00b2) | Concentration (at.%) | Species | \n|---|---|---|\n| 55,92 | 2,05 | Li |\n| 230,05 | 7,98 | Li |\n| 503,69 | 5,12 | Li |\n| 737,52 | 2,46 | Li |\n| 1080,81 | 1,64 | Li |\n| 1503,70 | 0,82 | Li |\n| 2311,11 | 0,34 | Li |\n| 55,92 | 2,05 | O |\n| 114,11 | 16,28 | O |\n| 204,66 | 59,59 | O |\n| 549,91 | 57,72 | O |\n| 1104,56 | 57,26 | O |\n| 1347,93 | 22,33 | O |\n| 2311,11 | 0,34 | O |\n| 55,92 | 2,05 | Mn |\n| 177,78 | 9,03 | Mn |\n| 311,11 | 37,37 | Mn |\n| 555,56 | 38,29 | Mn |\n| 1011,11 | 35,09 | Mn |\n| 1300,00 | 14,51 | Mn |\n| 2311,11 | 0,34 | Mn |\n| 111,11 | 0,00 | Si |\n| 788,89 | 1,26 | Si |\n| 1044,44 | 3,09 | Si |\n| 1622,22 | 97,26 | Si |\n| 2500,00 | 98,63 | Si |",
+        "e": "| Depth (x10^15 at/cm\u00b2) | Concentration (at.%) | Species | \n|---|---|---|\n| 5,50 | 1,67 | Li |\n| 260,21 | 11,27 | Li |\n| 520,84 | 13,48 | Li |\n| 1042,10 | 12,01 | Li |\n| 1421,19 | 9,05 | Li |\n| 1592,97 | 3,14 | Li |\n| 1758,83 | 0,43 | Li |\n| 2386,71 | 0,43 | Li |\n| 33,19 | 1,15 | O |\n| 199,12 | 57,70 | O |\n| 1393,81 | 55,86 | O |\n| 1792,04 | 5,29 | O |\n| 2179,20 | 1,15 | O |\n| 33,19 | 1,15 | Mn |\n| 232,30 | 34,71 | Mn |\n| 1393,81 | 30,11 | Mn |\n| 1769,91 | 2,07 | Mn |\n| 2179,20 | 1,15 | Mn |\n| 221,24 | 0,00 | Si |\n| 951,33 | 0,00 | Si |\n| 1316,37 | 2,99 | Si |\n| 1847,35 | 97,24 | Si |\n| 2477,88 | 99,08 | Si |",
+        "f": "| Depth (x10^15 at/cm\u00b2) | Concentration (at.%) | Species | \n|---|---|---|\n| 32,89 | 3,45 | Li |\n| 285,09 | 17,70 | Li |\n| 515,35 | 16,78 | Li |\n| 1293,86 | 8,97 | Li |\n| 1480,26 | 2,53 | Li |\n| 1864,04 | 0,69 | Li |\n| 2247,81 | 1,15 | Li |\n| 142,54 | 1,61 | Mn |\n| 296,05 | 29,20 | Mn |\n| 570,18 | 28,74 | Mn |\n| 1217,11 | 28,28 | Mn |\n| 1469,30 | 10,80 | Mn |\n| 1864,04 | 0,69 | Mn |\n| 2247,81 | 1,15 | Mn |\n| 98,68 | 4,37 | O |\n| 285,09 | 52,18 | O |\n| 581,14 | 54,02 | O |\n| 1151,32 | 54,94 | O |\n| 1381,58 | 41,15 | O |\n| 1622,81 | 8,51 | O |\n| 2247,81 | 1,15 | O |\n| 197,37 | 0,00 | Si |\n| 1129,39 | 0,00 | Si |\n| 1677,63 | 92,64 | Si |\n| 2456,14 | 99,08 | Si |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the dominant species on the surface?",
+                "answer_type": "Factoid",
+                "answer": "Oxygen."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Is the bulk lithiated, or only the surface? What supports this conclusion?",
+                "answer_type": "Paragraph",
+                "answer": "Only the surface of the film is lithiated. The depth profile shows, that lithium concentration peaks near the surface and drops to neglibly low values at approx. 500x10^15 at/cm\u00b2. On the other hand, the manganese and oxygene signals extend much deeper (approx. 1500 x10^15 at/cm\u00b2), indicating that the bulk of the film consists of pure manganese oxide."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the Mn/O ratio in the film?",
+                "answer_type": "Yes/No",
+                "answer": "~1:2."
+            }
+        ],
+        "e": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the approximate depth where the film/substrate interface occurs?",
+                "answer_type": "Factoid",
+                "answer": "Approximately 1500 x10^15 at/cm\u00b2."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "f": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

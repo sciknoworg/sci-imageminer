@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_9",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart"
+    },
+    "summarization": {
+        "a": "This panel shows FC and ZFC magnetization for an undoped Fe\u2082O\u2083 film grown at 450 \u00b0C. The ZFC curve rises sharply and meets the FC curve near 125 K, marking the Verwey transition. Above this temperature, both curves merge and slowly decrease with heating.",
+        "b": "This panel shows a lightly Mg-doped film (Mg/Fe = 0.021) grown at 425 \u00b0C. The Verwey transition is still visible but shifts slightly lower, to around 120 K. The separation between FC and ZFC curves is smaller than in panel (a).",
+        "c": "This panel corresponds to the higher Mg-doped film (Mg/Fe = 0.062) grown at 375 \u00b0C. FC and ZFC curves almost overlap across the full temperature range. The Verwey transition is very weak, indicating suppressed magnetite-like ordering."
+    },
+    "data_extraction": {
+        "a": "| Temperature (K) | FC (emu/g) | ZFC (emu/g) |\n|---|---|---|\n| 0 | 0.10 | 0.00 |\n| 50 | 0.10 | 0.02 |\n| 100 | 0.10 | 0.05 |\n| 125 | 0.11 | 0.11 |\n| 150 | 0.10 | 0.10 |\n| 200 | 0.10 | 0.10 |\n| 250 | 0.10 | 0.10 |\n| 300 | 0.10 | 0.10 |",
+        "b": "| Temperature (K) | FC (emu/g) | ZFC (emu/g) |\n|---|---|---|\n| 0 | 0.055 | 0.015 |\n| 50 | 0.055 | 0.040 |\n| 100 | 0.055 | 0.05 |\n| 120 | 0.057 | 0.055 |\n| 150 | 0.056 | 0.055 |\n| 200 | 0.055 | 0.054 |\n| 250 | 0.054 | 0.053 |\n| 300 | 0.053 | 0.053 |",
+        "c": "| Temperature (K) | FC (emu/g) | ZFC (emu/g) |\n|---|---|---|\n| 0 | 0.0693 | 0.0650 |\n| 50 | 0.0691 | 0.0680 |\n| 100 | 0.0695 | 0.0690 |\n| 120 | 0.0696 | 0.0694 |\n| 150 | 0.0695 | 0.0694 |\n| 200 | 0.0685 | 0.0685 |\n| 250 | 0.0675 | 0.0675 |\n| 300 | 0.0660 | 0.0660 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What does the sharp ZFC peak imply about crystallographic ordering?",
+                "answer_type": "Factoid",
+                "answer": "It implies well-preserved magnetite-like ordering."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What information does the separation between FC and ZFC curves provide about magnetic ordering?",
+                "answer_type": "Paragraph",
+                "answer": "The separation reflects irreversible magnetic behavior caused by domain pinning or blocked magnetic moments. A strong divergence indicates a magnetically ordered phase with thermal history dependence. The convergence of FC and ZFC curves marks the temperature where magnetic domains become thermally unpinned."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the ZFC magnetization change as temperature approaches the Verwey transition?",
+                "answer_type": "Factoid",
+                "answer": "It rises sharply and reaches a peak near 125 K."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What does the reduced FC\u2013ZFC separation suggest about Mg incorporation in the film?",
+                "answer_type": "Factoid",
+                "answer": "It suggests increased magnetic disorder and weakened long-range ordering."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

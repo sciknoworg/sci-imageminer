@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_2",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart"
+    },
+    "summarization": {
+        "a": "Deposition rate as a function of \u03bd_CF\u2084 shows a clear non-monotonic response for Al\u2082O\u2083, HfO\u2082, AlN\u2093, and TiN, with maximum growth occurring near ~5% CF\u2084, followed by reduced rates at higher fractions. Silicon shows a similar peak-then-decline trend but at lower absolute rates. In contrast, SiO\u2082 exhibits negative deposition rates across the range, with increasingly strong net etching at higher \u03bd_CF\u2084.",
+        "b": "Radical concentrations increase monotonically with \u03bd_CF\u2084 for all detected species. Fluorine radicals dominate by several orders of magnitude compared to CF\u2082 and CF, with the consistent ordering F \u226b CF\u2082 > CF maintained across the entire 3\u201313% CF\u2084 range"
+    },
+    "data_extraction": {
+        "a": "| \u03bd_CF4 (%) | Si (nm/min) | Al2O3 (nm/min) | HfO2 (nm/min) | AlNx (nm/min) | TiN (nm/min) | SiO2 (nm/min) |\n|-----------|-------------|----------------|---------------|---------------|--------------|---------------|\n| ~3        | ~1.5        | ~2.5           | ~2.3          | ~2.6          | ~2.2         | ~0.8          |\n| ~5        | ~4.0        | ~6.0           | ~5.5          | ~6.2          | ~1.5         | ~1.2          |\n| ~10       | ~3.0        | ~4.5           | ~3.5          | ~4.8          | ~\u22121.0        | ~\u22125.5         |\n| ~13       | ~2.0        | ~3.8           | ~3.2          | ~4.0          | ~\u22120.3        | ~\u22125.0         |",
+        "b": "| \u03bd_CF4 (%) | F (cm\u207b\u00b3)        | CF2 (cm\u207b\u00b3)      | CF (cm\u207b\u00b3)       |\n|-----------|------------------|------------------|------------------|\n| ~3        | ~1\u00d710\u00b9\u00b3          | ~5\u00d710\u00b9\u2070         | ~2\u00d710\u00b9\u2070         |\n| ~5        | ~2\u00d710\u00b9\u00b3          | ~8\u00d710\u00b9\u2070         | ~3\u00d710\u00b9\u2070         |\n| ~7        | ~5\u00d710\u00b9\u00b3          | ~1\u00d710\u00b9\u00b9         | ~5\u00d710\u00b9\u2070         |\n| ~10       | ~8\u00d710\u00b9\u00b3          | ~1.6\u00d710\u00b9\u00b9       | ~9\u00d710\u00b9\u2070         |\n| ~13       | ~1\u00d710\u00b9\u2074          | ~1.8\u00d710\u00b9\u00b9       | ~1.1\u00d710\u00b9\u00b9       |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "At 5% v_CF4, which material has the highest deposition and which shows net etch?",
+                "answer_type": "Factoid",
+                "answer": "Highest: [ALNx] (~[6.1]); net etch: SiO2 (negative)."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Would operating at the highest \u03bd_CF\u2084 fraction be optimal for oxide film growth?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Do the concentrations of F, CF\u2082, and CF radicals increase as \u03bd_CF\u2084 increases?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How do the species trends in (b) relate to the non-monotonic deposition response in (a)?",
+                "answer_type": "Paragraph",
+                "answer": "As \u03bd_CF\u2084 increases, higher F and CF\u2093 radical densities initially enhance surface reactions, leading to higher deposition rates. Beyond the mid-fraction range, excessive fluorination and increased etching probability reduce net growth, producing the observed decline in deposition rates despite rising radical concentrations."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

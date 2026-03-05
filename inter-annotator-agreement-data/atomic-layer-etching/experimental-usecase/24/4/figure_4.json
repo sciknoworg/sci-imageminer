@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_4",
+    "classification": {
+        "a": "scatter plot",
+        "b": "scatter plot"
+    },
+    "summarization": {
+        "a": "The figure shows a negative trend in mass change, \u0394M<sub>TMA</sub> with increasing TMA exposure time at 300\u00b0C.",
+        "b": "The figure shows a positive trend in mass change, \u0394M<sub>HF</sub> with increasing HF exposure time at 300\u00b0C."
+    },
+    "data_extraction": {
+        "a": "| TMA Exposure Time (s) | \u0394M_TMA (ng/cm\u00b2\u00b7cycle) |\n|------------------------|------------------------|\n| 0.0                   | 0                     |\n| 0.5                   | -10                   |\n| 1.0                   | -20                   |\n| 1.5                   | -25                   |\n| 2.0                   | -30                   |\n| 2.5                   | -35                   |\n| 3.0                   | -38                   |",
+        "b": "| HF Exposure Time (s) | \u0394M_HF (ng/cm\u00b2\u00b7cycle) |\n|-----------------------|-----------------------|\n| 0.0                  | 0                    |\n| 0.5                  | +13                  |\n| 1.0                  | +13                  |\n| 1.5                  | +14                  |\n| 2.0                  | +14                  |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Is a self-limiting behaviour observed?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is the self-limiting behaviour slow?",
+                "answer_type": "Paragraph",
+                "answer": "Self-limiting behavior at \u0394MTMA = \u221229 ng/cm2 is  observed after 2.0 s of TMA exposure. This slow approach to self-limiting behavior may result from the difficulty in removing all of the AlF3 surface layer. An initial fraction of the AlF3 surface layer may be easily removed by TMA. The removal of more of the AlF3 surface layer may then become progressively difficult."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does mass change after HF exposure achieve saturation and when?",
+                "answer_type": "Factoid",
+                "answer": "\u0394MHF versus the HF exposure time increases and  then levels off at approximately \u0394MHF = 13 ng/(cm2 cycle) after a 1.0 s HF exposure"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How does HF passivate Al2O3?",
+                "answer_type": "Paragraph",
+                "answer": "HF fluorinating the Al2O3 film and forming an AlF3 surface layer that passivates the underlying Al2O3 film by protecting it from further oxidation"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_6",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart",
+        "c": "molecular structure diagram"
+    },
+    "summarization": {
+        "a": "The Mn K-edge XANES spectra show the progressive electronic and structural evolution of Li-intercalated MnO\u2082 with increasing lithiation cycles (100cLi to 300cLi). Comparison with reference spectra (MnO\u2082, LiMn\u2082O\u2084, and MnO) indicates a gradual shift in manganese oxidation state and local environment toward a LiMn\u2082O\u2084-like configuration as lithiation proceeds.",
+        "b": "The FT Mn K-edge EXAFS data reveal changes in the local atomic structure with lithiation, particularly in Mn\u2013O and Mn\u2013Mn coordination distances. The emergence and strengthening of features consistent with LiMn\u2082O\u2084 confirm increasing structural ordering and partial transformation toward the spinel-type framework at higher lithiation cycles."
+    },
+    "data_extraction": {
+        "a": "| Energy (eV) | Absorbance (arb. units) |\n|---|---|\n|6540| 100cLi-MnO\u2082 |\n|6545| 200cLi-MnO\u2082 |\n|6550| 300cLi-MnO\u2082 |\n|6555| MnO\u2082 ref. |\n|6560| LiMn\u2082O\u2084 ref. |\n|6565| MnO ref. |",
+        "b": "| R (\u00c5) | Intensity (arb. units) |\n|---|---|\n|1| Mn-O |\n|2| Mn-Mn1 |\n|3| Mn-O |\n|4| Mn-Mn1 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Compare the XANES spectra in panel (a). Which sample (Green '100cLi' or Yellow '300cLi') best matches the dashed  LiMn\u2082O\u2084  ref' line, confirming the phase transformation is complete?",
+                "answer_type": "Factoid",
+                "answer": "300cLi (Yellow). Its shape aligns with the reference, whereas the Green line is still transitioning."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "The inset in (a) shows clear splitting of the pre-edge peaks t2g\u200b/eg\u200b for the 300cLi sample. What does this distinct splitting reveal about the quality of the formed lattice?",
+                "answer_type": "Paragraph",
+                "answer": "Clear peak splitting indicates a well-defined crystal field. If the lattice were disordered or amorphous, these features would be smeared out."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "In  label (b), the Rutile 'doublet' peak has merged into a single 'Mn-Mn1' peak (~2.85 \u00c5). What does this simplification indicate about the symmetry of the newly formed Spinel lattice?",
+                "answer_type": "Paragraph",
+                "answer": "The Rutile phase has varied Mn-Mn distances (edge vs. corner sharing), while the Spinel phase has a uniform, highly symmetric 3D arrangement , resulting in a single primary neighbor distance."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Based on the Spinel structure confirmed in panel (b), why does this phase offer superior Rate Capability (charging speed) compared to the initial Rutile phase?",
+                "answer_type": "Factoid",
+                "answer": "3D Diffusion Channels. The Spinel structure has an interconnected 3D network of tunnels for Lithium movement, whereas Rutile only has narrow 1D channels that block easily."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

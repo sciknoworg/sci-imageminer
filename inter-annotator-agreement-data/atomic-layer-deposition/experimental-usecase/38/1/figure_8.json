@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_8",
+    "classification": {
+        "a": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "Mn L\u2083-edge XANES spectra of MnO\u2082 and lithiated samples (10c\u2013300c Li\u2013MnO\u2082) are compared with linear-combination fits built from Mn\u2074\u207a and Mn\u00b3\u207a references. The close agreement between solid (measured) and dotted (LCF) curves indicates that the spectra are well described by mixtures of Mn\u00b3\u207a and Mn\u2074\u207a states. With increasing lithiation, spectral weight near the Mn\u00b3\u207a marker (~641 eV) increases relative to the Mn\u2074\u207a region (~644 eV), consistent with progressive Mn reduction. The labeled 100/0, 80/20, and 60/40 mixtures illustrate how changing Mn\u2074\u207a/Mn\u00b3\u207a ratios reproduce the observed evolution."
+    },
+    "data_extraction": {
+        "a": "| Trace | Feature | Energy (eV) |\n|---|---|---|\n| (all traces) | Mn\u00b3\u207a marker line | ~641.0 |\n| (all traces) | Mn\u2074\u207a marker line | ~644.0 |\n| MnO\u2082 | L\u2083 main peak (maximum) | ~644.0 |\n| 10cLi\u2013MnO\u2082 | L\u2083 main peak (maximum) | ~644.0 |\n| 50cLi\u2013MnO\u2082 | L\u2083 main peak (maximum) | ~644.0 |\n| 100cLi\u2013MnO\u2082 | L\u2083 main peak (maximum) | ~644.0 |\n| 200cLi\u2013MnO\u2082 | L\u2083 main peak (maximum) | ~644.0 |\n| 300cLi\u2013MnO\u2082 | L\u2083 main peak (maximum) | ~644.0 |\n| MnO\u2082 | shoulder / inflection near Mn\u00b3\u207a region | ~641.0 |\n| 300cLi\u2013MnO\u2082 | shoulder / inflection near Mn\u00b3\u207a region | ~641.0 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does linear-combination fitting assume that only Mn\u00b3\u207a and Mn\u2074\u207a contribute to the measured spectra?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What trend in Mn\u00b3\u207a contribution is implied as the samples progress from MnO\u2082 to 300c Li\u2013MnO\u2082?",
+                "answer_type": "Factoid",
+                "answer": "The Mn\u00b3\u207a contribution increases with increasing lithiation (cycle number), indicating progressive Mn reduction."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Why does a higher Mn\u00b3\u207a fraction often correlate with increased local distortion in Mn\u2013O octahedra?",
+                "answer_type": "Paragraph",
+                "answer": "Mn\u00b3\u207a commonly introduces Jahn\u2013Teller activity in octahedral coordination, which can elongate or distort MnO\u2086 units to lower electronic degeneracy. As Mn\u00b3\u207a fraction rises, the distribution of Mn\u2013O bond lengths broadens, and local symmetry decreases, linking oxidation-state change (electronic structure) to structural distortion at the atomic scale."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is it useful to quantify Mn\u00b3\u207a fraction rather than relying only on qualitative spectral changes?",
+                "answer_type": "Paragraph",
+                "answer": "-Enables comparison across samples and processing conditions\n-Provides a metric linked to redox capacity and stability\n-Helps correlate spectroscopy with electrochemical behavior\n-Supports model-based interpretation rather than visual inference"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

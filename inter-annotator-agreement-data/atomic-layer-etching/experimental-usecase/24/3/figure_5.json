@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_5",
+    "classification": {
+        "a": "multi-axis chart"
+    },
+    "summarization": {
+        "a": "The figure shows the mass change and thickness changes over time at different temperatures (250C, 275C, 300C, and 325C) after sequential TMA and HF treatments."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | 250C | 275C | 300C | 325C |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 2000 | -100 | -250 | -400 | -750 |\n| 4000 | -200 | -600 | -1000 | -1500 |\n| 6000 | -300 | -900 | -1500 | -2300 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What are the step for the ALE cycle?",
+                "answer_type": "Factoid",
+                "answer": "2.0 s of TMA exposure, 30.0 s of N2 purge, 1.0 s of HF exposure, and 30.0 s of N2 purge."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does mass change vary with the temperature?",
+                "answer_type": "Factoid",
+                "answer": "The mass change per cycle increases with higher temperature values."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which process temperature results in a higher mass change per cycle?",
+                "answer_type": "Factoid",
+                "answer": "325 \u00b0C"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What performance advantage is shown in the figure?",
+                "answer_type": "Factoid",
+                "answer": "The information shown in the figure makes it possible to determine that the temperature of the ALE cycle affects the rates of the process."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

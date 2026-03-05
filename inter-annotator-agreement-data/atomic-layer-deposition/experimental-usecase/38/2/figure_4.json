@@ -1,0 +1,68 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_4",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart",
+        "c": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "Mn K-edge XANES of MnO\u2082, 10cLi-MnO\u2082, and 50cLi-MnO\u2082 compared to MnO\u2082, LiMn\u2082O\u2084, and MnO powder references. Inset shows pre-edge region with t\u2082g and eg crystal field features. Samples resemble \u03b2-MnO\u2082 reference.",
+        "b": "Fourier transform of Mn K-edge EXAFS showing three coordination shells: Mn-O (~1.5 \u00c5), Mn-Mn1 (~2.5 \u00c5, edge-sharing), and Mn-Mn2 (~3.5 \u00c5, corner-sharing). Inset depicts \u03b2-MnO\u2082 structure with labeled distances. The Mn-Mn2 peak is characteristic of \u03b2-MnO\u2082, absent in spinel.",
+        "c": "Mn L-edge XANES (L_III and L_II) at 45\u00b0 incidence. Mn\u00b3\u207a and Mn\u2074\u207a features are labeled. Even at low lithiation, some Mn reduction is evident."
+    },
+    "data_extraction": {
+        "a": "| Energy (eV) | MnO Ref (Norm.) | LiMn\u2082O\u2084 Ref (Norm.) | MnO\u2082 Ref (Norm.) | MnO\u2082 (Norm.) | 10cLi (Norm.) | 50cLi (Norm.) |\n|---|---|---|---|---|---|---|\n| 6542 (Pre-edge) | 0.05 | 0.05 | 0.05 | 0.05 | 0.05 | 0.05 |\n| 6550 (Edge) | 0.40 | 0.20 | 0.25 | 0.25 | 0.25 | 0.25 |\n| 6555 (MnO Peak) | 1.00 | 0.60 | 0.50 | 0.50 | 0.50 | 0.55 |\n| 6560 (Main Peak) | 0.30 | 0.90 | 1.00 | 1.00 | 1.00 | 1.00 |\n| 6562 (LiMn\u2082O\u2084 Peak)| 0.20 | 1.00 | 0.90 | 0.95 | 0.95 | 0.95 |",
+        "b": "| R (\u00c5) | MnO\u2082 Ref (Dotted) | MnO\u2082 Sample (Black) | 10cLi (Red) | 50cLi (Blue) | Assignment |\n|---|---|---|---|---|---|\n| 1.8 | 0.95 | 1.00 | 0.90 | 0.85 | Mn-O Shell |\n| 2.7 | 0.45 | 0.40 | 0.35 | 0.35 | Mn-Mn1 |\n| 3.3 | 0.70 | 0.85 | 0.75 | 0.70 | Mn-Mn2 Shell |",
+        "c": "| Energy (eV) | LiMn\u2082O\u2084 Ref | Mn\u2082O\u2083 Ref | MnO\u2082 Ref | MnO\u2082 Sample | 10cLi | 50cLi |\n|---|---|---|---|---|---|---|\n| 641.0 (Mn\u00b3\u207a) | 0.60 | 1.00 | 0.20 | 0.50 | 0.60 | 0.70 |\n| 644.0 (Mn\u2074\u207a) | 1.00 | 0.50 | 1.00 | 1.00 | 1.00 | 1.00 |\n| 653.0 (L\u2082) | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the K-edge XANES spectra of MnO\u2082\u201350cLi-MnO\u2082 compare to the references?",
+                "answer_type": "Factoid",
+                "answer": "They closely resemble the MnO\u2082 powder reference, indicating that \u03b2-MnO\u2082 remains the dominant phase at low lithium concentrations (x < 0.5)."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What do the t\u2082g and eg labels in the inset of panel (a) represent?",
+                "answer_type": "Factoid",
+                "answer": "Crystal field splitting of Mn 3d orbitals in octahedral coordination\u2014t\u2082g (lower energy) and eg (higher energy) states visible in the pre-edge region."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Does lithium insertion cause immediate Mn reduction even at low cycle numbers?",
+                "answer_type": "Paragraph",
+                "answer": "Yes. The absorption edge shifts to lower energy and Mn\u00b3\u207a features appear in the L-edge spectra even for 10cLi-MnO\u2082, indicating partial reduction of Mn\u2074\u207a to Mn\u00b3\u207a."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What does the presence of the Mn-Mn2 peak in panel (b) indicate about the crystal structure?",
+                "answer_type": "Factoid",
+                "answer": "It indicates the \u03b2-MnO\u2082 pyrolusite structure, where Mn-Mn2 (~3.5 \u00c5) corresponds to corner-sharing octahedra. This peak is absent in spinel LiMn\u2082O\u2084."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

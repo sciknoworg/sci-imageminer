@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_10",
+    "classification": {
+        "a": "spectra chart"
+    },
+    "summarization": {
+        "a": "The chart shows absorbance values at various wavenumbers for Al\u2082O\u2083 at 300\u00b0C, with absorbance decreasing as the number of ALE cycles increases."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | Absorbance cycle 0 | Absorbance cycle 4 | Absorbance cycle 6 | Absorbance cycle 8 |\n|---|---|---|---|---|\n| 700 | 0.00 |0.00 |0.00 |0.00 |\n| 800 | 0.00 |0.00 |0.00 |0.00 |\n| 900 | 0.51 |0.50|0.48|0.39|\n| 950 | 0.56 |0.54|0.50|0.44|\n| 1000 | 0.51 |0.50|0.48|0.39|\n| 1100 | 0.05 |0.05 |0.05 |0.05 |\n| 1200 | 0.05 |0.05 |0.05 |0.05 |\n| 1300 | 0.05 |0.05 |0.05 |0.05 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Is the trend in absorbance linear?",
+                "answer_type": "Paragraph",
+                "answer": "The trend in absorbance is non-linear. This does not mean that the etching is non-linear, to conclude this, the integrated absorbance of the full peak must be considered."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "With the full infrared spectrum, can fluorine be detected on the shell of the Al2O3?",
+                "answer_type": "Paragraph",
+                "answer": "Al-F is a bond with permanent dipole so it will vibrate upon IR absorption."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What could be the reason for the narrowing of the peak for the higher wavenumbers?",
+                "answer_type": "Paragraph",
+                "answer": "For thicker films, generally broader peaks are observed, by decreasing the film thickness with the etch process, the peak gets more narrow."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Based on the IR spectra, does the composition of the film change upon etching?",
+                "answer_type": "Paragraph",
+                "answer": "No the composition does not change based on the given data, as the peak shape remains constant."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

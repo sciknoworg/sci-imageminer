@@ -1,0 +1,77 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_8",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart",
+        "d": "multiple line chart"
+    },
+    "summarization": {
+        "a": "Magnetization hysteresis (M vs magnetic field) for an as-deposited Mg\u2013Fe oxide film with Mg/Fe = 0.017, d = 425 nm, measured at 300, 200, 100, 50, 10 K. The panel reports Ms \u2248 200 emu/cm\u00b3 and Hc \u2248 300 Oe at room temperature.",
+        "b": "M\u2013H curves for an as-deposited Mg\u2013Fe oxide film with Mg/Fe = 0.061, d = 411 nm, measured at the same temperatures. The panel reports Ms \u2248 491 emu/cm\u00b3 and Hc \u2248 150 Oe at room temperature.",
+        "c": "M\u2013H curves for the annealed (forming-gas annealed) film with Mg/Fe = 0.017, d = 425 nm. The panel reports Ms \u2248 280 emu/cm\u00b3 and Hc \u2248 280 Oe at room temperature.",
+        "d": "M\u2013H curves for the annealed (forming-gas annealed) film with Mg/Fe = 0.061, d = 411 nm. The panel reports Ms \u2248 274 emu/cm\u00b3 and Hc \u2248 200 Oe at room temperature."
+    },
+    "data_extraction": {
+        "a": "| Magnetic field, Oe | 300 K | 200 K | 100 K | 50 K | 10 K |\n|---|---|---|---|---|---|\n| -7500 | -200 | -200 | -210 | -215 | -220 |\n| -5000 | -200 | -200 | -210 | -215 | -220 |\n| -2500 | -195 | -200 | -210 | -215 | -220 |\n| -1000 | -180 | -195 | -205 | -210 | -215 |\n| -500 | -150 | -180 | -195 | -200 | -210 |\n| -300 | 0 | -150 | -180 | -190 | -200 |\n| 0 | 100 | 50 | -100 | -150 | -180 |\n| 300 | 150 | 150 | 0 | -50 | -100 |\n| 500 | 175 | 180 | 150 | 100 | 50 |\n| 1000 | 190 | 195 | 200 | 200 | 200 |\n| 2500 | 200 | 200 | 210 | 215 | 220 |\n| 5000 | 200 | 200 | 210 | 215 | 220 |\n| 7500 | 200 | 200 | 210 | 215 | 220 |",
+        "b": "| Magnetic field, Oe | 300 K | 200 K | 100 K | 50 K | 10 K |\n|---|---|---|---|---|---|\n| -7500 | -490 | -500 | -510 | -520 | -530 |\n| -5000 | -490 | -500 | -510 | -520 | -530 |\n| -2500 | -480 | -490 | -505 | -515 | -525 |\n| -1000 | -450 | -480 | -500 | -510 | -520 |\n| -500 | -400 | -450 | -480 | -500 | -510 |\n| -150 | 0 | -200 | -350 | -400 | -450 |\n| 0 | 200 | 100 | -100 | -200 | -300 |\n| 150 | 350 | 200 | 0 | -100 | -200 |\n| 500 | 450 | 450 | 400 | 350 | 300 |\n| 1000 | 480 | 490 | 500 | 510 | 520 |\n| 2500 | 490 | 500 | 510 | 520 | 530 |\n| 5000 | 490 | 500 | 510 | 520 | 530 |\n| 7500 | 490 | 500 | 510 | 520 | 530 |",
+        "c": "| Magnetic field, Oe | 300 K | 200 K | 100 K | 50 K | 10 K |\n|---|---|---|---|---|---|\n| -7500 | -280 | -285 | -290 | -295 | -300 |\n| -5000 | -280 | -285 | -290 | -295 | -300 |\n| -2500 | -275 | -280 | -288 | -293 | -298 |\n| -1000 | -260 | -275 | -285 | -290 | -295 |\n| -500 | -220 | -260 | -275 | -285 | -290 |\n| -280 | 0 | -200 | -250 | -270 | -280 |\n| 0 | 150 | 50 | -100 | -180 | -220 |\n| 280 | 220 | 200 | 100 | 0 | -50 |\n| 500 | 250 | 260 | 250 | 200 | 150 |\n| 1000 | 270 | 280 | 285 | 290 | 295 |\n| 2500 | 280 | 285 | 290 | 295 | 300 |\n| 5000 | 280 | 285 | 290 | 295 | 300 |\n| 7500 | 280 | 285 | 290 | 295 | 300 |",
+        "d": "| Magnetic field, Oe | 300 K | 200 K | 100 K | 50 K | 10 K |\n|---|---|---|---|---|---|\n| -7500 | -274 | -280 | -285 | -290 | -295 |\n| -5000 | -274 | -280 | -285 | -290 | -295 |\n| -2500 | -270 | -278 | -283 | -288 | -293 |\n| -1000 | -260 | -270 | -280 | -285 | -290 |\n| -500 | -230 | -260 | -275 | -280 | -288 |\n| -200 | 0 | -180 | -250 | -270 | -280 |\n| 0 | 150 | 50 | -100 | -180 | -250 |\n| 200 | 220 | 180 | 50 | -50 | -150 |\n| 500 | 250 | 260 | 250 | 200 | 150 |\n| 1000 | 268 | 275 | 280 | 285 | 290 |\n| 2500 | 274 | 280 | 285 | 290 | 295 |\n| 5000 | 274 | 280 | 285 | 290 | 295 |\n| 7500 | 274 | 280 | 285 | 290 | 295 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is plotted on the axes, and what do the different colored curves represent?",
+                "answer_type": "Paragraph",
+                "answer": "x-axis: magnetic field (Oe)\n\ny-axis: magnetization, M (emu/cm\u00b3)\n\ncurves: measurements at 300, 200, 100, 50, and 10 K for the same sample/state"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What qualitative change in coercivity with temperature and annealing is shown here, and what microstructural explanation is given?",
+                "answer_type": "Paragraph",
+                "answer": "In each panel, Hc increases as temperature decreases (loops widen at low T), which is typical for ferri/ferromagnetic films. After forming-gas annealing, Hc is generally reduced at higher temperatures compared with the as-deposited state for these kinds of samples. The paper attributes the anneal-driven reduction in coercivity to crystal growth and increased average magnetic domain size."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "At room temperature, how do Ms and Hc differ between Mg/Fe = 0.017 and Mg/Fe = 0.061 in the as-deposited state?",
+                "answer_type": "Paragraph",
+                "answer": "In the as-deposited state, increasing Mg/Fe from 0.017 to 0.061 increases Ms from about 200 to about 491 emu/cm\u00b3. Over the same change, Hc decreases from about 300 to about 150 Oe. This matches the broader trend described in the paper that higher Mg in this range reduces coercivity while increasing saturation magnetization up to a limit."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "If the goal is maximum room-temperature magnetization, which condition in this figure performs best, and what number supports that?",
+                "answer_type": "Paragraph",
+                "answer": "The best room-temperature magnetization in this figure is the as-deposited Mg/Fe = 0.061 film (panel b). It shows Ms \u2248 491 emu/cm\u00b3 at 300 K, substantially higher than the Mg/Fe = 0.017 film and higher than either annealed case. This directly supports the process-optimization message that moderate Mg levels can strongly enhance magnetic performance (while other processing steps can change Ms and Hc in different directions)."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

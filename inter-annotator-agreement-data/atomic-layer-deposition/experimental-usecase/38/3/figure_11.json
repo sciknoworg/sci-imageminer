@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_11",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The figure illustrates the change in the average oxidation state of manganese (Mn) as the amount of lithium cycles increases, showing a decreasing trend. Three different oxidation states can be observed: MnO2, LiMn2O4 and MnO."
+    },
+    "data_extraction": {
+        "a": "| Amount of lithium cycles | Mn average oxidation state |\n|---|---|\n|MnO2 | 3.7 |\n|10 | 3.7 |\n|50 | 3.6 |\n|100 | 3.3 |\n|200 | 3.3 |\n|200+A | 3.1 |\n|300 | 2.9 |\n|300+A | 2.5 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "In what way does the lithium concentration affect the oxidation state Mn?",
+                "answer_type": "Factoid",
+                "answer": "The oxidation state of Mn decreases as the lithium concentration (the amount of lithium cycles in this case, as is shown in the figure) increases."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the oxidation states change depending on the samples?",
+                "answer_type": "Factoid",
+                "answer": "The MnO2 sample shows an average oxidation state value close to 3.7, which decreases as the number of lithium cycles increases, as does the value for annealed samples ( after 200 and 300 cycles)."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which sample has the lowest average oxidation state of Mn?",
+                "answer_type": "Factoid",
+                "answer": "The annealed sample with 300 cycles of lithium."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which performance advantage is shown in the figure?",
+                "answer_type": "Factoid",
+                "answer": "Depending on the number of lithium cycles and post-treatment (with or without annealing), it is possible to produce different species (i.e. different oxidation states of Mn)."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

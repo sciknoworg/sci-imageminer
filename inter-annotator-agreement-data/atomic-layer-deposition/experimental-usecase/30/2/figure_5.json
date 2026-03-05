@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_5",
+    "classification": {
+        "a": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays Fe 2p XAS and TEY spectra for Fe\u2082O\u2083:MgO thin films grown at 425 \u00b0C, comparing non-doped samples with those doped with Mg at different concentrations."
+    },
+    "data_extraction": {
+        "a": "| Photon energy (eV) | non-doped (Intensity) | Mg 0.02 at.% (Intensity) | Mg 0.2 at.% (Intensity) | Mg 0.38 at.% (Intensity) |\n|---|---|---|---|---|\n| 700.0 | 0.00 | 0.00 | 0.00 | 0.00 |\n| 705.0 | 0.02 | 0.02 | 0.02 | 0.02 |\n| 708.0 | 0.55 | 0.54 | 0.53 | 0.52 |\n| 709.5 | 1.00 | 1.00 | 1.00 | 1.00 |\n| 712.0 | 0.28 | 0.28 | 0.27 | 0.27 |\n| 715.0 | 0.15 | 0.15 | 0.14 | 0.14 |\n| 718.0 | 0.12 | 0.12 | 0.11 | 0.11 |\n| 721.5 | 0.38 | 0.38 | 0.37 | 0.36 |\n| 723.0 | 0.44 | 0.44 | 0.43 | 0.42 |\n| 725.0 | 0.25 | 0.25 | 0.24 | 0.24 |\n| 730.0 | 0.11 | 0.11 | 0.10 | 0.10 |\n| 735.0 | 0.12 | 0.12 | 0.11 | 0.11 |\n| 740.0 | 0.12 | 0.12 | 0.11 | 0.11 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What are the x- and y-axes, and what do the four curves represent?",
+                "answer_type": "Paragraph",
+                "answer": "x-axis: photon energy (eV), Fe 2p edge region (~700\u2013740 eV)\n\ny-axis: intensity (arb. units), TEY signal\n\ncurves: non-doped Fe\u2082O\u2083 and Mg-doped Fe\u2082O\u2083:MgO with Mg = 0.02, 0.2, 0.38 at.% (by EDX)"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the Fe 2p line shape change as Mg increases from 0.02 to 0.2\u20130.38 at.%?",
+                "answer_type": "Paragraph",
+                "answer": "The paper reports that the non-doped and 0.02 at.% Mg spectra remain hematite-like. At higher Mg levels (0.2 and ~0.4 at.%), the shoulder near ~708.5 eV decreases in intensity. This change is discussed as potentially indicating a small magnetite contribution, consistent with the diffraction-based interpretation."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What Fe 2p spectral feature is used here to distinguish a more \u201chematite-like\u201d spectrum from a more \u201cmagnetite-influenced\u201d one?",
+                "answer_type": "Paragraph",
+                "answer": "A key discriminator used in the paper is the relative intensity of the shoulder around ~708.5 eV on the Fe L\u2083 edge. Hematite-like spectra show a more pronounced split/shoulder structure in this region. With increased Mg content, the reduced shoulder intensity is interpreted as moving away from a purely hematite-like signature and toward spectra compatible with a minor magnetite component."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is TEY-XAS at the Fe 2p edge useful for the paper\u2019s discussion of Mg doping effects?",
+                "answer_type": "Paragraph",
+                "answer": "The work links Mg dosing to changes in phase/chemical state that matter for magnetic behavior and film properties. Fe 2p XAS provides a sensitive fingerprint for changes in Fe-oxide electronic structure as Mg is introduced. The TEY measurement adds a complementary view to diffraction by tracking how Fe 2p features evolve with doping level in the 425 \u00b0C growth series."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

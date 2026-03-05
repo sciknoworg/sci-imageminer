@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_7",
+    "classification": {
+        "a": "polar chart (rose chart)"
+    },
+    "summarization": {
+        "a": "The  polar chart  shows the spatial distribution of Al\u2082O\u2083 etch rate across a Si wafer during ALE. The etch rate is highest at the wafer center (~0.139 nm/cycle) and slightly decreases toward the edge (~0.131 nm/cycle), indicating a uniformity."
+    },
+    "data_extraction": {
+        "a": "| Radius (cm) | 0\u00b0     | 30\u00b0    | 60\u00b0    | 90\u00b0    | 120\u00b0   | 150\u00b0   | 180\u00b0   | 210\u00b0   | 240\u00b0   | 270\u00b0   | 300\u00b0   | 330\u00b0   |\n|--------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|\n| 0.0 | 0.1390 | 0.1390 | 0.1390 | 0.1390 | 0.1390 | 0.1390 | 0.1390 | 0.1390 | 0.1390 | 0.1390 | 0.1390 | 0.1390 |\n| 0.5 | 0.1388 | 0.1387 | 0.1387 | 0.1386 | 0.1385 | 0.1387 | 0.1386 | 0.1387 | 0.1386 | 0.1386 | 0.1387 | 0.1387 |\n| 1.0 | 0.1380 | 0.1379 | 0.1378 | 0.1378 | 0.1377 | 0.1378 | 0.1379 | 0.1378 | 0.1379 | 0.1378 | 0.1379 | 0.1379 |\n| 1.5 | 0.1368 | 0.1367 | 0.1366 | 0.1367 | 0.1366 | 0.1367 | 0.1366 | 0.1367 | 0.1366 | 0.1367 | 0.1366 | 0.1367 |\n| 2.0 | 0.1355 | 0.1354 | 0.1353 | 0.1354 | 0.1353 | 0.1354 | 0.1354 | 0.1353 | 0.1354 | 0.1353 | 0.1354 | 0.1353 |\n| 2.5 | 0.1338 | 0.1337 | 0.1336 | 0.1337 | 0.1336 | 0.1337 | 0.1336 | 0.1337 | 0.1336 | 0.1337 | 0.1336 | 0.1337 |\n| 3.0 | 0.1315 | 0.1314 | 0.1314 | 0.1313 | 0.1313 | 0.1313 | 0.1314 | 0.1313 | 0.1313 | 0.1313 | 0.1313 | 0.1314 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What process oriented parameters  led to the cause the center-to-edge etch rate gradient observed on the wafer?",
+                "answer_type": "List",
+                "answer": "1   - Plasma density distribution\n2  - Neutral radical flux and gas flow pattern \n3  - Ion energy/sheath potential variation"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the etch rate non-uniformity change from the center of the wafer to the edge?",
+                "answer_type": "Paragraph",
+                "answer": "At the center (0\u20131 cm): ~0.137\u20130.139 nm/cycle; highest etch rates. At the mid-radius (1\u20132.2 cm): ~0.134\u20130.136 nm/cycle; moderate etch rates finally at the edge (2.2\u20133.5 cm): ~0.131\u20130.133 nm/cycle; lowest etch rates"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What is the minimum and maximum etch rate value shown on this given polar plot?",
+                "answer_type": "Factoid",
+                "answer": "minimum ~  0.131 nm/cycle, maximum ~  0.139 nm/cycle"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Is the etch-rate uniformity shown in this ALE wafer map acceptable for manufacturing nanoscale devices?",
+                "answer_type": "Yes/No",
+                "answer": "No\n\nReason - the center-to-edge variation (~0.131\u20130.139 nm/cycle) and the six-fold spatial nonuniformity exceed typical nanoscale CD tolerances and would likely require process or hardware correction before manufacturing."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

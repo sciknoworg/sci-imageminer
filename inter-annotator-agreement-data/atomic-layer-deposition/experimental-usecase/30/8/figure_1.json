@@ -1,0 +1,68 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_1",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "X-ray diffraction patterns of a Fe2O3 film grown at 500\u00b0C using a cycle sequence 600 x 1 - 0.5 - 1.5 - 0.5 s.  The plot shows the measurement of the sample as deposited and after forming gas annealing (FGA).",
+        "b": "X-ray diffraction patterns of a Fe2O3 film with a 256 nm thickness grown at 400\u00b0C using a cycle sequence 2000 x 1 - 0.5 - 1.5 - 0.5 s.  The plot shows the measurement of the sample as deposited and after forming gas annealing (FGA).",
+        "c": "X-ray diffraction patterns of a Fe2O3 film with a 72 nm thickness grown at 375\u00b0C using a cycle sequence 500 x 1 - 0.5 - 1.5 - 0.5 s.  The plot shows the measurement of the sample as deposited and after forming gas annealing (FGA)."
+    },
+    "data_extraction": {
+        "a": "| 2\u03b8, degree | as-deposited: Intensity, arb. units |  FGA: Intensity, arb. units | hkl label |\n|---|---|---|---|\n| 24.138 | 1.20 | 0.42 | 012 | \n| 33.153 | 5.87 | 1.62 | 104 | \n| 35.612 | 1.56 | 0.67 | 110 | \n| 49.074 | 0.54 | 0.20 | 113 | \n| 40.480 | 0.93 | 0.23 | 024 | \n| 54.091 | 1.62 | 0.49 | 116 | \n| 57.590 | 0.14 | 0.0 | 018 | \n| 62.451 | 0.29 | 0.13 | 214 | \n| 63.991 | 0.29 | 0.14 | 300 |",
+        "b": "| 2\u03b8, degree | as-deposited: Intensity, arb. units |  FGA: Intensity, arb. units | hkl label |\n|---|---|---|---|\n| 24.138 | 0.94 | 0.56| 012 | \n| 30.095 | 0.0 | 1.45 | 220 | \n| 33.153 | 3.82 | 0.67 | 104 | \n| 35.423 | 0.19 | 5.16 | 311 | \n| 35.612 | 2.21 | 0.00 | 110 | \n| 40.855 | 0.50 | 0.00 | 113 | \n| 43.053 | 0.00 | 0.47 | 400 | \n| 49.074 | 0.89 | 0.00 | 024 | \n| 54.091 | 0.98 | 0.33 | 116 | \n| 57.590 | 0.15 | 0.62 | 018 | \n| 62.451 | 0.20 | 0.00 | 214 | \n| 63.283 | 0.00 | 1.10 | 420 | \n| 63.991 | 0.43 | 0.00 | 300 |",
+        "c": "| 2\u03b8, degree | as-deposited: Intensity, arb. units |  FGA: Intensity, arb. units | hkl label |\n|---|---|---|---|\n| 30.095 | 2.37 | 2.73 | 220| \n| 35.423 | 4.03| 5.17 | 311 | \n| 43.053 | 1.51  | 1.33 | 400| \n| 57.922 | 0.75 | 0.72 | 420 | \n| 57.922 | 0.64 | 0.86 | 018 | \n| 63.283 | 0.86 | 1.36 | 440 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the predominant phase of the film before annealing?",
+                "answer_type": "Factoid",
+                "answer": "Hematite"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the effect of  forming gas annealing on the film's structure?",
+                "answer_type": "Paragraph",
+                "answer": "The FGA has no effect on the phase composition of the film. The diffraction peaks after FGA are nearly identical to those of the \"as-deposited\" film. The film grown at 500\u00b0C is therefore stucturally stable against reduciton at these conditions."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What change is observed in the structure of the film after FGA?",
+                "answer_type": "Factoid",
+                "answer": "The film is partially transformed from hematite to magnetite."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which reaction describes the transofrmation of the as-deposited film in to film after FGA, based on the peaks?",
+                "answer_type": "Paragraph",
+                "answer": "The \"as-deposited\"  sample displays characteristic hematite (Fe2O3) peaks. The FGA sample is dominated by magnetite (Fe3O4). The hematite is therefore reduced to magnetite due to the hydrogen that is present in the forming gas annealing process. The reaction is 3 Fe2O3 + H2 -> 2 Fe3O4 + H2O."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

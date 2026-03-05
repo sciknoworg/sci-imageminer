@@ -1,0 +1,97 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_7",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart",
+        "d": "stacked spectra chart",
+        "e": "stacked spectra chart",
+        "f": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The spectral image shows Mn L-edge XANES spectra of manganese oxide and lithium\u2013manganese oxide samples measured at an incident angle of 45\u00b0.",
+        "b": "The spectral image shows O K-edge XANES spectra of manganese oxide and lithium\u2013manganese oxide samples measured at an incident angle of 45\u00b0.",
+        "c": "The spectral image presents Mn L-edge XANES spectra of the MnO\u2082 sample measured at incident angles of 0.5\u00b0, 1\u00b0, and 45\u00b0, probing different depths of the film.",
+        "d": "The spectral image presents O K-edge XANES spectra of the MnO\u2082 sample measured at incident angles of 0.5\u00b0, 1\u00b0, and 45\u00b0, probing different depths of the film.",
+        "e": "The spectral image presents Mn L-edge XANES spectra of the 300cLi\u2013MnO\u2082 sample measured at incident angles of 0.5\u00b0, 1\u00b0, and 45\u00b0, revealing depth-dependent changes in manganese oxidation state.",
+        "f": "The spectral image presents O K-edge XANES spectra of the 300cLi\u2013MnO\u2082 sample measured at incident angles of 0.5\u00b0, 1\u00b0, and 45\u00b0, showing depth-dependent changes in oxygen electronic structure."
+    },
+    "data_extraction": {
+        "a": "| Energy (eV) | Absorbance (arb. units) |\n|---|---|\n| 635 | LiMn\u2082O\u2084 ref. |\n| 640 | Mn\u00b3\u207a |\n| 645 | Mn\u2074\u207a |\n| 650 | MnO\u2082 ref. |\n| 655 | MnO\u2082 |\n| 660 | 100cLi-MnO\u2082 |\n| 665 | 200cLi-MnO\u2082 |\n| 670 | 300cLi-MnO\u2082 |",
+        "b": "| Energy (eV) | Absorbance (arb. units) |\n|---|---|\n| 526 | LiMn\u2082O\u2084 ref. |\n| 528 | Mn\u00b3\u207a |\n| 530 | Mn\u2074\u207a |\n| 532 | MnO\u2082 ref. |\n| 534 | MnO\u2082 |\n| 536 | 100cLi-MnO\u2082 |\n| 538 | 200cLi-MnO\u2082 |\n| 540 | 300cLi-MnO\u2082 |",
+        "c": "| Energy (eV) | Absorbance (arb. units) |\n|---|---|\n| 638 | LiMn\u2082O\u2084 ref. |\n| 640 | Mn\u00b3\u207a |\n| 642 | Mn\u2074\u207a |\n| 644 | MnO\u2082 ref. |\n| 646 | MnO\u2082 |\n| 648 | 100cLi-MnO\u2082 |\n| 650 | 200cLi-MnO\u2082 |\n| 652 | 300cLi-MnO\u2082 |",
+        "d": "| Energy (eV) | Absorbance (arb. units) |\n|---|---|\n| 525 | LiMn\u2082O\u2084 ref. |\n| 528 | Mn\u00b3\u207a |\n| 531 | Mn\u2074\u207a |\n| 534 | MnO\u2082 ref. |\n| 537 | MnO\u2082 |\n| 540 | 100cLi-MnO\u2082 |\n| 543 | 200cLi-MnO\u2082 |\n| 546 | 300cLi-MnO\u2082 |",
+        "e": "| Energy (eV) | Absorbance (arb. units) |\n|---|---|\n| 638 | LiMn\u2082O\u2084 ref. |\n| 640 | Mn\u00b3\u207a |\n| 642 | Mn\u2074\u207a |\n| 644 | MnO\u2082 ref. |\n| 646 | MnO\u2082 |\n| 648 | 100cLi-MnO\u2082 |\n| 650 | 200cLi-MnO\u2082 |\n| 652 | 300cLi-MnO\u2082 |",
+        "f": "| Energy (eV) | Absorbance (arb. units) |\n|---|---|\n| 525 | LiMn\u2082O\u2084 ref|"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Compare the angular-dependent Mn L-edge trends between the pure MnO\u2082 film (c) and the 300cLi-MnO\u2082 film (e). What key difference in depth homogeneity does this reveal?",
+                "answer_type": "Paragraph",
+                "answer": "The pure MnO\u2082 film likely shows little spectral change with angle, indicating a homogeneous Mn\u2074\u207a state throughout. In contrast, the 300cLi film will show significant spectral variation with angle, revealing an inhomogeneous structure where the lithiated (Mn\u00b3\u207a-rich) surface layer differs from the underlying material."
+            }
+        ],
+        "f": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is understanding the depth-dependent chemistry, as shown in Figure, critical for evaluating the quality and performance of a LiMn\u2082O\u2084 cathode film synthesized by gas-phase lithiation?",
+                "answer_type": "Paragraph",
+                "answer": "Depth-dependent chemistry reveals if lithiation is uniform. A homogeneous film ensures consistent electrochemical activity across its thickness, leading to better capacity utilization and stability. A graded or surface-only lithiated film would lead to uneven stress, poor rate performance, and faster degradation during battery cycling."
+            }
+        ],
+        "e": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "In this image with label e, f - measurements are taken at incident angles of 0.5\u00b0, 1\u00b0, and 45\u00b0. Based on the schematic provided, which specific angle should a process engineer analyze to determine the chemical state of the bulk material deep inside the film?",
+                "answer_type": "Factoid",
+                "answer": "45\u00b0 ,  The schematic shows that higher incident angles penetrate deeper into the film, whereas grazing angles (0.5\u00b0) probe only the top surface."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "In this label e - for the \u201c300cLi\u201d sample, the 0.5\u00b0 scan (top) shows a dominant peak at ~641 eV (Mn\u00b3\u207a), while the 45\u00b0 scan (bottom) shows a stronger feature at ~644 eV (Mn\u2074\u207a). What does this depth-dependent spectral shift reveal about the uniformity of the lithiation?",
+                "answer_type": "Paragraph",
+                "answer": "Non-uniform (gradient) structure. The lithiation is not uniform through the film. The near-surface region is highly reduced and lithium-rich, dominated by Mn\u00b3\u207a, whereas the deeper bulk remains relatively oxidized and lithium-poor, retaining more Mn\u2074\u207a. This indicates a diffusion-limited lithiation process with a concentration gradient from the surface toward the bulk."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "f": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

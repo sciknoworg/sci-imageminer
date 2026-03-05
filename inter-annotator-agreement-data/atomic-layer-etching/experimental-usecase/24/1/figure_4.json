@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_4",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart"
+    },
+    "summarization": {
+        "a": "The mass change per cycle after TMA exposure becomes more negative with increasing exposure time at 300 \u00b0C and approaches a plateau at longer times.",
+        "b": "The mass change after HF exposure increases rapidly at short exposure times and then levels off at longer times, reaching an approximately constant value at 300 \u00b0C."
+    },
+    "data_extraction": {
+        "a": "| TMA exposure time (s) | \u0394M_TMA (ng/(cm\u00b2\u00b7cycle)) |\n|----------------------:|------------------------:|\n| 0.0 | ~0 |\n| 0.6 | ~-12 |\n| 1.0 | ~-20 |\n| 1.6 | ~-28 |\n| 2.2 | ~-33 |",
+        "b": "| HF exposure time (s) | \u0394M_HF (ng/(cm\u00b2\u00b7cycle)) |\n|---------------------:|-----------------------:|\n| 0.0 | ~0 |\n| 0.5 | ~12 |\n| 1.0 | ~14 |\n| 1.5 | ~15 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What does the plateau seen in the mass change versus TMA exposure time indicate about the surface reaction?",
+                "answer_type": "Paragraph",
+                "answer": "The plateau indicates that the reaction between the TMA precursor and the surface has reached saturation. This means that after a certain exposure time (around 2 seconds), all available reactive sites on the surface have been consumed, and further exposure to TMA does not lead to any significant additional mass change. This self-limiting behavior is a hallmark of ALD and ALE half-cycles."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the mass change vary with HF exposure time before reaching saturation?",
+                "answer_type": "Factoid",
+                "answer": "The mass change increases rapidly from 0 to about +12 ng/(cm\u00b2\u00b7cycle) within the first 0.5 seconds of exposure."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Why does \u0394M_HF approach a constant value at longer HF exposure times in panel (b)?",
+                "answer_type": "Factoid",
+                "answer": "Because the mass change reaches a plateau, indicating that additional HF exposure does not produce further measurable mass change under these conditions."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How does the time required for saturation in the HF step compare to the TMA step shown in panel (a)?",
+                "answer_type": "Paragraph",
+                "answer": "The HF step appears to reach saturation faster, leveling off after about 1.0 second. In contrast, the TMA step in panel (a) requires closer to 2.0 seconds to fully saturate. This suggests the HF half-reaction kinetics may be faster under these conditions."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

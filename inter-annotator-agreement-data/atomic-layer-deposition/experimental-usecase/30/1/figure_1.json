@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_1",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The stacked grazing-incidence XRD spectra for films grown at 500 \u00b0C show dominant hematite reflections with multiple indexed planes, indicating well-developed crystallinity. Differences between as-deposited and FGA-treated traces suggest post-growth structural reorganization.",
+        "b": "At 400 \u00b0C, the spectra reveal coexistence of hematite and magnetite phases. Both as-deposited and FGA-treated patterns exhibit mixed reflections, indicating incomplete phase transformation relative to the 500 \u00b0C case.",
+        "c": "The 375 \u00b0C spectrum is dominated by magnetite reflections, with fewer observable peaks and lower overall complexity, consistent with reduced crystallinity and thinner films at lower growth temperature."
+    },
+    "data_extraction": {
+        "a": "| 2\u03b8 (degree) | Phase / Reflection |\n|-------------|--------------------|\n| 24.138 | hematite (012) |\n| 33.153 | hematite (104) |\n| 35.612 | hematite (110) |\n| 40.480 | hematite (024) |\n| 40.855 | hematite (113) |\n| 54.091 | hematite (116) |\n| 57.590 | hematite (018) |\n| 62.451 | hematite (214) |\n| 63.991 | hematite (300) |",
+        "b": "| 2\u03b8 (degree) | Phase / Reflection |\n|-------------|--------------------|\n| 24.138 | hematite (012) |\n| 30.095 | magnetite (220) |\n| 33.153 | hematite (104) |\n| 35.423 | magnetite (311) |\n| 35.612 | hematite (110) |\n| 40.855 | hematite (113) |\n| 43.053 | magnetite (400) |",
+        "c": "| 2\u03b8 (degree) | Phase / Reflection |\n|-------------|--------------------|\n| 30.095 | magnetite (220) |\n| 35.423 | magnetite (311) |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which crystalline phase is indicated by the strong 220 and 311 reflections in subfigure (c)?",
+                "answer_type": "Factoid",
+                "answer": "Magnetite (Fe\u2083O\u2084)."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does increasing the growth temperature from 375 \u00b0C to 500 \u00b0C influence the phase evolution observed in the stacked XRD spectra?",
+                "answer_type": "Paragraph",
+                "answer": "As the growth temperature increases, the spectra evolve from a magnetite-dominated pattern at 375 \u00b0C to increasingly complex hematite-rich patterns at 500 \u00b0C. Higher temperature enhances precursor decomposition and atomic mobility, enabling transformation toward thermodynamically stable phases and the development of multiple well-defined diffraction peaks."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Do the XRD patterns suggest that higher growth temperatures yield films with greater crystalline order?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What differences are visible between the as-deposited and FGA-treated spectra in the 400 \u00b0C growth condition?",
+                "answer_type": "Paragraph",
+                "answer": "-FGA-treated spectra show sharper and more intense reflections.\n-Magnetite peaks become more distinct after FGA.\n-Background scattering is reduced in the annealed trace.\n-Relative peak balance suggests post-deposition phase reordering."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

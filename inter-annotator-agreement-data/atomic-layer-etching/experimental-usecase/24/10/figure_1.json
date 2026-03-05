@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_1",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The plot shows the mass change of an Al2O3 sample during repeated TMA and HF exposures at 300 \u00b0C. The mass steadily decreases over the 6000 s experiment, showing continuous material etching. The overall trend is nearly linear, with the sample losing roughly 1500 ng/cm^2 of mass by the end of the run."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass change (ng/cm\u00b2) |\n|----------|----------------------|\n| 0        |       ~0             |\n| 500      |     ~-120            |\n| 2000     |     ~-450            |\n| 4000     |    ~-1000            |\n| 6000     |    ~-1500            |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What temperature was used for the experiment shown in the figure?",
+                "answer_type": "Factoid",
+                "answer": "300 \u00b0C"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the mass of the Al2O3 sample change over time during the TMA/HF sequence?",
+                "answer_type": "Paragraph",
+                "answer": "The mass decreases steadily throughout the entire experiment. The slope is quite consistent, this gives the appearance of a near-linear drop in mass as the cycles proceed. By the end of the 6000 s window, the sample has lost around 1500 ng/cm\u00b2, showing that the etching process continues at a  nearly uniform rate."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Does the plot indicate any periods where the mass increases?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "List the four steps in the exposure sequence indicated in the figure",
+                "answer_type": "List",
+                "answer": "TMA dose (2), purge (30), HF dose (1), purge (30)."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

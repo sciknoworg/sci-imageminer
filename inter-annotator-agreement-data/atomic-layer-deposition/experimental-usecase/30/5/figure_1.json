@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_1",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart",
+        "c": "spectra chart"
+    },
+    "summarization": {
+        "a": "X-ray diffraction patterns showing crystalline phases of Fe2O3 hematite and magnetite at deposited at 500 degrees C both as-deposited and annealed.",
+        "b": "X-ray diffraction patterns showing crystalline phases of Fe2O3 hematite and magnetite at deposited at 400 degrees C both as-deposited and annealed.",
+        "c": "X-ray diffraction patterns showing crystalline phases of Fe2O3 hematite and magnetite at deposited at 375 degrees C both as-deposited and annealed."
+    },
+    "data_extraction": {
+        "a": "| 2\u03b8, degree | Intensity, arb. units, as-deposited | Intensity, arb. units, FGA |\n|---|---|---|\n| 20 | 0.0 |0.0 |\n| 25 | small peak | small peak |\n| 30 | 0.0 |0.0 |\n| 35 | two peaks, one small one big | two peaks, one small one big |\n| 40 | small peak |very small peak|\n| 45 | 0.0 |0.0 |\n| 50 | small peak |very small peak|\n| 55 | peak | small peak |\n| 60 | 0.0 |0.0 |\n| 65 | small peak |0.0 |",
+        "b": "| 2\u03b8, degree | Intensity, arb. units, FGA | Intensity, arb. units, as-deposited |\n|---|---|---|\n| 20 | 0.0 |0.0 |\n| 25 | 0.0 | small peak |\n| 30 | small peak |0.0 |\n| 35 | two peaks, one small one big | two peaks big peaks |\n| 40 | 0.0 |small peak|\n| 45 | small peak |0.0 |\n| 50 | 0.0 |small peak|\n| 55 | small peak | peak |\n| 60 | 0.0 |0.0 |\n| 65 | peak | small peak |",
+        "c": "| 2\u03b8, degree | Intensity, arb. units, FGA | Intensity, arb. units, as-deposited |\n|---|---|---|\n| 20 | 0.0 |0.0 |\n| 25 | 0.0 | 0.0 |\n| 30 | small peak |peak |\n| 35 | big peak | big peak |\n| 40 | 0.0 |0.0|\n| 45 | peak |0.0 |\n| 50 | 0.0 |0.0|\n| 55 | small peak | 0.0 |\n| 60 | 0.0 |0.0 |\n| 65 | peak | peak |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Are there multiple crystal phases for iron oxide deposited at 375 degrees C?",
+                "answer_type": "Paragraph",
+                "answer": "c\tIt seems that there is just one, the 220 orientation, as the 440 is the same."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the anneal step make the film more crystaline?",
+                "answer_type": "Paragraph",
+                "answer": "a\tThe number of peaks decreases and so does their height. This indicates that after the FGA step there is a decrease in crystalinity."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Are the materials deposited at 400 degrees C and 500 degrees C similar?",
+                "answer_type": "Paragraph",
+                "answer": "Both subfigure a and b show a similar spectrum as-deposited so the assumption is yes."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "How can you create more magnetite phase iron oxide?",
+                "answer_type": "Paragraph",
+                "answer": "b\tBy performing a functional gas anneal. This creates magnetite peaks in the spectrum."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

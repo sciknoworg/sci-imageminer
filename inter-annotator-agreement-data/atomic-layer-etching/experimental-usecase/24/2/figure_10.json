@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_10",
+    "classification": {
+        "a": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "This in situ FTIR spectroscopy measurement shows the progressive loss of infrared absorbance from Al\u2013O stretching vibrations (800\u20131000 cm\u207b\u00b9) during Al\u2082O\u2083 ALE at 300\u00b0C. The spectra are referenced to the initial ZrO\u2082 nanoparticle substrate. As the number of ALE cycles increases from 0 to 4, 6, and 8, the absorbance peak centered around 900 cm\u207b\u00b9 systematically decreases in intensity, directly confirming the removal of Al\u2082O\u2083 material. The Al\u2082O\u2083 film was initially grown using 15 cycles of Al\u2082O\u2083 ALD with TMA and H\u2082O at 150\u00b0C, then etched using sequential TMA and HF exposures at 300\u00b0C."
+    },
+    "data_extraction": {
+        "a": "| Wavenumber (cm^-1) | Absorbance, 0 ALE cycles | Absorbance, 4 ALE cycles | Absorbance, 6 ALE cycles | Absorbance, 8 ALE cycles |\n|--------------------|--------------------------|--------------------------|--------------------------|--------------------------|\n| 1300               | 0.04                     | 0.035                    | 0.030                    | 0.025                    |\n| 1200               | 0.05                     | 0.040                    | 0.035                    | 0.030                    |\n| 1100               | 0.08                     | 0.070                    | 0.060                    | 0.050                    |\n| 1000               | 0.20                     | 0.17                     | 0.14                     | 0.11                     |\n| 950                | 0.45                     | 0.40                     | 0.35                     | 0.28                     |\n| 900                | 0.65                     | 0.60                     | 0.50                     | 0.40                     |\n| 850                | 0.45                     | 0.40                     | 0.33                     | 0.25                     |\n| 800                | 0.20                     | 0.17                     | 0.13                     | 0.10                     |\n| 750                | 0.07                     | 0.06                     | 0.05                     | 0.04                     |\n| 700                | 0.01                     | 0.01                     | 0.01                     | 0.01                     |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Why were ZrO\u2082 nanoparticles used as the substrate for FTIR measurements of Al\u2082O\u2083 ALE?",
+                "answer_type": "Paragraph",
+                "answer": "ZrO\u2082 nanoparticles were chosen as the substrate because they provide a high surface area that enhances the FTIR signal from the deposited Al\u2082O\u2083 film and subsequent surface reactions. Critically, ZrO\u2082 absorbs infrared radiation only between approximately 400\u2013800 cm\u207b\u00b9, leaving an open spectral window above 800 cm\u207b\u00b9 where the Al\u2013O stretching vibrations of Al\u2082O\u2083 can be monitored without interference. This allows clear observation of the Al\u2082O\u2083 absorbance changes during the ALE process. The nanoparticles were pressed into a tungsten grid that could be resistively heated for temperature control."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What trend is observed in the Al\u2013O stretching vibration absorbance as ALE cycles progress?",
+                "answer_type": "Factoid",
+                "answer": "The absorbance between 800 and 1000 cm\u207b\u00b9 progressively decreases with increasing ALE cycles, confirming the removal of Al\u2082O\u2083 material."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What vibrational mode does the absorbance peak near 900 cm\u207b\u00b9 correspond to, and why does its intensity indicate material removal?",
+                "answer_type": "Paragraph",
+                "answer": "The broad absorbance peak between 800 and 1000 cm\u207b\u00b9 corresponds to Al\u2013O stretching vibrations in the bulk Al\u2082O\u2083 film. The intensity of infrared absorbance is directly proportional to the amount of the absorbing species present, following Beer-Lambert principles. As the Al\u2082O\u2083 film is etched away through the sequential TMA and HF reactions, there are fewer Al\u2013O bonds available to absorb infrared radiation at these frequencies. The progressive decrease in peak intensity from 0 to 8 ALE cycles therefore provides direct spectroscopic evidence that the Al\u2082O\u2083 material is being removed from the substrate."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Does FTIR spectroscopy provide complementary information to QCM for monitoring Al\u2082O\u2083 ALE?",
+                "answer_type": "Paragraph",
+                "answer": "Yes. While QCM measures mass changes, FTIR provides chemical-specific information by tracking the loss of Al\u2013O bonds and can also identify surface intermediates such as AlF* and AlCH\u2083* species formed after HF and TMA exposures, respectively."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

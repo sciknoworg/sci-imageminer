@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_6",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart",
+        "c": "molecular structure diagram"
+    },
+    "summarization": {
+        "a": "The figure displays absorbance spectra of various Li-MnO\u2082 compounds at different concentrations along with reference spectra for MnO\u2082, LiMn\u2082O\u2084, and MnO.",
+        "b": "The figure displays intensity spectra of various Li-MnO\u2082 crystal structures at different concentrations along with reference spectra for MnO\u2082, LiMn\u2082O\u2084, and MnO.",
+        "c": "The figure illustrates the atomic structure of a material, focusing on the distances between Mn atoms and O atoms within the crystal lattice."
+    },
+    "data_extraction": {
+        "a": "| Energy (eV) | Absorption (arb. units) 100cLi-MnO2|Absorption (arb. units) 200cLi-MnO2 |Absorption (arb. units) 300cLi-MnO2 |Absorption (arb. units) MnO2 ref |Absorption (arb. units) LiMn2O4 ref|Absorption (arb. units) MnO ref|\n|---|---|---|---|---|---|---|\n| 6540 |Constant|Constant|Constant|Constant|Constant|Steep increase|\n| 6546 | Steep icnrease|Steep icnrease|Steep icnrease|Steep icnrease|Steep icnrease|Steep icnrease|\n| 6550 | Steep icnrease|Steep icnrease|Steep icnrease|Steep icnrease|Steep icnrease|Peak|\n| 6555 | Steep icnrease|Steep icnrease|Steep icnrease|Steep icnrease|Steep icnrease|Decrease|\n| 6560 | Peak|Peak|Peak|Peak|Peak|Local minimum|\n| 6565 | Local minimum|Local minimum|Local minimum|Local minimum|Local minimum|Peak|\n| 6570 | Local minimum|Local minimum|Local minimum|Local minimum|Local minimum|Peak|\n| 6575 | Peak|Peak|Peak|Peak|Peak|Constant|\n| 6580 | Constant|Constant|Constant|Constant|Constant|Constant|",
+        "b": "| R(anstrom)| Intensity (arb. units) 100cLi-MnO2 |Intensity (arb. units) 200cLi-MnO2 |Intensity (arb. units) 300cLi-MnO2 |Intensity (arb. units) MnO2 ref|\n|---|---|---|---|---|\n| 1 | Constant|Constant|Constant|Constant|\n| 1.75 | Big peak|Big peak|Big peak|Peak|\n| 2.75 |Peak|Peak|Peak|Big peak|\n| 3.3 | Peak|Peak|Peak|Constant|\n| 4 | Constant|Constant|Constant|Constant|",
+        "c": ""
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Based on the given structure, what is the difference between the Mn-O and Li-O distance?",
+                "answer_type": "Paragraph",
+                "answer": "c\tThe Mn-O distance seems to be slightly bigger than the Li-O distance. This can also be concluded from the tetrahedral and octahedral structures."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Is there a nucleation delay for the incorporation of lithium based on the given spectra?",
+                "answer_type": "Paragraph",
+                "answer": "a\tThe spectra for 100 and 200 cycles of lithium have almost the same absorbance, indicating that there is no additional lithium incorporation, so yes there is a delay."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What material is the least likely present in the measured samples?",
+                "answer_type": "Paragraph",
+                "answer": "a\tThe measured spectra deviate the most from the MnO reference spectra, so this material is likely not present."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What peak has the highest intensity for the deposited material?",
+                "answer_type": "Factoid",
+                "answer": "b\tThe peak with the highest intensity is related to the Mn-O peak."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

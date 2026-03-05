@@ -1,0 +1,81 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_9",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart",
+        "d": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The 2\u03b8\u03c7 XRD pattern compares annealed 200cLi\u2013MnO\u2082\u2013600 with the unannealed sample. After annealing, clear LiMn\u2082O\u2084 reflections appear at ~18.7\u00b0, ~36\u201338\u00b0, and ~64\u201367\u00b0. These peaks are sharper and better defined than in the unannealed trace. A weak extra peak near ~48.6\u00b0 is marked with an asterisk, indicating a minor impurity.",
+        "b": "The \u03b8\u20132\u03b8 scan highlights out-of-plane reflections for 200cLi\u2013MnO\u2082 before and after annealing. The annealed sample shows strong LiMn\u2082O\u2084 peaks, along with labeled \u201clithiated phase\u201d features near ~17\u00b0 and ~35\u00b0. Residual MnO\u2082 peaks at ~22\u00b0 and ~42\u00b0 are still present. This shows that annealing promotes lithiated phase formation but does not fully remove MnO\u2082.",
+        "c": "The 2\u03b8\u03c7 diffractograms compare annealed and unannealed 300cLi\u2013MnO\u2082. In the annealed sample, LiMn\u2082O\u2084 peaks at (111), (131)/(222), (440), and (351) are clearly visible. These reflections are stronger and cleaner than in the unannealed pattern. This indicates improved crystallinity of the lithiated phase after annealing.",
+        "d": "The \u03b8\u20132\u03b8 patterns for 300cLi\u2013MnO\u2082 show strong lithiated-phase peaks after annealing. LiMn\u2082O\u2084 reflections near ~18.7\u00b0 and ~35.6\u00b0 dominate the annealed trace. A small impurity peak, marked by an asterisk near ~33\u00b0, is also visible. The unannealed sample shows weaker and broader peaks, pointing to poorer structural order."
+    },
+    "data_extraction": {
+        "a": "| Sample (trace) | Peak / feature label | 2\u03b8 (\u00b0) |\n|---|---|---|\n| 200cLi\u2013MnO2\u2013600 (top) | LiMn2O4 (111) | ~18.7 |\n| 200cLi\u2013MnO2\u2013600 (top) | LiMn2O4 (131) | ~36.6 |\n| 200cLi\u2013MnO2\u2013600 (top) | LiMn2O4 (222) | ~38.4 |\n| 200cLi\u2013MnO2\u2013600 (top) | LiMn2O4 (440) | ~64.2 |\n| 200cLi\u2013MnO2\u2013600 (top) | LiMn2O4 (351) | ~66.7 |\n| 200cLi\u2013MnO2 (bottom) | * (unassigned peak) | ~48.6 |\n| 200cLi\u2013MnO2 (bottom) | dominant peak (same region as ~36\u201339\u00b0) | ~38.0 |\n| 200cLi\u2013MnO2 (bottom) | higher-angle peak (same region as ~64\u201367\u00b0) | ~66.7 |",
+        "b": "| Sample (trace) | Peak / feature label | 2\u03b8 (\u00b0) |\n|---|---|---|\n| 200cLi\u2013MnO2\u2013600 (top) | Lithiated phase (left) | ~17.1 |\n| 200cLi\u2013MnO2\u2013600 (top) | LiMn2O4 (111) | ~18.7 |\n| 200cLi\u2013MnO2\u2013600 (top) | MnO2 (100) | ~22.3 |\n| 200cLi\u2013MnO2\u2013600 (top) | strong unlabeled peak | ~32.9 |\n| 200cLi\u2013MnO2\u2013600 (top) | Lithiated phase (right) | ~34.6 |\n| 200cLi\u2013MnO2\u2013600 (top) | LiMn2O4 (311) | ~35.6 |\n| 200cLi\u2013MnO2\u2013600 (top) | MnO2 (200) | ~42.2 |\n| 200cLi\u2013MnO2 (bottom) | LiMn2O4 (111) peak | ~18.7 |\n| 200cLi\u2013MnO2 (bottom) | strong peak (same region as ~35\u201336\u00b0) | ~35.6 |",
+        "c": "| Sample (trace) | Peak / feature label | 2\u03b8 (\u00b0) |\n|---|---|---|\n| 300cLi\u2013MnO2\u2013600 (top) | LiMn2O4 (111) | ~18.7 |\n| 300cLi\u2013MnO2\u2013600 (top) | LiMn2O4 (131) | ~36.6 |\n| 300cLi\u2013MnO2\u2013600 (top) | LiMn2O4 (222) | ~38.4 |\n| 300cLi\u2013MnO2\u2013600 (top) | LiMn2O4 (440) | ~64.2 |\n| 300cLi\u2013MnO2\u2013600 (top) | LiMn2O4 (351) | ~66.7 |\n| 300cLi\u2013MnO2 (bottom) | dominant peak (same region as ~36\u201339\u00b0) | ~38.0 |\n| 300cLi\u2013MnO2 (bottom) | higher-angle peak (same region as ~64\u201367\u00b0) | ~66.7 |",
+        "d": "| Sample (trace) | Peak / feature label | 2\u03b8 (\u00b0) |\n|---|---|---|\n| 300cLi\u2013MnO2\u2013600 (top) | Lithiated phase (left) | ~17.1 |\n| 300cLi\u2013MnO2\u2013600 (top) | LiMn2O4 (111) | ~18.7 |\n| 300cLi\u2013MnO2\u2013600 (top) | * (unassigned peak) | ~32.6 |\n| 300cLi\u2013MnO2\u2013600 (top) | strong unlabeled peak | ~32.9 |\n| 300cLi\u2013MnO2\u2013600 (top) | Lithiated phase (right) | ~34.6 |\n| 300cLi\u2013MnO2\u2013600 (top) | LiMn2O4 (311) | ~35.6 |\n| 300cLi\u2013MnO2 (bottom) | LiMn2O4 (111) peak | ~18.7 |\n| 300cLi\u2013MnO2 (bottom) | strong peak (same region as ~35\u201336\u00b0) | ~35.6 |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What does the dominance of LiMn\u2082O\u2084 reflections in the annealed \u03b8\u20132\u03b8 pattern suggest about film structure?",
+                "answer_type": "Paragraph",
+                "answer": "Dominant LiMn\u2082O\u2084 reflections indicate improved phase ordering along the surface-normal direction. This suggests that annealing enhances alignment or coherence of the lithiated phase. Such ordering is consistent with higher structural quality."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Compared with the unannealed sample, how do LiMn\u2082O\u2084 peaks change after annealing in subfigure (c)?",
+                "answer_type": "Factoid",
+                "answer": "They become stronger and more clearly resolved."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Why is the 2\u03b8\u03c7 geometry used to compare annealed and unannealed 200cLi\u2013MnO\u2082 in this panel?",
+                "answer_type": "Paragraph",
+                "answer": "The 2\u03b8\u03c7 geometry allows comparison of diffraction features that are less constrained by surface-normal orientation. This makes it suitable for assessing overall phase formation and crystallinity differences induced by annealing. It helps reveal sharpening and emergence of LiMn\u2082O\u2084 reflections."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which features in subfigure (b) indicate formation of a lithiated phase after annealing?",
+                "answer_type": "Paragraph",
+                "answer": "-Peak near ~17\u00b0\n-Peak near ~35\u00b0\n-Strengthened LiMn\u2082O\u2084 (111) reflection"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

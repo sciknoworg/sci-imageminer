@@ -1,0 +1,68 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_3",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart"
+    },
+    "summarization": {
+        "a": "Film thickness vs. repeated SF\u2086 plasma exposure without TMA. Thickness stays constant at 208.0 \u00c5, indicating the fluorinated surface is completely stable with zero spontaneous thermal etching.",
+        "b": "Film thickness vs. repeated TMA doses after one initial SF\u2086 plasma pulse. Only ~1 \u00c5 total removal even after 60 TMA doses, confirming that without continuous re-fluorination, etching nearly stops after the first monolayer.",
+        "c": "Film thickness vs. number of complete ALE cycles. After an initial nucleation delay (~60 cycles), highly linear etching at 3.1 \u00c5/cycle down to below 50 \u00c5, demonstrating excellent long-term stability and atomic-layer precision."
+    },
+    "data_extraction": {
+        "a": "| Number of SF\u2086 plasma pulses | Film thickness (\u00c5) |\n|-----------------------------|--------------------|\n| 0                           | 208.0              |\n| 10                          | 208.0              |\n| 20                          | 208.0              |\n| 30                          | 208.0              |",
+        "b": "| Number of TMA doses (after initial fluorination) | Film thickness (\u00c5) |\n|--------------------------------------------------|--------------------|\n| 30                                               | 207.0              |\n| 40                                               | 207.0              |\n| 50                                               | 207.0              |\n| 60                                               | 207.0              |",
+        "c": "| Number of full ALE cycles | Film thickness (\u00c5) |\n|----------------------------|--------------------|\n| 60                         | 207.0              |\n| 80                         | 140.0              |\n| 100                        | 80.0               |\n| 110                        | 45.0               |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Does the linear regime indicate suitability for atomic-scale thickness control?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Why does repeated SF\u2086 plasma exposure not reduce film thickness?",
+                "answer_type": "Paragraph",
+                "answer": "The constant thickness indicates that fluorination alone does not cause spontaneous material removal. The fluorinated Al\u2082O\u2083 surface is chemically stable under these conditions and does not desorb volatile species by itself. This confirms that SF\u2086 plasma acts only as a surface activation step rather than an etching step."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What surface characteristic is demonstrated by the unchanged thickness during SF\u2086 plasma exposure?",
+                "answer_type": "Factoid",
+                "answer": "High thermal and chemical stability of the fluorinated surface."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What surface property, clearly demonstrated in panel (a), is essential for damage-free, self-limited thermal ALE of Al\u2082O\u2083?",
+                "answer_type": "Paragraph",
+                "answer": "The complete absence of thickness change during prolonged SF\u2086 plasma exposure proves that the fluorinated surface is highly stable against thermal decomposition and ion-induced damage. This thermal and chemical robustness means that no unintended etching or roughening occurs during the activation step, preserving atomic-scale smoothness. It is precisely this stable-yet-reactive fluorine-terminated surface that allows the subsequent TMA step to selectively and completely remove exactly one monolayer per cycle without over-etching."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

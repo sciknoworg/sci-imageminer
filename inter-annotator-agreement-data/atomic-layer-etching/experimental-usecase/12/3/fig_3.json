@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_3",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart"
+    },
+    "summarization": {
+        "a": "The figure shows the film thickness of a material over cycles, with a plateau at around 200 \u00c5 until cycle 60, followed by a linear decrease at a rate of 3.1 \u00c5 per cycle.",
+        "b": "The figure shows a zoomed-in view of the subfigure a, between 20 and 40 pulses/cycles."
+    },
+    "data_extraction": {
+        "a": "| Film thikckness (\u00c5) | Numer of pulses/cycles |\n|---|---|\n| 0 | 200 |\n| 10 | 207 |\n| 20 | 207 |\n| 30 | 207 |\n| 40 | 204 |\n| 50 | 204 |\n| 60 | 204 |\n| 70 | 170 |\n| 80 | 140 |\n| 90 | 130 |\n| 100 | 80 |\n| 110 | 45 |",
+        "b": "| Film thikckness (\u00c5) | Numer of pulses/cycles |\n|---|---|\n| 20 | 207 |\n| 30 | 207 |\n| 40 | 204 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which are the main steps shown in the figure?",
+                "answer_type": "Factoid",
+                "answer": "First, the substrates were exposed to 30 pulses of SF6 plasma (Half-cycle A), followed by 30 pulses of TMA (half-cycle B), and finally 50 ALE cycles (SF6 plasma + TMA dose)."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which reactant exhibits a slight increase in the film thickness?",
+                "answer_type": "Factoid",
+                "answer": "The exposure to SF6 plasma, which is related to the formation of a thin fluorinated layer."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How does  the film thickness change over the course of the full ALE cycle?",
+                "answer_type": "Factoid",
+                "answer": "The film thickness is decreasing with an etch rate of 3.1 \u00c5 per cycle."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the film thickness change after half-cycle A?",
+                "answer_type": "Factoid",
+                "answer": "After the half-cycle A, the film was exposed to a TMA dose, resulting in a decrease in thickness from 207 \u00c5 to 204 \u00c5."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

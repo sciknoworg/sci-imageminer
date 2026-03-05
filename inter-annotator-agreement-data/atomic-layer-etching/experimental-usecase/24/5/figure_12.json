@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_12",
+    "classification": {
+        "a": "spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays infrared absorption spectra at 300\u00b0C, comparing an TMA (a) dose and an HF (b) dose."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | Absorbance after TMA dose |Absorbance after HF dose |\n|-------------------|------------|------------|\n| 4000              | 0.000      |0.000      |\n| 3750              | 0.000      |0.000      |\n| 3500              | 0.000      |0.000      |\n| 3250              | 0.000      |0.000      |\n| 3000              | positive peak till 0.008 |negative peak till -0.008 |\n| 2750              | 0.002      | -0.002|\n| 2500              | 0.002      |-0.002|"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Is all the formed CH3 during the TMA step removed upon HF exposure?",
+                "answer_type": "Paragraph",
+                "answer": "All the CH3 seems to be removed as the peaks have similar height."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Is HF adsorbed on the surface based on the given IR spectra?",
+                "answer_type": "Paragraph",
+                "answer": "No, there is no HF formed as there is no positive peak visible in the HF IR active region."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How many vibrational states of CH3 are there in the given wavenumber range?",
+                "answer_type": "Paragraph",
+                "answer": "At least three can be observed. The main peak consists of two sharp peaks close together, with a shoulder to the right."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Can any peaks be observed between 4000 and 3250 cm^-1 be observed?",
+                "answer_type": "Paragraph",
+                "answer": "No, in general there must be a certain signal to noise ratio to be able to identify actual peaks. In this region, the signal seems to be fully comprised of noise."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

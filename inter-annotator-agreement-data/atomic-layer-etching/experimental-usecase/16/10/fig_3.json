@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_3",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart"
+    },
+    "summarization": {
+        "a": "Panel (a) shows the F 1s XPS peak at ~688\u2013689 eV for two CF4 concentrations. The peak position is similar in both cases, but the 6.6% CF4 condition gives a higher intensity.",
+        "b": "Panel (b) shows the C 1s region separated into C\u2013CFn, C\u2013F, C\u2013F2, and C\u2013F3 components. The  C\u2013CFn contribution is stronger at 3.3% CF4, while the higher-energy F peaks remain present in both conditions."
+    },
+    "data_extraction": {
+        "a": "| Binding energy (eV) | Intensity (counts/s) | v_CF4 (%) |\n| - | - | - |\n| 688.6 | ~3500 | 3.3 |\n| 688.6 | ~6500 | 6.6 |",
+        "b": "| Binding energy (eV) | Component | Intensity (counts/s) | v_CF4 (%) |\n| - | - | - | - |\n| 285.0 | C\u2013CF_n | ~1500 | 3.3 |\n| 285.0 | C\u2013CF_n | ~900 | 6.6 |\n| 287.8 | C\u2013F | ~350 | 3.3 |\n| 287.8 | C\u2013F | ~250 | 6.6 |\n| 289.8 | C\u2013F\u2082 | ~300 | 3.3 |\n| 289.8 | C\u2013F\u2082 | ~220 | 6.6 |\n| 292.5 | C\u2013F\u2083 | ~250 | 3.3 |\n| 292.5 | C\u2013F\u2083 | ~180 | 6.6 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does the C-CFn  peak decrease when CF4 is raised from 3.3% to 6.6%?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the F 1s intensity change between the CF4 3.3% and 6.6% respectively?",
+                "answer_type": "Paragraph",
+                "answer": "The peaks have roughly the same binding energy howver the 6.6% CF4 condition gives a much stronger intensity. This indicates a larger presence of F on the surface."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which C 1s component has the lowest binding energy?",
+                "answer_type": "Factoid",
+                "answer": "The C-CFn component, with a binding energy of ~285 eV"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What are the C 1s components labelled",
+                "answer_type": "List",
+                "answer": "C-F3, C-F2, C-F, C-CFn"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

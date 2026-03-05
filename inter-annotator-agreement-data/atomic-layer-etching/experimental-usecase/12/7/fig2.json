@@ -1,0 +1,81 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig2",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart",
+        "d": "line chart"
+    },
+    "summarization": {
+        "a": "The line graph shows the relationship between SF\u2086 plasma exposure time and EPC (etch per cycle) in \u00e5ngstr\u00f6ms (\u00c5). As the plasma exposure time increases from 0 to 5 seconds, a sharp rise of about 3 \u00c5 is observed, followed by saturation up to 30 seconds. This measurement corresponds to a 0.5-second TMA dose.",
+        "b": "The line graph shows the relationship between plasma pump time and EPC (etch per cycle) in \u00c5. As the plasma pump time increases from 0 to 10 seconds, a slight increase in EPC is observed, followed by saturation up to 30 seconds. This measurement corresponds to the plasma pump step following SF\u2086 plasma exposure.",
+        "c": "The line graph shows the relationship between TMA dosing time and EPC (etch per cycle) in \u00c5. As the TMA dosing time increases from 0 to 0.2 seconds, no increase in EPC is observed; beyond 0.2 seconds, a sharp rise of about 3 \u00c5 occurs, followed by saturation up to 0.8 seconds. This measurement corresponds to TMA dosing following a 5-second SF\u2086 plasma exposure.",
+        "d": "The line graph shows the relationship between TMA pump time and EPC (etch per cycle) in \u00c5. As the TMA pump time increases from 0 to 10 seconds, a slight decrease in EPC is observed, followed by saturation up to 30 seconds. This measurement corresponds to the pump step following TMA dose exposure. All measurements were performed experimentally at a substrate temperature of 260 \u00b0C using 10-second TMA hold steps."
+    },
+    "data_extraction": {
+        "a": "| SF<sub>6</sub> plasma time (s) | EPC (\u00c5) |\n|--------------|------------------|\n| 5            | 3.00             |\n| 10           | 3.33             |\n| 15           | 3.44             |\n| 20           | 3.51             |\n| 25           | 3.55             |\n| 30           | 3.60             |",
+        "b": "| Plasma pump time (s) | EPC (\u00c5) |\n|---|---|\n| 5     | 2.96   |\n| 10    | 3.06   |\n| 30    | 3.08   |",
+        "c": "| TMA dosing time (s) | EPC (\u00c5) |\n|---|---|\n| 0  | -0.10  |\n| 0.2  | -0.09  |\n| 0.4  | 2.74   |\n| 0.6  | 3.06   |\n| 0.8  | 3.07   |",
+        "d": "| TMA pump time (s) | EPC (\u00c5) |\n|---|---|\n|   5   |   3    |\n|  10   |   3    |\n|  30   |   3    |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "For manufacturing, the TMA pump time curve label d shows EPC slightly decreases with longer pump times before saturating. What does this imply about the optimal pump time for maximizing both etch rate and precursor efficiency?",
+                "answer_type": "Paragraph",
+                "answer": "The initial decrease suggests that some active TMA molecules are pumped away before reacting if the purge is too short. Therefore, the optimal pump time is just beyond the dip (~10-15s), where EPC stabilizes. This maximizes precursor utilization by allowing sufficient reaction time while minimizing waste and cycle time, which is critical for cost-effective high-volume production."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "The TMA dosing curve shows no etch below 0.2s  in label c, then a sharp rise to saturation. What does this threshold reveal about the surface structure required for the ligand-exchange reaction to begin?",
+                "answer_type": "Factoid",
+                "answer": "It reveals that a minimum coverage of surface fluorine species (from SF\u2086 plasma) must be present before TMA can effectively react and release volatile etch products."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Based on the saturation curve in label  a, what is the minimum SF\u2086 plasma exposure time required to achieve a self-limiting, saturated etch rate in this ALE process?",
+                "answer_type": "Factoid",
+                "answer": "~2 seconds (the EPC saturates after the initial sharp rise between 0-2s)."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Compare the impact of plasma exposure time label a  and plasma pump time label b on the etch-per-cycle (EPC). What does this comparison reveal about the trade-off between process step duration and etch mechanism?",
+                "answer_type": "Paragraph",
+                "answer": "Plasma exposure time is critical; EPC rises sharply until saturation at ~2s, indicating the time needed for surface fluorination. In contrast, plasma pump time has minimal effect after ~10s, suggesting that reactant removal is not rate-limiting. The trade-off is that precise control of the active plasma step is essential for consistent etching, while the purge step offers a wider, more forgiving time window, allowing for throughput optimization without sacrificing etch rate."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

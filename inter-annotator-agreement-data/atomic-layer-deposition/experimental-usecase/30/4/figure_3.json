@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_3",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays Raman spectra of a material, highlighting peaks at specific wavenumbers corresponding to different phases of iron oxide with 538 and 668 cm-1 belong to the magnetite phase.",
+        "b": "The figure shows Raman spectra with distinct peaks indicating various phases of iron oxides, including \u03b1-Fe\u2082O\u2083, \u03b3-Fe\u2082O\u2083, and Fe\u2083O\u2084.",
+        "c": "The figure presents Raman spectra at two different temperatures (425 and 375 deg C), showcasing the presence of Si, SiO\u2082, and various iron oxide phases."
+    },
+    "data_extraction": {
+        "a": "| Raman shift, cm\u207b\u00b9 | Intensity, arb.unit. |\n|---|---|\n| 200 | 538, 668 cm\u207b\u00b9 magnetite |\n| 400 | 225, 293, 412, 498, 613,cm\u207b\u00b9 |\n| 600 | 538, 668 cm\u207b\u00b9 magnetite |\n| 800 | 538, 668 cm\u207b\u00b9 magnetite |\n| 1000 | 538, 668 cm\u207b\u00b9 magnetite |\n| 1200 | 538, 668 cm\u207b\u00b9 magnetite |\n| 1400 | \u03b1, 1320cm\u207b\u00b9 |\n| 1600 | FGA |\n| 1800 | FGA |",
+        "b": "| Raman shift, cm\u207b\u00b9 | Intensity, arb.unit. |\n|---|---|\n| 200 | m, 306 cm\u207b\u00b9 |\n| 400 | m, 538 cm\u207b\u00b9 |\n| 600 | m, 668 cm\u207b\u00b9 |\n| 800 | \u03b1, 1320cm\u207b\u00b9 |\n| 1000 | \u03b3, 720 cm\u207b\u00b9 |\n| 1200 | \u03b3, 1430 cm\u207b\u00b9 |\n| 1400 | \u03b3, 1580 cm\u207b\u00b9 |\n| 1600 | m, 193 cm\u207b\u00b9 |\n| 1800 | m, 193 cm\u207b\u00b9 |",
+        "c": "| Raman shift, cm\u207b\u00b9 | Intensity, arb.units. |\n|---|---|\n| 200 | \u03b1, 225,293, 412, 498, 613,cm\u207b\u00b9 |\n| 400 | Si, 514 cm\u207b\u00b9 |\n| 600 | m, 538 cm\u207b\u00b9 |\n| 800 | m, 668 cm\u207b\u00b9 |\n| 1000 | SiO\u2082 |\n| 1200 | \u03b1, 1320cm\u207b\u00b9 |\n| 1400 | 425\u00b0C |\n| 1600 | 375\u00b0C |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is attributed to magnesioferrite phase?",
+                "answer_type": "Factoid",
+                "answer": "The shoulder at 700 cm\u22121 for the main band at 668 cm\u22121  can also be attributed to magnesioferrite according to the Raman database."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does Raman spectroscopy allow detection of phases not visible by GIXRD?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How GIXRD and Raman complement each other?",
+                "answer_type": "Paragraph",
+                "answer": "According to the Raman results,  the films grown using MgO:Fe2O3 cycling ratio of 5:100 (Mg/Fe atomic ratio of ca. 0.05) at 425\u25e6C were a mixture of hematite and magnetite, whereas the films grown at 375\u25e6C mainly consisted of magnetite (c). In the spectra, several peaks implied the presence of the maghemite phase. This phase was not clearly detected by GIXRD.  Also, in the as-deposited films grown at 400\u25e6C, magnetite was not recognized by GIXRD, whereas Raman indicated the presence of the magnetite as an additional phase. In general the Raman results support the observations by GIXRD."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What are the various bands corresponding to different phases of iron oxide?",
+                "answer_type": "Paragraph",
+                "answer": "1. For the hematite phase, \u03b1-Fe2O3,  bands at 225, 293, 412, 498, 613, and 1320 cm\u22121 are typical. \n2. For the magnetite phase,  \u03b3-Fe2O3, bands at 380, 500, 720, 1450 and 1580 cm\u22121 are typical.\n3. For the magnetite phase, bands at 668, 538, 306, and 193 cm\u22121 are typical."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

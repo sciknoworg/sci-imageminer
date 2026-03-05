@@ -1,0 +1,58 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_5",
+    "classification": {
+        "a": "image panel",
+        "b": "image panel"
+    },
+    "summarization": {
+        "a": "This figure compares the sidewall thickness of an Al\u2082O\u2083 film before and after 40 cycles of atomic layer etching (ALE). Cross-sectional TEM images show a clear reduction in measured thickness at multiple positions along the structure. The average thickness decreases from ~22.3\u202fnm to ~11.7\u202fnm, indicating uniform etching over repeated ALE cycles."
+    },
+    "data_extraction": {
+        "a": "| Field | Value |\n| --- | --- |\n| Pre-Etch | 21.8 nm, 23.3 nm, 22.6 nm, 21.6 nm |\n| Post 40 cycles ALE | 11.4 nm, 11.9 nm, 12.2 nm, 11.2 nm |",
+        "b": "| Field | Value |\n| --- | --- |\n| Post 40 cycles ALE | 11.4 nm, 11.9 nm, 12.2 nm, 11.2 nm |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What process is being used to etch the material in this figure?",
+                "answer_type": "Factoid",
+                "answer": "Plasma-enhanced atomic layer etching (ALE) using SF\u2086 plasma and TMA exposure."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What property does the reduction in sidewall thickness indicate?",
+                "answer_type": "List",
+                "answer": "Etch rate, Uniformity, Precision, Material selectivity"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Is ALE effective in achieving nanometer-scale precision in etching?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does sidewall thickness change after 40 ALE cycles?",
+                "answer_type": "Paragraph",
+                "answer": "The sidewall thickness decreases significantly after 40 ALE cycles. Pre-etch measurements ranged from 21.6\u202fnm to 23.3\u202fnm, while post-etch values range from 11.2\u202fnm to 12.2\u202fnm. This consistent reduction across the measured points suggests uniform and controlled material removal via ALE."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

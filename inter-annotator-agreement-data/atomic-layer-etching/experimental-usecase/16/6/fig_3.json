@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_3",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart"
+    },
+    "summarization": {
+        "a": "An XPS spectrum, F(1s) scan, with two different signals, corresponding to two different percentages of CF4 (3.3% and 6.6%) in the plasma used for etching.",
+        "b": "An XPS spectrum, C(1s) scan, with two different with multiple signals, corresponding to two different percentages of CF4 (3.3% and 6.6%) in the plasma used for etching."
+    },
+    "data_extraction": {
+        "a": "| v_{CF4} | Binding Energy, eV | Intensity, counts/s |\n|---|---|---|\n| 3.3% | 690, peak | 4000 | \n| 6.6% | 690, peak | 7000 |",
+        "b": "| v_{CF4} | Binding Energy, eV | Intensity, counts/s |\n|---|---|---|\n| 3.3% | 294, peak | 400 |\n| 3.3% | 292, peak | 300 |\n| 3.3% | 285, peak | 1600 | \n| 6.6% | 294, peak | 300 |\n| 6.6% | 292, peak | 500 |\n| 6.6% | 290, peak | 600 |\n| 6.6% | 288, peak | 700 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "As the percentage of CF4 in the plasma is increased, how does that affect the amount of fluorine and carbon in the deposited film?",
+                "answer_type": "Factoid",
+                "answer": "As the percentage of CF4 in the plasma was increased from 3.3% to 6.6%, the F/C ratio increased from 0.5 to 1.6."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What were the thicknesses of the analysed films in this figure?",
+                "answer_type": "Factoid",
+                "answer": "11 nm (CF4 fraction = 3.3%) and 22 nm (CF4 fraction = 6.6%)"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which components (carbon-fluorine bonds) at what binding energy are present in the F(1s) spectrum?",
+                "answer_type": "List",
+                "answer": "CF3 at 294.6 eV, CF2  at 292.4 eV, CF at 290.2 eV"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "The peak at 288 eV is not labelled, but the authors do discuss this peak. How did they interpret this peak?",
+                "answer_type": "Paragraph",
+                "answer": "They attributed this peak to the presence of a hydrocarbon group (i.e. contamination). This peak could also correspond to another condition of the C-F bond, possibly causing the calculated fluorine concentration to be underestimated. However, this possible underestimation does not affect the qualitative result that the concentration of fluorine in the film increases with the concentration of CF4 in the plasma."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

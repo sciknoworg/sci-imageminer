@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_3",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The figure shows the film thickness after exposure to 30 half-cycles of SF6 (a), 30 half-cycles of TMA (b) and 50 full ALE cycles (c). During the full ALE cycles, the material is etched at a rate of 3.1 \u00c5 per cycle."
+    },
+    "data_extraction": {
+        "a": "| Number of pulses/cycles | Film thickness (\u00c5) |\n|---|---|\n| 0 | 205 |\n| 5 | 205 |\n| 10 | 205 |\n| 15 | 205 |\n| 20 | 205 |\n| 25 | 205 |\n| 30 | 205 |\n| 35 | 200 |\n| 40 | 200 |\n| 45 | 200 |\n| 50 | 200 |\n| 55 | 200 |\n| 60 | 200 |\n| 65 | 184 |\n| 70 | 168 |\n| 75 | 152 |\n| 80 | 136 |\n| 85 | 120 |\n| 90 | 104 |\n| 95 | 88 |\n| 100 | 72 |\n| 105 | 56 |\n| 110 | 40 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the starting thickness of the Al2O3 film?",
+                "answer_type": "Factoid",
+                "answer": "Around 207 \u00c5."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How many half cycles of SF6 and TMA exposure were performed?",
+                "answer_type": "Factoid",
+                "answer": "30 for both."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "At what rate was the material etched during the full ALE cycles?",
+                "answer_type": "Factoid",
+                "answer": "At a rate of 3.1 \u00c5 per cycle."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Why was this particular experiment performed and what information was obtained?",
+                "answer_type": "Paragraph",
+                "answer": "A key requirement for ALE is that etching should only occur if the substrate is exposed to alternating half-cycles, which is why this experiment was conducted. The figure shows that the SF6 half-cycles did not affect the film thickness. When the substrate was exposed to the TMA half-cycles, a decrease was expected for the first half-cycle as the AlF3 layer formed during SF6 exposure should react with TMA. This was indeed the case and the substrate thickness did not change during the remainder of the TMA half-cycles. The data shown in this figure demonstrate that the process conditions meet this key requirement."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

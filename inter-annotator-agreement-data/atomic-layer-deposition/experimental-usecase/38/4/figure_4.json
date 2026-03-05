@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_4",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart",
+        "c": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays XANES absorption spectra of various manganese oxides at different lithium concentrations.",
+        "b": "The figure displays EXAFS  spectra of various manganese oxides at different lithium concentrations.",
+        "c": "The figure shows Mn L-edge XANES spectra measured in 45\u00b0 incident angle"
+    },
+    "data_extraction": {
+        "a": "| Sample          | Energy Range (eV) | Key Features                                  |\n|-----------------|--------------------|-----------------------------------------------|\n| MnO\u2082           | 6540\u20136580         | Strong edge at ~6555 eV; post-edge oscillations |\n| 10cLi-MnO\u2082     | 6540\u20136580         | Slight edge shift; reduced intensity          |\n| 50cLi-MnO\u2082     | 6540\u20136580         | Further edge shift; more pronounced changes   |\n| MnO\u2082 ref.      | 6540\u20136580         | Baseline for Mn\u2074\u207a                             |\n| LiMn\u2082O\u2084 ref.   | 6540\u20136580         | Spinel reference                              |",
+        "b": "| Peak Position (\u00c5) | Assignment |\n|--------------------|-----------|\n| ~1.5              | Mn\u2013O      |\n| ~2.8              | Mn\u2013Mn1    |\n| ~3.4              | Mn\u2013Mn2    |",
+        "c": "| Energy (eV) | Feature  |\n|-------------|----------|\n| ~641        | Mn\u00b3\u207a (LIII) |\n| ~644        | Mn\u2074\u207a (LIII) |\n| ~652        | LII region |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the difference between K-edge and L-edge?",
+                "answer_type": "Paragraph",
+                "answer": "1. The L-edge XANES measures the absorption by the electric dipole-allowed transition from the\n2p orbital to the unfilled 3d orbital of a transition metal resulting in an intense and feature-rich LII,III-edge XANES spectra.\n2. The K-edge measures dipole-forbidden transition from the 1s orbital to the 3d orbital and hence are of lower-intensity."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does sample  \u03b2-MnO2\u221250cLi\u2212MnO2 have comparable to the \u03b2-MnO2 reference?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the reference used for the crystal structure of LiMn2O4?",
+                "answer_type": "Factoid",
+                "answer": "ICDD PDF 35-0782"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What happens when lithium is inserted?",
+                "answer_type": "Paragraph",
+                "answer": "Immediate reduction of manganese occurs as soon as lithium is inserted, as the absorption edge shifts to lower energy in the Mn K-edge XANES."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_2",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The figure shows the deposition rate of various materials (Si, Al2O3, HfO2, AlN, TiN, SiO2) against the percentage of CF4 in the process.",
+        "b": "The figure illustrates the concentration of F, CF2, and CF species against the percentage of CF4 in the process."
+    },
+    "data_extraction": {
+        "a": "| v_{CF4} % | Si | Al2O3 | HfO2 | AlN | TiN | SiO2 |\n|---|---|---|---|---|---|---|\n| 2.5 | 1 | 2 | 3 | 2 | 2 | 1 |\n| 5 | 4 | 6 | 6 | 6 | 3 | 1 |\n| 7.5 | 5 | 5 | 5 | 6 | 1 | -3 |\n| 10 | 4 | 5 | 4 | 5 | -1 | -6 |\n| 12.5 | 2 | 4 | 3 | 4 | -1 | -5 |",
+        "b": "| v_{CF4} % | F | CF2 | CF |\n|---|---|---|---|\n| 2.5 | 10^13 | 10^11 | 10^11 |\n| 5 | 10^13 | 10^11 | 10^11 |\n| 7.5 | 10^14 | 10^11 | 10^11 |\n| 10 | 10^14 | 10^12 | 10^11 |\n| 12.5 | 10^14 | 10^12 | 10^11 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does the concentration of CF4 in the plasma mixture affect the deposition rate on different substrates?",
+                "answer_type": "Paragraph",
+                "answer": "Below 5% CF4, as the concentration of CF4 increases, so too does the deposition rate on all substrates. Above 5%, the deposition rate generally decreases. On SiO2 however, etching occurs instead above 5% CF4 and this also occurs for TiN above 10% CF4."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "On which substrates does etching occur?",
+                "answer_type": "Factoid",
+                "answer": "TiN and SiO2."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Was DC bias applied to the substrate during deposition?",
+                "answer_type": "Yes/No",
+                "answer": "No."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What were the chamber pressure and plasma composition?",
+                "answer_type": "Factoid",
+                "answer": "The chamber pressure was kept at 10 mTorr; The plasma was always composed of 83.3% Ar the molecular fraction of CF4 varied between 3.3 and 13.3%, with the remaining fraction consisting of H2."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

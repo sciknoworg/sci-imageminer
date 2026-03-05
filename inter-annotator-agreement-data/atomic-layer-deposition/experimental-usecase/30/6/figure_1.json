@@ -1,0 +1,68 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_1",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart",
+        "c": "spectra chart"
+    },
+    "summarization": {
+        "a": "X-ray diffraction patterns showing crystalline phases of the iron oxide film grown from ferrocene at 500 \u00b0C.",
+        "b": "X-ray diffraction patterns showing crystalline phases of the iron oxide film grown from ferrocene at 400 \u00b0C.",
+        "c": "X-ray diffraction patterns showing crystalline phases of the iron oxide film grown from (dimethylamino)ferrocene at 375 \u00b0C."
+    },
+    "data_extraction": {
+        "a": "| Species | 2\u03b8, degree |\n|---|---|\n| Hematite as-deposited | Peaks at 24.1\u00b0, 33.2\u00b0, 35.6\u00b0, 40.5\u00b0, 54.1\u00b0, 57.6\u00b0, 62.5\u00b0, 64.0\u00b0 |\n| Hematite FGA | Peaks at 24.1\u00b0, 33.2\u00b0, 35.6\u00b0, 40.9\u00b0, 54.1\u00b0, 62.5\u00b0, 64.0\u00b0 |",
+        "b": "| Species | 2\u03b8, degree |\n|---|---|\n| Hematite FGA | Peak at 33.2\u00b0 |\n| Magnetite FGA | Peaks at 30.1\u00b0, 35.4\u00b0, 43.1\u00b0|\n| Hematite as-deposited | Peaks at 30.1\u00b0, 33.2\u00b0, 35.4\u00b0, 43.1\u00b0 |",
+        "c": "| Species | 2\u03b8, degree |\n|---|---|\n| Magnetite FGA | Peaks at 30\u00b0, 35\u00b0, 43\u00b0, 54\u00b0, 57\u00b0, 64\u00b0 |\n| Magnetite as-deposited | Peaks at 30\u00b0, 35\u00b0, 43\u00b0, 57\u00b0, 64\u00b0 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How many ALD cycles were performed for the bottom panel?",
+                "answer_type": "Factoid",
+                "answer": "500."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How were the iron oxide films grown of which the results are shown here?",
+                "answer_type": "Paragraph",
+                "answer": "The ALD cycle consisted of: 1 s iron-precursor pulse, 0.5 s purge, 1 s ozone pulse, 0.5 s purge. For the top and middle panel, ferrocene was used. For the bottom panel, (dimethylamino)ferrocene was used."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How did the process conditions differ between panels?",
+                "answer_type": "Factoid",
+                "answer": "The conditions differed in deposition temperature when the films were grown. These were 500 \u00b0C, 400 \u00b0C and 375 \u00b0C for the top, middle and bottom panel, respectively."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which process conditions led exclusively to the growth of hematite?",
+                "answer_type": "Factoid",
+                "answer": "The top panel in which ferrocene was grown at 500 \u00b0C. Annealing these films did not lead to the formation of magnetite."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

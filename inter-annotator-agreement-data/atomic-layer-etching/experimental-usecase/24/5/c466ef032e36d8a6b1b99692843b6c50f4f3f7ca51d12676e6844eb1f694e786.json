@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/c466ef032e36d8a6b1b99692843b6c50f4f3f7ca51d12676e6844eb1f694e786",
+    "classification": {
+        "a": "reaction scheme",
+        "b": "reaction scheme"
+    },
+    "summarization": {
+        "a": "The figure illustrates a chemical reaction involving Al2O3 film with adsorberd trimethylamine where the methyl groups (CH3) react with HF to form H2O and CH4 creating a flurinated aluminum film.",
+        "b": "The figure shows another chemical reaction where a flurinated Al2O3 film reacts trimethylamine, resulting in a methylated Al2O3 surface with Al(CH3)2F as reaction product."
+    },
+    "data_extraction": {
+        "a": "",
+        "b": ""
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Is the flurination step self-limiting based on the figure?",
+                "answer_type": "Paragraph",
+                "answer": "a\tYes, it seems that the Al2O3 film is not affected by the HF indicating that the HF has a limited penetration depth leading to a saturating process."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Will the thickness increase or decrease upon flurination?",
+                "answer_type": "Paragraph",
+                "answer": "The reaction of the surface with HF removes a significant amount of atoms from the surface whilst only adding limited F-atoms. This indicates that the thickness slightly decreases."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Is the flurinated surface covalently bonded?",
+                "answer_type": "Factoid",
+                "answer": "The figure shows a lot of dashed lines, this means there are no covalent bonds between the AlF3 groups."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Is the full etch process more effective in removing oxygen or aluminum?",
+                "answer_type": "Paragraph",
+                "answer": "Since during the second step new aluminum is added to the surface whilst the oxygen is fully removed in the first step, the process is more effective in removing oxygen."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

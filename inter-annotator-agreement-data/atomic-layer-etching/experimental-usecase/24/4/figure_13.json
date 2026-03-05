@@ -1,0 +1,21 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_13",
+    "classification": {
+        "a": "reaction scheme",
+        "b": "reaction scheme"
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

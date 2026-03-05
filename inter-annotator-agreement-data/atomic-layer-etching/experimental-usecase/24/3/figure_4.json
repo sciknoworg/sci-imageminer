@@ -1,0 +1,57 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_4",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart"
+    },
+    "summarization": {
+        "a": "The figure shows a negative trend of \u0394M<sub>TMA</sub> with increasing TMA exposure time (between 0.0 and 2.5 s) at 300\u00b0C.",
+        "b": "The figure shows a positive trend of \u0394M<sub>HF</sub> with increasing HF exposure time (between 0.0 and 2.0 s) at 300\u00b0C."
+    },
+    "data_extraction": {
+        "a": "| TMA Exposure Time (s) | \u0394M<sub>TMA</sub> (ng/(cm<sup>2</sup> cycle)) |\n|---|---|\n| 0.0 | 0 |\n| 0.5 | -15 |\n| 1.0 | -20 |\n| 1.5 | -22 |\n| 2.0 | -30 |\n| 2.5 | -32 |",
+        "b": "| HF Exposure Time (s) | \u0394M<sub>HF</sub> (ng/(cm<sup>2</sup> cycle)) |\n|---|---|\n| 0.0 | 0 |\n| 0.5 | 12 |\n| 1.0 | 13 |\n| 1.5 | 15 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What information can be extracted from this figure?",
+                "answer_type": "Factoid",
+                "answer": "It is possible to determine the exposure times required to achieve the reaction's self-limiting behavior."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the mass change after TMA exposure changes with the TMA exposure time?",
+                "answer_type": "Factoid",
+                "answer": "The mass change after TMA exposure decreases while TMA exposure increases."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What is the TMA exposure time required to achieve self-limiting behavior?",
+                "answer_type": "Factoid",
+                "answer": "2.0 s of TMA exposure."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why does the mass change continue to change after 2.0 s of TMA exposure?",
+                "answer_type": "Factoid",
+                "answer": "This could be related to the difficulty of removing the AlF3 species from the surface."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

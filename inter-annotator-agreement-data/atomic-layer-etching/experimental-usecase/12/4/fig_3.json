@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_3",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart"
+    },
+    "summarization": {
+        "a": "The figure shows the film thickness of a material over Half cycle A with a plateau at 200 \u00c5 until cycle 30.",
+        "b": "The figure shows the film thickness of a material over Half cycle B, with a plateau at 200 \u00c5 until cycle 60.",
+        "c": "The figure shows the film thickness of a material over Half cycle C, with a plateau at 200 \u00c5 until cycle 60, followed by a linear decrease at a rate of 3.1 \u00c5 per cycle."
+    },
+    "data_extraction": {
+        "a": "| Number of pulses/cycles | Film thickness (\u00c5) |\n|---|---|\n| 0 | 210 |\n| 10 | 210 |\n| 15 | 210 |\n| 20 | 210 |\n| 25 | 210 |\n| 30 | 210 |",
+        "b": "| Number of pulses/cycles | Film thickness (\u00c5) |\n|---|---|\n| 30 | 205 |\n| 35 | 205 |\n| 40 | 205 |\n| 45 | 205 |\n| 50 | 205 |\n| 55 | 205 |\n| 60 | 205 |",
+        "c": "| Number of pulses/cycles | Film thickness (\u00c5) |\n|---|---|\n| 60 | 205 |\n| 65 | 200 |\n| 70 | 190 |\n| 75 | 170 |\n| 80 | 160 |\n| 85 | 140 |\n| 90 | 120 |\n| 95 | 100 |\n| 100 | 80 |\n| 105 | 60 |\n| 110 | 40 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Is the ALE process linear?",
+                "answer_type": "Factoid",
+                "answer": "Alternating pulses of SF6 plasma and TMA show a linear dependence between the number of cycles and etch depth of the Al2O3 film (c)."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the inset show the step between half-cycle A and half-cycle B magnified?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What happens after SF6 cycles?",
+                "answer_type": "Factoid",
+                "answer": "Al2O3 is resistant to spontaneous etching by SF6 plasma, with etching observed only when alternating between SF6 plasma and TMA doses."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do we know TMA dose is self-limiting?",
+                "answer_type": "Paragraph",
+                "answer": "The exposure of Al2O3 to multiple SF6 plasma pulses without dosing TMA (half-cycle A) causes an initial 1A\u02da increase in film thickness, which corresponds to the formation of a thin fluorinated surface layer. When subsequently exposing the substrate to TMA pulses (b), the thickness initially decreases by 3A\u02da  , and this is attributed to the removal of the modified AlF3 surface layer. After the initial 3A\u02da of etching, the film thickness remains constant during further TMA doses, confirming that the TMA exposure is self-limiting."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

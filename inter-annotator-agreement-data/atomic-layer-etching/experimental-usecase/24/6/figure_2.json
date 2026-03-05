@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_2",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart illustrates the mass change over time at 300\u00b0C on Al\u2082O\u2083, showing the effects of TMA and HF exposure. Mass is removed during TMA exposure, but added after HF exposure. Ultimately, more mass is removed than added during a full ALE cycle."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 6100 | -1440 |\n| 6125 | -1470 |\n| 6150 | -1460 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the effect of the TMA and HF exposures on the mass change?",
+                "answer_type": "Factoid",
+                "answer": "Exposure to TMA causes the mass change to decrease by 29 ng/cm^2, whilst exposure to HF causes the mass change to increase by 13 ng/cm^2."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the implication of the mass loss after TMA exposure?",
+                "answer_type": "Factoid",
+                "answer": "That TMA can successfully remove the AlF3 surface layer on Al2O3."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Is the overall mass change consistent between ALE cycles?",
+                "answer_type": "Yes/No",
+                "answer": "Yes, each ALE cycle results in a net loss of mass and the mass loss per ALE cycle is constant."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the mass change after one ALE cycle?",
+                "answer_type": "Factoid",
+                "answer": "-16 ng/cm^2."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

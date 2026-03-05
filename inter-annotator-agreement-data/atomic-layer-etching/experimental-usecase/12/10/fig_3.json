@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_3",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart shows film thickness as a function of SF\u2086 plasma pulses during half-cycle A. The thickness remains constant, indicating no net material removal during this half-cycle alone.",
+        "b": "The line chart shows film thickness as a function of TMA pulses during half-cycle B. The film thickness does not change, indicating that this half-cycle alone does not produce etching.",
+        "c": "The line chart shows film thickness as a function of full ALE cycles consisting of SF\u2086 plasma followed by TMA exposure. The thickness decreases linearly with cycle number at a rate of approximately 3.1 \u00c5 per cycle, demonstrating controlled atomic layer etching."
+    },
+    "data_extraction": {
+        "a": "| Number of pulses | Film thickness (\u00c5) |\n| - | - |\n| 0  | ~200 |\n| 20 | ~200 |\n| 40 | ~200 |\n| 60 | ~200 |",
+        "b": "| Number of pulses | Film thickness (\u00c5) |\n| - | - |\n| 0  | ~200 |\n| 20 | ~200 |\n| 40 | ~200 |\n| 60 | ~200 |",
+        "c": "| Number of cycles | Film thickness (\u00c5) |\n| - | - |\n| 0   | ~200 |\n| 20  | ~180 |\n| 40  | ~160 |\n| 60  | ~140 |\n| 80  | ~120 |\n| 100 | ~100 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the etch rate during the full ALE cycle?",
+                "answer_type": "Factoid",
+                "answer": "Approximately 3.1 \u00c5 per cycle."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Which process conditions lead to controlled film thinning?",
+                "answer_type": "List",
+                "answer": "Alternating SF\u2086 plasma exposure, TMA dosing, ALE cycles combining  half-steps"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does film thickness change across the half-cycle and full-cycle processes?",
+                "answer_type": "Paragraph",
+                "answer": "During the individual half-cycles (SF\u2086 plasma or TMA exposure alone), the film thickness remains constant, indicating no net etching. In contrast, when the two steps are combined into a full ALE cycle, the film thickness decreases linearly with cycle number"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Does either half-cycle alone produce measurable film thinning?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

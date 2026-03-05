@@ -1,0 +1,81 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_6",
+    "classification": {
+        "a": "image panel",
+        "b": "image panel",
+        "c": "image panel",
+        "d": "image panel"
+    },
+    "summarization": {
+        "a": "SEM micrograph of a non-doped Fe\u2082O\u2083 film grown at 425 \u00b0C, showing a very rough surface composed of columns, grains, or pillars on a continuous base layer, with large voids between the pillars [Topmost panel].",
+        "b": "SEM micrograph of a lightly Mg-doped Fe\u2083O\u2084\u2013MgO film (Mg/Fe \u2248 0.02), where the density of pillars and grains increases and the void width is reduced, resulting in a slightly smoother surface [Second panel].",
+        "c": "SEM micrograph of a moderately Mg-doped film, showing a more continuous and visibly smoother surface, with MgO addition also influencing the film thickness [Third panel].",
+        "d": "SEM micrograph of a heavily Mg-doped film (MgO:Fe\u2082O\u2083 cycle ratio 20:100), exhibiting a smooth, continuous surface and a film thickness nearly half that of the non-doped Fe\u2082O\u2083 film [Fourth panel]."
+    },
+    "data_extraction": {
+        "a": "| Panel      | Description |\n|------------|-------------|\n| Topmost    | Non-doped Fe2O3 film grown at 425\u00b0C. Very rough surface with columns, grains, or pillars on a continuous base layer. Large voids between pillars. High film thickness. |",
+        "b": "| Panel      | Description |\n|------------|-------------|\n| 2nd panel  | Fe3O4-MgO film with low Mg doping (Mg/Fe = 0.02). Increased pillar/grain density and reduced void width compared to non-doped film. Surface slightly smoother. |",
+        "c": "| Panel      | Description |\n|------------|-------------|\n| 3rd panel  | Fe3O4-MgO film with moderate Mg doping. Formation of more continuous film surface. Significant smoothing of surface visible even by naked eye. Film thickness influenced by MgO addition. |",
+        "d": "| Panel      | Description |\n|------------|-------------|\n| 4th panel  | Fe3O4-MgO film with higher Mg doping (MgO:Fe2O3 cycle ratio 20:100). Surface is smooth, continuous, and film thickness nearly half that of non-doped Fe2O3. |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is understanding the effect of MgO doping on Fe2O3 film morphology important?",
+                "answer_type": "Paragraph",
+                "answer": "The morphology of Fe2O3 films directly affects their functional properties, such as catalytic activity, magnetic behavior, and surface reactivity. By controlling MgO doping, the film\u2019s surface continuity, pillar density, and thickness can be tuned, which can improve performance in applications where uniformity, smoothness, or specific surface features are critical."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What morphological changes are observed in the films with increasing MgO content?",
+                "answer_type": "List",
+                "answer": "Increased density of grains/pillars, Reduced void width, Smoother and more continuous surface, Decreased overall film thickness at high MgO levels"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the addition of MgO affect the morphology of the Fe2O3 films?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the surface roughness change with increasing MgO doping?",
+                "answer_type": "Factoid",
+                "answer": "The surface roughness decreases as the MgO content increases."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

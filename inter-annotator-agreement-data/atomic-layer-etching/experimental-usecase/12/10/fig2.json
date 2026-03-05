@@ -1,0 +1,81 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig2",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart",
+        "d": "line chart"
+    },
+    "summarization": {
+        "a": "The graph shows the relationship between SF<sub>6</sub> plasma exposure time and EPC (Emission Peak Concentration) in \u00c5ngstr\u00f6ms.",
+        "b": "The graph illustrates the effect of plasma pump time on EPC (Emission Peak Concentration) in \u00c5ngstr\u00f6ms.",
+        "c": "The graph depicts the impact of TMA dosing time on EPC (Emission Peak Concentration) in \u00c5ngstr\u00f6ms.",
+        "d": "The graph shows the influence of TMA pump time on EPC (Emission Peak Concentration) in \u00c5ngstr\u00f6ms."
+    },
+    "data_extraction": {
+        "a": "| SF<sub>6</sub> plasma time (s) | EPC (\u00c5) |\n|---|---|\n| 0 | 0 |\n| 5 | 2 |\n| 10 | 3 |\n| 15 | 3 |\n| 20 | 3 |\n| 25 | 3 |\n| 30 | 3 |",
+        "b": "| Plasma pump time (s) | EPC (\u00c5) |\n|---|---|\n| 0 | 3 |\n| 10 | 3 |\n| 20 | 3 |\n| 30 | 3 |",
+        "c": "| TMA dosing time (s) | EPC (\u00c5) |\n|---|---|\n| 0 | 0 |\n| 0.2 | 0.5 |\n| 0.4 | 2 |\n| 0.6 | 3 |\n| 0.8 | 3 |",
+        "d": "| TMA pump time (s) | EPC (\u00c5) |\n|---|---|\n| 0 | 3 |\n| 10 | 3 |\n| 20 | 3 |\n| 30 | 3 |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does EPC depend on the exposure and dosing times shown in the figure?",
+                "answer_type": "Paragraph",
+                "answer": "EPC increases with both SF\u2086 plasma exposure time and TMA dosing time until a saturation level is reached, indicating self-limiting surface reactions. In contrast, EPC shows little dependence on plasma pump time or TMA pump time."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Does EPC depend strongly on pump times?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which two steps show saturation behavior in EPC?",
+                "answer_type": "Factoid",
+                "answer": "SF\u2086 plasma exposure and TMA dosing."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Which process parameters control the etching per cycle?",
+                "answer_type": "List",
+                "answer": "SF\u2086 plasma exposure time, TMA dosing time."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

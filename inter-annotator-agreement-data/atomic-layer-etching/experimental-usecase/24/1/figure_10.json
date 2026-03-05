@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_10",
+    "classification": {
+        "a": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "The FTIR spectra show a progressive decrease in the Al\u2013O stretching absorbance of bulk Al\u2082O\u2083 as the number of ALE cycles increases at 300 \u00b0C. The dominant Al\u2013O band in the ~900\u20131000 cm\u207b\u00b9 region decreases monotonically from the 0-cycle spectrum to the 8-cycle spectrum. Baseline regions outside the Al\u2013O band remain close to zero absorbance. This behavior is consistent with continuous removal of Al\u2082O\u2083 during atomic layer etching."
+    },
+    "data_extraction": {
+        "a": "| Wavenumber (cm\u207b\u00b9) | Absorbance (0 cycles) | Absorbance (4 cycles) | Absorbance (6 cycles) | Absorbance (8 cycles) |\n|---|---:|---:|---:|---:|\n| 1300 | ~0.06 | ~0.05 | ~0.04 | ~0.03 |\n| 1100 | ~0.06 | ~0.05 | ~0.04 | ~0.03 |\n| 940  | ~0.59 | ~0.56 | ~0.50 | ~0.40 |\n| 900  | ~0.53 | ~0.52 | ~0.42 | ~0.38 |\n| 800  | ~0.00 | ~0.00 | ~0.00 | ~0.00 |\n| 700  | ~0.00 | ~0.00 | ~0.00 | ~0.00 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the intensity of the main Al\u2013O stretching feature change as the ALE cycle count increases, and what does that imply about the film during etching?",
+                "answer_type": "Paragraph",
+                "answer": "The Al\u2013O stretching peak in the ~900\u20131000 cm\u207b\u00b9 region systematically decreases as the ALE cycle count increases from 0 to 8. Because FTIR absorbance is proportional to the amount of the corresponding bonding environment, this monotonic decrease indicates a reduction in Al\u2013O content. This directly implies progressive thinning or removal of the Al\u2082O\u2083 film during the ALE process."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "List the key steps required to use FTIR spectra like these to verify Al\u2082O\u2083 removal during ALE?",
+                "answer_type": "Paragraph",
+                "answer": "- Acquire a reference spectrum (here: referenced to the initial ZrO2 nanoparticles) before ALE begins.\n- Record spectra after defined numbers of ALE cycles (e.g., 0, 4, 6, 8).\n- Identify the Al2O3/Al\u2013O stretching region (here centered around ~900\u20131000 cm\u207b\u00b9).\n- Compare peak height/area across cycles to check for a monotonic decrease.\n- Confirm that the baseline regions (outside the Al\u2013O band) remain relatively stable to rule out simple scaling artifacts.\n- Interpret the decreasing Al\u2013O band intensity as reduced Al\u2013O content consistent with material removal."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What vibrational mode is explicitly monitored in this FTIR measurement?",
+                "answer_type": "Factoid",
+                "answer": "The Al\u2013O stretching vibration in bulk Al2O3."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How could the decrease in the Al\u2013O FTIR band be used for endpoint detection or process control in ALE?",
+                "answer_type": "Paragraph",
+                "answer": "The Al\u2013O band intensity provides a chemically specific indicator of the remaining Al\u2082O\u2083 material. An ALE endpoint could be defined when the Al\u2013O absorbance falls below a predetermined threshold or approaches the baseline. Monitoring the rate of absorbance decrease per cycle can also reveal changes in etch efficiency, enabling real-time adjustment of exposure or cycle count to achieve consistent material removal."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_4",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "X-ray absorption spectra at the Fe L\u2083 edge of Mg\u2013Fe oxide films measured in total fluorescence yield mode, where films deposited at 400 \u00b0C show hematite-like features with a well-resolved L\u2083 double-peak structure, while films deposited at 375 \u00b0C exhibit magnetite-like spectra with the main peak appearing as a low-energy shoulder. Forming gas annealing enhances and shifts the smaller peak, making the spectra more magnetite-like; a low MgO content film shows mixed hematite and magnetite characteristics. [Upper panel]",
+        "b": "O K-edge X-ray absorption spectra of the same Mg\u2013Fe oxide films, showing trends consistent with the Fe L\u2083 spectra and confirming the presence of magnetite in films deposited at 375 \u00b0C, while supporting mixed phase behavior in films with low MgO content. [Lower panel]"
+    },
+    "data_extraction": {
+        "a": "|Photon energy (eV)|a: 117 nm FeCp2 (400\u00b0C)|b: 328 nm Fe2O3:MgO 100:1 (400\u00b0C)|c: 72 nm CpFeC5H4CHN(CH3)2 (375\u00b0C)|d: 425 nm 100:2 (375\u00b0C)|e: 411 nm 100:10 (375\u00b0C)|\n|------------------|-----------------------|---------------------------------|----------------------------------|----------------------|-----------------------|\n|708|main peak shoulder|-|low-energy shoulder|low-energy shoulder|low-energy shoulder|\n|709|-|-|L3 maximum|L3 maximum|L3 maximum|\n|710|L3 main peak|L3 main peak|-|-|-|\n|711|-|-|-|-|-|\n|712|-|-|-|-|-|",
+        "b": "|Photon energy (eV)|a: 117 nm FeCp2 (400\u00b0C)|b: 328 nm Fe2O3:MgO 100:1 (400\u00b0C)|c: 72 nm CpFeC5H4CHN(CH3)2 (375\u00b0C)|d: 425 nm 100:2 (375\u00b0C)|e: 411 nm 100:10 (375\u00b0C)|\n|------------------|-----------------------|---------------------------------|----------------------------------|----------------------|-----------------------|\n|530|O 1s features|O 1s features|O 1s features|O 1s features|O 1s features|\n|535|-|-|-|-|-|\n|540|-|-|-|-|-|\n|545|-|-|-|-|-|\n|550|-|-|-|-|-|"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "How can the XAS spectra be used to infer the effect of MgO doping and deposition temperature on the phase composition of Mg-Fe oxide films?",
+                "answer_type": "Paragraph",
+                "answer": "The XAS spectra allow identification of the dominant iron oxide phase in the films. Higher deposition temperatures (400\u00b0C) produce hematite-like spectra, while lower temperatures (375\u00b0C) produce magnetite-like spectra. MgO doping at low ratios (100:1) introduces a mixed behavior: Fe L\u2083 spectra resemble hematite, while O K-edge spectra resemble magnetite. Forming gas annealing shifts the spectral features, confirming that both temperature and MgO content influence the oxidation state and phase composition of the films. These insights are critical for tailoring the magnetic and structural properties of Mg-Fe oxide films."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What spectral features indicate the presence of hematite, magnetite, and mixed phases in the XAS data?",
+                "answer_type": "List",
+                "answer": "Hematite: Clear double-peak L\u2083 structure around 710\u2013711 eV in Fe 2p spectra, Magnetite: L\u2083 main peak partly resolved as a low-energy shoulder around 709 eV, Mixed phases (e.g., low MgO content film): Fe L\u2083 resembles hematite; O K-edge resembles magnetite"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does annealing the films in forming gas (FGA) affect the Fe L\u2083 XAS spectra of Mg-Fe oxide films?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the Fe L\u2083 XAS spectra differ between films deposited at 400\u00b0C and 375\u00b0C?",
+                "answer_type": "Factoid",
+                "answer": "Films deposited at 400\u00b0C show a clear double-peak L\u2083 structure typical of hematite, while films deposited at 375\u00b0C resemble magnetite, with the L\u2083 main peak partly appearing as a low-energy shoulder."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

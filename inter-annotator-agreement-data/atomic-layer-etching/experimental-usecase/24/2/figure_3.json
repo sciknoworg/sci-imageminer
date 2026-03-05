@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_3",
+    "classification": {
+        "a": "scatter plot",
+        "b": "scatter plot"
+    },
+    "summarization": {
+        "a": "This scatter plot shows \u0394M_TMA (blue), \u0394M_HF (red), and MCPC (black) versus ALE cycle number at 300\u00b0C. After a brief nucleation period (~3 cycles), all three values become constant: \u0394M_TMA \u2248 \u221229 ng/cm\u00b2, \u0394M_HF \u2248 +13 ng/cm\u00b2, and MCPC \u2248 \u221215.9 ng/(cm\u00b2 cycle). The first cycle shows anomalous positive values due to initial surface fluorination.",
+        "b": "The \u0394M_TMA/MCPC ratio versus cycle number. After nucleation, this ratio stabilizes at ~1.8, which is used to determine the reaction stoichiometry and estimate AlF\u2083 layer thickness."
+    },
+    "data_extraction": {
+        "a": "| Number of Cycles | \u0394M_HF (ng/cm\u00b2 cycle) | \u0394M_TMA (ng/cm\u00b2 cycle) | MCPC (ng/cm\u00b2 cycle) |\n|---|---|---|---|\n| 1 | 33 | 30 | -9 |\n| 10 | 14 | -24 | -16 |\n| 20 | 14 | -28 | -16 |\n| 30 | 14 | -29 | -16 |\n| 40 | 14 | -29 | -16 |\n| 50 | 14 | -29 | -16 |\n| 60 | 15 | -29 | -15 |\n| 70 | 15 | -28 | -15 |\n| 80 | 15 | -28 | -15 |\n| 90 | 14 | -29 | -16 |\n| 100 | 14 | -29 | -16 |",
+        "b": "| Number of Cycles | Ratio (\u0394M_TMA / MCPC) |\n|---|---|\n| 1 | 0.5 |\n| 5 | 2.8 |\n| 10 | 2.1 |\n| 20 | 1.8 |\n| 30 | 1.9 |\n| 40 | 1.8 |\n| 50 | 1.9 |\n| 60 | 1.9 |\n| 70 | 2.0 |\n| 80 | 2.0 |\n| 90 | 1.8 |\n| 100 | 1.8 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Why do the first few cycles show different behavior than steady-state?",
+                "answer_type": "Factoid",
+                "answer": "The first cycles establish the initial AlF\u2083 surface layer on the hydroxylated Al\u2082O\u2083 substrate (nucleation period)."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What do the three data series in panel (a) represent?",
+                "answer_type": "Paragraph",
+                "answer": "\u0394M_TMA (blue): mass change after TMA exposure; \u0394M_HF (red): mass change after HF exposure; MCPC (black): total mass change per cycle."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Does this data support reproducible atomic layer etching?",
+                "answer_type": "Paragraph",
+                "answer": "Yes. The constant values over 100 cycles demonstrate highly reproducible, steady-state etching behavior."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What does the constant \u0394M_TMA/MCPC ratio indicate?",
+                "answer_type": "Factoid",
+                "answer": "A constant ratio of ~1.8 indicates stable reaction stoichiometry throughout the ALE process."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

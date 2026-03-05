@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_1",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure shows infrared absorbance spectra of the Al\u2013O vibrational band (800\u20131100 cm\u207b\u00b9) referenced to the as-deposited film. The absorbance intensity decreases systematically with increasing ALE cycles (1 through 6), confirming the progressive etching (removal) of the bulk Al\u2082O\u2083 material.",
+        "b": "The figure displays difference infrared spectra focusing on the C\u2013H stretching region (2900\u20133000 cm\u207b\u00b9) for cycles 2, 4, and 6. It illustrates the surface chemistry mechanism: the TMA half-cycles (blue lines) result in the appearance of AlCH\u2083 species (positive peaks), while the SF\u2086 plasma half-cycles (red lines) result in the removal of these methyl groups (negative peaks), indicating a ligand-exchange reaction."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | Cycle 1 | Cycle 2 | Cycle 3 | Cycle 4 | Cycle 5 | Cycle 6 |\n|---|---|---|---|---|---|---|\n| 1150 | 0.000 | -0.00015 | -0.00030 | -0.00045 | -0.00060 | -0.00085 |\n| 1000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |\n| 800 | -0.002 | -0.002 | -0.0030 | -0.0040 | -0.0050 | -0.006 |",
+        "b": "| Wavenumbers, cm\u207b\u00b9 | Cycle 2 TMA | Cycle 2 SF6 | Cycle 4 TMA | Cycle 4 SF6 | Cycle 6 TMA | Cycle 6 SF6 |\n|---|---|---|---|---|---|---|\n| 4000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | \n| 3000 | 0.005 | -0.005 | 0.005 | -0.005 | 0.005 | -0.005 |\n| 2750 | 0.001 | -0.001 | 0.001 | -0.001 | 0.001 | -0.001 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What trend is observed in the Al\u2013O absorbance band in subfigure (a) as the number of ALE cycles increases from 1 to 6, and what does this signify regarding the film thickness?",
+                "answer_type": "Paragraph",
+                "answer": "The absorbance of the Al\u2013O band, located between 800 and 1100 cm\u207b\u00b9, systematically decreases with each subsequent ALE cycle, as indicated by the arrow labeled \"Increasing Cycles.\" Since infrared absorbance in this region is proportional to the amount of Al\u2013O bonds present, this reduction signifies the layer-by-layer removal of the Al\u2082O\u2083 film, confirming that the process is indeed etching the material."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Based on the difference spectra in subfigure (b), how does the surface chemistry change during the TMA half-cycle versus the SF\u2086 plasma half-cycle?",
+                "answer_type": "Paragraph",
+                "answer": "During the TMA half-cycle (blue lines), positive absorbance peaks appear at 2900 and 2950 cm\u207b\u00b9, corresponding to AlCH\u2083 symmetric and asymmetric stretching modes, which indicates that TMA adsorbs onto the surface and methylates it. Conversely, during the SF\u2086 plasma half-cycle (red lines), these same peaks appear as negative features. This indicates the removal of the methyl groups introduced in the previous step, likely replaced by fluorine atoms from the plasma radicals, consistent with a ligand-exchange mechanism."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What specific chemical functional group is identified by the peaks at 2900 and 2950 cm\u207b\u00b9 in subfigure (b)?",
+                "answer_type": "Factoid",
+                "answer": "These peaks correspond to the symmetric and asymmetric stretching vibrations of methyl groups (\u2013CH\u2083) bonded to aluminum (AlCH\u2083 surface species)."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the negative difference spectrum observed after the SF\u2086 plasma half-cycle in subfigure (b) indicate the removal of surface methyl groups?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

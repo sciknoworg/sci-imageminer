@@ -1,0 +1,99 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_2",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart",
+        "d": "multiple line chart",
+        "e": "multiple line chart",
+        "f": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The figure shows the concentration of O, Mn, and Si at different depths in MnO\u2082.",
+        "b": "The figure shows the concentration of O, Mn, Si, and Li at different depths in 10cLi-MnO\u2082.",
+        "c": "The figure shows the concentration of O, Mn, Si, and Li at different depths in 50cLi-MnO\u2082.",
+        "d": "The figure shows the concentration of O, Mn, Si, and Li at different depths in 100cLi-MnO\u2082.",
+        "e": "The figure shows the concentration of O, Mn, Si, and Li at different depths in 200cLi-MnO\u2082.",
+        "f": "The figure shows the concentration of O, Mn, Si, and Li at different depths in 300cLi-MnO\u2082."
+    },
+    "data_extraction": {
+        "a": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si |\n|---|---|---|---|\n| 0 | 0 | 0 | 0 |\n| 500 | 60 | 40 | 0 | \n| 1000 | 60 | 40 | 0 | \n| 1500 | 40 | 40 | 20 | \n| 2000 | 0 | 0 | 100 | \n| 2500 | 0 | 0 | 100 |",
+        "b": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 |0|\n| 500 | 60 | 40 | 0 | 0|\n| 1000 | 60 | 40 | 0 | 0|\n| 1500 | 40 | 40 | 20 | 0|\n| 2000 | 0 | 0 | 100 | 0|\n| 2500 | 0 | 0 | 100 | 0|",
+        "c": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 |0|\n| 500 | 60 | 35 | 0 | 5 |\n| 1000 | 60 | 40 | 0 | 0|\n| 1500 | 40 | 40 | 20 | 0|\n| 2000 | 0 | 0 | 100 | 0|\n| 2500 | 0 | 0 | 100 | 0|",
+        "d": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 |0|\n| 500 | 60 | 35 | 0 | 5|\n| 1000 | 60 | 40 | 0 | 0|\n| 1500 | 40 | 40 | 20 | 0|\n| 2000 | 0 | 0 | 100 | 0|\n| 2500 | 0 | 0 | 100 | 0|",
+        "e": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 |0|\n| 500 | 55 | 35 | 0 | 10|\n| 1000 |55 | 35 | 0 | 10|\n| 1500 | 30 | 25 | 40 | 5|\n| 2000 | 0 | 0 | 100 | 0|\n| 2500 | 0 | 0 | 100 | 0|",
+        "f": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 |0|\n| 500 | 50 | 30 | 0 | 20|\n| 1000 | 55 | 30 | 0 | 15|\n| 1500 | 25 | 15 | 60 | 0|\n| 2000 | 0 | 0 | 100 | 0|\n| 2500 | 0 | 0 | 100 | 0|"
+    },
+    "vqa": {
+        "f": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Is the lithium evenly distributed throughout the film?",
+                "answer_type": "Paragraph",
+                "answer": "f\tThe lithium is not evely distributed. Deeper in the film there is less lithium, this could be due to a nucleation delay."
+            }
+        ],
+        "d": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "On what type of substrate did the deposition take place?",
+                "answer_type": "Paragraph",
+                "answer": "d\tThe deposition is performed on a silicon wafer, based on the high silicon contant deeper in the sample. It is likely that the starting surface is thermal silicon oxide."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Does the data actually represent MnO2 films?",
+                "answer_type": "Paragraph",
+                "answer": "a\tThe data suggests that the ratio of Mn:O is not 1:2. This means that the film is a mixture of MnO2 and Mn2O3."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Is there a delay in lithium incorporation based on the shown data?",
+                "answer_type": "Paragraph",
+                "answer": "b\tThere is no lithium incorporation for 10 cycles of lithium deposition, this indicates that there is a delay."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "f": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

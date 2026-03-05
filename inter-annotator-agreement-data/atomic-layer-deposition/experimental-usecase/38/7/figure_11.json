@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_11",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart illustrates a progressive decrease in the average manganese oxidation state from ~3.7 to ~2.5 with increasing lithiation cycles, confirming lithium ion insertion into the lattice. This evolution indicates a transition from the initial MnO\u2082 phase through the LiMn\u2082O\u2084 spinel regime, followed by degradation toward an inactive MnO rock-salt\u2013like surface state at high cycle numbers."
+    },
+    "data_extraction": {
+        "a": "| Amount of lithium cycles | Mn average oxidation state |\n|---|---|\n| MnO\u2082 | 3.8 |\n| 10 | 3.7 |\n| 50 | 3.6 |\n| 100 | 3.3 |\n| 200 | 3.2 |\n| 200+A | 3.1 |\n| 300 | 2.9 |\n| 300+A | 2.5 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "List the steps to prepare a 100-cycle LiMn\u2082O\u2084 sample for TEY-XANES.",
+                "answer_type": "List",
+                "answer": "Perform 100 charge-discharge cycles.\n\nDisassemble in glovebox.\n\nClean and dry electrode.\n\nTransfer air-free to beamline.\n\nAlign and measure."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do annealed (\u201c+A\u201d) samples differ in Mn oxidation state?",
+                "answer_type": "Paragraph",
+                "answer": "Annealed samples show higher Mn oxidation states, indicating better structural recovery and slower degradation than non\u2011annealed cycled electrodes."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How does Mn oxidation state change with cycling in LiMn\u2082O\u2084?",
+                "answer_type": "Paragraph",
+                "answer": "Mn oxidation decreases toward +3 with cycling due to increased Mn\u00b3\u207a. This leads to Jahn\u2011Teller distortion, structural instability, and capacity fade."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What does the gradual Mn oxidation trend imply for battery aging?",
+                "answer_type": "Paragraph",
+                "answer": "The steady decline in oxidation state suggests predictable, cycle\u2011dependent degradation, enabling reliable lifetime estimates for LiMn\u2082O\u2084 batteries."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

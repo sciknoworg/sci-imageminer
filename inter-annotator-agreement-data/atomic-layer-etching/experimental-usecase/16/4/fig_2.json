@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_2",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The figure shows the deposition rate of various materials (Si, Al2O3, HfO2, AlN, TiN, SiO2) against the concentration of CF4 during the process. Negative deposition rate values is a sign etching is taking place instead of deposition.",
+        "b": "The figure illustrates the concentration of F, CF2, and CF species against the concentration of CF4 during the process."
+    },
+    "data_extraction": {
+        "a": "| v_{CF4} % | Si | Al2O3 | HfO2 | AlN | TiN | SiO2 |\n|---|---|---|---|---|---|---|\n|3 | 6 | 6 | 6 | 6 | 6 | 6 |\n| 5 | 6 | 6 | 6 | 6 | 6 | 6 |\n| 7 | 4 | 4 | 4 | 4 | 4 | 4 |\n| 10 | 2 | 2 | 2 | 2 | 2 | 2 |\n| 13 | 6 | 6 | 6 | 6 | 6 | 6 |",
+        "b": "| v_{CF4} % | F | CF2 | CF |\n|---|---|---|---|\n| 3 | 7\u00d710^13 | 3\u00d710^10 | 1.5\u00d710^10 |\n| 5 | 1.2\u00d710^14 | 5\u00d710^10 | 2\u00d710^10 |\n| 7 | 3\u00d710^14 | 9\u00d710^10 | 3\u00d710^10 |\n| 10 | 6\u00d710^14 | 2\u00d710^11 | 7\u00d710^10 |\n| 13 | 8\u00d710^14 | 2.2\u00d710^11 | 1\u00d710^11 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does higher concentration of CF4 result in etching of all the materials?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "When are the deposition rates of many materials highest?",
+                "answer_type": "Factoid",
+                "answer": "At about 7% CF4 concentration, the deposition rates of Al2O3, HfO2, Si and AlN are highest."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which radicals have high concentration?",
+                "answer_type": "Factoid",
+                "answer": "The Fluorine radical concentration increases from 10^13 to the order of 10^14  with change in CF4 concentration and is higher than the CFx concentrations."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does the deposition rate of various materials behave with respect to increasing CF4 concentration?",
+                "answer_type": "Paragraph",
+                "answer": "With increase of CF4 fraction, the deposition rate increases slowly at first and then reaches a maximum. Further increase of CF4 leads to decrease of deposition rate for Si, Al2O3, HfO2, and AlNx.  In the case of SiO2 and TiN, increase of CF4 causes a change from deposition to etching."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

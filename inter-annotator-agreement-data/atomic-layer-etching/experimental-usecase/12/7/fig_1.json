@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_1",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "spectra chart"
+    },
+    "summarization": {
+        "a": "The spectral chart shows the infrared spectra collected at 250 \u00b0C, highlighting the broad absorbance region between 800 and 1100 cm\u207b\u00b9 corresponding to Al\u2013O vibrations in the film. These spectra were recorded after each SF\u2086 plasma/TMA ALE cycle and referenced to the as-deposited Al\u2082O\u2083 spectrum taken prior to the ALE cycles. The figure displays absorbance spectra across the wavenumber range for cycles 1 through 6, showing changes in absorbance at specific wavenumbers.",
+        "b": "The spectral chart shows the Al\u2013CH\u2083 absorbance peaks at 2900 and 3500 cm\u207b\u00b9. The spectra were recorded after each SF\u2086 plasma and TMA half-cycle and are referenced to the spectrum from the previous half-cycle. The figure compares the absorbance spectra for TMA-referenced to SF\u2086 plasma(blue line) and SF\u2086-plasma-referenced to TMA(red line)  for cycles 2, 4, and 6. Sharp absorbance peaks were observed close to 2900 to 2950 cm\u207b\u00b9."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | Absorbance |\n|---|---|\n| 1000 | 0.002 |\n| 800 | 0.005 |",
+        "b": "| Wavenumbers (cm\u207b\u00b9) | TMA ref. to SF\u2086 plasma | SF\u2086 plasma ref. to TMA |\n|---|---|---|\n| 4000 | Cycle 2 | Cycle 4 |\n| 3500 | Cycle 4 | Cycle 6 |\n| 3000 | Cycle 6 | Cycle 2 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Based on the increasing absorbance in the Al-O region (800-1100 cm\u207b\u00b9) over cycles 1-6 in Fig. a, describe the sequence of the surface's chemical state change during the ALE process.",
+                "answer_type": "List",
+                "answer": "Initial Al\u2082O\u2083 surface (reference, 0 cycles).\n\nSF\u2086 plasma converts surface Al-O to Al-F, reducing Al-O absorbance.\n\nTMA reacts with Al-F, releasing volatile products and potentially leaving some Al-CH\u2083.\n\nRepeated cycles progressively alter the near-surface oxide structure, changing the Al-O absorbance signature as seen in the growing, shifted peaks."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "The broad Al-O absorbance peak in Fig. a shifts and changes shape between cycles 1 and 6. What does this evolution imply about the structural or compositional change in the film's near-surface region?",
+                "answer_type": "Paragraph",
+                "answer": "The shifting peak indicates a change in the local bonding environment of aluminum and oxygen. The initial Al\u2082O\u2083 has a specific crystalline or amorphous structure. The cyclic fluorination and ligand exchange likely create a modified, possibly disordered or fluorine-incorporated, oxyfluoride surface layer (AlO\u2093F\u1d67), which has different vibrational energies than pure Al\u2082O\u2083. This maps directly to a change in the material's etch susceptibility."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What specific physical change in the film structure is directly correlated with the downward trend of the broad absorbance feature between 800 and 1100 cm\u207b\u00b9 in the spectra image?",
+                "answer_type": "Factoid",
+                "answer": "The decrease in absorbance in this region maps directly to the breaking of Al\u2013O bonds and the subsequent reduction in film thickness, confirming that bulk material is being removed layer-by-layer."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Does the spectral data in figure support the conclusion that this process is suitable for manufacturing devices requiring \u00c5ngstr\u00f6m-level depth control?",
+                "answer_type": "Yes/No",
+                "answer": "Yes. The data supports this because the absorbance peaks for Cycles 2, 4, and 6 are nearly identical in intensity and shape. This repeatability implies a constant \"Etch Per Cycle\" (EPC) without significant drift, allowing engineers to precisely control the total etch depth simply by counting the number of cycles."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

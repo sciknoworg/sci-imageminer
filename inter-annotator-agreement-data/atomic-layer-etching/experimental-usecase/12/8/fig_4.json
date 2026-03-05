@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_4",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The line chart illustrates the relationship between temperature and EPC (\u00c5) across different studies, including this work on SF6 plasma and previous studies on thermal ALE with HF/TMA."
+    },
+    "data_extraction": {
+        "a": "| Temperature (\u00b0C) | Cano (HF/TMA): EPC (\u00c5/cycle) | Lee (HF/TMA): EPC (\u00c5/cycle) | Zywotko (HF/TMA): EPC (\u00c5/cycle) | Hennessy (HF/TMA): EPC (\u00c5/cycle) | This work (SF6/TMA): EPC (\u00c5/cycle) |\n|---|---|---|---|---|---|\n| 143 |  |  |  |  | -0,058 |\n| 155 |  |  |  |  | 0,19 |\n| 185 |  |  |  |  | 0,8341 |\n| 200 | 1,4 |  |  |  |  |\n| 208 |  |  |  |  | 2,08 |\n| 225 |  |  |  | 0,77 |  |\n| 229 |  |  |  |  | 2,68 |\n| 233 |  |  |  |  | 2,81 |\n| 250 | 2,3 | 0,14 | -0,33 | 0,85 |  |\n| 258 |  |  |  |  | 2,97 |\n| 262 |  |  |  |  | 3,09 |\n| 270 |  |  | 0,02 |  |  |\n| 275 |  | 0,32 |  | 1,08 |  |\n| 283 |  |  |  |  | 3,42 |\n| 300 | 2,5 | 0,45 |  | 1,2 |  |\n| 325 |  | 0,75 | 1,12 |  |  |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "For a temperature-sensitive substrate, which etch route is more suitable: SF\u2086 plasma/TMA or thermal HF/TM? Why?",
+                "answer_type": "Paragraph",
+                "answer": "The plot shows that SF\u2086 plasma/TMA  gives the highest EPC at a given substrate temperature compared with the HF/TMA studies. That means you can achieve the same total etch depth at a lower temperature than with HF/TMA. Based on this trend alone, SF\u2086 plasma/TMA is the better choice for temperature-sensitive substrates."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "At approximately which temperature does ALE/ALD switch occur for plasma etching?",
+                "answer_type": "Factoid",
+                "answer": "At approximately 150 \u00b0C (EPC crossing 0)."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which method (plasma vs thermal etching) achieves the highest etch rate at 250 \u00b0C ?",
+                "answer_type": "Factoid",
+                "answer": "Plasma etching with SF6/TMA."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "At 300 \u00b0C, which studies report an etch per cycle (EPC), and how do their etch rates rank from highest to lowest?",
+                "answer_type": "List",
+                "answer": "Cano (HF/TMA): 2.5 \u00c5/cycle, Hennessy (HF/TMA): 1.2 \u00c5/cycle, Lee (HF/TMA): 0.45 \u00c5/cycle"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

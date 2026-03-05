@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_4",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays X-ray Absorption Spectroscopy (XAS) at the O 1s edge (TFY mode), comparing 'as deposited' and 'forming gas annealed' films (both doped and undoped) at 375 \u00b0C and 400 \u00b0C.",
+        "b": "The figure displays X-ray Absorption Spectroscopy (XAS) at the Fe 2p edge (TFY mode), comparing 'as deposited' and 'forming gas annealed' films (both doped and undoped) at 375 \u00b0C and 400 \u00b0C."
+    },
+    "data_extraction": {
+        "a": "| photon energy / eV |  non-doped as deposited (400 \u00b0C) |  non-doped FGA (400 \u00b0C) |  100:1 as deposited (400 \u00b0C) |  100: 1 FGA (400 \u00b0C) |  non-doped as deposited (375 \u00b0C) |  non-doped FGA (375 \u00b0C) |  100: 2 as deposited (375 \u00b0C) | 100: 2 FGA (375 \u00b0C) |  100:10 as deposited (375 \u00b0C) |  100: 10 FGA (375 \u00b0C) |\n|---|---|---|---|---|---|---|---|---|---|---|\n|526 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |\n|530 | 1.7| 1.7| 1.8 | 1.8 | 1.8 | 1.8 | 1.8 | 1.8 | 1.8 | 1.8 |\n|530.9 | 1.4| 1.4| 1.5 | 1.5 | 1.6 | 1.6 | 1.7 | 1.7 | 1.7 | 1.7 |\n|531.7 | 1.7| 1.7| 1.74 | 1.74 | 1.5 | 1.5 | 1.6 | 1.6 | 1.5 | 1.5 |\n|533.7 | 0.3| 0.3| 0.35 | 0.4 | 0.4 | 0.4 | 0.6 | 0.7 | 0.6 | 0.6 |\n|536 | 0.8 | 0.8 | 0.8 | 0.9 | 0.8 | 0.9 | 0.9 | 1.0 | 0.9 | 1.0 | \n|538 | 1.5 | 1.5 | 1.5 | 1.5 | 1.5 | 1.5 | 1.6 | 1.6 | 1.5 | 1.5 |\n|541 | 1.8 | 1.8 | 1.8 | 1.8 | 1.8 | 1.9 | 1.9 | 1.9 | 1.9 | 1.9 |\n|546 | 0.9 | 0.9 | 0.9 | 1.0 | 0.9 | 0.9 | 1.0 | 1.0 |  1.0 | 1.0 |\n|554 | 0.9 | 0.9 | 1.0 | 1.0 | 0.8 | 0.8 | 1.0 | 1.0 | 1.0 | 1.0 |",
+        "b": "| photon energy / eV |  non-doped as deposited (400 \u00b0C) |  non-doped FGA (400 \u00b0C) |  100:1 as deposited (400 \u00b0C) |  100: 1 FGA (400 \u00b0C) |  non-doped as deposited (375 \u00b0C) |  non-doped FGA (375 \u00b0C) |  100: 2 as deposited (375 \u00b0C) | 100: 2 FGA (375 \u00b0C) |  100:10 as deposited (375 \u00b0C) |  100: 10 FGA (375 \u00b0C) |\n|---|---|---|---|---|---|---|---|---|---|---|\n| 705 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |\n| 708 | 1.7| 1.7 | 1.7 | 1.6 | 1.8 | 2.1 | 1.8 | 2.2 | 1.6 | 2.1 |\n| 709 | 1.1| 1.1 | 1.1 | 1.1 | 1.7 | 2.0 | 1.7 | 2.1 | 1.6 | 2.0 |\n| 710 | 3.2 | 3.2 | 3.3 | 3.3 | 3.5 | 3.5 | 3.4 | 3.4 | 3.3 | 3.3 |\n| 713 | 1.2| 1.2 | 1.2 | 1.0 | 1.1 | 1.1 | 1.1 | 1.1 | 1.1 | 1.1 |\n| 717 | 0.6 | 0.7 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | \n| 721 | 1.5 | 1.5 | 1.4 | 1.4 | 1.5 | 1.5 | 1.4 | 1.6 | 1.5 | 1.7 |\n| 722 | 1.3 | 1.3 | 1.2 | 1.2 | 1.5 | 1.5 | 1.4 | 1.6 | 1.4 | 1.6 |\n| 723| 1.7 | 1.7 | 1.6 | 1.6 | 1.7 | 1.7 | 1.6 | 1.7 |  1.6 | 1.7|\n| 727| 0.6 | 0.6 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.6|"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which samples shows a double peak structure?",
+                "answer_type": "Factoid",
+                "answer": "The films grown at 400 \u00b0C (a, b)."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Why does the spectrum change shape depending on the Iron phase (Hematite vs. Magnetite)??",
+                "answer_type": "Paragraph",
+                "answer": "Hematite spectra ( 400 \u00b0C) show a double-peak shape and magnetite spectra show a single-peak. The O 1s spectrum (1s \u2192 2p transition) reflects the electronic structure of the oxygen atoms, but these oxygen 2p orbitals are hybridized with the iron 3d orbitals. So the shape observed in the oxygen spectrum is actually an indirect map of the energy splitting in the iron 3d, which reflects the difference in oxidation state and geometric configuration in hematite compared to magnetite."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which electronic transitions are present in the spectrum?",
+                "answer_type": "Factoid",
+                "answer": "Excitation of electrons from the Iron 2p core level to the unoccupied Iron 3d."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How many distinct absorbtion regions are visible, and what is their physical origin?",
+                "answer_type": "Paragraph",
+                "answer": "There are two distinct absorbtion regions, which are separated by ~ 13 eV from each other. The two main absorption regions arise from the spin-orbit coupling of the core hole created when an X-ray photon ejects a 2p electron. This interaction splits the core states into two distinct energy levels defined by their total angular momentum, specifically the 2p 3/2 and 2p 1/2 states. Lower energy peak at ~ 710 eV corresponds to the 2p 3/2 (L3 edge) and the higher energy peak at ~723 eV corresponds to the 2p 1/2 (L2 edge)."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

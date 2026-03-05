@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_4",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "O K-edge/\u201cO 1s\u201d TFY-XAS for five films (a\u2013e), each shown as-deposited (thin) and forming-gas annealed (FGA) (bold). The five samples are: (a) 117 nm non-doped, 400 \u00b0C, FeCp\u2082; (b) 328 nm, cycle ratio 100:1 (no Mg detected), 400 \u00b0C, FeCp\u2082; (c) 72 nm non-doped, 375 \u00b0C, CpFeC\u2085H\u2084CHN(CH\u2083)\u2082; (d) 425 nm, 100:2 (Mg/Fe = 0.017), 375 \u00b0C; (e) 411 nm, 100:10 (Mg/Fe = 0.062), 375 \u00b0C. Overall, the O-edge trends track the Fe-edge trends, with one noted exception: the 100:1 film looks hematite-like by Fe 2p but magnetite-like by O 1s.",
+        "b": "Fe 2p (Fe L-edge) TFY-XAS for the same five films (a\u2013e), again comparing as-deposited vs FGA. The 400 \u00b0C films (a,b) are described as hematite-like (more clearly split/double-peak L\u2083 structure), while the 375 \u00b0C films (c\u2013e) are described as magnetite-like (lower-energy L\u2083 feature mainly a shoulder). FGA enhances/adjusts the lower-energy L\u2083 component (near ~708.5 eV) so the overall line shape becomes more magnetite-like."
+    },
+    "data_extraction": {
+        "a": "| Energy (eV) | a (400\u00b0C, non-doped) | b (400\u00b0C, 100:1) | c (375\u00b0C, non-doped) | d (375\u00b0C, 100:2) | e (375\u00b0C, 100:10) |\n|---|---|---|---|---|---|\n| 528.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | \n| 530.0 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 |\n| 532.0 | 0.85 | 0.80 | 0.80 | 0.80 | 0.80 |\n| 542.0 | 0.95 | 0.90 | 0.90 | 0.90 | 0.90 |\n| 550.0 | 0.40 | 0.40 | 0.40 | 0.40 | 0.40 |",
+        "b": "| Energy (eV) | a (400\u00b0C, non-doped) | b (400\u00b0C, 100:1) | c (375\u00b0C, non-doped) | d (375\u00b0C, 100:2) | e (375\u00b0C, 100:10) |\n|---|---|---|---|---|---|\n| 705.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | \n| 709.0 | 0.60 | 0.70 | 0.85 | 0.85 | 0.85 |\n| 711.0 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 |\n| 719.0 | 0.30 | 0.30 | 0.30 | 0.30 | 0.30 | \n| 723.0 | 0.65 | 0.65 | 0.60 | 0.60 | 0.60 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is being compared in each stacked sample trace in this TFY-XAS figure?",
+                "answer_type": "Paragraph",
+                "answer": "For each sample (a\u2013e), two spectra are shown: as-deposited (thin line) and forming-gas annealed (FGA) (bold line). This directly isolates the effect of the anneal on the O K-edge and Fe L-edge line shapes. The figure uses the same comparison across all five samples so temperature and Mg-cycling effects can be judged consistently."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is it useful to have both O-edge and Fe-edge XAS for the same samples when discussing magnetic performance?",
+                "answer_type": "Paragraph",
+                "answer": "The magnetic behavior in this work is linked to whether the films are closer to hematite-like or magnetite-like chemistry. Showing both edges provides cross-checking: Fe 2p is sensitive to Fe oxidation/multiplet structure, while the O edge provides complementary information, and in most cases they trend together. The noted mismatch in the 100:1 sample (Fe-edge hematite-like, O-edge magnetite-like) flags that phase/chemistry assessment can be nontrivial from a single edge alone."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the key difference between the Fe 2p TFY-XAS of the 400 \u00b0C samples (a,b) and the 375 \u00b0C samples (c\u2013e)?",
+                "answer_type": "Paragraph",
+                "answer": "The 400 \u00b0C Fe 2p spectra (a,b) are described as hematite-like, with a more clearly split/double-peak L\u2083 structure. The 375 \u00b0C spectra (c\u2013e) are described as magnetite-like, where the lower-energy L\u2083 feature is mainly a shoulder rather than a fully resolved peak. This separation is one of the main chemical-state indicators used in the paper for grouping samples by growth temperature."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which Fe 2p spectral feature is used as evidence for Fe\u00b2\u207a-containing (more reduced) iron oxide?",
+                "answer_type": "Paragraph",
+                "answer": "A practical marker is an increased shoulder ~1\u20131.5 eV below the main L\u2083 (and similarly L\u2082) peak when Fe\u00b2\u207a is present. In this dataset, that shoulder is more prominent in the 375 \u00b0C group and becomes more emphasized after FGA, making the spectra resemble magnetite more closely. This is the specific line-shape argument cited in the discussion around Fig. 4."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

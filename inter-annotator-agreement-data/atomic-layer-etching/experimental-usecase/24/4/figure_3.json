@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_3",
+    "classification": {
+        "a": "scatter plot",
+        "b": "scatter plot"
+    },
+    "summarization": {
+        "a": "The figure shows the change in MCPC (mass change per cycle) and \u0394M (mass change due to HF and TMA) over cycles at 300\u00b0C on Al<sub>2</sub>O<sub>3</sub>. The MCPC remains relatively constant while \u0394M fluctuates.",
+        "b": "The figure displays the ratio of \u0394M<sub>TMA</sub> to MCPC over cycles, indicating a steady increase."
+    },
+    "data_extraction": {
+        "a": "|Number of Cycles | \u0394M_HF (ng/cm\u00b2\u00b7cycle) | \u0394M_TMA (ng/cm\u00b2\u00b7cycle) | MCPC (ng/cm\u00b2\u00b7cycle) |\n|-------------------|-----------------------|------------------------|-----------------|\n| 0                | +40                  | -35                   | -10                |\n| 20               | +20                  | -30                   | -15.9             |\n| 40               | +18                  | -28                   | -15.9             |\n| 60               | +18                  | -28                   | -15.9             |\n| 80               | +18                  | -28                   | -15.9             |\n| 100              | +18                  | -28                   | -15.9             |\n| 120              | +18                  | -28                   | -15.9             |",
+        "b": "| Number of Cycles | Ratio |\n|------------------|-------|\n| 0                | 2.0   |\n| 20               | 1.8   |\n| 40               | 1.8   |\n| 60               | 1.8   |\n| 80               | 1.8   |\n| 100              | 1.8   |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Are the mass changes after TMA exposure and HF exposure constant?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How is the MCPC defined?",
+                "answer_type": "Factoid",
+                "answer": "MCPC is defined by mass change after TMA and HF exposure. MCPC = \u0394MTMA + \u0394MHF."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What is used to define the stoichiometry of the Al2O3 ALE reactions?",
+                "answer_type": "Paragraph",
+                "answer": "The \u0394MTMA/MCPC ratio shows a steady-state value of 1.8 after the first three ALE cycles. The \u0394MTMA/MCPC ratio will be employed to define the stoichiometry of the Al2O3 ALE reactions"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the value of MCPC?",
+                "answer_type": "Factoid",
+                "answer": "After a short nucleation period,  MCPC attains a steady state value of \u221215.9 ng/(cm2 cycle)."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_3",
+    "classification": {
+        "a": "scatter plot",
+        "b": "scatter plot"
+    },
+    "summarization": {
+        "a": "Evolution of mass changes during Al\u2082O\u2083 ALE at 300 \u00b0C, showing the mass change after TMA exposure (\u0394M_TMA), the mass change after HF exposure (\u0394M_HF), and the mass change per cycle (MCPC). After a short nucleation period, \u0394M_TMA and \u0394M_HF reach constant values, resulting in a steady-state MCPC of approximately \u221215.9 ng/(cm\u00b2\u00b7cycle).",
+        "b": "\u0394M_TMA/MCPC ratio as a function of ALE cycles, which stabilizes at approximately 1.8 after the first three cycles. This steady ratio is used to define the stoichiometry of the ALE reactions and indicates consistent, repeatable mass changes."
+    },
+    "data_extraction": {
+        "a": "|Number of Cycles|\u0394M<sub>TMA</sub> (ng/cm\u00b2)|\u0394M<sub>HF</sub> (ng/cm\u00b2)|MCPC (ng/(cm\u00b2\u00b7cycle))|\n|----------------|-------------------------|------------------------|---------------------|\n|0|-30|14|-16|\n|1|-30|14|-16|\n|2|-30|14|-16|\n|3|-30|14|-16|\n|4|-30|14|-16|\n|5|-30|14|-16|\n|6|-30|14|-16|\n|7|-30|14|-16|",
+        "b": "|Number of Cycles|\u0394M<sub>TMA</sub> / MCPC|\n|----------------|-----------------------|\n|0|1.88|\n|1|1.88|\n|2|1.88|\n|3|1.88|\n|4|1.88|\n|5|1.88|\n|6|1.88|\n|7|1.88|\n|8|1.88|\n|9|1.88|\n|10|1.88|"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is the \u0394MTMA/MCPC ratio important for evaluating the Al\u2082O\u2083 ALE process?",
+                "answer_type": "Paragraph",
+                "answer": "The \u0394MTMA/MCPC ratio provides a measure of the relative mass contribution from TMA during each cycle. By monitoring this ratio, researchers can define the stoichiometry of the ALE reactions and verify that the process remains consistent across cycles. A stable ratio ensures predictable etching behavior and allows optimization of process parameters for precise Al\u2082O\u2083 removal."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What does a stable MCPC value indicate about the ALE reaction?",
+                "answer_type": "Factoid",
+                "answer": "A constant MCPC shows that the mass change per cycle is reproducible and self-limiting."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Do the mass changes (\u0394MTMA and \u0394MHF) reach a steady-state value during the ALE cycles at 300\u202f\u00b0C?",
+                "answer_type": "Paragraph",
+                "answer": "Yes, the figure shows that after an initial nucleation period, both \u0394MTMA and \u0394MHF become very constant, indicating that the ALE process has reached a steady state. This steady behavior demonstrates the self-limiting nature of the sequential TMA and HF reactions."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does \u0394MTMA/MCPC ratio change over the number of ALE cycles?",
+                "answer_type": "List",
+                "answer": "First three cycles \u2192 \u0394MTMA/MCPC increases, After three cycles \u2192 ratio becomes steady"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

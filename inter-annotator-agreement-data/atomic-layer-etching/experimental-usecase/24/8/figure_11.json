@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_11",
+    "classification": {
+        "a": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays difference infrared absorption spectra at 300\u00b0C, highlighting the changes in CH3-, Al2O3- and AlF3-related bands after TMA (a) and HF (b) exposures."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | Absorbance after TMA exposure | Absorbance after  HF exposure |\n|---|---|---|\n| 1221 |0.05 | - 0.05 |\n| 962 | - 0.03 | - 0.02 |\n| 932 | - 0.05 |  0 |\n| 843 | 0 | - 0.02 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "After TMA exposure, which new species appear in the spectrum, that were not present before?",
+                "answer_type": "Factoid",
+                "answer": "Methyl groups, as indicated by the gain in the \u03b4s(CH\u2083) region."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "After HF exposure, which new species appear in the spectrum, that were not present before?",
+                "answer_type": "Factoid",
+                "answer": "AlF\u2083"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "After HF exposure, which species disappear?",
+                "answer_type": "Factoid",
+                "answer": "Methyl groups, as indicated by the loss in the \u03b4s(CH\u2083) region."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which half-cycle is primarily responsible for removing Al\u2082O\u2083, and what features of the spectrum support this conclusion?",
+                "answer_type": "Paragraph",
+                "answer": "The TMA half-cycle appears to drive the Al\u2082O\u2083 removal. It shows a clear negative change in the Al\u2082O\u2083 band region (~900\u20131000 cm\u207b\u00b9), consistent with loss of Al\u2013O absorbance during that step. In contrast, the HF half-cycle mainly removes CH\u2083 (negative CH\u2083 band) and increases AlF\u2083-related bands (~800\u2013950 cm\u207b\u00b9), suggesting surface fluorination rather than the main oxide-removal step."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

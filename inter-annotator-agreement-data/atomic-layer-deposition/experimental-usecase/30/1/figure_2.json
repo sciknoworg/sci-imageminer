@@ -1,0 +1,68 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_2",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "Subfigure (a) presents stacked grazing-incidence XRD patterns of a pure Fe\u2082O\u2083 film grown at 425 \u00b0C. The as-deposited spectrum is dominated by hematite reflections, while the FGA-treated spectrum shows the emergence of magnetite peaks, indicating partial phase reduction during annealing.",
+        "b": "Subfigure (b) shows lightly Mg-doped Fe\u2082O\u2083 (Mg/Fe = 0.02). Both hematite and magnetite peaks are present, with magnetite reflections becoming more pronounced after FGA, suggesting Mg-assisted stabilization of the reduced phase.",
+        "c": "Subfigure (c) corresponds to heavily Mg-doped Fe\u2082O\u2083 (Mg/Fe = 0.23). Magnetite reflections dominate the stacked spectra, while hematite peaks persist at lower intensity, demonstrating a strong compositional influence of Mg on phase balance."
+    },
+    "data_extraction": {
+        "a": "| 2\u03b8 (degree) | Phase | hkl |\n|-------------|-------|-----|\n| 24.138 | H | 012 |\n| 33.153 | H | 104 |\n| 35.612 | H | 110 |\n| 35.612 | M | 311 |\n| 40.855 | H | 113 |\n| 43.053 | H | 202 |\n| 43.053 | M | 400 |\n| 54.091 | H | 116 |\n| 57.590 | H | 122 |\n| 62.451 | H | 214 |\n| 63.991 | H | 300 |",
+        "b": "| 2\u03b8 (degree) | Phase | hkl |\n|-------------|-------|-----|\n| 24.138 | H | 012 |\n| 30.095 | M | 220 |\n| 33.153 | H | 104 |\n| 35.423 | M | 311 |\n| 35.612 | H | 110 |\n| 40.855 | H | 113 |\n| 43.053 | M | 400 |\n| 54.091 | H | 116 |\n| 57.590 | H | 122 |\n| 62.451 | H | 214 |\n| 63.991 | H | 300 |",
+        "c": "| 2\u03b8 (degree) | Phase | hkl |\n|-------------|-------|-----|\n| 30.095 | M | 220 |\n| 35.423 | M | 311 |\n| 35.612 | H | 110 |\n| 43.053 | M | 400 |\n| 44.053 | M | 202 |\n| 54.091 | H | 116 |\n| 57.590 | H | 122 |\n| 64.000 | H | 214 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the phase composition of the highly doped film (Mg/Fe = 0.23) change after FGA compared to the as-deposited state?",
+                "answer_type": "Paragraph",
+                "answer": "The transformation is much more pronounced than in the pure iron oxide case. After FGA, the hematite reflections (labeled H) largely disappear or diminish significantly, while the magnetite reflections (labeled M, such as 311, 220, 400) become dominant. This indicates that high Mg content facilitates a more complete conversion to the magnetite phase upon annealing."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What phase transformation is induced by Forming Gas Annealing (FGA) in the pure Fe\u2082O\u2083 film?",
+                "answer_type": "Paragraph",
+                "answer": "FGA promotes the partial reduction of hematite (Fe\u2082O\u2083) to magnetite (Fe\u2083O\u2084). This is evidenced by the appearance of magnetite-specific diffraction peaks, such as the (220)_M and (400)_M reflections, in the annealed sample (bottom trace) compared to the as-deposited sample (top trace)."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which hematite reflection is the strongest in the as-deposited pure Fe\u2082O\u2083 film?",
+                "answer_type": "Factoid",
+                "answer": "The (110) reflection (which overlaps with the Magnetite 311 position) appears to be the most intense peak."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is the stabilization of the magnetite phase via Mg doping advantageous for functional coatings?",
+                "answer_type": "Paragraph",
+                "answer": "Magnetite offers distinct properties compared to hematite, such as higher electrical conductivity and ferrimagnetism. By using Mg doping to stabilize this phase at moderate growth temperatures (like 425 \u00b0C), these functional properties can be integrated into devices such as spintronic components or sensors more reliably than using pure iron oxide, which tends to favor hematite."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

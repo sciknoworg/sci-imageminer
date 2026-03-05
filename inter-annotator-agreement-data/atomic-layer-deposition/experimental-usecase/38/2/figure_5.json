@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_5",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "In-plane 2\u03b8\u03c7 XRD of 100cLi-MnO\u2082, 200cLi-MnO\u2082, and 300cLi-MnO\u2082. Li\u2081\u208b\u2093Mn\u2082O\u2084 spinel reflections (111), (131), (440) dominate; \u03b2-MnO\u2082 peaks are absent. Asterisk marks Li\u2082\u208b\u1d64MnO\u2082 impurity (~47\u00b0). Inset shows measurement geometry.",
+        "b": "Out-of-plane \u03b8-2\u03b8 XRD of the same samples. The 100cLi-MnO\u2082 sample still shows weak \u03b2-MnO\u2082 (200), but in 200cLi and 300cLi samples only the lithiated phase remains. Peaks shift to lower 2\u03b8 with increasing Li content."
+    },
+    "data_extraction": {
+        "a": "| 2\u03b8_chi (\u00b0) | 100cLi-MnO2 (Norm.) | 200cLi-MnO2 (Norm.) | 300cLi-MnO2 (Norm.) |\n|---|---|---|---|\n| 19.0 | 0.05 | 0.15 | 0.15 |\n| 37.5 | 1.00 | 1.00 | 1.00 |\n| 47.5 | 0.05 | 0.75 | 0.55 |\n| 66.0 | 0.25 | 0.45 | 0.40 |",
+        "b": "| 2\u03b8 (\u00b0) | 100cLi-MnO2 (Norm.) | 200cLi-MnO2 (Norm.) | 300cLi-MnO2 (Norm.) |\n|---|---|---|---|\n| 17.5 | 0.45 | 0.60 | 0.50 |\n| 33.0 | 0.10 | 0.10 | 0.80 |\n| 36.0 | 1.00 | 1.00 | 1.00 |\n| 41.2 | 0.20 | 0.05 | 0.05 |\n| 44.5 | 0.10 | 0.10 | 0.05 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What happens to the \u03b2-MnO\u2082 phase when lithium concentration exceeds x \u2248 0.5?",
+                "answer_type": "Factoid",
+                "answer": "The \u03b2-MnO\u2082 reflections disappear completely, indicating full transformation to the Li\u2081\u208b\u2093Mn\u2082O\u2084 spinel phase"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What does the asterisk (*) in panel (a) indicate?",
+                "answer_type": "Factoid",
+                "answer": "An impurity reflection at ~47.4\u00b0, attributed to a lithium-rich Li\u2082\u208b\u1d64MnO\u2082 phase."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Why do the lithiated phase peaks shift to lower 2\u03b8 angles with increasing lithium content?",
+                "answer_type": "Factoid",
+                "answer": "The lattice expands as more Li\u207a is incorporated, increasing d-spacing and shifting reflections to lower angles according to Bragg's law."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Can the out-of-plane reflections be indexed to cubic Li\u2081\u208b\u2093Mn\u2082O\u2084?",
+                "answer_type": "Paragraph",
+                "answer": "Not directly. The d-spacings show integer relationships suggesting multiples of a single reflection, but they don't match cubic spinel indexing. The authors propose that stress and microstrain distort the cubic structure in one dimension, breaking Fd3\u0304m symmetry."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

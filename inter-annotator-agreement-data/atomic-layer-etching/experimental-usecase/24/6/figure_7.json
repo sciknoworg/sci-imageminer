@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_7",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart shows the mass change over time at 250\u00b0C, with a step-like pattern corresponding to the ALE process, with the TMA and HF exposure points indicated.",
+        "b": "The line chart shows the mass change over time at 275\u00b0C, with a step-like pattern corresponding to the ALE process, with the TMA and HF exposure points indicated.",
+        "c": "The line chart shows the mass change over time at 325\u00b0C, with a step-like pattern corresponding to the ALE process, with the TMA and HF exposure points indicated."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 6100 | -320 |\n| 6150 | -330 |\n| 6200 | -335 |\n| 6250 | -340 |\n| 6300 | -340 |",
+        "b": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 6100 | -940 |\n| 6150 | -960 |\n| 6200 | -975 |\n| 6250 | -980 |\n| 6300 | -970 |",
+        "c": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 6100 | -2210 |\n| 6150 | -2235 |\n| 6200 | -2280 |\n| 6250 | -2300 |\n| 6300 | -2280 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the mass loss during TMA exposure at 325 \u00b0C?",
+                "answer_type": "Factoid",
+                "answer": "-41.9 ng/cm^2."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the mass loss during TMA exposure at 250 \u00b0C?",
+                "answer_type": "Factoid",
+                "answer": "-10.5 ng/cm^2."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the mass loss change with temperature when comparing all sub-figures?",
+                "answer_type": "Factoid",
+                "answer": "The overall mass loss becomes larger as temperature increases."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the mass loss during TMA exposure at 275 \u00b0C?",
+                "answer_type": "Factoid",
+                "answer": "-20.5 ng/cm^2."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_4",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart"
+    },
+    "summarization": {
+        "a": "\u0394M_TMA versus TMA exposure time at 300\u00b0C. The mass loss increases with exposure time and approaches self-limiting behavior at approximately \u221229 ng/cm\u00b2 after 2.0 s. The slow approach to saturation suggests that an initial fraction of the AlF\u2083 layer is easily removed, but complete removal becomes progressively more difficult.",
+        "b": "\u0394M_HF versus HF exposure time at 300\u00b0C. The mass gain increases rapidly and saturates at ~13 ng/(cm\u00b2 cycle) after about 1.0 s exposure. This sharp saturation indicates that HF fluorinates the Al\u2082O\u2083 surface to form a passivating AlF\u2083 layer that prevents further reaction."
+    },
+    "data_extraction": {
+        "a": "| TMA Exposure Time (s) | \u0394M<sub>TMA</sub> (ng/(cm<sup>2</sup> cycle)) |\n|---|---|\n| 0.0 | 0 |\n| 0.5 | -10 |\n| 1.0 | -20 |\n| 1.5 | -30 |\n| 2.0 | -35 |\n| 2.5 | -37 |\n| 3.0 | -38 |",
+        "b": "| HF Exposure Time (s) | \u0394M<sub>HF</sub> (ng/(cm<sup>2</sup> cycle)) |\n|---|---|\n| 0.0 | 0 |\n| 0.5 | 12 |\n| 1.0 | 14 |\n| 1.5 | 16 |\n| 2.0 | 17 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Why is self-limiting behavior important for atomic layer etching?",
+                "answer_type": "Paragraph",
+                "answer": "Self-limiting reactions are essential because they ensure that each half-cycle removes or modifies only a defined amount of material, regardless of excess reactant exposure. This enables precise thickness control at the atomic scale and allows for conformal, isotropic etching of three-dimensional structures. Without self-limiting behavior, the etch rate would depend on exposure time and local reactant flux, making uniform etching impossible."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the saturation behavior differ between TMA and HF exposures?",
+                "answer_type": "Factoid",
+                "answer": "HF saturates sharply after ~1.0 s, while TMA approaches saturation more slowly and gradually levels off after ~2.0 s."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Why does the AlF\u2083 layer passivate the surface against further HF fluorination?",
+                "answer_type": "Paragraph",
+                "answer": "The AlF\u2083 layer passivates the Al\u2082O\u2083 surface because it has a Pilling-Bedworth ratio (R_PB) greater than 1, specifically ~1.8. This means the AlF\u2083 layer occupies more volume than the Al\u2082O\u2083 it replaces, ensuring complete surface coverage without gaps. Once formed, this continuous fluoride layer prevents HF from accessing the underlying oxide, analogous to how native oxide layers protect metals from further oxidation."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What exposure times were selected for the standard ALE reaction sequence based on this data?",
+                "answer_type": "Factoid",
+                "answer": "2.0 s for TMA and 1.0 s for HF, corresponding to the \"2-30-1-30\" reaction sequence."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

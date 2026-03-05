@@ -1,0 +1,68 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_9",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart"
+    },
+    "summarization": {
+        "a": "Magnetization M (emu/g) vs temperature for an Fe\u2082O\u2083 film after forming-gas anneal (FGA), grown at 450 \u00b0C, d = 705 nm, measured in 1000 Oe under ZFC and FC. A clear step/feature near T\u1d65 \u2248 125 K is marked (Verwey-type transition).",
+        "b": "M vs temperature (ZFC/FC, 1000 Oe) for an Mg-doped Fe\u2082O\u2083:MgO film after FGA with recipe 100\u00d7Fe\u2082O\u2083 + 4\u00d7(3\u00d7MgO + 100\u00d7Fe\u2082O\u2083), grown at 425 \u00b0C, d = 183 nm, Mg/Fe = 0.021. A similar feature is marked at T\u1d65 \u2248 120 K.",
+        "c": "M vs temperature (ZFC/FC, 1000 Oe) for a more Mg-rich film after FGA with recipe 100\u00d7Fe\u2082O\u2083 + 15\u00d7(10\u00d7MgO + 100\u00d7Fe\u2082O\u2083), grown at 375 \u00b0C, d = 411 nm, Mg/Fe = 0.062. The ZFC/FC curves show only a much weaker/broader anomaly near the same temperature range, consistent with the noted loss of Verwey prominence at higher Mg content."
+    },
+    "data_extraction": {
+        "a": "| Temperature (K) | ZFC (M, emu/g) | FC (M, emu/g) |\n|---|---|---|\n| 10 | 0.004 | 0.096 |\n| 50 | 0.018 | 0.095 |\n| 80 | 0.030 | 0.095 |\n| 100 | 0.050 | 0.096 |\n| 125 | 0.106 | 0.106 |\n| 150 | 0.106 | 0.106 |\n| 200 | 0.104 | 0.104 |\n| 250 | 0.102 | 0.102 |\n| 300 | 0.100 | 0.100 |",
+        "b": "| Temperature (K) | ZFC (M, emu/g) | FC (M, emu/g) |\n|---|---|---|\n| 10 | 0.016 | 0.055 |\n| 50 | 0.040 | 0.055 |\n| 80 | 0.046 | 0.056 |\n| 100 | 0.050 | 0.056 |\n| 120 | 0.055 | 0.057 |\n| 150 | 0.057 | 0.057 |\n| 200 | 0.056 | 0.056 |\n| 250 | 0.055 | 0.055 |\n| 300 | 0.053 | 0.053 |",
+        "c": "| Temperature (K) | ZFC (M, emu/g) | FC (M, emu/g) |\n|---|---|---|\n| 15 | 0.0650 | 0.0692 |\n| 50 | 0.0675 | 0.0691 |\n| 100 | 0.0688 | 0.0694 |\n| 130 | 0.0694 | 0.0694 |\n| 150 | 0.0694 | 0.0694 |\n| 200 | 0.0685 | 0.0685 |\n| 250 | 0.0675 | 0.0675 |\n| 300 | 0.0661 | 0.0661 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What do \u201cZFC\u201d and \u201cFC\u201d mean in these plots, and what field is used?",
+                "answer_type": "Paragraph",
+                "answer": "ZFC: zero-field cooling measurement curve\n\nFC: field-cooling measurement curve\n\nApplied field during M\u2013T: 1000 Oe"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is tracking a magnetite signature (like the Verwey feature) useful for the overall magnetic-performance discussion?",
+                "answer_type": "Paragraph",
+                "answer": "Magnetite-like content is linked to the stronger ferrimagnetic response desired in these films, while hematite-dominant films tend to show much weaker magnetization. A Verwey-type feature provides an additional, temperature-dependent indicator that reduced/spinel-like iron oxide is present after forming-gas anneal. This helps connect processing (growth temperature, Mg dosing, anneal) to the observed magnetic behavior."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the Verwey-related feature change from (a) \u2192 (b) \u2192 (c)?",
+                "answer_type": "Paragraph",
+                "answer": "In (a) a pronounced anomaly is marked at ~125 K. In (b) a similar anomaly remains visible around ~120 K. In (c) the anomaly is much less prominent, consistent with the stated trend that the Verwey signature weakens in films that are more disordered and/or contain higher MgO amounts."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What phase information is typically inferred from a Verwey-type transition near 120 K in iron oxide films?",
+                "answer_type": "Paragraph",
+                "answer": "A Verwey-type transition near ~120 K is a characteristic low-temperature transformation associated with magnetite (Fe\u2083O\u2084) (cubic-to-monoclinic symmetry change tied to cation ordering). Observing a step/jump in M\u2013T around 120\u2013125 K is therefore used as supporting evidence for the presence of magnetite in mixed-phase samples. In this paper, that interpretation is explicitly noted for selected annealed films showing the jump."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

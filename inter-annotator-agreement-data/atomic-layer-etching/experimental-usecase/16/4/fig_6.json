@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_6",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The line chart illustrates the etch depth of various materials (Al\u2082O\u2083, HfO\u2082, AlNx, SiO\u2082, TiN) against the number of cycles. Each material's etch depth increases linearly with the number of cycles."
+    },
+    "data_extraction": {
+        "a": "| cycles | etch depth in nm of Al\u2082O\u2083 | HfO\u2082 | AlNx | SiO\u2082 | TiN | \n|---|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 | 0 |\n| 15 | 2 | 1.5 | 2.5 | 6 | 0 |\n| 20 | 3 | 2 | 4 | 12 | 0 |\n| 25 | 5 | 3 | 5 | | 0 |\n| 30 | 4.5 | 3 | 6 | 20.5 | 0 |\n| 40 | 5 | 3.5 | 27 | | 0.5 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Is TiN getting etched as the number of etch cycles is increased from 10 to 40?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Among the various materials -Al\u2082O\u2083, HfO\u2082, AlNx, SiO\u2082, TiN, which one has higher etch rate?",
+                "answer_type": "Paragraph",
+                "answer": "From the graph, SiO2 has higher etch rate compared to other materials"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does the etch depth vary with respect to the number of cycles?",
+                "answer_type": "Paragraph",
+                "answer": "The etch depth has a linearly dependence  with the number of cycles"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Based on the current process, which two materials are suitable for selective etching",
+                "answer_type": "Paragraph",
+                "answer": "From the graph, it is evident that TiN is not etched at all, while SiO2 has high etch rate, therefore with the current process, SiO2 could be selectively etched from a target containing both TiN and SiO2 films."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

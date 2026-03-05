@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_5",
+    "classification": {
+        "a": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure shows the  X-ray absorption spectra (XAS) against photon energy (eV), measured in total electron yield mode, for non-doped and Mg-doped Fe\u2082O\u2083:MgO thin films grown at 425 \u00b0C from CpFeC\u2085H\u2084CHN(CH\u2083)\u2082. The legend indicates the magnesium (oxide) content in the films as measured by EDX, allowing comparison between the undoped film and those doped with different Mg concentrations of 0.02, 0.2 and 0.38 at %."
+    },
+    "data_extraction": {
+        "a": "| photon energy, eV | non-doped | Mg 0.02 at.% | Mg 0.2 at.% | Mg 0.38 at.% |\n|---|---|---|---|---|\n| 700 | | | | |\n| 710 | | | | |\n| 720 | | | | |\n| 730 | | | | |\n| 740 | | | | |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does Mg incorporation during film growth at 425\u202f\u00b0C influence the Fe 2p XAS spectra of Fe\u2082O\u2083:MgO thin films?",
+                "answer_type": "Yes/No",
+                "answer": "Increasing Mg content modifies the Fe L\u2083-edge intensity and broadens the spectral features, indicating changes in Fe oxidation state and local coordination. Mg doping introduces oxygen vacancies and stabilizes mixed-valence Fe states (Fe\u00b2\u207a/Fe\u00b3\u207a), shifting the electronic structure toward magnetite-like characteristics."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What trend is observed in Fe 2p XAS spectra as Mg concentration increases from 0 to 0.38 at.%?",
+                "answer_type": "Paragraph",
+                "answer": "As Mg concentration increases, the Fe L\u2083 peak intensity decreases and the spectral shape becomes broader, suggesting increased disorder and partial reduction of Fe\u00b3\u207a to Fe\u00b2\u207a. This trend indicates that Mg doping promotes electronic restructuring and oxygen vacancy formation, with the strongest effect at 0.38 at.% Mg."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How do the electronic structure changes caused by Mg doping influence the properties of Fe\u2082O\u2083:MgO films?",
+                "answer_type": "Paragraph",
+                "answer": "Mg doping introduces oxygen vacancies and stabilizes Fe\u00b2\u207a states, improving electrical conductivity and magnetic ordering. These changes enhance ferrimagnetic behavior and electron transport, making the films more suitable for spintronic and catalytic applications."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Why are Mg-doped Fe oxide films advantageous for advanced electronic or energy applications compared to non-doped films?",
+                "answer_type": "Paragraph",
+                "answer": "Mg-doped films exhibit improved electronic conductivity and magnetic properties due to mixed-valence Fe states and oxygen vacancies. These features are critical for spintronic devices, magnetic sensors, and catalytic processes such as oxygen evolution and CO\u2082 reduction, offering multifunctional performance."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

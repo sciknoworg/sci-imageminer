@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_6",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The multiple line chart shows mass change versus time during alternating TMA and HF exposures at different temperatures on Al\u2082O\u2083. Each cycle produces a stepwise increase during TMA exposure followed by a decrease during HF exposure. Higher temperatures result in lower net mass retention, with the 325 \u00b0C trace showing the largest mass loss compared to lower temperatures."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | 250 \u00b0C | 275 \u00b0C | 300 \u00b0C | 325 \u00b0C |\n|----------|--------|--------|--------|--------|\n| 0        | ~25    | ~25    | ~25    | ~25    |\n| 30       | ~60    | ~58    | ~55    | ~40    |\n| 60       | ~65    | ~63    | ~60    | ~45    |\n| 90       | ~62    | ~60    | ~58    | ~35    |\n| 120      | ~65    | ~63    | ~60    | ~40    |\n| 150      | ~64    | ~62    | ~59    | ~38    |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does temperature affect the mass change behavior over time?",
+                "answer_type": "Paragraph",
+                "answer": "Increasing temperature reduces the net mass retained after each cycle. While all temperatures show stepwise increases during TMA exposure and decreases during HF exposure, the 325 \u00b0C trace exhibits significantly lower mass accumulation, indicating enhanced etching or reduced adsorption at higher temperature."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which precursor exposures correspond to the step increases in mass?",
+                "answer_type": "Factoid",
+                "answer": "TMA exposures."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Does the highest temperature result in the lowest mass change?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which temperatures are compared in the figure?",
+                "answer_type": "List",
+                "answer": "250 \u00b0C ,275 \u00b0C ,300 \u00b0C , 325 \u00b0C"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

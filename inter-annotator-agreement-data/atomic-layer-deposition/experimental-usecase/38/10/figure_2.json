@@ -1,0 +1,55 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_2",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The multiple line chart shows elemental depth profiles of O, Mn, Si, and Li for MnO\u2082-based samples with increasing Li content. Each panel compares the relative concentration of elements as a function of depth, highlighting changes in Li incorporation and interface composition with increasing Li cycles."
+    },
+    "data_extraction": {
+        "a": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 500 | 60 | 50 | 40 | 30 |\n| 1000 | 60 | 50 | 40 | 30 |\n| 1500 | 60 | 50 | 40 | 30 |\n| 2000 | 60 | 50 | 40 | 30 |\n| 2500 | 60 | 50 | 40 | 30 |",
+        "b": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 60 | 50 | 40 | 30 |\n| 500 | 60 | 50 | 40 | 30 |\n| 1000 | 60 | 50 | 40 | 30 |\n| 1500 | 60 | 50 | 40 | 30 |\n| 2000 | 60 | 50 | 40 | 30 |\n| 2500 | 60 | 50 | 40 | 30 |",
+        "c": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 60 | 50 | 40 | 30 |\n| 500 | 60 | 50 | 40 | 30 |\n| 1000 | 60 | 50 | 40 | 30 |\n| 1500 | 60 | 50 | 40 | 30 |\n| 2000 | 60 | 50 | 40 | 30 |\n| 2500 | 60 | 50 | 40 | 30 |",
+        "d": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 60 | 50 | 40 | 30 |\n| 500 | 60 | 50 | 40 | 30 |\n| 1000 | 60 | 50 | 40 | 30 |\n| 1500 | 60 | 50 | 40 | 30 |\n| 2000 | 60 | 50 | 40 | 30 |\n| 2500 | 60 | 5"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What does the presence of lithium near the surface suggest about its incorporation behavior in these films?",
+                "answer_type": "Paragraph",
+                "answer": "The surface-localized lithium signal suggests that lithium incorporation is favored near the film surface rather than uniformly throughout the bulk. This behavior is consistent with surface-limited incorporation or post-deposition modification effects, rather than bulk diffusion during growth."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the elemental depth profiles (O, Mn, Si, and Li) change with increasing depth across the different samples?",
+                "answer_type": "Paragraph",
+                "answer": "Across all samples, oxygen and manganese show relatively stable concentration profiles through most of the film thickness, while lithium is more concentrated near the surface and decreases with depth. Silicon concentration increases toward the interface region, indicating proximity to the substrate. The overall depth-dependent trends are similar between samples, with differences primarily in the relative prominence of the lithium signal."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Do the depth profiles indicate that lithium penetrates uniformly through the full film thickness?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which element shows the strongest surface enrichment across the depth profiles?",
+                "answer_type": "Factoid",
+                "answer": "Lithium."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

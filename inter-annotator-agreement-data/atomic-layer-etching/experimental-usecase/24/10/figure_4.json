@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_4",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart"
+    },
+    "summarization": {
+        "a": "Panel (a) shows that \u0394M_TMA becomes increasingly negative as TMA exposure time increases. The magnitude of the mass loss rises quickly at short exposures and then begins to level off, indicating saturation of the TMA reaction step at longer exposure times.",
+        "b": "Panel (b) shows that \u0394M_HF increases with HF exposure time, rising rapidly at first and then reaching a more gradual asymptote. This behavior suggests that the HF reaction step also approaches saturation at longer exposures."
+    },
+    "data_extraction": {
+        "a": "| TMA exposure time (s) | \u0394M_TMA (ng/cm\u00b2\u00b7cycle) |\n| --------------------- | --------------------- |\n|         0.0           |           ~0          |\n|         0.5           |          ~-6          |\n|         1.0           |         ~-10          |\n|         1.5           |         ~-12          |\n|         2.0           |         ~-14          |\n|         2.5           |         ~-15          |",
+        "b": "| HF exposure time (s) | \u0394M_HF (ng/cm\u00b2\u00b7cycle) |\n| -------------------- | -------------------- |\n|        0.0           |         ~0           |\n|        0.5           |        ~10           |\n|        1.0           |        ~14           |\n|        1.5           |        ~15           |\n|        2.0           |        ~16           |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What temperature were these measurements collected at?",
+                "answer_type": "Factoid",
+                "answer": "300 \u00b0C"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Does \u0394M_TMA continue decreasing indefinitely with longer exposure times?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the mass-change responses  differ with exposure time?",
+                "answer_type": "Paragraph",
+                "answer": "\u0394M_TMA becomes more negative as exposure time increases, while \u0394M_HF becomes more positive. Both curves rise rapidly at short times and then begin to plateau. The opposing signs reflect the different chemical processes occurring during TMA and HF exposures."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Application/Performance",
+                "question": "List the exposure times at which \u0394M_HF was recorded.",
+                "answer_type": "List",
+                "answer": "~0.0, 0.5, 1.0, 1.5,  2.0 seconds."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

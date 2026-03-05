@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_9",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The chart shows the thickness of Al\u2082O\u2083 as a function of the number of cycles at two temperatures: 300\u00b0C and 200\u00b0C, as measured by SE and XRR. The thickness decreases with increasing cycles for both temperatures."
+    },
+    "data_extraction": {
+        "a": "| Number of Cycles |Temperature, \u00b0C | Al\u2082O\u2083 Thickness (\u00c5)  XRR | Al\u2082O\u2083 Thickness (\u00c5)  SE |\n|---|---|---|---|\n| 0 | 300 | 140 | 140 |\n| 50 | 300 | 117 | 117 |\n| 100 | 300 | 95 | 95 |\n| 200 | 300 | 49 | 49 |\n| 0 | 200 | 167 | 170 |\n| 50 | 200 | 148 | 148 |\n| 100 | 200 | 128 | 128 |\n| 200 | 200 | 84 | 84 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which conditions show the highest etch rate?",
+                "answer_type": "Factoid",
+                "answer": "300 \u00b0C"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Are XRR and SE measurements generally in agreement with each other?",
+                "answer_type": "Yes/No",
+                "answer": "Yes."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which data series shows the largest XRR\u2013SE mismatch (300 \u00b0C or 200 \u00b0C), and at what cycle count is that mismatch biggest?",
+                "answer_type": "Factoid",
+                "answer": "200 \u00b0C, 0 cycles."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the etch per cycle at 300 \u00b0C and 200 \u00b0C, and how to determine it from this figure?",
+                "answer_type": "Paragraph",
+                "answer": "By taking the thickness loss over a cycle interval and dividing by the number of cycles. From 0 to 200 cycles, 300 \u00b0C sample drops from 140 \u00c5 to 49 \u00c5, so (140\u221249)/200=0.46 \u00c5/cycle. At 200 \u00b0C, XRR gives (167\u221284)/200 = 0.42. SE measurement gives a slightly different result: (170\u221284)/200 = 0.43  \u00c5/cycle."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

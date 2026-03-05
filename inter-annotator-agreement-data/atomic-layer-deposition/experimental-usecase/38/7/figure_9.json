@@ -1,0 +1,77 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_9",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart",
+        "d": "multiple line chart"
+    },
+    "summarization": {
+        "a": "In-plane XRD (2\u03b8\u03c7) for 200-cycle Li-MnO\u2082 sample: The main reflections correspond to the spinel phase LiMn\u2082O\u2084 at (111), (131), (222), (440), and (351). An impurity peak, marked with an asterisk (*), is also visible.",
+        "b": "Out-of-plane XRD (\u03b8\u20132\u03b8) for 200-cycle Li-MnO\u2082 sample: Shows dominant (111) and (311) reflections for the lithiated spinel phase, along with remaining MnO\u2082 (100, 200) reflections. The diagram illustrates the orientation of grains relative to the substrate.",
+        "c": "In-plane XRD (2\u03b8\u03c7) for 300-cycle Li-MnO\u2082 sample: Similar LiMn\u2082O\u2084 reflections as in (a) are present, confirming spinel formation after 300 cycles. Impurity peaks may still be detectable.",
+        "d": "Out-of-plane XRD (\u03b8\u20132\u03b8) for 300-cycle Li-MnO\u2082 sample: Shows stronger LiMn\u2082O\u2084 peaks compared to (b) and reduced MnO\u2082 reflections, indicating progression toward complete conversion. The impurity peak (*) is also marked. This figure collectively demonstrates the transformation from \u03b2-MnO\u2082 to LiMn\u2082O\u2084 with increasing Li-cycling, while highlighting residual precursor and minor impurity phases."
+    },
+    "data_extraction": {
+        "a": "| Intensity (arb. units) | \u00b02\u03b8\u03c7 |\n|---|---|\n| LiMn\u2082O\u2084 (111) | 20 |\n| LiMn\u2082O\u2084 (131) | 30 |\n| LiMn\u2082O\u2084 (222) | 40 |\n| LiMn\u2082O\u2084 (440) | 50 |\n| LiMn\u2082O\u2084 (351) | 60 |\n| 200cLi-MnO\u2082-600 | 70 |\n| 200cLi-MnO\u2082 | 80 |",
+        "b": "| Intensity (arb. units) | \u00b02\u03b8 |\n|---|---|\n| Lithiated phase | 15 |\n| LiMn\u2082O\u2084 (111) | 20 |\n| MnO\u2082 (100) | 25 |\n| LiMn\u2082O\u2084 (311) | 30 |\n| LiMn\u2082O\u2084 (200) | 35 |\n| 200cLi-MnO\u2082 | 40 |",
+        "c": "| Intensity (arb. units) | \u00b02\u03b8\u03c7 |\n|---|---|\n| LiMn\u2082O\u2084 (111) | 20 |\n| LiMn\u2082O\u2084 (131) | 30 |\n| LiMn\u2082O\u2084 (222) | 40 |\n| LiMn\u2082O\u2084 (440) | 50 |\n| LiMn\u2082O\u2084 (351) | 60 |\n| 300cLi-MnO\u2082-600 | 70 |\n| 300cLi-MnO\u2082 | 80 |",
+        "d": "| Intensity (arb. units) | \u00b02\u03b8 |\n|---|---|\n| Lithiated phase | 15 |\n| LiMn\u2082O\u2084 (111) | 20 |\n| 300cLi-MnO\u2082-600 | 25 |\n| * | 30 |\n| LiMn\u2082O\u2084 (311) | 35 |\n| 300cLi-MnO\u2082 | 40 |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is the removal of the Li\u2082\u208b\u2093MnO\u2082 impurity and the growth of sharp, well-defined spinel peaks a critical step for producing a high-performance cathode film?",
+                "answer_type": "Paragraph",
+                "answer": "Eliminating impurities and achieving high crystallinity ensures uniform electrochemical properties, stable lithium-ion pathways, and minimal parasitic reactions. This directly translates to higher capacity, better rate capability, and longer cycle life in a lithium-ion battery."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Based on the XRD patterns in this figure , what is the primary effect of annealing at 600\u00b0C on the 200cLi-MnO\u2082 and 300cLi-MnO\u2082 films?",
+                "answer_type": "Paragraph",
+                "answer": "Annealing significantly sharpens and intensifies the LiMn\u2082O\u2084 spinel peaks while reducing the broad, disordered background. This indicates enhanced crystallinity and improved long-range atomic order within the films."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Compare the XRD peak sharpening effect of annealing between the 200cLi and 300cLi samples. Which film undergoes a more dramatic improvement in crystallinity, and why might this be?",
+                "answer_type": "Paragraph",
+                "answer": "The 300cLi sample shows more dramatic peak sharpening. This is likely because it starts closer to the stoichiometric LiMn\u2082O\u2084 composition, allowing annealing to more efficiently drive the crystallization of the phase-pure spinel structure."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Observing the impurity phase marked with '*', how does its signal change after annealing the 200cLi and 300cLi samples? What does this suggest about the thermal stability of this phase?",
+                "answer_type": "Paragraph",
+                "answer": "The impurity phase (Li\u2082\u208b\u2093MnO\u2082) is present in the unannealed samples but is eliminated after annealing. This indicates it is a metastable intermediate that decomposes or transforms into the more thermodynamically stable LiMn\u2082O\u2084 spinel phase upon heating."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_2",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The figure highlights a zoomed-in portion of the steady-state region from the QCM data, showing the individual mass responses during each TMA and HF exposure at 300\u00b0C. TMA causes a clear mass loss as it removes the AlF\u2083 surface layer, while HF produces a mass gain as it converts Al\u2082O\u2083 to AlF\u2083. These alternating decreases and increases reflect the self-limiting steps of the ALE cycle."
+    },
+    "data_extraction": {
+        "a": "|Exposure Type|Time (s)|Mass Change (ng/cm\u00b2)|\n|-------------|--------|--------------------|\n|TMA|2.0|-29|\n|HF|1.0|+13|"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Do these alternating mass changes indicate that the ALE process is functioning properly at 300\u00b0C?",
+                "answer_type": "Paragraph",
+                "answer": "Yes, the figure shows a stable and repeatable pattern of mass loss followed by mass gain, demonstrating that the etching process is operating as expected. The consistency of these responses across exposures confirms that both half-reactions are self-limiting and that the ALE mechanism is performing effectively at 300\u00b0C."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Is the observed mass gain during HF exposure linked to the formation of an AlF\u2083 surface layer?",
+                "answer_type": "List",
+                "answer": "HF reacts with Al\u2082O\u2083, AlF\u2083 forms on the surface, This structural change results in mass increase"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does Figure 2 show distinct mass changes for each step in the TMA\u2013HF ALE cycle at 300\u00b0C?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Do the mass changes during TMA and HF exposures follow opposite trends?",
+                "answer_type": "Factoid",
+                "answer": "TMA leads to mass loss, while HF leads to mass gain."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

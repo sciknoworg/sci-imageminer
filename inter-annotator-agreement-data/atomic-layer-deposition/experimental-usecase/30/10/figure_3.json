@@ -1,0 +1,68 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_3",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart",
+        "c": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "The multi spectra chart shows Raman spectra with characteristic peaks corresponding to \u03b1-Fe\u2082O\u2083 and Fe\u2083O\u2084. Magnetite-related peaks at ~538 and ~668 cm\u207b\u00b9 are prominent alongside hematite modes.",
+        "b": "The multi-spectra chart shows Raman spectra containing features from multiple iron oxide phases, including \u03b1-Fe\u2082O\u2083, \u03b3-Fe\u2082O\u2083, and Fe\u2083O\u2084, indicating mixed-phase composition.",
+        "c": "The multi-spectra chart compares Raman spectra measured at different temperatures. Peaks associated with iron oxides are observed together with substrate-related signals, allowing comparison of phase presence across conditions."
+    },
+    "data_extraction": {
+        "a": "| Raman shift (cm\u207b\u00b9) | Relative intensity | Assignment         |\n|--------------------|--------------------|---------------------|\n| ~225               | Medium             | \u03b1-Fe\u2082O\u2083             |\n| ~293               | Medium             | \u03b1-Fe\u2082O\u2083             |\n| ~412               | Medium             | \u03b1-Fe\u2082O\u2083             |\n| ~498               | Low                | \u03b1-Fe\u2082O\u2083             |\n| ~538               | High               | Fe\u2083O\u2084 (magnetite)   |\n| ~668               | High               | Fe\u2083O\u2084 (magnetite)   |\n| ~1320              | Medium             | \u03b1-Fe\u2082O\u2083             |",
+        "b": "| Raman shift (cm\u207b\u00b9) | Relative intensity | Assignment         |\n|--------------------|--------------------|---------------------|\n| ~306               | Medium             | Fe\u2083O\u2084               |\n| ~538               | Medium             | Fe\u2083O\u2084               |\n| ~668               | High               | Fe\u2083O\u2084               |\n| ~720               | Medium             | \u03b3-Fe\u2082O\u2083             |\n| ~1320              | Medium             | \u03b1-Fe\u2082O\u2083             |\n| ~1430              | Low                | \u03b3-Fe\u2082O\u2083             |\n| ~1580              | Low                | \u03b3-Fe\u2082O\u2083             |",
+        "c": "| Raman shift (cm\u207b\u00b9) | Relative intensity | Assignment         |\n|--------------------|--------------------|---------------------|\n| ~225               | Medium             | \u03b1-Fe\u2082O\u2083             |\n| ~293               | Medium             | \u03b1-Fe\u2082O\u2083             |\n| ~412               | Medium             | \u03b1-Fe\u2082O\u2083             |\n| ~514               | Medium             | Si substrate        |\n| ~538               | High               | Fe\u2083O\u2084               |\n| ~668               | High               | Fe\u2083O\u2084               |\n| ~1320              | Medium             | \u03b1-Fe\u2082O\u2083             |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which Raman peaks indicate the presence of magnetite?",
+                "answer_type": "Paragraph",
+                "answer": "Peaks near 538 cm\u207b\u00b9 and 668 cm\u207b\u00b9 indicate magnetite (Fe\u2083O\u2084)."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Do the spectra show evidence of multiple iron oxide phases?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What quantity is plotted on the x-axis of these charts?",
+                "answer_type": "Factoid",
+                "answer": "Raman shift (cm\u207b\u00b9)."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which phases are identified across the spectra?",
+                "answer_type": "List",
+                "answer": "\u03b1-Fe\u2082O\u2083 ,\u03b3-Fe\u2082O\u2083 ,Fe\u2083O\u2084"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

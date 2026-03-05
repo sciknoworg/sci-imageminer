@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_9",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The chart shows the thickness of Al\u2082O\u2083 as a function of the number of cycles at two temperatures: 300\u00b0C and 200\u00b0C. The thickness decreases with increasing cycles for both temperatures."
+    },
+    "data_extraction": {
+        "a": "| Number of Cycles | Al\u2082O\u2083 Thickness (\u00c5) 200\u00b0C| Al\u2082O\u2083 Thickness (\u00c5) 300\u00b0C|\n|---|---|---|\n| 0 | 175 | 145 |\n| 50 | 150 | 125 |\n| 100 | 130 | 100 |\n| 200 | 80 | 50 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How did the thickness of the Al2O3 film change over the number of cycles?",
+                "answer_type": "Factoid",
+                "answer": "The figure shows both X-ray reflectivity and ellipsometry measurements of Al2O3 films."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Are the thickness values obtained using X-ray reflectivity and ellipsometry similar?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Does the growth temperature influence the surface thickness?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How did the thickness of the Al2O3 film change over the number of cycles?",
+                "answer_type": "Factoid",
+                "answer": "For both growth temperatures (200 \u00b0C and 300 \u00b0C), Al2O3 thickness decreases as the number of etching cycles increases."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

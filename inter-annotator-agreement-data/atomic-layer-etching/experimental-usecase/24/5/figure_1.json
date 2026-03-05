@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_1",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The chart shows a linear decrease in mass over time at 300\u00b0C on Al\u2082O\u2083, with TMA and HF treatments indicated."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 0 | 0 |\n| 2000 | -500 |\n| 4000 | -1000 |\n| 6000 | -1500 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How can the line chart be used to identify the process as ALE?",
+                "answer_type": "Paragraph",
+                "answer": "The stepwise decrease in mass indicates that there are two steps needed to remove material. This is characteristic for ALE."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the oberved etch rate?",
+                "answer_type": "Factoid",
+                "answer": "The observed etch rate is the slope. This gives an etch rate of 0.25ng/(cm\u00b2*s)"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What does the notation 2-30-1-30 stand for?",
+                "answer_type": "Paragraph",
+                "answer": "The notation 2-30-1-30 represent the standard way of reporting the dosing scheme in ALD and ALE sources. For this process it corresponds to 2 s of TMA dose, 30 s purge, 1 s HF dose, ending with another 30 s purge."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Does the given information in the graph provide enough information to determine the film density?",
+                "answer_type": "Paragraph",
+                "answer": "No the data does not provide enough information. For this also the thickness of the film before and after etch should be known."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

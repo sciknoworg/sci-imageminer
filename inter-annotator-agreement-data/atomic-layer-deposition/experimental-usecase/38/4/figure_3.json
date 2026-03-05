@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_3",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays 2\u03b8\u03c7 X-ray diffraction patterns of various lithium manganese oxide compounds at  different concentrations.",
+        "b": "The figure shows \u03b8\u22122\u03b8 X-ray diffraction patterns of lithium manganese oxide compounds"
+    },
+    "data_extraction": {
+        "a": "| Intensity (arb. units) | \u00b02\u03b8 of 10cLi-MnO\u2082 | \u00b02\u03b8 of 50cLi-MnO\u2082 | \u00b02\u03b8 of MnO\u2082 ref. |\n|---|---|---|---|\n| Li\u2081\u208b\u2093Mn\u2082O\u2084 (111) | 18 | 18 | - |\n| Li\u2081\u208b\u2093Mn\u2082O\u2084 (131) | 36 | 36 | - |\n| Li\u2081\u208b\u2093Mn\u2082O\u2084 (440) | 65 | 65 | - |\n| \u03b2-MnO\u2082 (011) | 37 | - | 37 |\n| \u03b2-MnO\u2082 (020) | 40 | - | 40 |\n| \u03b2-MnO\u2082 (002) | - | - | 65 |\n| \u03b2-MnO\u2082 (031) | 72 | - | 72 |\n| \u03b2-MnO\u2082 (022) | - | - | 78 |",
+        "b": "| Intensity (arb. units) | \u00b02\u03b8 of 10cLi-MnO\u2082 | \u00b02\u03b8 of 50cLi-MnO\u2082 | \u00b02\u03b8 of MnO\u2082 ref. |\n|---|---|---|---|\n| Lithiated phase | 17 | 17 | - |\n| Li\u2081\u208b\u2093Mn\u2082O\u2084 (111) | 20 | 20 | - |\n| Li\u2081\u208b\u2093Mn\u2082O\u2084 (400) | 44 | 44 | - |\n| \u03b2-MnO\u2082 (100) | 21 | 21 | 21 |\n| \u03b2-MnO\u2082 (200) | 42 | 42 | 42 |\n| Extra peak (*) | 33 | - | 33 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Does all the XRD diffractograms correspond to samples MnO2\u2212Li\u2212MnO2?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How many Lithium cycles were used?",
+                "answer_type": "Paragraph",
+                "answer": "Two samples consist of \n1. 10 cycles of Li \n2. 50 cycles of Li"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the peak with highest intensity in the 2\u03b8 XRD measurements?",
+                "answer_type": "Factoid",
+                "answer": "The (131) peak shows the highest intensity in all the samples 2\u03b8 XRD measurements"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How is Lithium intercalcation understood from the XRD diffractograms?",
+                "answer_type": "Paragraph",
+                "answer": "In the beginning of the lithium intercalation, three reflections of Li1\u2212xMn2O4 are somehow visible, the reflection at an angle 44.4\u00b0 being the strongest one. The reflection is indexed  as (400), and it decreases in intensity as the lithium intercalation proceeds. The other two reflections at 17.7\u00b0 and 35.9\u00b0 are lower in intensity in these samples. At around 32.6\u00b0 in the out-of-plane \u03b8\u22122\u03b8 measurements of 10cLi\u2212MnO2, there\nis an additional \u201cimpurity\u201d reflection."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

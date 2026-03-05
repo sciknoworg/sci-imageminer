@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_4",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart"
+    },
+    "summarization": {
+        "a": "Panel (a) shows the etch rate vs modification-step duration for multiple materials. Al2O3, HfO2, and AlNx rise rapidly and peak near 6\u20138 seconds, and then fall afterwards. TiN remains essentially flat, while SiO2 increases over the full range.",
+        "b": "Panel (b) highlights only the materials that etch, showing the same rise,peak, decline trend with a maximum in the mid region."
+    },
+    "data_extraction": {
+        "a": "| Duration (s) | Etch rate (nm/cyc) | Material |\n| - | - | - |\n| 4 | ~0.10 | Al\u2082O\u2083 |\n| 8 | ~0.15 | Al\u2082O\u2083 |\n| 12 | ~0.13 | Al\u2082O\u2083 |\n| 4 | ~0.06 | HfO\u2082 |\n| 8 | ~0.10 | HfO\u2082 |\n| 12 | ~0.08 | HfO\u2082 |\n| 4 | ~0.16 | AlN\u2093 |\n| 8 | ~0.20 | AlN\u2093 |\n| 12 | ~0.18 | AlN\u2093 |\n| 4 | ~0.00 | TiN |\n| 8 | ~0.00 | TiN |\n| 12 | ~0.00 | TiN |\n| 4 | ~0.25 | SiO\u2082 |\n| 8 | ~0.60 | SiO\u2082 |\n| 12 | ~0.80 | SiO\u2082 |",
+        "b": "| Duration (s) | Etch rate (nm/cyc) | Material |\n| - | - | - |\n| 4 | ~0.13 | Al\u2082O\u2083 |\n| 8 | ~0.17 | Al\u2082O\u2083 |\n| 12 | ~0.14 | Al\u2082O\u2083 |\n| 4 | ~0.08 | HfO\u2082 |\n| 8 | ~0.12 | HfO\u2082 |\n| 12 | ~0.10 | HfO\u2082 |\n| 4 | ~0.18 | AlN\u2093 |\n| 8 | ~0.20 | AlN\u2093 |\n| 12 | ~0.16 | AlN\u2093 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the etch rate change with modification step duration for the materials  ?",
+                "answer_type": "Paragraph",
+                "answer": "For AL2O3, HFO2, and AINx, the etch rate rises rapidly and peaks around 6-8 seconds. It then falls off. TiN's etch rate remains low/inactive across the whole duration. SiO2's etc rate rises throughout the whole duration range."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which material shows the least/no etching under the conditions tested?",
+                "answer_type": "Factoid",
+                "answer": "a2: TiN"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Is the maximum etch rate for AINx higher than that of Al203",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which materials have an etch rate peak in the mid duration range?",
+                "answer_type": "List",
+                "answer": "Al2O3, HfO2, AINx"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

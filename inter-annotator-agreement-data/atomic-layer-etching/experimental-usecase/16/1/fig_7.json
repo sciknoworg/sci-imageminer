@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_7",
+    "classification": {
+        "a": "contour heatmap"
+    },
+    "summarization": {
+        "a": "This contour heatmap shows the Al\u2082O\u2083 etch rate distribution (nm/cycle) across the wafer in polar coordinates. The etch rate is highest at the wafer center (~0.139 nm/cycle) and decreases gradually toward the edge, reaching ~0.131\u20130.133 nm/cycle at a radius of ~3 cm. The distribution is largely concentric, with only weak azimuthal modulation visible as small lobes. Overall, the total radial variation is ~0.008 nm/cycle, indicating good etch uniformity."
+    },
+    "data_extraction": {
+        "a": "| Radius (cm) | Angle (\u00b0) | Etch rate (nm/cycle) |\n|-------------|-----------|----------------------|\n| 0.0 | 0   | ~0.139 |\n| 0.0 | 90  | ~0.139 |\n| 0.0 | 180 | ~0.139 |\n| 0.0 | 270 | ~0.139 |\n| 1.0 | 0   | ~0.137 |\n| 1.0 | 90  | ~0.136 |\n| 1.0 | 180 | ~0.136 |\n| 1.0 | 270 | ~0.137 |\n| 2.0 | 0   | ~0.135 |\n| 2.0 | 90  | ~0.134 |\n| 2.0 | 180 | ~0.134 |\n| 2.0 | 270 | ~0.135 |\n| 3.0 | 0   | ~0.132 |\n| 3.0 | 90  | ~0.132 |\n| 3.0 | 180 | ~0.132 |\n| 3.0 | 270 | ~0.132 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the etch rate decrease from the wafer center toward the edge?",
+                "answer_type": "Factoid",
+                "answer": "Yes, As radius increases from the center, the colors shift from warm to cooler colors, showing the etch rate decreases toward the edge."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What are the approximate maximum and minimum etch rates shown, and where do they occur?",
+                "answer_type": "Factoid",
+                "answer": "Max: 0.139 at  center.\nMin: 0.131 at outer rim."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How does radial position (0\u20133 cm) relate to the etch rate, and what azimuthal non-uniformities are visible?",
+                "answer_type": "Paragraph",
+                "answer": "The etch rate is highest near the center and decreases as radius increases. At r \u2248 1 cm , values fall to 0.138-0.139, indicating a steady radial gradient. Small azimuthal variations appear as lobes around [angles], but the overall pattern is mostly concentric. This shows a primary dependence on radial position with minor angle-to-angle variation."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "If a process requires an etch rate \u2265 0.136 nm/cycle, which wafer region satisfies this condition?",
+                "answer_type": "Paragraph",
+                "answer": "-Central region (r \u2272 1 cm): satisfies\n-Mid-radius (\u22481\u20132 cm): partially satisfies\n-Outer edge (r \u2273 2.5 cm): does not satisfy"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

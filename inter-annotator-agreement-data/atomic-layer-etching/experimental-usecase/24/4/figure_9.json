@@ -1,0 +1,49 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_9",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The chart shows the thickness of Al\u2082O\u2083 as a function of the number of cycles at two temperatures: a) 300\u00b0C and  b) 200\u00b0C. The thickness decreases with increasing cycles for both temperatures. In both cases the thicknesses measured by x-ray reflectivity (XRR) and spectroscopic ellipsometry (SE) agree with each other."
+    },
+    "data_extraction": {
+        "a": "| Number of Cycles | Al\u2082O\u2083 Thickness (\u00c5) at  300 \u00b0C | Al\u2082O\u2083 Thickness (\u00c5) at  200 \u00b0C. |\n|---|---|---|\n| 0    | 150  | 175 |\n| 50 | 135   | 150 |\n| 100 | 100 | 140 |\n| 200 | 50   |  90 |",
+        "b": "| Number of Cycles | Al\u2082O\u2083 Thickness (\u00c5) |\n|---|---|\n| 0 | 160 |\n| 50 | 120 |\n| 100 | 90 |\n| 200 | 50 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What are the initial thicknesses?",
+                "answer_type": "Paragraph",
+                "answer": "The initial Al2O3 films grown are\n1. At 300 \u00b0C, it is 141 \u00c5\n2. At 200 \u00b0C, it is 170 \u00c5"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Does SE and XRR measurement yield similar results?",
+                "answer_type": "Paragraph",
+                "answer": "The film thickness from XRR versus number of ALE cycles yields an etch rate of 0.46 \u00c5/cycle. Thenspectroscopic ellipsometry (SE) measurements on these same samples also yield an etch rate of 0.46 \u00c5/cycle. In addition, the etch rates determined by XRR and SE are similar to the etch rate obtained by the in situ QCM experiments at at 300 \u00b0C."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Why is the thickness from fitting of the data is higher than the initial observed thicknesses for 300 \u00b0C?",
+                "answer_type": "Factoid",
+                "answer": "These slightly larger thicknesses originate from the mass gain that occurs during the nucleation\nof the ALE process on the first ALE cycle."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Is there a linear dependence between the film thickness and number of ALE cycles ?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

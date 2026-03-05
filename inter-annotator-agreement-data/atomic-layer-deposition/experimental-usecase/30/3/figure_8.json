@@ -1,0 +1,79 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_8",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart",
+        "d": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The figure shows the magnetization versus external field curves of doped iron oxide films as-deposited (Mg/Fe=0.017) at various temperatures.",
+        "b": "The figure shows the magnetization versus external field curves of doped iron oxide films as-deposited (Mg/Fe=0.061) at various temperatures.",
+        "c": "The figure shows the magnetization versus external field curves of doped iron oxide films annealed (Mg/Fe=0.017) at various temperatures.",
+        "d": "The figure shows the magnetization versus external field curves of doped iron oxide films annealed (Mg/Fe=0.061) at various temperatures."
+    },
+    "data_extraction": {
+        "a": "| MM, emu/cm\u00b3 | 300 K | 200 K | 100 K | 50 K | 10 K | \n|---|---|---|---|---|---|\n| -7500 | - | - | - | - | - | \n| -5000 | -200 | -200 | -200 | -200 | -200 | \n| -2500 | -190 | -190 | -190 | -190 | -190 | \n| 0 | -150 | -150 | -150 | -150 | -150 | \n| 2500 | 190 | 190 | 190 | 190 | 190 | \n| 5000 | 200 | 200 | 200 | 200 | 200 | \n| 7500 | - | - | - | - | - |",
+        "b": "| MM, emu/cm\u00b3 | 300 K | 200 K | 100 K | 50 K | 10 K | \n|---|---|---|---|---|---|\n| -7500 | - | - | - | - | - | \n| -5000 | -500 | -500 | -500 | -500 | -500 | \n| -2500 | -490 | -490 | -490 | -490 | -490 | \n| 0 | -400 | -400 | -400 | -400 | -400 | \n| 2500 | 490 | 490 | 490 | 490 | 490 | \n| 5000 | 500 | 500 | 500 | 500 | 500 | \n| 7500 | - | - | - | - | - |",
+        "c": "| MM, emu/cm\u00b3 | 300 K | 200 K | 100 K | 50 K | 10 K | \n|---|---|---|---|---|---|\n| -7500 | - | - | - | - | - | \n| -5000 | -290 | -290 | -290 | -290 | -290 | \n| -2500 | -250 | -250 | -250 | -250 | -250 | \n| 0 | -180 | -180 | -180 | -180 | -180 | \n| 2500 | 250 | 250 | 250 | 250 | 250 | \n| 5000 | 290 | 290 | 290 | 290 | 290 | \n| 7500 | - | - | - | - | - |",
+        "d": "| MM, emu/cm\u00b3 | 300 K | 200 K | 100 K | 50 K | 10 K | \n|---|---|---|---|---|---|\n| -7500 | - | - | - | - | - | \n| -5000 | -290 | -300 | -300 | -300 | -300 | \n| -2500 | -260 | -270 | -270 | -270 | -270 | \n| 0 | -190 | -190 | -190 | -190 | -190 | \n| 2500 | 260 | 270 | 270 | 270 | 270 | \n| 5000 | 290 | 300 | 300 | 300 | 300 | \n| 7500 | - |-  | - | - | - |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the Hc value change between the as deposited and annealed samples when Fe/Mg=0.061?",
+                "answer_type": "Factoid",
+                "answer": "The Hc value is higher for the annealed samples than for the as-deposited one."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What film has the highest Hc value when Mg/Fe=0.061?",
+                "answer_type": "Factoid",
+                "answer": "The annealed film"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Which type of film and composition achieves the highest Hc value?",
+                "answer_type": "Factoid",
+                "answer": "Mg/Fe=0.017 and the film as-deposited"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the relation between the Hc value and the Mg content?",
+                "answer_type": "Factoid",
+                "answer": "As the Mg content increases, the Hc value tends to decrease."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_2",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart",
+        "c": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "X-ray diffraction patterns of as-deposited iron oxide films grown at 425 \u00b0C, consisting predominantly of hematite (\u03b1-Fe\u2082O\u2083). After forming gas annealing, the films transform mainly into magnetite (Fe\u2083O\u2084), with reflections indexed to both hematite and magnetite phases. [Top panel]",
+        "b": "XRD patterns of iron oxide films doped with a small amount of MgO (Mg/Fe \u2248 0.02), where the as-deposited films contain both hematite and magnetite. After forming gas annealing, the films convert primarily to magnetite or maghemite phases. [Middle panel]",
+        "c": "XRD patterns of iron oxide films with higher MgO doping (Mg/Fe \u2248 0.23), showing the absence of clear hematite reflections and peaks mainly corresponding to magnetite or maghemite phases, with peak shifts compared to lower Mg-doped films. [Bottom panel]"
+    },
+    "data_extraction": {
+        "a": "|2\u03b8 (degree)|Assigned Reflection|Phase|\n|-----------|------------------|-----|\n|24.2|012|Hematite (\u03b1-Fe\u2082O\u2083)|\n|33.2|104|Hematite (\u03b1-Fe\u2082O\u2083)|\n|35.5|311|Magnetite (Fe\u2083O\u2084)|\n|30.1|220|Magnetite (Fe\u2083O\u2084)|\n|43.1|400|Magnetite (Fe\u2083O\u2084)|\n|53.5|422|Magnetite (Fe\u2083O\u2084)|",
+        "b": "|2\u03b8 (degree)|Assigned Reflection|Phase|\n|-----------|------------------|-----|\n|24.2|012|Hematite (\u03b1-Fe\u2082O\u2083)|\n|33.2|104|Hematite (\u03b1-Fe\u2082O\u2083)|\n|30.1|220|Magnetite / Maghemite|\n|35.5|311|Magnetite / Maghemite|\n|43.1|400|Magnetite / Maghemite|\n|53.5|422|Magnetite / Maghemite|",
+        "c": "|2\u03b8 (degree)|Assigned Reflection|Phase|\n|-----------|------------------|-----|\n|30.1|220|Magnetite / Maghemite|\n|35.5|311|Magnetite / Maghemite|\n|43.1|400|Magnetite / Maghemite|\n|53.5|422|Magnetite / Maghemite|"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Why is understanding the phase composition in Mg-doped iron oxide films important for applications?",
+                "answer_type": "Paragraph",
+                "answer": "The phase composition directly affects the magnetic and electronic properties of the films. Hematite is weakly magnetic, while magnetite and maghemite are ferrimagnetic and can improve magnetic performance. Controlling the MgO doping and annealing conditions allows tailoring of these properties for applications such as magnetic storage, sensors, or catalysis."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What crystalline phases are observed in the XRD patterns for Fe\u2082O\u2083 and Fe\u2082O\u2083:MgO films?",
+                "answer_type": "List",
+                "answer": "Hematite (\u03b1-Fe\u2082O\u2083), Magnetite (Fe\u2083O\u2084), Maghemite (\u03b3-Fe\u2082O\u2083)"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does annealing (FGA) affect the phase composition of the iron oxide films?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does increasing MgO content affect the presence of hematite in the films?",
+                "answer_type": "Factoid",
+                "answer": "Higher MgO content reduces the clear presence of hematite and favors the formation of magnetite or maghemite."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

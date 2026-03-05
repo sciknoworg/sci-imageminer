@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_5",
+    "classification": {
+        "a": "multi-axis chart"
+    },
+    "summarization": {
+        "a": "The figure shows cumulative mass loss of Al\u2082O\u2083 as a function of time during sequential TMA/HF ALE at 250\u2013325 \u00b0C. At all temperatures, mass decreases approximately linearly over the plotted time window. Higher temperatures produce steeper mass-loss slopes, with the largest magnitude change observed at 325 \u00b0C. The secondary thickness axis mirrors the same monotonic trend."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | 250 C Mass Change  | 275 C Mass Change | 300 C Mass Change | 325 C Mass Change | 250 C Thickness (A)  | 275 C Thickness (A) | 300 C Thickness (A) | 325 C Thickness (A) | \n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | \n| 0    |   0  |   0  |   0  |   0  |   0  |  0   |  0   |  0   | \n| 2000 |  -50 | -250 | -450 | -750 |  -2  |  -8  |  -14 |  -20 |  \n| 4000 | -200 | -650 | -1000 | -1600 | -6 |  -20 |  -30 | -46  |  \n| 6000 | -400 | -1000 | -1500 | -2250 | -10 |  -30  |  -46  |  -70  |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What trend does the mass change follow with time at each temperature?",
+                "answer_type": "Paragraph",
+                "answer": "At each temperature, the mass decreases approximately linearly with time. The lines do not show curvature or abrupt changes over the plotted interval. This indicates a steady accumulation of mass loss during the process."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which two temperature curves remain closest together over time?",
+                "answer_type": "Factoid",
+                "answer": "The 250 \u00b0C and 275 \u00b0C curves remain closest together."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which plotted quantity directly represents cumulative material removal?",
+                "answer_type": "Factoid",
+                "answer": "Mass change on the left y-axis directly represents cumulative material removal."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is the secondary thickness axis useful alongside mass change?",
+                "answer_type": "Paragraph",
+                "answer": "The thickness axis provides an alternative way to interpret the same trend in length units. It allows readers to estimate film removal depth directly from the plot. This is useful for process planning without additional conversion."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

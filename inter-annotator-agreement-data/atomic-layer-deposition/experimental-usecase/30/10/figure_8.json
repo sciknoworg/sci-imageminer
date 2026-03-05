@@ -1,0 +1,79 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_8",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart",
+        "d": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The multiple line chart shows magnetic hysteresis loops of the as-deposited sample measured at different temperatures. As temperature increases, the loops narrow and the saturation magnetization decreases.",
+        "b": "The multiple line chart shows hysteresis loops for the Mg = 0.001 sample at different temperatures. Compared to the as-deposited sample, higher saturation magnetization and coercivity are observed, particularly at low temperature.",
+        "c": "The multiple line chart shows hysteresis loops for the Mg = 0.017 sample. The loops exhibit reduced coercivity and saturation magnetization with increasing temperature.",
+        "d": "The multiple line chart shows hysteresis loops for the Mg = 0.081 sample. The temperature-dependent narrowing of the loops indicates decreasing magnetic hardness at higher temperatures."
+    },
+    "data_extraction": {
+        "a": "| Temperature (K) | Hc (Oe) | Ms (emu/cm\u00b3) |\n| --------------- | ------- | ------------ |\n| 5               | ~250    | ~400         |\n| 100             | ~200    | ~350         |\n| 200             | ~150    | ~300         |\n| 300             | ~100    | ~250         |",
+        "b": "| Temperature (K) | Hc (Oe) | Ms (emu/cm\u00b3) |\n| --------------- | ------- | ------------ |\n| 5               | ~300    | ~600         |\n| 100             | ~250    | ~500         |\n| 200             | ~200    | ~400         |\n| 300             | ~150    | ~350         |",
+        "c": "| Temperature (K) | Hc (Oe) | Ms (emu/cm\u00b3) |\n| --------------- | ------- | ------------ |\n| 5               | ~200    | ~450         |\n| 100             | ~170    | ~400         |\n| 200             | ~130    | ~350         |\n| 300             | ~100    | ~300         |",
+        "d": "| Temperature (K) | Hc (Oe) | Ms (emu/cm\u00b3) |\n| --------------- | ------- | ------------ |\n| 5               | ~180    | ~450         |\n| 100             | ~150    | ~400         |\n| 200             | ~120    | ~350         |\n| 300             | ~90     | ~300         |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Which sample conditions show strong magnetic performance at low temperature?",
+                "answer_type": "List",
+                "answer": "The as-deposited sample ,The Mg = 0.001 doped sample ,The Mg = 0.017 doped sample."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Do all samples show ferromagnetic hysteresis at low temperature?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What quantity is plotted on the x-axis?",
+                "answer_type": "Factoid",
+                "answer": "Magnetic field (Oe)."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does temperature affect the magnetic hysteresis loops in these plots?",
+                "answer_type": "Paragraph",
+                "answer": "Increasing temperature reduces both the coercive field and the saturation magnetisation. The hysteresis loops become narrower at higher temperatures, indicating weaker magnetic ordering."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

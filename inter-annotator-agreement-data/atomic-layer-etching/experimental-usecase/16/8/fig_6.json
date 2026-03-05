@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_6",
+    "classification": {
+        "a": "scatter plot"
+    },
+    "summarization": {
+        "a": "The line chart illustrates the etch depth of various materials (Al\u2082O\u2083, HfO\u2082, AlNx, SiO\u2082, TiN) against the number of cycles. Each material's etch depth increases linearly with the number of cycles. For TiN, the increase is close to 0."
+    },
+    "data_extraction": {
+        "a": "| Cycles | Etch depth Al\u2082O\u2083, nm | Etch depth HfO\u2082, nm | Etch depth AlNx, nm | Etch depth SiO\u2082, nm | Etch depth TiN, nm |\n|---|---|---|---|---|---|\n| 15 | 2.2 | 1.6 | 2.8| 6.0 | 0 |\n| 20 | 3.8 | 2.4 | 4.5 | 11.7 | 0 |\n| 25 | 4.2 | 2.9 | 5.2 | 11.3 | 0.04 |\n| 30 | 5.3 | 3.3 | 6.2 | 20.7 | 0.08 |\n| 40 | 6.3 | 4.1 | 7.3 | 27.5 | 0.35 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which material would act as the most effective etch mask in this process, and why?",
+                "answer_type": "Paragraph",
+                "answer": "TiN would make the best mask. From the graph, its etch depth stays close to zero even after 40 cycles, meaning it is almost not etched at all. It can protect underlying layers while the other materials are removed."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "To reach the etch depth of 5 nm, approximately how many cycles would be needed for AlN?",
+                "answer_type": "Factoid",
+                "answer": "Approximately 24 - 25 cycles."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which materials exhibit the highest etch selectivity over TiN, listed in order from most to least selective?",
+                "answer_type": "List",
+                "answer": "SiO2, AlNx, Al2O3, HfO2."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which material demonstrates the most inconsistent etch behavior over repeated cycles?",
+                "answer_type": "Factoid",
+                "answer": "SiO2 (largest fluctuations in etch depth)."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

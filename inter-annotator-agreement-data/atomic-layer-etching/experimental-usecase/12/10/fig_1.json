@@ -1,0 +1,61 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_1",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "The multi-spectra chart shows absorbance spectra recorded over multiple cycles. The absorbance in the Al\u2013O related region increases progressively with cycle number, indicating cumulative surface modification during repeated processing cycles.",
+        "b": "The multi-spectra chart compares reference absorbance spectra for TMA referenced to SF\u2086 plasma and SF\u2086 plasma referenced to TMA at selected cycles. Differences in spectral features, particularly in the C\u2013H stretching region, highlight the distinct surface species present after each processing step."
+    },
+    "data_extraction": {
+        "a": "| Wavenumber (cm\u207b\u00b9) | Relative absorbance | Observation |\n| - | - | - |\n| ~1000 | Medium | Al\u2013O related band |\n| ~900  | Medium | Al\u2013O related band |\n| ~800  | Low \u2192 High | Absorbance increases with cycle number |",
+        "b": "| Wavenumber (cm\u207b\u00b9) | Relative absorbance | Reference condition |\n| - | - | - |\n| ~3700 | Low | TMA ref. to SF\u2086 plasma |\n| ~3300 | Medium | SF\u2086 plasma ref. to TMA |\n| ~3000 | Medium | C\u2013H stretching region |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Which spectral regions show notable changes in these absorbance spectra?",
+                "answer_type": "List",
+                "answer": "The Al\u2013O related band region, The C\u2013H stretching region"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the absorbance change with increasing cycle number ?",
+                "answer_type": "Paragraph",
+                "answer": "The absorbance increases with increasing cycle number, particularly in the Al\u2013O related region, indicating progressive accumulation or modification of surface species during repeated cycles."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What quantity is plotted on the x-axis in both panels?",
+                "answer_type": "Factoid",
+                "answer": "Wavenumber (cm\u207b\u00b9)."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Do the reference spectra differ depending on whether TMA or SF\u2086 plasma is used as the reference?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

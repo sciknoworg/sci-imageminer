@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_2",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The figure shows the deposition rate on various materials (Si, Al2O3, HfO2, AlN, TiN, SiO2) against the percentage of CF4 in the process.",
+        "b": "The figure illustrates the concentration of F, CF2, and CF radical species against the percentage of CF4 in the process."
+    },
+    "data_extraction": {
+        "a": "| v_{CF4} % | Si | Al2O3 | HfO2 | AlN | TiN | SiO2 |\n|---|---|---|---|---|---|---|\n| 3 | 1.5 | 3 | 3 | 3 | 2 | 0.5 |\n| 5 | 4 | 6 | 6 | 6 | 3 | 1.5 |\n| 7 | 5 | 5 | 5 | 6 | 1.5 | -3 |\n| 10 | 4 | 4.5 | 4 | 5 | -1 | -6 |\n| 13 | 2 | 3.5 | 4 | 4 | -0.5 | -5 |",
+        "b": "| v_{CF4} % | F | CF2 | CF |\n|---|---|---|---|\n| 3 | 7*10^12 | 2*10^10 | 10^10 |\n| 5 | 10^13 | 3*10^11 | 2*10^10 |\n| 7 | 3*10^13 | 10^11 | 3*10^10 |\n| 10 | 5*10^13 | 2*10^11 | 10^11 |\n| 13 | 10^14 | 2*10^11 | 10^11 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which materials are etched upon exposure to a plasma with more than 10% CF4 added to the plasma?",
+                "answer_type": "Factoid",
+                "answer": "The materials are TiN and SiO2"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which material should be used as substrate to have the highest film deposition rate?",
+                "answer_type": "Factoid",
+                "answer": "The material that should be used as substrate is AlNx"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "By adding more CF4 to the plasma composition can different starting substrates be identified?",
+                "answer_type": "Paragraph",
+                "answer": "An experiment can be designed such that initial thickness and final thickness can be determined after exposure to the plasma. Some materials thicknesses will decrease, others will increase."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which radical concentration has the highest dependence on CF4 concentration?",
+                "answer_type": "Factoid",
+                "answer": "The radical concentration of CF has the highest dependence on the CF4 concentration."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

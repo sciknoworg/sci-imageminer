@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_12",
+    "classification": {
+        "a": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays difference infrared absorption spectra at 300\u00b0C, highlighting the changes in CH3- and HF-related bands after TMA (a) and HF (b) exposures."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | Absorbance after TMA exposure | Absorbance after  HF exposure |\n|---|---|---|\n| 3500 |0 | 0 |\n| 2944 | 0.07 | - 0.09 |\n| 2913 | 0.07 |  - 0.08 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the role of HF based on the spectra?",
+                "answer_type": "Factoid",
+                "answer": "HF removes methyl (\u2013CH\u2083) species from the surface."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the role of TMA based on the spectra?",
+                "answer_type": "Factoid",
+                "answer": "TMA adds methyl (\u2013CH\u2083) groups to the surface"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Given that HF surface species are key intermediates for AlF\u2083 ALD, do these spectra at 300 \u00b0C indicate an ALD-like or ALE-like regime, and what specific spectral evidence supports your conclusion?",
+                "answer_type": "Paragraph",
+                "answer": "The spectra at 300 \u00b0C point to an ALE-like regime rather than AlF\u2083 ALD. The spectra indicate no clear change in the \u03bd(HF) region. If HF surface species are required intermediates for ALD, then the lack of a clear HF-related band suggests those HF species are not persisting on the surface, and the ALD pathway is not favored at this temperature."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the CH\u2083 absorbance changes indicate whether CH\u2083 builds up over repeated cycles or is removed each cycle?",
+                "answer_type": "Factoid",
+                "answer": "CH\u2083 doesn't accumulate over repeated cycles, based on the magnitude of the absorbance during each half-cycle."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

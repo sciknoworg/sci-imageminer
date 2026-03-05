@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_11",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart illustrates the change in the average oxidation state of manganese (Mn) as the amount of lithium cycles increases, showing a decreasing trend."
+    },
+    "data_extraction": {
+        "a": "| Amount of lithium cycles | Mn average oxidation state |\n|---|---|\n|MnO2 | 3.8 |\n|10 | 3.7 |\n|50 | 3.6 |\n|100 | 3.3 |\n|200 | 3.2 |\n|200+A | 3.1 |\n|300 | 2.9 |\n|300+A | 2.5 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the average oxidation of the starting material (MnO2)?",
+                "answer_type": "Factoid",
+                "answer": "+3.75."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the lowest average oxidation state of manganese obtained in this work?",
+                "answer_type": "Factoid",
+                "answer": "+2.5."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How come the lowest obtained oxidation state is \"unrealistically low\"?",
+                "answer_type": "Paragraph",
+                "answer": "Although the trend is as expected, the measured oxidation states are unrealistically low. However, in addition to the valence of the absorbing atom, structural variations, ligand type, geometry, coordination number, bond lengths, and the covalent or ionic character of the bonds are known to have effects on the chemical shifts in the absorption spectra, which might affect the results and cause the unrealistically low oxidation states. The very low oxidation states of 300cLi\u2212MnO2 and 300cLi\u2212MnO2-600 could arise from some unexpected behavior related to 300cLi\u2212 MnO2, which was also noticed earlier in the shape of the XAS spectrum."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the average manganese oxidation state for the LiMn2O4 reference sample?",
+                "answer_type": "Factoid",
+                "answer": "+3.5."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

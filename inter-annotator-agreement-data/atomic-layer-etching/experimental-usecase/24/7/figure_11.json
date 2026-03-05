@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_11",
+    "classification": {
+        "a": "spectra chart"
+    },
+    "summarization": {
+        "a": "The spectral chart represents the difference in the infrared absorbance spectra from 800 to 1300 cm\u207b\u00b9 of Al\u2082O\u2083 ALE carried out at 300 \u00b0C. The two spectral lines show the comparison of (blue) TMA and (red) HF exposures."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | Absorbance | Precursor |\n|-------------------:|-----------:|-----|\n| 1300               | 0.00       | TMA |\n| 1220               | +0.055     | TMA |\n| 1200               | +0.045     | TMA |\n| 1100               | 0.00       | TMA |\n| 1000               | 0.00       | TMA |\n| 900                | -0.055     | TMA |\n| 850                | -0.020     | TMA |\n| 800                | 0.00       | TMA |\n| 1300               | 0.00       | HF  |\n| 1220               | -0.055     | HF  |\n| 1200               | -0.045     | HF  |\n| 1100               | 0.00       | HF  |\n| 1000               | 0.00       | HF  |\n| 900                | +0.040     | HF  |\n| 850                | +0.020     | HF  |\n| 800                | 0.00       | HF  |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "List the correct order of steps for one full ALE cycle based on the spectral data. What is the purpose of the purge step between exposures?",
+                "answer_type": "List",
+                "answer": "1. HF exposure (fluorination)\n\n2. Purge\n\n3. TMA exposure (ligand exchange)\n\n4.  Purge\nThe purge removes volatile byproducts and unreacted precursors, preventing gas-phase reactions and ensuring each subsequent half-cycle begins with a clean, well-defined surface."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Compare the magnitude of the methyl peak gain (Blue) vs. the methyl peak loss (Red). They appear roughly symmetric. What would it imply for the process stability if the Red (loss) peak were only half the height of the Blue (gain) peak?",
+                "answer_type": "Paragraph",
+                "answer": "If the Red loss peak were smaller than the Blue gain peak, it would imply incomplete removal of methyl ligands during the HF step. This accumulation of organic residue would eventually contaminate the surface, blocking active sites and causing the etch rate to slow down or stop entirely over time (drift), rather than maintaining the constant rate required for manufacturing."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Compare this thermal ALE process using HF/TMA with a plasma-based ALE process for Al\u2082O\u2083. For etching ultra-thin films on temperature-sensitive substrates, which method is preferable and why?",
+                "answer_type": "Paragraph",
+                "answer": "Thermal ALE is preferable for temperature-sensitive substrates. It operates at a defined, moderate temperature (300\u00b0C) without ion bombardment, minimizing substrate damage and defect generation. Plasma ALE, while potentially faster, risks ion-induced damage and requires careful management of UV/VUV photon effects."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "The distinct, complementary spectral changes for each reactant confirm self-limiting reactions. What does this imply for using this ALE process to uniformly etch Al\u2082O\u2083 from deep, high-aspect-ratio trenches in 3D NAND memory?",
+                "answer_type": "Paragraph",
+                "answer": "This implies the process will be perfectly conformal in high-aspect-ratio structures. The self-limiting surface reactions ensure etching proceeds layer-by-layer uniformly on all exposed surfaces, regardless of geometry, enabling precise depth control and profile retention in complex 3D architectures."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

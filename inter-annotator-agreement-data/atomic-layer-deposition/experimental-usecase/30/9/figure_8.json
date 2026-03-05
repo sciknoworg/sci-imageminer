@@ -1,0 +1,81 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_8",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart",
+        "d": "multiple line chart"
+    },
+    "summarization": {
+        "a": "Magnetization versus external magnetic field curves showing the effect of Mg/Fe atomic ratio on the magnetic behavior of Mg-doped iron oxide thin films deposited at 375 \u00b0C. Increasing Mg content reduces the coercive field and initially enhances saturation magnetization, while higher Mg levels limit further improvement due to possible formation of secondary phases such as magnesioferrite.",
+        "b": "Magnetization hysteresis loops illustrating the influence of film thickness on magnetic performance, where variations in thickness affect saturation magnetization and coercivity under otherwise similar deposition conditions.",
+        "c": "Hysteresis parameters extracted from the magnetization curves, highlighting changes in coercive field and magnetic softness as a function of composition and post-deposition annealing in forming gas, with annealed films exhibiting more magnetite-like behavior and reduced coercivity.",
+        "d": "Magnetization curves measured at different temperatures, showing that lower measurement temperatures broaden the hysteresis loops and increase coercivity, while higher temperatures lead to softer magnetic behavior."
+    },
+    "data_extraction": {
+        "a": "|Mg/Fe atomic ratio|Magnetic field (Oe)|Magnetization (emu/cm\u00b3)|\n|------------------|-------------------|-----------------------|\n|-Hmax \u2192 +Hmax|Closed hysteresis loops|\u2014|\n|Mg/Fe = 0.000|Highest coercivity, moderate \u03bcS|\u2014|\n|Mg/Fe = 0.017|Reduced coercivity, increased \u03bcS|\u2014|\n|Mg/Fe = 0.062|Lowest coercivity, \u03bcS near maximum|\u2014|",
+        "b": "|Film thickness|Magnetic field (Oe)|Magnetization (emu/cm\u00b3)|\n|--------------|-------------------|-----------------------|\n|-Hmax \u2192 +Hmax|Thickness-dependent hysteresis loops|\u2014|\n|~260 nm|Higher coercivity|\u2014|\n|~425 nm|Reduced coercivity, higher \u03bcS|\u2014|\n|~411 nm|Lowest coercivity among thick films|\u2014|",
+        "c": "|Hysteresis parameters|Magnetic field (Oe)|Magnetization (emu/cm\u00b3)|\n|---------------------|-------------------|-----------------------|\n|10 K|Widest hysteresis loop, highest HC|\u2014|\n|100 K|Intermediate HC and \u03bcS|\u2014|\n|300 K|Narrowest loop, lowest HC|\u2014|",
+        "d": "|Measurement temperature|Magnetic field (Oe)|Magnetization (emu/cm\u00b3)|\n|-----------------------|-------------------|-----------------------|\n|As-deposited|Larger coercivity|\u2014|\n|FGA annealed|Reduced HC, increased loop symmetry|\u2014|\n|Overall trend|Annealing shifts curves toward magnetite-like behavior|\u2014|"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is controlling the Mg content important for tuning the magnetic performance of iron oxide thin films?",
+                "answer_type": "Paragraph",
+                "answer": "Adjusting the Mg content allows fine control over the balance between coercivity and saturation magnetization, which is crucial for practical magnetic applications. Moderate Mg doping can soften the magnetic response by lowering coercivity while maintaining or slightly improving magnetization, making the films more suitable for applications such as magnetic sensors or spintronic components. However, excessive Mg incorporation can introduce secondary phases like magnesioferrite, which limits further performance gains. This figure shows that careful compositional tuning, combined with annealing and temperature control, is essential for optimizing magnetic behavior."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which magnetic properties are directly influenced by Mg doping and thermal treatment in these films?",
+                "answer_type": "List",
+                "answer": "The main affected properties are the coercive field, Saturation magnetization, Loop shape of the hysteresis curves, Temperature dependence of magnetization"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does annealing the Mg-doped iron oxide films in forming gas modify their magnetic hysteresis behavior?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the overall trend in coercive field as the Mg/Fe atomic ratio increases in the films?",
+                "answer_type": "Factoid",
+                "answer": "The coercive field decreases as the Mg/Fe ratio increases."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

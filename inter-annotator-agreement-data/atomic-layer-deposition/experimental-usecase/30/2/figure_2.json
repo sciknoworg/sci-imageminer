@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_2",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "Grazing-incidence XRD patterns of an undoped Fe\u2082O\u2083 film grown at 425 \u00b0C (cycle sequence shown on-plot), comparing as-deposited to forming-gas annealed (FGA) states. The as-deposited pattern is indexed primarily to hematite (H), while after FGA the pattern shows magnetite-type (M) reflections (e.g., 220, 311, 400, 422) with a small but detectable shift between the nearby hematite 110 and magnetite 311 positions, consistent with reduction during annealing. PDF reference cards for H and M are given on the panel.",
+        "b": "GIXRD patterns of an Fe\u2082O\u2083:MgO film grown at 425 \u00b0C with low Mg incorporation (Mg/Fe \u2248 0.02) (growth cycle recipe shown), comparing as-deposited to FGA. Relative to the undoped case, the as-deposited film is described as mixed hematite + magnetite, and after FGA it shifts toward a magnetite/maghemite-like pattern (spinel-type reflections emphasized in the indexing).",
+        "c": "GIXRD patterns of an Fe\u2082O\u2083:MgO film grown at 425 \u00b0C with higher Mg incorporation (Mg/Fe \u2248 0.23) (growth cycle recipe shown), comparing as-deposited to FGA. With increased MgO cycling, the authors report that after annealing the film shows no unambiguous hematite reflections, with peak positions shifted toward those expected for magnetite/maghemite at slightly lower 2\u03b8, indicating Mg-assisted stabilization of the reduced/spinel-like phase content under FGA."
+    },
+    "data_extraction": {
+        "a": "| 2\u03b8 (degree) | As-deposited (Norm. Int.) | FGA (Norm. Int.) |\n|---|---|---|\n| 24.1 | 0.30 | 0.05 |\n| 30.1 | 0.05 | 0.15 |\n| 33.2 | 0.40 | 0.05 |\n| 35.6 | 1.00 | 1.00 |\n| 40.9 | 0.10 | 0.05 |\n| 43.1 | 0.15 | 0.15 |\n| 49.5 | 0.20 | 0.05 |\n| 54.1 | 0.25 | 0.05 |\n| 57.5 | 0.10 | 0.10 |\n| 62.5 | 0.35 | 0.45 |\n| 64.0 | 0.25 | 0.05 |",
+        "b": "| 2\u03b8 (degree) | As-deposited (Norm. Int.) | FGA (Norm. Int.) |\n|---|---|---|\n| 24.1 | 0.35 | 0.05 |\n| 30.1 | 0.15 | 0.25 |\n| 33.2 | 0.35 | 0.05 |\n| 35.6 | 1.00 | 1.00 |\n| 43.1 | 0.20 | 0.20 |\n| 49.5 | 0.15 | 0.05 |\n| 54.1 | 0.20 | 0.05 |\n| 57.0 | 0.10 | 0.15 |\n| 62.6 | 0.35 | 0.40 |\n| 64.0 | 0.20 | 0.05 |",
+        "c": "| 2\u03b8 (degree) | As-deposited (Norm. Int.) | FGA (Norm. Int.) |\n|---|---|---|\n| 24.1 | 0.05 | 0.05 |\n| 30.1 | 0.35 | 0.30 |\n| 35.6 | 1.00 | 1.00 |\n| 43.1 | 0.15 | 0.20 |\n| 54.1 | 0.05 | 0.05 |\n| 57.0 | 0.10 | 0.15 |\n| 62.6 | 0.40 | 0.40 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Why is it difficult to uniquely identify magnetite vs maghemite vs MgFe\u2082O\u2084-related spinel phases from these XRD patterns, and how are the peaks labeled in practice?",
+                "answer_type": "Paragraph",
+                "answer": "Many reflections in magnetite and maghemite coincide, and the maghemite reflection at 26.103\u00b0 (useful for distinguishing) is not apparent in most patterns, so XRD-only discrimination is not reliable here. In Mg-containing films, strong 220/311/400 reflections of MgFe\u2082O\u2084 can also overlap identically with magnetite, although the measured Mg/Fe ratios in these specific samples would not allow MgFe\u2082O\u2084 to be the major phase (it could still contribute). Because of this overlap, the reflections are denoted using magnetite indices as a reporting convention to emphasize differences from hematite."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What phase change does forming-gas annealing (FGA) induce in the undoped Fe\u2082O\u2083 film grown at 425 \u00b0C (panel a), according to the paper\u2019s interpretation?",
+                "answer_type": "Paragraph",
+                "answer": "The paper states that at 425 \u00b0C the as-deposited undoped film consists completely of hematite. After FGA, the diffraction pattern is interpreted as having turned into magnetite, evidenced by the appearance of characteristic 311, 220, 400, and 422 reflections and a small but detectable shift between the nearby hematite 110 and magnetite 311 peak positions. This is consistent with hydrogen-containing anneal conditions driving partial reduction of Fe(III) oxide toward Fe(II)/Fe(III) spinel-type oxide."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "In these GIXRD patterns, what do the subscripts H and M on the indexed reflections indicate, and how is that phase assignment supported on the panel?",
+                "answer_type": "Paragraph",
+                "answer": "H indicates reflections indexed to hematite (\u03b1-Fe\u2082O\u2083).\n\nM indicates reflections indexed to magnetite (Fe\u2083O\u2084).\n\nThe panel explicitly lists reference PDF card identifiers for hematite and magnetite used for indexing, supporting the phase assignment."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "In Fig. b (425 \u00b0C), how does the XRD-indicated phase content change as Mg content increases from Mg/Fe = 0 to 0.02 to 0.23, considering both as-deposited and FGA states?",
+                "answer_type": "Paragraph",
+                "answer": "At Mg/Fe = 0, the as-deposited film is reported as fully hematite, while after FGA it is reported to convert to magnetite, with characteristic 311, 220, 400, and 422 reflections and a small shift between hematite(110) and magnetite(311). At Mg/Fe \u2248 0.02 (MgO:Fe\u2082O\u2083 = 3:100), the as-deposited film is reported as a hematite + magnetite mixture, and after FGA it is reported to become magnetite/maghemite. At higher Mg loading (Mg/Fe \u2248 0.23, 20 MgO cycles), there are no unambiguous hematite reflections at least after annealing, because peak locations shift toward magnetite/maghemite at lower 2\u03b8."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

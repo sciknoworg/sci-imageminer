@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_6",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The figure shows the mass change over time at different temperatures (250\u00b0C, 275\u00b0C, 300\u00b0C, 325\u00b0C) on Al2O3 surface. The mass change increases sharply around 30 seconds and plateaus until 60 seconds, followed by a slight decrease. The figure also highlights the TMA and HF doses."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | 250\u00b0C | 275\u00b0C | 300\u00b0C | 325\u00b0C |\n|---|---|---|---|---|\n| 0 | 28 | 22 | 22 | 20 |\n| 30 | 30 | 25 | 30 | 24 |\n| 60 | 65 | 63 | 66 | 60 |\n| 90 | 60 | 45 | 40 | 20 |\n| 120 | 70 | 60 | 58 | 38 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How many cycles are being evaluated?",
+                "answer_type": "Factoid",
+                "answer": "2 cycles of sequential TMA and HF dosing."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "At which temperature is the mass loss higher?",
+                "answer_type": "Factoid",
+                "answer": "The mass change increase until 60 s, and then it shows a decrease in its values."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "At which temperature is the mass loss higher?",
+                "answer_type": "Factoid",
+                "answer": "325 \u00b0C"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which performance advantages are shown at higher temperatures?",
+                "answer_type": "Factoid",
+                "answer": "Higher temperatures result in a greater removal of AlF3 from the surface and greater fluorination of Al2O3."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_4",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The O K-edge spectra show clear shape differences between as-deposited and forming-gas-annealed films. Annealing sharpens the main peak around 533\u2013536 eV and slightly reduces intensity near the edge onset. Mg-containing films differ from non-doped ones, especially in the pre-edge region. Samples grown at 375 \u00b0C and 400 \u00b0C do not overlap fully, showing a temperature-dependent oxygen environment.",
+        "b": "The Fe L-edge spectra display strong changes in the L\u2083 multiplet region between ~709 and 715 eV. Increasing Mg content modifies the multiplet shape and relative peak intensities. Forming-gas annealing consistently alters the spectral fine structure, making features more defined. Differences between growth temperatures remain visible, indicating that Mg incorporation and annealing both affect the Fe electronic state."
+    },
+    "data_extraction": {
+        "a": "| Feature            | Photon energy (eV) | Interpretation |\n|--------------------|--------------------|----------------|\n| Edge onset         | ~529\u2013531           | O 1s \u2192 Fe 3d hybridized states |\n| Main peak          | ~533\u2013536           | O 2p\u2013Fe 3d/4s hybridization |\n| High-energy tail   | ~540\u2013550           | Extended O\u2013Fe coordination states |\n| Comparison basis   | \u2014                  | As-deposited vs FGA |",
+        "b": "| Feature            | Photon energy (eV) | Interpretation |\n|--------------------|--------------------|----------------|\n| Fe L\u2083 edge         | ~708\u2013712           | Fe 2p\u2083/\u2082 \u2192 3d transitions |\n| Multiplet features | ~709\u2013715           | Oxidation-state\u2013sensitive structure |\n| Fe L\u2082 edge         | ~721\u2013725           | Fe 2p\u2081/\u2082 \u2192 3d transitions |\n| Comparison basis   | \u2014                  | As-deposited vs FGA |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How do the O K-edge line shapes change between as-deposited and forming-gas-annealed spectra across samples (a)\u2013(e)?",
+                "answer_type": "Paragraph",
+                "answer": "Across all samples, forming-gas annealing sharpens the main O K-edge peak near ~533\u2013536 eV and slightly suppresses low-energy intensity near the edge onset. These changes indicate a redistribution of oxygen coordination environments rather than a rigid energy shift. The effect is strongest in Mg-containing films, suggesting annealing interacts with Mg-induced defect structures."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What trends are observed in the Fe L\u2083 multiplet structure as Mg/Fe ratio increases from non-doped to 100:10 samples?",
+                "answer_type": "Paragraph",
+                "answer": "-Increased multiplet broadening near ~709\u2013715 eV\n-Reduced peak asymmetry at higher Mg content\n-More pronounced differences between as-deposited and FGA states\n-Gradual redistribution of intensity between L\u2083 and L\u2082 regions"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which Fe L-edge feature is most sensitive to changes in oxidation state and local coordination?",
+                "answer_type": "Factoid",
+                "answer": "The Fe L\u2083 edge multiplet structure between ~709 and 715 eV."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What does the \"TFY\" label in the plot titles indicate about the measurement mode?",
+                "answer_type": "Factoid",
+                "answer": "It stands for Total Fluorescence Yield, which is a photon-in/photon-out detection method that typically probes the bulk of the film rather than just the surface."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

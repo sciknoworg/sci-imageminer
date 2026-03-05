@@ -1,0 +1,81 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig2",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart",
+        "d": "line chart"
+    },
+    "summarization": {
+        "a": "The graph shows the relationship between SF<sub>6</sub> plasma exposure time and EPC (etch per cycle) in \u00c5ngstr\u00f6ms.",
+        "b": "The graph illustrates the effect of plasma pump time on EPC  in \u00c5ngstr\u00f6ms.",
+        "c": "The graph depicts the impact of TMA dosing time on EPC in \u00c5ngstr\u00f6ms.",
+        "d": "The graph shows the influence of TMA pump time on EPC in \u00c5ngstr\u00f6ms."
+    },
+    "data_extraction": {
+        "a": "| SF<sub>6</sub> plasma time (s) | EPC (\u00c5) |\n|----------------------|---------|\n| 0                   | 0       |\n| 1                   | 2.5     |\n| 5                   | 3.0     |\n| 10                  | 3.2     |\n| 20                  | 3.4     |\n| 30                  | 3.5     |",
+        "b": "| Plasma pump time (s) | EPC (\u00c5) |\n|---------------|---------|\n| 5                    | 3    |\n| 10                   | 3     |\n| 20                   | 3     |\n| 30                   | 3     |",
+        "c": "| TMA dosing time (s) | EPC (\u00c5) |\n|---|---|\n| 0 | 0 |\n| 0.2 | 0.5 |\n| 0.4 | 2 |\n| 0.6 | 3 |\n| 0.8 | 3 |",
+        "d": "| TMA pump time (s) | EPC (\u00c5) |\n|---|---|\n| 0 | 3 |\n| 10 | 3 |\n| 20 | 3 |\n| 30 | 3 |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the etch per cycle (EPC) compare to literature?",
+                "answer_type": "Factoid",
+                "answer": "The measured EPC is higher than the literature results reported for thermal ALE of Al2O3 with HF/TMA at a comparable temperature."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What happens during shorter TMA doses?",
+                "answer_type": "Paragraph",
+                "answer": "The TMA dose saturates quickly for doses longer than 0.3 s. Doses shorter than 0.2 s were found to cause a negligible thickness change, which is likely related to the consumption of TMA by AlF3 deposition on the reactor walls (100 \u00b0C) that are at a lower temperature than the substrate holder (300 \u0002C). Previous work has shown that AlF3 ALD using SF6 plasma and TMA readily occurs at low temperatures. It is, therefore, likely that a significant amount of dosed TMA is adsorbed on the reactor walls before it can reach the substrate"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the SF6 plasma saturation curve show quasisaturation behavior ?",
+                "answer_type": "Paragraph",
+                "answer": "Yes, similar to the modification steps observed for many other ALE processes."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What can be said about plasma pump time?",
+                "answer_type": "Factoid",
+                "answer": "A minimum plasma pump steps of 10 s are sufficient to avoid a parasitic etching component"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

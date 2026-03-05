@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_1",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays difference IR spectra  for cycles 1 through 6, highlighting changes in absorbance in the Al-O vibration region.",
+        "b": "The figure compares difference IR spectra of the CH3 region for plasma and TMA half-cycles for cycles 2, 4, and 6."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | Absorbance  (arb. units): Cycle 1| Absorbance  (arb. units): Cycle 2| Absorbance  (arb. units): Cycle 3 | Absorbance  (arb. units): Cycle 4 | Absorbance  (arb. units): Cycle 5 | Absorbance  (arb. units:  Cycle 6|\n|---|---|---|---|---|---|---|\n| 1146 | 0.001 | 0.0008 | 0.0008 | 0.0006 | 0.0004 | 0.0001 |\n| 1000 | 0.002 | 0.0017 | 0.0018| 0.0017 | 0.0017 | 0.0015 |\n| 911 | -0.0006 | -0.0015 | -0.0019 | -0.0027 | -0.003 | -0.004 |\n| 871 | 0.0001 | -0.0009 | -0.0017 | -0.0027 | -0.004 | -0.005 |\n| 755  | -0.0003 |  -0.0003 | -0.0019 | -0.003 | -0.0045 | -0.0054 |",
+        "b": "| Cycle: Half-Cycle | Peak Wavenumbers (cm\u207b\u00b9) | Peak Absorbance (arb.units) | \n|---|---|---|\n| Cycle 2: TMA ref. to SF\u2086 plasma | 2950 |  0.0035 | \n| Cycle 2:  SF\u2086 plasma ref. to TMA | 2950 | -0.0037 | \n| Cycle 4: TMA ref. to SF\u2086 plasma | 2950 | 0.0033 | \n|Cycle 4:  SF\u2086 plasma ref. to TMA | 2950 | -0.0037 | \n|Cycle 6: TMA ref. to SF\u2086 plasma | 2950 |  0.0035 | \n|Cycle 6:  SF\u2086 plasma ref. to TMA | 2950 | -0.0038 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What does the change in Al-O region imply about what\u2019s happening to the Al\u2082O\u2083 film during cycling?",
+                "answer_type": "Paragraph",
+                "answer": "The Al\u2013O band shows a progressive decrease in absorbance from cycle 1 to cycle 6. This indicates a reduction in Al\u2013O\u2013containing material relative to the initial film. The monotonic decline is consistent with cumulative etching of Al\u2082O\u2083 over successive cycles."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the role of TMA during cycling? What supports this conclusion?",
+                "answer_type": "Paragraph",
+                "answer": "TMA methylates the surface of the film. It is indicated by the appearance of Al\u2013CH\u2083 bands after the TMA step. These Al\u2013CH\u2083 features are not present after the SF\u2086 plasma half-step, showing that the methyl species are not coming from the plasma exposure."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "After TMA exposure, which new species appear in the spectrum?",
+                "answer_type": "Factoid",
+                "answer": "Methyl-groups."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Are methyl-groups being accumulated on the surface upon cycling?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

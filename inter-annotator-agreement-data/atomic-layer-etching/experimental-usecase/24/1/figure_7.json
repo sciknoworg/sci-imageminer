@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_7",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart"
+    },
+    "summarization": {
+        "a": "At 250 \u00b0C, the mass\u2013time trace shows small stepwise mass changes during sequential TMA and HF exposures, resulting in a modest net mass decrease per cycle.",
+        "b": "At 275 \u00b0C, the step magnitudes are larger than at 250 \u00b0C, with clearer separation between mass increases and decreases within each cycle.",
+        "c": "At 325 \u00b0C, the trace exhibits the largest step amplitudes and the most negative net mass change per cycle, indicating stronger temperature dependence of the measured mass response."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 6115 | -323 |\n| 6240 | -329 |\n| 6265 | -340 |\n| 6290 | -332 |",
+        "b": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 6115 | -960 |\n| 6240 | -964 |\n| 6260 | -984 |\n| 6290 | -976 |",
+        "c": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 6115 | -2250 |\n| 6240 | -2259 |\n| 6260 | -2301 |\n| 6290 | -2280 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the magnitude of the mass change per cycle (MCPC) at 325\u00b0C compare to the lower temperatures?",
+                "answer_type": "Paragraph",
+                "answer": "The mass change per cycle is significantly larger at 325\u00b0C compared to the results at 250\u00b0C and 275\u00b0C. The steps in panel (c) are much more pronounced, spanning a range of over 60 ng/cm\u00b2 within a single cycle, whereas the changes at lower temperatures are much smaller. This indicates a strong temperature dependence of the process."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What do the individual step-like changes in the mass signal represent?",
+                "answer_type": "Paragraph",
+                "answer": "The step-like changes correspond to the alternating exposures of the surface to the TMA and HF precursors. Each precursor introduction causes a distinct surface reaction, resulting in a measurable change in the mass of the sample. The mass then remains relatively stable until the next precursor is introduced, creating the stepwise pattern."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is the repeatable nature of the mass change steps over multiple cycles important for an ALE process?",
+                "answer_type": "Paragraph",
+                "answer": "The consistency of the mass change steps from one cycle to the next indicates a highly controlled and self-limiting process. This repeatability is crucial for ALE, as it ensures that a precise and predictable amount of material is removed in each cycle, allowing for accurate control over the final etch depth."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What does the sharp drop in mass, indicated by the HF arrow, suggest about the surface reaction?",
+                "answer_type": "Factoid",
+                "answer": "The sharp drop suggests a rapid removal of material from the surface during the HF exposure step, which is consistent with an etching process."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

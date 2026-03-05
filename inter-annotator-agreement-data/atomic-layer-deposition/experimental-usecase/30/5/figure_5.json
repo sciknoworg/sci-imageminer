@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_5",
+    "classification": {
+        "a": "spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays Fe 2p XAS  spectra for Fe\u2082O\u2083:MgO thin films grown at 425 \u00b0C, comparing non-doped samples with those doped with Mg at different concentrations."
+    },
+    "data_extraction": {
+        "a": "| photon energy, eV | non-doped | Mg 0.02 at.% | Mg 0.2 at.% | Mg 0.38 at.% |\n|---|---|---|---|---|\n| 700 | no peak |no peak |no peak |no peak |\n| 710 | High double peak| High double peak|High doublepeak|High double peak|\n| 720 | Broad double peak|Broad double peak|Broad double peak|Broad double peak|\n| 730 | no peak |no peak |no peak |no peak |\n| 740 | no peak |no peak |no peak |no peak |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Is there an effect of dopant level on the binding state of iron?",
+                "answer_type": "Paragraph",
+                "answer": "Based on the peak positions and the lack of shifts it seems that the doping does not have an effect."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Based on the given spectra, does doping with magnesium give different films?",
+                "answer_type": "Yes/No",
+                "answer": "No the spectra do not show this"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the minimum number of peak contributions that can be identified in the peak around 710 eV?",
+                "answer_type": "Paragraph",
+                "answer": "The minimum number of peaks that can be identified is three. There are the two sharp peaks and the should on the right hand side."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Could XAS be used to determine the stoichiometry of the grown films?",
+                "answer_type": "Paragraph",
+                "answer": "It is possible to use mathematical formulas to determine the iron and oxygen percentages in the film, based on physical constants."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

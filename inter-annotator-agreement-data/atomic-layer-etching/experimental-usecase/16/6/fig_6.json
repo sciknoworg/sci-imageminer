@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_6",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart illustrates the etch depth of various materials (Al\u2082O\u2083, HfO\u2082, AlNx, SiO\u2082, TiN) against the number of cycles. Each material's etch depth increases linearly with the number of cycles."
+    },
+    "data_extraction": {
+        "a": "| cycles | Al\u2082O\u2083 | HfO\u2082 | AlNx | SiO\u2082 | TiN |\n|---|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 | 0 |\n| 10 | 1 | 1 | 1 | 1 | 1 |\n| 20 | 2 | 2 | 2 | 2 | 2 |\n| 30 | 3 | 3 | 3 | 3 | 3 |\n| 40 | 4 | 4 | 4 | 4 | 4 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What were the durations of the modification and activation steps in the optimized process?",
+                "answer_type": "Factoid",
+                "answer": "10 seconds for both steps each."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What were the etch rates per cycle for Al2O3, AlNx, and HfO2?",
+                "answer_type": "Factoid",
+                "answer": "0.16, 0.20, and 0.11 nm per cycle, respectively."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What were the selectivity ratios of Al2O3, AlNx and HfO2 etching over TiN?",
+                "answer_type": "Factoid",
+                "answer": "About 30, 40, and 20, respectively."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How do the measured etch rates demonstrate atomic-level precision?",
+                "answer_type": "Factoid",
+                "answer": "The measured etch rates for Al2O3, AlNx and HfO2 are comparable to the Al-O bond length of 0.169 nm, which means that the ALE process has close to single-atom precision."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

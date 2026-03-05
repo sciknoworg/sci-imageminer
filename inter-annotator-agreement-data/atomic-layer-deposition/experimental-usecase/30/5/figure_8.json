@@ -1,0 +1,79 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_8",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart",
+        "d": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The figure shows hysteresis loops of as-deposited magnetic iron oxide at a dopant level of Mg/Fe = 0.017 at various temperatures.",
+        "b": "The figure shows hysteresis loops of as-deposited magnetic iron oxide at a dopant level of Mg/Fe = 0.061 at various temperatures.",
+        "c": "The figure shows hysteresis loops of annealed magnetic iron oxide at a dopant level of Mg/Fe = 0.017 at various temperatures.",
+        "d": "The figure shows hysteresis loops of annealed magnetic iron oxide at a dopant level of Mg/Fe = 0.061 at various temperatures."
+    },
+    "data_extraction": {
+        "a": "| Magnetic field, Oe | M, emu/cm\u00b3 10 K | M, emu/cm\u00b3 50 K |M, emu/cm\u00b3 100 K |M, emu/cm\u00b3 200 K |M, emu/cm\u00b3 300 K |\n|---|---|---|---|---|---|\n|-5000|-200|-200|-200|-200|-200|\n|-2500|-175|-175|-175|-175|-175|\n|-2000|-160|-175|-175|-175|-175|\n|-1500|-150|-160|-175|-175|-175|\n|-1000|0|-50|-100|-150|-150|\n|-500|150|150|150|125|100|\n|0|150|150|150|125|125|\n|500|150|150|150|150|150|\n|1000|160|160|160|160|160|\n|1500|175|175|175|175|175|\n|2000|175|175|175|175|175|\n|2500|175|175|175|175|175|\n|5000|200|200|200|200|200|",
+        "b": "| Magnetic field, Oe | M, emu/cm\u00b3 10 K | M, emu/cm\u00b3 50 K |M, emu/cm\u00b3 100 K |M, emu/cm\u00b3 200 K |M, emu/cm\u00b3 300 K |\n|---|---|---|---|---|---|\n|-5000|-500|-500|-500|-500|-500|\n|-2500|-500|-500|-500|-500|-500|\n|-2000|-500|-500|-500|-500|-500|\n|-1500|-450|-450|-450|-450|-450|\n|-1000|-450|-450|-450|-450|-450|\n|-500|0|-100|-200|-300|-400|\n|0|300|300|300|300|300|\n|500|400|400|400|400|400|\n|1000|425|425|425|425|425|\n|1500|450|450|450|450|450|\n|2000|450|450|450|450|450|\n|2500|500|500|500|500|500|\n|5000|500|500|500|500|500|",
+        "c": "| Magnetic field, Oe | M, emu/cm\u00b3 10 K | M, emu/cm\u00b3 50 K |M, emu/cm\u00b3 100 K |M, emu/cm\u00b3 200 K |M, emu/cm\u00b3 300 K |\n|---|---|---|---|---|---|\n|-5000|-275|-275|-275|-275|-275|\n|-2500|-250|-250|-250|-250|-250|\n|-2000|-250|-250|-250|-250|-250|\n|-1500|-225|-225|-225|-225|-225|\n|-1000|-175|-200|-225|-225|-225|\n|-500|125|100|100|100|100|\n|0|175|175|175|175|175|\n|500|200|200|200|200|200|\n|1000|225|225|225|225|225|\n|1500|225|225|225|225|225|\n|2000|250|250|250|250|250|\n|2500|250|250|250|250|250|\n|5000|300|300|300|300|300|",
+        "d": "| Magnetic field, Oe | M, emu/cm\u00b3 10 K | M, emu/cm\u00b3 50 K |M, emu/cm\u00b3 100 K |M, emu/cm\u00b3 200 K |M, emu/cm\u00b3 300 K |\n|---|---|---|---|---|---|\n|-5000|-275|-275|-275|-275|-275|\n|-2500|-250|-250|-250|-250|-250|\n|-2000|-250|-250|-250|-250|-250|\n|-1500|-250|-250|-250|-250|-250|\n|-1000|-250|-250|-250|-250|-250|\n|-500|-225|-225|-225|-225|-225|\n|0|200|200|200|200|200|\n|500|225|225|225|225|225|\n|1000|225|225|225|225|225|\n|1500|225|225|225|225|225|\n|2000|250|250|250|250|250|\n|2500|250|250|250|250|250|\n|5000|300|300|300|300|300|"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What is the effect of dopant level on the magnetic properties of the film?",
+                "answer_type": "Paragraph",
+                "answer": "The as-deposited films show that with increasing dopant level the saturated magnetization increases significantly, whilst the Hc parameter decreases."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What effect does annealing of the samples have on the saturation magnetization?",
+                "answer_type": "Paragraph",
+                "answer": "The annealing seems to have the effect to create films with roughly the same saturation magnetization, even if the as-deposited films deviate from this level."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What influence does measurement temperature have on the hysteresis parameter Hc?",
+                "answer_type": "Paragraph",
+                "answer": "The hysteresis parameter Hc seems to decrease for increasing measurement temperature. This is seen in all subfigures, however the trend is less big for the highly doped films."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the value of Hc at 10 K?",
+                "answer_type": "Factoid",
+                "answer": "The Hc is 1500 Oe."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_5",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The chart shows the etch rate of various materials (Al2O3, HfO2, AlNx, TiN, SiO2) against the activation step duration. At the start, film deposition takes place but after activation step of 5s, the etch rate increases with time for all materials except TiN, which shows very low etching."
+    },
+    "data_extraction": {
+        "a": "| Activation Duration (s) | Al\u2082O\u2083 | HfO\u2082 | AlN\u2093 | SiO\u2082 | TiN |\n|---|---|---|---|---|---|\n| 0 | -0.5 | -0.5 | -0.6 | -0.6 | -0.4 |\n| 5 | 0.05 | 0.05 | 0.05 | 0.4 | -0.02 |\n| 10 | 0.18 | 0.1 | 0.18 | 0.58 | -0.01 |\n| 20 | 0.24 | 0.15 | 0.24 | 0.73 | 0.02 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How long after the activation step does it take for the materials to start getting etched?",
+                "answer_type": "Paragraph",
+                "answer": "After 5s of activation steps, the etch rate begins to increase for all materials except TiN"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the etch rate of TiN increase?",
+                "answer_type": "Paragraph",
+                "answer": "No, the etch rate remains low and only goes up to 0.02nm/cycle after 20s of activation steps"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Do any of the materials exhibit similar trend in terms of etch rate vs activation steps?",
+                "answer_type": "Paragraph",
+                "answer": "Yes, Al2O3 and AlN show similar behaviour in etch rate vs activation steps and also have similar etch rates."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which material requires the least activation step?",
+                "answer_type": "Paragraph",
+                "answer": "SiO2 requires the least number of activation as the etch rate increases after ~2.5s of activation step duration."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

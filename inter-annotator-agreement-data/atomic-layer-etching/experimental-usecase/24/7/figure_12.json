@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_12",
+    "classification": {
+        "a": "spectra chart"
+    },
+    "summarization": {
+        "a": "The spectral chart represents the difference in the infrared absorbance spectra from 2500 to 4000 cm\u207b\u00b9 of Al\u2082O\u2083 ALE carried out at 300 \u00b0C. The two spectral lines show the comparison of (blue) TMA and (red) HF exposures."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | Absorbance | Precursor |\n|-------------------:|-----------:|-----|\n| 4000               | 0.000      | TMA |\n| 3750               | 0.000      | TMA |\n| 3500               | 0.000      | TMA |\n| 3250               | 0.000      | TMA |\n| 3050               | 0.008      | TMA |\n| 3000               | 0.010      | TMA |\n| 2950               | 0.008      | TMA |\n| 2750               | 0.001      | TMA |\n| 2500               | 0.000      | TMA |\n| 4000               | 0.000      | HF  |\n| 3750               | -0.001     | HF  |\n| 3500               | -0.002     | HF  |\n| 3250               | -0.003     | HF  |\n| 3050               | -0.008     | HF  |\n| 3000               | -0.012     | HF  |\n| 2950               | -0.010     | HF  |\n| 2750               | -0.004     | HF  |\n| 2500               | -0.002     | HF  |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "During in-situ FTIR monitoring of ALE, what specific surface change is measured immediately after the TMA exposure step in this spectral range?",
+                "answer_type": "Paragraph",
+                "answer": "The FTIR measures the appearance of new C\u2013H stretching vibrations (\u03bd\u2090\u209b,\u209b(CH\u2083)) from methyl groups deposited by TMA. This confirms the ligand-exchange reaction where TMA replaces surface fluorides with \u2013CH\u2083, a critical step in forming volatile etch products."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Contrast using in-situ FTIR (as shown) with using Quartz Crystal Microbalance (QCM) for monitoring Al\u2082O\u2083 ALE. Which method provides direct chemical bonding information, and what is a limitation?",
+                "answer_type": "Paragraph",
+                "answer": "FTIR provides direct chemical bonding information, identifying specific surface species like Al\u2013CH\u2083 and adsorbed HF. A limitation is that it requires specialized transparent substrates or particles, whereas QCM works on any thin film but only measures mass change, not chemistry."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What does the presence of the \u03bd(HF) feature in the HF exposure spectrum indicate about the state of the HF reactant upon surface interaction?",
+                "answer_type": "Paragraph",
+                "answer": "The \u03bd(HF) feature indicates that molecular HF adsorbs onto the Al\u2082O\u2083 surface before dissociating. This adsorbed precursor state is essential for the subsequent fluorination reaction that converts surface Al\u2013O bonds to Al\u2013F bonds, enabling the etching mechanism."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "The distinct, reversible spectral features for each half-cycle confirm self-limiting reactions. Does this guarantee that the ALE process will selectively remove Al\u2082O\u2083 without etching an underlying SiO\u2082 layer in a stack?",
+                "answer_type": "Yes/No",
+                "answer": "No, While the self-limiting mechanism is confirmed, selectivity depends on the relative reactivity of HF/TMA with Al\u2082O\u2083 versus SiO\u2082. The spectra alone don't prove selectivity; a separate experiment comparing etch rates on both materials is required to guarantee selective removal."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_8",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "line chart"
+    },
+    "summarization": {
+        "a": "The plot shows temperature-dependent mass changes during individual TMA and HF exposures in Al\u2082O\u2083 ALE. As temperature increases, \u0394M_TMA becomes more negative, while \u0394M_HF increases to larger positive values.",
+        "b": "The net mass change per cycle (MCPC) becomes progressively more negative with increasing temperature, showing a monotonic trend across the measured range."
+    },
+    "data_extraction": {
+        "a": "| Temperature (\u00b0C) | \u0394M_TMA (ng/(cm\u00b2\u00b7cycle)) | \u0394M_HF (ng/(cm\u00b2\u00b7cycle)) |\n|------------------:|------------------------:|-----------------------:|\n| 250 | ~-12 | ~6  |\n| 275 | ~-20 | ~10 |\n| 300 | ~-28 | ~14 |\n| 325 | ~-40 | ~18 |",
+        "b": "| Temperature (\u00b0C) | MCPC (ng/(cm\u00b2\u00b7cycle)) |\n|------------------:|----------------------:|\n| 250 | ~-5  |\n| 275 | ~-11 |\n| 300 | ~-16 |\t\n| 325 | ~-24 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How do the \u0394M_TMA and \u0394M_HF trends compare across temperature?",
+                "answer_type": "Paragraph",
+                "answer": "\u0394M_TMA and \u0394M_HF change in opposite directions with increasing temperature. \u0394M_TMA becomes more negative, indicating greater mass loss during the TMA step, while \u0394M_HF becomes more positive, indicating greater mass gain during the HF step. Together, these opposing trends influence the net mass change per cycle."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which temperature yields the largest \u0394M_HF value?",
+                "answer_type": "Factoid",
+                "answer": "325 \u00b0C yields the largest \u0394M_HF value."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What does a more negative MCPC indicate in this figure?",
+                "answer_type": "Factoid",
+                "answer": "It indicates a larger net mass loss per ALE cycle."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Given the strong temperature dependence of MCPC shown in panel (b), why is temperature control critical for this ALE process?",
+                "answer_type": "Paragraph",
+                "answer": "Since the etch rate per cycle (MCPC) changes significantly with temperature, small variations in temperature across a wafer would lead to different amounts of material being removed. Therefore, precise and uniform temperature control is essential to achieve uniform etching depths and consistent device performance across the entire substrate."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_7",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart",
+        "d": "stacked spectra chart",
+        "e": "stacked spectra chart",
+        "f": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "Mn L-edge XANES at 45\u00b0 shows clear L\u2083 and L\u2082 features for MnO\u2082 and lithiated samples. Marker lines indicate Mn\u00b3\u207a and Mn\u2074\u207a reference positions. With increasing lithiation (100c \u2192 300c), the main L\u2082 peak shifts slightly toward the Mn\u00b3\u207a side. This points to partial reduction of Mn upon lithiation.",
+        "b": "O K-edge spectra at 45\u00b0 show a main low-energy peak and a higher-energy shoulder. The lithiated samples track closer to the MnO\u2082 reference but show subtle intensity changes near the Mn\u00b3\u207a marker. These changes are consistent across 100c, 200c, and 300c samples. The overall lineshape suggests modified Mn\u2013O hybridization after lithiation.",
+        "c": "Mn L-edge spectra of MnO\u2082 collected at 0.5\u00b0, 1\u00b0, and 45\u00b0 show angle-dependent intensity changes. The surface-sensitive spectra (0.5\u00b0) emphasize Mn\u00b3\u207a-related features more strongly than the bulk-sensitive 45\u00b0 scan. Peak positions remain fixed, but relative intensities change. This indicates a more reduced Mn state near the surface.",
+        "d": "O K-edge spectra of MnO\u2082 also vary with incident angle. The low-energy peak becomes relatively stronger at shallow angles. This suggests altered oxygen coordination or bonding near the surface. Bulk-sensitive spectra show a more MnO\u2082-like response.",
+        "e": "Mn L-edge spectra of 300cLi\u2013MnO\u2082 show similar angle-dependent behavior but with stronger Mn\u00b3\u207a contributions overall. Even at 45\u00b0, the Mn\u00b3\u207a marker region is more pronounced than in pristine MnO\u2082. This indicates that lithiation affects both surface and bulk Mn states.",
+        "f": "O K-edge spectra of 300cLi\u2013MnO\u2082 show enhanced low-energy features at shallow angles. The surface-sensitive scans differ clearly from the bulk response. Compared to MnO\u2082, the lithiated film shows stronger surface modification of the O-related states."
+    },
+    "data_extraction": {
+        "a": "| Trace | Feature | Energy (eV) |\n|---|---|---|\n| (all traces) | Mn3+ marker line | ~641.1 |\n| (all traces) | Mn4+ marker line | ~644.5 |\n| MnO2 (solid black) | LII main peak (maximum) | ~654.6 |\n| 100cLi\u2013MnO2 (green) | LII main peak (maximum) | ~654.4 |\n| 200cLi\u2013MnO2 (orange) | LII main peak (maximum) | ~654.2 |\n| 300cLi\u2013MnO2 (yellow) | LII main peak (maximum) | ~654.0 |\n| LiMn2O4 ref. (dashed) | LII main peak (maximum) | ~655.5 |\n| Mn2O3 ref. (dash-dot) | LII main peak (maximum) | ~653.6 |\n| MnO2 ref. (dotted) | LII main peak (maximum) | ~654.8 |",
+        "b": "| Trace | Feature | Energy (eV) |\n|---|---|---|\n| (all traces) | Mn4+ marker line (left) | ~529.4 |\n| (all traces) | Mn3+ marker line (center) | ~531.1 |\n| (all traces) | Mn4+ marker line (right) | ~531.9 |\n| MnO2 (solid black) | main peak (left maximum) | ~529.5 |\n| MnO2 (solid black) | shoulder/peak (right) | ~532.0 |\n| 100cLi\u2013MnO2 (green) | main peak (left maximum) | ~529.6 |\n| 100cLi\u2013MnO2 (green) | shoulder/peak (right) | ~532.0 |\n| 200cLi\u2013MnO2 (orange) | main peak (left maximum) | ~529.6 |\n| 200cLi\u2013MnO2 (orange) | shoulder/peak (right) | ~532.0 |\n| 300cLi\u2013MnO2 (yellow) | main peak (left maximum) | ~529.7 |\n| 300cLi\u2013MnO2 (yellow) | shoulder/peak (right) | ~532.0 |",
+        "c": "| Take-off angle | Feature | Energy (eV) |\n|---|---|---|\n| (all angles) | Mn3+ marker line | ~641.1 |\n| (all angles) | Mn4+ marker line | ~644.5 |\n| 45\u00b0 | LIII main peak (maximum) | ~641.8 |\n| 1\u00b0 | LIII main peak (maximum) | ~641.8 |\n| 0.5\u00b0 | LIII main peak (maximum) | ~641.8 |",
+        "d": "| Take-off angle | Feature | Energy (eV) |\n|---|---|---|\n| (all angles) | Mn4+ marker line (left) | ~529.4 |\n| (all angles) | Mn3+ marker line (center) | ~531.1 |\n| (all angles) | Mn4+ marker line (right) | ~531.9 |\n| 45\u00b0 | main peak (left maximum) | ~529.5 |\n| 45\u00b0 | shoulder/peak (right) | ~532.0 |\n| 1\u00b0 | main peak (left maximum) | ~529.5 |\n| 1\u00b0 | shoulder/peak (right) | ~532.0 |\n| 0.5\u00b0 | main peak (left maximum) | ~529.5 |\n| 0.5\u00b0 | shoulder/peak (right) | ~532.0 |",
+        "e": "| Take-off angle | Feature | Energy (eV) |\n|---|---|---|\n| (all angles) | Mn3+ marker line | ~641.1 |\n| (all angles) | Mn4+ marker line | ~644.5 |\n| 45\u00b0 | LIII main peak (maximum) | ~641.8 |\n| 1\u00b0 | LIII main peak (maximum) | ~641.8 |\n| 0.5\u00b0 | LIII main peak (maximum) | ~641.8 |",
+        "f": "| Take-off angle | Feature | Energy (eV) |\n|---|---|---|\n| (all angles) | Mn4+ marker line (left) | ~529.4 |\n| (all angles) | Mn3+ marker line (center) | ~531.1 |\n| (all angles) | Mn4+ marker line (right) | ~531.9 |\n| 45\u00b0 | main peak (left maximum) | ~529.6 |\n| 45\u00b0 | shoulder/peak (right) | ~532.0 |\n| 1\u00b0 | main peak (left maximum) | ~529.6 |\n| 1\u00b0 | shoulder/peak (right) | ~532.0 |\n| 0.5\u00b0 | main peak (left maximum) | ~529.6 |\n| 0.5\u00b0 | shoulder/peak (right) | ~532.0 |"
+    },
+    "vqa": {
+        "f": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What does the difference between surface-sensitive and bulk-sensitive O K-edge spectra indicate in 300cLi\u2013MnO\u2082?",
+                "answer_type": "Paragraph",
+                "answer": "The divergence between shallow- and high-angle spectra indicates depth-dependent modification of oxygen electronic states. Surface regions show stronger deviations from the bulk response. This reflects altered Mn\u2013O bonding near the surface after lithiation."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does reducing the incident angle from 45\u00b0 to 0.5\u00b0 change the probing depth in Mn L-edge XANES?",
+                "answer_type": "Paragraph",
+                "answer": "Lower incident angles increase surface sensitivity because the X-ray penetration depth is reduced before significant attenuation occurs. As a result, spectra collected at 0.5\u00b0 emphasize near-surface electronic states. Higher angles such as 45\u00b0 probe deeper into the film and are more representative of bulk behavior."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the Mn L-edge L\u2082 peak position change from MnO\u2082 to 300cLi\u2013MnO\u2082 at 45\u00b0 incidence?",
+                "answer_type": "Factoid",
+                "answer": "The L\u2082 peak shifts slightly toward lower energy with increasing lithiation."
+            }
+        ],
+        "e": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is it performance-relevant that Mn\u00b3\u207a contributions persist even at 45\u00b0 in 300cLi\u2013MnO\u2082?",
+                "answer_type": "Paragraph",
+                "answer": "-Indicates bulk reduction, not only surface effects\n-Suggests lithiation penetrates through the film\n-Can influence electronic conductivity\n-May affect long-term cycling stability"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "f": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

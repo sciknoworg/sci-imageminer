@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_1",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The chart shows a linear decrease in mass change (ng/cm^2) over time at 300\u00b0C on Al\u2082O\u2083, with the TMA and HF exposure and purge times indicated in the bottom left."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 0 | 0 |\n| 2000 | -500 |\n| 4000 | -1000 |\n| 6000 | -1500 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What are the ALE process steps?",
+                "answer_type": "Paragraph",
+                "answer": "1) Exposure to TMA, 2 seconds, 2)System purge with N2, 30 seconds, 3) Exposure to HF, 1 second, 4) System purge with N2, 30 seconds."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the system pressure remain constant throughout the process?",
+                "answer_type": "Yes/No",
+                "answer": "No, pressure transients were observed during the TMA and HF exposures, which were 40 and 80 mTorr, respectively."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the observed mass change per cycle (MCPC)?",
+                "answer_type": "Factoid",
+                "answer": "The observed MCPC was -15.9 ng/(cm^2 cycle), which corresponds to an etch rate of 0.51 \u00c5/cycle."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How come no mass is removed but added instead during the first ALE cycle?",
+                "answer_type": "Paragraph",
+                "answer": "The first cycle displays mass gains of 32 ng/cm^2 for TMA and 33 ng/cm^2 for HF. The mass gain for TMA is attributed to the formation of AlCH3* surface species on the initial hydroxylated Al2O3 substrate. Exposure to HF can lead to the formation of AlF* surface species (by reaction with AlCH3*), but the underlying Al2O3 substrate can also be fluorinated to form AlF3. The initial ALE cycle primarily forms AlF3, which is why mass gain is observed rather than etching."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

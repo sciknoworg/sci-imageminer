@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/c466ef032e36d8a6b1b99692843b6c50f4f3f7ca51d12676e6844eb1f694e786",
+    "classification": {
+        "a": "reaction scheme",
+        "b": "reaction scheme"
+    },
+    "summarization": {
+        "a": "The figure illustrates a chemical reaction involving Al2O3 film and methyl groups (CH3) reacting with HF to form fluorinated AL2O3 films, with H2O and CH4, as by-products.",
+        "b": "The figure shows the subsequent chemical reaction, in which the fluorinated Al2O3 film reacts with Al(CH3)3 (TMA) to form Al(CH3)F and the etch Al2O3 film."
+    },
+    "data_extraction": {
+        "a": "",
+        "b": ""
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What are the main reaction steps shown in the figure?",
+                "answer_type": "Factoid",
+                "answer": "The reaction begins with a chemical reaction between Al2O3 film and HF to form fluorinated Al2O3 films, with H2O and CH4, as by-products."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Are the by-products of both reactions the same?",
+                "answer_type": "Factoid",
+                "answer": "No, the first step produces H2O and CH4, while the second one produces AlF(CH3)2"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which precursor is used for etching the Al2O3 film?",
+                "answer_type": "Factoid",
+                "answer": "TMA (Al(CH3)3)"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which process is shown in the figure above?",
+                "answer_type": "Factoid",
+                "answer": "Al2O3 atomic layer etching"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_1",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The chart shows a linear decrease in mass change over time at 300\u00b0C on Al\u2082O\u2083, with 2 seconds of TMA and 1 second of HF exposures, each followed by 30 seconds purging with an inert gas."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 15 | 23 |\n| 53 | 65 |\n| 1015 | -161 |\n| 2083 | -438 |\n| 3068 | -699 |\n| 3794 | - 881 |\n| 4007 | -931|\n| 4648 | -1095|\n|5290 | -1239 |\n| 6267 | -1500 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which cycle shows mass gain?",
+                "answer_type": "Factoid",
+                "answer": "The first ALE cycle."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What does negative mass change physically represent in this experiment?",
+                "answer_type": "Factoid",
+                "answer": "Etching of the Al\u2082O\u2083 film"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the time of one ALE cycle?",
+                "answer_type": "Factoid",
+                "answer": "63 seconds (2s + 30s + 1s + 30s)."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Based on this graph, how to estimate the mass change per cycle?",
+                "answer_type": "Paragraph",
+                "answer": "From the figure, one ALE cycle consists of 2 s TMA exposure, 30 s purge, 1 s HF exposure, and a further 30 s purge, giving a total cycle time of  63 s/cycle. Using two points from the graph, for example, (53 s; 65 ng/cm\u00b2) and (4648s; -1095 ng/cm\u00b2), the change in mass is \u0394\ud835\udc40= - 1095 - 65 = - 1160 ng/cm\u00b2. The change in time is  \u0394\ud835\udc61 = 4648 - 53 = 4595 s. The slope is therefore  \u0394\ud835\udc40/ \u0394\ud835\udc61 = -1160/4595 \u2248 - 0.25245 ng/(cm\u00b2\u22c5s).  Multiplying by the cycle time gives the mass change per cycle: MCPC = (- 0.25245)(63) \u2248 - 15.9 ng/(cm\u00b2 \u22c5 cycle)."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

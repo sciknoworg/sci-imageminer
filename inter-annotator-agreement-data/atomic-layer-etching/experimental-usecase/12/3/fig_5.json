@@ -1,0 +1,57 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_5",
+    "classification": {
+        "a": "image panel",
+        "b": "image panel"
+    },
+    "summarization": {
+        "a": "The image shows a cross-sectional view of the material structure before etching, displaying the average film thickness in four sections.",
+        "b": "The image shows a cross-sectional view of the material structure after 40 cycles of ALE (Atomic Layer Etching), displaying changes in film thickness for four regions."
+    },
+    "data_extraction": {
+        "a": "",
+        "b": ""
+    },
+    "vqa": {
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "To which type of process does this ALE cycle correspond?",
+                "answer_type": "Factoid",
+                "answer": "Isotropic atomic layer etching"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the maximum etch thickness achieved?",
+                "answer_type": "Factoid",
+                "answer": "11.6 nm (corresponds to the difference between 23.3 nm and 11.9 nm)."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Is the etching thickness homogenous across the entire structure?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How does the thickness change before and after the etching cycle?",
+                "answer_type": "Factoid",
+                "answer": "The thickness decreases after 40 cycles of atomic layer etching (ALE)."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

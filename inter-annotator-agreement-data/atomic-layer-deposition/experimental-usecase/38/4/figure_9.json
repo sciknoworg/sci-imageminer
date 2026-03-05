@@ -1,0 +1,81 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_9",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart",
+        "d": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "2\u03b8 X-ray diffraction patterns showing reflections from 200cLi-MnO\u2082 comparing annealed and unannealed samples.",
+        "b": "\u03b8\u22122\u03b8 X-ray diffraction patterns showing reflections  from 200cLi-MnO\u2082 comparing annealed and unannealed samples.",
+        "c": "2\u03b8 X-ray diffraction patterns showing reflections from 300cLi-MnO\u2082 comparing annealed and unannealed samples.",
+        "d": "\u03b8\u22122\u03b8 X-ray diffraction patterns showing reflections  from 300cLi-MnO\u2082 comparing annealed and unannealed samples."
+    },
+    "data_extraction": {
+        "a": "| Intensity (arb. units) | \u00b02\u03b8\u03c7 of 200cLi-MnO\u2082-600 | 200cLi-MnO\u2082|\n|---|---|---|\n| LiMn\u2082O\u2084 (111) | 20 | 20 | \n| LiMn\u2082O\u2084 (131) | 37 | 38 | \n| LiMn\u2082O\u2084 (222) | 40 | - | \n| LiMn\u2082O\u2084 (440) | 63 | 65 |\n| LiMn\u2082O\u2084 (351) | 67 | 69 | \n| Extra peak (*) |  - | 47 |",
+        "b": "| Intensity (arb. units) | \u00b02\u03b8 of 200cLi-MnO\u2082-600 | \u00b02\u03b8 of 200cLi-MnO\u2082 |\n|---|---|---|\n| Lithiated phase | - | 17 |\n| LiMn\u2082O\u2084 (111) | 19 | - |\n| MnO\u2082 (100) | 22 | - |\n| LiMn\u2082O\u2084 (311) | 36 | 35 |\n| MnO\u2082 (200) | 42 | - |",
+        "c": "| Intensity (arb. units) | \u00b02\u03b8\u03c7 of 300cLi-MnO\u2082-600 | 300cLi-MnO\u2082|\n|---|---|---|\n| LiMn\u2082O\u2084 (111) | 20 | - | \n| LiMn\u2082O\u2084 (131) | 37 | 38 | \n| LiMn\u2082O\u2084 (222) | 39 | - | \n| LiMn\u2082O\u2084 (440) | 63 | 65 |\n| LiMn\u2082O\u2084 (351) | 67 | 70 |",
+        "d": "| Intensity (arb. units) | \u00b02\u03b8\u03c7 of 300cLi-MnO\u2082-600 | 300cLi-MnO\u2082|\n|---|---|---|\n| Lithiated phase| - | 17 | \n| LiMn\u2082O\u2084 (111) | 19 | - | \n| Extra peak | 32 | 33 | \n|  Lithiated phase | - | 35 | \n| LiMn\u2082O\u2084 (311) | 36 | - |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which samples show MnO2 phase?",
+                "answer_type": "Paragraph",
+                "answer": "In the 200cLi\u2212MnO2-600 sample, the reflections of the MnO2 phase become visible again after annealing (Image b). Similar behavior was not noticed for the 300cLi\u2212MnO2-600 sample. It had, however, an additional reflection at 32.6\u00b0 (marked with an asterisk in d), which is thought to be caused by the earlier discussed impurity phase Li2\u2212zMnO2"
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What are the 2\u03b8 peaks showed by annealed 200cLi0MnO2-600 and 300cLi0MnO2-600 samples?",
+                "answer_type": "Paragraph",
+                "answer": "1. LiMn2O4 (111) \n2. LiMn2O4 (131)\n3. LiMn2O4 (222)\n4. LiMn2O4 (440)\n5. LiMn2O4 (351)"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the 600 suffix suggest annealing at 600 \u00b0C?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What happens after annealing of samples?",
+                "answer_type": "Paragraph",
+                "answer": "After annealing at 600 \u00b0C for 10 min, the diffraction patterns of 200cLi\u2212MnO2-600 and 300cLi\u2212MnO2- 600 match better with the stoichiometric cubic LiMn2O4 reference (ICDD PDF 35-0782) than with the lithium deficient Li1\u2212xMn2O4 reference"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

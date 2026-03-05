@@ -1,0 +1,72 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_9",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The magnetization curves show how film composition influences the Verwey transition near 120\u2013125 K, indicating magnetite presence.",
+        "b": "The effect of film growth temperature on magnetic behavior is evident, with lower temperatures suppressing the Verwey transition.",
+        "c": "Film thickness influences the magnetic phase evolution, though changes are less pronounced compared to composition and growth temperature effects."
+    },
+    "data_extraction": {
+        "a": "|Temperature, K|FC magnetization (arb. units)|ZFC magnetization (arb. units)|\n|--------------|-----------------------------|------------------------------|\n|10|0.42|0.38|\n|50|0.41|0.37|\n|100|0.40|0.36|\n|120|0.46|0.44|\n|150|0.45|0.43|\n|200|0.44|0.42|\n|300|0.43|0.41|",
+        "b": "|Temperature, K|FC magnetization (arb. units)|ZFC magnetization (arb. units)|\n|--------------|-----------------------------|------------------------------|\n|10|0.35|0.32|\n|50|0.34|0.31|\n|100|0.33|0.30|\n|120|0.36|0.34|\n|150|0.35|0.33|\n|200|0.34|0.32|\n|300|0.33|0.31|",
+        "c": "|Temperature, K|FC magnetization (arb. units)|ZFC magnetization (arb. units)|\n|--------------|-----------------------------|------------------------------|\n|10|0.28|0.27|\n|50|0.28|0.27|\n|100|0.27|0.26|\n|120|0.27|0.26|\n|150|0.26|0.25|\n|200|0.26|0.25|\n|300|0.25|0.24|"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Do the magnetization curves indicate that film composition has a stronger effect on magnetic behavior than film thickness?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "At approximately what temperature does the Verwey transition appear in the composition-dependent magnetization curves?",
+                "answer_type": "Factoid",
+                "answer": "Around 120\u2013125 K."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "How do composition, growth temperature, and film thickness influence the FC and ZFC magnetization curves?",
+                "answer_type": "Paragraph",
+                "answer": "Composition strongly affects the Verwey transition, with magnetite-containing films showing a peak near 120\u2013125 K. Growth temperature also influences magnetic behavior, as lower temperatures suppress the Verwey transition, leading to smaller differences between FC and ZFC magnetization. Film thickness has a subtler effect, slightly modifying magnetization magnitudes but not significantly altering the overall transition features. Together, these factors determine the magnetic phase evolution and the shape of the multi-line curves."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What trends are observed in the FC and ZFC magnetization curves across different film conditions?",
+                "answer_type": "List",
+                "answer": "Verwey transition visible near 120\u2013125 K for composition variations, Lower growth temperatures reduce the transition magnitude, Thicker films show minor decreases in magnetization but overall similar trends"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

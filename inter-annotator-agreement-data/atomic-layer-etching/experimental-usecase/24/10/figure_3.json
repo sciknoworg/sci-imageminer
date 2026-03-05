@@ -1,0 +1,58 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_3",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "scatter plot"
+    },
+    "summarization": {
+        "a": "Panel (a) shows \u0394MHF, \u0394M_TMA, and the overall MCPC over many ALE cycles at 300 \u00b0C. All three quantities remain  relatively stable, with only small gradual drifts over the cycle range. \u0394M_HF stays positive, \u0394M_TMA stays negative, and MCPC remains slightly positive, indicating consistent step chemistry throughout the sequence."
+    },
+    "data_extraction": {
+        "a": "| Cycle number | Value (ng/cm\u00b2/cycle) | Series |\n| ------------ | -------------------- | ------ |\n|       0      |         ~20          | \u0394M_HF  |\n|      50      |         ~18          | \u0394M_HF  |\n|      100     |         ~17          | \u0394M_HF  |\n|      0       |         ~-15         | \u0394M_TMA |\n|      50      |         ~-14         | \u0394M_TMA |\n|      100     |         ~-13         | \u0394M_TMA |\n|      0       |          ~5          | MCPC   |\n|      50      |          ~4.5        | MCPC   |\n|      100     |          ~4          | MCPC   |",
+        "b": "| Cycle number | Ratio (\u0394M_TMA / MCPC) |\n| ------------ | --------------------- |\n|       0      |        ~2.0           |\n|      20      |        ~2.1           |\n|      60      |        ~2.0           |\n|      100     |        ~2.2           |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "At what temperature were the measurements collected?",
+                "answer_type": "Factoid",
+                "answer": "300 \u00b0C."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do \u0394MHF, \u0394MTMA, and MCPC change over cycle number",
+                "answer_type": "Paragraph",
+                "answer": "All three remain relatively steady throughout the experiment. \u0394M_HF stays slightly positive and \u0394M_TMA remains slightly negative with only small drifts, while MCPC stays near a low positive value. The trends suggest that the etching mechanism does not significantly change over time."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which quantities are plotted",
+                "answer_type": "List",
+                "answer": "\u0394M_HF, \u0394M_TMA,  MCPC."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Does the ratio \u0394M_TMA / MCPC in panel (b) show a strong upward or downward trend?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

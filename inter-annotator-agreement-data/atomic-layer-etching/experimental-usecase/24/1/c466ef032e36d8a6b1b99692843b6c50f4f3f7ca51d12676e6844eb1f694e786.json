@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/c466ef032e36d8a6b1b99692843b6c50f4f3f7ca51d12676e6844eb1f694e786",
+    "classification": {
+        "a": "reaction scheme",
+        "b": "reaction scheme"
+    },
+    "summarization": {
+        "a": "The upper panel shows HF reacting with a methyl-terminated Al\u2082O\u2083 surface. HF removes surface \u2013CH\u2083 ligands, producing volatile CH\u2084 and H\u2082O byproducts. This step converts the surface to a fluorinated Al\u2013F termination state.",
+        "b": "The lower panel shows a fluorinated Al\u2082O\u2083 surface reacting with an Al\u2013CH\u2083 precursor. Surface fluorine is replaced by \u2013CH\u2083 ligands, regenerating a methyl-terminated surface. This step restores the surface chemistry required for repeating the reaction cycle."
+    },
+    "data_extraction": {
+        "a": "",
+        "b": ""
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Describe the sequence of surface-chemistry changes shown in the upper panel when HF is introduced to the methyl-terminated Al2O3 surface.",
+                "answer_type": "Paragraph",
+                "answer": "HF reacts with surface \u2013CH3 ligands on Al sites, removing methyl termination and forming volatile byproducts (CH4 and H2O) as indicated. As these ligands are eliminated, the surface becomes fluorinated with Al\u2013F bonds. Overall, the panel illustrates conversion from a methylated Al2O3 surface to a fluorinated Al2O3 surface during the HF exposure step."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What are the two volatile byproducts explicitly shown in the upper reaction scheme?",
+                "answer_type": "Factoid",
+                "answer": "H2O and CH4."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "List the key surface-state differences between the left and right sides of the lower panel.",
+                "answer_type": "Paragraph",
+                "answer": "- Left side: fluorinated surface (dominant Al\u2013F termination).\n- Right side: methyl-terminated surface (dominant Al\u2013CH3 termination).\n- The step represents replacement of surface F sites by CH3-containing termination."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Is the re-methylation step necessary for repeating the surface reaction cycle?",
+                "answer_type": "Factoid",
+                "answer": "Yes. It regenerates a defined \u2013CH\u2083-terminated surface needed for the next HF exposure."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_4",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The etch rate increases and reaches saturation with modification step duration for all materials except TiN.",
+        "b": "The etch rate initially increases, reaches saturation from 5 to 10s for Al2O3, HfO2, AlN"
+    },
+    "data_extraction": {
+        "a": "| Modification Duration (s) | Al\u2082O\u2083 | HfO\u2082 | AlN\u2093 | SiO\u2082 | TiN |\n|---|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 | 0 |\n| 5| 0.15 | 0.065 | 0.17 | 0.46 | 0 |\n| 7 | 0.165 | 0.085 | 0.18 | 0.63 | 0 |\n| 10 | 0.16 | 0.09 | 0.18 | 0.65 | 0 |\n| 12 | 0.16 | 0.1 | 0.19 | 0.82 | 0 |\n| 15 | 0.08 | 0.09 | 0.09 | 0.82 | -0.01 |",
+        "b": "| Modification Duration (s) | Al\u2082O\u2083 | HfO\u2082 | AlN\u2093 | \n|---|---|---|---|\n| 0 | 0 | 0 | 0 | \n| 5| 0.15 | 0.065 | 0.17 | \n| 7 | 0.165 | 0.085 | 0.18 | \n| 10 | 0.16 | 0.09 | 0.18 |\n| 12 | 0.16 | 0.1 | 0.19 | \n| 15 | 0.08 | 0.09 | 0.09 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "The etch rate increases linearly with the duration of  modification step for which material?",
+                "answer_type": "Paragraph",
+                "answer": "For SiO2 the etch rate increases linearly with modification step duration, for other materials it is more complex"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does the etch rate vs modification step duration compare for Al2O3, HfO2, AlN?",
+                "answer_type": "Paragraph",
+                "answer": "With the increase of modification step duration, the etch rate of Al2O3, AlNx and HfO2 reaches saturation, providing the ALE window. Further rise of modification step leads to the decrease of the etch rate due to too thick film deposition"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the etch rate of TiN  change with modification step duration?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "When does the etch rate of the material go out of saturation ?",
+                "answer_type": "Paragraph",
+                "answer": "The etch rate of Al2O3, AlNx and HfO2 with rise of modification step to 12s lead to the decrease of the etch rate going out of saturation"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

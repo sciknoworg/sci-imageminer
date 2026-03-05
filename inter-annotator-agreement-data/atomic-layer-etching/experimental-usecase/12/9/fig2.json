@@ -1,0 +1,81 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig2",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart",
+        "d": "line chart"
+    },
+    "summarization": {
+        "a": "Show the saturation of EPC (\u00c5) as a function of SF6 plasma exposure time with a 0.5 s TMA dose. Saturation occurs at ~5 s plasma exposure, indicating self-limiting behavior.",
+        "b": "Show the effect of the plasma pump step following SF6 exposure on EPC, demonstrating that a 10 s pump is sufficient to avoid parasitic etching.",
+        "c": "Show EPC versus TMA dosing time under 5 s SF6 plasma exposure. Saturation is reached at ~0.3\u20130.5 s, consistent with self-limiting adsorption of TMA.",
+        "d": "Show the effect of TMA pump time on EPC, confirming that a 10 s pump step is enough to prevent unintended reactions between half-cycles."
+    },
+    "data_extraction": {
+        "a": "|SF6 plasma time (s)|EPC (\u00c5)|\n|-------------------|-------|\n|0|0|\n|5|3.1|\n|10|3.16|\n|15|3.16|\n|20|3.16|\n|25|3.16|\n|30|3.16|",
+        "b": "|Plasma pump time (s)|EPC (\u00c5)|\n|--------------------|-------|\n|0|3.16|\n|10|3.16|\n|20|3.16|\n|30|3.16|",
+        "c": "|TMA dosing time (s)|EPC (\u00c5)|\n|-------------------|-------|\n|0|0|\n|0.2|0.5|\n|0.3|3.16|\n|0.4|3.16|\n|0.5|3.16|\n|0.6|3.16|\n|0.8|3.16|",
+        "d": "|TMA pump time (s)|EPC (\u00c5)|\n|-----------------|-------|\n|0|3.16|\n|10|3.16|\n|20|3.16|\n|30|3.16|"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Does the saturation of EPC in Figure 2 indicate self-limiting surface reactions characteristic of ALE?",
+                "answer_type": "Factoid",
+                "answer": "Yes, the saturation of EPC in Figure 2 indicate self-limiting surface reactions characteristic of ALE."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Can the standard ALE cycle defined in Figure 2 (5 s SF6 plasma, 0.5 s TMA dose, 10 s pump) achieve controlled etching without parasitic reactions?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does the SF6 plasma and TMA dosing affect the growth per cycle (EPC) in the atomic layer etching (ALE) process as shown in Figure?",
+                "answer_type": "Paragraph",
+                "answer": "Figure demonstrates that both SF6 plasma exposure and TMA dosing exhibit self-limiting behavior, typical of ALE processes. For SF6 plasma, the EPC rapidly increases for short exposure times and saturates around 5 s, indicating full surface fluorination. For TMA, EPC saturates after ~0.3\u20130.5 s, reflecting complete adsorption on the fluorinated surface. Pump steps of 10 s between half-cycles are sufficient to prevent parasitic reactions, ensuring that etching occurs only when alternating plasma and TMA doses are applied. Overall, the curves confirm the controlled, self-limiting nature of the plasma ALE process."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What trends are observed in the EPC when varying the plasma exposure time and TMA dosing time in Figure 2",
+                "answer_type": "List",
+                "answer": "EPC increases rapidly at short SF6 plasma exposure times and then saturates at ~3 \u00c5/cycle, TMA dosing exhibits quick saturation above ~0.3 s, with little additional growth for longer doses, Pump steps (both after plasma and TMA) show no significant change in EPC after 10 s, confirming removal of excess reactants, The self-limiting behavior is consistent for both plasma and TMA, ensuring precise etching per cycle"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

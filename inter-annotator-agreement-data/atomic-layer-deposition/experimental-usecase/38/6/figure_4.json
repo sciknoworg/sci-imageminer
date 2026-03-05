@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_4",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart",
+        "c": "spectra chart"
+    },
+    "summarization": {
+        "a": "Mn K-edge XANES of samples MnO2, 10cLi\u2212MnO2, and 50cLi\u2212MnO2 measured in the TEY mode.",
+        "b": "FT of the Mn K-edge EXAFS of the same samples.",
+        "c": "Mn L-edge XANES measured in 45\u00b0 incident angle."
+    },
+    "data_extraction": {
+        "a": "| Energy (eV) | Absorption (arb. units) |\n|---|---|\n| 6540 | 0 |\n| 6542 | 0 |\n| 6544 | 0 |\n| 6546 | 0 |\n| 6548 | 0 |\n| 6550 | 0 |\n| 6552 | 0 |\n| 6554 | 0 |\n| 6556 | 0 |\n| 6558 | 0 |\n| 6560 | 0 |\n| 6562 | 0 |\n| 6564 | 0 |\n| 6566 | 0 |\n| 6568 | 0 |\n| 6570 | 0 |\n| 6572 | 0 |\n| 6574 | 0 |\n| 6576 | 0 |\n| 6578 | 0 |\n| 6580 | 0 |",
+        "b": "| | Intensity (arb. units) |\n|---|---|\n| 1 | 0 |\n| 2 | 0 |\n| 3 | 0 |\n| 4 | 0 |",
+        "c": "| Energy (eV) | Absorption (arb. units) |\n|---|---|\n| 635 | 0 |\n| 637 | 0 |\n| 639 | 0 |\n| 641 | 0 |\n| 643 | 0 |\n| 645 | 0 |\n| 647 | 0 |\n| 649 | 0 |\n| 651 | 0 |\n| 653 | 0 |\n| 655 | 0 |\n| 657 | 0 |\n| 659 | 0 |\n| 661 | 0 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "At what lithiation level do the Mn L-edge spectra first show noticeable manganese reduction?",
+                "answer_type": "Factoid",
+                "answer": "Already from the 10cLi-MnO2 sample onward."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What happens to the Mn K-edge absorption energy when lithium is inserted into MnO2?",
+                "answer_type": "Factoid",
+                "answer": "The absorption edge shifts to lower energy, indicating reduction of manganese."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which structural reference do the \u03b2-MnO\u2082 and 50cLi-MnO2 samples most closely resemble in the Mn K-edge XANES and EXAFS spectra?",
+                "answer_type": "Factoid",
+                "answer": "The \u03b2-MnO\u2082 reference."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which three peaks are visible in the FT EXAFS spectra of the samples, similar to the MnO\u2082 reference?",
+                "answer_type": "Factoid",
+                "answer": "Mn-O, Mn-Mn\u2081, and Mn-Mn2."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

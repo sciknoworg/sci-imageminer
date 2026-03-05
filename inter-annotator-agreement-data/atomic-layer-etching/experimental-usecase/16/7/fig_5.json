@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_5",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The multiple line chart illustrates the etch rate (nm/cyc) of various materials (Al\u2082O\u2083, HfO\u2082, AlNx, SiO\u2082, TiN) against the number of cycles in ALE process (activation step duration is 10 s). Each material's etch rate increases linearly with the number of cycles. SiO\u2082 seems to have higher etch depth and TiN seems to have the least almost Nil etching."
+    },
+    "data_extraction": {
+        "a": "| activation step duration, s | SiO\u2082 | TiN  | AlNx | HfO\u2082 | Al\u2082O\u2083 |\n|-----------------------------|-------|------|------|------|-----|\n| 0  | -0.5 |\t-0.47\t |\t-0.51 |\t-0.52    |\t-0.52 |\n| 5  | 0.4  | -0.04  |    0.023 |\t0.015   |\t0.023 |\n| 10 | 0.56 |\t-0.015\t |\t0.17  |\t0.09     |\t0.017 |\n| 20 | 0.73 |\t0.045\t |\t0.28  |\t0.13     |\t0.28  |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does the activation step duration influence the etch rate in this ALE process?",
+                "answer_type": "Paragraph",
+                "answer": "The activation step duration directly controls the etch rate by determining the extent of surface modification. At very short durations, incomplete reactions lead to net film formation, but as duration increases, the surface becomes fully saturated, allowing the etch rate to rise sharply. Once the surface is completely modified, the process reaches a self-limiting plateau where further increases in activation time no longer affect the etch rate."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the process behavior change with increase from smaller to higher activation durations?",
+                "answer_type": "List",
+                "answer": "1.\tAt very short durations, film formation (negative etch rate) occurs.\n2.\tAs duration increases, the process transitions from net deposition to net etching.\n3.\tAt intermediate durations, the etch rate rises sharply.\n4.\tAt long durations, the etch rate plateaus at a higher value."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Does HfO\u2082 etch more slowly (nearly 2 times low)  than Al\u2082O\u2083 because it has a higher sputtering threshold?",
+                "answer_type": "Factoid",
+                "answer": "Yes . HfO\u2082 etches more slowly than Al\u2082O\u2083 because its higher sputtering threshold reduces ion-induced material removal."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Can activation step tuning improve etch selectivity for high-k dielectrics?",
+                "answer_type": "Yes/No",
+                "answer": "Yes."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

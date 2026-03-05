@@ -1,0 +1,54 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_1",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The QCM plot shows the mass response during 100 ALE cycles of Al\u2082O\u2083 using sequential TMA and HF exposures at 300 \u00b0C. After the initial cycle, which exhibits mass gains during both precursor steps, the process reaches a steady regime characterized by linear mass loss. The slope corresponds to a mass change of \u221215.9 ng/cm\u00b2 per cycle, equivalent to an etch rate of approximately 0.51 \u00c5 per cycle."
+    },
+    "data_extraction": {
+        "a": "| Parameter | Value |\n|----------|-------|\n| Substrate | Al\u2082O\u2083 thin film on QCM crystal |\n| Temperature | 300 \u00b0C |\n| ALE sequence | TMA dose 2 s \u2192 N\u2082 purge 30 s \u2192 HF dose 1 s \u2192 N\u2082 purge 30 s |\n| Pressure during TMA | ~40 mTorr |\n| Pressure during HF | ~80 mTorr |\n| Base reactor pressure | ~1 Torr |\n| Mass change per cycle (MCPC) | \u201315.9 ng/cm\u00b2\u00b7cycle |\n| Etch rate | 0.51 \u00c5/cycle (based on density 3.1 g/cm\u00b3) |\n| First-cycle TMA mass gain | +32 ng/cm\u00b2 |\n| First-cycle HF mass gain | +33 ng/cm\u00b2 |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Does the QCM trace indicate that the ALE process has reached a stable, repeatable etching regime after the initial cycle?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What is the etch rate per cycle derived from the QCM measurement?",
+                "answer_type": "Factoid",
+                "answer": "0.51 \u00c5 per cycle."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What are the key steps in the ALE sequence shown in the QCM measurement?",
+                "answer_type": "List",
+                "answer": "TMA dose for 2 seconds, N\u2082 purge for 30 seconds, HF dose for 1 second, N\u2082 purge for 30 seconds, Repetition over 100 cycles"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the mass change evolve during the initial and steady-state cycles of the ALE process?",
+                "answer_type": "Paragraph",
+                "answer": "During the first cycle, mass gains are observed in both the TMA and HF steps (+32 and +33 ng/cm\u00b2, respectively), reflecting precursor adsorption on the Al\u2082O\u2083 surface. After several cycles, the process reaches a steady regime where the mass decreases linearly with each ALE cycle. The slope of this linear decrease corresponds to a mass loss of \u221215.9 ng/cm\u00b2 per cycle, indicating a consistent etch rate and demonstrating stable layer-by-layer removal over 100 cycles."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

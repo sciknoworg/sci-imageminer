@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_2",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The multiple line chart illustrates the deposition rate (nm/min) of various materials (Si, Al\u2082O\u2083, HfO\u2082, AlNx, TiN, SiO\u2082) against the  percentage of  \u03bdCF\u2084 fraction in the plasma mixture.",
+        "b": "The multiple line chart illustrates the radical concentration (cm\u00b3) of various materials (F, CF\u2082  and CF) against percentage of  \u03bdCF\u2084 fraction in the plasma mixture while Ar fraction is 83.3%."
+    },
+    "data_extraction": {
+        "a": "| v_{CF4} % | SiO\u2082 | TiN  | AlNx | HfO\u2082  | Al\u2082O\u2083 | Si |\n|-----|-----|-----|-----|-----|-----|-----|\n|3.35|\t0.36\t|\t2.13|\t2.37\t|\t2\t  |\t2.37 |\t1.24|\n|5   |\t0.95\t|\t2.5\t|\t5.72\t|\t5.6  |\t5.27 |\t3.7 |\n|6.75| \t-2.93      |  \t1.18|\t5.82\t|\t4.94  |\t5.27 |\t5.02|\n|10  |\t-5.56\t|\t-1.09|\t4.67\t|\t3.16  |\t4.28 |\t3.6 |\n|13.35|    -5.01   |\t-0.65|\t3.63\t|\t2.97  |\t3.4\t |\t1.65 |",
+        "b": "| v_{CF4} % | F | CF2 | CF |\n|---|---|---|---|\n|3.35 | 10^12 | 10^10 | 10^10 |\n|5    | 10^13 | 10^11 | 10^11 |\n|6.75 | 10^13 | 10^11 | 10^11 |\n|10   | 10^14 | 10^12 | 10^11 |\n|13.35| 10^14 | 10^11 | 10^11 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Explain why the increasing in the \u03bdCF\u2084(%) shift the surface reaction balance from polymer deposition to etching?",
+                "answer_type": "Paragraph",
+                "answer": "As the CF\u2084 fraction rises further, the concentration of highly reactive fluorine (F) radicals increases much more rapidly. This significant rise in 'F' radicals shifts the surface kinetics from a deposition-dominated process to an etching-dominated one, where 'F' atoms aggressively etch the deposited film."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the deposition rate on SiO\u2082 compare to that of Si and Al\u2082O\u2083 at high CF\u2084 fractions?",
+                "answer_type": "List",
+                "answer": "For higher CF\u2084 fractions:-\n\n1) On SiO\u2082 the deposition rate becomes negative, indicating an etching process.\n\n2) On Si, Al\u2082O\u2083, HfO\u2082, and AlN\u2093, the deposition rate decreases but remains positive, indicating net deposition."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Does increasing the  CF\u2084 fraction (volume %) in the Ar/CF\u2084/H\u2082 plasma shift the surface reaction from polymer deposition to net etching?",
+                "answer_type": "Yes/No",
+                "answer": "Yes, but only for specific materials."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Does the fluorine (F) radical concentration decrease by two orders of magnitude compared with the concentrations of CF and CF\u2082?",
+                "answer_type": "Yes/No",
+                "answer": "No.\nFluorine-containing radicals concentration increase with the growth of CF\u2084 fraction in plasma mixture."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

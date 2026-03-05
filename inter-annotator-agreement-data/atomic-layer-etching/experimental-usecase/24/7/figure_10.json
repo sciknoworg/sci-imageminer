@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_10",
+    "classification": {
+        "a": "spectra chart"
+    },
+    "summarization": {
+        "a": "The spectral chart represents the Infra red absorbance values of Al\u2082O\u2083 at 300\u00b0C. The graph is represented with various ALE cycles . These FTIR spectra were referenced to the initial ZrO\u2082 nanoparticles. The wavelength range used here is 700\u20131100 cm\u207b\u00b9"
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | Absorbance | No of cycles |\n|-------------------:|-----------:|-------------:|\n| 1300               | 0.05       | 0           |\n| 1100               | 0.10       | 0           |\n| 900                 | 0.70       | 0           |\n| 700                 | 0.00       | 0           |\n| 1300               | 0.05       | 4          |\n| 1100               | 0.10       | 4           |\n| 900                | 0.60       | 4           |\n| 700                | 0.00       | 4           |\n| 1300               | 0.05       | 6           |\n| 1100               | 0.10       | 6           |\n| 900                | 0.50       | 6           |\n| 700                | 0.00       | 6           |\n| 1300               | 0.05       | 8           |\n| 1100               | 0.10       | 8           |\n| 900                | 0.40       | 8           |\n| 700                | 0.00       | 8           |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "List the sequence of steps in one Al\u2082O\u2083 ALE cycle as implied by the FTIR monitoring. Explain the purpose of referencing the spectra to the initial ZrO\u2082 nanoparticles.",
+                "answer_type": "List",
+                "answer": "1) Expose the Al\u2082O\u2083 surface to a fluorinating reactant (e.g., HF).\n\n2) Purge with inert gas to remove excess reactant and byproducts.\n\n3) Expose to a second reactant (e.g., TMA) to form volatile species.\n\n4) Purge again to clear the chamber.\nReferencing to the initial ZrO\u2082 nanoparticles subtracts the strong infrared absorption background of the substrate, isolating the signal from the Al\u2082O\u2083 film and allowing accurate measurement of the Al\u2013O bond removal."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Contrast Al\u2082O\u2083 ALE with wet chemical etching using a hydrofluoric acid (HF) solution. For a constraint of etching a precise, ultra-thin layer from a 3D nanostructure, which method is better and what is the trade-off?",
+                "answer_type": "Paragraph",
+                "answer": "ALE is superior for 3D nanostructures because it offers anisotropic, self-limiting etching with perfect conformality. Wet etching is isotropic and difficult to control at the nanometer scale. The trade-off is that ALE is significantly slower and requires more complex equipment than a simple wet etch."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How does increasing the number of ALE cycles affect the concentration of Al\u2013O bonds in the film? Connect this trend to the chemical reaction mechanism.",
+                "answer_type": "Paragraph",
+                "answer": "The Al\u2013O bond concentration decreases linearly with each ALE cycle, as shown by the diminishing peak absorbance. This occurs because each cycle converts a self-limiting layer of surface Al\u2082O\u2083 into volatile aluminum fluoride and aluminum methyl species, which are purged away, systematically etching the film."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "The linear decrease in Al\u2013O absorbance per cycle demonstrates highly controlled removal. What does this imply for using ALE to trim the thickness of an Al\u2082O\u2083 gate dielectric in an advanced transistor?",
+                "answer_type": "Paragraph",
+                "answer": "This implies that ALE can precisely tune the gate dielectric thickness with atomic-scale accuracy. Such control is essential for setting the exact threshold voltage and leakage current in scaled transistors, enabling performance optimization and device matching across a wafer."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

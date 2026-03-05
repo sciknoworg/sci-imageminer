@@ -1,0 +1,63 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_2",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart"
+    },
+    "summarization": {
+        "a": "Deposition rate as a function of CF\u2084 fraction (3.3%\u201313.3%) in an Ar (83.3%)/H\u2082 plasma mixture for different materials. The deposition rate initially increases with CF\u2084 content, reaches a maximum, and then decreases, with SiO\u2082 and TiN transitioning from deposition to net etching at higher CF\u2084 fractions.",
+        "b": "Calculated concentrations of F, CF, and CF\u2082 radicals as a function of CF\u2084 fraction, obtained from plasma diagnostics. The trends in radical concentrations explain the deposition-to-etching transition observed in panel a."
+    },
+    "data_extraction": {
+        "a": "|\u03bd_CF4 (%)|Si|Al2O3|HfO2|AlN|TiN|SiO2|\n|---------|--|-----|----|---|---|----|\n|3.3|2.0|1.8|1.7|1.9|1.5|1.6|\n|6.7|4.5|4.2|4.0|4.3|3.8|3.5|\n|10.0|3.0|2.8|2.6|2.7|0.5|-0.5|\n|13.3|1.2|1.0|0.9|1.1|-1.0|-2.0|",
+        "b": "|\u03bd_CF4 (%)|F (cm\u207b\u00b3)|CF2 (cm\u207b\u00b3)|CF (cm\u207b\u00b3)|\n|---------|--------|----------|---------|\n|3.3|1\u00d710\u00b9\u00b2|5\u00d710\u00b9\u00b9|4\u00d710\u00b9\u00b9|\n|6.7|5\u00d710\u00b9\u00b2|1\u00d710\u00b9\u00b2|9\u00d710\u00b9\u00b9|\n|10.0|2\u00d710\u00b9\u00b3|2\u00d710\u00b9\u00b2|1.5\u00d710\u00b9\u00b2|\n|13.3|8\u00d710\u00b9\u00b3|3\u00d710\u00b9\u00b2|2\u00d710\u00b9\u00b2|"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Which materials exhibit net etching behavior at higher CF\u2084 fractions according to the deposition-rate data?",
+                "answer_type": "List",
+                "answer": "TiN, SiO\u2082"
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "How do changes in radical concentrations influence the transition from film deposition to net etching for different materials?",
+                "answer_type": "Paragraph",
+                "answer": "As the CF\u2084 fraction increases, the concentration of fluorine-containing radicals such as F, CF, and CF\u2082 rises significantly, enhancing chemical reactivity at the surface. At moderate CF\u2084 levels, polymer-forming species promote deposition, while at higher CF\u2084 fractions, the high density of reactive fluorine radicals enhances bond breaking and material removal. This shift in plasma chemistry alters surface reaction pathways, causing certain materials, such as SiO\u2082 and TiN, to transition from net deposition to net etching."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does increasing the CF\u2084 fraction beyond an intermediate value lead to a decrease in deposition rate for most materials shown in the figure?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which plasma component fraction is systematically varied to study its effect on deposition rate and radical concentration?",
+                "answer_type": "Factoid",
+                "answer": "The CF\u2084 fraction (\u03bd_CF\u2084) in the plasma mixture."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

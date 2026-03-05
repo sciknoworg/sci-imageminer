@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_4",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The chart compares the etch per cycle (EPC) as a function of substrate temperature for the SF6 plasma/TMA process developed in this work against four thermal HF/TMA processes from literature (Cano, Hennessy, Lee, Zywotko). The SF6/TMA process exhibits higher EPC values across the entire temperature range and enables etching at lower temperatures than the thermal alternatives."
+    },
+    "data_extraction": {
+        "a": "| Substrate Temperature (\u00b0C) | This work (SF\u2086/TMA) | Cano (HF/TMA) | Hennessy (HF/TMA) | Lee (HF/TMA) | Zywotko (HF/TMA) |\n|---|---|---|---|---|---|\n| 140 | -0.05 | - | - | - | - |\n| 155 | 0.20 | - | - | - | - |\n| 185 | 0.85 | - | - | - | - |\n| 200 | - | 1.40 | - | - | - |\n| 207 | 2.10 | - | - | - | - |\n| 225 | - | - | 0.80 | - | - |\n| 228 | 2.70 | - | - | - | - |\n| 233 | 2.80 | - | - | - | - |\n| 250 | - | 2.30 | 0.85 | 0.15 | -0.35 |\n| 258 | 2.95 | - | - | - | - |\n| 262 | 3.10 | - | - | - | - |\n| 270 | - | - | - | - | 0.00 |\n| 275 | - | - | 1.05 | 0.30 | - |\n| 283 | 3.40 | - | - | - | - |\n| 300 | - | 2.50 | 1.20 | 0.45 | - |\n| 325 | - | - | - | 0.75 | 1.10 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the Etch Per Cycle (EPC) of the SF\u2086 plasma ALE process compare to the conventional thermal HF/TMA processes shown in the figure?",
+                "answer_type": "Paragraph",
+                "answer": "The SF\u2086 plasma ALE process (green squares) exhibits a significantly higher EPC compared to all the thermal HF/TMA processes (dashed lines) across the measured temperature range. For example, at 250 \u00b0C, the plasma process achieves an EPC of nearly 3.0 \u00c5/cycle, whereas the thermal processes range from approximately 0.1 to 2.3 \u00c5/cycle. Additionally, the plasma process maintains viable etch rates at lower temperatures where some thermal processes are inactive or show negligible rates."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What trend is observed regarding the relationship between substrate temperature and etch rate for the SF\u2086/TMA process?",
+                "answer_type": "Paragraph",
+                "answer": "The etch rate acts as a strong function of the substrate temperature, increasing steeply as the temperature rises. The EPC grows from approximately 0.2 \u00c5/cycle at 155 \u00b0C to 3.4 \u00c5/cycle at 285 \u00b0C. The data point at 140 \u00b0C lies slightly below zero, indicating a transition from etching to deposition (ALD mode) at very low temperatures."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Based on the temperature data, what is a key advantage of using the SF\u2086 plasma process over thermal HF approaches for temperature-sensitive substrates?",
+                "answer_type": "Paragraph",
+                "answer": "A key advantage is the ability to achieve significant etching at lower processing temperatures. The figure shows that the plasma process delivers an etch rate of 0.8 \u00c5/cycle at 185 \u00b0C, a temperature where thermal kinetics typically limit the reaction rate for HF-based processes. This makes the plasma variant suitable for substrates that cannot withstand the higher thermal budgets required for efficient thermal ALE."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "At approximately what temperature does the SF\u2086/TMA process transition from an etching regime (positive EPC) to a deposition regime (negative or zero EPC)?",
+                "answer_type": "Factoid",
+                "answer": "The transition occurs around 140 \u00b0C, as indicated by the data point at 140 \u00b0C showing a slightly negative value (net deposition) and the point at 155 \u00b0C showing a positive etch rate."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

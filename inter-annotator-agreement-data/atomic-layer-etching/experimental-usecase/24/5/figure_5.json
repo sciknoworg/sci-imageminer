@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_5",
+    "classification": {
+        "a": "multi-axis chart"
+    },
+    "summarization": {
+        "a": "The chart shows the mass change and thickness changes over time at different temperatures for TMA and HF treatments."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass Change (ng/cm\u00b2) 250 | Thickness (\u00c5) 250|Mass Change (ng/cm\u00b2) 275 | Thickness (\u00c5) 275|Mass Change (ng/cm\u00b2) 300 | Thickness (\u00c5) 300|Mass Change (ng/cm\u00b2) 325 | Thickness (\u00c5) 325|\n|---|---|---|---|---|---|---|---|---|\n| 0 | 0 | 0 |0|0|0|0|0|0|\n| 2000 | -50 | -2 |-200|-10|-400|-20|-600|-20|\n| 4000 | -150 | -5 |-500|-20|-1000|-35|-1500|-50|\n| 6000 | -250 | -10 |-900|-25|-1500|-50|-2200|-70|"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which process has the highest etch rate?",
+                "answer_type": "Paragraph",
+                "answer": "The process with the highest etch rate is the one at 325 degree Celcius."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How long would it take to etch 1 nm at 250 degrees celcius?",
+                "answer_type": "Factoid",
+                "answer": "This would take 6000 seconds."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "If an industrial player would use the proposed process, and their thermal budget allows for all the temperatures, which process would they pick?",
+                "answer_type": "Paragraph",
+                "answer": "Industrial players usually aim for the highest throughput. This would be achieved with the process at 325 degrees Celcius."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which process has the lowest etch rate?",
+                "answer_type": "Factoid",
+                "answer": "The process at 250 degrees Celcius."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

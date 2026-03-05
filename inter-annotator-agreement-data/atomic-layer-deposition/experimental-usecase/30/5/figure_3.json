@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_3",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart",
+        "c": "spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays Raman spectra of a material, highlighting peaks at specific wavenumbers corresponding to different phases of iron oxide.",
+        "b": "The figure shows Raman spectra with distinct peaks indicating various phases of iron oxides, including \u03b1-Fe\u2082O\u2083, \u03b3-Fe\u2082O\u2083, and Fe\u2083O\u2084.",
+        "c": "The figure presents Raman spectra at two different temperatures, showcasing the presence of Si, SiO\u2082, and various iron oxide phases."
+    },
+    "data_extraction": {
+        "a": "| Raman shift, cm\u207b\u00b9 | Intensity, arb.unit. FGA | Intensity, arb.unit. as-deposited |\n|---|---|---|\n| 225 | Big peak | Big peak |\n| 293 | Big peak | Big peak |\n| 412 | Peak | Peak |\n| 498 | Peak | No peak |\n| 538 | No peak | Small peak |\n| 613 | Small peak | Small peak |\n| 668 | Small peak | Small peak |\n| 1320 | Big peak | Big peak |",
+        "b": "| Raman shift, cm\u207b\u00b9 | Intensity, arb.unit. |\n|---|---|\n| 193 cm\u207b\u00b9 | m peak|\n| 306 cm\u207b\u00b9 |m peak |\n| 538 cm\u207b\u00b9 |m peak |\n| 668 cm\u207b\u00b9 | m peak|\n| 1320cm\u207b\u00b9 |\u03b1 peak |\n| 720 cm\u207b\u00b9 |\u03b3 peak |\n| 1430 cm\u207b\u00b9 |\u03b3 peak |\n| 1580 cm\u207b\u00b9 |\u03b3 peak |",
+        "c": "| Raman shift, cm\u207b\u00b9 | Intensity, arb.unit. 425 | Intensity, arb.unit. 375 |\n|---|---|---|\n| 225 | Small peak | No peak |\n| 293 | Small peak | No peak |\n| 412 | Small peak | No peak |\n| 498 | Small peak | No peak |\n| 514 | Big peak | No peak |\n| 538 | Big peak | No peak |\n| 668 | Small peak | Small peak |\n|720|Small peak | Small peak |\n|980|Peak | No peak |\n| 1320 | peak | No peak |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What influence does deposition temperature have on the crystallinity of the film?",
+                "answer_type": "Paragraph",
+                "answer": "c\tIt seems that higher temperatures are required to have any cristal like growth."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What could be done in the future to not see the raman shift in the spectrum related to SiO2?",
+                "answer_type": "Paragraph",
+                "answer": "c\tGrow thicker layers, all the other spectra of the thicker films do not show this peak."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What effect does FGA have on the stoichiomtry?",
+                "answer_type": "Paragraph",
+                "answer": "a\tFor the FGA and as-deposited spectra peaks related to the same stoichiometry are measured. So it does not change."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which stoichiometry is most present based on the peak intensity?",
+                "answer_type": "Paragraph",
+                "answer": "b\tThe peaks related to Fe3O4 are best represented in the spectrum, indicating this stoichiometry is seen the most in film."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

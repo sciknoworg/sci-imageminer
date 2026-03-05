@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_7",
+    "classification": {
+        "a": "heatmap"
+    },
+    "summarization": {
+        "a": "The figure shows the Al2O3 etch rate distribution across the wafer in polar coordinates. The etch rate is highest near the centre shown by the red region, and decreases gradually toward the edge going  through orange, yellow, green, and blue. Radius is plotted vertically, angle is shown around the perimeter, and the colour scale gives the local etch rate in nm per cycle."
+    },
+    "data_extraction": {
+        "a": "| Radius (cm) | Angle (deg) | Etch rate (nm/cycle) |\n|-----|-----|--------|\n| 0.0 | 0   | ~0.139 |\n| 1.0 | 0   | ~0.137 |\n| 2.0 | 0   | ~0.134 |\n| 3.0 | 0   | ~0.132 |\n| 1.0 | 90  | ~0.136 |\n| 2.0 | 180 | ~0.134 |\n| 3.0 | 270 | ~0.131 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What does the color map reveal about the etch-rate distribution across the wafer?",
+                "answer_type": "Paragraph",
+                "answer": "The etch rate is highest near the centre of the wafer and decreases toward the edge. The red region marks the maximum values, colour contours indicate lower etch rate going from orange, yellow, green and blue . This centre to edge drop suggests a non-uniform etching environment, with the strongest etching occurring close to the centre of the wafer."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Does the figure show angular variation in the etch rate?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "List three wafer locations (radius, angle) where the etch rate is lower than at the centre.",
+                "answer_type": "List",
+                "answer": "(2 cm, 0\u00b0), (3 cm, 180\u00b0), (3 cm, 270\u00b0)"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What quantity is represented by the color scale?",
+                "answer_type": "Factoid",
+                "answer": "The local etch rate of Al2O3 in nm per cycle."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

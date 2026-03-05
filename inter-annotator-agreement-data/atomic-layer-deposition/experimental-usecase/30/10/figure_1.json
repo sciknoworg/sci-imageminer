@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_1",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart",
+        "c": "spectra chart"
+    },
+    "summarization": {
+        "a": "The spectra chart shows X-ray diffraction patterns of iron oxide films grown at 500 \u00b0C. Strong hematite (Fe\u2082O\u2083) peaks are observed, with additional weaker magnetite (Fe\u2083O\u2084) reflections, indicating mixed-phase crystallinity at higher growth temperature.",
+        "b": "The spectra chart shows X-ray diffraction patterns of iron oxide films grown at 400 \u00b0C. Both hematite and magnetite phases are present, with magnetite peaks becoming more pronounced compared to the higher-temperature case.",
+        "c": "The spectra chart shows X-ray diffraction patterns of iron oxide films grown at 375 \u00b0C. Magnetite-related peaks dominate the spectrum, while hematite reflections are weaker, indicating a phase shift toward magnetite at lower growth temperature."
+    },
+    "data_extraction": {
+        "a": "| 2\u03b8 (degree) | Relative intensity | Phase              |\n|-------------|--------------------|---------------------|\n| ~24.2       | High               | Fe\u2082O\u2083 (hematite)    |\n| ~33.2       | High               | Fe\u2082O\u2083 (hematite)    |\n| ~35.6       | Medium             | Fe\u2083O\u2084 (magnetite)   |\n| ~49.5       | Medium             | Fe\u2082O\u2083 (hematite)    |\n| ~54.1       | Low                | Fe\u2083O\u2084 (magnetite)   |\n| ~62.5       | Low                | Fe\u2082O\u2083 (hematite)    |",
+        "b": "| 2\u03b8 (degree) | Relative intensity | Phase              |\n|-------------|--------------------|---------------------|\n| ~24.2       | Medium             | Fe\u2082O\u2083 (hematite)    |\n| ~30.1       | Medium             | Fe\u2083O\u2084 (magnetite)   |\n| ~33.2       | High               | Fe\u2082O\u2083 (hematite)    |\n| ~35.4       | High               | Fe\u2083O\u2084 (magnetite)   |\n| ~43.1       | Medium             | Fe\u2083O\u2084 (magnetite)   |\n| ~57.9       | Low                | Fe\u2083O\u2084 (magnetite)   |",
+        "c": "| 2\u03b8 (degree) | Relative intensity | Phase              |\n|-------------|--------------------|---------------------|\n| ~30.1       | Medium             | Fe\u2083O\u2084 (magnetite)   |\n| ~33.2       | Medium             | Fe\u2082O\u2083 (hematite)    |\n| ~35.4       | High               | Fe\u2083O\u2084 (magnetite)   |\n| ~43.1       | Medium             | Fe\u2083O\u2084 (magnetite)   |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Which iron oxide phases are identified in the spectra?",
+                "answer_type": "List",
+                "answer": "Hematite (Fe\u2082O\u2083),  Magnetite (Fe\u2083O\u2084)"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What quantity is plotted on the x-axis of these spectra?",
+                "answer_type": "Factoid",
+                "answer": "The diffraction angle 2\u03b8 (degrees)."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Does magnetite become more prominent at lower growth temperatures?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the crystalline phase composition change with decreasing growth temperature?",
+                "answer_type": "Paragraph",
+                "answer": "As the growth temperature decreases from 500 \u00b0C to 375 \u00b0C, the diffraction patterns show a shift from hematite-dominated peaks toward magnetite-dominated peaks. This shows a temperature-driven phase evolution in the iron oxide films."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

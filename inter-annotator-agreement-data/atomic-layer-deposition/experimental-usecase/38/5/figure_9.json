@@ -1,0 +1,81 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_9",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart",
+        "c": "spectra chart",
+        "d": "spectra chart"
+    },
+    "summarization": {
+        "a": "X-ray diffraction patterns showing reflections from LiMn\u2082O\u2084 by 200 lithium cycles, annealed at 600 degrees and unannealed.",
+        "b": "X-ray diffraction patterns showing reflections from LiMn\u2082O\u2084 by 200 lithium cycles, annealed at 600 degrees and unannealed.",
+        "c": "X-ray diffraction patterns showing reflections from LiMn\u2082O\u2084 LiMn\u2082O\u2084 by 300 lithium cycles, annealed at 600 degrees and unannealed.",
+        "d": "X-ray diffraction patterns showing reflections from lithiated phase by 300 lithium cycles, annealed at 600 degrees and unannealed."
+    },
+    "data_extraction": {
+        "a": "| \u00b02\u03b8\u03c7 | Intensity (arb. units) 200cLiMnO2 | Intensity (arb. units) 200cLiMnO2-600 |\n|---|---|---|\n| 20 | - | LiMn\u2082O\u2084 (111) |\n| 35 | LiMn\u2082O\u2084 (222) | LiMn\u2082O\u2084 (131) |\n| 48 | Defect | - |\n| 65 | - | LiMn\u2082O\u2084 (440) |\n| 66 | LiMn\u2082O\u2084 (351) | LiMn\u2082O\u2084 (351) |",
+        "b": "| \u00b02\u03b8 | Intensity (arb. units) 200cLiMnO2 | Intensity (arb. units) 200cLiMnO2-600 |\n|---|---|---|\n| 17 | Lithiated phase | - |\n| 20 | - | MnO\u2082 (100) |\n| 33 | - | peak |\n| 35 | Lithiated phase |LiMn\u2082O\u2084 (311) |\n| 42 | - | MnO\u2082 (200) |",
+        "c": "| \u00b02\u03b8\u03c7 | Intensity (arb. units) 300cLiMnO2 | Intensity (arb. units) 300cLiMnO2-600 |\n|---|---|---|\n| 20 | - | LiMn\u2082O\u2084 (111) |\n| 35 | LiMn\u2082O\u2084 (222) | LiMn\u2082O\u2084 (131) |\n| 48 | Defect | - |\n| 65 | - | LiMn\u2082O\u2084 (440) |\n| 66 | LiMn\u2082O\u2084 (351) | LiMn\u2082O\u2084 (351) |",
+        "d": "| \u00b02\u03b8 | Intensity (arb. units) 300cLiMnO2 | Intensity (arb. units) 300cLiMnO2-600 |\n|---|---|---|\n| 17 | Lithiated phase | - |\n| 18 | - | LiMn\u2082O\u2084 (111) |\n| 20 | - | - |\n| 33 | peak | defect | \n| 35 | Lithiated phase | LiMn\u2082O\u2084 (311) |\n| 42 | - | - |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which crystal phase is present most dominently in this film after annealing?",
+                "answer_type": "Factoid",
+                "answer": "d\tThe LiMn2O4 (311) phase."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Are there any defects in the deposited film?",
+                "answer_type": "Paragraph",
+                "answer": "c\tThe spectra do not show any peaks labeled with an asterix, so there are no defects."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What two peaks correspond to the same crystal phase?",
+                "answer_type": "Paragraph",
+                "answer": "a\tThe (111) and (222) both correspond to the same crystal phase."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What could be the reason that peaks related to MnO2 come back after annealing?",
+                "answer_type": "Paragraph",
+                "answer": "b\tIt could be that lithium diffuses to other regions upon annealing leading to more MnO2 crystals."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

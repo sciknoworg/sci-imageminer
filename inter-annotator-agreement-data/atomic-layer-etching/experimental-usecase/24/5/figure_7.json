@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_7",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart illustrates the mass change over time at 250\u00b0C, showing a step-like pattern.",
+        "b": "The line chart displays the mass change over time at 275\u00b0C, showing a step-like pattern as observed for all temperatures.",
+        "c": "The line chart shows the mass change over time at 325\u00b0C, with a step-like pattern indicating changes at specific time points."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 6150 | -330 |\n| 6200 | -335 |\n| 6250 | -340 |\n| 6300 | -335 |",
+        "b": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 6150 | -950 |\n| 6200 | -975 |\n| 6250 | -980 |\n| 6300 | -975 |",
+        "c": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 6150 | -2235 |\n| 6200 | -2280 |\n| 6250 | -2290 |\n| 6300 | -2280 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "For what temperature is the etch rate the highest?",
+                "answer_type": "Paragraph",
+                "answer": "The highest etch rate is achieved at 325 degrees Celcius. The MCPC is the biggest for this temperature."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the MCPC for the process at 325 degrees Celcius?",
+                "answer_type": "Factoid",
+                "answer": "The MCPC is around -25 ng/cm^2"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Is the effect of TMA adsorption at 250 degrees C the same in every cycle?",
+                "answer_type": "Paragraph",
+                "answer": "a\tIn the figure this adsorption is visible, since this happens after 6100 s of processing, it can be assumed that it occurs every cycle, as usually deviations occur in the initial cycles."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Is saturation time for the different subcycles temperature dependent?",
+                "answer_type": "Paragraph",
+                "answer": "Eventhough in all three cases the same dose times are used, based on the curves it can be said that saturation is faster reached for higher temperatures."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

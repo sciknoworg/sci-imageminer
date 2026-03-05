@@ -1,0 +1,77 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_9",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart",
+        "d": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "X-ray diffraction patterns showing reflections from 200cLiMnO2-600 and 200cLi-MnO2 samples.",
+        "b": "X-ray diffraction patterns showing reflections from 200cLiMnO2-600 and 200cLi-MnO2 samples.",
+        "c": "X-ray diffraction patterns showing reflections from 300cLiMnO2-600 and 300cLi-MnO2 samples.",
+        "d": "X-ray diffraction patterns showing reflections from 300cLiMnO2-600 and 300cLi-MnO2 samples."
+    },
+    "data_extraction": {
+        "a": "| \u00b02\u03b8\u03c7 | 200cLi-MnO2-600 | 200cLi-MnO2 |\n| --- | --- | --- |\n| 20 | peak at ~18\u00b0 | - |\n| 30 | - | - |\n| 40 | peak at ~37\u00b0, 38\u00b0 | peak at ~38\u00b0 |\n| 50 | - | peak at ~48\u00b0 |\n| 60 | peak at ~65\u00b0 | - |\n| 70 | peak at ~68\u00b0 | - |\n| 80 | - | - |",
+        "b": "| \u00b02\u03b8 | 200cLi-MnO2-600 | 200cLi-MnO2 |\n| --- | --- | --- |\n| 15 | peak at ~19\u00b0 | peak at ~17\u00b0 |\n| 20 | peak at ~21\u00b0 | - |\n| 25 | - | - |\n| 30 | - | - |\n| 35 | peak at ~36.5\u00b0 | peak at ~36\u00b0 |\n| 40 | peak at ~44\u00b0 | - |",
+        "c": "| \u00b02\u03b8\u03c7 | 300cLi-MnO2-600 | 300cLi-MnO2 |\n| --- | --- | --- |\n| 20 | peak at ~18\u00b0 | - |\n| 30 | - | - |\n| 40 | peak at ~37\u00b0, 38\u00b0 | peak at ~38\u00b0 |\n| 50 | - | - |\n| 60 | peak at ~65\u00b0 | - |\n| 70 | peak at ~68\u00b0 | - |\n| 80 | - | - |",
+        "d": "| \u00b02\u03b8 | 300cLi-MnO2-600 | 300cLi-MnO2 |\n| --- | --- | --- |\n| 15 | peak at ~18\u00b0 | peak at ~17\u00b0 |\n| 20 | - | - |\n| 25 | - | - |\n| 30 | - | - |\n| 35 | peak at ~36.5\u00b0 | peak at ~35\u00b0 |\n| 40 | - | - |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the annealing treatment change the phases of the sample?",
+                "answer_type": "Factoid",
+                "answer": "The annealed sample shows the impurity phase. The peaks related to the lithiated phase are also not present."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which samples show an impurity phase?",
+                "answer_type": "Factoid",
+                "answer": "200cLi-MnO2 approximately at 40\u00b0, and 300cLi-MnO2 (annealed at 600 \u00b0C) approximately at 33\u00b0."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which planes is being studied?",
+                "answer_type": "Factoid",
+                "answer": "The out-of-plane (\u00b02\u03b8) have been analyzed."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How many cycles are required to produce the lithiated phase?",
+                "answer_type": "Factoid",
+                "answer": "200 cycles without annealing treatment."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

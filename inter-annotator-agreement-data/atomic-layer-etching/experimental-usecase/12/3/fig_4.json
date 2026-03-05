@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_4",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The line chart illustrates the relation between substrate temperature (\u00b0C) and EPC (\u00c5) across different studies."
+    },
+    "data_extraction": {
+        "a": "| Substrate Temperature (\u00b0C) | SF6/TMA | Cano | Hennessy | Lee | Zywotko |\n|---|---|---|---|---|---|\n| 150 | 0.25 | - | - | - | - |\n| 175 | - | - | - | - | - |\n| 200 | - | 1.5 | - | - | - |\n| 225 | 2.8 | - | 0.8 | - | - |\n| 250 | 3.0 | 2.5 | 0.9 | 0.1 | -0.5 |\n| 275 | 3.5 | - | 1.0 | 0.4 | 0 |\n| 300 | - | 2.6 | 1.1 | 0.5 | - |\n| 325 | - | - | - | 0.8 | 1.1 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which type of processes are compared in the figure?",
+                "answer_type": "Factoid",
+                "answer": "Thermal HF/TMA process and SF6 plasma/TMA process."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which work shows the highest etch rate at each substrate temperature?",
+                "answer_type": "Factoid",
+                "answer": "The current work with SF6/TMA."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which substrate temperature results in the highest etch rate per cycle?",
+                "answer_type": "Factoid",
+                "answer": "Approximately 275 \u00b0C."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How does the substrate temperature affect the etch per cycle?",
+                "answer_type": "Factoid",
+                "answer": "The etch per cycle increases as the substrate temperature gets higher."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

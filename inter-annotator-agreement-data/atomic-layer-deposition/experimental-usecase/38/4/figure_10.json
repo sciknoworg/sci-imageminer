@@ -1,0 +1,99 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_10",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart",
+        "c": "multi spectra chart",
+        "d": "multi spectra chart",
+        "e": "stacked spectra chart",
+        "f": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure shows XANES spectra at different energies for various materials as a function of energy.",
+        "b": "The figure shows XANES spectra at different energies for various materials as a function of energy.",
+        "c": "The images correspond to the EXAFS spectra of different samples.",
+        "d": "The images correspond to the EXAFS spectra of different samples.",
+        "e": "The image involves comparison of XANES Mn L- edge and O K-edge of different samples.",
+        "f": "The image involves comparison of XANES Mn L- edge and O K-edge of different samples."
+    },
+    "data_extraction": {
+        "a": "| Panel | Sample                | Energy Range (eV) | Key Features                                  |\n|-------|-----------------------|--------------------|-----------------------------------------------|\n| a     | MnO\u2082, 200cLi-MnO\u2082, 300cLi-MnO\u2082 | 6535\u20136570         | Mn K-edge shift with Li insertion; inset shows pre-edge |",
+        "b": "| Panel | Sample                | Energy Range (eV) | Key Features                                  |\n|-------|-----------------------|--------------------|-----------------------------------------------|\n| b     | MnO\u2082, 200cLi-MnO\u2082, 300cLi-MnO\u2082 | 6535\u20136570         | Similar trend; green curves indicate different Li states |",
+        "c": "| Panel | Sample                | R (\u00c5) Range | Peaks Observed       |\n|-------|-----------------------|-------------|-----------------------|\n| c     | MnO\u2082 series (orange) | 0\u20134         | Mn\u2013O (~1.5 \u00c5), Mn\u2013Mn1 (~2.8 \u00c5) |",
+        "d": "| Panel | Sample                | R (\u00c5) Range | Peaks Observed       |\n|-------|-----------------------|-------------|-----------------------|\n| d     | MnO\u2082 series (green)  | 0\u20134         | Mn\u2013O (~1.5 \u00c5), Mn\u2013Mn1 (~2.8 \u00c5) |",
+        "e": "| Panel | Energy Range (eV) | Mn Oxidation States | Key Features                      |\n|-------|--------------------|----------------------|-----------------------------------|\n| e     | 635\u2013660           | Mn\u00b3\u207a, Mn\u2074\u207a          | LIII and LII edges; Mn\u00b3\u207a peak near 641 eV |",
+        "f": "| Panel | Energy Range (eV) | Mn Oxidation States | Key Features                      |\n|-------|--------------------|----------------------|-----------------------------------|\n| f     | 526\u2013536           | Mn\u00b3\u207a, Mn\u2074\u207a          | Mn\u2074\u207a peak near 528 eV; Mn\u00b3\u207a near 530 eV   |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What does annealing do?",
+                "answer_type": "Paragraph",
+                "answer": "Annealing seems to remove the Mn3+ features in the fine structure of the Mn L-edge XANES as well as that of the O Kedge XANES . In both cases, the spectra resemble the LiMn2O4 reference."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What are the references used?",
+                "answer_type": "List",
+                "answer": "LiMn2O4,Mn2O3,MnO2"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Were the XANES figures measured in the TEY mode?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Does annealing cause phase change?",
+                "answer_type": "Paragraph",
+                "answer": "The absorption edge shifted to lower values, but the pre-edge region remained similar in both samples. The Mn K-edge EXAFS spectrum of the 200cLi\u2212MnO2-600 sample resembles the reference LiMn2O4 even better than the corresponding unannealed 200cLi\u2212MnO2 sample. The result suggest that annealing causes phase change."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "f": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

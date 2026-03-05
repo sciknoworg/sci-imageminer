@@ -1,0 +1,79 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_9",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart",
+        "d": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "In-plane 2\u03b8\u03c7 XRD comparing 200cLi-MnO\u2082-600 (annealed) to 200cLi-MnO\u2082 (unannealed), showing that annealing produces clear LiMn\u2082O\u2084 spinel reflections at (111), (131), (222), (440), and (351). An impurity peak (asterisk) is visible in the annealed sample.",
+        "b": "Out-of-plane \u03b8-2\u03b8 XRD of the same samples, revealing that annealing at 600\u00b0C causes \u03b2-MnO\u2082 reflections (100), (200) to reappear alongside the lithiated LiMn\u2082O\u2084 phase with (111) and (311) peaks.",
+        "c": "In-plane 2\u03b8\u03c7 XRD comparing 300cLi-MnO\u2082-600 (annealed) to 300cLi-MnO\u2082 (unannealed), demonstrating improved crystallinity and sharper LiMn\u2082O\u2084 spinel reflections after annealing.",
+        "d": "Out-of-plane \u03b8-2\u03b8 XRD of the same samples, showing LiMn\u2082O\u2084 (111) and (311) reflections with an impurity phase Li\u2082\u208b\u2093MnO\u2082 marked by an asterisk at ~32.6\u00b0."
+    },
+    "data_extraction": {
+        "a": "| 2\u03b8_chi (\u00b0) | 200cLi-MnO2 (Norm.) | 200cLi-MnO2-600 (Norm.) |\n|---|---|---|\n| 18.6 | 0.05 | 1.00 |\n| 36.2 | 0.05 | 0.60 |\n| 37.5 | 1.00 | 0.10 |\n| 47.5 | 0.80 | 0.05 |\n| 64.0 | 0.05 | 0.40 |\n| 66.0 | 0.35 | 0.05 |",
+        "b": "| 2\u03b8 (\u00b0) | 200cLi-MnO2 (Norm.) | 200cLi-MnO2-600 (Norm.) |\n|---|---|---|\n| 17.5 | 1.00 | 0.90 |\n| 18.6 | 0.05 | 0.15 |\n| 20.6 | 0.05 | 0.20 |\n| 35.5 | 0.70 | 1.00 |\n| 42.0 | 0.05 | 0.10 |",
+        "c": "| 2\u03b8_chi (\u00b0) | 300cLi-MnO2 (Norm.) | 300cLi-MnO2-600 (Norm.) |\n|---|---|---|\n| 18.6 | 0.05 | 1.00 |\n| 36.2 | 0.05 | 0.60 |\n| 37.5 | 1.00 | 0.10 |\n| 64.0 | 0.05 | 0.50 |\n| 66.0 | 0.30 | 0.05 |",
+        "d": "| 2\u03b8 (\u00b0) | 300cLi-MnO2 (Norm.) | 300cLi-MnO2-600 (Norm.) |\n|---|---|---|\n| 17.5 | 0.80 | 0.15 |\n| 18.6 | 0.05 | 0.30 |\n| 35.0 | 1.00 | 0.80 |\n| 36.5 | 0.05 | 1.00 |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What does the asterisk (*) in panels (a) and (d) indicate?",
+                "answer_type": "Factoid",
+                "answer": "An impurity reflection from the Li\u2082\u208b\u1d64MnO\u2082 phase, identified by comparison with standard XRD reference patterns"
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Why does \u03b2-MnO\u2082 reappear after annealing 200cLi-MnO\u2082 but not 300cLi-MnO\u2082?",
+                "answer_type": "Factoid",
+                "answer": "The 200cLi sample has insufficient lithium for complete conversion; annealing causes Li redistribution, leaving some regions lithium-deficient and reverting to MnO\u2082."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What effect does annealing at 600\u00b0C have on the crystal structure?",
+                "answer_type": "Paragraph",
+                "answer": "Annealing enables lithium to overcome diffusion barriers, completing the transformation to stoichiometric cubic LiMn\u2082O\u2084 with sharper, better-indexed reflections. However, it also causes some phase separation, particularly in 200cLi-MnO\u2082-600 where \u03b2-MnO\u2082 reappears."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Do the annealed samples match the stoichiometric cubic LiMn\u2082O\u2084 reference better than unannealed ones?",
+                "answer_type": "Paragraph",
+                "answer": "Yes. The in-plane reflections shift to angles matching the stoichiometric LiMn\u2082O\u2084 reference pattern, and additional reflections like (111), (222), and (351) become clearly visible."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

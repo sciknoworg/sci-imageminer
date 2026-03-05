@@ -1,0 +1,97 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_10",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart",
+        "c": "multi spectra chart",
+        "d": "multi spectra chart",
+        "e": "stacked spectra chart",
+        "f": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure compares the Mn K-edge XANES spectrum of the annealed 200-cycle sample to its unannealed counterpart, showing that annealing causes a slight energy shift but largely preserves the intial electronic structure.",
+        "b": "The figure compares Mn K-edge XANES for the annealed and unannealed 300-cycle sample.",
+        "c": "The figure shows the Fourier Transform of the Mn K-edge EXAFS for the 200-cycle samples. Annealed smaple better matched the reference.",
+        "d": "The figure shows the Mn K-edge EXAFS for the 300-cycle samples.",
+        "e": "The figure shows the Mn L-edge XANES spectra, demonstrating that annealing removes the distinct Mn (3+) features seen in the unannealed samples.",
+        "f": "The figure shows the oxygen K-edge XANES spectra, comparing the annealed and unannealed spectra with references."
+    },
+    "data_extraction": {
+        "a": "| Energy (eV) | Absorbance (arb. units) | Sample |\n|---|---|---|\n| 6535,98 | 9,80 | LiMn2O4 ref |\n| 6545,44 | 13,40 | LiMn2O4 ref |\n| 6560,88 | 82,88 | LiMn2O4 ref |\n| 6566,04 | 62,25 | LiMn2O4 ref |\n| 6569,89 | 64,66 | LiMn2O4 ref |\n| 6535,98 | 9,80 | Mn2O3 ref |\n| 6542,98 | 18,63 | Mn2O3 ref |\n| 6554,23 | 88,52 | Mn2O3 ref |\n| 6561,12 | 55,39 | Mn2O3 ref |\n| 6569,58 | 64,24 | Mn2O3 ref |\n| 6535,98 | 9,80 | MnO2 ref |\n| 6543,87 | 13,70 | MnO2 ref |\n| 6552,21 | 31,15 | MnO2 ref |\n| 6561,01 | 81,17 | MnO2 ref |\n| 6569,72 | 65,38 | MnO2 ref |\n| 6535,98 | 9,80 | 200cLi-MnO2 |\n| 6543,72 | 14,42 | 200cLi-MnO2 |\n| 6549,62 | 35,42 | 200cLi-MnO2 |\n| 6559,75 | 84,72 | 200cLi-MnO2 |\n| 6569,64 | 69,02 | 200cLi-MnO2 |\n| 6535,98 | 9,80 | 200cLi-MnO2-600 |\n| 6544,15 | 16,14 | 200cLi-MnO2-600 |\n| 6548,87 | 37,10 | 200cLi-MnO2-600 |\n| 6559,48 | 89,70 | 200cLi-MnO2-600 |\n| 6564,87 | 67,89 | 200cLi-MnO2-600 |\n| 6569,96 | 69,82 | 200cLi-MnO2-600 |",
+        "b": "| Energy (eV) | Absorbance (arb. units) | Sample |\n|---|---|---|\n| 6535.98 | 9.80 | LiMn2O4 ref |\n| 6545.44 | 13.40 | LiMn2O4 ref |\n| 6560.88 | 82.88 | LiMn2O4 ref |\n| 6566.04 | 62.25 | LiMn2O4 ref |\n| 6569.89 | 64.66 | LiMn2O4 ref |\n| 6535.98 | 9.80 | Mn2O3 ref |\n| 6542.98 | 18.63 | Mn2O3 ref |\n| 6554.23 | 88.52 | Mn2O3 ref |\n| 6561.12 | 55.39 | Mn2O3 ref |\n| 6569.58 | 64.24 | Mn2O3 ref |\n| 6535.98 | 9.80 | MnO2 ref |\n| 6543.87 | 13.70 | MnO2 ref |\n| 6552.21 | 31.15 | MnO2 ref |\n| 6561.01 | 81.17 | MnO2 ref |\n| 6569.72 | 65.38 | MnO2 ref |\n| 6535.3630 | 11.19 | 300cLi-MnO2-600 |\n| 6539.0714 | 16.93 | 300cLi-MnO2-600 |\n| 6542.7798 | 19.31 | 300cLi-MnO2-600 |\n| 6551.3640 | 72.08 | 300cLi-MnO2-600 |\n| 6553.4929 | 74.94| 300cLi-MnO2-600 |\n| 6558.2314 | 86.88 | 300cLi-MnO2-600 |\n| 6561.3905 | 79.249 | 300cLi-MnO2-600 |\n| 6562.6266 | 80.91 | 300cLi-MnO2-600 |\n| 6564.2748 | 73.03 | 300cLi-MnO2-600 |\n| 6569.8374 | 73.75 | 300cLi-MnO2-600 |\n| 6535.3630 | 11.19 | 300cLi-MnO2 |\n| 6539.3783 | 13.21 | 300cLi-MnO2 |\n| 6543.0622 | 15.14 | 300cLi-MnO2 |\n| 6549.1092 | 41.48 | 300cLi-MnO2 |\n| 6553.9051 | 61.30 | 300cLi-MnO2 |\n| 6558.5620 | 83.29 | 300cLi-MnO2 |\n| 6560.8557 | 77.49 | 300cLi-MnO2 |\n| 6564.3310 | 69.27 | 300cLi-MnO2 |\n| 6569.7525 | 68.06 | 300cLi-MnO2 |",
+        "c": "| R (\u00c5) | Absorbance (arb. units) | Sample |\n|---|---|---|\n| 0.47 | 7.48 | LiMn2O4 ref |\n| 1.01 | 11.81 | LiMn2O4 ref |\n| 1.82 | 54.69 | LiMn2O4 ref |\n| 2.22 | 23.56 | LiMn2O4 ref |\n| 2.76 | 68.92 | LiMn2O4 ref |\n| 3.69 | 12.43 | LiMn2O4 ref |\n| 4.16 | 17.58 | LiMn2O4 ref |\n| 0.53 | 15.93 | 200cLi-MnO2 |\n| 0.97 | 15.25 | 200cLi-MnO2 |\n| 1.26 | 25.35 | 200cLi-MnO2 |\n| 1.79 | 73.45 | 200cLi-MnO2 |\n| 2.20 | 11.22 | 200cLi-MnO2 |\n| 2.61 | 33.75 | 200cLi-MnO2 |\n| 2.95 | 16.94 | 200cLi-MnO2 |\n| 3.23 | 22.65 | 200cLi-MnO2 |\n| 3.53 | 12.56 | 200cLi-MnO2 |\n| 3.73 | 14.58 | 200cLi-MnO2 |\n| 3.92 | 10.88 | 200cLi-MnO2 |\n| 4.17 | 11.55 | 200cLi-MnO2 |\n| 4.36 | 8.53 | 200cLi-MnO2 |\n| 0.21 | 11.72 | 200cLi-MnO2-600 |\n| 0.43 | 11.72 | 200cLi-MnO2-600 |\n| 0.56 | 13.91 | 200cLi-MnO2-600 |\n| 0.72 | 11.17 | 200cLi-MnO2-600 |\n| 0.88 | 18.83 | 200cLi-MnO2-600 |\n| 1.07 | 12.27 | 200cLi-MnO2-600 |\n| 1.33 | 25.39 | 200cLi-MnO2-600 |\n| 1.45 | 21.01 | 200cLi-MnO2-600 |\n| 1.78 | 65.30 | 200cLi-MnO2-600 |\n| 2.19 | 10.08 | 200cLi-MnO2-600 |\n| 2.80 | 55.46 | 200cLi-MnO2-600 |\n| 3.19 | 10.63 | 200cLi-MnO2-600 |\n| 3.35 | 13.91 | 200cLi-MnO2-600 |\n| 3.45 | 8.44 | 200cLi-MnO2-600 |\n| 3.72 | 13.91 | 200cLi-MnO2-600 |\n| 4.06 | 13.91 | 200cLi-MnO2-600 |\n| 4.45 | 9.53 | 200cLi-MnO2-600 |",
+        "d": "| R (\u00c5) | Absorbance (arb. units) | Sample |\n|---|---|---|\n| 0,12 | 9,38 | LiMn2O4 ref |\n| 0,69 | 6,39 | LiMn2O4 ref |\n| 1,24 | 15,65 | LiMn2O4 ref |\n| 1,82 | 52,99 | LiMn2O4 ref |\n| 2,20 | 23,12 | LiMn2O4 ref |\n| 2,76 | 69,72 | LiMn2O4 ref |\n| 3,66 | 12,37 | LiMn2O4 ref |\n| 4,10 | 19,24 | LiMn2O4 ref |\n| 4,38 | 15,06 | LiMn2O4 ref |\n| 0,22 | 6,94 | 300cLi-MnO2-600 |\n| 0,92 | 12,87 | 300cLi-MnO2-600 |\n| 1,31 | 21,35 | 300cLi-MnO2-600 |\n| 1,45 | 18,81 | 300cLi-MnO2-600 |\n| 1,80 | 48,49 | 300cLi-MnO2-600 |\n| 2,28 | 9,48 | 300cLi-MnO2-600 |\n| 2,75 | 35,20 | 300cLi-MnO2-600 |\n| 3,04 | 13,72 | 300cLi-MnO2-600 |\n| 3,32 | 24,74 | 300cLi-MnO2-600 |\n| 3,65 | 25,31 | 300cLi-MnO2-600 |\n| 4,14 | 12,03 | 300cLi-MnO2-600 |\n| 4,46 | 8,92 | 300cLi-MnO2-600 |\n| 0,12 | 8,89 | 300cLi-MnO2 |\n| 0,30 | 9,44 | 300cLi-MnO2 |\n| 0,45 | 7,22 | 300cLi-MnO2 |\n| 0,59 | 11,11 | 300cLi-MnO2 |\n| 0,67 | 8,33 | 300cLi-MnO2 |\n| 0,85 | 13,33 | 300cLi-MnO2 |\n| 1,12 | 8,89 | 300cLi-MnO2 |\n| 1,28 | 22,78 | 300cLi-MnO2 |\n| 1,42 | 22,22 | 300cLi-MnO2 |\n| 1,79 | 66,67 | 300cLi-MnO2 |\n| 2,23 | 12,78 | 300cLi-MnO2 |\n| 2,64 | 26,67 | 300cLi-MnO2 |\n| 2,98 | 10,00 | 300cLi-MnO2 |\n| 3,23 | 12,22 | 300cLi-MnO2 |\n| 3,37 | 6,11 | 300cLi-MnO2 |\n| 3,72 | 14,44 | 300cLi-MnO2 |\n| 3,98 | 8,89 | 300cLi-MnO2 |\n| 4,47 | 7,22 | 300cLi-MnO2 |",
+        "e": "| Energy (eV) | Absorbance (arb. units) | Sample |\n|---|---|---|\n| 635.3 | 0.00 | 300cLi-MnO2-600 |\n| 639.1| 8.396 | 300cLi-MnO2-600 |\n| 641.0| 191.809 | 300cLi-MnO2-600 |\n| 644.0 | 245.610 | 300cLi-MnO2-600 |\n| 648.40 | 91.5434 | 300cLi-MnO2-600 |\n| 653.2 | 377.668 | 300cLi-MnO2-600 |\n| 662.8 | 98.879 | 300cLi-MnO2-600 |\n| 635.5| 8.086 | 200cLi-MnO2-600 |\n| 638.9 | 16.317 | 200cLi-MnO2-600 |\n| 641.0 | 168.467 | 200cLi-MnO2-600 |\n| 643.9 | 201.940 | 200cLi-MnO2-600 |\n| 648.4 | 96.956 | 200cLi-MnO2-600 |\n| 653.1 | 314.531 | 200cLi-MnO2-600 |\n| 662.8 | 81.7419 | 200cLi-MnO2-600 |\n| 634.9 | 3.25142 | 300cLi-MnO2 |\n| 638.9 | 13.0057 | 300cLi-MnO2 |\n| 641.0 | 182.079 | 300cLi-MnO2 |\n| 644.0 | 195.085 | 300cLi-MnO2 |\n| 648.1 | 91.039 | 300cLi-MnO2 |\n| 653.1 | 323.516 | 300cLi-MnO2 |\n| 662.7 | 79.659 | 300cLi-MnO2 |\n| 634.9 | 2.4999 | 200cLi-MnO2 |\n| 639.2 | 12.500 | 200cLi-MnO2 |\n| 641.2 | 122.50 | 200cLi-MnO2 |\n| 644.0 | 149.9 | 200cLi-MnO2 |\n| 648.1 | 67.50 | 200cLi-MnO2 |\n| 653.2 | 227.49 | 200cLi-MnO2 |\n| 662.6 | 57.50 | 200cLi-MnO2 |\n| 635.0 | 2.8107 | MnO2 ref |\n| 639.2 | 18.182 | MnO2 ref |\n| 641.0 | 122.727 | MnO2 ref |\n| 643.9 | 161.363 | MnO2 ref |\n| 648.3 | 86.3640 | MnO2 ref |\n| 653.5 | 245.455 | MnO2 ref |\n| 662.7 | 74.999 | MnO2 ref |\n| 635.1 | 4.0538 | LiMn2O4 ref |\n| 638.6 | 9.4592 | LiMn2O4 ref |\n| 641.0 | 120.27 | LiMn2O4 ref |\n| 643.8 | 143.243 | LiMn2O4 ref |\n| 648.3 | 74.3244 | LiMn2O4 ref |\n| 653.14 | 222.973 | LiMn2O4 ref |\n| 662.74 | 71.6217 | LiMn2O4 ref |\n| 635.29 | 14.705 | Mn2O3 ref |\n| 638.73| 22.443 | Mn2O3 ref |\n| 640.91 | 178.59 | Mn2O3 ref |\n| 643.92 | 181.05 | Mn2O3 ref |\n| 648.24| 123.024 | Mn2O3 ref |\n| 652.62 | 347.39 | Mn2O3 ref |\n| 662.87 | 115.287 | Mn2O3 ref |",
+        "f": "| Energy (eV) | Absorbance (arb. units) | Sample |\n|---|---|---|\n| 526.06 | 8.16 | 300cLi-MnO2-600 |\n| 528.40 | 8.16 | 300cLi-MnO2-600 |\n| 529.51 | 171.43 | 300cLi-MnO2-600 |\n| 531.23 | 120.41 | 300cLi-MnO2-600 |\n| 532.03 | 97.96 | 300cLi-MnO2-600 |\n| 534.34 | 38.78 | 300cLi-MnO2-600 |\n| 535.98 | 71.43 | 300cLi-MnO2-600 |\n| 526.07 | 7.84 | 200cLi-MnO2-600 |\n| 528.37 | 11.76 | 200cLi-MnO2-600 |\n| 529.52 | 162.74 | 200cLi-MnO2-600 |\n| 531.24 | 111.76 | 200cLi-MnO2-600 |\n| 532.01 | 109.80 | 200cLi-MnO2-600 |\n| 534.36 | 47.06 | 200cLi-MnO2-600 |\n| 535.94 | 60.78 | 200cLi-MnO2-600 |\n| 526.08 | 5.27 | 300cLi-MnO2 |\n| 528.36 | 10.44 | 300cLi-MnO2 |\n| 529.52 | 167.17 | 300cLi-MnO2 |\n| 531.19 | 131.00 | 300cLi-MnO2 |\n| 532.04 | 118.95 | 300cLi-MnO2 |\n| 534.31 | 44.89 | 300cLi-MnO2 |\n| 535.99 | 65.55 | 300cLi-MnO2 |\n| 526.06 | 5.97 | 200cLi-MnO2 |\n| 528.54 | 11.94 | 200cLi-MnO2 |\n| 529.52 | 138.81 | 200cLi-MnO2 |\n| 531.20 | 100.00 | 200cLi-MnO2 |\n| 532.00 | 86.57 | 200cLi-MnO2 |\n| 534.27 | 34.33 | 200cLi-MnO2 |\n| 535.99 | 40.30 | 200cLi-MnO2 |\n| 526.06 | 4.17 | MnO2 ref |\n| 528.27 | 31.94 | MnO2 ref |\n| 529.51 | 131.94 | MnO2 ref |\n| 531.20 | 93.06 | MnO2 ref |\n| 532.03 | 95.83 | MnO2 ref |\n| 534.24 | 39.85 | MnO2 ref |\n| 535.95 | 34.10 | MnO2 ref |\n| 526.04 | 2.45 | LiMn2O4 ref |\n| 528.15 | 21.67 | LiMn2O4 ref |\n| 529.48 | 105.00 | LiMn2O4 ref |\n| 531.17 | 92.21 | LiMn2O4 ref |\n| 532.00 | 87.21 | LiMn2O4 ref |\n| 534.14 | 42.21 | LiMn2O4 ref |\n| 535.90 | 53.87 | LiMn2O4 ref |\n| 526.07 | 4.09 | Mn2O3 ref |\n| 528.46 | 16.46 | Mn2O3 ref |\n| 529.50 | 110.27 | Mn2O3 ref |\n| 531.18 | 121.43 | Mn2O3 ref |\n| 532.08 | 105.80 | Mn2O3 ref |\n| 534.04 | 76.76 | Mn2O3 ref |\n| 535.85 | 81.23 | Mn2O3 ref |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What specific chemical bonds correspond to the two labeled peaks?",
+                "answer_type": "Factoid",
+                "answer": "Mn-O: the distance between manganese and oxygen, Mn-Mn1: the shortest distance to another manganese atom."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does one of the samples has a good match with the reference?",
+                "answer_type": "Yes/No",
+                "answer": "No."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which sample better matches the LiMn2O4 reference?",
+                "answer_type": "Factoid",
+                "answer": "The annealed sample."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does annealed specctrum compare to the unannealed spectrum?",
+                "answer_type": "Factoid",
+                "answer": "The annealed spectrum is slightly shifted closer to the Mn2o3 reference, but the overall shape is similar."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "f": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_6",
+    "classification": {
+        "a": "image panel",
+        "b": "image panel",
+        "c": "image panel",
+        "d": "image panel"
+    },
+    "summarization": {
+        "a": "Top-down (\u201cbird-eye\u201d) SEM of a non-doped Fe\u2082O\u2083 film grown at 425 \u00b0C (cycle sequence 500 \u00d7 Fe\u2082O\u2083), d = 163 nm. The surface is very rough, with large grains/pillars and clear voids between features.",
+        "b": "SEM of a lightly Mg-containing film (Mg/Fe = 0.021, d = 183 nm) grown with 100 \u00d7 Fe\u2082O\u2083 + 4 \u00d7 [3 \u00d7 MgO + 100 \u00d7 Fe\u2082O\u2083]. Compared with (a), the surface shows denser grains/pillars and narrower voids (higher packing density).",
+        "c": "SEM of a higher-Mg film (Mg/Fe = 0.23, d = 88 nm) grown with 100 \u00d7 Fe\u2082O\u2083 + 4 \u00d7 [20 \u00d7 MgO + 100 \u00d7 Fe\u2082O\u2083]. The film appears more continuous and visibly smoother, with fewer large open voids than (a\u2013b).",
+        "d": "SEM of the highest-Mg case shown (Mg/Fe = 0.38, d = 68 nm) grown with 100 \u00d7 Fe\u2082O\u2083 + 4 \u00d7 [30 \u00d7 MgO + 100 \u00d7 Fe\u2082O\u2083]. The surface remains largely continuous with fine texture, consistent with the reported trend that increasing MgO dosing smoothens the films and reduces prominent pillar/void morphology."
+    },
+    "data_extraction": {
+        "a": "| Panel Position | Thickness d (nm) | Mg/Fe Ratio | Recipe |\n|---|---|---|---|\n| Top | 163 | - (Pure Fe2O3) | 500 x Fe2O3 |\n| Upper Middle | 183 | 0.021 | 100 x Fe2O3 + 4 x [3 x MgO + 100 x Fe2O3] |\n| Lower Middle | 88 | 0.23 | 100 x Fe2O3 + 4 x [20 x MgO + 100 x Fe2O3] |\n| Bottom | 68 | 0.38 | 100 x Fe2O3 + 4 x [30 x MgO + 100 x Fe2O3] |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does surface morphology change as Mg/Fe increases from 0 \u2192 0.021 \u2192 0.23 \u2192 0.38?",
+                "answer_type": "Paragraph",
+                "answer": "The non-doped film shows a pillar/grain-like rough surface with large voids. With small Mg addition (Mg/Fe \u2248 0.02), the surface becomes denser, and the voids shrink. At higher Mg/Fe (\u22480.23\u20130.38), the films become more continuous and smoother, with fewer large surface openings."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What kind of measurement is shown, and what is the length scale visible in each panel?",
+                "answer_type": "Paragraph",
+                "answer": "Measurement: top-down SEM (\u201cbird-eye\u201d) surface imaging of the films\n\nScale bar: 1.00 \u00b5m in each panel"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What microstructural interpretation is consistent with the very rough morphology in (a), and what changes in (b\u2013d) suggest a different growth outcome?",
+                "answer_type": "Paragraph",
+                "answer": "The rough topography in (a) is consistent with growth dominated by separated columns/grains/pillars with voids between them. In (b), the higher packing density indicates more nucleation sites and/or tighter column spacing. In (c\u2013d), the continuity and smoothness suggest the voided columnar morphology is suppressed, producing a more coalesced film surface."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is the Mg-driven transition toward a more continuous/smoother surface potentially important for device use or property uniformity?",
+                "answer_type": "Paragraph",
+                "answer": "A smoother, more continuous film typically improves thickness uniformity and reduces extreme topographic variations that can complicate electrical contacting or multilayer integration. It can also reduce variability in local magnetic response caused by large voids/isolated pillars. In this study, morphology is treated as a key co-variable alongside phase content when interpreting magnetic performance trends."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

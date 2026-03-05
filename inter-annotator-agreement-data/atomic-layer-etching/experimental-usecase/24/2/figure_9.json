@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_9",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "Al\u2082O\u2083 film thickness decreases linearly with ALE cycles at 300\u00b0C for films grown at both 300\u00b0C (initial ~141 \u00c5) and 200\u00b0C (initial ~170 \u00c5). XRR and SE measurements agree well, both yielding an etch rate of 0.46 \u00c5/cycle. The linear behavior confirms self-limiting, controllable etching independent of the original Al\u2082O\u2083 growth temperature."
+    },
+    "data_extraction": {
+        "a": "| Number of Cycles | (a) Al\u2082O\u2083 300\u00b0C - XRR (\u00c5) | (a) Al\u2082O\u2083 300\u00b0C - SE (\u00c5) | (b) Al\u2082O\u2083 200\u00b0C - XRR (\u00c5) | (b) Al\u2082O\u2083 200\u00b0C - SE (\u00c5) |\n|---|---|---|---|---|\n| 0 | 140 | 140 | 170 | 170 |\n| 25 | 130 | 130 | 165 | 165 |\n| 50 | 115 | 115 | 148 | 150 |\n| 100 | 95 | 95 | 128 | 130 |\n| 200 | 48 | 48 | 85 | 85 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Do XRR and SE measurements agree on the Al\u2082O\u2083 etch rate?",
+                "answer_type": "Paragraph",
+                "answer": "Yes, both techniques yield an etch rate of 0.46 \u00c5/cycle at 300\u00b0C."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Why are the y-intercepts from linear fitting slightly higher than the initial measured thicknesses?",
+                "answer_type": "Factoid",
+                "answer": "The slightly higher y-intercepts (~142 \u00c5 vs. 141 \u00c5 measured) result from mass gain during the nucleation period of the first ALE cycle."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Does the Al\u2082O\u2083 growth temperature affect the subsequent ALE etch rate?",
+                "answer_type": "Paragraph",
+                "answer": "No, the growth temperature does not affect the etch rate. Films grown at 200\u00b0C and 300\u00b0C both exhibit identical etch rates of 0.46 \u00c5/cycle when etched at 300\u00b0C. This indicates the ALE process is determined by the etching temperature and chemistry, not the initial film deposition conditions."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What do the different symbol shapes (circles, triangles, squares) represent in the figure?",
+                "answer_type": "Paragraph",
+                "answer": "Open red circles: XRR measurements for Al\u2082O\u2083 grown at 300\u00b0C\nFilled blue triangles: SE measurements for Al\u2082O\u2083 grown at 300\u00b0C\nOpen black squares: XRR measurements for Al\u2082O\u2083 grown at 200\u00b0C\nFilled green triangles: SE measurements for Al\u2082O\u2083 grown at 200\u00b0C"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

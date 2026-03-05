@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_2",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "X-ray diffraction patterns of Fe<sub>2</sub>O<sub>3</sub> samples grown at 425\u00b0C.",
+        "b": "X-ray diffraction patterns of Fe<sub>2</sub>O<sub>3</sub>:MgO samples grown at 425\u00b0C with Mg/Fe = 0.02 with supercycle sequence 3 MgO inserted",
+        "c": "X-ray diffraction patterns of Fe<sub>2</sub>O<sub>3</sub>:MgO samples grown at 425\u00b0C with Mg/Fe = 0.23 where 20 MgO cycles is inserted in the supercycle sequence."
+    },
+    "data_extraction": {
+        "a": "| 2\u03b8 (degree) | Peak Label | As-dep. Intensity | FGA Intensity |\n|---|---|---|---|\n| 24 | 012_H | Medium | Low |\n| 30 | 104_H | Medium-High | Medium |\n| 30 | 220_M | Low | Medium |\n| 33 | 110_H | Very High | High |\n| 35 | 311_M | Very High | Medium |\n| 41 | 113_H | Medium | Low |\n| 43 | 202_H | Low | Very Low |\n| 43 | 400_M | Low | - |\n| 49 | 024_H | Low | Very Low |\n| 54 | 116_H | Low | Very Low |\n| 57 | 122_H | Low | Very Low |\n| 57 | 422_M | Low | - |\n| 62 | 214_H | Medium | Low |\n| 64 | 300_H | Low | Low |",
+        "b": "| 2\u03b8 (degree) | Peak Label | As-dep. Intensity | FGA Intensity |\n|---|---|---|---|\n| 24 | 012_H | Medium | Low |\n| 30 | 104_H | Medium | Medium-Low |\n| 30 | 220_M | Low | Medium |\n| 33 | 110_H | Very High | High |\n| 35 | 311_M | Very High | Medium |\n| 41 | 113_H | Medium | Very Low |\n| 43 | 202_H | Low | Very Low |\n| 43 | 400_M | Low | - |\n| 49 | 024_H | Low | Very Low |\n| 54 | 116_H | Low | Very Low |\n| 57 | 122_H | Low | Very Low |\n| 57 | 422_M | Low | - |\n| 62 | 214_H | Medium | Low |\n| 64 | 300_H | Low | Low |",
+        "c": "| 2\u03b8 (degree) | Peak Label | As-dep. Intensity | FGA Intensity |\n|---|---|---|---|\n| 30 | 220_M | Low | Medium |\n| 33 | 110_H | High | Medium |\n| 35 | 311_M | High | Low-Medium |\n| 43 | 202_H | Low | Very Low |\n| 43 | 400_M | Low | - |\n| 54 | 116_H | Very Low | Very Low |\n| 57 | 122_H | Very Low | Very Low |\n| 62 | 214_H | Low | Very Low |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What happens after annealing the MgO doped iron oxide?",
+                "answer_type": "Paragraph",
+                "answer": "1. Mg:Fe atomic ratio of 0.02 by EDX resulted in the formation of mixed films containing both hematite and magnetite (b)which were again turned\ninto magnetite/maghemite upon FGA.\n2. Mg/Fe atomic ratios 0.23 resulted in the growth of films without unambiguous reflections of hematite after annealing."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "At 425\u25e6C are both the non-doped and as-deposited films completely consist of hematite?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the ALD sequence to get Mg:Fe atomic ratio of 0.02?",
+                "answer_type": "Factoid",
+                "answer": "Application of three MgO growth cycles between each 100  Fe2O3 cycles, MgO:Fe2O3 cycle ratio 3:100, resulted in Mg:Fe atomic ratio of 0.02 by EDX."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Can magnetite and maghemite phases be distinguished?",
+                "answer_type": "Paragraph",
+                "answer": "Magnetite reflections  coincide with those of maghemite. The formation of solid solutions of maghemite and magnetite is highly likely. For instance, in an earlier study devoted to a gas phase deposition of iron oxide, transition from maghemite to hematite was reported, occurring between 350 and 400\u25e6C. In addition, if the stoichiometry of the films were close to that ofmagnesioferrite MgFe2O4, then some significant peaks would also overlap with those of magnetite. For instance, locations of strong 220, 311 and 400 reflections of both MgFe2O4 (PDF card 017- 0464)57 and magnetite are identical. Distinction between maghemite, magnetite and magnesioferrite phases may be possible by XRD, but remains complicated. However, the Mg/Fe atomic ratio measured here would not allow the formation of ternary phase as the major one but rather as a contributing additive."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

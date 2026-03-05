@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_1",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays absorbance spectra across wavenumbers for cycles 1 through 6, highlighting changes in absorbance at specific wavenumbers.",
+        "b": "The figure compares absorbance spectra between TMA reference to SF\u2086 plasma and SF\u2086 plasma reference to TMA for cycles 2, 4, and 6."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | Absorbance cycle 1 | Absorbance cycle 2 | Absorbance cycle 3 | Absorbance cycle 4 | Absorbance cycle 5 | Absorbance cycle 6 |\n|---|---|---|---|---|---|---|\n|1100|0.0035 |0.003 |0.0025 |0.0025|0.0025 |0.002 |\n| 1000 | 0.0035 |0.0035 |0.0035 |0.0035 |0.0035 |0.0035 |\n| 900 | 0.002 |0.0005|0.00|-0.001|-0.002|-0.003|\n|800|0.002 |0.0005|0.00|-0.001|-0.0025|-0.0035|",
+        "b": "| Wavenumbers (cm\u207b\u00b9) | TMA ref. to SF\u2086 plasma cycle 2| SF\u2086 plasma ref. to TMA cycle 2|TMA ref. to SF\u2086 plasma cycle 4| SF\u2086 plasma ref. to TMA cycle 4|TMA ref. to SF\u2086 plasma cycle 6| SF\u2086 plasma ref. to TMA cycle 6|\n|---|---|---|---|---|---|---|\n| 4000 | 0|0|0|0|0|0|\n| 3500 | 0|0|0|0|0|0|\n| 2900 | 0.005|-0.005|0.005|-0.005|0.005|-0.005|\n|2750|0.001|-0.001|0.001|-0.001|0.001|-0.001|"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Is there an ALE process visible and how is this shown?",
+                "answer_type": "Paragraph",
+                "answer": "a\tAl-O absorbance decreases for increasing cycle number indicating that there is less Al2O3, meaning there is etching."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Is the same type of Al-O removed each cycle in terms of bonding?",
+                "answer_type": "Paragraph",
+                "answer": "a\tIt seems that the wavenumber range around 850 cm-1 does not have the same fluctuation each cycle, indicating that there is a difference."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Eventhough the exact change in absorbance is not the same at 800 and 1100 cm-1, could it still be that they are both related to the same amount of etching for different species?",
+                "answer_type": "Paragraph",
+                "answer": "a\tYes, this could be as not every vibrations is as likely to occur, which means that differences in absorption for different wavenumbers do not have to be the same."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "In the spectrum there is a tiny negative bumb around 2700 cm-1, what does this mean?",
+                "answer_type": "Paragraph",
+                "answer": "The specific wavenumber is related to -OH groups. It could indicate the adsorption of TMA on these groups."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

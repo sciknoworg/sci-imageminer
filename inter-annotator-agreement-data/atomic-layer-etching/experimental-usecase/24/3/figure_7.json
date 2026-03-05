@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_7",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart shows the mass change over time at 250\u00b0C, with a step-like pattern indicating changes at specific time points.",
+        "b": "The line chart displays the mass change over time at 275\u00b0C, showing a similar step-like pattern as observed at 250\u00b0C.",
+        "c": "The line chart illustrates the mass change over time at 325\u00b0C, showing significant fluctuations."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 6150 | -330 |\n| 6200 | -340 |\n| 6250 | -340 |\n| 6300 | -340 |",
+        "b": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 6150 | -960 |\n| 6200 | -980 |\n| 6250 | -985 |\n| 6300 | -980 |",
+        "c": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 6150 | -2238 |\n| 6200 | -2280 |\n| 6250 | -2300 |\n| 6300 | -2280 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Application/Performance",
+                "question": "How does the temperature affect the mass change after HF exposure?",
+                "answer_type": "Factoid",
+                "answer": "Increasing temperatures produce higher values of mass change after HF exposure."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What causes an increase in mass after an HF dose?",
+                "answer_type": "Factoid",
+                "answer": "The increase in mass after HF exposure is directly related to surface fluorination."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Do the 3 subfigures exhibit the same behavior after TMA and HF exposure?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "How is the MCPC obtained?",
+                "answer_type": "Factoid",
+                "answer": "The mass change per cycle (MCPC) is given by the difference between the mass change after the TMA exposure and the mass change after the HF exposure."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

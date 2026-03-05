@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_4",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart"
+    },
+    "summarization": {
+        "a": "The figure shows a negative trend of \u0394M<sub>TMA</sub> with increasing TMA exposure time at 300\u00b0C. As TMA exposure time increases, \u0394M<sub>TMA</sub> decreases and plateaus at a value of -32 ng/cm^2 after 2.0 s.",
+        "b": "The figure shows a positive trend of \u0394M<sub>HF</sub> with increasing HF exposure time at 300\u00b0C. As HF exposure time increases, \u0394M<sub>HF</sub> increases and plateaus at a value of 15 ng/cm^2 after 1.5 s."
+    },
+    "data_extraction": {
+        "a": "| TMA Exposure Time (s) | \u0394M<sub>TMA</sub> (ng/(cm<sup>2</sup> cycle)) |\n|---|---|\n| 0.0 | 0 |\n| 0.5 | -15 |\n| 1.0 | -20 |\n| 1.5 | -23 |\n| 1.75 | -28 |\n| 2.0 | -30 |\n| 2.25 | -32 |\n| 2.5 | -32 |",
+        "b": "| HF Exposure Time (s) | \u0394M<sub>HF</sub> (ng/(cm<sup>2</sup> cycle)) |\n|---|---|\n| 0.0 | 0 |\n| 0.5 | 12 |\n| 0.75 | 12 |\n| 1.0 | 13 |\n| 1.25 | 14 |\n| 1.5 | 15 |\n| 1.75 | 15 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the steady-state value for \u0394M<sub>TMA</sub>?",
+                "answer_type": "Factoid",
+                "answer": "According to the authors, -29 ng/cm^2."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What were the process conditions when the effects of TMA and HF exposure times were investigated?",
+                "answer_type": "Paragraph",
+                "answer": "For both experiments, the temperature was kept at 300 \u00b0C and the ALE cycle always consisted of TMA exposure, purge, HF exposure and purge. For the experiments, the times of these individual steps can be represented as follows:\n1) x - 30 - 1 - 30\n2) 2 - 30 - x - 30\nWhere x denotes the variable time."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "The graphs show that a steady-state/constant value for \u0394M<sub>HF</sub> and \u0394M<sub>TMA</sub> is reached very slowly, which is also what the authors state. What phenomena do they attribute to this observation?",
+                "answer_type": "Paragraph",
+                "answer": "During TMA exposure, the initial layer of AlF3 is removed readily, but this gets progressively difficult as AlF3 disappears. The authors state that temperature plays a role here, which was also investigated. They already reveal that this AlF3 layer is not entirely removed, even at the highest temperatures. During HF exposure, something similar occurs where the initial AlF3 layer is quickly formed, but after a certain point, the formed AlF3 layer passivates the reaction between Al2O3 and HF."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the steady-state value for \u0394M<sub>HF</sub>?",
+                "answer_type": "Factoid",
+                "answer": "According to the authors, 13 ng/cm^2."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

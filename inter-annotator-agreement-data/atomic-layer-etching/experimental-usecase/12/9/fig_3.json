@@ -1,0 +1,72 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_3",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart"
+    },
+    "summarization": {
+        "a": "The film thickness increases slightly during multiple SF6 plasma pulses without TMA dosing (half-cycle A), reflecting the formation of a thin fluorinated surface layer.",
+        "b": "The film thickness decreases initially during TMA exposure without plasma (half-cycle B) due to the removal of the fluorinated AlF3 layer, then remains constant, confirming self-limiting behavior.",
+        "c": "Alternating SF6 plasma and TMA doses (full ALE cycles) result in a linear decrease of film thickness with increasing cycles, showing an etch rate of ~3.1 \u00c5 per cycle."
+    },
+    "data_extraction": {
+        "a": "| Number of pulses/cycles | Film thickness (\u00c5) |\n|---|---|\n| 0   | 200 |\n| 10  | 201 |\n| 20  | 201 |\n| 30  | 202 |\n| 40  | 202 |\n| 50  | 203 |\n| 60  | 203 |\n| 70  | 204 |\n| 80  | 204 |\n| 90  | 205 |\n| 100 | 205 |",
+        "b": "| Number of pulses/cycles | Film thickness (\u00c5) |\n|---|---|\n| 0   | 205 |\n| 10  | 202 |\n| 20  | 202 |\n| 30  | 202 |\n| 40  | 202 |\n| 50  | 202 |\n| 60  | 202 |\n| 70  | 202 |\n| 80  | 202 |\n| 90  | 202 |\n| 100 | 202 |",
+        "c": "| Number of pulses/cycles | Film thickness (\u00c5) |\n|---|---|\n| 0   | 200 |\n| 10  | 203 |\n| 20  | 206 |\n| 30  | 209 |\n| 40  | 212 |\n| 50  | 215 |\n| 60  | 218 |\n| 70  | 221 |\n| 80  | 224 |\n| 90  | 227 |\n| 100 | 230 |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "How efficient is the ALE process in etching Al2O3 based on the observed film thickness changes?",
+                "answer_type": "Paragraph",
+                "answer": "The ALE process is highly efficient, as indicated by the linear decrease in film thickness during alternating SF6 plasma and TMA cycles, yielding an etch rate of approximately 3.1 \u00c5 per cycle. The initial thickness changes during individual half-cycles demonstrate controlled surface reactions, with the SF6 plasma forming a fluorinated layer and TMA removing it. The calculated ALE synergy of 99.9% confirms that the process reliably etches Al2O3 with precise control over material removal."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What mechanistic insight can be inferred from the thickness changes observed in Figures a and b?",
+                "answer_type": "List",
+                "answer": "SF6 plasma exposure creates a thin fluorinated surface layer (thickness increase), TMA dosing removes the fluorinated layer (thickness decrease), The self-limiting behavior of TMA indicates controlled surface reactions, The synergy of alternating cycles ensures consistent ALE etching"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the thickness change differently during SF6 plasma exposure and TMA dosing?",
+                "answer_type": "Paragraph",
+                "answer": "Yes. During SF6 plasma exposure (half-cycle A), the film thickness slightly increases due to the formation of a thin fluorinated surface layer. During TMA dosing (half-cycle B), the thickness decreases initially as the fluorinated layer is removed and then remains constant, confirming self-limiting behavior."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the etch depth change when alternating SF6 plasma and TMA doses compared to individual half-cycles?",
+                "answer_type": "Factoid",
+                "answer": "Alternating SF6 plasma and TMA doses (full ALE cycles) result in a linear decrease of film thickness with cycle number, at an etch rate of approximately 3.1 \u00c5 per cycle, which is more systematic than the isolated changes in half-cycle A or B."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

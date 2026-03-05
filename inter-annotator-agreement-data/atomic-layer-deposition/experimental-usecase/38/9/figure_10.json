@@ -1,0 +1,99 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_10",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart",
+        "c": "multi spectra chart",
+        "d": "multi spectra chart",
+        "e": "multi spectra chart",
+        "f": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "Mn K-edge XANES for 200cLi\u2212MnO2-600, highlighting shifts in absorption edges and changes in pre-edge features after annealing.",
+        "b": "Mn K-edge XANES for 300cLi\u2212MnO2-600, highlighting shifts in absorption edges and changes in pre-edge features after annealing.",
+        "c": "Mn K-edge EXAFS for 200cLi\u2212MnO2-600, closely matching LiMn2O4.",
+        "d": "Mn K-edge EXAFS for 300cLi\u2212MnO2-600, exhibiting an additional peak (~3.5\u202f\u00c5) due to an impurity phase.",
+        "e": "Mn L-edge XANES at 45\u00b0, where annealing removes Mn3+ features and the spectra resemble the LiMn2O4 reference.",
+        "f": "O K-edge XANES at 45\u00b0, where annealing removes Mn3+ features and the spectra resemble the LiMn2O4 reference."
+    },
+    "data_extraction": {
+        "a": "| Energy (eV) | Absorbance (arb. units) |\n|---|---|\n| 6535 | 0.12 |\n| 6540 | 0.18 |\n| 6545 | 0.35 |\n| 6550 | 0.62 |\n| 6555 | 0.85 |\n| 6560 | 0.93 |\n| 6565 | 0.96 |\n| 6570 | 0.98 |",
+        "b": "| Energy (eV) | Absorbance (arb. units) |\n|---|---|\n| 6535 | 0.10 |\n| 6540 | 0.15 |\n| 6545 | 0.28 |\n| 6550 | 0.50 |\n| 6555 | 0.72 |\n| 6560 | 0.88 |\n| 6565 | 0.94 |\n| 6570 | 0.97 |",
+        "c": "| R (\u00c5) | Magnitude (arb. units) |\n|---|---|\n| 0.5 | 0.20 |\n| 1.5 | 0.85 |\n| 2.5 | 0.60 |\n| 3.0 | 0.35 |\n| 3.5 | 0.15 |",
+        "d": "| R (\u00c5) | Magnitude (arb. units) |\n|---|---|\n| 0.5 | 0.18 |\n| 1.5 | 0.70 |\n| 2.5 | 0.55 |\n| 3.0 | 0.40 |\n| 3.5 | 0.48 |",
+        "e": "| Energy (eV) | Absorbance (arb. units) |\n|---|---|\n| 635 | 0.22 |\n| 640 | 0.48 |\n| 645 | 0.72 |\n| 650 | 0.85 |\n| 655 | 0.90 |\n| 660 | 0.92 |",
+        "f": "| Energy (eV) | Absorbance (arb. units) |\n|---|---|\n| 526 | 0.30 |\n| 528 | 0.55 |\n| 530 | 0.80 |\n| 532 | 0.88 |\n| 534 | 0.91 |\n| 536 | 0.93 |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Explain how the changes observed in XANES and EXAFS after annealing could guide the optimization of Li-MnO2 films for battery applications.",
+                "answer_type": "Paragraph",
+                "answer": "The spectral changes observed after annealing indicate improved structural order and phase purity in Li-MnO2 films, with the 200cLi\u2212MnO2-600 sample closely matching LiMn2O4 and the 300cLi\u2212MnO2-600 showing impurity-related features. Understanding these changes allows researchers to optimize annealing conditions to maximize the formation of stoichiometric LiMn2O4, reduce unwanted impurity phases, and control manganese oxidation states, ultimately enhancing lithium intercalation, electrochemical stability, and battery performance."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "List the main observations from Mn L-edge and O K-edge XANES after annealing.",
+                "answer_type": "List",
+                "answer": "Mn L-edge: Annealing removes Mn3+ features, spectra resemble LiMn2O4 reference, O K-edge: Annealing removes features associated with reduced Mn oxidation states spectra resemble LiMn2O4 reference, Overall: Spectral changes indicate improved phase purity and structural ordering after annealing"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does annealing affect the Mn K-edge XANES spectra of Li-MnO2 films?",
+                "answer_type": "Paragraph",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which sample exhibits an additional EXAFS peak at around 3.5\u202f\u00c5, and what does it indicate?",
+                "answer_type": "Factoid",
+                "answer": "The 300cLi\u2212MnO2-600 sample shows an additional peak at ~3.5\u202f\u00c5 in Mn K-edge EXAFS, indicating the presence of an impurity phase, likely Li2\u2212zMnO2."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "f": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

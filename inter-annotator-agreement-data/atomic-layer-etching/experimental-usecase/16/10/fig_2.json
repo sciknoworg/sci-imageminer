@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_2",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart"
+    },
+    "summarization": {
+        "a": "Panel (a) shows how the deposition or etch rate changes with the CF4 fraction for multiple materials. Most materials reach a maximum at low-to-mid CF4 levels       and then decline, with TiN and SiO2 eventually shifting into etching.",
+        "b": "Panel (b) shows that F, CF2, and CF radical concentrations all increase with CF4 (%), but the F signal rises the fastest. This helps explain the transition from deposition to etching at higher CF4 levels."
+    },
+    "data_extraction": {
+        "a": "| v_{CF4} % | Si | Al2O3 | HfO2 | AlN | TiN | SiO2 |\n|---|---|---|---|---|---|---|\n| 0 | 2 | 2 | 2 | 2 | 2 | 2 |\n| 5 | 6 | 6 | 6 | 6 | 6 | 6 |\n| 10 | 4 | 4 | 4 | 4 | 4 | 4 |\n| 15 | 2 | 2 | 2 | 2 | 2 | 2 |",
+        "b": "| v_{CF4} % | F | CF2 | CF |\n|---|---|---|---|\n| 0 | 10^12 | 10^10 | 10^10 |\n| 5 | 10^13 | 10^11 | 10^11 |\n| 10 | 10^14 | 10^12 | 10^12 |\n| 15 | 10^15 | 10^13 | 10^13 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which radical has the fastest growth with v_CF4 and what can be implied from this?",
+                "answer_type": "Factoid",
+                "answer": "Atomic F has the fastest growth relative to CF and CF2, this implies a kinetic shift towards etching as v_CF4 increases."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "List the materials plotted",
+                "answer_type": "List",
+                "answer": "Si, Al2O3, HfO2, AINx, TiN, SiO2"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "how does depostion/etch rate on each material change as v_CF4(%) increases?",
+                "answer_type": "Paragraph",
+                "answer": "All materials start in net deposition at low \u03bd_CF\u2084. As \u03bd_CF\u2084 increases, the rates climb to a peak at low\u2013mid \u03bd_CF\u2084 and then drop. For SiO\u2082 and TiN, the curve crosses zero at higher \u03bd_CF\u2084, this means they switch from deposition to etching. This is consistent with panel (b): the F radical grows fastest relative to CF/CF\u2082, pushing the surface balance toward etching."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "The authors chose low v_CF4 mixtures for the modification step to enable selectivity to mask materials?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

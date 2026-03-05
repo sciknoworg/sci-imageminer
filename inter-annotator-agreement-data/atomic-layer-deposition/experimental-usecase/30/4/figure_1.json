@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_1",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart",
+        "c": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "X-ray diffraction patterns showing crystalline phases of Fe2O3 hematite and magnetite at 500 \u00b0C",
+        "b": "X-ray diffraction patterns showing crystalline phases of Fe2O3 hematite and magnetite at 400 \u00b0C.",
+        "c": "X-ray diffraction patterns showing crystalline phases of Fe2O3 hematite and magnetite at 375 \u00b0C."
+    },
+    "data_extraction": {
+        "a": "| 2\u03b8, degree | Intensity (as-deposited) | Intensity (FGA) |\n|---|---|---|\n| 20 | 0.0 | 0.0 |\n| 24.138 | 1.0 | 0.8 |\n| 30 | 0.0 | 0.0 |\n| 33.153 | 1.0 | 0.9 |\n| 35.612 | 1.0 | 0.7 |\n| 40.480 | 1.0 | 0.6 |\n| 40.855 | 1.0 | 0.6 |\n| 45 | 0.0 | 0.0 |\n| 54.901 | 1.0 | 0.5 |\n| 57.590 | 0.0 | 1.0 |\n| 62.451 | 0.0 | 1.0 |\n| 63.991 | 0.0 | 1.0 |\n| 65 | 0.0 | 0.0 |",
+        "b": "| 2\u03b8, degree | Intensity (as-deposited) | Intensity (FGA) |\n|---|---|---|\n| 20 | 0.0 | 0.0 |\n| 24.138 | 1.0 | 0.8 |\n| 30.095 | 0.0 | 1.0 |\n| 33.153 | 1.0 | 0.9 |\n| 35.423 | 0.0 | 1.0 |\n| 35.612 | 1.0 | 0.7 |\n| 40.855 | 1.0 | 0.6 |\n| 43.053 | 0.0 | 1.0 |\n| 45 | 0.0 | 0.0 |\n| 50 | 0.0 | 0.0 |\n| 55 | 0.0 | 0.0 |\n| 60 | 0.0 | 0.0 |\n| 65 | 0.0 | 0.0 |",
+        "c": "| 2\u03b8, degree | Intensity (as-deposited) | Intensity (FGA) |\n|---|---|---|\n| 20 | 0.0 | 0.0 |\n| 30 | 0.0 | 1.0 |\n| 35 | 1.0 | 1.0 |\n| 40 | 0.0 | 1.0 |\n| 45 | 0.0 | 1.0 |\n| 50 | 0.0 | 0.0 |\n| 55 | 0.0 | 0.0 |\n| 60 | 0.0 | 0.0 |\n| 65 | 0.0 | 1.0 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the XRD pattern of films at 400  \u00b0C and 375  \u00b0C from different precursors compare?",
+                "answer_type": "Paragraph",
+                "answer": "At relatively low temperature, 400 \u00b0C, the as-deposited films were also consisting of hematite, without recognizable reflections from other phases (b). However, these films could partially be reduced to Fe3O4 after forming gas annealing. Further, at even lower temperatures, at which the films were already grown from (dimethylaminomethyl)ferrocene, the reflections in GIXRD patterns could all be attributed to the magnetite phase (cl), although the contribution from maghemite cannot be excluded. It can also be noted that, when grown at 375\u25e6C, the films revealed a strong reflection at 35.4\u201335.6\u25e6, which\nbecame slightly shifted to lower angles after annealing, implying the reduction of hematite upon annealing."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What are the different conditions of the iron oxide films?",
+                "answer_type": "Paragraph",
+                "answer": "The iron oxide films were grown at three different temperatures\n1.500 \u00b0C\n2. 400 \u00b0C\n3.  375 \u00b0C\nAnd using two different precursors, \na. Fe(C5H5)2\nb. CpFeC5H4CHN(CH3)2"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How is the structure of iron oxide film grown at 500  \u00b0C?",
+                "answer_type": "Factoid",
+                "answer": "The films deposited from ferrocene at 500 \u00b0C were identified to consist entirely of stable \u03b1-Fe2O3 ."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does formation of hematite and magnetite phases mainly depend on the deposition temperature and partially on the precursor chemistry?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

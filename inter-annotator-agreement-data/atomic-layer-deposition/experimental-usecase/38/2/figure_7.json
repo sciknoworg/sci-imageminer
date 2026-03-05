@@ -1,0 +1,97 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_7",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart",
+        "d": "stacked spectra chart",
+        "e": "stacked spectra chart",
+        "f": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "Mn L-edge XANES (L_III and L_II) at 45\u00b0 incidence for MnO\u2082, 100cLi-MnO\u2082, 200cLi-MnO\u2082, 300cLi-MnO\u2082, and powder references. Mn\u00b3\u207a features increase with lithiation.",
+        "b": "O K-edge XANES at 45\u00b0 incidence for the same samples. Features at ~529 eV (Mn\u2074\u207a) and ~532 eV (Mn\u00b3\u207a) show increasing Mn\u00b3\u207a character with lithiation.",
+        "c": "Mn L-edge XANES of MnO\u2082 at three incident angles (0.5\u00b0, 1\u00b0, 45\u00b0). Lower angles probe the surface; 45\u00b0 probes the bulk. Surface shows more Mn\u00b3\u207a than bulk.",
+        "d": "O K-edge XANES of MnO\u2082 at three angles. Schematic illustrates depth sensitivity: 0.5\u00b0 and 1\u00b0 are surface-sensitive, 45\u00b0 probes bulk.",
+        "e": "Mn L-edge XANES of 300cLi-MnO\u2082 at three angles. Both surface and bulk show strong Mn\u00b3\u207a character.",
+        "f": "O K-edge XANES of 300cLi-MnO\u2082 at three angles. Surface shows additional resonance at ~532 eV, possibly from oxygen vacancies or surface contamination."
+    },
+    "data_extraction": {
+        "a": "| Energy (eV) | LiMn\u2082O\u2084 Ref | Mn\u2082O\u2083 Ref | MnO\u2082 Ref | MnO\u2082 Sample | 100cLi | 200cLi | 300cLi |\n|---|---|---|---|---|---|---|---|\n| 641.0 (Mn\u00b3\u207a) | 0.60 | 0.50 | 0.20 | 0.50 | 0.65 | 0.85 | 0.95 |\n| 644.0 (Mn\u2074\u207a) | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 |\n| 653.0 (L\u2082) | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 |",
+        "b": "| Energy (eV) | LiMn\u2082O\u2084 Ref | Mn\u2082O\u2083 Ref | MnO\u2082 Ref | MnO\u2082 Sample | 100cLi | 200cLi | 300cLi |\n|---|---|---|---|---|---|---|---|\n| 529.5 (Mn\u2074\u207a) | 1.00 | 0.40 | 1.00 | 1.00 | 1.00 | 1.00 | 0.95 |\n| 531.5 (Mn\u00b3\u207a) | 0.95 | 1.00 | 0.40 | 0.60 | 0.70 | 0.85 | 1.00 |\n| 534.0 (Tail) | 0.30 | 0.25 | 0.20 | 0.25 | 0.30 | 0.30 | 0.30 |",
+        "c": "| Energy (eV) | LiMn\u2082O\u2084 Ref | Mn\u2082O\u2083 Ref | MnO\u2082 Ref | 0.5\u00b0 (Surf) | 1\u00b0 | 45\u00b0 (Bulk) |\n|---|---|---|---|---|---|---|\n| 639.0 (Onset)| 0.10 | 0.10 | 0.10 | 0.15 | 0.15 | 0.15 |\n| 641.0 (Mn\u00b3\u207a)| 0.60 | 1.00 | 0.20 | 0.70 | 0.60 | 0.50 |\n| 644.0 (Mn\u2074\u207a)| 1.00 | 0.50 | 1.00 | 1.00 | 1.00 | 1.00 |\n| 648.0 (Tail) | 0.30 | 0.25 | 0.20 | 0.25 | 0.25 | 0.20 |",
+        "d": "| Energy (eV) | LiMn\u2082O\u2084 Ref | Mn\u2082O\u2083 Ref | MnO\u2082 Ref | 0.5\u00b0 (Surf) | 1\u00b0 | 45\u00b0 (Bulk) |\n|---|---|---|---|---|---|---|\n| 527.0 (Onset)| 0.05 | 0.05 | 0.05 | 0.05 | 0.05 | 0.05 |\n| 529.5 (Mn\u2074\u207a)| 1.00 | 0.40 | 1.00 | 1.00 | 1.00 | 1.00 |\n| 531.5 (Mn\u00b3\u207a)| 0.95 | 1.00 | 0.40 | 0.70 | 0.60 | 0.50 |\n| 534.0 (Tail) | 0.30 | 0.25 | 0.20 | 0.25 | 0.20 | 0.20 |",
+        "e": "| Energy (eV) | LiMn\u2082O\u2084 Ref | Mn\u2082O\u2083 Ref | MnO\u2082 Ref | 0.5\u00b0 (Surf) | 1\u00b0 | 45\u00b0 (Bulk) |\n|---|---|---|---|---|---|---|\n| 639.0 (Onset)| 0.10 | 0.10 | 0.10 | 0.15 | 0.15 | 0.15 |\n| 641.0 (Mn\u00b3\u207a)| 0.60 | 1.00 | 0.20 | 1.00 | 0.95 | 0.90 |\n| 644.0 (Mn\u2074\u207a)| 1.00 | 0.50 | 1.00 | 0.95 | 1.00 | 1.00 |\n| 648.0 (Tail) | 0.30 | 0.25 | 0.20 | 0.30 | 0.30 | 0.25 |",
+        "f": "| Energy (eV) | LiMn\u2082O\u2084 Ref | Mn\u2082O\u2083 Ref | MnO\u2082 Ref | 0.5\u00b0 (Surf) | 1\u00b0 | 45\u00b0 (Bulk) |\n|---|---|---|---|---|---|---|\n| 527.0 (Onset)| 0.05 | 0.05 | 0.05 | 0.05 | 0.05 | 0.05 |\n| 529.5 (Mn\u2074\u207a)| 1.00 | 0.40 | 1.00 | 0.80 | 0.95 | 1.00 |\n| 531.5 (Mn\u00b3\u207a)| 0.95 | 1.00 | 0.40 | 1.00 | 1.00 | 0.85 |\n| 534.0 (Tail) | 0.30 | 0.25 | 0.20 | 0.35 | 0.30 | 0.30 |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Why are spectra measured at different incident angles (0.5\u00b0, 1\u00b0, 45\u00b0)?",
+                "answer_type": "Factoid",
+                "answer": "Different angles probe different depths\u2014grazing angles (0.5\u00b0, 1\u00b0) are surface-sensitive, while 45\u00b0 probes the bulk of the film."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the Mn oxidation state differ between surface and bulk in pristine MnO\u2082?",
+                "answer_type": "Paragraph",
+                "answer": "Even pristine MnO\u2082 shows Mn\u00b3\u207a features at the surface (0.5\u00b0 and 1\u00b0 incidence) while the bulk (45\u00b0) is predominantly Mn\u2074\u207a. This surface reduction may result from oxygen vacancies or surface contamination."
+            }
+        ],
+        "f": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Does 300cLi-MnO\u2082 show uniform oxidation state through the film thickness?",
+                "answer_type": "Paragraph",
+                "answer": "Mostly yes. Both surface and bulk show similar Mn\u00b3\u207a/Mn\u2074\u207a ratios in panels (e) and (f), though the surface has an additional O K-edge feature at ~532 eV possibly from surface oxygen vacancies."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What do the features at ~529 eV and ~532 eV in the O K-edge spectra represent?",
+                "answer_type": "Factoid",
+                "answer": "Oxygen 2p hybridization with Mn\u2074\u207a states (~529 eV) and Mn\u00b3\u207a states (~532 eV)."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "f": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

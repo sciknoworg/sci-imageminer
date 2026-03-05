@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_5",
+    "classification": {
+        "a": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "The multi-spectra chart shows Fe 2p XAS (TEY) spectra of Fe\u2082O\u2083:MgO thin films grown at 425 \u00b0C. As Mg concentration increases from non-doped to 0.38 at.%, the Fe 2p peak intensities decrease and broaden, indicating changes in the local electronic structure with Mg incorporation."
+    },
+    "data_extraction": {
+        "a": "| Photon energy (eV) | Relative intensity |     Sample   |\n| ------------------ | ------------------ | ------------ |\n|      ~710          | High               | non-doped    |\n|      ~724          | Medium             | non-doped    |\n|      ~710          | High               | Mg 0.02 at.% |\n|      ~724          | Medium             | Mg 0.02 at.% |\n|      ~710          | Medium             | Mg 0.2 at.%  |\n|      ~724          | Medium             | Mg 0.2 at.%  |\n|      ~710          | Low                | Mg 0.38 at.% |\n|      ~724          | Low                | Mg 0.38 at.% |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does increasing Mg concentration affect the Fe 2p XAS spectra?",
+                "answer_type": "Paragraph",
+                "answer": "Increasing Mg concentration leads to a reduction in Fe 2p peak intensity and broader spectral features, indicating modification of the Fe electronic environment due to Mg incorporation."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What measurement technique is used to obtain these spectra?",
+                "answer_type": "Factoid",
+                "answer": "X-ray Absorption Spectroscopy (XAS) in total electron yield (TEY) mode."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Are all spectra measured at the same growth temperature?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which Mg concentrations are compared in the figure?",
+                "answer_type": "List",
+                "answer": "Non-doped, 0.02 at.%, 0.2 at.%, and 0.38 at.% Mg."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

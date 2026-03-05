@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_11",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart illustrates the change in the average oxidation state of manganese (Mn) as the amount of lithium cycles increases, showing a decreasing trend. Annealed samples are denoted as \"+A\". Three dashed horizontal lines indicate the theoretical oxidation states for specific manganese oxide phases (MnO2, LiMnO4 and MnO)."
+    },
+    "data_extraction": {
+        "a": "| Amount of lithium cycles | Mn average oxidation state |\n|---|---|\n|MnO2 | 3.7 |\n|10 | 3.7 |\n|50 | 3.6 |\n|100 | 3.2 |\n|200 | 3.3 |\n|200+A | 3.1 |\n|300 | 2.9 |\n|300+A | 2.5 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which sample shows the lowest average oxidation state for manganese?",
+                "answer_type": "Factoid",
+                "answer": "300 + A."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does annealing generally affects the oxidation state?",
+                "answer_type": "Factoid",
+                "answer": "Annealing generally lowers the average oxidation state of manganese compared to the non-annealed samples."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Based onthe overall trend, what is the effect of  Li  incorporation into magnanese material?",
+                "answer_type": "Paragraph",
+                "answer": "The effect of lithium incorporation into the manganese film is a reduction in the average oxidation state of manganese. As the number of lithium cycles increases from 0 to 300, the manganese oxidation state steadily decreases from approximately +3.7 down to +2.5. This is indicating that incorporation of lithium causes manganese to gain electrons."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How many cycles yield the oxidation state closest to the oxidation state of LiMn2O4?",
+                "answer_type": "Factoid",
+                "answer": "50 cycles."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_5",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "This figure shows the etch rate versus activation-step duration for five materials. Al\u2082O\u2083, HfO\u2082, and AlN\u2093 all show a rise in etch rate with increasing duration. TiN remains near zero and only shifts slightly from a small negative value toward zero. SiO\u2082 increases much more strongly than the others, becoming the dominant curve at longer activation times."
+    },
+    "data_extraction": {
+        "a": "| Duration (s) | Etch rate (nm/cyc) | Material |\n| - | - | - |\n| 5 | ~0.05 | Al\u2082O\u2083 |\n| 10 | ~0.10 | Al\u2082O\u2083 |\n| 20 | ~0.13 | Al\u2082O\u2083 |\n| 5 | ~0.03 | HfO\u2082 |\n| 10 | ~0.07 | HfO\u2082 |\n| 20 | ~0.09 | HfO\u2082 |\n| 5 | ~0.08 | AlN\u2093 |\n| 10 | ~0.15 | AlN\u2093 |\n| 20 | ~0.19 | AlN\u2093 |\n| 5 | ~-0.05 | TiN |\n| 10 | ~-0.02 | TiN |\n| 20 | ~0.00 | TiN |\n| 5 | ~0.25 | SiO\u2082 |\n| 10 | ~0.45 | SiO\u2082 |\n| 20 | ~0.65 | SiO\u2082 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the etch rate trend differ among the materials as the activation step duration increases?",
+                "answer_type": "Paragraph",
+                "answer": "Al\u2082O\u2083, HfO\u2082, and AlN\u2093 all show a  shallow rise in etch rate as the activation step becomes increases. TiN stays close to zero throughout, only moving slightly upward from a negative value at short times. SiO\u2082  increases far more strongly than the other materials, becoming the most rapidly etched surface at longer activation durations."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which material showsthe highest etch rate at the longest activation-step duration?",
+                "answer_type": "Factoid",
+                "answer": "SiO2"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Does TiN transition into positive etch rates at any of the activation durations shown?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which materials show a clear upward trend in etch rate between 5 and 20 seconds?",
+                "answer_type": "List",
+                "answer": "Al2O3, HfO2, SiO2"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

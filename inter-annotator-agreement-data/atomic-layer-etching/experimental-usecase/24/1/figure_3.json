@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_3",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "scatter plot"
+    },
+    "summarization": {
+        "a": "The figure shows three quantitative series at 300 \u00b0C on Al\u2082O\u2083. \u0394M_HF remains near +15 ng/cm\u00b2 after an initial high outlier, MCPC stays around \u221215 ng/(cm\u00b2\u00b7cycle) with a deeper excursion near ~80 cycles, and \u0394M_TMA is roughly \u221230 ng/cm\u00b2 across cycles. Overall behavior is largely stable after the startup region.",
+        "b": "The figure shows \u0394M_TMA/MCPC is approximately constant at ~1.8\u20132.0 over most cycles, with a single low outlier at the beginning."
+    },
+    "data_extraction": {
+        "a": "| Number of cycles | \u0394M_HF (ng/cm\u00b2) | MCPC (ng/(cm\u00b2\u00b7cycle)) | \u0394M_TMA (ng/cm\u00b2) |\n|------------------|----------------|-----------------------|------------------|\n| 0   | ~35 | ~ -15 | ~ -30 |\n| 20  | ~15 | ~ -15 | ~ -30 |\n| 40  | ~15 | ~ -15 | ~ -30 |\n| 60  | ~15 | ~ -15 | ~ -30 |\n| 80  | ~15 | ~ -20 | ~ -30 |\n| 100 | ~15 | ~ -15 | ~ -30 |",
+        "b": "| Number of cycles | \u0394M_TMA / MCPC |\n|------------------|---------------|\n| 0   | ~0.5 |\n| 20  | ~2.0 |\n| 40  | ~2.0 |\n| 60  | ~2.0 |\n| 80  | ~2.0 |\n| 100 | ~2.0 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What do \u0394M_HF, \u0394M_TMA, and MCPC each represent during one ALE cycle?",
+                "answer_type": "Paragraph",
+                "answer": "\u0394M_HF is the mass change measured after the HF half-reaction. \u0394M_TMA is the mass change measured after the TMA half-reaction. MCPC is the net mass change over a full ALE cycle, reflecting the combined outcome of both steps."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which quantity is most stable across 0\u2013100 cycles, and which shows the largest deviation?",
+                "answer_type": "Paragraph",
+                "answer": "-Most stable: \u0394M_HF, which stays near ~15 ng/cm\u00b2 after the initial cycle\n-Also largely stable: \u0394M_TMA around \u221230 ng/cm\u00b2\n-Largest deviation: MCPC, which shows a deeper negative point near ~80 cycles"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What does a nearly constant \u0394M_TMA/MCPC ratio (~2) suggest about the TMA contribution to the cycle?",
+                "answer_type": "Paragraph",
+                "answer": "A near-constant ratio indicates that the TMA-related mass change scales proportionally with the net per-cycle mass change. This suggests the TMA half-reaction contribution remains consistent across most cycles. Such behavior is consistent with a stable surface chemistry after the initial transient."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which simple process-monitoring check could be derived from the ratio plot during long ALE runs?",
+                "answer_type": "Paragraph",
+                "answer": "-Monitor whether \u0394M_TMA/MCPC remains near ~2\n-Flag sustained drift away from this value\n-Treat early outliers as startup behavior and focus on the stable regime"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

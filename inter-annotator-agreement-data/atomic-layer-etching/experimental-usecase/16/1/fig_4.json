@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_4",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart"
+    },
+    "summarization": {
+        "a": "Etch rate as a function of modification step duration shows material-dependent behavior. SiO\u2082 increases nearly monotonically, reaching ~0.8 nm/cycle at long times. AlN\u2093 and Al\u2082O\u2083 exhibit mid-range maxima (~6\u201310 s) followed by a decline at longer durations. HfO\u2082 peaks later (~10\u201312 s) at a lower maximum rate. TiN remains near zero or slightly negative across the full duration range.",
+        "b": "The enlarged view emphasizes distinct optimal modification windows: AlN\u2093 peaks earliest (~6\u20138 s), Al\u2082O\u2083 slightly later (~8\u201310 s), and HfO\u2082 latest (~10\u201312 s). Beyond these windows, etch rates decrease, indicating over-modification effects."
+    },
+    "data_extraction": {
+        "a": "| Modification step duration (s) | Al\u2082O\u2083 (nm/cyc) | HfO\u2082 (nm/cyc) | AlN\u2093 (nm/cyc) | TiN (nm/cyc) | SiO\u2082 (nm/cyc) |\n|---|---|---|---|---|---|\n| 0  | ~0.02 | ~0.01 | ~0.02 | ~0.00 | ~0.05 |\n| 4  | ~0.15 | ~0.06 | ~0.17 | ~0.00 | ~0.30 |\n| 6  | ~0.17 | ~0.08 | ~0.18 | ~0.00 | ~0.45 |\n| 10 | ~0.16 | ~0.09 | ~0.17 | ~0.00 | ~0.62 |\n| 12 | ~0.15 | ~0.09 | ~0.16 | ~0.00 | ~0.65 |\n| 14 | ~0.09 | ~0.07 | ~0.10 | ~\u22120.02 | ~0.82 |",
+        "b": "| Modification step duration (s) | Al\u2082O\u2083 (nm/cyc) | HfO\u2082 (nm/cyc) | AlN\u2093 (nm/cyc) |\n|---|---|---|---|\n| 0  | ~0.02 | ~0.01 | ~0.02 |\n| 4  | ~0.15 | ~0.07 | ~0.17 |\n| 6  | ~0.17 | ~0.09 | ~0.19 |\n| 10 | ~0.16 | ~0.10 | ~0.19 |\n| 12 | ~0.16 | ~0.10 | ~0.18 |\n| 14 | ~0.08 | ~0.06 | ~0.10 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does increasing modification step duration always increase etch rate for all materials?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which material has the highest etch rate at 16 s, and which is lowest?",
+                "answer_type": "Factoid",
+                "answer": "Highest: SiO\u2082 (~0.82). \nLowest: TiN (~0)."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which material acts as an effective etch-stop under these conditions?",
+                "answer_type": "Factoid",
+                "answer": "TiN."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "How do the optimal modification times differ among AlN\u2093, Al\u2082O\u2083, and HfO\u2082?",
+                "answer_type": "Paragraph",
+                "answer": "AlN\u2093 reaches its maximum etch rate earliest, around 6\u20138 s, followed by Al\u2082O\u2083 at roughly 8\u201310 s, while HfO\u2082 peaks later at about 10\u201312 s. This ordering suggests different kinetics for forming the modified surface state that enables removal, with HfO\u2082 requiring longer modification to reach maximum effectiveness."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

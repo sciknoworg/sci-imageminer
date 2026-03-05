@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_9",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The figure shows the temperature dependence of magnetic susceptibility for Fe\u2082O\u2083 nanoparticles grown at 450\u00b0C with a diameter of 705 nm, using a field gradient apparatus (FGA) and a magnetic field of 1000 Oe.",
+        "b": "The figure shows the temperature dependence of magnetic moment per gram for a composite material consisting of 100 x Fe\u2082O\u2083 and 4 x (3 x MgO + 100 x Fe\u2082O\u2083) grown at 425\u00b0C with a diameter of 183 nm, using a field gradient apparatus (FGA) and a magnetic field of 1000 Oe.",
+        "c": "The figure shows the temperature dependence of magnetic moment per gram for a composite material consisting of 100 x Fe\u2082O\u2083 and 15 x (10 x MgO + 100 x Fe\u2082O\u2083) grown at 375\u00b0C with a diameter of 411 nm, using a field gradient apparatus (FGA) and a magnetic field of 1000 Oe."
+    },
+    "data_extraction": {
+        "a": "| Temperature, K | FC | ZFC |\n|---|---|---|\n| 0 | 0.095 | 0 |\n| 50 | 0.095 | 0.02 |\n| 100 | 0.09 | 0.05 |\n| 150 | 0.105 | 0.105 |\n| 200 | 0.10 | 0.10 |\n| 250 | 0.10 | 0.10 |\n| 300 | 0.10 | 0.10 |",
+        "b": "| Temperature, K | FC | ZFC |\n|---|---|---|\n| 0 | 0.055 | 0.015|\n| 50 | 0.055 | 0.04 |\n| 100 | 0.055 | 0.049 |\n| 150 | 0.056 | 0.054 |\n| 200 | 0.054 | 0.053 |\n| 250 | 0.053 | 0.053 |\n| 300 | 0.052 | 0.052 |",
+        "c": "| Temperature, K | FC | ZFC |\n|---|---|---|\n| 0 | 0.069 | 0.065 |\n| 50 | 0.069 | 0.068 |\n| 100 | 0.0695 | 0.069 |\n| 150 | 0.0693 | 0.0693 |\n| 200 | 0.0685 | 0.0685 |\n| 250 | 0.0675 | 0.0675 |\n| 300 | 0.066 | 0.066 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "At what temperature does magnetite transition?",
+                "answer_type": "Factoid",
+                "answer": "120 K."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which parameters could be modified to reduce magnetization values?",
+                "answer_type": "Factoid",
+                "answer": "Either the growth temperature could be lowered, or the Mg/Fe ratio could be increased."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the growth temperature at which the highest magnetization values are shown?",
+                "answer_type": "Factoid",
+                "answer": "450 \u00b0C."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What variables affect the magnetization values?",
+                "answer_type": "Factoid",
+                "answer": "Growth temperature and composition."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

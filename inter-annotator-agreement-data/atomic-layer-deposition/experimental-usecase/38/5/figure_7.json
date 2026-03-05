@@ -1,0 +1,99 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_7",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart",
+        "c": "spectra chart",
+        "d": "spectra chart",
+        "e": "spectra chart",
+        "f": "spectra chart"
+    },
+    "summarization": {
+        "a": "The figure shows absorbance spectra of various manganese oxides and lithium-manganese oxide compounds at different energies.",
+        "b": "The figure displays absorbance spectra of manganese oxides and lithium-manganese oxide compounds at different energies.",
+        "c": "The figure presents absorbance spectra of manganese oxides and lithium-manganese oxide compounds at different energies for different probe depths.",
+        "d": "The figure shows absorbance spectra of manganese oxides and lithium-manganese oxide compounds at different energies for different probe depths.",
+        "e": "The figure presents absorbance spectra of manganese oxides and lithium-manganese oxide compounds at different energies for different probe depths.",
+        "f": "The figure presents absorbance spectra of manganese oxides and lithium-manganese oxide compounds at different energies for different probe depths."
+    },
+    "data_extraction": {
+        "a": "| Energy (eV) | Absorbance (arb. units) stripe dot |Absorbance (arb. units) stripes |Absorbance (arb. units) dots |Absorbance (arb. units) black|Absorbance (arb. units) green|Absorbance (arb. units) orange|Absorbance (arb. units) yellow|\n|---|---|---|---|---|---|---|---|\n| 635 | constant |constant |constant |constant |constant |constant |constant |\n| 640 | Peak |Peak |Peak |Peak |Peak |Peak |Peak |\n| 645 | Peak |Peak |Peak |Peak |Peak |Peak |Peak |\n| 650 | constant |constant |constant |constant |constant |constant |constant |\n| 655 |  Sharp peak |Sharp peak |Sharp peak |Sharp peak |Sharp peak |Sharp peak |Sharp peak |\n| 660 | constant |constant |constant |constant |constant |constant |constant |",
+        "b": "| Energy (eV) |  Absorbance (arb. units) stripe dot |Absorbance (arb. units) stripes |Absorbance (arb. units) dots |Absorbance (arb. units) black|Absorbance (arb. units) green|Absorbance (arb. units) orange|Absorbance (arb. units) yellow|\n|---|---|---|---|---|---|---|---|\n| 526 | constant |constant |constant |constant |constant |constant |constant |\n| 528 | constant |constant |constant |constant |constant |constant |constant |\n| 530 | Peak |Peak |Peak |Peak |Peak |Peak |Peak |\n| 532 | Shoulder|Shoulder|Shoulder|Shoulder|Shoulder|Shoulder|Shoulder|\n| 534 |  constant |constant |constant |constant |constant |constant |constant |\n| 536 | constant |constant |constant |constant |constant |constant |constant |",
+        "c": "| Energy (eV) |  Absorbance (arb. units) stripe dot |Absorbance (arb. units) stripes |Absorbance (arb. units) dots |Absorbance (arb. units) 0.5|Absorbance (arb. units) 1|Absorbance (arb. units) 45|\n|---|---|---|---|---|---|---|\n| 638 |constant |constant |constant |constant |constant |constant |\n| 640 | Increase|Increase|Increase|Increase|Increase|Increase|\n| 642 | Mn\u00b3\u207a peak|Mn\u00b3\u207a peak|Mn\u00b3\u207a peak|Mn\u00b3\u207a peak|Mn\u00b3\u207a peak|Mn\u00b3\u207a peak|\n| 644 |Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|\n| 646 | constant |constant |constant |constant |constant |constant |\n| 648 | constant |constant |constant |constant |constant |constant |\n| 650 | constant |constant |constant |constant |constant |constant |",
+        "d": "| Energy (eV) |  Absorbance (arb. units) stripe dot |Absorbance (arb. units) stripes |Absorbance (arb. units) dots |Absorbance (arb. units) 0.5|Absorbance (arb. units) 1|Absorbance (arb. units) 45|\n|---|---|---|---|---|---|---|\n| 525 |constant |constant |constant |constant |constant |constant |\n| 528 | constant |constant |constant |constant |constant |constant |\n| 529 | Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|\n| 531 |Mn\u00b3\u207a peak|Mn\u00b3\u207a peak|Mn\u00b3\u207a peak|Mn\u00b3\u207a peak|Mn\u00b3\u207a peak|Mn\u00b3\u207a peak|\n| 531.5 | Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|\n| 534 | constant |constant |constant |constant |constant |constant |\n| 535 | constant |constant |constant |constant |constant |constant |",
+        "e": "| Energy (eV) |  Absorbance (arb. units) stripe dot |Absorbance (arb. units) stripes |Absorbance (arb. units) dots |Absorbance (arb. units) 0.5|Absorbance (arb. units) 1|Absorbance (arb. units) 45|\n|---|---|---|---|---|---|---|\n| 638 |constant |constant |constant |constant |constant |constant |\n| 640 | Increase|Increase|Increase|Increase|Increase|Increase|\n| 642 | Mn\u00b3\u207a peak|Mn\u00b3\u207a peak|Mn\u00b3\u207a peak|Mn\u00b3\u207a peak|Mn\u00b3\u207a peak|Mn\u00b3\u207a peak|\n| 644 |Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|\n| 646 | constant |constant |constant |constant |constant |constant |\n| 648 | constant |constant |constant |constant |constant |constant |\n| 650 | constant |constant |constant |constant |constant |constant |",
+        "f": "| Energy (eV) |  Absorbance (arb. units) stripe dot |Absorbance (arb. units) stripes |Absorbance (arb. units) dots |Absorbance (arb. units) 0.5|Absorbance (arb. units) 1|Absorbance (arb. units) 45|\n|---|---|---|---|---|---|---|\n| 525 |constant |constant |constant |constant |constant |constant |\n| 528 | constant |constant |constant |constant |constant |constant |\n| 529 | Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|\n| 531 |Mn\u00b3\u207a peak|Mn\u00b3\u207a peak|Mn\u00b3\u207a peak|Mn\u00b3\u207a peak|Mn\u00b3\u207a peak|Mn\u00b3\u207a peak|\n| 531.5 | Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|Mn\u2074\u207a peak|\n|533|constant |constant |constant |Peak |Peak |constant |\n| 534 | constant |constant |constant |constant |constant |constant |\n| 535 | constant |constant |constant |constant |constant |constant |"
+    },
+    "vqa": {
+        "f": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does the reference spectrum of LiMn2O4 overlap with the measured spectra?",
+                "answer_type": "Paragraph",
+                "answer": "f\tThe reference mostly overlaps with the spectrum deeper in the film, so in the bulk."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Will the measured MnO2 spectrum be regarded as accurate?",
+                "answer_type": "Paragraph",
+                "answer": "b\tThe measured spectrum overlaps with the literature value indicating that it is correct."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What happens when the concentration of lithium increases in the manganese oxide?",
+                "answer_type": "Paragraph",
+                "answer": "a\tThe oxidation state of manganese changes from Mn4+ to more Mn3+."
+            }
+        ],
+        "e": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Does the lithium doping fully penetrate the film?",
+                "answer_type": "Paragraph",
+                "answer": "e\tThe data shows more Mn4+ in the bulk, indicating that there is less lithium deeper in the film."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "f": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

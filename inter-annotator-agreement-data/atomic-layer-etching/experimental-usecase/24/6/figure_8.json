@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_8",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart shows the change in mass (\u0394M) over temperature for the two different exposure steps (TMA and HF) with negative values indicating mass loss.",
+        "b": "The line chart illustrates the change in MCPC (mass change per cycle) over temperature, showing a consistent decrease."
+    },
+    "data_extraction": {
+        "a": "| Temperature (\u00b0C) | \u0394M<sub>TMA</sub> (ng/cm<sup>2</sup> cycle) | \u0394M<sub>HF</sub> (ng/cm<sup>2</sup> cycle) |\n|---|---|---|\n| 250 | -10 | 5 |\n| 275 | -20 | 10 |\n| 300 | -30 | 15 |\n| 325 | -42 | 20 |",
+        "b": "| Temperature (\u00b0C) | MCPC (ng/cm<sup>2</sup> cycle) |\n|---|---|\n| 250 | -5 |\n| 275 | -10 |\n| 300 | -15 |\n| 325 | -20 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the mass change for the TMA exposure change with temperature?",
+                "answer_type": "Factoid",
+                "answer": "As the temperature increases, the mass change during TMA exposure keeps decreasing linearly."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the mass change for the HF exposure change with temperature?",
+                "answer_type": "Factoid",
+                "answer": "As temperature increases, the mass change during HF exposure keeps increasing linearly."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the overall effect of temperature on the MCPC?",
+                "answer_type": "Factoid",
+                "answer": "As the change in mass loss during TMA exposure is larger than the mass gain during HF exposure, the MCPC decreases with temperature."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the dominating factor for MCPC?",
+                "answer_type": "Factoid",
+                "answer": "The temperature dependence of the mass change during TMA exposure."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

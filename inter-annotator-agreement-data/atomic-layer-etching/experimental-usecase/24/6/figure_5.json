@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_5",
+    "classification": {
+        "a": "multi-axis chart"
+    },
+    "summarization": {
+        "a": "The chart shows the mass change and thickness changes over time at different temperatures for TMA and HF treatments."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass Change (ng/cm\u00b2) 250 \u00b0C | 275 \u00b0C | 300 \u00b0C | 325 \u00b0C |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 2000 | -83 | -333 | -500 | -800 |\n| 4000 | -166 | -666 | -1000 | -1600 |\n| 6000 | -250 | -1000 | -1500 | -2400 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How many ALE cycles were performed for this experiment?",
+                "answer_type": "Factoid",
+                "answer": "100"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does temperature affect the mass change per cycle?",
+                "answer_type": "Factoid",
+                "answer": "The MCPC increases with temperature from -4.2 ng/(cm^2 cycle) at 250 \u00b0C to -23.3 ng/(cm2 cycle) at 325 \u00b0C. This corresponds to etch rates of 0.14 \u00c5/cycle at 250 \u00b0C to 0.75 \u00c5/cycle at 325 \u00b0C."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How were the etch rates determined?",
+                "answer_type": "Paragraph",
+                "answer": "For this study, a quartz crystal microbalance (QCM) was used, which yields mass change in ng/cm^2. Before the experiments, the density of the Al2O3 substrate was determined to be 3.1 g/cm^3. Dividing mass change (per area) by the density in this case results in the material thickness that was etched per cycle, expressed in \u00c5."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What was the reaction sequence used for this experiment?",
+                "answer_type": "Factoid",
+                "answer": "2 s TMA exposure, 30 s purge, 1 s HF exposure, 30 s purge."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_1",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The chart shows a linear decrease in mass change over time at 300\u00b0C on Al\u2082O\u2083, with sequence of TMA and HF treatments indicated in the figure."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|----------|------------------------|\n| 0        | 0                     |\n| 1000     | -250                  |\n| 2000     | -500                  |\n| 3000     | -750                  |\n| 4000     | -1000                 |\n| 5000     | -1250                 |\n| 6000     | -1500                 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the mass change increase with increasing time/duration?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the ALE etching sequence ?",
+                "answer_type": "Paragraph",
+                "answer": "One ALE cycle consists of \nI. TMA dose of 2.0 s\nII.  N2 purge of 30 s\nIII. HF dose of 1.0 s\nIV. N2 purge of 30 s."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does all ALE cycles lead to a decrease in mass?",
+                "answer_type": "Factoid",
+                "answer": "All ALE cycles show mass loss except during the first ALE cycle. The first cycle displays mass gains."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What does the slope of Mass change give?",
+                "answer_type": "Paragraph",
+                "answer": "slope of\nthe mass change versus time yields a mass change per cycle\n(MCPC) of \u221215.9 ng/(cm2 cycle). This MCPC represents the\nremoval of 9.4 \u00d7 1013 \u201cAl2O3\u201d units/(cm2 cycle). This MCPC is\nalso equivalent to an etch rate of 0.51 \u00c5/cycle based on the\nAl2O3 ALD film density of 3.1 g/cm3 determined by XRR."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

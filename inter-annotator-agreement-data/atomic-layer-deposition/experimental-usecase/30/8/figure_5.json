@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_5",
+    "classification": {
+        "a": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays Fe 2p XAS spectra measured in TEY regime for Fe\u2082O\u2083: MgO thin films grown at 425 \u00b0C, comparing non-doped sample with those doped with Mg at different concentrations (Mg 0.02 at.%, Mg 0.2 at.% and Mg 0.38 at.%)"
+    },
+    "data_extraction": {
+        "a": "| photon energy, eV | non-doped (Mg 0.0 at.%) | Mg 0.02 at.% | Mg 0.2 at.% | Mg 0.38 at.% |\n|---|---|---|---|---|\n| 700 | 0 | 0 | 0 | 0|\n| 708 | 2.8 | 3.0 | 2.4 |2.7 |\n| 710 | 5.0 | 5.1| 5.1| 5.4|\n| 711 | 2.6 | 2.7 | 2.5 | 2.7|\n| 712 | 1.7 | 1.8 | 1.53 | 1.5|\n| 714 | 0.91 | 0.98 | 0.84 | 0.9 |\n| 719 | 0.5 | 0.5 | 0.4 | 0.4 |\n| 721.7 | 1.3 | 1.4 | 1.1 | 1.2 |\n| 722.4 | 1.1| 1.14 | 1.0 | 1.1 |\n| 723.3 |1.4 | 1.4 | 1.4 | 1.3 |\n| 740 | 0.53 | 0.59 | 0.56 | 0.4 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Is this a surface-sensitive measurement or bulk-sensitive measurement? Why?",
+                "answer_type": "Paragraph",
+                "answer": "This is a surface-sensitive measurement because the figure indicates the spectra were collected in Total Electron Yield (TEY) mode. TEY detects secondary and Auger electrons which typically have an escape depth of only < 10 nanometers due to their short mean free path in solids. Consequently, the resulting spectrum primarily characterizes the chemical state of the uppermost layers of the film rather than the bulk material."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which absorption edge has a higher intensity?",
+                "answer_type": "Factoid",
+                "answer": "The L3 edge (at ~ 710 eV) has higher intensity than L2, which is consistent with statistical ratio expected for those transitions."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is approximate spin-orbit splitting between L3 and L2?",
+                "answer_type": "Factoid",
+                "answer": "~ 13 eV."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does the energy position of the peaks shift as the mMagnesium doping increases?",
+                "answer_type": "Yes/No",
+                "answer": "No."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

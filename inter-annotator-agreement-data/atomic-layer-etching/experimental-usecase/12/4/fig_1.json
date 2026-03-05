@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_1",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays absorbance spectra across wavenumbers for cycles 1 through 6, highlighting changes in absorbance at specific wavenumbers especially at 900 cm-1.",
+        "b": "The figure compares absorbance spectra between TMA reference to SF\u2086 plasma and SF\u2086 plasma reference to TMA for cycles 2, 4, and 6."
+    },
+    "data_extraction": {
+        "a": "| Wavenumber (cm\u207b\u00b9) | Cycle 1 | Cycle 2 | Cycle 3 | Cycle 4 | Cycle 5 | Cycle 6 |\n|--------------------|---------|---------|---------|---------|---------|---------|\n| 1000              | 0.002   | 0.0018  | 0.0016  | 0.0014  | 0.0012  | 0.0010  |\n| 900               | 0.0018  | 0.0016  | 0.0014  | 0.0012  | 0.0010  | 0.0008  |\n| 800               | 0.0016  | 0.0014  | 0.0012  | 0.0010  | 0.0008  | 0.0006  |",
+        "b": "| Wavenumber (cm\u207b\u00b9) | Cycle 2 (Blue) | Cycle 2 (Red) | Cycle 4 (Blue) | Cycle 4 (Red) | Cycle 6 (Blue) | Cycle 6 (Red) |\n|--------------------|-----------------|---------------|-----------------|---------------|-----------------|---------------|\n| 3000              | +0.005         | -0.005        | +0.005         | -0.005        | +0.005         | -0.005        |\n| 2800              | +0.004         | -0.004        | +0.004         | -0.004        | +0.004         | -0.004        |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What happens to the absorbance with increasing cycles?",
+                "answer_type": "Factoid",
+                "answer": "The intensity of the absorbance decreases with increasing cycles."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Does a decrease in absorption corresponds to the removal of species?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What can be said about AlCH3 absorbance peaks at 2900 and 2950 cm-1?",
+                "answer_type": "Paragraph",
+                "answer": "Following TMA dosing, AlCH3 surface species are observed as indicated by an increase in the CH3 absorbance peak. These methyl groups are thought to be\nformed after removal of the fluorinated surface layer, allowing excess TMA to adsorb on the bulk Al2O3. After SF6 plasma exposure, a negative CH3 peak is observed, indicating the removal of surface methyl groups, which is attributed to ligand exchange reactions between methyl groups and fluorine atoms."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "At what temperature were these spectra collected?",
+                "answer_type": "Factoid",
+                "answer": "At 250 \u00b0C."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

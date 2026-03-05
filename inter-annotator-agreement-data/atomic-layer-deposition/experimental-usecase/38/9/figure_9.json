@@ -1,0 +1,81 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_9",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart",
+        "c": "multi spectra chart",
+        "d": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "X-ray diffraction patterns of 200cLi\u2212MnO2-600 sample in in-plane (2\u03b8\u03c7) configuration, showing reflections from LiMn\u2082O\u2084 and 200cLi-MnO\u2082-600 phases. Annealing improves peak alignment with the reference, indicating a more complete LiMn2O4 crystal structure.",
+        "b": "X-ray diffraction patterns of 200cLi\u2212MnO2-600 sample in out-of-plane (\u03b8\u22122\u03b8) configuration, showing reflections from the lithiated phase, LiMn\u2082O\u2084, and MnO\u2082. Annealing improves peak alignment with the reference.",
+        "c": "X-ray diffraction patterns of 300cLi\u2212MnO2-600 sample in in-plane (2\u03b8\u03c7) configuration, showing reflections from LiMn\u2082O\u2084 and 300cLi-MnO\u2082-600 phases. Annealing improves peak alignment with the reference.",
+        "d": "X-ray diffraction patterns of 300cLi\u2212MnO2-600 sample in out-of-plane (\u03b8\u22122\u03b8) configuration, showing reflections from the lithiated phase, LiMn\u2082O\u2084, and 300cLi-MnO\u2082. Annealing improves peak alignment with the reference."
+    },
+    "data_extraction": {
+        "a": "| Intensity (arb. units) | \u00b02\u03b8\u03c7 |\n|---|---|\n| LiMn2O4 (111) | 18.5 |\n| LiMn2O4 (311) | 36.1 |\n| LiMn2O4 (400) | 44.0 |\n| LiMn2O4 (511/440) | 58\u201360 |",
+        "b": "| Intensity (arb. units) | \u00b02\u03b8 |\n|---|---|\n| LiMn2O4 (111) | 18.5 |\n| MnO2 phase | 28\u201330 |\n| LiMn2O4 (311) | 36.1 |",
+        "c": "| Intensity (arb. units) | \u00b02\u03b8\u03c7 |\n|---|---|\n| LiMn2O4 (111) | 18.5 |\n| LiMn2O4 (311) | 36.1 |\n| LiMn2O4 (400) | 44.0 |\n| LiMn2O4 (511/440) | 58\u201360 |",
+        "d": "| Intensity (arb. units) | \u00b02\u03b8 |\n|---|---|\n| LiMn2O4 (111) | 18.5 |\n| Li2\u2212zMnO2 | 32.6 |\n| LiMn2O4 (311) | 36.1 |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Explain how analyzing the XRD patterns of annealed Li-MnO2 films can inform improvements in lithium-ion battery cathode performance.",
+                "answer_type": "Paragraph",
+                "answer": "XRD analysis reveals the crystal structure and phase purity of Li-MnO2 films. Annealing at 600\u202f\u00b0C helps achieve a stoichiometric LiMn2O4 phase with well-defined reflections, which correlates with better lithium intercalation and electrochemical stability. Identifying residual MnO2 or impurity phases like Li2\u2212zMnO2 allows researchers to optimize annealing conditions, ensuring improved capacity, cycling stability, and structural integrity in battery cathodes."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "List the main XRD reflections observed for the 200cLi\u2212MnO2-600 sample and describe their significance.",
+                "answer_type": "List",
+                "answer": "(111), (131), (222), (440), (351) \u2192 Correspond to cubic LiMn2O4 structure, MnO2 reappeared reflections \u2192 Indicate residual or reformed MnO2 phase after annealing"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does annealing at 600\u202f\u00b0C affect the XRD peak positions of Li-MnO2 films?",
+                "answer_type": "Paragraph",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which sample shows the additional impurity phase Li2\u2212zMnO2 after annealing?",
+                "answer_type": "Factoid",
+                "answer": "300cLi\u2212MnO2-600."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

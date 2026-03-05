@@ -1,0 +1,83 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_4",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart",
+        "d": "stacked spectra chart",
+        "e": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The multi line graph represents the X-ray Absorption Spectroscopy (XAS) data for O 1s and Fe 2p transitions in TFY samples, comparing 'as deposited' and 'forming gas annealed' conditions at various temperatures.",
+        "b": "The figure displays X-ray Absorption Spectroscopy (XAS) data for O 1s and Fe 2p transitions in TFY samples, comparing 'as deposited' and 'forming gas annealed' conditions at various temperatures."
+    },
+    "data_extraction": {
+        "a": "| photon energy / eV | O 1s XAS (TFY) as deposited | O 1s XAS (TFY) forming gas annealed | Fe 2p XAS (TFY) as deposited | Fe 2p XAS (TFY) forming gas annealed |\n|---|---|---|---|---|\n|530 | | |710 | |\n|535 | | |715 | |\n|540 | | |720 | |\n|545 | | |725 | |\n|550 | | |730 | |",
+        "b": "| photon energy / eV | O 1s XAS (TFY) as deposited | O 1s XAS (TFY) forming gas annealed | Fe 2p XAS (TFY) as deposited | Fe 2p XAS (TFY) forming gas annealed |\n|---|---|---|---|---|\n|530 | | |710 | |\n|535 | | |715 | |\n|540 | | |720 | |\n|545 | | |725 | |\n|550 | | |730 | |",
+        "c": "| photon energy / eV | O 1s XAS (TFY) as deposited | O 1s XAS (TFY) forming gas annealed | Fe 2p XAS (TFY) as deposited | Fe 2p XAS (TFY) forming gas annealed |\n|---|---|---|---|---|\n|530 | | |710 | |\n|535 | | |715 | |\n|540 | | |720 | |\n|545 | | |725 | |\n|550 | | |730 | |",
+        "d": "| photon energy / eV | O 1s XAS (TFY) as deposited | O 1s XAS (TFY) forming gas annealed | Fe 2p XAS (TFY) as deposited | Fe 2p XAS (TFY) forming gas annealed |\n|---|---|---|---|---|\n|530 | | |710 | |\n|535 | | |715 | |\n|540 | | |720 | |\n|545 | | |725 | |\n|550 | | |730 | |",
+        "e": "| photon energy / eV | O 1s XAS (TFY) as deposited | O 1s XAS (TFY) forming gas annealed | Fe 2p XAS (TFY) as deposited | Fe 2p XAS (TFY) forming gas annealed |\n|---|---|---|---|---|\n|530 | | |710 | |\n|535 | | |715 | |\n|540 | | |720 | |\n|545| | | 730 | |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does forming gas annealing (FGA) modify the electronic structure of Mg\u2013Fe oxide films as observed in Fe L\u2083-edge and O K-edge XAS spectra?",
+                "answer_type": "Paragraph",
+                "answer": "FGA reduces the intensity of higher-energy O K-edge features and slightly shifts Fe L\u2083-edge peaks toward lower energy, indicating oxygen vacancy formation and partial reduction of Fe\u00b3\u207a to Fe\u00b2\u207a. This process promotes magnetite-like electronic environments, especially in Mg-doped films, by creating mixed-valence states and improving electron mobility."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do Mg/Fe ratio and growth temperature influence the XAS spectra of these films?",
+                "answer_type": "Paragraph",
+                "answer": "Non-doped films grown at 400\u202f\u00b0C show minimal spectral changes after FGA, while Mg-doped films grown at 375\u202f\u00b0C exhibit significant modifications, including stronger Fe\u00b2\u207a signatures and altered O K-edge features. Increasing Mg/Fe ratio from 0.017 (sample d) to 0.062 (sample e) enhances these effects, indicating that Mg doping facilitates reduction and stabilizes oxygen-deficient structures."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What do the changes in Fe L\u2083-edge and O K-edge spectra imply about the structural and electronic properties of Mg\u2013Fe oxide films?",
+                "answer_type": "Paragraph",
+                "answer": "The observed shifts and intensity changes suggest increased Fe\u00b2\u207a content and oxygen vacancies, leading to improved electrical conductivity and magnetic properties. Mg doping further stabilizes these reduced states, creating a structure closer to magnetite, which enhances electron transport and magnetic ordering."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why are Mg-doped, FGA-treated films advantageous for spintronic or catalytic applications compared to non-doped films?",
+                "answer_type": "Paragraph",
+                "answer": "Mg-doped films exhibit enhanced Fe\u00b2\u207a content and oxygen vacancies, improving electron transport and magnetic ordering, which are critical for spintronic devices. Additionally, oxygen vacancies and mixed-valence states boost catalytic activity for oxygen evolution and reduction reactions, making these films multifunctional for energy and electronic applications."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

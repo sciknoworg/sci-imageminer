@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_10",
+    "classification": {
+        "a": "spectra chart"
+    },
+    "summarization": {
+        "a": "The FTIR spectra show a strong absorption peak near 1000 cm\u207b\u00b9 that decreases with increasing ALE cycles. The 0-cycle spectrum has the highest peak, and the 4, 6, and 8-cycle traces show progressively lower absorbance."
+    },
+    "data_extraction": {
+        "a": "| Wavenumber (cm\u207b\u00b9) | Absorbance | ALE cycles |\n|------------------ |----------- |------------|\n| ~1000             | ~0.70      | 0          |\n| ~1000             | ~0.60      | 4          |\n| ~1000             | ~0.48      | 6          |\n| ~1000             | ~0.40      | 8          |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Application/Performance",
+                "question": "List the ALE cycle numbers shown in the figure",
+                "answer_type": "List",
+                "answer": "0,4,6, 8."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "At what temperature were the FTIR measurements performed",
+                "answer_type": "Factoid",
+                "answer": "300 \u00b0C"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Do the spectra show that ALE cycles reduce the concentration of the absorbing species?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the main absorbance peak change as more ALE cycles are applied?",
+                "answer_type": "Paragraph",
+                "answer": "The peak near 1000 cm^-1 steadily decreases in height with increasing ALE cycles. The 0-cycle spectrum shows the strongest feature, and each followingspectrum is progressively lower. This indicates that repeated ALE steps remove or change the surface species responsible for this absorption."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_5",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The chart shows the etch rate of various materials (Al2O3, HfO2, AlNx, TiN, SiO2) against the activation step duration. The etch rate increases with time for all materials."
+    },
+    "data_extraction": {
+        "a": "| activation step duration, s | SiO2 etch rate, nm/cyc | Al2O3 etch rate, nm/cyc | AlN etch rate, nm/cyc | HfO2 etch rate, nm/cyc | TiN etch rate, nm/cyc |\n|---|---|---|---|---|---|\n|0|-0.5|-0.5|-0.5|-0.5|-0.5|\n|5|0.4|0.0 | 0.0 | 0.0 | 0.0 |\n|10| 0.6 | 0.2 | 0.2 | 0.1 | 0.0 | \n|20|0.7| 0.3 | 0.3 | 0.15 | 0.05 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "For the etching of aluminum based material, does it matter which type of material it is (i.e. nitride/oxide)?",
+                "answer_type": "Paragraph",
+                "answer": "No it does not seem to matter. Both Al2O3 and AlNx have similar etch results."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Based on these results is it possible to have selective ALE, if so, which material can be selectively etched?",
+                "answer_type": "Paragraph",
+                "answer": "Yes it is possible, SiO2 can be selectively etched wrt to all other materials at an activation time of 5 seconds."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Based on this data, can an ALE recipe be developed for TiN?",
+                "answer_type": "Yes/No",
+                "answer": "Yes, there is an increase in etch rate for increasing activation time"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which activation step durations should be applied to have similar etching of HfO2 and Al2O3?",
+                "answer_type": "Factoid",
+                "answer": "20 s for HfO2 and 10 s for Al2O3."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

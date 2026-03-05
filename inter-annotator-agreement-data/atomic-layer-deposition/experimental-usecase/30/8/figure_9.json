@@ -1,0 +1,68 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_9",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The figure shows the temperature dependence of magnetization (ZFC and FC regimes) for Fe\u2082O\u2083 thin film grown at 450\u00b0C with a thickness  of 705 nm. The sample underwent forming gas annealing, the measurement was conducted in a magnetic field of 1000 Oe.",
+        "b": "The figure shows the temperature dependence of magnetization (ZFC and FC regimes) for a magnesium-doped Fe\u2082O\u2083 film with a thickness  of 183 nm. The film was grown at 425\u00b0C using the ALD sequence 100 x Fe\u2082O\u2083 and 4 x (3 x MgO + 100 x Fe\u2082O\u2083). The sample underwent forming gas annealing, the measurement was conducted in a magnetic field of 1000 Oe.",
+        "c": "The figure shows the temperature dependence of magnetization (ZFC and FC regimes) for a magnesium-doped Fe\u2082O\u2083 film with a thickness  of 411 nm. The film was grown at 375\u00b0C using the ALD sequence 100 x Fe\u2082O\u2083 and 15 x (10 x MgO + 100 x Fe\u2082O\u2083) . The sample underwent forming gas annealing, the measurement was conducted in a magnetic field of 1000 Oe."
+    },
+    "data_extraction": {
+        "a": "| Regime | Temperature, K | Magnetization, emu/g |\n|---|---|---|\n| Zero Field Cooling (ZFC) | 12 | 0,0149 |\n| Zero Field Cooling (ZFC) | 27 | 0,0178 |\n| Zero Field Cooling (ZFC) | 47 | 0,0196 |\n| Zero Field Cooling (ZFC) | 72 | 0,0226 |\n| Zero Field Cooling (ZFC) | 87 | 0,0261 |\n| Zero Field Cooling (ZFC) | 98 | 0,0326 |\n| Zero Field Cooling (ZFC) | 106 | 0,0427 |\n| Zero Field Cooling (ZFC) | 111 | 0,0546 |\n| Zero Field Cooling (ZFC) | 117 | 0,0692 |\n| Zero Field Cooling (ZFC) | 122 | 0,0841 |\n| Zero Field Cooling (ZFC) | 126 | 0,0927 |\n| Zero Field Cooling (ZFC) | 141 | 0,0946 |\n| Zero Field Cooling (ZFC) | 159 | 0,0927 |\n| Zero Field Cooling (ZFC) | 179 | 0,0912 |\n| Zero Field Cooling (ZFC) | 197 | 0,0903 |\n| Zero Field Cooling (ZFC) | 217 | 0,0894 |\n| Zero Field Cooling (ZFC) | 241 | 0,0889 |\n| Zero Field Cooling (ZFC) | 265 | 0,0876 |\n| Zero Field Cooling (ZFC) | 285 | 0,0862 |\n| Zero Field Cooling (ZFC) | 300 | 0,0849 |\n| Field Cooling (FC) | 12 | 0,0780 |\n| Field Cooling (FC) | 33 | 0,0780 |\n| Field Cooling (FC) | 57 | 0,0774 |\n| Field Cooling (FC) | 82 | 0,0765 |\n| Field Cooling (FC) | 100 | 0,0768 |\n| Field Cooling (FC) | 118 | 0,0846 |\n| Field Cooling (FC) | 132 | 0,0938 |\n| Field Cooling (FC) | 153 | 0,0942 |\n| Field Cooling (FC) | 174 | 0,0906 |\n| Field Cooling (FC) | 194 | 0,0906 |\n| Field Cooling (FC) | 222 | 0,0896 |\n| Field Cooling (FC) | 248 | 0,0872 |\n| Field Cooling (FC) | 272 | 0,0855 |\n| Field Cooling (FC) | 298 | 0,0859 |",
+        "b": "| Regime | Temperature, K | Magnetization, emu/g |\n|---|---|---|\n| Zero Field Cooling (ZFC) | 12 | 0,0179 |\n| Zero Field Cooling (ZFC) | 20 | 0,0244 |\n| Zero Field Cooling (ZFC) | 30 | 0,0306 |\n| Zero Field Cooling (ZFC) | 52 | 0,0358 |\n| Zero Field Cooling (ZFC) | 78 | 0,0403 |\n| Zero Field Cooling (ZFC) | 102 | 0,0471 |\n| Zero Field Cooling (ZFC) | 121 | 0,0521 |\n| Zero Field Cooling (ZFC) | 164 | 0,0527 |\n| Zero Field Cooling (ZFC) | 209 | 0,0518 |\n| Zero Field Cooling (ZFC) | 242 | 0,0515 |\n| Zero Field Cooling (ZFC) | 298 | 0,0501 |\n| Field Cooling (FC) | 13 | 0,0528 |\n| Field Cooling (FC) | 47 | 0,0528 |\n| Field Cooling (FC) | 82 | 0,0532 |\n| Field Cooling (FC) | 107 | 0,0547 |\n| Field Cooling (FC) | 125 | 0,0556 |\n| Field Cooling (FC) | 147 | 0,0555 |\n| Field Cooling (FC) | 180 | 0,0543 |\n| Field Cooling (FC) | 212 | 0,0535 |\n| Field Cooling (FC) | 241 | 0,0527 |\n| Field Cooling (FC) | 271 | 0,0515 |\n| Field Cooling (FC) | 300 | 0,0503 |",
+        "c": "| Regime | Temperature, K | Magnetization, emu/g |\n|---|---|---|\n| Zero Field Cooling (ZFC) | 10 | 0,0650 |\n| Zero Field Cooling (ZFC) | 15 | 0,0660 |\n| Zero Field Cooling (ZFC) | 23 | 0,0672 |\n| Zero Field Cooling (ZFC) | 36 | 0,0676 |\n| Zero Field Cooling (ZFC) | 68 | 0,0684 |\n| Zero Field Cooling (ZFC) | 89 | 0,0689 |\n| Zero Field Cooling (ZFC) | 109 | 0,0693 |\n| Zero Field Cooling (ZFC) | 133 | 0,0695 |\n| Zero Field Cooling (ZFC) | 147 | 0,0694 |\n| Zero Field Cooling (ZFC) | 160 | 0,0693 |\n| Zero Field Cooling (ZFC) | 180 | 0,0690 |\n| Zero Field Cooling (ZFC) | 198 | 0,0686 |\n| Zero Field Cooling (ZFC) | 227 | 0,0680 |\n| Zero Field Cooling (ZFC) | 251 | 0,0674 |\n| Zero Field Cooling (ZFC) | 271 | 0,0669 |\n| Zero Field Cooling (ZFC) | 284 | 0,0664 |\n| Field Cooling (FC) | 15 | 0,0693 |\n| Field Cooling (FC) | 39 | 0,0691 |\n| Field Cooling (FC) | 60 | 0,0693 |\n| Field Cooling (FC) | 82 | 0,0695 |\n| Field Cooling (FC) | 99 | 0,0695 |\n| Field Cooling (FC) | 116 | 0,0697 |\n| Field Cooling (FC) | 127 | 0,0696 |\n| Field Cooling (FC) | 140 | 0,0696 |\n| Field Cooling (FC) | 158 | 0,0693 |\n| Field Cooling (FC) | 207 | 0,0686 |\n| Field Cooling (FC) | 231 | 0,0680 |\n| Field Cooling (FC) | 279 | 0,0667 |\n| Field Cooling (FC) | 300 | 0,0662 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Is  Verwey transition observed for this sample?",
+                "answer_type": "Yes/No",
+                "answer": "No."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "At which temperature does the Verwey transition occur?",
+                "answer_type": "Factoid",
+                "answer": "At 125 K, as indicated by the label Tv."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "At which temperature does the transition from monoclinic structure to cubic structure occur?",
+                "answer_type": "Factoid",
+                "answer": "At 120 K."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "At what temperature do the ZFC and FC curves merge into a single line?",
+                "answer_type": "Factoid",
+                "answer": "At 125 K."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

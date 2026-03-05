@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_7",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart shows the mass change over time at 250\u00b0C. TMA exposure produces net mass loss, while HF produces net mass gain. The bracketed MCPC indicates the smallest net mass change per cycle on a panel.",
+        "b": "The line chart displays the mass change over time at 275\u00b0C. TMA exposure produces net mass loss, while HF produces net mass gain.",
+        "c": "The line chart illustrates the mass change over time at 325\u00b0C. TMA exposure produces net mass loss, while HF produces net mass gain. The bracketed MCPC indicates the largest net mass change per cycle on a panel."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass Change (ng/cm\u00b2) | Step |\n|---|---|---|\n| 6100 | -318 | Start TMA dosing  |\n| 6145 | -328 | Start HF dosing  |\n| 6175 | -322 | Start TMA dosing  |\n| 6207 | -334 | Start HF dosing  |\n| 6238 | - 327  | Start TMA dosing  |\n| 6270 | - 338 | Start HF dosing  |\n| 6298 | - 332 | Purging |",
+        "b": "| Time (s) | Mass Change (ng/cm\u00b2) | Step |\n|---|---|---|\n| 6100 | -944 | Start TMA dosing  |\n| 6145 | -966 | Start HF dosing  |\n| 6175 | -955 | Start TMA dosing  |\n| 6207 | -975 | Start HF dosing  |\n| 6238 | - 964  | Start TMA dosing  |\n| 6270 | - 985 | Start HF dosing  |\n| 6298 | - 975 | Purging |",
+        "c": "| Time (s) | Mass Change (ng/cm\u00b2) | Step |\n|---|---|---|\n| 6100 | - 2209 | Start TMA dosing  |\n| 6145 | - 2250 | Start HF dosing  |\n| 6175 | - 2232| Start TMA dosing  |\n| 6207 | - 2274| Start HF dosing  |\n| 6238 | - 2256  | Start TMA dosing  |\n| 6270 | - 2298 | Start HF dosing  |\n| 6298 | - 2280| Purging |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which half-cycle dominates the net MCPC at 325 \u00b0C ?",
+                "answer_type": "Factoid",
+                "answer": "TMA half-cycle."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How many ALE cycles are shown on the chart?",
+                "answer_type": "Factoid",
+                "answer": "3 cycles."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does the cycle result in net etching or net deposition?",
+                "answer_type": "Factoid",
+                "answer": "Net etching (MCPC slightly negative)"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Between the first and second ALE cycles shown on the figure, which cycle shows a larger magnitude MCPC?",
+                "answer_type": "Factoid",
+                "answer": "First cycle (\u221211 ng/cm\u00b2) shows larger MCPC that the second cycle (\u22129 ng/cm\u00b2)."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

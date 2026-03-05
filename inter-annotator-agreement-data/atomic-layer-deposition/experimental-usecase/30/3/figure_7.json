@@ -1,0 +1,77 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_7",
+    "classification": {
+        "a": "image panel",
+        "b": "image panel",
+        "c": "image panel",
+        "d": "image panel"
+    },
+    "summarization": {
+        "a": "The image consists of X-section distribution in a cross-sectional view using SEM technique.",
+        "b": "The image shows the distribution of Si in a cross-section using the EDX technique.",
+        "c": "The image shows the distribution of Fe in a cross-section using the EDX technique.",
+        "d": "The image shows the distribution of O in a cross-section using the EDX technique."
+    },
+    "data_extraction": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which are the main elements presents in the film?",
+                "answer_type": "Factoid",
+                "answer": "The image shows the Fe content."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Is the Fe distributed evenly throughout the material?",
+                "answer_type": "Factoid",
+                "answer": "No, the Fe appears to be closest to the surface of the film."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How does the Fe content compare with the O content?",
+                "answer_type": "Factoid",
+                "answer": "The film has a higher O content than the Fe, so the white color in the figure is more intense for the first case."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which element is present in a higher way?",
+                "answer_type": "Factoid",
+                "answer": "Si."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

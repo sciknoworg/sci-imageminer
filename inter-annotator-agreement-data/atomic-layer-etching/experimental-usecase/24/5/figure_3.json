@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_3",
+    "classification": {
+        "a": "scatter plot",
+        "b": "scatter plot"
+    },
+    "summarization": {
+        "a": "The figure shows the change in MCPC (mass change per cycle) and \u0394M (mass change due to HF and TMA) over cycles at 300\u00b0C on Al<sub>2</sub>O<sub>3</sub>. The MCPC remains relatively constant as the \u0394M are also constant.",
+        "b": "The figure displays the ratio of \u0394M<sub>TMA</sub> to MCPC over cycles, indicating a steady increase."
+    },
+    "data_extraction": {
+        "a": "| Number of Cycles | MCPC (ng/(cm\u00b2 cycle)) | \u0394M<sub>HF</sub> (ng/(cm\u00b2 cycle))| \u0394M<sub>TMA</sub> (ng/(cm\u00b2 cycle))|\n|---|---|---|---|\n|0|-5|35|-22|\n|20|-18|14|32|\n|40|-18|14|32|\n|60|-18|14|32|\n|80|-18|14|32|\n|100|-18|14|32|",
+        "b": "| Number of Cycles | Ratio (\u0394M<sub>TMA</sub> / MCPC) |\n|---|---|\n|0|0.5|\n|20|1.8|\n|40|1.8|\n|60|1.8|\n|80|1.8|\n|100|1.8|"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "After 100 cycles, how much material mass is removed?",
+                "answer_type": "Factoid",
+                "answer": "Around 180 ng/cm\u00b2 is removed."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How is the MCPC calculated?",
+                "answer_type": "Paragraph",
+                "answer": "The MCPC is calculated by adding both the \u0394M's of the TMA and HF subcycles together."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How can ALE be proven with these graphs?",
+                "answer_type": "Paragraph",
+                "answer": "For every cycle the mass changes are constant showing the self-limiting and controlable behaviour of ALE."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What could be a reason for the outliers in the initial cycle?",
+                "answer_type": "Paragraph",
+                "answer": "It could be that there are some defects on the substrate to which HF can adsorb. Similar for TMA."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

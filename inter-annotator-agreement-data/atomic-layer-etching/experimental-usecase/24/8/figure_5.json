@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_5",
+    "classification": {
+        "a": "multi-axis chart"
+    },
+    "summarization": {
+        "a": "The chart shows how the mass change and thickness decrease over time for the cycle with 2 s TMA exposure and 1 s  HF exposure, when operating at different temperatures (250, 275, 300 and 325\u00b0C). Both values decrease more rapidly at higher temperatures."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass Change (ng/cm\u00b2) | Thickness (\u00c5) | Temperature (\u00b0C) |\n|---|---|---|---|\n| 0 | 0 | 0 | 250 |\n| 4000 | -177 | -6  | 250 |\n| 6300 | -1338 | -11  | 250 |\n| 0 | 0 |  0 | 275 |\n| 4000 | -598 | -19  | 275 |\n| 6300 | -989 | -32  | 275 |\n| 0 | 0 | 0 | 300 |\n| 4000 | -927  | -30 | 300 |\n| 6300 | -1494 | -48  | 300 |\n| 0 | 0 | 0 | 325 |\n| 4000 | -1437 | -46  | 325 |\n| 6300 | -2281 | -73  | 325 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What process parameter can be adjusted to control etch rate, based on this data?",
+                "answer_type": "Factoid",
+                "answer": "Temperature"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the correct order of etch rates from fastest to slowest across the four temperatures?",
+                "answer_type": "List",
+                "answer": "325 \u00b0C, 300 \u00b0C, 275 \u00b0C, 250 \u00b0C"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which temperature should be chosen to etch at least 6 nm after 100 cycles and why.",
+                "answer_type": "Paragraph",
+                "answer": "Since one cycle is about 63 s, 100 cycles correspond to roughly 6300 s, so you can read the expected thickness removal near that time on the right-hand axis. At 325 \u00b0C, the curve reaches roughly 70 \u00c5 (\u22656 nm). All lower-temperature curves show less than 6 nm after 100 cycles. Therefore, 325 \u00b0C is the best choice because it meets the \u22656 nm target within 100 cycles."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "To remove roughly 3 nm in 60 to 65 cycles, which operating temperature is the best choice?",
+                "answer_type": "Factoid",
+                "answer": "300 \u00b0C"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

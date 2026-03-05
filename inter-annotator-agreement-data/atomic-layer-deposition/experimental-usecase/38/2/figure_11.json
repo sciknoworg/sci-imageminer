@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_11",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart illustrates the change in the average oxidation state of manganese (Mn) as the amount of lithium cycles increases, showing a decreasing trend."
+    },
+    "data_extraction": {
+        "a": "| Amount of lithium cycles | Mn average oxidation state |\n|---|---|\n|MnO2 | 3.8 |\n|10 | 3.7 |\n|50 | 3.6 |\n|100 | 3.3 |\n|200 | 3.2 |\n|200+A | 3.1 |\n|300 | 2.9 |\n|300+A | 2.5 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the Mn oxidation state change with increasing lithium content?",
+                "answer_type": "Factoid",
+                "answer": "It decreases from ~+3.7 in pristine MnO\u2082 to ~+2.5 in 300cLi-MnO\u2082-600, reflecting progressive reduction of Mn\u2074\u207a to Mn\u00b3\u207a (and possibly Mn\u00b2\u207a) upon lithium intercalation."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Why are the measured oxidation states lower than expected theoretical values?",
+                "answer_type": "Paragraph",
+                "answer": "The XANES edge position is affected by factors beyond simple valence, including bond lengths, coordination geometry, and covalent/ionic character. The presence of Jahn-Teller active Mn\u00b3\u207a ions distorts the local structure, contributing to the apparent low oxidation states."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What does \"+A\" mean in the x-axis labels?",
+                "answer_type": "Factoid",
+                "answer": "Annealed samples\u2014200+A was annealed at 600\u00b0C and 300+A at 600\u00b0C for 10 min under N\u2082."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Does the 300cLi-MnO\u2082 sample reach the expected +3.5 oxidation state for stoichiometric LiMn\u2082O\u2084?",
+                "answer_type": "Paragraph",
+                "answer": "No. Despite having near-stoichiometric Li\u2081.\u2081Mn\u2082O\u2084 composition, the measured oxidation state (~2.9\u20133.0) is below the expected +3.5, possibly due to impurity phases or structural distortions."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_2",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The graph shows the X-ray diffraction (XRD) patterns of iron oxide (Fe\u2082O\u2083, hematite) films grown at 425\u202f\u00b0C from FeC\u2085H\u2084CHN(CH\u2083)\u2082, indicating the presence of crystalline hematite and magnetite phases. Grazing incidence X-ray diffraction (GIXRD) patterns were used to characterize these iron oxide films grown under the conditions.",
+        "b": "The graph shows the X-ray diffraction (XRD) patterns of iron oxide (Fe\u2082O\u2083, hematite) films grown at 400\u202f\u00b0C from Fe(C\u2085H\u2085)\u2082, indicating the presence of crystalline hematite and magnetite phases.The thickness of film grown at this temperature was 264 nm",
+        "c": "The graph shows the X-ray diffraction (XRD) patterns of iron oxide (Fe\u2082O\u2083, hematite) films grown at 375\u202f\u00b0C from CpFeC\u2085H\u2084CHN(CH\u2083)\u2082, revealing the presence of crystalline hematite and magnetite phases. thickness of ~76 nm was measured"
+    },
+    "data_extraction": {
+        "a": "| 2\u03b8, degree | Intensity, arb. units |\n|---|---|\n| 20 | 012<sub>H</sub> |\n| 25 | 104<sub>H</sub> |\n| 30 | 220<sub>M</sub> |\n| 35 | 110<sub>H</sub> 311<sub>M</sub> |\n| 40 | 202<sub>H</sub> 113<sub>H</sub> 400<sub>M</sub> |\n| 45 | 024<sub>H</sub> 116<sub>H</sub> 122<sub>H</sub> 422<sub>M</sub> |\n| 50 | 300<sub>H</sub> 214<sub>H</sub> |",
+        "b": "| 2\u03b8, degree | Intensity, arb. units |\n|---|---|\n| 20 | 012<sub>H</sub> |\n| 25 | 104<sub>H</sub> |\n| 30 | 220<sub>M</sub> |\n| 35 | 110<sub>H</sub> 311<sub>M</sub> |\n| 40 | 202<sub>H</sub> 113<sub>H</sub> 400<sub>M</sub> |\n| 45 | 024<sub>H</sub> 116<sub>H</sub> 122<sub>H</sub> 422<sub>M</sub> |\n| 50 | 300<sub>H</sub> 214<sub>H</sub> |",
+        "c": "| 2\u03b8, degree | Intensity, arb. units |\n|---|---|\n| 20 | 012<sub>H</sub> |\n| 25 | 104<sub>H</sub> |\n| 30 | 220<sub>M</sub> |\n| 35 | 110<sub>H</sub> 311<sub>M</sub> |\n| 40 | 202<sub>H</sub> 113<sub>H</sub> 400<sub>M</sub> |\n| 45 | 024<sub>H</sub> 116<sub>H</sub> 122<sub>H</sub> 422<sub>M</sub> |\n| 50 | 300<sub>H</sub> 214<sub>H</sub> |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does forming gas annealing (FGA) affect the phase composition of iron oxide and iron oxide\u2013magnesium oxide films grown at 425\u202f\u00b0C?",
+                "answer_type": "Paragraph",
+                "answer": "FGA significantly reduces hematite (Fe\u2082O\u2083) peaks and enhances magnetite (Fe\u2083O\u2084) peaks in all cases. For pure iron oxide films, hematite dominates in the as-deposited state but converts largely to magnetite after FGA. In Mg-doped films, the effect is more pronounced\u2014especially at higher Mg/Fe ratios\u2014where magnetite becomes the dominant phase after annealing. This indicates that FGA promotes reduction of Fe\u00b3\u207a to Fe\u00b2\u207a and stabilizes magnetite under a reducing atmosphere."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How does increasing Mg/Fe ratio influence the phase composition and crystallinity of the films?",
+                "answer_type": "Paragraph",
+                "answer": "At low Mg/Fe ratio (0.02), hematite remains significant even after FGA, though magnetite peaks increase. At high Mg/Fe ratio (0.23), magnetite peaks (e.g., 311_M, 400_M) dominate strongly, and hematite peaks are greatly suppressed. This trend shows that Mg incorporation favors magnetite formation and improves its crystallinity, likely by altering oxygen activity and lattice strain during growth and annealing."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What structural changes caused by Mg incorporation could impact the functional properties of these films?",
+                "answer_type": "Paragraph",
+                "answer": "Mg incorporation stabilizes magnetite and reduces hematite content, leading to a structure with higher electrical conductivity and stronger ferrimagnetic behavior. Additionally, Mg may introduce lattice strain or defect sites that enhance catalytic activity. Thus, structural tuning through Mg doping directly influences magnetic, electronic, and catalytic properties."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why are Mg-doped magnetite films advantageous for spintronic or magnetic sensor applications compared to pure iron oxide films?",
+                "answer_type": "Paragraph",
+                "answer": "Mg-doped magnetite films exhibit improved magnetite crystallinity and reduced hematite content, resulting in higher saturation magnetization and lower electrical resistivity. These properties are critical for efficient spin transport and magnetic signal detection, making Mg-doped films superior for spintronic devices and magnetic sensors."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

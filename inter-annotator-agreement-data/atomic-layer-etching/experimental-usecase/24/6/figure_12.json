@@ -1,0 +1,49 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_12",
+    "classification": {
+        "a": "spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays infrared absorption spectra at 300\u00b0C after TMA exposure was referenced after HF exposure."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | Absorbance |\n|-------------------|------------|\n| 4000              | 0.000      |\n| 3250              | 0.000      |\n| 2950              | 0.0075      |\n| 2925              | 0.005      |\n| 2900              | 0.0075      |\n| 2750              | 0.000      |\n| 2500              | 0.000      |",
+        "b": "| Wavenumbers (cm\u207b\u00b9) | Absorbance |\n|-------------------|------------|\n| 4000              | 0.000      |\n| 3250              | 0.000      |\n| 2950              | -0.0075      |\n| 2925              | -0.005      |\n| 2900              | -0.0075      |\n| 2750              | 0.000      |\n| 2500              | 0.000      |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "At which wavenumbers do the absorbance increases appear after the TMA exposure?",
+                "answer_type": "Factoid",
+                "answer": "At about 2900 and 2950 cm^-1."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which surface species are associated with the new absorbance bands observed after TMA exposure?",
+                "answer_type": "Factoid",
+                "answer": "AlCH3* surface species, consistent with the formation of AlF2(CH3)* or -OAl(CH3)2*."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What change occurs at 2900 and 2950 cm^-1 after HF exposure?",
+                "answer_type": "Factoid",
+                "answer": "The absorbance at those wavenumbers decreases, indicating the removal of AlCH3* surface species."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Are any vibrational features corresponding to HF* surface species observed between 3000 and 3675 cm^-1 at 300 \u00b0C?",
+                "answer_type": "Yes/No",
+                "answer": "No."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_4",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays the X-ray absorption near-edge structure (XANES) of MnO2, 10cLi-MnO2,  50cLi-MnO2, MnO2 ref, LiMn2O4 ref, and MnO ref samples.",
+        "b": "The figure shows Fourier Transform (FT) of the Mn K-edge extended X-ray absorption near-edge structure (EXAFS) of  MnO2, 10cLi-MnO2,  50cLi-MnO2, MnO2 ref, LiMn2O4 ref, and MnO ref samples.",
+        "c": "The figure shows the absorption spectra of MnO2, 10cLi-MnO2,  50cLi-MnO2, MnO2 ref, LiMn2O4 ref, and MnO ref samples, as a function of the energy (eV), highlighting the Mn+3 and Mn+4."
+    },
+    "data_extraction": {
+        "a": "| Energy (eV) | MnO2 | \n|---|---|\n| 6530 | - | \n| 6540 | peak at ~6542 eV |\n| 6550 | - |\n| 6560 | peak at ~6558 eV, ~6560 eV |\n| 6570 | - |\n| 6580 | - |",
+        "b": "| R(\u00c5) | Intensity (arb. units) |\n|---|---|\n| 1 | peak at ~1.8 \u00c5 |\n| 2 | peak at ~2.8 \u00c5 |\n| 3 | peak at ~3.4 \u00c5 |\n| 4 | peak at ~4.0 \u00c5 |",
+        "c": "| Energy (eV) | Absorption (arb. units) |\n|---|---|\n| 635 | - |\n| 640 | peak at ~642 eV |\n| 645 | - |\n| 650 | peak at ~653 eV |\n| 655 | - |\n| 660 | - |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How can a reduction in Mn can be observed in the absorption spectra?",
+                "answer_type": "Factoid",
+                "answer": "As can be seen in subfigure a, the reduction of Mn can be observed as it shifts to lower energy values."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which sample shows a greater reduction in Mn?",
+                "answer_type": "Factoid",
+                "answer": "The 10cLi-MnO2 samples, due to the peaks are present in lowest energy values."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the Mn-Mn2 decrease as the number of cycles increases?",
+                "answer_type": "Factoid",
+                "answer": "The Mn-Mn2 bond decreases as the number of lithium cycles increases."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which sample has the highest Mn-O intensity?",
+                "answer_type": "Factoid",
+                "answer": "The MnO2, 10cLi0MnO2, and 50cLi-Mno2 samples exhibit  the same intensity of Mn-O bonds."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

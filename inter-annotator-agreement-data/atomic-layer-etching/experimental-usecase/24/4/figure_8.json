@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_8",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart"
+    },
+    "summarization": {
+        "a": "The line chart shows the change in mass (\u0394M) for ALE of alumina over temperature for two different treatments(TMA and HF) with negative values indicating mass loss.",
+        "b": "The line chart illustrates the change in MCPC (mass change per cycle)  of Alumina ALE over temperature, showing a consistent decrease."
+    },
+    "data_extraction": {
+        "a": "| Temperature (\u00b0C) | \u0394M<sub>TMA</sub> (ng/cm<sup>2</sup> cycle) | \u0394M<sub>HF</sub> (ng/cm<sup>2</sup> cycle) |\n|---|---|---|\n| 250 | -15 | 5 |\n| 275 | -25 | 10 |\n| 300 | -35 | 15 |\n| 325 | -50 | 20 |",
+        "b": "| Temperature (\u00b0C) | MCPC (ng/cm<sup>2</sup> cycle) |\n|---|---|\n| 250 | -5 |\n| 275 | -10 |\n| 300 | -20 |\n| 325 | -25 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Where all ALE reactions performed with same sequence for graph a and b?",
+                "answer_type": "Paragraph",
+                "answer": "Yes. Followed same  reaction sequence of 2\u221230\u22121\u221230 on initial Al2O3 substrates."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does the mass change after TMA and HF exposures?",
+                "answer_type": "Factoid",
+                "answer": "\u0394MTMA shows progressively larger mass losses at higher temperatures. In contrast, \u0394MHF reveals progressively larger mass gains at higher temperatures."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the behaviour in graph a relate to graph b?",
+                "answer_type": "Paragraph",
+                "answer": "As \u0394MTMA mass losses increase  at higher temperatures compared to \u0394MHF and the MCPC also decreases with increase in temperature, it can be concluded that the temperature dependence of \u0394MTMA observed in graph a dominates the temperature dependence observed in the MCPC shown in graph b"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "From graph a and graph b, can the \u0394MTMA/MCPC ratio be computed?",
+                "answer_type": "Paragraph",
+                "answer": "The \u0394MTMA/MCPC ratio for different temperatures are as follows\n\n1.  250  \u00b0C, 2.55\n2.  275 \u00b0C, 1.94\n3.  300 \u00b0C, 1.83\n4.  325 \u00b0C, 1.81"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

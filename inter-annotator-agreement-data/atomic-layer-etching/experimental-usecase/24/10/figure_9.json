@@ -1,0 +1,57 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_9",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The multiple line chart shows Al\u2082O\u2083 thickness as a function of the number of cycles at 300 \u00b0C. Thickness decreases approximately linearly with increasing cycles. Measurements from XRR and SE closely agree across the full range, indicating consistent thickness reduction per cycle.",
+        "b": "The multiple line chart shows Al\u2082O\u2083 thickness versus number of cycles at 200 \u00b0C. As with the higher temperature case, thickness decreases steadily with cycle number, and XRR and SE measurements follow similar trends, confirming consistent etching behaviour."
+    },
+    "data_extraction": {
+        "a": "| Number of cycles | Thickness (\u00c5), XRR | Thickness (\u00c5), SE |\n|------------------|--------------------|--------------------|\n| 0                | ~170               | ~165               |\n| 50               | ~130               | ~135               |\n| 100              | ~100               | ~105               |\n| 200              | ~50                | ~55                |",
+        "b": "| Number of cycles | Thickness (\u00c5), XRR | Thickness (\u00c5), SE |\n|------------------|--------------------|--------------------|\n| 0                | ~160               | ~155               |\n| 50               | ~120               | ~125               |\n| 100              | ~90                | ~95                |\n| 200              | ~50                | ~55                |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does Al\u2082O\u2083 thickness change with increasing number of cycles?",
+                "answer_type": "Paragraph",
+                "answer": "For both temperatures, Al\u2082O\u2083 thickness decreases approximately linearly as the number of cycles increases. This indicates a steady removal of material per cycle rather than abrupt or saturating behavior."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which two techniques are used to measure Al\u2082O\u2083 thickness in the figure?",
+                "answer_type": "Factoid",
+                "answer": "X-ray reflectivity (XRR) and spectroscopic ellipsometry (SE)."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Do XRR and SE give similar thickness values across the cycles?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What temperatures are compared in the two panels?",
+                "answer_type": "List",
+                "answer": "200 \u00b0C, 300 \u00b0C"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

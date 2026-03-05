@@ -1,0 +1,54 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_6",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The multi-line chart shows a linear increase in etch depth with ALE cycles for Al\u2082O\u2083, HfO\u2082, AlN\u2093, SiO\u2082, and TiN, with both process stages set to 10 s. Al\u2082O\u2083, AlN\u2093, and HfO\u2082 exhibit etch rates of 0.16, 0.20, and 0.11 nm/cycle, respectively, while TiN shows negligible etching (0.006 nm/cycle) and SiO\u2082 displays poor repeatability (0.62 nm/cycle). These results confirm a well-controlled ALE process with strong material-dependent selectivity."
+    },
+    "data_extraction": {
+        "a": "| Cycles | Al\u2082O\u2083 | HfO\u2082 | AlN\u2093 | SiO\u2082 | TiN |\n|--------|--------|--------|--------|--------|--------|\n| 0 | 0 | 0 | 0 | 0 | 0 |\n| 10 | 2 | 1.5 | 2.5 | 5 | 0 |\n| 20 | 4 | 3 | 5 | 10 | 0.5 |\n| 30 | 6 | 4.5 | 7 | 15 | 1 |\n| 40 | 8 | 6 | 9 | 22 | 1.5 |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How does the multi-line chart demonstrate material-dependent selectivity in the ALE process?",
+                "answer_type": "Paragraph",
+                "answer": "The chart shows that etch depth increases linearly with cycles, but the rate differs strongly between materials. Al\u2082O\u2083, AlN\u2093, and HfO\u2082 exhibit controlled, moderate etch rates, indicating effective ALE behavior. TiN shows almost no etching, confirming resistance to the process, while SiO\u2082 has high variability, indicating poor repeatability. This illustrates that the ALE process can selectively remove material layer-by-layer depending on the chemical and physical properties of each substrate, highlighting the importance of tuning parameters for selective etching."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What is the etch depth of Al\u2082O\u2083 after 40 ALE cycles?",
+                "answer_type": "Factoid",
+                "answer": "8 nm."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the etch depth increase linearly with the number of ALE cycles for Al\u2082O\u2083, HfO\u2082, and AlN\u2093?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which materials show the highest and lowest etch rates per cycle according to the figure?",
+                "answer_type": "List",
+                "answer": "Highest: AlN\u2093 (0.20 nm/cycle), Medium: Al\u2082O\u2083 (0.16 nm/cycle), HfO\u2082 (0.11 nm/cycle), Lowest: TiN (0.006 nm/cycle), Poor repeatability: SiO\u2082 (0.62 nm/cycle)"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

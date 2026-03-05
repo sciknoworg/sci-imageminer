@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_5",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "Etch rate as a function of activation step duration shows a common negative starting value near \u22120.5 nm/cycle at 0 s for all materials, indicating net film formation without activation. As activation time increases, material-dependent removal emerges. SiO\u2082 exhibits the strongest response, increasing monotonically to ~0.7 nm/cycle at 20 s. AlN\u2093 and Al\u2082O\u2083 show intermediate increases, reaching ~0.3 nm/cycle at 20 s, while HfO\u2082 increases only modestly. TiN remains near zero across the range, indicating strong resistance to activation-induced removal."
+    },
+    "data_extraction": {
+        "a": "| Activation step duration (s) | Al2O3 etch rate (nm/cyc) | HfO2 etch rate (nm/cyc) | AlNx etch rate (nm/cyc) | TiN etch rate (nm/cyc) | SiO2 etch rate (nm/cyc) |\n|---|---|---|---|---|---|\n| 0  | ~-0.55 | ~-0.55 | ~-0.55 | ~-0.55 | ~-0.55 |\n| 5  | ~0.00  | ~0.00  | ~0.00  | ~0.00  | ~0.40  |\n| 10 | ~0.18  | ~0.10  | ~0.18  | ~0.00  | ~0.55  |\n| 20 | ~0.30  | ~0.15  | ~0.30  | ~0.05  | ~0.72  |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does increasing the activation step duration generally increase the etch rate compared to 0 s?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which material has the highest etch rate at 20 s?",
+                "answer_type": "Factoid",
+                "answer": "SiO2 at 20 s with \u2248 0.70nm/cycle.\nEvidence: Its marker/line is highest among the series at 20 s."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How does material identity govern the etch-per-cycle response to activation time (0 \u2192 20 s)?",
+                "answer_type": "Paragraph",
+                "answer": "The etch-per-cycle response depends on material. SiO2 shows the steepest increase with activation time, while AlNx and Al2O3 rise more modestly and TiN remains near zero. By 20s, the ranking is SiO2 \u226b AlNx ~ Al2O3 \u226b HfO2\u226b TiN. This indicates [concise implication about selectivity or sensitivity to activation] grounded in the plotted slopes."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Based on the curves, which material is suitable as an etch-stop under these conditions, and which requires the longest activation to achieve net removal?",
+                "answer_type": "Paragraph",
+                "answer": "Stop layer: TiN \u2014 its curve stays ~0 across the range (slope \u2248 0).\nLongest activation to achieve net removal: TiN\u2014 remains negative or near 0 until  10s, then crosses into positive etch."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

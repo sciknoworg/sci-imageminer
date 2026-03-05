@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_4",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart",
+        "c": "spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays absorption spectra of various manganese oxides at different lithium concentrations.",
+        "b": "The figure illustrates the molecular structure of manganese oxides with labeled bonds and distances that visualize the different peaks in the absorption spectrum.",
+        "c": "The figure shows absorption spectra of manganese oxides with different oxidation states."
+    },
+    "data_extraction": {
+        "a": "| Energy (eV) | Absorption (arb. units) MnO2 |Absorption (arb. units) 10cLiMnO2 | Absorption (arb. units) 50cLiMnO2 | Absorption (arb. units) MnO2 ref | Absorption (arb. units) LiMn2O4 ref | Absorption (arb. units) MnO ref|\n|---|---|---|---|---|---|---|\n| 6540 |Constant|Constant|Constant|Constant|Constant|Steep increase|\n| 6546 | Steep icnrease|Steep icnrease|Steep icnrease|Steep icnrease|Steep icnrease|Steep icnrease|\n| 6550 | Steep icnrease|Steep icnrease|Steep icnrease|Steep icnrease|Steep icnrease|Peak|\n| 6555 | Steep icnrease|Steep icnrease|Steep icnrease|Steep icnrease|Steep icnrease|Decrease|\n| 6560 | Peak|Peak|Peak|Peak|Peak|Local minimum|\n| 6565 | Local minimum|Local minimum|Local minimum|Local minimum|Local minimum|Peak|\n| 6570 | Local minimum|Local minimum|Local minimum|Local minimum|Local minimum|Peak|\n| 6575 | Peak|Peak|Peak|Peak|Peak|Constant|\n| 6580 | Constant|Constant|Constant|Constant|Constant|Constant|",
+        "b": "| R(angstrom) | Intensity (arb. units) MnO2 | Intensity (arb. units) 10cLiMnO2 | Intensity (arb. units) 50cLi-MnO2 | Intensity (arb. units) MnO2 ref |\n|---|---|---|---|---|\n| 1 | Constant|Constant|Constant|Constant|\n| 1.75 | Big peak|Big peak|Big peak|Big peak|\n| 2.75 |Peak|Peak|Peak|Peak|\n| 3.3 | Big peak|Big peak|Big peak|Big peak|\n| 4 | 0 |0 |0 |0 |",
+        "c": "| Energy (eV) | Absorption (arb. units) MnO2 | Absorption (arb. units) 10cLiMnO2 | Absorption (arb. units) 50cLi-MnO2 |Absorption (arb. units) MnO2 ref | Absorption (arb. units) LiMn2O4 ref | Absorption (arb. units) MnO ref |\n|---|---|---|---|---|---|---|\n| 635 |Constant|Constant|Constant|Constant|Constant|Constant|\n| 641 | Mn3+ peak |Mn3+ peak |Mn3+ peak |Mn3+ peak |Mn3+ peak |Mn3+ peak |\n| 644 |Mn4+ peak |Mn4+ peak |Mn4+ peak |Mn4+ peak |Mn4+ peak |Mn4+ peak |\n| 650 | Constant|Constant|Constant|Constant|Constant|Constant|\n| 653 | Broad peak |Broad peak |Broad peak |Broad peak |Broad peak |Broad peak |\n| 660 |Constant|Constant|Constant|Constant|Constant|Constant|"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What trend is observed for increasing lithium concentration in the MnO2 crystal?",
+                "answer_type": "Paragraph",
+                "answer": "c\tIncreasing the lithium content in the film seems to induce a shift in oxidation state of Mn, where Mn3+ shifts towards Mn4+."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Do the literature spectra overlap with the measured spectra?",
+                "answer_type": "Paragraph",
+                "answer": "a\tYes, especially the literature values for MnO2 and LiMn2O4 nicely overlap with the measured values for MnO2 and 50cLi-MnO2 respectively."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the main difference between MnO and MnO2 according to literature?",
+                "answer_type": "Paragraph",
+                "answer": "a\tThe peak absorption shifts to higher energies for MnO2 with respect to MnO."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What could be the reason there are less Mn-Mn2 bonds in the films grown with 50 cycles of lithium?",
+                "answer_type": "Paragraph",
+                "answer": "Lithium replaces some of the manganese in the crystal, mostly replacing the Mn in the Mn-Mn2 position."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

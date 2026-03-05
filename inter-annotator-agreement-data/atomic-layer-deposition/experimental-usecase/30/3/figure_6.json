@@ -1,0 +1,77 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_6",
+    "classification": {
+        "a": "image panel",
+        "b": "image panel",
+        "c": "image panel",
+        "d": "image panel"
+    },
+    "summarization": {
+        "a": "The image shows a SEM image of a Fe2O3 film at 425 \u00b0C.",
+        "b": "The image shows a SEM image of a Fe3O4-MgO film at 425 \u00b0C with a Mg/Fe ratio of 0.021.",
+        "c": "The image shows a SEM image of a Fe3O4-MgO film at 425 \u00b0C with a Mg/Fe ratio of 0.23.",
+        "d": "The image shows a SEM image of a Fe3O4-MgO film at 425 \u00b0C with a Mg/Fe ratio of 0.38."
+    },
+    "data_extraction": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What can be seen in the subfigures presented?",
+                "answer_type": "Factoid",
+                "answer": "Changes in the roughness can be observed as a function of the Mg/Fe ratio."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Does the MgO content affect the morphology of the film?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How does the roughness of the film change as the Mg/Fe ratio increases?",
+                "answer_type": "Factoid",
+                "answer": "Roughness increases as the Mg/Fe ratio increases. The highest level of roughness is produced at the highest Mg/Fe ratio."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which film is the most rough?",
+                "answer_type": "Factoid",
+                "answer": "The roughest film is the non-doped film grown with Fe2O3"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

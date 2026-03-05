@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_13",
+    "classification": {
+        "a": "reaction scheme",
+        "b": "reaction scheme"
+    },
+    "summarization": {
+        "a": "HF Fluorination Reaction: The left panel illustrates the first half-reaction of the Al\u2082O\u2083 ALE cycle. The surface initially has AlCH\u2083* species (shown as Al(CH\u2083)\u2082 groups, blue) remaining from the previous TMA exposure, bonded to the Al\u2082O\u2083 substrate through oxygen bridges. Upon HF exposure, these methyl groups are replaced by fluorine atoms, releasing CH\u2084 as a volatile product. Simultaneously, the underlying Al\u2082O\u2083 is fluorinated to form an AlF\u2083 surface layer (red fluorine atoms), with H\u2082O released as a byproduct. The reaction Al\u2082O\u2083 + 6HF \u2192 2AlF\u2083 + 3H\u2082O is thermodynamically spontaneous.",
+        "b": "TMA Ligand-Exchange Reaction: The right panel shows the second half-reaction. TMA (Al(CH\u2083)\u2083) reacts with the AlF\u2083 surface layer through a ligand-exchange transmetalation mechanism. Aluminum in TMA accepts fluorine from the surface AlF\u2083 while donating methyl groups, producing volatile AlF(CH\u2083)\u2082 that desorbs (shown with arrow indicating H\u2083C-Al(F)-CH\u2083 leaving). The surface is left with AlCH\u2083* species bonded to the remaining Al\u2082O\u2083 film, ready for the next HF exposure."
+    },
+    "data_extraction": {
+        "a": "",
+        "b": ""
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the overall stoichiometric reaction for Al\u2082O\u2083 ALE using HF?",
+                "answer_type": "Factoid",
+                "answer": "Al\u2082O\u2083 + 4Al(CH\u2083)\u2083 + 6HF \u2192 6AlF(CH\u2083)\u2082 + 3H\u2082O"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What are the volatile products released during each half-reaction of the Al\u2082O\u2083 ALE cycle?",
+                "answer_type": "Paragraph",
+                "answer": "During the HF fluorination reaction (A): H\u2082O and CH\u2084. During the TMA ligand-exchange reaction (B): AlF(CH\u2083)\u2082."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How does the cyclic nature of the ALE mechanism ensure self-limiting behavior?",
+                "answer_type": "Paragraph",
+                "answer": "The self-limiting behavior arises from the complementary surface terminations after each half-reaction. After the HF exposure, the surface is terminated with an AlF\u2083 layer that passivates the underlying Al\u2082O\u2083, preventing further fluorination\u2014similar to how native oxide layers protect metals. This AlF\u2083 layer has a Pilling-Bedworth ratio greater than 1 (approximately 1.8), indicating complete surface coverage. After the TMA exposure, the AlF\u2083 is converted to AlCH\u2083* surface species, which are unreactive toward additional TMA. Each half-reaction therefore proceeds only until the available reactive sites are consumed, after which excess reactant exposure produces no additional change. This ensures atomic-level control over the etch depth."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Why does the ligand-exchange transmetalation reaction between TMA and AlF\u2083 produce volatile products?",
+                "answer_type": "Paragraph",
+                "answer": "The ligand-exchange reaction produces volatile AlF(CH\u2083)\u2082 because this mixed alkyl-fluoride aluminum compound has favorable properties for desorption. AlF(CH\u2083)\u2082 has a vapor pressure of approximately 80 Torr at 100\u00b0C, making it highly volatile at the 300\u00b0C reaction temperature. The transmetalation mechanism involves a four-center ring transition state where fluorine bridges between the surface aluminum and the aluminum in TMA. During this exchange, TMA accepts fluorine atoms from the AlF\u2083 layer while donating methyl groups, resulting in a stable molecular species that readily desorbs from the surface, carrying aluminum away and enabling net etching."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

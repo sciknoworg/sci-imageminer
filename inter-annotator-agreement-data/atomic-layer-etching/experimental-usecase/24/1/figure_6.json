@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_6",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The figure shows time-resolved mass changes during the first two ALE cycles on Al\u2082O\u2083 at 250\u2013325 \u00b0C. Each temperature trace exhibits step-like mass increases followed by partial decreases within each cycle. The magnitude of both the increases and decreases depends on temperature. Higher temperatures result in lower retained mass after each cycle."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | 250\u00b0C (ng/cm^2) | 275\u00b0C (ng/cm^2) | 300\u00b0C (ng/cm^2) | 325\u00b0C (ng/cm^2) |\n|----------|-----------------|-----------------|-----------------|-----------------|\n| 1        | ~25             | ~25             | ~25             | ~25             |\n| 30       | ~65             | ~62             | ~60             | ~58             |\n| 60       | ~68             | ~62             | ~64             | ~60             |\n| 90       | ~60             | ~48             | ~40             | ~20             |\n| 120     | ~70             | ~60             | ~58             | ~40             |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What does the repeated step-like pattern indicate about the cycle structure?",
+                "answer_type": "Factoid",
+                "answer": "It indicates that mass changes occur in discrete, repeatable steps within each cycle."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which temperature trace shows the largest overall mass swing within one cycle?",
+                "answer_type": "Factoid",
+                "answer": "325 \u00b0C shows the largest overall mass swing within one cycle."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Why is a mass decrease observed after HF exposure in each cycle?",
+                "answer_type": "Factoid",
+                "answer": "HF removes fluorinated surface species formed during TMA exposure, leading to controlled material removal and mass loss."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why might lower temperatures retain more mass after two cycles?",
+                "answer_type": "Paragraph",
+                "answer": "At lower temperatures, the final mass after each cycle remains higher than at elevated temperatures. This indicates smaller net mass loss over the same number of cycles. Such differences are relevant when comparing cumulative removal across temperatures."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_4",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The plot shows etch rate in nm/cycle against modification step duration for Al2O3, HfO2, AlNx, TiN and SiO2. SiO2 etch rate increases strongly with step duration, TiN stays near zero. Other materials show slight rise and then decrease.",
+        "b": "The plot shows zoomed-in etch rate in nm/cycle against modification step duration for Al2O3, HfO2 and AlNx. All three first increase to a maximum and than decrease, with AlNx highest and HfO2 lowest etch rate."
+    },
+    "data_extraction": {
+        "a": "| Modification step duration, s | Etch rate HfO2, nm/cyc | Etch rate Al2O3, nm/cyc |Etch rate AlNx, nm/cyc | Etch rate SiO2, nm/cyc | Etch rate TiN, nm/cyc |\n|---|---|---|---|---|---|\n| 0 | 0.01 | 0.007 | 0.02 | 0.04 | 0.0 |\n| 5 | 0.07 | 0.15 | 0.17| 0.33 | -0.01 |\n| 7 | 0.09 | 0.17 | 0.183 | 0.47 | 0.0 |\n| 10 | 0.96 | 0.162 | 0.181 | 0.62 | 0.0 |\n| 12 | 0.97 | 0.16 | 0.175 | 0.65 | -0.01 |\n| 15 | 0.06 |0.08 | 0.09 | 0.82 | -0.02 |",
+        "b": "| Modification step duration, s | Etch rate HfO2, nm/cyc | Etch rate Al2O3, nm/cyc |Etch rate AlNx, nm/cyc |\n|---|---|---|---|\n| 0 | 0.01 | 0.007 | 0.02 |\n| 5 | 0.07 | 0.15 | 0.17|\n| 7 | 0.09 | 0.17 | 0.183 |\n| 10 | 0.96 | 0.162 | 0.181 |\n| 12 | 0.97 | 0.16 | 0.175 |\n| 15 | 0.06 |0.08 | 0.09 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which material shows highest sputtering by argon, when modification step is not performed?",
+                "answer_type": "Factoid",
+                "answer": "SiO2 (highest etch rate by modification step t = 0)"
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which of the materials exhibit an ALE process window? Why?",
+                "answer_type": "Paragraph",
+                "answer": "Al2O3, HfO2, and AlNx show an ALE window. Their etch rate rises with increasing modification time and then becomes nearly constant, indicating self-limiting, surface-saturation behavior characteristic of ALE. SiO2 does not show a clear window because its etch rate keeps increasing with time, and TiN does not because it is essentially not etched."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which material pairs would be a good choice for achieving precise, highly selective etching?",
+                "answer_type": "List",
+                "answer": "Al2O3/TiN, HfO2/TiN, AlNx/TiN."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which ALE window is observed for AlNx?",
+                "answer_type": "Factoid",
+                "answer": "At modification step duration of 5\u201312 seconds."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_8",
+    "classification": {
+        "a": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "Spectra of X-ray absorption near-edge structure (XANES) for various Li-MnO2 compositions, highlighting the changes in manganese oxidation states."
+    },
+    "data_extraction": {
+        "a": "| Sample         | Mn\u2074\u207a/Mn\u00b3\u207a Ratio | Energy Range (eV) | Key Features |\n|---------------|-----------------|--------------------|--------------|\n| MnO\u2082          | 100/0          | 638\u2013650           | Strong Mn\u2074\u207a peak near 644 eV |\n| 10cLi-MnO\u2082    | ~100/0         | 638\u2013650           | Similar to MnO\u2082, slight broadening |\n| 50cLi-MnO\u2082    | 80/20          | 638\u2013650           | Mn\u00b3\u207a peak emerges near 642 eV |\n| 100cLi-MnO\u2082   | ~60/40         | 638\u2013650           | Mn\u00b3\u207a peak more pronounced |\n| 200cLi-MnO\u2082   | Lower Mn\u2074\u207a     | 638\u2013650           | Mn\u00b3\u207a dominant, Mn\u2074\u207a reduced |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What are the reference lines made of?",
+                "answer_type": "Factoid",
+                "answer": "The reference lines are  linear combinations of Mn4+ and Mn3+"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Does the MnO2 sample resemble the Mn4+ reference?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What is the energy of Mn3+ and Mn4+?",
+                "answer_type": "Paragraph",
+                "answer": "In the Mn LIII-edge XANES \n1. Mn 4+ has energy of 644 eV\n2. Mn 3+ has energy of 641 eV"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What can be said about the behaviour of Li-MnO2?",
+                "answer_type": "Paragraph",
+                "answer": "The 10cLi\u2212MnO2 and 50cLi\u2212MnO2 samples resemble the reference. The 100cLi\u2212MnO2 and 200cLi\u2212MnO2 samples match the reference calculated\nwith the Mn4+/Mn3+ ratio of 80%/20%. The 300cLi\u2212MnO2 sample resembles mostly the reference where the ratio of Mn4+/Mn3+ is 60%/40%, which is in line with the expectation for this sample with the almost stoichiometric composition of Li1.1Mn2O4."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

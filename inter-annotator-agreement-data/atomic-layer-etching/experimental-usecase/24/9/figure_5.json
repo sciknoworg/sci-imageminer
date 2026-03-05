@@ -1,0 +1,54 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_5",
+    "classification": {
+        "a": "multi-axis chart"
+    },
+    "summarization": {
+        "a": "Figure 5 illustrates the mass change of Al\u2082O\u2083 during 100 ALE cycles at 250, 275, 300, and 325\u202f\u00b0C using sequential TMA and HF exposures. The mass decreases linearly with time at all temperatures, demonstrating a consistent etch process. The etch rate increases with temperature, with MCPC values ranging from \u22124.2\u202fng/(cm\u00b2 cycle) at 250\u202f\u00b0C to \u221223.3\u202fng/(cm\u00b2 cycle) at 325\u202f\u00b0C, corresponding to etch rates of 0.14\u20130.75\u202f\u00c5/cycle. These results confirm that the Al\u2082O\u2083 etch rate can be precisely controlled by adjusting the reaction temperature, while the linear trends indicate reproducible ALE behavior across cycles."
+    },
+    "data_extraction": {
+        "a": "|Time (s)|Mass Change at 250\u00b0C (ng/cm\u00b2)|Mass Change at 275\u00b0C (ng/cm\u00b2)|Mass Change at 300\u00b0C (ng/cm\u00b2)|Mass Change at 325\u00b0C (ng/cm\u00b2)|\n|--------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|\n|0|0|0|0|0|\n|2000|-84|-120|-160|-233|\n|4000|-168|-240|-320|-466|\n|6000|-252|-360|-480|-699|\n|8000|-336|-480|-640|-932|"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is temperature control important for Al\u2082O\u2083 ALE in practical applications?",
+                "answer_type": "Paragraph",
+                "answer": "Temperature control is crucial because it directly determines the etch rate. By selecting appropriate temperatures, practitioners can achieve precise and uniform removal of Al\u2082O\u2083, tailor etch depths, and ensure consistent results across multiple samples or production batches. Proper temperature management is therefore essential for reproducible, high-quality ALE in both research and industrial applications."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What does the linear mass change versus time indicate about the Al\u2082O\u2083 ALE process?",
+                "answer_type": "List",
+                "answer": "Consistent removal of Al\u2082O\u2083 per cycle, Predictable thickness reduction, Minimal fluctuations between cycles"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Do the ALE reactions at different temperatures show linear mass change over time?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does temperature affect the mass change per cycle (MCPC) and etch rate during Al\u2082O\u2083 ALE?",
+                "answer_type": "Factoid",
+                "answer": "MCPC increases from \u22124.2\u202fng/(cm\u00b2 cycle) at 250\u202f\u00b0C to \u221223.3\u202fng/(cm\u00b2 cycle) at 325\u202f\u00b0C."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

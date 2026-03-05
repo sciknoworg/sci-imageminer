@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_2",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart",
+        "c": "spectra chart"
+    },
+    "summarization": {
+        "a": "The spectra chart shows X-ray diffraction patterns of Fe\u2082O\u2083 films grown at 425 \u00b0C. Hematite peaks dominate the pattern, with weaker magnetite reflections also present, indicating mixed-phase crystallinity.",
+        "b": "The spectra chart shows X-ray diffraction patterns of Fe\u2082O\u2083:MgO films grown at 425 \u00b0C with Mg/Fe = 0.02. Magnetite-related peaks become more pronounced compared to the undoped sample, indicating that low Mg incorporation promotes magnetite formation.",
+        "c": "The spectra chart shows X-ray diffraction patterns of Fe\u2082O\u2083:MgO films grown at 425 \u00b0C with Mg/Fe = 0.23. Magnetite peaks dominate the spectrum, while hematite reflections are strongly reduced, indicating a phase shift toward magnetite with increasing Mg content."
+    },
+    "data_extraction": {
+        "a": "| 2\u03b8 (degree) | Relative intensity | Phase               |\n|-------------|--------------------|----------------------|\n| ~24.2       | Medium             | Hematite (Fe\u2082O\u2083)     |\n| ~33.2       | High               | Hematite (Fe\u2082O\u2083)     |\n| ~35.6       | Medium             | Magnetite (Fe\u2083O\u2084)    |\n| ~40.8       | Low                | Hematite (Fe\u2082O\u2083)     |\n| ~49.5       | Medium             | Hematite (Fe\u2082O\u2083)     |\n| ~54.1       | Low                | Magnetite (Fe\u2083O\u2084)    |",
+        "b": "| 2\u03b8 (degree) | Relative intensity | Phase               |\n|-------------|--------------------|----------------------|\n| ~24.2       | Medium             | Hematite (Fe\u2082O\u2083)     |\n| ~33.2       | High               | Hematite (Fe\u2082O\u2083)     |\n| ~35.6       | High               | Magnetite (Fe\u2083O\u2084)    |\n| ~43.1       | Medium             | Magnetite (Fe\u2083O\u2084)    |\n| ~49.5       | Medium             | Hematite (Fe\u2082O\u2083)     |\n| ~54.1       | Medium             | Magnetite (Fe\u2083O\u2084)    |",
+        "c": "| 2\u03b8 (degree) | Relative intensity | Phase               |\n|-------------|--------------------|----------------------|\n| ~30.1       | Medium             | Magnetite (Fe\u2083O\u2084)    |\n| ~33.2       | Medium             | Hematite (Fe\u2082O\u2083)     |\n| ~35.6       | High               | Magnetite (Fe\u2083O\u2084)    |\n| ~43.1       | High               | Magnetite (Fe\u2083O\u2084)    |\n| ~54.1       | Medium             | Magnetite (Fe\u2083O\u2084)    |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Does higher Mg incorporation favor magnetite formation?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What quantity is plotted on the x-axis of these spectra?",
+                "answer_type": "Factoid",
+                "answer": "The diffraction angle 2\u03b8 (degrees)."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which phases are identified in the diffraction patterns?",
+                "answer_type": "List",
+                "answer": "Hematite (Fe\u2082O\u2083), Magnetite (Fe\u2083O\u2084)"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does increasing Mg content affect the crystalline phase composition?",
+                "answer_type": "Paragraph",
+                "answer": "Increasing Mg content shifts the diffraction patterns from hematite-dominated to magnetite-dominated. At low Mg/Fe ratios, both phases coexist, while at higher Mg/Fe ratios magnetite becomes the dominant crystalline phase."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_1",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "Difference FTIR spectra collected after successive SF\u2086 plasma/TMA ALE cycles show a systematic decrease in the broad Al\u2013O absorbance between 800 and 1100 cm\u207b\u00b9. The magnitude of the negative signal increases monotonically from cycle 1 to cycle 6, indicating continuous removal of Al\u2013O bonding environments from the film. No saturation or plateau is visible within the six-cycle window, consistent with steady, cycle-by-cycle material removal.",
+        "b": "Difference spectra in the C\u2013H stretching region (3100\u20132800 cm\u207b\u00b9) resolve the half-cycle chemistry. After TMA exposure, distinct \u2013CH\u2083 peaks appear near 2900 and 2950 cm\u207b\u00b9, while spectra referenced after the subsequent SF\u2086 plasma step return to baseline. The repeated appearance and disappearance of these peaks across cycles confirms transient methyl adsorption followed by complete removal during each plasma step."
+    },
+    "data_extraction": {
+        "a": "| Cycle | Integrated negative absorbance (800\u20131100 cm\u207b\u00b9) (a.u.) |\n|-------|-------------------------------------------------------|\n| 1     | \u20130.002                                                |\n| 2     | \u20130.004                                                |\n| 3     | \u20130.006                                                |\n| 4     | \u20130.008                                                |\n| 5     | \u20130.010                                                |\n| 6     | \u20130.012                                                |",
+        "b": "| Half-cycle reference | Feature | Observation |\n|----------------------|---------|-------------|\n| TMA \u2192 SF\u2086 plasma     | \u2013CH\u2083 (~2900\u20132950 cm\u207b\u00b9) | clear positive peaks |\n| SF\u2086 plasma \u2192 TMA     | \u2013CH\u2083 region            | baseline (removed)  |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What change occurs in the Al\u2013O absorbance band between 800 and 1100 cm\u207b\u00b9 as the ALE cycle number increases from 1 to 6?",
+                "answer_type": "Factoid",
+                "answer": "The Al\u2013O absorbance decreases monotonically with increasing cycle number."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does the evolution of the Al\u2013O difference signal in panel (a) show evidence of etch saturation by cycle 6?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Why do \u2013CH\u2083 stretching features appear after TMA exposure but disappear after the subsequent SF\u2086 plasma step?",
+                "answer_type": "Paragraph",
+                "answer": "TMA exposure introduces surface-bound methyl ligands through ligand-exchange reactions with fluorinated aluminum sites. These \u2013CH\u2083 groups are transient and serve as intermediates rather than permanent surface species. The following SF\u2086 plasma step removes the methyl ligands, returning the C\u2013H region to baseline and regenerating a fluorinated surface. This reversible behavior indicates clean, self-limiting surface chemistry without carbon accumulation."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What does the absence of residual \u2013CH\u2083 signal after SF\u2086 plasma imply for ALE process reliability?",
+                "answer_type": "Factoid",
+                "answer": "It indicates complete ligand removal each cycle, preventing carbon buildup and enabling repeatable ALE behavior."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

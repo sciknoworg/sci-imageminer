@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_11",
+    "classification": {
+        "a": "spectra chart"
+    },
+    "summarization": {
+        "a": "The FTIR spectra compare TMA and HF exposures on Al2O3 at 300 \u00b0C. The TMA trace shows a strong positive peak near 1230 cm^-1 associated with CH3 deformation, while the HF trace shows a negative feature at the same position. HF also produces additional negative bands in the 1100\u2013900 cm^-1 region that are linked to AlF3 formation but the TMA spectrum remains close to baseline in this range."
+    },
+    "data_extraction": {
+        "a": "| Wavenumber (cm\u207b\u00b9) | Absorbance | Condition |\n| ----------------- | ---------- | --------- |\n|       ~1230       |  ~+0.065   |   TMA     |\n|       ~1230       | ~-0.055    |   HF      |\n|       ~1100       | ~+0.010    |   TMA     |\n|       ~1100       | ~-0.015    |   HF      |\n|       ~950        | ~+0.005    |   TMA     |\n|       ~950        | ~-0.020    |   HF      |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Does HF exposure  show different absorption features in the 1100\u2013900 cm^-1 region?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "At what temperature were the FTIR measurements taken?",
+                "answer_type": "Factoid",
+                "answer": "300 \u00b0C."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the TMA and HF spectra differ near 1230 cm^-1",
+                "answer_type": "Paragraph",
+                "answer": "The TMA spectrum shows a strong positive peak at this position, while the HF spectrum displays a negative feature of similar magnitude. This indicates that TMA adds CH\u2083 containing species to the surface,  where HF removes or changes them. The opposite signs reflect contrasting surface reactions during each exposure."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "List the two exposure conditions compared in this figure",
+                "answer_type": "List",
+                "answer": "TMA exposure,  HF exposure."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_11",
+    "classification": {
+        "a": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays infrared absorption spectra at 300\u00b0C, comparing TMA (a) and HF (b) samples between 1300-800 cm^-1."
+    },
+    "data_extraction": {
+        "a": "| Wavenumbers (cm\u207b\u00b9) | TMA | HF |\n|---|---|---|\n| 800 | 0.00 | 0.00 |\n| 900 | -0.04 | 0.00 |\n| 1000 | 0.00 | -0.01 |\n| 1100 | 0.00 | 0.00 |\n| 1200 | 0.02 | -0.02 |\n| 1300 | 0.00 | 0.00 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What information can be extracted from the figure?",
+                "answer_type": "Factoid",
+                "answer": "During the cycles, TMA provides the film with CH3 groups  but removes AlF3 from the surface, in accordance with the negative value between 800 and 950 cm\u207b\u00b9. Also, after exposure to HF, it is possible to observe, the an increased peak in AlF3 band, due to the formation of AlF3."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does HF provide the film with CH3 groups?",
+                "answer_type": "Factoid",
+                "answer": "No, in this case, the TMA provides the film with CH3 groups based on the positive absorbance peaks."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Are methyl groups associated with TMA precursor?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What effect does HF exposure have on the film?",
+                "answer_type": "Factoid",
+                "answer": "The HF exposure produces the surface etching, resulting in the desorption of CH3 groups and the provision of AlF3 to the surface."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

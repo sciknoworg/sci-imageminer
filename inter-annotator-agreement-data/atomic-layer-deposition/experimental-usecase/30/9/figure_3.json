@@ -1,0 +1,72 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_3",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart",
+        "c": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "Raman spectrum of the 328 nm Mg\u2013Fe oxide film grown at 400 \u00b0C with a cycle ratio of 1:100, dominated by hematite (\u03b1-Fe\u2082O\u2083) with minor contributions from magnetite (Fe\u2083O\u2084). [Top panel]",
+        "b": "Raman spectrum of the 425 nm Mg\u2013Fe oxide film grown at 375 \u00b0C with Mg/Fe \u2248 0.017, showing stronger magnetite bands along with minor hematite and maghemite (\u03b3-Fe\u2082O\u2083) features; shoulders suggest possible magnesioferrite formation. [Middle panel]",
+        "c": "Raman spectra of Mg\u2013Fe oxide films grown with higher Mg content (cycle ratio 5:100, Mg/Fe \u2248 0.05\u20130.06) at 425 and 375 \u00b0C, where hematite and magnetite are dominant with minor maghemite and magnesioferrite peaks; additional Si and SiO\u2082 features arise from the substrate. Annealed samples (FGA) show slight changes in relative phase intensities. [Bottom panel]"
+    },
+    "data_extraction": {
+        "a": "|Raman shift (cm\u207b\u00b9)|Intensity / Phase|\n|------------------|-----------------|\n|193|magnetite (m)|\n|306|magnetite (m)|\n|538|magnetite (m)|\n|668|magnetite (m)|\n|225|hematite (\u03b1)|\n|293|hematite (\u03b1)|\n|412|hematite (\u03b1)|\n|498|hematite (\u03b1)|\n|613|hematite (\u03b1)|\n|1320|hematite (\u03b1)|",
+        "b": "|Raman shift (cm\u207b\u00b9)|Intensity / Phase|\n|------------------|-----------------|\n|193|magnetite (m)|\n|306|magnetite (m)|\n|538|magnetite (m)|\n|668|magnetite (m)|\n|720|maghemite (\u03b3)|\n|1320|hematite (\u03b1)|\n|1400|maghemite / annealing effect|\n|1580|maghemite (\u03b3)|\n|193|magnetite (m)|",
+        "c": "|Raman shift (cm\u207b\u00b9)|Intensity / Phase|\n|------------------|-----------------|\n|193|magnetite (m)|\n|306|magnetite (m)|\n|538|magnetite (m)|\n|668|magnetite (m)|\n|225|hematite (\u03b1)|\n|293|hematite (\u03b1)|\n|412|hematite (\u03b1)|\n|498|hematite (\u03b1)|\n|613|hematite (\u03b1)|\n|1320|hematite (\u03b1)|\n|700|magnesioferrite shoulder|\n|514|Si reference|\n|1000|SiO\u2082|"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is Raman spectroscopy useful for evaluating the phase composition of Mg-Fe oxide films compared to GIXRD?",
+                "answer_type": "Paragraph",
+                "answer": "Raman spectroscopy can detect minor or overlapping phases that might not be visible in GIXRD. In these films, Raman revealed magnetite and maghemite contributions even when GIXRD indicated primarily hematite. This makes it particularly valuable for studying the effects of MgO doping, low-temperature growth, and annealing, providing a more detailed understanding of the film\u2019s phase composition and structural changes."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which Raman peaks correspond to the different iron oxide phases identified in these films?",
+                "answer_type": "List",
+                "answer": "Hematite (\u03b1-Fe\u2082O\u2083): 225, 293, 412, 498, 613, 1320 cm\u207b\u00b9, Magnetite (Fe\u2083O\u2084): 193, 306, 538, 668 cm\u207b\u00b9, Maghemite (\u03b3-Fe\u2082O\u2083): 720, 1450, 1580 cm\u207b\u00b9, Magnesioferrite (shoulder): ~700 cm\u207b\u00b9"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the MgO doping process affect the formation of magnetite in the Mg-Fe oxide films?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the dominant iron oxide phase change between the top and bottom panels of Figure 3?",
+                "answer_type": "Factoid",
+                "answer": "The top panel is dominated by hematite (\u03b1-Fe\u2082O\u2083), while the bottom panel shows a mixture of hematite and magnetite (Fe\u2083O\u2084) with minor maghemite (\u03b3-Fe\u2082O\u2083) features."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

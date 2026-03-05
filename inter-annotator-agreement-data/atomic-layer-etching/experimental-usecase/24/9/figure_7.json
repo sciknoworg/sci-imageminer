@@ -1,0 +1,72 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_7",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart"
+    },
+    "summarization": {
+        "a": "Individual mass changes during sequential TMA and HF exposures for Al\u2082O\u2083 ALE at 250 \u00b0C, showing mass decreases after TMA exposures due to removal of the AlF\u2083 surface layer and mass increases after HF exposures due to fluorination of Al\u2082O\u2083 to AlF\u2083.",
+        "b": "Individual mass changes during sequential TMA and HF exposures for Al\u2082O\u2083 ALE at 300 \u00b0C, exhibiting larger mass losses after TMA and mass gains after HF compared to lower temperatures.",
+        "c": "Individual mass changes during sequential TMA and HF exposures for Al\u2082O\u2083 ALE at 325 \u00b0C, showing the largest \u0394M_TMA and \u0394M_HF step changes, indicating more pronounced reactions at higher temperature."
+    },
+    "data_extraction": {
+        "a": "|Time (s)|Mass Change (ng/cm\u00b2)|\n|--------|--------------------|\n|6150|-10.5|\n|6200|-4.2|\n|6250|-10.5|\n|6300|-4.2|",
+        "b": "|Time (s)|Mass Change (ng/cm\u00b2)|\n|--------|--------------------|\n|6150|-20.5|\n|6200|-9.9|\n|6250|-20.5|\n|6300|-9.9|",
+        "c": "|Time (s)|Mass Change (ng/cm\u00b2)|\n|--------|--------------------|\n|6150|-41.9|\n|6200|-18.6|\n|6250|-41.9|\n|6300|-18.6|"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is understanding the temperature dependence of mass changes during ALE important for Al\u2082O\u2083 etching?",
+                "answer_type": "Paragraph",
+                "answer": "Knowing how mass changes vary with temperature helps optimize ALE processes for precise etching. Higher temperatures produce larger mass losses during TMA exposures and larger mass gains during HF exposures, indicating more efficient removal of AlF\u2083 and fluorination of Al\u2082O\u2083. This information allows control over etch rates and surface layer formation, which is critical for applications requiring uniform, conformal, and predictable etching in microfabrication or semiconductor processing."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What are the observed effects on mass change for Al\u2082O\u2083 ALE at the three temperatures?",
+                "answer_type": "List",
+                "answer": "250\u202f\u00b0C: \u0394M\u209c\u2098\u2090 \u2248 \u221210.5\u202fng/cm\u00b2, \u0394M_HF \u2248 6.3\u202fng/cm\u00b2, 275\u202f\u00b0C: \u0394M\u209c\u2098\u2090 \u2248 \u221220.5\u202fng/cm\u00b2, \u0394M_HF \u2248 9.9\u202fng/cm\u00b2, 325\u202f\u00b0C: \u0394M\u209c\u2098\u2090 \u2248 \u221241.9\u202fng/cm\u00b2, \u0394M_HF \u2248 18.6\u202fng/cm\u00b2"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the TMA exposure remove the AlF\u2083 surface layer during Al\u2082O\u2083 ALE at all three temperatures?",
+                "answer_type": "Paragraph",
+                "answer": "Yes. Mass decreases observed after TMA exposures indicate the removal of the AlF\u2083 layer."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the magnitude of mass changes after TMA and HF exposures vary with temperature?",
+                "answer_type": "Factoid",
+                "answer": "The mass losses after TMA and mass gains after HF exposures both increase with temperature: smallest at 250\u202f\u00b0C, intermediate at 275\u202f\u00b0C, and largest at 325\u202f\u00b0C."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

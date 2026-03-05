@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_3",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays X-ray diffraction patterns of various lithium manganese oxide compounds (50cLi-MnO2, 10cLi-MnO2 and MnO2) at different cycles.",
+        "b": "The figure shows X-ray diffraction patterns of lithium manganese oxide compounds (50cLi-MnO2, 10cLi-MnO2 and MnO2) and their lithiated phases."
+    },
+    "data_extraction": {
+        "a": "| \u00b020\u03c7 | MnO2 | 10cLi-MnO2 | 50cLi-MnO2 |\n| --- | --- | --- | --- |\n| 20 | - | - | peak at ~18\u00b0 |\n| 30 | - | - | - |\n| 40 | peak at ~38\u00b0, 40\u00b0 | peak at ~38\u00b0 | peak at ~38\u00b0 |\n| 50 | - | - | - |\n| 60 | peak at ~65\u00b0 | peak at ~65\u00b0 | peak at ~65\u00b0 |\n| 70 | peak at ~72\u00b0 | peak at ~72\u00b0 | - |\n| 80 | peak at ~79\u00b0 | - | - |",
+        "b": "| \u00b020\u03c7 | MnO2 | 10cLi-MnO2 | 50cLi-MnO2 |\n| --- | --- | --- | --- |\n| 15 | - | - | peak at ~18\u00b0 |\n| 20 | peak at ~21\u00b0 | peak at ~21\u00b0 | peak at ~21\u00b0 |\n| 25 | - | - | - |\n| 30 | - | - | - |\n| 35 | peak at ~33\u00b0 | peak at ~33\u00b0 | peak at ~33\u00b0, ~36\u00b0 |\n| 40 | peak at ~42 | peak at ~42\u00b0 | peak at ~42\u00b0 |\n| 45 | - | peak at ~44\u00b0 | peak at ~44\u00b0 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the difference between the two XRD diffractograms shown in the figures?",
+                "answer_type": "Factoid",
+                "answer": "Both spectra show different planes of the samples. \u00b02\u0398\u03c7 represents the in-plane and \u00b02\u0398 represents the out-of-plane."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the intensity of the peaks change when the number of lithium cycles increases?",
+                "answer_type": "Factoid",
+                "answer": "As the number of cycles increases, lower peaks in quantity and intensity can be observed."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "At which value and in which plane can an impurity phase be observed?",
+                "answer_type": "Factoid",
+                "answer": "An impurity phase can be observed in the out-of-plane direction at approximately 33\u00b0."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How many cycles are needed to produce the lithiated phase?",
+                "answer_type": "Factoid",
+                "answer": "At least 50 cycles are needed to produce this phase."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_10",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart",
+        "d": "stacked spectra chart",
+        "e": "stacked spectra chart",
+        "f": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The spectral figure shows Mn K-edge XANES spectra comparing the annealed 200cLi\u2013MnO\u2082\u2013600 sample with the corresponding unannealed sample, highlighting changes in the Mn oxidation state after annealing.",
+        "b": "The spectral figure shows Mn K-edge XANES spectra comparing the annealed 300cLi\u2013MnO\u2082\u2013600 sample with the corresponding unannealed sample, indicating further evolution of Mn electronic structure at higher lithiation.",
+        "c": "The spectral figure shows Mn K-edge EXAFS spectra of the annealed 200cLi\u2013MnO\u2082\u2013600 sample and the corresponding unannealed sample, presented as a function of radial distance (R), reflecting changes in local atomic coordination.",
+        "d": "The spectral figure shows Mn K-edge EXAFS spectra of the annealed 300cLi\u2013MnO\u2082\u2013600 sample and the corresponding unannealed sample as a function of radial distance (R), revealing annealing-induced structural reordering.",
+        "e": "The  spectral figure shows a comparison of Mn K-edge XANES spectra for different manganese oxidation states measured at a 45\u00b0 incident angle, illustrating variations in Mn valence.",
+        "f": "The spectral figure shows O K-edge XANES spectra for different oxidation environments measured at a 45\u00b0 incident angle, highlighting changes in Mn\u2013O hybridization."
+    },
+    "data_extraction": {
+        "a": "| Energy (eV) | Absorbance (arb. units) |\n|---|---|\n| 6535 | 0.0 |\n| 6540 | 0.0 |\n| 6545 | 0.0 |\n| 6550 | 0.0 |\n| 6555 | 0.0 |\n| 6560 | 0.0 |\n| 6565 | 0.0 |\n| 6570 | 0.0 |",
+        "b": "| Energy (eV) | Absorbance (arb. units) |\n|---|---|\n| 6535 | 0.0 |\n| 6540 | 0.0 |\n| 6545 | 0.0 |\n| 6550 | 0.0 |\n| 6555 | 0.0 |\n| 6560 | 0.0 |\n| 6565 | 0.0 |\n| 6570 | 0.0 |",
+        "c": "| R (\u00c5) | Absorbance (arb. units) |\n|---|---|\n| 0 | 0.0 |\n| 1 | 0.0 |\n| 2 | 0.0 |\n| 3 | 0.0 |\n| 4 | 0.0 |",
+        "d": "| R (\u00c5) | Absorbance (arb. units) |\n|---|---|\n| 0 | 0.0 |\n| 1 | 0.0 |\n| 2 | 0.0 |\n| 3 | 0.0 |\n| 4 | 0.0 |",
+        "e": "| Energy (eV) | Absorbance (arb. units) |\n|---|---|\n| 635 | 0.0 |\n| 640 | 0.0 |\n| 645 | 0.0 |\n| 650 | 0.0 |\n| 655 | 0.0 |\n| 660 | 0.0 |",
+        "f": "| Energy (eV) | Absorbance (arb. units) |\n|---|---|\n| 526 | 0.0 |\n| 528 | 0.0 |\n| 530 | 0.0 |\n| 532 | 0.0 |\n| 534 | 0.0 |\n| 536 | 0.0 |"
+    },
+    "vqa": {
+        "f": [
+            {
+                "question_type": "Application/Performance",
+                "question": "The O K-edge XANES in (f) is measured at a 45\u00b0 incident angle. If the O K-edge spectral shape changes with annealing, what could this imply about the surface vs. bulk oxidation and the stability of the material in battery operation?",
+                "answer_type": "Paragraph",
+                "answer": "Changes in the O K-edge after annealing suggest modifications in oxygen bonding and hybridization. Improved spectral definition implies a more stable surface oxide environment, which could reduce oxygen loss during cycling and enhance cathode stability in batteries."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Observing the Mn K-edge EXAFS in parts (c) and (d), how does annealing affect the Mn\u2013O and Mn\u2013Mn bond distances in both the 200cLi and 300cLi samples?",
+                "answer_type": "Paragraph",
+                "answer": "Annealing reduces disorder and sharpens the Mn\u2013O and Mn\u2013Mn coordination peaks in EXAFS. This indicates a more ordered local structure, with bond lengths approaching those of well-defined spinel LiMn\u2082O\u2084."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "In labels (a) and (b), compare the 'unannealed' (lighter lines) versus the 'Annealed -600' (darker lines) spectra. The black arrows indicate the edge position shifts to the left (lower energy) after heating. According to general XANES rules, does this shift imply the Manganese is being Oxidized or Reduced during the annealing process?\"",
+                "answer_type": "Factoid",
+                "answer": "A shift to lower binding energy signifies a decrease in the effective nuclear charge felt by the electrons, corresponding to a lower average oxidation state (e.g., shifting closer to the Mn_2O_3 )."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Based on the XANES and EXAFS in this figure, which sample\u2014200cLi or 300cLi\u2014shows a greater structural response to annealing, and why might this be?",
+                "answer_type": "Paragraph",
+                "answer": "The 300cLi sample shows a clearer spectral shift and EXAFS ordering after annealing. This is likely because it starts closer to stoichiometric LiMn\u2082O\u2084, allowing annealing to more effectively perfect the spinel structure, whereas the 200cLi sample is less lithiated and thus less responsive."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "f": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

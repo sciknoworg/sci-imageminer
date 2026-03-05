@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_6",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "This figure shows nucleation behavior during the first two Al\u2082O\u2083 ALE cycles at 250\u2013325\u00b0C. The first TMA exposure (~0 s) produces mass gains of 27\u201332 ng/cm\u00b2 from AlCH\u2083 formation on hydroxylated Al\u2082O\u2083. The first HF exposure (~30 s) adds 33\u201336 ng/cm\u00b2 from fluorination to form an AlF\u2083 layer. The second TMA exposure (~60 s) initiates etching (mass loss) at \u2265275\u00b0C, while 250\u00b0C shows delayed onset. Higher temperatures produce larger mass decreases, indicating more efficient AlF\u2083 removal by TMA.*"
+    },
+    "data_extraction": {
+        "a": "| Time (s) | 250\u00b0C (ng/cm\u00b2) | 275\u00b0C (ng/cm\u00b2) | 300\u00b0C (ng/cm\u00b2) | 325\u00b0C (ng/cm\u00b2) |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 10 | 28 | 27 | 28 | 24 |\n| 30 | 30 | 30 | 32 | 27 |\n| 40 | 62 | 63 | 64 | 55 |\n| 60 | 65 | 63 | 65 | 61 |\n| 65 | 70 | 52 | 46 | 25 |\n| 75 | 60 | 49 | 43 | 23 |\n| 90 | 57 | 47 | 41 | 20 |\n| 100 | 67 | 57 | 53 | 35 |\n| 120 | 69 | 60 | 56 | 39 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What reactions during the first HF exposure establish the AlF\u2083 layer needed for ALE?",
+                "answer_type": "Paragraph",
+                "answer": "The first HF exposure converts AlCH\u2083* species to AlF* via AlCH\u2083* + HF \u2192 AlF* + CH\u2084, and fluorinates the underlying Al\u2082O\u2083 through Al\u2082O\u2083 + 6HF \u2192 2AlF\u2083 + 3H\u2082O. This spontaneous reaction (\u0394G \u2248 \u221250 kcal) creates the AlF\u2083 surface layer that TMA can subsequently remove through ligand-exchange, enabling cyclic etching."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "At which temperatures does mass loss (etching) begin during the second ALE cycle?",
+                "answer_type": "Factoid",
+                "answer": "Mass loss begins during the second cycle at 275\u00b0C, 300\u00b0C, and 325\u00b0C, while 250\u00b0C requires a third cycle before etching onset."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What do the colored arrows labeled \"TMA\" and \"HF\" indicate in the figure?",
+                "answer_type": "Factoid",
+                "answer": "The arrows mark the timing of sequential precursor exposures\u2014blue arrows indicate TMA doses and red arrows indicate HF doses during the ALE cycles."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why does 325\u00b0C show the largest mass decrease after the second TMA exposure?",
+                "answer_type": "Paragraph",
+                "answer": "At higher temperatures, TMA removes a larger fraction of the AlF\u2083 surface layer through ligand-exchange reactions, producing more volatile AlF(CH\u2083)\u2082 products. The percentage of AlF\u2083 removed increases from 19% at 250\u00b0C to 74% at 325\u00b0C, explaining the pronounced mass loss at 325\u00b0C."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

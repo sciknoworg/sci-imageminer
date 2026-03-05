@@ -1,0 +1,66 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_9",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart",
+        "c": "line chart"
+    },
+    "summarization": {
+        "a": "The figure shows the temperature dependence of magnetization for Fe2O3 films grown at 450 \u00b0C with a film thickness of 705 nm, using a field gradient apparatus (FGA) and a magnetic field of 1000 Oe.",
+        "b": "The figure shows the temperature dependence of magnetization for Fe2O3 films grown (Mg-doped, Mg/Fe = 0.021) at 425 \u00b0C with a film thickness of 183 nm, using FGA and a magnetic field of 1000 Oe.",
+        "c": "The figure shows the temperature dependence of magnetization for Fe2O3 films grown (Mg-doped, Mg/Fe = 0.062) at 375 \u00b0C with a film thickness of 411 nm, using FGA and a magnetic field of 1000 Oe."
+    },
+    "data_extraction": {
+        "a": "| Temperature, K | FC | ZFC |\n|---|---|---|\n| 0 | ~0.10 | ~0.00 |\n| 50 | ~0.10 | ~0.00 |\n| 100 | ~0.10 | ~0.00 |\n| 150 | ~0.10 | ~0.00 |\n| 200 | ~0.10 | ~0.00 |\n| 250 | ~0.10 | ~0.00 |\n| 300 | ~0.10 | ~0.00 |",
+        "b": "| Temperature, K | FC | ZFC |\n|---|---|---|\n| 0 | ~0.06 | ~0.06 |\n| 50 | ~0.06 | ~0.06 |\n| 100 | ~0.06 | ~0.06 |\n| 150 | ~0.06 | ~0.06 |\n| 200 | ~0.06 | ~0.06 |\n| 250 | ~0.06 | ~0.06 |\n| 300 | ~0.06 | ~0.06 |",
+        "c": "| Temperature, K | FC | ZFC |\n|---|---|---|\n| 0 | ~0.069 | ~0.069 |\n| 50 | ~0.068 | ~0.068 |\n| 100 | ~0.067 | ~0.067 |\n| 150 | ~0.066 | ~0.066 |\n| 200 | ~0.065 | ~0.065 |\n| 250 | ~0.065 | ~0.065 |\n| 300 | ~0.065 | ~0.065 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What was the strength of the applied magnetic field for all experiments?",
+                "answer_type": "Factoid",
+                "answer": "1000 Oe."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How does the material itself change when it's cooled below the Verwey transition temperature (T_V)?",
+                "answer_type": "Factoid",
+                "answer": "At the Verwey transition temperature, TV, ca. 120 K, magnetite is supposed to transform from cubic (T > T_V) to monoclinic (T < T_V) symmetry."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the Mg fraction affect the Verwey transition point?",
+                "answer_type": "Paragraph",
+                "answer": "As the Mg fraction in the film increases, T_V decreases. As the Mg fraction increases, the difference between ZFC and FC also becomes more pronounced, but the transition point becomes less clear. Finally, an increase in Mg content also causes an overall decrease of magnetization, which is consistent with earlier observations in this work."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What are the transition temperatures and respective magnetization?",
+                "answer_type": "Paragraph",
+                "answer": "For the undoped iron oxide film, it is 125 K and a magnetization of 0.11 emu/g; The iron oxide film with Mg/Fe = 0.021, T_V = 120 K, M = 0.055; The iron oxide film with Mg/Fe = 0.062, the T_V is not stated."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

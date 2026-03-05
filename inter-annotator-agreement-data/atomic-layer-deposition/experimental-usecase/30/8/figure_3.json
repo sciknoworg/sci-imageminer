@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_3",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "multi spectra chart",
+        "c": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure displays Raman spectra for a undoped iron oxide film grown at 400\u00b0C, comparing the as-deposited state with the annealed (FGA) state. The spectra are primarily characterized by strong peaks assigned to hematite (\u03b1-Fe\u2082O\u2083), although weak bands corresponding to trace magnetite (Fe\u2083O\u2084) are also identified.",
+        "b": "The figure shows Raman spectra for a magnesium-doped film (Mg/Fe = 0.017) grown at 375\u00b0C, with predominantly magnetite (Fe\u2083O\u2084) peaks visible. Maghemite (\u03b3-Fe\u2082O\u2083) peaks are visible for both FGA and as-deposited sample, but decrease after annealing.",
+        "c": "The figure compares Raman spectra for doped films (Mg/Fe = 0.05\u20130.06) grown at two different temperatures, 425\u00b0C and 375\u00b0C. The film grown at 425\u00b0C exhibits sharp peaks characteristic of hematite and the silicon substrate, whereas the film grown at 375\u00b0C is dominated by a broad peak around 668 cm\u207b\u00b9."
+    },
+    "data_extraction": {
+        "a": "| Data series | Peak assignment | Raman shift, cm\u207b\u00b9 | Intensity, arb.unit. |\n|---|---|---|---|\n| As-deposited | \u03b1-Fe\u2082O\u2083 (Hematite) | 225 | 95 |\n| As-deposited | \u03b1-Fe\u2082O\u2083 (Hematite) | 293 | 91 |\n| As-deposited | \u03b1-Fe\u2082O\u2083 (Hematite) | 412 | 75 |\n| As-deposited | \u03b1-Fe\u2082O\u2083 (Hematite)  | 498 | 20 |\n| As-deposited | \u03b1-Fe\u2082O\u2083 (Hematite) | 613 | 40 |\n| As-deposited | Magnetite (Fe\u2083O\u2084) | 668 | 23 |\n| As-deposited | \u03b1-Fe\u2082O\u2083 (Hematite) | 1320 | 127 |\n| FGA | \u03b1-Fe\u2082O\u2083 (Hematite) | 225 | 73 |\n| FGA | \u03b1-Fe\u2082O\u2083 (Hematite) | 293 | 72 |\n| FGA | \u03b1-Fe\u2082O\u2083 (Hematite) | 412 | 60 |\n| FGA | \u03b1-Fe\u2082O\u2083 (Hematite) | 498 | 19 |\n| FGA | Magnetite (Fe\u2083O\u2084) | 538 | 55 |\n| FGA | \u03b1-Fe\u2082O\u2083 (Hematite) | 613 | 25 |\n| FGA | Magnetite (Fe\u2083O\u2084) | 668 | 27|\n| FGA | \u03b1-Fe\u2082O\u2083 (Hematite) | 1320 | 94 |",
+        "b": "| Data series | Peak assignment | Raman shift, cm\u207b\u00b9 | Intensity, arb.unit. |\n|---|---|---|---|\n| As-deposited | Magnetite (Fe\u2083O\u2084) | 193 | 23 |\n| As-deposited | Magnetite (Fe\u2083O\u2084) | 306 | 40  |\n| As-deposited | Magnetite (Fe\u2083O\u2084) | 538 | 47 |\n| As-deposited | Magnetite (Fe\u2083O\u2084) | 668 | 131 |\n| As-deposited | Maghemite (\u03b3-Fe\u2082O\u2083) | 720 | 98 |\n| As-deposited | Hematite (\u03b1-Fe\u2082O\u2083) | 1320 | 72 |\n| As-deposited | Maghemite (\u03b3-Fe\u2082O\u2083) | 1430 | 75 |\n| As-deposited | Maghemite (\u03b3-Fe\u2082O\u2083) | 1580 | 65 |\n| FGA | Magnetite (Fe\u2083O\u2084) | 193 | 20 |\n| FGA | Magnetite (Fe\u2083O\u2084) | 306 | 35 |\n| FGA | Magnetite (Fe\u2083O\u2084) | 538 | 48 |\n| FGA | Magnetite (Fe\u2083O\u2084) | 668 | 172 |\n| FGA | Hematite (\u03b1-Fe\u2082O\u2083) | 1320 | 53 |\n| FGA | Maghemite (\u03b3-Fe\u2082O\u2083) | 1430 | 54 |\n| FGA | Maghemite (\u03b3-Fe\u2082O\u2083) | 1580 | 55 |",
+        "c": "| Data series | Peak assignment | Raman shift, cm\u207b\u00b9 | Intensity, arb.unit. |\n|---|---|---|---|\n| 425\u00b0C | Hematite (\u03b1-Fe\u2082O\u2083) | 225 | 31 |\n| 425\u00b0C | Hematite (\u03b1-Fe\u2082O\u2083) | 293 | 37 |\n| 425\u00b0C | Hematite (\u03b1-Fe\u2082O\u2083) | 412 | 39 |\n| 425\u00b0C | Hematite (\u03b1-Fe\u2082O\u2083) | 498 | 116 |\n| 425\u00b0C | Substrate (Si) | 514 | 124 |\n| 425\u00b0C | Magnetite (Fe\u2083O\u2084) | 538 | 129 |\n| 425\u00b0C | Hematite (\u03b1-Fe\u2082O\u2083) | 613 | 27 |\n| 425\u00b0C | Magnetite (Fe\u2083O\u2084) | 668 | 28 |\n| 425\u00b0C | Maghemite (\u03b3-Fe\u2082O\u2083) | 720 | 26 |\n| 425\u00b0C | Substrate (SiO\u2082) | 970 | 40 |\n| 425\u00b0C| Hematite (\u03b1-Fe\u2082O\u2083) | 1320 | 46 |\n| 375\u00b0C| Magnetite (Fe\u2083O\u2084) | 668 |  21 |\n| 375\u00b0C | Hematite/Maghemite | 1300\u20131400 | 19 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What suppots the conclusion that the oxidation rate at the 375\u00b0C  is lower than at 425\u00b0C, based on the spectrum?",
+                "answer_type": "Paragraph",
+                "answer": "The film grown at 425\u00b0C exhibits  peaks characteristic of hematite, whereas the film grown at 375\u00b0C is dominated by peaks attributed to magnetite. The O/Fe ratio in magnetite is approx. 1.33, which is lower than the corresponding ration in hematite (1.5). Therefore, the lower temperature of 375\u00b0C results in the formation of more oxygen-deficient film. This means that the oxidation rate at 375\u00b0C is lower, as this temperature is insuficient to fully complete the oxidation at the studied pulse times."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What is the dominant phase of the as-deposited film, based on this spectrum?",
+                "answer_type": "Factoid",
+                "answer": "Hematite is the dominant phase, weak peaks of magnetite are also visible."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What changes are observed in the spectrum after annealing?",
+                "answer_type": "Factoid",
+                "answer": "A new peak appears at 498 cm\u22121. Beside that, there are no visible change in the spectrum."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What phases can be identified based on the spectrum?",
+                "answer_type": "Factoid",
+                "answer": "Hematite (\u03b1-Fe\u2082O\u2083), magnetite (Fe\u2083O\u2084) and maghemite (\u03b3-Fe\u2082O\u2083)"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

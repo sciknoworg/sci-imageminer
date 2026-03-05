@@ -1,0 +1,70 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_4",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart",
+        "c": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "Mn K-edge TEY XANES is compared for MnO\u2082, 10cLi\u2013MnO\u2082, and 50cLi\u2013MnO\u2082 alongside MnO\u2082, LiMn\u2082O\u2084, and MnO references. The near-edge line shape and the main white-line region differ across the lithiated samples relative to pristine MnO\u2082. The inset highlights pre-edge/near-edge components with labeled t\u2082g and e_g markers, supporting an electronic-structure-focused interpretation. Overall, the TEY spectra indicate lithium-dependent changes in the Mn local electronic environment.",
+        "b": "The Fourier-transformed Mn K-edge EXAFS shows a first-shell Mn\u2013O feature near ~1.6\u20131.7 \u00c5 and higher-R Mn\u2013Mn contributions around ~2.7 and ~3.3 \u00c5. The relative peak intensities/definitions vary across MnO\u2082, 10cLi\u2013MnO\u2082, and 50cLi\u2013MnO\u2082, consistent with lithiation-dependent changes in local order. The \u03b2-MnO\u2082 structure inset provides context for the distinct Mn\u2013Mn pathways labeled in the FT spectrum.",
+        "c": "Mn L-edge XANES at 45\u00b0 incidence is shown for MnO\u2082, 10cLi\u2013MnO\u2082, and 50cLi\u2013MnO\u2082, with labeled L\u2083 and L\u2082 regions. Vertical markers indicate Mn\u00b3\u207a- and Mn\u2074\u207a-referenced energies in the L\u2083 region. The relative shape/position of features across the three traces is consistent with lithium-dependent redistribution of Mn electronic states. This panel complements the K-edge results by probing Mn 3d-related spectral signatures."
+    },
+    "data_extraction": {
+        "a": "| Trace | Feature | Energy (eV) |\n|---|---|---|\n| MnO\u2082 | t\u2082g marker (inset) | ~6540.3 |\n| MnO\u2082 | e_g marker (inset) | ~6541.8 |\n| MnO\u2082 | main white-line peak | ~6562.5 |\n| 10cLi\u2013MnO\u2082 | t\u2082g marker (inset) | ~6540.3 |\n| 10cLi\u2013MnO\u2082 | e_g marker (inset) | ~6541.8 |\n| 10cLi\u2013MnO\u2082 | main white-line peak | ~6562.0 |\n| 50cLi\u2013MnO\u2082 | t\u2082g marker (inset) | ~6540.3 |\n| 50cLi\u2013MnO\u2082 | e_g marker (inset) | ~6541.8 |\n| 50cLi\u2013MnO\u2082 | main white-line peak | ~6562.8 |\n| LiMn\u2082O\u2084 ref. | main peak | ~6560.5 |\n| MnO ref. | main peak | ~6556.5 |",
+        "b": "| Trace | Peak assignment | R (\u00c5) |\n|---|---|---|\n| MnO\u2082 | Mn\u2013O | ~1.6\u20131.7 |\n| MnO\u2082 | Mn\u2013Mn1 | ~2.7 |\n| MnO\u2082 | Mn\u2013Mn2 | ~3.3 |\n| 10cLi\u2013MnO\u2082 | Mn\u2013O | ~1.6\u20131.7 |\n| 10cLi\u2013MnO\u2082 | Mn\u2013Mn1 | ~2.7 |\n| 10cLi\u2013MnO\u2082 | Mn\u2013Mn2 | ~3.3 |\n| 50cLi\u2013MnO\u2082 | Mn\u2013O | ~1.6\u20131.7 |\n| 50cLi\u2013MnO\u2082 | Mn\u2013Mn1 | ~2.7 |\n| 50cLi\u2013MnO\u2082 | Mn\u2013Mn2 | ~3.3 |",
+        "c": "| Trace | Feature | Energy (eV) |\n|---|---|---|\n| (axis marker) | Mn\u00b3\u207a marker line | ~641.5 |\n| (axis marker) | Mn\u2074\u207a marker line | ~644.0 |\n| MnO\u2082 | L\u2083 main feature | ~642.5\u2013643.5 |\n| MnO\u2082 | L\u2082 main feature | ~653.0\u2013654.0 |\n| 10cLi\u2013MnO\u2082 | L\u2083 main feature | ~642.5\u2013643.5 |\n| 10cLi\u2013MnO\u2082 | L\u2082 main feature | ~653.0\u2013654.0 |\n| 50cLi\u2013MnO\u2082 | L\u2083 main feature | ~642.5\u2013643.5 |\n| 50cLi\u2013MnO\u2082 | L\u2082 main feature | ~653.0\u2013654.0 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What do the Mn\u00b3\u207a and Mn\u2074\u207a marker lines in panel (c) provide that the raw L-edge traces alone do not?",
+                "answer_type": "Factoid",
+                "answer": "They provide fixed reference energies in the L\u2083 region to help relate changes in the sample line shape/position to Mn\u00b3\u207a- and Mn\u2074\u207a-associated spectral features."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is comparison with MnO and LiMn\u2082O\u2084 references important for interpreting Mn K-edge XANES?",
+                "answer_type": "Paragraph",
+                "answer": "Reference compounds anchor spectral features to known Mn oxidation states and coordination environments. This enables relative positioning of unknown or modified samples along a redox continuum. Such benchmarking is critical when evaluating lithiation-induced electronic changes."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the main-peak positions in panel (a) compare across MnO, LiMn\u2082O\u2084, and the MnO\u2082-based samples?",
+                "answer_type": "Factoid",
+                "answer": "In panel (a), the MnO reference peaks at lower energy (~6556.5 eV), LiMn\u2082O\u2084 sits higher (~6560.5 eV), and the MnO\u2082-based samples peak higher still (\u22486562 eV range, depending on lithiation)."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "In panel (b), why is the EXAFS result shown as a Fourier transform versus R rather than directly as \u03c7(k)?",
+                "answer_type": "Paragraph",
+                "answer": "The FT representation reorganizes the oscillatory EXAFS signal into peaks that correspond more directly to real-space neighbor shells. That helps separate first-shell Mn\u2013O from higher-shell Mn\u2013Mn contributions in a visually interpretable way. For comparison across samples, it also makes changes in peak intensity and definition easier to track at a glance."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

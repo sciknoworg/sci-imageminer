@@ -1,0 +1,66 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/30/figure_1",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "X-ray diffraction patterns showing crystalline phases of Fe2O3 hematite and magnetite at 500\u00b0C as-deposited and FGA.",
+        "b": "X-ray diffraction patterns showing crystalline phases of Fe2O3 hematite and magnetite at 400\u00b0C as-deposited and FGA.",
+        "c": "X-ray diffraction patterns showing crystalline phases of Fe2O3 hematite and magnetite at 375\u00b0C as-deposited and FGA."
+    },
+    "data_extraction": {
+        "a": "| 2\u03b8, degree | Intensity, arb. units |\n|---|---|\n| 20 | - |\n| 25 | peak at ~24\u00b0|\n| 30 | - |\n| 35 | peak at ~33\u00b0, ~36\u00b0|\n| 40 | peak at ~41\u00b0|\n| 45 | - |\n| 50 | peak at ~50\u00b0 |\n| 55 | peak at ~54\u00b0 |\n| 60 | peak at ~57\u00b0, ~62\u00b0 |\n| 65 | peak at ~64\u00b0 |",
+        "b": "| 2\u03b8, degree | Intensity, arb. units |\n|---|---|\n| 20 | - |\n| 25 | peak at ~24\u00b0 |\n| 30 | - |\n| 35 | peak at ~33\u00b0, ~36\u00b0 |\n| 40 | peak at ~41\u00b0 |\n| 45 | - |\n| 50 | peak at ~50\u00b0 |\n| 55 | peak at ~55\u00b0, ~57\u00b0 |\n| 60 | - |\n| 65 | peak at ~63\u00b0, ~64\u00b0 |",
+        "c": "| 2\u03b8, degree | Intensity, arb. units |\n|---|---|\n| 20 | - |\n| 25 | - |\n| 30 | peak at ~30\u00b0 |\n| 35 | peak at ~36\u00b0 |\n| 40 | - |\n| 45 | peak at ~44\u00b0 |\n| 50 | - |\n| 55 | - |\n| 60 | - |\n| 65 | peak at ~63\u00b0 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which main steps are shown in the figure?",
+                "answer_type": "Factoid",
+                "answer": "The grazing incident X-ray diffraction spectra are presented as a function of the temperature for the as-deposited film and the film after annealing."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Is the phase influenced by the annealing treatment at 500 \u00b0C?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "At which growth temperature is the formation of hematite most likely?",
+                "answer_type": "Factoid",
+                "answer": "At 500 \u00b0C"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "In what ways can temperature influence the formation of one phase over another?",
+                "answer_type": "Factoid",
+                "answer": "The formation of hematite is favored at higher growth temperatures, whereas the formation of magnetite is favored at lower temperatures."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

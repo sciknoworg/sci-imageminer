@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_4",
+    "classification": {
+        "a": "line chart",
+        "b": "line chart"
+    },
+    "summarization": {
+        "a": "The figure shows a negative trend of \u0394M<sub>TMA</sub> with increasing TMA exposure time at 300\u00b0C. The \u0394M<sub>TMA</sub>  decreases rapidly at first, then more gradually.",
+        "b": "The figure shows a positive trend of \u0394M<sub>HF</sub> with increasing HF exposure time at 300\u00b0C. The \u0394M<sub>HF</sub> increases rapidly at first, then approaches a plateau."
+    },
+    "data_extraction": {
+        "a": "| TMA Exposure Time (s) | \u0394M<sub>TMA</sub> (ng/(cm<sup>2</sup> cycle)) |\n|---|---|\n| 0.0 | 0 |\n| 0.5 | -14 |\n| 1.0 | -19 |\n| 1.5 | -23 |\n| 1.75 | -27 |\n| 2.0 | -29 |\n| 2.0 | -29 |\n| 2.2 | -31|\n| 3.0 | -32 |",
+        "b": "| HF Exposure Time (s) | \u0394M<sub>HF</sub> (ng/(cm<sup>2</sup> cycle)) |\n|---|---|\n| 0.0 | 0 |\n| 0.5 | 11.5 |\n| 0.75 | 11.6 |\n| 1.0 | 13 |\n| 1.25 | 13.5 |\n| 1.5 | 15 |\n| 1.75 | 15 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which half-cycle (HF or TMA)  appears more kinetically limited, if HF approaches a plateau by ~ 1s, and what supports this conclusion?",
+                "answer_type": "Paragraph",
+                "answer": "The TMA half-cycle appears more kinetically limited because \u0394M<sub>TMA</sub> approaches its plateau much more slowly than \u0394M<sub>HF</sub. HF levels off by about 1s, while TMA needs ~2s to level off. Longer time-to-saturation and gradual flattering indicates that the TMA step is slower to complete under the same conditions."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Why does the mass of Al\u2082O\u2083 change after HF exposure?",
+                "answer_type": "Paragraph",
+                "answer": "HF fluorinates the surface, converting part of the oxide into an AlF\u2083 surface layer.  The reaction is Al\u2082O\u2083 + 6HF \u2192 2AlF\u2083 + 3H\u2082O, meaning that Al2O3 is converted into two AlF3.  Since 2AlF3 have a mass of 168 amu, while Al2O3 is 102 amu, the mass increases during the HF exposure."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does the reactant shows self-limiting behavior or constnt increase?",
+                "answer_type": "Factoid",
+                "answer": "Self-limiting behavior."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "When is self-limiting behavior observed for HF?",
+                "answer_type": "Factoid",
+                "answer": "After 1s."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

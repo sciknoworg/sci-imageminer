@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_13",
+    "classification": {
+        "a": "reaction scheme",
+        "b": "reaction scheme"
+    },
+    "summarization": {
+        "a": "The figure illustrates the molecular structures of aluminum alkyls interacting with Al2O3 film. It shows the initial state with methyl groups attached to aluminum and the subsequent reaction with HF leading to the formation of water and methane.",
+        "b": "The figure illustrates the molecular structures of aluminum alkyls interacting with Al2O3 film. It shows the initial state with fluorine atoms attached to aluminum and the subsequent reaction with methyl groups leading to the formation of a new aluminum alkyl compound."
+    },
+    "data_extraction": {
+        "a": "",
+        "b": ""
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What are the main reactions shown in the figure?",
+                "answer_type": "Factoid",
+                "answer": "The first reaction between AL2O3 film and HF to form fluorinated Al2O3 films, with H2O and CH4, as by-products."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Are the by-products of both reactions shown in the figure the same?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which precursor is used to etch the surface?",
+                "answer_type": "Factoid",
+                "answer": "TMA"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Which process is illustrated in the figure?",
+                "answer_type": "Factoid",
+                "answer": "Atomic layer etching of Al2O3 films with TMA as a precursor."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

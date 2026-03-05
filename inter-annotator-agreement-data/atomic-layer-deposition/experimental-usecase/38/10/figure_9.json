@@ -1,0 +1,74 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_9",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart",
+        "c": "stacked spectra chart",
+        "d": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The figure presents stacked XRD diffraction patterns comparing LiMn\u2082O\u2084 and Li\u2013MnO\u2082 thin films before and after annealing at 600 \u00b0C. The changes in peak positions and intensities reveal phase evolution, including the formation of the lithiated spinel LiMn\u2082O\u2084 and the disappearance of \u03b2-MnO\u2082 reflections upon heating."
+    },
+    "data_extraction": {
+        "a": "| Intensity (arb. units) | \u00b02\u03b8\u03c7 |\n|---|---|\n| LiMn\u2082O\u2084 (111) | 20 |\n| LiMn\u2082O\u2084 (131) | 30 |\n| LiMn\u2082O\u2084 (222) | 40 |\n| LiMn\u2082O\u2084 (440) | 50 |\n| LiMn\u2082O\u2084 (351) | 60 |\n| 200cLi-MnO\u2082-600 | 70 |\n| 200cLi-MnO\u2082 | 80 |",
+        "b": "| Intensity (arb. units) | \u00b02\u03b8 |\n|---|---|\n| Lithiated phase | 15 |\n| LiMn\u2082O\u2084 (111) | 20 |\n| MnO\u2082 (100) | 25 |\n| LiMn\u2082O\u2084 (311) | 30 |\n| LiMn\u2082O\u2084 (200) | 35 |\n| 200cLi-MnO\u2082 | 40 |",
+        "c": "| Intensity (arb. units) | \u00b02\u03b8\u03c7 |\n|---|---|\n| LiMn\u2082O\u2084 (111) | 20 |\n| LiMn\u2082O\u2084 (131) | 30 |\n| LiMn\u2082O\u2084 (222) | 40 |\n| LiMn\u2082O\u2084 (440) | 50 |\n| LiMn\u2082O\u2084 (351) | 60 |\n| 300cLi-MnO\u2082-600 | 70 |\n| 300cLi-MnO\u2082 | 80 |",
+        "d": "| Intensity (arb. units) | \u00b02\u03b8 |\n|---|---|\n| Lithiated phase | 15 |\n| LiMn\u2082O\u2084 (111) | 20 |\n| 300cLi-MnO\u2082-600 | 25 |\n| * | 30 |\n| LiMn\u2082O\u2084 (311) | 35 |\n| 300cLi-MnO\u2082 | 40 |"
+    },
+    "vqa": {
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What crystalline phase appears after annealing Li\u2013MnO\u2082 films?",
+                "answer_type": "Factoid",
+                "answer": "The spinel LiMn\u2082O\u2084 phase."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What structural insights can be derived from these XRD patterns?",
+                "answer_type": "List",
+                "answer": "\u03b2-MnO\u2082 to LiMn\u2082O\u2084 transformation, New diffraction peaks, Reduced \u03b2-MnO\u2082 reflections."
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does annealing at 600 \u00b0C affect the XRD patterns of Li\u2013MnO\u2082 films?",
+                "answer_type": "Paragraph",
+                "answer": "Annealing induces the transformation of \u03b2-MnO\u2082 to the spinel LiMn\u2082O\u2084 phase, as indicated by the emergence of new diffraction peaks and the reduction of \u03b2-MnO\u2082 reflections. This demonstrates increased crystallinity and lithium incorporation upon heat treatment."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the annealing process at 600 \u00b0C alter the crystalline structure of Li\u2013MnO\u2082?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

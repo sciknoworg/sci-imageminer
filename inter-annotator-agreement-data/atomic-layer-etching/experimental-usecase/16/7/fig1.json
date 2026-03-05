@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig1",
+    "classification": {
+        "a": "timeline chart"
+    },
+    "summarization": {
+        "a": "The figure illustrates the parameter sequence and surface-state evolution during the atomic layer etching (ALE) cycle. It shows three key stages \u2014 (1) polymer film formation on the surface (modification), (2) development of a saturated fluorocarbon layer, and (3) argon-ion\u2013activated reaction that removes one atomic layer."
+    },
+    "data_extraction": {
+        "a": "| Step | Process Stage | Time (s) | W<sub>DC</sub> (W) | W<sub>ICP</sub> (W) | CF<sub>4</sub> + H<sub>2</sub> (sccm) | Ar (sccm) | Main Action |\n|------|----------------|----------|------------------|-------------------|--------------------------------------|-----------|--------------|\n| 1 | Modification | 0\u201315 | 0 | 1500 | 10\u201325 | 50 | Deposition of fluorocarbon polymer film on the surface |\n| 2 | Purge / Saturation| 15\u201325 | 0 | 1500 | 0 | 50 | Removal of residual gases; surface becomes uniformly coated |\n| 3 | Activation (Etching) | 25\u201345 | 4\u20136 | 1500 | 0 | 50 | Ar\u207a ions activate reaction between polymer and target layer, removing one atomic layer |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Explain how the timing and synchronization between plasma power and gas flow affect the surface reaction selectivity in this given ALE process?",
+                "answer_type": "Paragraph",
+                "answer": "Proper timing  and synchronization makes sure that the film deposition, activation, and etching happen one after another without overlap. \nWhen plasma power and gas flow are well-synchronized, the right species are active at the right time resulting in lesser undesired reactions, improving selectivity, and giving precise atomic-layer control."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How do the functions of CF\u2084, H\u2082 and Ar differ across the ALE cycle?",
+                "answer_type": "List",
+                "answer": "CF\u2084: Active mainly during the modification step, providing fluorine radicals that form a thin fluorocarbon (CF\u2093) layer.\n\nH\u2082: Works with CF\u2084 to regulate plasma, reducing over-fluorination and ensuring balanced polymer growth.\n\nAr: Dominates during the activation step, supplying Ar\u207a ions for controlled sputtering and also acts as a purge gas between cycles."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How does the ALE cycle duration relate to etch depth per cycle?",
+                "answer_type": "Paragraph",
+                "answer": "A typical ALE cycle lasts about 10\u201315 seconds, corresponding to the removal of roughly 0.1\u20130.2 nm of material. The precise control of timing directly determines the atomic-scale etch depth, linking the process structure (timing) to the resulting property (etch rate)."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Does separating the modification and activation steps improve etch uniformity and anisotropy?",
+                "answer_type": "Yes/No",
+                "answer": "Yes. \nSeperating these steps allows independent control over chemical and physical reactions, minimizing surface damage and sidewall erosion. This results in better uniformity, higher selectivity, and improved anisotropy in the etched features."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

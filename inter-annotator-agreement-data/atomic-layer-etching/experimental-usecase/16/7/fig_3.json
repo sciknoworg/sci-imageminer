@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_3",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "Figure illustrates the XPS spectra (intensity vs. binding energy) of the F(1s) core level for films deposited at CF\u2084 concentrations of 3.3% and 6.6%. The film deposited at 6.6% CF\u2084 shows a higher F(1s) peak intensity, indicating greater fluorine incorporation.",
+        "b": "Figure displays the deconvoluted C(1s) XPS spectra for the same films, fitted with multiple Gaussian peaks. Each peak corresponds to a distinct carbon chemical bond (e.g., C-CF\u2099, CF, CF\u2082, CF\u2083), revealing the chemical structure of the fluorocarbon films."
+    },
+    "data_extraction": {
+        "a": "| Binding Energy, eV | Intensity, counts/s \u03bdCF\u2084 =3.3% , F(1s) | \u03bdCF\u2084 =6.6% F(1s)|\n|---|---|---|\n| 698 | 300 | 300 |\n| 696 | 300 | 300 |\n| 694 | 300 | 300 |\n| 692 | 500 | 500 |\n| 690 | 3500 | 6500|\n| 688 | 300 | 1500 |\n| 686 | 300 | 200 |\n| 684 | 300 | 200 |\n| 682 | 300 | 200 |",
+        "b": "| Binding Energy, eV | Intensity, counts/s \u03bdCF\u2084 =3.3%  | \u03bdCF\u2084 =6.6% |\n|---|---|---|\n| 298 | 200 | 100 |\n| 296 | 200 | 100 |\n| 294 | 400 | 300 |\n| 292 | 300 | 500 |\n| 290 | 180 | 500 |\n| 288 | 300 | 600 |\n| 286 | 300 | 200 |\n| 285 | 1500 |180 |\n| 284 | 200 | 50 |\n| 282 | 200 | 50 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the key deposition parameter that was changed between the two film samples analyzed in the XPS data?",
+                "answer_type": "Factoid",
+                "answer": "The fraction of CF\u2084 (\u03bdCF\u2084) in the deposition process was changed, from 3.3% to 6.6%."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How does increasing the CF\u2084 fraction in the deposition process affect the chemical composition and structure of the resulting film?",
+                "answer_type": "Paragraph",
+                "answer": "Increasing the CF\u2084 fraction from 3.3% to 6.6% leads to a film with a significantly different chemical structure. The XPS data shows a substantial increase in fluorine incorporation within the film, indicating a more fluorinated carbon network. This change in chemical composition is directly responsible for the altered C(1s) bonding profile and is correlated with the ability to deposit a much thicker film."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "List out the chemical bonding corresponding to the peaks at 285.5 eV, 290.2 eV, 292.4 eV, and 294.6 eV shown in this XPS data.",
+                "answer_type": "List",
+                "answer": "XPS peak\n- 285.5 eV \u2014 C\u2013CF\u2099 bond\n- 290.2 eV \u2014 CF\n- 292.4 eV \u2014 CF\u2082 \n- 294.6 eV \u2014 CF\u2083"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Based on the XPS data in this Figure, would the film deposited with the higher CF\u2084 fraction (\u03bdCF\u2084=6.6%) likely exhibit better performance as a fluorine-rich barrier layer compared to the film deposited with the lower CF\u2084 fraction?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

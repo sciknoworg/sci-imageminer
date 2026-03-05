@@ -1,0 +1,54 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig1",
+    "classification": {
+        "a": "conceptual diagram"
+    },
+    "summarization": {
+        "a": "The figure schematically represents the parameter sequence in the atomic layer etching (ALE) process. It shows three main stages: 1st modification or deposition, where a fluorocarbon polymer film forms on the surface in Ar/CF\u2084/H\u2082 plasma without DC bias; 2nd a short argon purge; and 3rd activation, where argon ion bombardment under a DC bias removes part of the polymer and drives surface reactions with the target layer. The diagram illustrates how the ALE cycle alternates between film deposition and argon activation to achieve controlled layer-by-layer etching."
+    },
+    "data_extraction": {
+        "a": "| Step | Process Type | Gas Composition | DC Bias | Duration (s) | ICP Power (W) | Table Temp (\u00b0C) | Notes |\n|------|---------------|-----------------|---------|---------------|----------------|-----------------|-------|\n| 1 | Modification (Deposition) | Ar/CF\u2084/H\u2082 (50 sccm Ar, 2\u201320 sccm CF\u2084 & H\u2082) | None | 0\u201315 | 1500 | 20 | Builds polymer film on surface |\n| 2 | Purge | Ar | None | 10 | 1500 | 20 | Removes residual gases |\n| 3 | Activation (Etching) | Ar plasma | 16 V DC bias | 0\u201320 | 1500 | 20 | Argon ions activate surface reaction |"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "What role does the argon purge step play in the ALE process sequence?",
+                "answer_type": "Factoid",
+                "answer": "It removes residual reactive gases between modification and activation steps."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which process parameters influence the surface modification and activation behavior in the ALE sequence?",
+                "answer_type": "List",
+                "answer": "Gas composition (Ar/CF\u2084/H\u2082 versus Ar plasma), Presence or absence of DC bias, Plasma power (ICP power), Process duration for each step, Substrate temperature"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the ALE process rely on alternating modification and activation steps to achieve controlled etching?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the surface behavior during the modification step differ from the activation step in the ALE cycle?",
+                "answer_type": "Paragraph",
+                "answer": "During the modification step, a fluorocarbon polymer layer is deposited on the surface using an Ar/CF\u2084/H\u2082 plasma without applying a DC bias, leading to surface passivation rather than material removal. In contrast, the activation step employs argon plasma with an applied DC bias, which generates energetic ions that partially remove the polymer layer and activate surface reactions with the underlying material. This contrast between surface protection and controlled ion-driven activation enables layer-by-layer etching."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

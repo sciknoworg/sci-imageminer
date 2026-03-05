@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_5",
+    "classification": {
+        "a": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The chart shows the etch rate of various materials (Al2O3, HfO2, AlNx, TiN, SiO2) against the activation step duration. The etch rate increases with time for all materials."
+    },
+    "data_extraction": {
+        "a": "| activation step duration, s |  Al2O3 | HfO2 | AlNx | TiN | SiO2 |\n|---|---|---|---|---|---|\n| 0 | -0.55 | -0.5 | -0.5 | -0.5 | -0.5 |\n| 5 | 0.02 | 0.03 | 0.03 | -0.03 | 0.4 |\n| 10 | 0.16 | 0.08 | 0.15 | -0.01 | 0.55 |\n| 20 | 0.25 | 0.1 | 0.25 | 0.03 | 0.7 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What happens at zero activation step duration, and how does the etch rate behavior change as activation step duration increases?",
+                "answer_type": "Paragraph",
+                "answer": "At zero activation, polymer deposits at -0.5 nm/cycle on all surfaces. Increasing activation duration causes etch rates to shift from negative to positive as ions first remove polymer then activate material etching. The gradual increase in etch rate with activation time reflects the sequential sputtering and surface reaction activation processes."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What is the film deposition rate per cycle when no activation step is applied?",
+                "answer_type": "Factoid",
+                "answer": "Around 0.5 nm/cycle (i.e. negative etch rate of -0.5 nm/cycle)"
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What is the etch rate of Al2O3 at 10 seconds activation step duration?",
+                "answer_type": "Factoid",
+                "answer": "It is 0.16 nm/cycle"
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does material etching occur immediately when the activation step begins? Motivate your answer.",
+                "answer_type": "Factoid",
+                "answer": "No. The reason is that the deposited polymer film must first be sputtered away before material etching can begin."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

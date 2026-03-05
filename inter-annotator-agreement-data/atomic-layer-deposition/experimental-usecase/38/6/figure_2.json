@@ -1,0 +1,93 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_2",
+    "classification": {
+        "a": "multiple line chart",
+        "b": "multiple line chart",
+        "c": "multiple line chart",
+        "d": "multiple line chart",
+        "e": "multiple line chart",
+        "f": "multiple line chart"
+    },
+    "summarization": {
+        "a": "The figure shows the elemental depth profile of the sample labelled as MnO\u2082.",
+        "b": "The figure shows the elemental depth profile of the sample labelled as 10cLi-MnO\u2082.",
+        "c": "The figure shows the elemental depth profile of the sample labelled as 50cLi-MnO\u2082.",
+        "d": "The figure shows the elemental depth profile of the sample labelled as 100cLi-MnO\u2082.",
+        "e": "The figure shows the elemental depth profile of the sample labelled as 200cLi-MnO\u2082.",
+        "f": "The figure shows the elemental depth profile of the sample labelled as 300cLi-MnO\u2082."
+    },
+    "data_extraction": {
+        "a": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 500 | 60 | 40 | 0 | 0 |\n| 1000 | 60 | 40 | 0 | 0 |\n| 1500 | 30 | 20 | 50 | 0 |\n| 2000 | 3 | 2 | 95 | 0 |\n| 2500 | 1 | 1 | 98 | 0 |",
+        "b": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 500 | 60 | 39 | 0 | 1 |\n| 1000 | 60 | 39 | 0 | 1 |\n| 1500 | 3 | 2 | 94 | 1 |\n| 2000 | 1 | 1 | 97 | 1 |\n| 2500 | 1 | 1 | 97 | 1 |",
+        "c": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 500 | 60 | 39 | 0 | 1 |\n| 1000 | 60 | 39 | 0 | 1 |\n| 1500 | 3 | 2 | 94 | 1 |\n| 2000 | 1 | 1 | 97 | 1 |\n| 2500 | 1 | 1 | 97 | 1 |",
+        "d": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 500 | 57 | 38 | 0 | 5 |\n| 1000 | 60 | 39 | 0 | 1 |\n| 1500 | 3 | 2 | 94 | 1 |\n| 2000 | 1 | 1 | 97 | 1 |\n| 2500 | 1 | 1 | 97 | 1 |",
+        "e": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 500 | 55 | 35 | 0 | 10 |\n| 1000 | 60 | 30 | 0 | 10 |\n| 1500 | 60 | 30 | 0 | 10 |\n| 2000 | 1 | 1 | 97 | 1 |\n| 2500 | 1 | 1 | 97 | 1 |",
+        "f": "| Depth (x10^15 at/cm\u00b2) | O | Mn | Si | Li |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 500 | 55 | 30 | 0 | 15 |\n| 1000 | 55 | 35 | 0 | 10 |\n| 1500 | 40 | 18 | 40 | 2 |\n| 2000 | 1 | 1 | 97 | 1 |\n| 2500 | 1 | 1 | 97 | 1 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What Mn/O stoichiometry was measured for the as-deposited MnO2 film?",
+                "answer_type": "Factoid",
+                "answer": "33:66."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "At what number of LiOtBu-H2O ALD cycles was stoichiometric LiMn2O4 obtained?",
+                "answer_type": "Factoid",
+                "answer": "300 cycles."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What were the lithium concentrations in the lithiated surface region for the 10cLi-MnO2, 50cLi-MnO2 and 100cLi-MnO2 samples?",
+                "answer_type": "Factoid",
+                "answer": "0.6, 3.2 and 9.6 at.% Li, respectively."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does lithium distribution evolve with increasing LiOtBu-H2O cycle number and what does this reveal about the lithiation process?",
+                "answer_type": "Paragraph",
+                "answer": "The depth profiles show that at low cycle numbers (10-100 cycles), lithium remains confined to the upper layers of the MnO2 film. This results in compositions of LixMn2O4 with x < 0.5, where the lithium concentrations in the surface region are 0.6-9.6 at.%, depending on cycle count. At higher cycle numbers, specifically 200 and 300 cycles, lithium penetrates through the entire film, indicating complete lithiation."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "f": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

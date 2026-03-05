@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_3",
+    "classification": {
+        "a": "stacked spectra chart",
+        "b": "stacked spectra chart"
+    },
+    "summarization": {
+        "a": "The 2\u03b8\u03c7 XRD patterns compare MnO\u2082 with 10Li\u2013MnO\u2082 and 50Li\u2013MnO\u2082. Pristine MnO\u2082 shows several \u03b2-MnO\u2082 reflections across the scan range. After lithiation, new peaks appear at ~18\u00b0, ~37\u00b0, and ~66\u00b0, which are assigned to Li\u2081\u208b\u2093Mn\u2082O\u2084. At higher Li content, these spinel-related peaks become stronger while \u03b2-MnO\u2082 peaks weaken, showing partial but incomplete phase conversion.",
+        "b": "The \u03b8\u20132\u03b8 scans emphasize out-of-plane reflections for the same samples. MnO\u2082 retains strong \u03b2-MnO\u2082 (100) and (200) peaks, whereas 50Li\u2013MnO\u2082 shows clear lithiated-phase peaks near ~18\u00b0 and ~35\u00b0, along with Li\u2081\u208b\u2093Mn\u2082O\u2084 (400) at ~44.5\u00b0. A weak impurity peak, marked by an asterisk near ~33\u00b0, appears in 10Li\u2013MnO\u2082. Overall, the data confirm coexistence of \u03b2-MnO\u2082 and lithiated spinel phases after Li insertion."
+    },
+    "data_extraction": {
+        "a": "| Sample (trace) | Peak assignment (as labeled) | 2\u03b8 (\u00b0) |\n|---|---|---|\n| MnO\u2082 | \u03b2-MnO\u2082 (011) | ~37 |\n| MnO\u2082 | \u03b2-MnO\u2082 (020) | ~40 |\n| MnO\u2082 | \u03b2-MnO\u2082 (002) | ~65 |\n| MnO\u2082 | \u03b2-MnO\u2082 (031) | ~72 |\n| MnO\u2082 | \u03b2-MnO\u2082 (022) | ~79 |\n| 10cLi\u2013MnO\u2082 | Li\u2081\u208b\u2093Mn\u2082O\u2084 (131) | ~37 |\n| 10cLi\u2013MnO\u2082 | Li\u2081\u208b\u2093Mn\u2082O\u2084 (440) | ~66 |\n| 50cLi\u2013MnO\u2082 | Li\u2081\u208b\u2093Mn\u2082O\u2084 (111) | ~18 |\n| 50cLi\u2013MnO\u2082 | Li\u2081\u208b\u2093Mn\u2082O\u2084 (131) | ~37 |\n| 50cLi\u2013MnO\u2082 | Li\u2081\u208b\u2093Mn\u2082O\u2084 (440) | ~66 |",
+        "b": "| Sample (trace) | Peak assignment (as labeled) | 2\u03b8 (\u00b0) |\n|---|---|---|\n| MnO\u2082 | \u03b2-MnO\u2082 (100) | ~22 |\n| MnO\u2082 | \u03b2-MnO\u2082 (200) | ~41 |\n| 10cLi\u2013MnO\u2082 | \u03b2-MnO\u2082 (100) | ~22 |\n| 10cLi\u2013MnO\u2082 | \u03b2-MnO\u2082 (200) | ~41 |\n| 10cLi\u2013MnO\u2082 | * Li\u2082\u208b\u2093MnO\u2082 impurity | ~33 |\n| 50cLi\u2013MnO\u2082 | Lithiated phase (left) | ~18 |\n| 50cLi\u2013MnO\u2082 | Lithiated phase (right) | ~35 |\n| 50cLi\u2013MnO\u2082 | Li\u2081\u208b\u2093Mn\u2082O\u2084 (400) | ~44.5 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Why are the diffractograms vertically shifted?",
+                "answer_type": "Factoid",
+                "answer": "To improve visual separation between multiple stacked traces."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What does the coexistence of Li\u2081\u208b\u2093Mn\u2082O\u2084 and \u03b2-MnO\u2082 peaks imply about the lithiation mechanism?",
+                "answer_type": "Paragraph",
+                "answer": "The simultaneous presence of both phases indicates an incomplete or heterogeneous transformation, where lithiation proceeds through regions of the material rather than uniformly converting the entire structure. This suggests diffusion-limited or kinetically controlled lithiation, resulting in mixed structural domains with different local properties."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does lithiation affect out-of-plane diffraction features?",
+                "answer_type": "Paragraph",
+                "answer": "Lithiation introduces new out-of-plane reflections associated with lithiated phases while reducing the dominance of \u03b2-MnO\u2082 peaks. This indicates that lithium insertion modifies the crystallographic orientation and phase composition detectable in \u03b8\u20132\u03b8 geometry."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is phase coexistence relevant for material performance?",
+                "answer_type": "Paragraph",
+                "answer": "-Influences ionic and electronic transport\n-Can cause non-uniform electrochemical behavior\n-Affects cycling stability\n-Reflects incomplete or heterogeneous lithiation"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/12/fig_5",
+    "classification": {
+        "a": "image panel",
+        "b": "image panel"
+    },
+    "summarization": {
+        "a": "Cross-sectional TEM shows a high-aspect-ratio Si trench conformally coated with ~22.3 nm Al\u2082O\u2083 by plasma ALD. Thickness varies by less than \u00b10.85 nm from top to bottom, indicating near-ideal step coverage before etching.",
+        "b": "After 40 SF\u2086 plasma/TMA thermal ALE cycles, ~10.6 nm of Al\u2082O\u2083 is removed uniformly across all trench regions. The corresponding etch rate is ~2.66 \u00c5/cycle, with no measurable aspect-ratio-dependent etching or profile distortion."
+    },
+    "data_extraction": {
+        "a": "",
+        "b": ""
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "What property of the deposited Al\u2082O\u2083 film indicates high conformality before etching?",
+                "answer_type": "Factoid",
+                "answer": "Thickness variation is less than \u00b10.85 nm from top to bottom of the trench."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How uniformly is Al\u2082O\u2083 removed across the high-aspect-ratio trench after 40 thermal ALE cycles?",
+                "answer_type": "Paragraph",
+                "answer": "Al\u2082O\u2083 is removed with exceptional uniformity across the entire trench. The etched thickness ranges from ~10.4 to ~11.4 nm between the top, sidewalls, and bottom. This corresponds to a variation of less than \u00b15 %, demonstrating that both ALE half-reactions fully saturate all surfaces independent of aspect ratio."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does the etch per cycle measured in the trench compare with typical EPC values on blanket films?",
+                "answer_type": "Factoid",
+                "answer": "~2.66 \u00c5/cycle in the trench versus ~3.1 \u00c5/cycle on blanket films."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Does this ALE process maintain atomic-layer precision in complex 3D structures?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

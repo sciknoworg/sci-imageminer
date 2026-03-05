@@ -1,0 +1,59 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/16/fig_3",
+    "classification": {
+        "a": "spectra chart",
+        "b": "spectra chart"
+    },
+    "summarization": {
+        "a": "A spectra chart displaying F(1s) intensity against binding energy with two labeled curves representing different concentrations of CF4.",
+        "b": "A spectra chart displaying C(1s) intensity against binding energy with multiple labeled peaks indicating different chemical bonds."
+    },
+    "data_extraction": {
+        "a": "| Binding Energy (eV) | v_CF4 = 3.3% | v_CF4 = 6.6% |\n|---|---|---|\n| 698 | ~300 | ~300 |\n| 696 | ~300 | ~300 |\n| 694 | ~300 | ~300 |\n| 692 | ~400 | ~400 |\n| 691 | ~1000 | ~1500 |\n| 690.5 | ~2000 | ~3500 |\n| 690 | ~3700 | ~6500 |\n| 689.5 | ~3000 | ~5500 |\n| 689 | ~2000 | ~3500 |\n| 688.5 | ~1000 | ~1500 |\n| 688 | ~600 | ~800 |\n| 687 | ~400 | ~500 |\n| 686 | ~350 | ~400 |\n| 685 | ~300 | ~350 |\n| 684 | ~250 | ~300 |\n| 683 | ~200 | ~250 |\n| 682 | ~200 | ~200 |",
+        "b": "| Binding Energy (eV) | v_CF4 = 3.3% | v_CF4 = 6.6% |\n|---|---|---|\n| 298 | ~200 | ~100 |\n| 296 | ~200 | ~100 |\n| 295 | ~300 | ~200 |\n| 294 | ~600 | ~400 |\n| 293 | ~400 | ~500 |\n| 292 | ~250 | ~500 |\n| 291 | ~200 | ~400 |\n| 290 | ~200 | ~500 |\n| 289 | ~250 | ~450 |\n| 288 | ~400 | ~600 |\n| 287 | ~500 | ~600 |\n| 286 | ~700 | ~500 |\n| 285 | ~1000 | ~400 |\n| 284 | ~1500 | ~900 |\n| 283 | ~900 | ~1500 |\n| 282 | ~200 | ~100 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Where does the peak maximum occur for F(1s) spectra for both conditions?",
+                "answer_type": "Factoid",
+                "answer": "The peak maximum occurs between 689.5 -690.5 eV for both conditions."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Does the concentration of CF4 influence the F(1s) peaks?",
+                "answer_type": "Paragraph",
+                "answer": "Yes, the films with more CF4 concentration (6.6%) show a higher peak intensity of 6500 counts than the one with lower CF4 concentration of 3.3% showing 4000 counts."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "What can be said about the C(1s) profile with changing CF4 concentrations?",
+                "answer_type": "Paragraph",
+                "answer": "The film deposited in higher CF4 fraction plasma 6.6% shows more pronounced C-Fx peaks corresponding to higher concentration of C-bonded fluorine in film; i.e., more CF, CF2, CF3 compared to films with 3.3% CF4 concentration."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Is C-CF6 the dominant peak in C(1s) XPS profile for all cases?",
+                "answer_type": "Yes/No",
+                "answer": "No"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

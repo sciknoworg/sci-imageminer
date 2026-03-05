@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_1",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The figure shows mass change versus time during Al\u2082O\u2083 atomic layer etching at 300 \u00b0C. The mass decreases almost linearly from about 0 to \u22121500 ng/cm\u00b2 over ~6000 s. This indicates steady net material removal during repeated TMA and HF exposures. The annotated TMA (2\u201330) and HF (1\u201330) timings correspond to the cyclic ALE sequence used."
+    },
+    "data_extraction": {
+        "a": "| Time (s) | Mass change (ng/cm\u00b2) |\n|----------|----------------------|\n| 0        |         0            |\n| 2000     |      -500            |\n| 4000     |     -1000            |\n| 6000     |     -1500            |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "What experimental sequence is implied by the \u201cTMA 2\u201330 \u2013 HF 1\u201330\u201d annotation, and how does it relate to the mass-change curve?",
+                "answer_type": "Paragraph",
+                "answer": "The annotation indicates alternating exposures of TMA and HF, each followed by purge steps, repeated continuously during the measurement. In ALE, one half-reaction modifies the surface while the other removes material in a controlled way. The nearly constant negative slope in the curve shows that each cycle produces a similar net mass loss, resulting in steady cumulative etching over time."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Which visible features of the curve support the conclusion of steady etching behavior?",
+                "answer_type": "Paragraph",
+                "answer": "-The mass decreases monotonically with time.\n-The slope is approximately constant over most of the plot.\n-Mass loss scales proportionally with elapsed time.\n-No long plateaus or reversals are observed."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What material and temperature are explicitly indicated in the figure?",
+                "answer_type": "Factoid",
+                "answer": "Al2O3 at 300\u00b0C."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "What does a nearly linear mass-loss curve imply about ALE process performance over this time window?",
+                "answer_type": "Paragraph",
+                "answer": "A near-linear mass-loss curve implies that the ALE process is highly repeatable from cycle to cycle. Each exposure sequence removes approximately the same amount of material. This behavior indicates good controllability, allowing total removal to be estimated directly from time or cycle count."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

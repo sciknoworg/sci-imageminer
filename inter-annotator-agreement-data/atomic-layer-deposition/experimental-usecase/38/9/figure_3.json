@@ -1,0 +1,63 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/38/figure_3",
+    "classification": {
+        "a": "multi spectra chart",
+        "b": "multi spectra chart"
+    },
+    "summarization": {
+        "a": "XRD diffractogram of MnO\u2082\u221250cLi\u2212MnO\u2082 measured in in-plane 2\u03b8\u03c7 geometry, showing reflections from spinel Li\u2081\u208b\u2093Mn\u2082O\u2084 and pyrolusite \u03b2-MnO\u2082 phases, with an additional Li\u2082\u208b\ud835\udc67MnO\u2082 impurity phase marked by an asterisk. The inset indicates the measurement geometry, and the data are shifted and background-subtracted for clarity, highlighting phase composition and structural changes upon lithiation.",
+        "b": "XRD diffractogram of MnO\u2082\u221250cLi\u2212MnO\u2082 measured in out-of-plane \u03b8\u22122\u03b8 geometry, showing reflections from spinel Li\u2081\u208b\u2093Mn\u2082O\u2084 and pyrolusite \u03b2-MnO\u2082 phases, with an additional Li\u2082\u208b\ud835\udc67MnO\u2082 impurity phase marked by an asterisk. The inset indicates the measurement geometry, and the data are shifted and background-subtracted for clarity, highlighting phase composition and structural changes upon lithiation."
+    },
+    "data_extraction": {
+        "a": "|Peak|2\u03b8\u03c7 (\u00b0)|Phase|\n|----|-------|-----|\n|Li1\u2212xMn2O4 (111)|17.7|Spinel Li1\u2212xMn2O4|\n|Li1\u2212xMn2O4 (311)|35.9|Spinel Li1\u2212xMn2O4|\n|Li1\u2212xMn2O4 (400)|44.4|Spinel Li1\u2212xMn2O4|\n|\u03b2-MnO2 (011)|28.8|Pyrolusite \u03b2-MnO2|\n|\u03b2-MnO2 (020)|37.5|Pyrolusite \u03b2-MnO2|\n|Li2\u2212zMnO2 (100)|32.6|Impurity phase|\n|Li2\u2212zMnO2 (012)|47.4|Impurity phase|",
+        "b": "|Peak|\u03b8\u22122\u03b8 (\u00b0)|Phase|\n|----|--------|-----|\n|Li1\u2212xMn2O4 (111)|17.7|Spinel Li1\u2212xMn2O4|\n|Li1\u2212xMn2O4 (311)|35.9|Spinel Li1\u2212xMn2O4|\n|Li1\u2212xMn2O4 (400)|44.4|Spinel Li1\u2212xMn2O4|\n|\u03b2-MnO2 (100)|20.3|Pyrolusite \u03b2-MnO2|\n|\u03b2-MnO2 (200)|41.3|Pyrolusite \u03b2-MnO2|\n|Si substrate|33.0|Si|\n|Li2\u2212zMnO2 (100)|32.6|Impurity phase|\n|Li2\u2212zMnO2 (012)|47.6|Impurity phase|"
+    },
+    "vqa": {
+        "d": [
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is detecting the Li\u2082\u208b\ud835\udc67MnO\u2082 impurity phase important for interpreting the lithiation process?",
+                "answer_type": "Factoid",
+                "answer": "The Li\u2082\u208b\ud835\udc67MnO\u2082 impurity phase indicates lithium-rich regions formed during intercalation, which can affect the uniformity, phase composition, and electrochemical performance of the final Li\u2081\u208b\u2093Mn\u2082O\u2084 material."
+            }
+        ],
+        "c": [
+            {
+                "question_type": "Structure-Property",
+                "question": "Which phases and reflections are observed in the MnO\u2082\u221250cLi\u2212MnO\u2082 XRD diffractograms?",
+                "answer_type": "List",
+                "answer": "Spinel Li\u2081\u208b\u2093Mn\u2082O\u2084 reflections (e.g., 111, 311, 400), Pyrolusite \u03b2-MnO\u2082 reflections (e.g., 011, 020, 100, 200), Impurity Li\u2082\u208b\ud835\udc67MnO\u2082 reflections (e.g., 100, 012), Si substrate reflection at 33.0\u00b0 in \u03b8\u22122\u03b8"
+            }
+        ],
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "How were the XRD measurements conducted for MnO\u2082\u221250cLi\u2212MnO\u2082 samples, and why were two geometries used?",
+                "answer_type": "Paragraph",
+                "answer": "The XRD measurements were conducted in two geometries: in-plane 2\u03b8\u03c7 and out-of-plane \u03b8\u22122\u03b8. This dual approach allows identification of reflections in different crystallographic orientations, providing a more complete picture of the crystal structure and phase composition. Backgrounds were subtracted, and graphs were shifted to clearly visualize overlapping peaks."
+            }
+        ],
+        "b": [
+            {
+                "question_type": "Comparative/Trend",
+                "question": "Do the XRD patterns show any new phases after lithium intercalation compared to pristine MnO\u2082?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

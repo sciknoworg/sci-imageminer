@@ -1,0 +1,48 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/24/figure_1",
+    "classification": {
+        "a": "line chart"
+    },
+    "summarization": {
+        "a": "The chart shows a linear decrease in mass change over time at 300\u00b0C for Al\u2082O\u2083, with the TMA (2s) and HF (1s) time steps indicated in the same figure."
+    },
+    "data_extraction": {
+        "a": "|  Time (s)  |  Mass Change (ng/cm\u00b2) |\n|---|---|\n| 0 | 0 |\n| 2000 | -400 |\n| 4000 | -1000 |\n| 6000 | -1400 |"
+    },
+    "vqa": {
+        "a": [
+            {
+                "question_type": "Process-Oriented",
+                "question": "Which process is shown in the figure?",
+                "answer_type": "Factoid",
+                "answer": "As the mass decreases over the time and negative values are displayed, the process corresponds to atomic layer etching."
+            },
+            {
+                "question_type": "Comparative/Trend",
+                "question": "How does mass change over the time?",
+                "answer_type": "Factoid",
+                "answer": "As the exposure time increases, the mass change decreases."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "How much N2 purge time is applied?",
+                "answer_type": "Factoid",
+                "answer": "30s of N2 after TMA dosing, and 30s after HF."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How is the relation between the mass change over the time?",
+                "answer_type": "Factoid",
+                "answer": "Mass change is inversely proportional at 300C. As, the time increases, mass change decreases."
+            }
+        ]
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}
