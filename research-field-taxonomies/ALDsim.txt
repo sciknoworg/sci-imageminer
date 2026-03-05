@@ -1,0 +1,20 @@
+Atomic Layer Deposition Simulation
+- Reaction Mechanisms and Kinetics
+-- Surface chemistry and reaction pathways
+-- Precursor interactions and decomposition
+-- Growth-per-cycle modeling
+- Process Modeling and Simulation
+-- Reactor-scale fluid dynamics
+-- Multiscale computational fluid dynamics
+-- Spatial and temporal process optimization
+- Materials and Precursor Design
+-- Precursor selection and reaction screening
+-- Inhibitors and area-selective deposition
+-- Novel material growth investigations
+- Atomistic and Electronic Structure Simulations
+-- Density functional theory studies
+-- Kinetic Monte Carlo simulations
+-- Molecular dynamics and coarse-grained modeling
+- Plasma-Enhanced Atomic Layer Deposition
+-- Plasma-surface interaction modeling
+-- Plasma functionalization and treatment effects

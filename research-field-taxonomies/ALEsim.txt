@@ -1,0 +1,21 @@
+Atomic Layer Etching Simulation
+- Molecular Dynamics Simulations
+-- Surface reactions and damage
+-- Ion and plasma interactions
+-- Machine learning potentials
+- Density Functional Theory Studies
+-- Reaction mechanisms
+-- Thermodynamic and kinetic analysis
+-- Surface adsorption and etching
+- Multiscale and Computational Fluid Dynamics Modeling
+-- Thermal and spatial ALE modeling
+-- Chamber and reactor design
+-- Process window prediction
+- Thermal Atomic Layer Etching
+-- Mechanisms and self-limiting reactions
+-- Material-specific ALE processes
+-- Experimental and theoretical reviews
+- Plasma and Ion-Assisted Atomic Layer Etching
+-- Plasma equipment and processes
+-- Isotropic and anisotropic etching
+-- Optical and spectroscopic diagnostics

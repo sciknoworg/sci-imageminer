@@ -1,0 +1,17 @@
+Atomic layer etching experimental
+- Plasma-based atomic layer etching
+-- Isotropic and directional plasma etching
+-- Plasma chemistries and reactants
+- Thermal atomic layer etching
+-- Self-limiting reaction mechanisms
+-- Ligand-exchange and conversion fluorination
+- Material-specific atomic layer etching
+-- III-V and wide-bandgap semiconductors
+-- High-k oxides and metal nitrides
+-- Transition metal dichalcogenides
+- Process control and characterization
+-- Surface reaction mechanisms
+-- Selectivity and damage assessment
+- Industry applications and scaling
+-- Semiconductor device fabrication
+-- High-aspect-ratio and 3D structures

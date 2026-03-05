@@ -1,0 +1,28 @@
+Atomic Layer Deposition Experimental
+- Thin Film Material Synthesis
+-- Metal and metal nitride films
+-- Metal oxide and complex oxide films
+-- Metal chalcogenide and pnictide films
+-- Doped and compound semiconductor films
+-- Nanolaminate and multilayer structures
+
+- Precursor Chemistry and Reaction Mechanisms
+-- Precursor development and evaluation
+-- Surface reaction kinetics and growth mechanisms
+-- In situ characterization and passivation
+
+- Plasma-Enhanced Atomic Layer Deposition
+-- Plasma-assisted process fundamentals
+-- Plasma-surface interactions and film properties
+-- Remote plasma and direct plasma techniques
+
+- Emerging Applications and Functional Films
+-- Electronic and optoelectronic devices
+-- Energy storage and conversion materials
+-- Diffusion barriers and surface passivation
+-- Magnetic and multiferroic materials
+
+- Process Engineering and Scale-Up
+-- Low-temperature and scalable ALD
+-- Wafer-scale and large-area deposition
+-- Equipment and in-line process monitoring
