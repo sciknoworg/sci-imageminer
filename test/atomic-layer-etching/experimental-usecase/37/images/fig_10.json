@@ -1,0 +1,35 @@
+{
+    "sample_id": "atomic-layer-etching/experimental-usecase/37/fig_10",
+    "classification": {
+        "a": "image panel",
+        "b": "image panel",
+        "c": "image panel",
+        "d": "image panel"
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

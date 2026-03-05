@@ -1,0 +1,28 @@
+{
+    "sample_id": "atomic-layer-deposition/simulation-usecase/17/figure_3",
+    "classification": {
+        "a": "process flow diagram",
+        "b": "process flow diagram",
+        "c": "process flow diagram"
+    },
+    "bbox": {
+        "c": {
+            "x": 7,
+            "y": 1005,
+            "width": 1298,
+            "height": 353
+        },
+        "b": {
+            "x": 5,
+            "y": 656,
+            "width": 1306,
+            "height": 301
+        },
+        "a": {
+            "x": 0,
+            "y": 37,
+            "width": 1295,
+            "height": 598
+        }
+    }
+}

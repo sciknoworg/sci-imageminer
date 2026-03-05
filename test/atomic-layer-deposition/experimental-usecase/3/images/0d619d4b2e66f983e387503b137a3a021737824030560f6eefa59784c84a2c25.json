@@ -1,0 +1,14 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/3/0d619d4b2e66f983e387503b137a3a021737824030560f6eefa59784c84a2c25",
+    "classification": {
+        "a": "image panel"
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

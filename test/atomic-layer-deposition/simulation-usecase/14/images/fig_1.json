@@ -1,0 +1,21 @@
+{
+    "sample_id": "atomic-layer-deposition/simulation-usecase/14/fig_1",
+    "classification": {
+        "a": "unknown",
+        "b": "unknown"
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

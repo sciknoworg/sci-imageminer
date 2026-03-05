@@ -1,0 +1,49 @@
+{
+    "sample_id": "atomic-layer-deposition/simulation-usecase/34/figure_12",
+    "classification": {
+        "a": "band diagram",
+        "b": "band diagram",
+        "c": "band diagram",
+        "d": "band diagram",
+        "e": "band diagram",
+        "f": "band diagram"
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "f": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

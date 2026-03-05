@@ -1,0 +1,21 @@
+{
+    "sample_id": "atomic-layer-deposition/experimental-usecase/51/fig_9",
+    "classification": {
+        "a": "band diagram",
+        "b": "band diagram"
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}

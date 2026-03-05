@@ -1,0 +1,42 @@
+{
+    "sample_id": "atomic-layer-deposition/simulation-usecase/16/figure_3",
+    "classification": {
+        "a": "reaction scheme",
+        "b": "reaction scheme",
+        "c": "reaction scheme",
+        "d": "reaction scheme",
+        "e": "reaction scheme"
+    },
+    "bbox": {
+        "a": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "b": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "c": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "d": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        },
+        "e": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}
