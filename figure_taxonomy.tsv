@@ -1,0 +1,50 @@
+figure type	short description	parent taxonomy	synonyms/aliases
+area chart	Filled area under a line to show cumulative values or trends	quantitative-plot	area graph
+bar chart	Rectangular bars to compare quantities across categories	quantitative-plot	column chart
+3d bar chart	Bar chart displayed in three dimensions	quantitative-plot	
+grouped bar chart	Bars grouped by categories for side-by-side comparison	quantitative-plot	clustered bar chart
+stacked bar chart	Bars stacked to show part-to-whole relationships	quantitative-plot	
+box plot	Statistical distribution showing median, quartiles, and outliers	quantitative-plot	whisker plot
+bubble chart	Scatter plot with variable marker size representing a third dimension	quantitative-plot	
+donut chart	Pie chart with a central hole to show proportions	quantitative-plot	doughnut chart
+funnel chart	Progressive reduction across stages of a process	quantitative-plot	
+heatmap	Matrix of values represented with colors	quantitative-plot	heat map
+line chart	Continuous line showing trends over intervals	quantitative-plot	line graph
+multiple line chart	Several lines showing multiple series of trends	quantitative-plot	multi-line graph
+multi-axis chart	Plot with multiple axes to compare different scales	quantitative-plot	dual-axis chart
+pie chart	Circular chart divided into slices to show proportions	quantitative-plot	
+polar chart (rose chart)	Circular chart plotting values by angle	quantitative-plot	circular bar chart
+radar chart (spider chart)	Multivariate data represented in a radial layout	quantitative-plot	web chart
+3d scatter plot	Scatter plot displayed in three dimensions	quantitative-plot	
+scatter plot	Points plotted on two axes to show correlations	quantitative-plot	xy plot
+multiple scatter plot	Points plotted on two axes to show correlations allows and to visualize different data sets/series/groups on the same chart.	quantitative-plot	xy plot
+treemap	Nested rectangles sized by values to show hierarchy	quantitative-plot	
+spectra chart	Specialized line chart used in scientific spectroscopy/diffraction contexts (NMR, IR, Raman, UV-vis, MS, XRD)	quantitative-plot (domain-specific)	spectral plot
+stacked spectra chart	Specialized stacked multiple-line chart used in scientific spectroscopy/diffraction contexts (NMR, IR, Raman, UV-vis, MS, XRD). Used to visualize multiple spectra in a single plot, allowing for easy comparison of peak shifts, changes in peak splittings, and signal intensities.	quantitative-plot (domain-specific)	stacked spectrum plot
+multi spectra chart	Specialized multiple-line chart used in scientific spectroscopy/diffraction contexts (NMR, IR, Raman, UV-vis, MS, XRD). Used to visualize multiple spectra in a single plot, allowing for easy comparison of peak shifts, changes in peak splittings, and signal intensities.	quantitative-plot (domain-specific)	multiple spectrum plot
+phase diagram	Specialized chart showing equilibrium phase boundaries in temperature–pressure–composition space	quantitative-plot (domain-specific)	phase map
+band diagram	Specialized chart plotting electronic energy levels vs. momentum (k) or position, showing band gaps and Fermi levels	quantitative-plot (domain-specific)	electronic structure plot
+adsorption isotherm	Specialized line/scatter plot showing gas uptake vs. pressure (or relative pressure), used to derive Henry constants and capacity values	quantitative-plot (domain-specific)	isotherm plot
+process timing diagram	Time-axis plot showing one or more process variables (e.g., gas flows, pressure, power, valve states) as step-like or pulsed functions over a cycle or sequence of steps.	quantitative-plot (domain-specific)	pulse/purge schematic; half-cycle diagram; time-resolved cycle schematic
+contour heatmap	Profile mapping of pressure/temperature or any relevant parameter of study	quantitative-plot (domain-specific)	2d countour map
+image panel	Collection of microscopy or spectroscopy images	domain-specific	multi-image panel
+map/geo chart	Geographic or spatial distribution visualization	domain-specific	geographical map
+competing reaction rate curve	Uses abstract curves, labels, and shaded regions to visually explain the scientific concept alone in this ALE/ALD process. 	scientific-schematic	kinetic regime diagram; temperature window diagram; temperature depend reaction rate diagram
+molecular structure diagram	Chemical structure drawings of molecules or precursors	scientific-schematic	chemical structure diagram
+reaction scheme	Arrows and molecules showing chemical reactions	scientific-schematic	reaction pathway
+reaction energy profile diagram	Pathways showing relative energies of reactant complexes	Reaction coordinate diagram
+process flow diagram	Schematic showing sequential or cyclic steps in a scientific or technical process	scientific-schematic	flowchart; cycle diagram
+apparatus diagram	Diagram of experimental or laboratory setups	scientific-schematic	instrument setup diagram
+conceptual diagram	Illustration of theoretical models or mechanisms	scientific-schematic	theoretical model diagram
+device structure	Illustration of theoretical models or mechanisms	scientific-schematic	theoretical model diagram
+chromaticity diagram	A chromaticity diagram represents the chromaticity of colors, which is defined by two parameters: hue and saturation (or colorfulness). It allows for the visualization of color relationships and is essential in color science for understanding how colors interact and can be reproduced.	scientific-schematic	
+periodic table map	Property overlay aligned to the full periodic table layout (rows, groups, blocks), typically showing trends across all or most elements	matrix-layout	element coverage map; periodic property chart
+element–property matrix	Matrix-style visualization linking a subset of elements (e.g. lanthanides) with categorical or binary properties (e.g. precursor availability)	matrix-layout	element coverage matrix; element coverage grid
+network diagram	Nodes and edges showing relationships or interactions	matrix-layout	graph diagram
+tree diagram	Hierarchical branching structure (taxonomy, phylogeny, decision)	matrix-layout	hierarchical diagram
+workflow diagram	Diagram showing pipeline or methodological steps	other	pipeline diagram
+timeline chart	Chronological sequence of events or steps	other	chronology chart
+comparison table	Structured tabular comparison of properties or studies	other	comparative table
+formula	Mathematical or chemical expression typeset as formula	other	equation
+table	General tabular data representation	other	data table
+unknown	Unclassified or unclear figure type	other	
