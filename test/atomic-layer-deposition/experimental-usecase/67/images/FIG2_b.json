@@ -1,7 +1,7 @@
 {
     "sample_id": "atomic-layer-deposition/experimental-usecase/67/FIG2_b",
     "classification": {
-        "b": "stacked scatter plot"
+        "b": "multi spectra chart"
     },
     "summarization": {
         "b": "This figure presents Raman spectra of a material subjected to increasing durations of plasma exposure at a pressure of 850\u202fmTorr. The x-axis shows the Raman shift (cm\u207b\u00b9), while the y-axis shows normalised intensity. Characteristic vibrational modes such as B\u2082g and Ag are labeled, with several peaks attributable to Al\u2082O\u2083. As exposure time increases (from 5\u202fs to 80\u202fs), the peak intensities for key vibrational modes gradually increase, particularly for Ag modes, indicating structural evolution or surface changes in the sample. The B\u2082g peak near 200\u202fcm\u207b\u00b9 remains dominant, but secondary peaks become more prominent with longer exposure times, suggesting increasing crystallinity or improved signal collection as surface chemistry changes."

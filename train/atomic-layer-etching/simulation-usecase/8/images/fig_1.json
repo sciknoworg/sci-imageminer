@@ -1,8 +1,8 @@
 {
     "sample_id": "atomic-layer-etching/simulation-usecase/8/fig_1",
     "classification": {
-        "a": "device structure",
-        "b": "device structure"
+        "a": "device structure diagram",
+        "b": "device structure diagram"
     },
     "summarization": {
         "a": "A cross-sectional view of a multi-quantum well semiconductor structure, including etch damage due to ion etching.",

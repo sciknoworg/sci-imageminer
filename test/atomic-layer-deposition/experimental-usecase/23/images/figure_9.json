@@ -1,7 +1,7 @@
 {
     "sample_id": "atomic-layer-deposition/experimental-usecase/23/figure_9",
     "classification": {
-        "a": "multiple spectra chart"
+        "a": "multi spectra chart"
     },
     "summarization": {
         "a": "The chart displays XRD measurements from two 800 \u00c5 Ga2O3 films, with (a) as-deposited at 350 \u00b0C and (b) annealed at 900 \u00b0C for 20 minutes under Ar."

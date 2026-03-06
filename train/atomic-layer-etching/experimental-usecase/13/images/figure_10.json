@@ -1,12 +1,12 @@
 {
     "sample_id": "atomic-layer-etching/experimental-usecase/13/figure_10",
     "classification": {
-        "a": "multiple spectra chart",
-        "b": "multiple spectra chart",
-        "c": "multiple spectra chart",
-        "d": "multiple spectra chart",
-        "e": "multiple spectra chart",
-        "f": "multiple spectra chart"
+        "a": "multi spectra chart",
+        "b": "multi spectra chart",
+        "c": "multi spectra chart",
+        "d": "multi spectra chart",
+        "e": "multi spectra chart",
+        "f": "multi spectra chart"
     },
     "summarization": {
         "a": "The figure shows Al 2p core-level spectra with peaks labeled as Al-N and Al-O.",
@@ -91,5 +91,5 @@
             "width": 320,
             "height": 253
         }
-        }
+    }
 }
