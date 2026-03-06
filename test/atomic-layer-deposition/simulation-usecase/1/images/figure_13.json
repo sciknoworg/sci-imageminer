@@ -1,7 +1,7 @@
 {
     "sample_id": "atomic-layer-deposition/simulation-usecase/1/figure_13",
     "classification": {
-        "a": "molecular structure diagram",
+        "a": "reaction energy profile diagram",
         "b": "molecular structure diagram",
         "c": "molecular structure diagram",
         "d": "molecular structure diagram"
@@ -54,28 +54,28 @@
     },
     "bbox": {
         "a": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 2,
+            "y": 326,
+            "width": 1202,
+            "height": 980
         },
         "b": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 2,
+            "y": 15,
+            "width": 388,
+            "height": 315
         },
         "c": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 401,
+            "y": 17,
+            "width": 405,
+            "height": 307
         },
         "d": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 813,
+            "y": 15,
+            "width": 393,
+            "height": 315
         }
     }
 }

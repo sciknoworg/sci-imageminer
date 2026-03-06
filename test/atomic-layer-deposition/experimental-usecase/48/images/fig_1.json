@@ -54,28 +54,28 @@
     },
     "bbox": {
         "a": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 1,
+            "y": 4,
+            "width": 501,
+            "height": 362
         },
         "b": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 509,
+            "y": 5,
+            "width": 486,
+            "height": 362
         },
         "c": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 1,
+            "y": 368,
+            "width": 501,
+            "height": 345
         },
         "d": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 505,
+            "y": 366,
+            "width": 487,
+            "height": 345
         }
     }
 }

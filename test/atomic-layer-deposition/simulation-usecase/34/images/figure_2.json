@@ -49,22 +49,22 @@
     },
     "bbox": {
         "a": {
-            "x": 0,
+            "x": 2,
             "y": 0,
-            "width": 0,
-            "height": 0
+            "width": 660,
+            "height": 512
         },
         "b": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 2,
+            "y": 514,
+            "width": 662,
+            "height": 512
         },
         "c": {
             "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "y": 1026,
+            "width": 664,
+            "height": 503
         }
     }
 }

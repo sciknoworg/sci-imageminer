@@ -42,16 +42,16 @@
     },
     "bbox": {
         "a": {
-            "x": 0,
+            "x": 5,
             "y": 0,
-            "width": 0,
-            "height": 0
+            "width": 662,
+            "height": 528
         },
         "b": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 3,
+            "y": 527,
+            "width": 663,
+            "height": 521
         }
     }
 }

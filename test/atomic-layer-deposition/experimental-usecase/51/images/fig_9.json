@@ -7,15 +7,15 @@
     "bbox": {
         "a": {
             "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "y": 4,
+            "width": 655,
+            "height": 499
         },
         "b": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 2,
+            "y": 574,
+            "width": 650,
+            "height": 414
         }
     }
 }

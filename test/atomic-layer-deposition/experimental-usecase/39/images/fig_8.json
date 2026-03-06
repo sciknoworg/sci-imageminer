@@ -9,27 +9,27 @@
     "bbox": {
         "a": {
             "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "y": 4,
+            "width": 541,
+            "height": 366
         },
         "b": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 6,
+            "y": 386,
+            "width": 538,
+            "height": 415
         },
         "c": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 573,
+            "y": 22,
+            "width": 425,
+            "height": 321
         },
         "d": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 571,
+            "y": 416,
+            "width": 429,
+            "height": 321
         }
     }
 }

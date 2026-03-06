@@ -1,7 +1,7 @@
 {
     "sample_id": "atomic-layer-deposition/simulation-usecase/1/e6eb42b61a9a425fd89fcaed18cf0d52d43111bb10eeb9c946ace0365ef01ef9",
     "classification": {
-        "a": "line chart"
+        "a": "reaction energy profile diagram"
     },
     "summarization": {
         "a": "The figure shows the ZPE-corrected potential energy surface (PES) for the two consecutive hydroxylation reactions on the surface \u2212TiI2 intermediate. Each reaction is represented by its reactant complex (RC), transition state (TS), and product complex (PC), with the relative energies (in kcal/mol) indicated. The first and second hydroxylation reactions have nearly identical activation barriers (22.2 and 22.4 kcal/mol), and the overall 0 K reaction enthalpy for completing both exchanges is 2.6 kcal/mol."
@@ -47,8 +47,8 @@
         "a": {
             "x": 0,
             "y": 0,
-            "width": 0,
-            "height": 0
+            "width": 936,
+            "height": 783
         }
     }
 }

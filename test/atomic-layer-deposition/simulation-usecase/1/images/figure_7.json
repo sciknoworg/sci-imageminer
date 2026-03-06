@@ -1,7 +1,7 @@
 {
     "sample_id": "atomic-layer-deposition/simulation-usecase/1/figure_7",
     "classification": {
-        "a": "line chart"
+        "a": "reaction energy profile diagram"
     },
     "summarization": {
         "a": "The figure presents a ZPE-corrected potential energy surface for three consecutive hydroxylation reactions occurring on a surface \u2212TiI\u2083 intermediate. For each hydroxylation step, the energies of the reactant complex (RC), transition state (TS), and product complex (PC) are shown along the reaction coordinate. Different colors distinguish the three sequential reactions, allowing comparison of activation barriers and reaction energetics across the hydroxylation sequence."
@@ -47,8 +47,8 @@
         "a": {
             "x": 0,
             "y": 0,
-            "width": 0,
-            "height": 0
+            "width": 956,
+            "height": 825
         }
     }
 }

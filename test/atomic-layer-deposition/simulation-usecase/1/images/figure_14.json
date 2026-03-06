@@ -3,7 +3,8 @@
     "classification": {
         "a": "molecular structure diagram",
         "b": "molecular structure diagram",
-        "c": "molecular structure diagram"
+        "c": "molecular structure diagram",
+        "d": "reaction energy profile diagram"
     },
     "summarization": {
         "a": "Reactant state for the iodine release reaction, showing two adjacent \u2212TiI\u2083 species on the surface.",
@@ -52,22 +53,28 @@
     },
     "bbox": {
         "a": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 426,
+            "y": 779,
+            "width": 445,
+            "height": 351
         },
         "b": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 280,
+            "y": 7,
+            "width": 441,
+            "height": 370
         },
         "c": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 903,
+            "y": 662,
+            "width": 374,
+            "height": 547
+        },
+        "d": {
+            "x": 6,
+            "y": 398,
+            "width": 1273,
+            "height": 953
         }
     }
 }

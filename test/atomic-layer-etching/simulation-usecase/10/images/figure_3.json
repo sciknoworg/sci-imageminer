@@ -1,14 +1,21 @@
 {
     "sample_id": "atomic-layer-etching/simulation-usecase/10/figure_3",
     "classification": {
-        "a": "unknown"
+        "a": "molecular structure diagram",
+        "b": "multi spectra chart"
     },
     "bbox": {
         "a": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 6,
+            "y": 5,
+            "width": 847,
+            "height": 341
+        },
+        "b": {
+            "x": 4,
+            "y": 354,
+            "width": 853,
+            "height": 654
         }
     }
 }

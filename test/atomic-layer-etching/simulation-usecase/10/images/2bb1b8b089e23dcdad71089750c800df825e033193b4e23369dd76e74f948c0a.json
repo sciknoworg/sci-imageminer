@@ -1,28 +1,14 @@
 {
     "sample_id": "atomic-layer-etching/simulation-usecase/10/2bb1b8b089e23dcdad71089750c800df825e033193b4e23369dd76e74f948c0a",
     "classification": {
-        "a": "molecular structure diagram",
-        "b": "reaction scheme",
-        "c": "molecular structure diagram"
+        "a": "reaction scheme"
     },
     "bbox": {
         "a": {
             "x": 0,
             "y": 0,
-            "width": 0,
-            "height": 0
-        },
-        "b": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
-        },
-        "c": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "width": 519,
+            "height": 203
         }
     }
 }

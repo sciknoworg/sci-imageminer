@@ -44,16 +44,16 @@
     },
     "bbox": {
         "a": {
-            "x": 0,
+            "x": 1,
             "y": 0,
-            "width": 0,
-            "height": 0
+            "width": 506,
+            "height": 377
         },
         "b": {
             "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "y": 378,
+            "width": 537,
+            "height": 381
         }
     }
 }

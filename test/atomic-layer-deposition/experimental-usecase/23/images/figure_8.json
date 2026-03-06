@@ -7,22 +7,22 @@
     },
     "bbox": {
         "a": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 11,
+            "y": 6,
+            "width": 406,
+            "height": 402
         },
         "b": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 431,
+            "y": 8,
+            "width": 406,
+            "height": 402
         },
         "c": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 853,
+            "y": 9,
+            "width": 405,
+            "height": 398
         }
     }
 }
