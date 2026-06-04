@@ -3,86 +3,80 @@
 ## System Prompt
 
 ```text
-You are a domain expert in Atomic Layer Deposition and Etching in Material Science. 
+You are an expert in Atomic Layer Deposition (ALD) and Atomic Layer Etching (ALE).
 
-Your task is to analyze the given scientific figure and extract the relevant information into a well-structured JSON format.
+Your task is to analyze the provided scientific figure and extract the relevant scientific information accurately and concisely. 
 
-Focus on identifying the requested key data fields and ensuring the output adheres to the requested JSON structure.
-
-Provide only the JSON output based on the extracted information. Avoid additional explanations or comments.
+Focus only on the information visible in the figure and present your response as plain text without any structured formatting, JSON, or additional commentary.
 ```
 
 ## User Prompt
 
 ```text
-Analyze the given scientific figure and based on your analysis, construct a JSON object with the following fields:
+Task:
 
+Analyze the provided scientific figure and identify its primary visualization type. Select exactly one label from the predefined list below. Base your decision primarily on the visual structure of the figure rather than its scientific content or caption. When a figure contains multiple elements, choose the visualization type that occupies the largest area or conveys the main message.
 
-1.  **`chart_type`**: (String)
+Figure Type Definitions:
 
-    *   Description: The primary type of the data visualization.
-    *   Guidance:
-		*   area chart: Filled area under a line to show cumulative values or trends.
-		*   bar chart: Rectangular bars to compare quantities across categories.
-		*   3d bar chart: Bar chart displayed in three dimensions.
-		*   grouped bar chart: Bars grouped by categories for side-by-side comparison.
-		*   stacked bar chart: Bars stacked to show part-to-whole relationships.
-		*   box plot: Statistical distribution showing median, quartiles, and outliers.
-		*   bubble chart: Scatter plot with variable marker size representing a third dimension.
-		*   donut chart: Pie chart with a central hole to show proportions.
-		*   
-		*   funnel chart: Progressive reduction across stages of a process.
-		*   heatmap: Matrix of values represented with colors.
-		*   line chart: Continuous line showing trends over intervals.
-		*   multiple line chart: Several lines showing multiple series of trends.
-		*   multi-axis chart: Plot with multiple axes to compare different scales.
-		*   pie chart: Circular chart divided into slices to show proportions.
-		*   polar chart (rose chart): Circular chart plotting values by angle.
-		*   radar chart (spider chart): Multivariate data represented in a radial layout.
-		*   3d scatter plot: Scatter plot displayed in three dimensions.
-		*   scatter plot: Points plotted on two axes to show correlations.
-		*   multiple scatter plot: Points plotted on two axes to show correlations allows and to visualize different data sets/series/groups on the same chart.
-		*   treemap: Nested rectangles sized by values to show hierarchy.
-		*   spectra chart: Specialized line chart used in scientific spectroscopy/diffraction contexts (NMR, IR, Raman, UV-vis, MS, XRD).
-		*   stacked spectra chart: Specialized stacked multiple-line chart used in scientific spectroscopy/diffraction contexts (NMR, IR, Raman, UV-vis, MS, XRD). Used to visualize multiple spectra in a single plot, allowing for easy comparison of peak shifts, changes in peak splittings, and signal intensities.
-		*   multi spectra chart: Specialized multiple-line chart used in scientific spectroscopy/diffraction contexts (NMR, IR, Raman, UV-vis, MS, XRD). Used to visualize multiple spectra in a single plot, allowing for easy comparison of peak shifts, changes in peak splittings, and signal intensities.
-		*   phase diagram: Specialized chart showing equilibrium phase boundaries in temperature–pressure–composition space.
-		*   band diagram: Specialized chart plotting electronic energy levels vs. momentum (k) or position, showing band gaps and Fermi levels.
-		*   adsorption isotherm: Specialized line/scatter plot showing gas uptake vs. pressure (or relative pressure), used to derive Henry constants and capacity values.
-		*   process timing diagram: Time-axis plot showing one or more process variables (e.g., gas flows, pressure, power, valve states) as step-like or pulsed functions over a cycle or sequence of steps.
-		*   contour heatmap: Profile mapping of pressure/temperature or any relevant parameter of study.
-		*   image panel: Collection of microscopy or spectroscopy images.
-		*   map/geo chart: Geographic or spatial distribution visualization.
-		*   competing reaction rate curve: Uses abstract curves, labels, and shaded regions to visually explain the scientific concept alone in this ALE/ALD process.
-		*   molecular structure diagram: Chemical structure drawings of molecules or precursors.
-		*   reaction scheme: Arrows and molecules showing chemical reactions.
-		*   reaction energy profile diagram: Pathways showing relative energies of reactant complexes.
-		*   process flow diagram: Schematic showing sequential or cyclic steps in a scientific or technical process.
-		*   apparatus diagram: Diagram of experimental or laboratory setups.
-		*   conceptual diagram: Illustration of theoretical models or mechanisms.
-		*   device structure: Illustration of theoretical models or mechanisms.
-		*   chromaticity diagram: A chromaticity diagram represents the chromaticity of colors, which is defined by two parameters: hue and saturation (or colorfulness). It allows for the visualization of color relationships and is essential in color science for understanding how colors interact and can be reproduced.
-		*   periodic table map: Property overlay aligned to the full periodic table layout (rows, groups, blocks), typically showing trends across all or most elements.
-		*   element–property matrix: Matrix-style visualization linking a subset of elements (e.g. lanthanides) with categorical or binary properties (e.g. precursor availability).
-		*   network diagram: Nodes and edges showing relationships or interactions.
-		*   tree diagram: Hierarchical branching structure (taxonomy, phylogeny, decision).
-		*   workflow diagram: Diagram showing pipeline or methodological steps.
-		*   timeline chart: Chronological sequence of events or steps.
-		*   comparison table: Structured tabular comparison of properties or studies.
-		*   formula: Mathematical or chemical expression typeset as formula.
-		*   table: General tabular data representation.
-		*   unknown: Unclassified or unclear figure type.
+- area chart: Filled area under a line representing cumulative values or trends.
+- bar chart: Rectangular bars comparing quantities across categories.
+- 3d bar chart: Bar chart rendered in three dimensions.
+- grouped bar chart: Multiple bars grouped for side-by-side comparison.
+- stacked bar chart: Bars stacked to represent part-to-whole relationships.
+- box plot: Statistical distribution showing quartiles, median, and outliers.
+- bubble chart: Scatter plot with marker size encoding an additional variable.
+- donut chart: Pie chart with a central hole.
+- funnel chart: Progressive reduction through sequential stages.
+- heatmap: Matrix of values represented by colors.
+- line chart: Single continuous line showing variation over an axis.
+- multiple line chart: Two or more lines representing multiple data series.
+- multi-axis chart: Plot containing multiple coordinate axes with different scales.
+- pie chart: Circular chart divided into proportional slices.
+- polar chart (rose chart): Circular plot where values are encoded radially as slices.
+- radar chart (spider chart): Multivariate radial visualization.
+- scatter plot: Points showing relationships between two variables.
+- 3d scatter plot: Scatter plot rendered in three dimensions.
+- multiple scatter plot: Multiple groups or series of scatter points shown together.
+- treemap: Nested rectangles representing hierarchical values.
+- spectra chart: Spectroscopic or diffraction plot (NMR, IR, Raman, UV-vis, MS, XRD).
+- stacked spectra chart: Multiple spectra vertically offset for comparison.
+- multi spectra chart: Multiple spectra overlaid in a common coordinate system.
+- phase diagram: Equilibrium phase boundaries in composition, temperature, or pressure space.
+- band diagram: Electronic energy bands versus position or momentum.
+- adsorption isotherm: Gas uptake versus pressure or relative pressure.
+- process timing diagram: Stepwise or pulsed process variables plotted against time.
+- contour heatmap: Continuous field represented by contour lines or color gradients.
+- image panel: Collection of microscopy, spectroscopy, or experimental images.
+- map/geo chart: Geographic or spatial distribution visualization.
+- competing reaction rate curve: Abstract conceptual curves illustrating competing reaction mechanisms.
+- molecular structure diagram: Chemical structures of molecules or precursors.
+- reaction scheme: Molecules connected by reaction arrows.
+- reaction energy profile diagram: Relative energy pathway of reactants, intermediates, and products.
+- process flow diagram: Sequential or cyclic process schematic.
+- apparatus diagram: Experimental setup or equipment illustration.
+- conceptual diagram: Theoretical model or mechanism illustration.
+- device structure: Layered or structural representation of a device architecture.
+- chromaticity diagram: Color-space representation of hue and saturation relationships.
+- periodic table map: Property visualization mapped onto the periodic table layout.
+- element–property matrix: Matrix linking selected elements with categorical or binary properties.
+- network diagram: Nodes connected by edges representing relationships.
+- tree diagram: Hierarchical branching structure.
+- workflow diagram: Pipeline or methodological sequence.
+- timeline chart: Chronological ordering of events or steps.
+- comparison table: Structured comparison across multiple entities.
+- table: General tabular representation of data.
+- formula: Standalone mathematical or chemical expression.
+- unknown: The figure cannot be confidently assigned to any category above.
 
-**Input:**
+Classification Guidelines:
 
-*   **Image**
+- Focus primarily on the visual appearance of the figure.
+- Use the caption only to resolve ambiguity.
+- If multiple visualization types are present, select the dominant one.
+- If no category can be determined reliably, return unknown.
 
+Output Format:
 
-**Output Requirements:** 
-
-*   The output MUST be a single, valid JSON object. Do not include any explanatory text before or after the JSON.
-
-*   If information for a field cannot be reliably determined from the image and caption, use `null` for string fields or an empty list `[]` for list fields.
-
-*   Prioritize information directly observable from the visual elements of the scientific figure.
+Return only the selected figure type label as plain text.
 ```

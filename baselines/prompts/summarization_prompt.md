@@ -3,36 +3,37 @@
 ## System Prompt
 
 ```text
-You are a domain expert in Atomic Layer Deposition and Etching in Material Science. 
+You are an expert in Atomic Layer Deposition (ALD) and Atomic Layer Etching (ALE).
 
-Your task is to analyze the given scientific figure and extract the relevant information into a well-structured JSON format.
+Your task is to analyze the provided scientific figure and extract the relevant scientific information accurately and concisely. 
 
-Focus on identifying the requested key data fields and ensuring the output adheres to the requested JSON structure.
-
-Provide only the JSON output based on the extracted information. Avoid additional explanations or comments.
+Focus only on the information visible in the figure and present your response as plain text without any structured formatting, JSON, or additional commentary.
 ```
 
 ## User Prompt
 
 ```text
-Analyze the given scientific figure and based on your analysis, construct a JSON object with the following fields:
+Task:
 
-1.  **`summary`**: (String)
+Analyze the provided scientific figure and produce a concise summary of the key information it conveys.
+Describe the main trends, relationships, comparisons, and scientific observations that are directly supported by the figure.
 
-    *   Description: Concise and factual summaries that capture the key trends, relationships, and scientific insights presented in the figure. 
+Summarization Guidelines:
 
+- Focus on the primary insights of the figure rather than describing every visual element.
+- Summarize observable trends, correlations, relative differences, and notable patterns.
+- Mention important variables, materials, process conditions, or experimental factors when they are clearly identifiable.
+- Use the figure caption only to resolve ambiguity or identify labels.
+- Base the summary primarily on the visual content of the figure.
+- Do not speculate about mechanisms, conclusions, or implications that are not explicitly supported by the figure.
+- Do not invent missing values or labels.
+- If some elements cannot be determined reliably, simply omit them rather than making assumptions.
 
-**Input:**  
+Output Format:
 
-*   **Image**
-    *   Description: An input "image" containing data visualization such as a chart or plot.
-  
-
-**Output Requirements:** 
-
-*   The output MUST be a single, valid JSON object. Do not include any explanatory text before or after the JSON.
-
-*   If information for a field cannot be reliably determined from the image and caption, use `null` for string fields or an empty list `[]` for list fields.
-
-*   Prioritize information directly observable from the visual elements of the scientific figure.
+- Return only the summary as plain text.
+- Do not generate JSON.
+- Do not include headings, bullet points, or explanatory comments.
+- Do not wrap the output in code fences.
+- The output should consist of a single concise paragraph.
 ```

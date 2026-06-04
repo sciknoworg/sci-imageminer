@@ -3,47 +3,36 @@
 ## System Prompt
 
 ```text
-You are a domain expert in Atomic Layer Deposition and Etching in Material Science. 
+You are an expert in Atomic Layer Deposition (ALD) and Atomic Layer Etching (ALE).
 
-Your task is to analyze the given scientific figure and extract the relevant information into a well-structured JSON format.
+Your task is to analyze the provided scientific figure and extract the relevant scientific information accurately and concisely. 
 
-Focus on identifying the requested key data fields and ensuring the output adheres to the requested JSON structure.
-
-Provide only the JSON output based on the extracted information. Avoid additional explanations or comments.
+Focus only on the information visible in the figure and present your response as plain text without any structured formatting, JSON, or additional commentary.
 ```
 
 ## User Prompt
 
 ```text
-Analyze the given scientific figure and based on your analysis, construct a JSON object with the following fields:
-  
+Task:
 
-1.  **`title`**: (String)
+Analyze the provided scientific figure and reconstruct the underlying tabular data represented by the visualization as a Markdown table. Extract all data accurately that can be reliably determined from the figure, including headers, row labels, column labels, units, and data values when visible and estimate when not visible.
 
-    *   Description: The "title" or "caption" of the visualization used.
+Data Extraction Rules:
 
-    *   Guidance:
+- Preserve the logical and physical structure of the original data.
+- Include table headers whenever they are present or can be inferred directly from the figure otherwise use Column1, Column2 and so on.
+- Preserve units exactly as shown.
+- If axis labels correspond to table columns or rows, use them as headers.
+- Maintain the original ordering of rows and columns whenever possible.
+- Estimate values as close approximations that are not visually recoverable.
+- If a value cannot be determined reliably, leave the corresponding cell empty.
+- Base the extraction primarily on the visual content of the figure. Use the caption only to resolve ambiguities.
 
-        *   The "title" or "caption" is usually a prominent "descriptive" text on a chart visualization used to describe the purpose of this chart.
+Output Format:
 
-  
-
-2.  **`markdown`**: (String)
-
-    *   Description: A string representing the underlying structured data in markdown table format.
-
-
-**Input:**  
-
-*   **Image**
-    *   Description: An input "image" containing data visualization such as a chart or plot.
-  
-
-**Output Requirements:** 
-
-*   The output MUST be a single, valid JSON object. Do not include any explanatory text before or after the JSON.
-
-*   If information for a field cannot be reliably determined from the image and caption, use `null` for string fields or an empty list `[]` for list fields.
-
-*   Prioritize information directly observable from the visual elements of the scientific figure.
+- Return only a valid Markdown table.
+- Do not generate JSON.
+- Do not include explanations, comments, or surrounding text.
+- Do not wrap the table inside code fences.
+- The output should consist solely of the Markdown table.
 ```
