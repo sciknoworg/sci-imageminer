@@ -1,0 +1,63 @@
+Task: Analyze the provided scientific figure and identify its primary visualization type. Select exactly one label from the predefined list below. Base your decision primarily on the visual structure of the figure rather than its scientific content or caption.
+
+Figure Type Definitions:
+
+* area chart: Filled area under a line representing cumulative values or trends.
+* bar chart: Rectangular bars comparing quantities across categories.
+* 3d bar chart: Bar chart rendered in three dimensions.
+* grouped bar chart: Multiple bars grouped for side-by-side comparison.
+* stacked bar chart: Bars stacked to represent part-to-whole relationships.
+* box plot: Statistical distribution showing quartiles, median, and outliers.
+* bubble chart: Scatter plot with marker size encoding an additional variable.
+* donut chart: Pie chart with a central hole.
+* funnel chart: Progressive reduction through sequential stages.
+* heatmap: Matrix of values represented by colors.
+* line chart: Single continuous line showing variation over an axis.
+* multiple line chart: Two or more lines representing multiple data series.
+* multi-axis chart: Plot containing multiple overlayed charts/plots with multiple coordinate axes, often on y-axis, with different scales.
+* pie chart: Circular chart divided into proportional slices.
+* polar chart (rose chart): Circular plot where values are encoded radially as slices.
+* radar chart (spider chart): Multivariate radial visualization.
+* scatter plot: Points showing relationships between two variables.
+* 3d scatter plot: Scatter plot rendered in three dimensions.
+* multiple scatter plot: Multiple groups or series of scatter points shown together.
+* treemap: Nested rectangles representing hierarchical values.
+* spectra chart: Spectroscopic or diffraction plot (NMR, IR, Raman, UV-vis, MS, XRD).
+* stacked spectra chart: Multiple spectra vertically offset for comparison.
+* multi spectra chart: Multiple spectra overlaid in a common coordinate system.
+* phase diagram: Equilibrium phase boundaries in composition, temperature, or pressure space.
+* band diagram: Electronic energy bands versus position or momentum.
+* adsorption isotherm: Gas uptake versus pressure or relative pressure.
+* process timing diagram: Stepwise or pulsed process variables plotted against time.
+* contour heatmap: Continuous field represented by contour lines or color gradients.
+* image panel: Collection of microscopy, spectroscopy, or experimental images.
+* map/geo chart: Geographic or spatial distribution visualization.
+* competing reaction rate curve: Abstract conceptual curves illustrating competing reaction mechanisms.
+* molecular structure diagram: Chemical structures of molecules or precursors.
+* reaction scheme: Molecules connected by reaction arrows.
+* reaction energy profile diagram: Relative energy pathway of reactants, intermediates, and products.
+* process flow diagram: Sequential or cyclic process schematic.
+* apparatus diagram: Experimental setup or equipment illustration.
+* conceptual diagram: Theoretical model or mechanism illustration.
+* device structure: Layered or structural representation of a device architecture.
+* chromaticity diagram: Color-space representation of hue and saturation relationships.
+* periodic table map: Property visualization mapped onto the periodic table layout.
+* element–property matrix: Matrix linking selected elements with categorical or binary properties.
+* network diagram: Nodes connected by edges representing relationships.
+* tree diagram: Hierarchical branching structure.
+* workflow diagram: Pipeline or methodological sequence.
+* timeline chart: Chronological ordering of events or steps.
+* comparison table: Structured comparison across multiple entities.
+* table: General tabular representation of data.
+* formula: Standalone mathematical or chemical expression.
+* unknown: The figure cannot be confidently assigned to any category above.
+
+Classification Guidelines:
+
+* Focus primarily on the visual appearance of the figure.
+* Use the caption only to resolve ambiguity.
+* If no category can be determined reliably, return unknown.
+
+Output Format:
+
+Return only the selected figure type label as plain text.

@@ -1,0 +1,33 @@
+Task: Analyze the scientific figure and answer the question using only information visible in the figure (including labels, legends, annotations, and caption).
+
+Question: {QUESTION_INPUT_TEXT}
+
+Question Type: {QUESTION_TYPE_INPUT_TEXT}
+
+Answer Type: {ANSWER_TYPE_INPUT_TEXT}
+
+Question Type Guidance:
+
+* Comparative/Trend: Compare variables and observed outcomes.
+* Structure-Property: Relate material or precursor structure to observed properties.
+* Process-Oriented: Focus on process steps, mechanisms, or reaction sequences.
+* Application/Performance: Focus on functional or device-level performance.
+
+Answer Type Guidance:
+
+* Yes/No: Return only "Yes" or "No".
+* Factoid: Return a single concise term, value, or phrase.
+* List: Return comma-separated items only.
+* Paragraph: Return a brief answer in 1–3 sentences.
+
+Guidelines:
+
+* Use only evidence visible in the figure.
+* Use the caption only to clarify figure elements.
+* Do not use external knowledge or speculate.
+* Match the Answer Type exactly.
+* If the answer cannot be determined, return "Unknown" (Yes/No, Factoid, Paragraph) or an empty response (List).
+
+Output:
+
+Return only the answer as plain text.

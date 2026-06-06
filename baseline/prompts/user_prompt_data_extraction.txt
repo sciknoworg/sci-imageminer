@@ -1,0 +1,16 @@
+Task: Analyze the provided scientific figure and reconstruct the underlying tabular data represented by the visualization as a Markdown table.
+
+Data Extraction Guidelines:
+
+* Preserve the logical and physical structure of the original data.
+* Include table headers whenever they are present or can be inferred directly from the figure otherwise use Column1, Column2 and so on.
+* Preserve units exactly as shown.
+* If axis labels correspond to table columns or rows, use them as headers.
+* Maintain the original ordering of rows and columns whenever possible.
+* Estimate values as close approximations that are not visually recoverable.
+* If a value cannot be determined reliably, leave the corresponding cell empty.
+* Base the extraction primarily on the visual content of the figure. Use the caption only to resolve ambiguities.
+
+Output Format:
+
+Return only a Markdown table as plain text.
