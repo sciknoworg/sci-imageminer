@@ -31,7 +31,7 @@
             {
                 "question_type": "Application/Performance",
                 "question": "Based on subfigures (c) and (d), has the deposition process reached saturation by 0.025 s?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "Yes. The nearly identical concentration profiles and surface coverage distributions between 0.025 s and 0.035 s confirm that saturation is achieved, consistent with the paper's finding that critical dosing time is approximately 0.015 s."
             }
         ],

@@ -18,27 +18,27 @@
                 "question_type": "Process-Oriented",
                 "question": "From what direction are precursor gases supplied in the reactor?",
                 "answer_type": "Paragraph",
-                "answer": "a\tPrecursor gases are injected from the top, such that by defenition they will flow over a sample."
+                "answer": "Precursor gases are injected from the top, such that by defenition they will flow over a sample."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "Is the used plasma source a remote or direct plasma source?",
                 "answer_type": "Paragraph",
-                "answer": "a\tThe used plasma source is a remote source. The plasma is generated between the visible coils and is not connected to a biased table."
+                "answer": "The used plasma source is a remote source. The plasma is generated between the visible coils and is not connected to a biased table."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "How is the turbo-pump connected to the reactor chamber and what benefit does this have?",
                 "answer_type": "Paragraph",
-                "answer": "a\tBetween the reactor chamber and turbo-pump a butterfly valve is visible. Such a valve gives good control on the flows and pressures in the reactor chamber during processing."
+                "answer": "Between the reactor chamber and turbo-pump a butterfly valve is visible. Such a valve gives good control on the flows and pressures in the reactor chamber during processing."
             }
         ],
         "b": [
             {
                 "question_type": "Process-Oriented",
                 "question": "Due to the location of the OES, will also ligand species in the plasma be visible?",
-                "answer_type": "Yes/No",
-                "answer": "b\tYes, ligands can diffuse in the plasma, visible for the OES."
+                "answer_type": "Paragraph",
+                "answer": "Yes, ligands can diffuse in the plasma, visible for the OES."
             }
         ]
     },

@@ -14,7 +14,7 @@
             {
                 "question_type": "Process-Oriented",
                 "question": "Does the ALD process for alumina involve CH\u2084 desorption during the TMA pulse?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "Yes. CH\u2084 is desorbed during the adsorption of TMA on the hydroxylated surface."
             }
         ],

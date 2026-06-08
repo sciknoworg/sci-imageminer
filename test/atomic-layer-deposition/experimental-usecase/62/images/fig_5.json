@@ -18,13 +18,13 @@
                 "question_type": "Process-Oriented",
                 "question": "Are a lot of the ligand species incorporated in the hydrogen plasma?",
                 "answer_type": "Paragraph",
-                "answer": "a\tIt seems that there is major overlap between all the species present between the two plasmas, so not a lot of different species are incorporated."
+                "answer": "It seems that there is major overlap between all the species present between the two plasmas, so not a lot of different species are incorporated."
             },
             {
                 "question_type": "Comparative/Trend",
                 "question": "At what wavelength is the highest intensity measured?",
                 "answer_type": "Factoid",
-                "answer": "a\tThe highest intensity is measured at 660 nm."
+                "answer": "The highest intensity is measured at 660 nm."
             }
         ],
         "b": [
@@ -32,13 +32,13 @@
                 "question_type": "Process-Oriented",
                 "question": "What is the saturation time for the H2 plasma in the deposition process of TiN?",
                 "answer_type": "Factoid",
-                "answer": "b\tThe saturation time is 4 s."
+                "answer": "The saturation time is 4 s."
             },
             {
                 "question_type": "Comparative/Trend",
                 "question": "Will the intensity of the peak go to zero for the ALD cycle data, and if not, why not?",
                 "answer_type": "Paragraph",
-                "answer": "b\tNo the intensity will not go to zero if the plasma is running  there will always be the background of the peak in the H2 plasma itself."
+                "answer": "No the intensity will not go to zero if the plasma is running  there will always be the background of the peak in the H2 plasma itself."
             }
         ]
     },

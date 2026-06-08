@@ -18,13 +18,13 @@
                 "question_type": "Process-Oriented",
                 "question": "Why is it important that the HF and O2/O3 exposures are fully saturated?",
                 "answer_type": "Paragraph",
-                "answer": "a\tIf this is not the case the, the outcome of the BCl3 exposure sweep will not represent the highest achievable etch rate. In addition, it will not represent ALE, as the reactions have not been performed till saturation is achieved."
+                "answer": "If this is not the case the, the outcome of the BCl3 exposure sweep will not represent the highest achievable etch rate. In addition, it will not represent ALE, as the reactions have not been performed till saturation is achieved."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "What would be the etch rate of tungsten for a BCl3 exposure of 100 mTorr s?",
                 "answer_type": "Factoid",
-                "answer": "a\t1.5 angstrom per cycle"
+                "answer": "1.5 angstrom per cycle"
             }
         ],
         "b": [
@@ -32,13 +32,13 @@
                 "question_type": "Comparative/Trend",
                 "question": "What is the saturated etch rate when increasing the HF exposure, and does this correspond to the other achieved EPCs?",
                 "answer_type": "Paragraph",
-                "answer": "b\t2.5 angstrom per cycle, and this does correspond to the other achieved EPCs."
+                "answer": "2.5 angstrom per cycle, and this does correspond to the other achieved EPCs."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "Why is it important that the temperature is kept constant for all the measurements?",
                 "answer_type": "Paragraph",
-                "answer": "b\tIt could be that temperature has an influence on the etch per cycle which might interfere with the results achieved by changing the HF exposure."
+                "answer": "It could be that temperature has an influence on the etch per cycle which might interfere with the results achieved by changing the HF exposure."
             }
         ]
     },

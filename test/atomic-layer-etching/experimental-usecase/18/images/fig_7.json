@@ -32,7 +32,7 @@
             {
                 "question_type": "Application/Performance",
                 "question": "How is the device used in application?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "The resulting memory cell is located at the cross sections of the horizontal TiN plates and the vertical TiN columns. They form so-called memory arrays, which are connected to control circuits next to or under the memory array via metal connections. Other implementations have the memory device at the crossing of metal lines rather than at the intersections of plates and columns."
             }
         ]

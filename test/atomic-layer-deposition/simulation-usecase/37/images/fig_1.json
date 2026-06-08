@@ -30,7 +30,7 @@
             {
                 "question_type": "Application/Performance",
                 "question": "Can the phase portrait be used to detect non-stoichiometric growth in ALD processes?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "Yes. If the surface concentrations of CH\u2083 and H do not return to their initial values at the end of the cycle, it indicates accumulation of intermediates and non-stoichiometric growth."
             }
         ],

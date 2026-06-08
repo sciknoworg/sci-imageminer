@@ -14,7 +14,7 @@
             {
                 "question_type": "Process-Oriented",
                 "question": "Based on the graph, identify the specific process step where carbon ligands are removed from the surface. If you were programming a 'Real-Time Endpoint' monitor, which pulse (P or O3) would you track to confirm the reaction completion",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "Ligand removal occurs during the ozone (O\u2083) pulse. The CO\u2082 signal shows sharp spikes only during the O\u2083 exposure, confirming that this half-cycle is responsible for oxidizing the organic ligands into volatile CO\u2082. Monitoring the rise and decay of the CO\u2082 peak back to baseline can be used to verify completion of the reaction and effective byproduct removal."
             },
             {

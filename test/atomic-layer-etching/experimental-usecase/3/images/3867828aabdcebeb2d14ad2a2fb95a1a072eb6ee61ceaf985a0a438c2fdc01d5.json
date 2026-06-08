@@ -21,13 +21,13 @@
                 "question_type": "Process-Oriented",
                 "question": "What processing step takes the longest in this process and why?",
                 "answer_type": "Paragraph",
-                "answer": "a\tThe plasma exposure takes the longest. This is likely as the plasma is at a high pressure. Also modification usually does not take more than a few seconds."
+                "answer": "The plasma exposure takes the longest. This is likely as the plasma is at a high pressure. Also modification usually does not take more than a few seconds."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "What effect of the plasma must be taken into account for low pressures?",
                 "answer_type": "Paragraph",
-                "answer": "a\tAt low pressures, ions are more accelerated towards the substrate table and can also damage the underlaying monolayer for to long exposures."
+                "answer": "At low pressures, ions are more accelerated towards the substrate table and can also damage the underlaying monolayer for to long exposures."
             }
         ],
         "c": [
@@ -35,7 +35,7 @@
                 "question_type": "Comparative/Trend",
                 "question": "Are the peak ratios for all measurements equal?",
                 "answer_type": "Yes/No",
-                "answer": "c\tNo"
+                "answer": "No"
             }
         ],
         "b": [
@@ -43,7 +43,7 @@
                 "question_type": "Comparative/Trend",
                 "question": "Is there a thickness dependence in the intensity and how does this relation look?",
                 "answer_type": "Paragraph",
-                "answer": "b\tYes there is a dependence. With the removal of half of the material, the intensity is also dropping. This indicates a proportional relation."
+                "answer": "Yes there is a dependence. With the removal of half of the material, the intensity is also dropping. This indicates a proportional relation."
             }
         ]
     },

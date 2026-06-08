@@ -18,13 +18,13 @@
                 "question_type": "Process-Oriented",
                 "question": "Why is there a fluctuation in OES signal from plasma feedstock species in the first second?",
                 "answer_type": "Paragraph",
-                "answer": "a\tDue to the incorporation of other species in the plasma there is an effect of the matching of the plasma in the first second."
+                "answer": "Due to the incorporation of other species in the plasma there is an effect of the matching of the plasma in the first second."
             },
             {
                 "question_type": "Structure-Property",
                 "question": "What element is in the ligands of the precursor that is not in the plasma feedstock gas itself?",
                 "answer_type": "Factoid",
-                "answer": "a\tCarbon."
+                "answer": "Carbon."
             }
         ],
         "b": [
@@ -32,13 +32,13 @@
                 "question_type": "Process-Oriented",
                 "question": "What type of reactor is depected and how can this be seen?",
                 "answer_type": "Paragraph",
-                "answer": "b\tThe reactor is a downstream plasma reactor, the gases come in from the top and are pump away from underneath the substrate."
+                "answer": "The reactor is a downstream plasma reactor, the gases come in from the top and are pump away from underneath the substrate."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "How can the gas residence time be reduced?",
                 "answer_type": "Paragraph",
-                "answer": "b\tThe gas residence time can be reduced by increasing the flow into the reactor or by pumping faster."
+                "answer": "The gas residence time can be reduced by increasing the flow into the reactor or by pumping faster."
             }
         ]
     },

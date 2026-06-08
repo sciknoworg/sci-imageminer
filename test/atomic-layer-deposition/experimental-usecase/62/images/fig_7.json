@@ -18,13 +18,13 @@
                 "question_type": "Process-Oriented",
                 "question": "What happens around 20s and 30s into the process? What does this entail for the total process?",
                 "answer_type": "Paragraph",
-                "answer": "a\tAt these times the plasma is not on, this means that these cycles are not added up to the total amount of cycles."
+                "answer": "At these times the plasma is not on, this means that these cycles are not added up to the total amount of cycles."
             },
             {
                 "question_type": "Comparative/Trend",
                 "question": "How long does a total plasma pulse take?",
                 "answer_type": "Factoid",
-                "answer": "a\tThe plasma takes 5s."
+                "answer": "The plasma takes 5s."
             }
         ],
         "b": [
@@ -32,7 +32,7 @@
                 "question_type": "Process-Oriented",
                 "question": "How long does the plasma pulse take for this process?",
                 "answer_type": "Factoid",
-                "answer": "b\tAround 14 s."
+                "answer": "Around 14 s."
             },
             {
                 "question_type": "Process-Oriented",

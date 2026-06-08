@@ -32,7 +32,7 @@
             {
                 "question_type": "Application/Performance",
                 "question": "Given the model's accurate prediction across a range of ammonia flows, is this validated simulation suitable for optimizing the ammonia flow to achieve a target deposition rate of 1.5 \u00b5m/hr in a new reactor design? Justify your answer.",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "YES, the close agreement between simulation and experiment across the operational range proves the model's predictive capability for this reactor and chemistry. Therefore, engineers can confidently use the simulation to interpolate or slightly extrapolate the required ammonia flow setting to hit the precise target growth rate of 1.5 \u00b5m/hr in a scaled or modified reactor design, saving time and cost on experimental trials."
             }
         ]

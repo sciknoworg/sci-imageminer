@@ -20,7 +20,7 @@
             {
                 "question_type": "Structure-Property",
                 "question": "After one ALE cycle, does the schematic indicate the surface returns to its initial state?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "No. The final panel marks an \u201cetched region,\u201d implying a net change to the substrate."
             },
             {

@@ -15,25 +15,25 @@
                 "question_type": "Process-Oriented",
                 "question": "What does the slope in an Arrhenius plot represent?",
                 "answer_type": "Paragraph",
-                "answer": "a\tThe slope gives information regarding the activation energy. For the reaction to occur."
+                "answer": "The slope gives information regarding the activation energy. For the reaction to occur."
             },
             {
                 "question_type": "Comparative/Trend",
                 "question": "Is there an uncertainty in the determined slope of the line?",
                 "answer_type": "Paragraph",
-                "answer": "a\tYes there is an uncertainty. This is mainly caused by the fact that not all datapoints are precisely located on the line."
+                "answer": "Yes there is an uncertainty. This is mainly caused by the fact that not all datapoints are precisely located on the line."
             },
             {
                 "question_type": "Comparative/Trend",
                 "question": "What does a negative value on the y-axis represent in terms of etch rate?",
                 "answer_type": "Paragraph",
-                "answer": "a\tA negative value on this y-axis represents an etch rate that is smaller than 1 angstrom per cycle."
+                "answer": "A negative value on this y-axis represents an etch rate that is smaller than 1 angstrom per cycle."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "Why is the temperature such an important parameter?",
                 "answer_type": "Paragraph",
-                "answer": "a\tThe temperature is a probe of the kinetic energy reactants help. Usually a reaction requires an activation energy and by providing a certain temperature, the kinetic energy will increase leading to the reaction to occur."
+                "answer": "The temperature is a probe of the kinetic energy reactants help. Usually a reaction requires an activation energy and by providing a certain temperature, the kinetic energy will increase leading to the reaction to occur."
             }
         ]
     },

@@ -18,19 +18,19 @@
                 "question_type": "Process-Oriented",
                 "question": "With what formula is a normal saturation curve fitted?",
                 "answer_type": "Paragraph",
-                "answer": "a\tUsually a saturation curve is fitted with a single exponential like: GPC = A(1-e^(-t/tA))."
+                "answer": "Usually a saturation curve is fitted with a single exponential like: GPC = A(1-e^(-t/tA))."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "To what phenomena is the peak assigned for low plasma exposure times?",
                 "answer_type": "Paragraph",
-                "answer": "a\tThe height of the peak is related to the amount of redeposition of ligand species that come in to the plasma."
+                "answer": "The height of the peak is related to the amount of redeposition of ligand species that come in to the plasma."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "What happens for long plasma exposure times with redeposited species?",
                 "answer_type": "Paragraph",
-                "answer": "a\tLonger plasma exposure times give lower GPC values indicating that the species resulting of redeposition are removed from the surface."
+                "answer": "Longer plasma exposure times give lower GPC values indicating that the species resulting of redeposition are removed from the surface."
             }
         ],
         "b": [
@@ -38,7 +38,7 @@
                 "question_type": "Comparative/Trend",
                 "question": "Which of the two time constant is dependent on the plasma gas residence time?",
                 "answer_type": "Factoid",
-                "answer": "b\tOnly time constant B."
+                "answer": "Only time constant B."
             }
         ]
     },

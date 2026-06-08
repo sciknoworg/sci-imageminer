@@ -20,7 +20,7 @@
             {
                 "question_type": "Structure-Property",
                 "question": "In subfigure (a), do the square data points represent configurations where the dissociated Hf\u2013F coverage equals the total HF coverage?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "Yes. The square points fall on the dashed 1:1 line, indicating complete HF dissociation."
             },
             {

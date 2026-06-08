@@ -21,7 +21,7 @@
                 "question_type": "Process-Oriented",
                 "question": "The refractive index is often used as a measure for the density of a material, what would this then mean for the etch resistance for films with long gas residence times?",
                 "answer_type": "Paragraph",
-                "answer": "a\tIf the refractive is a measure for the density, then films deposited with long gas residence times have a lower density and are therefore less etch resistant."
+                "answer": "If the refractive is a measure for the density, then films deposited with long gas residence times have a lower density and are therefore less etch resistant."
             }
         ],
         "c": [
@@ -29,13 +29,13 @@
                 "question_type": "Process-Oriented",
                 "question": "What are the three parameters that have been changed to probe the wet-etch rate?",
                 "answer_type": "Paragraph",
-                "answer": "c\tThe plasma pressure, the gas flows, and the plasma gas residence time."
+                "answer": "The plasma pressure, the gas flows, and the plasma gas residence time."
             },
             {
                 "question_type": "Comparative/Trend",
                 "question": "What is the wet-etch rate for a gas residence time of 0.3 s?",
                 "answer_type": "Factoid",
-                "answer": "c\t1 nm/min."
+                "answer": "1 nm/min."
             }
         ],
         "b": [
@@ -43,7 +43,7 @@
                 "question_type": "Process-Oriented",
                 "question": "What is another parameter that can have an influence on the impurity content besides the gas residence time?",
                 "answer_type": "Paragraph",
-                "answer": "b\tThe argon gas flow and therefore the argon ions in the plasma can have an influence, where the ions can remove more impurities."
+                "answer": "The argon gas flow and therefore the argon ions in the plasma can have an influence, where the ions can remove more impurities."
             }
         ]
     },

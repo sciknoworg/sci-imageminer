@@ -32,7 +32,7 @@
             {
                 "question_type": "Application/Performance",
                 "question": "Does the reduced signal after the fifth HF exposure suggest self-limiting behavior?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "Yes, the reduced signal is consistent with self-limiting behavior, although this figure alone does not prove saturation."
             }
         ]

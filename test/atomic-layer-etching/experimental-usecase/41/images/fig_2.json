@@ -42,7 +42,7 @@
             {
                 "question_type": "Application/Performance",
                 "question": "Does increasing RF power lead to a higher final TiO\u2082 thickness according to subfigure (e)?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "Yes. The curves show a clear ordering (50 W > 25 W > 15 W > 10 W) at long times, indicating thicker oxide growth at higher RF power under otherwise fixed conditions."
             }
         ],

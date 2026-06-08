@@ -18,13 +18,13 @@
                 "question_type": "Process-Oriented",
                 "question": "What type of elements are likely present in the ligands of the used precursor?",
                 "answer_type": "Paragraph",
-                "answer": "a\tThe used plasma is made of oxygen, but the emission also shows H, C and N species, so it it likely that these come from the ligands."
+                "answer": "The used plasma is made of oxygen, but the emission also shows H, C and N species, so it it likely that these come from the ligands."
             },
             {
                 "question_type": "Comparative/Trend",
                 "question": "Is there overlap in peaks for both plasmas?",
-                "answer_type": "Yes/No",
-                "answer": "a\tYes, there is overlap."
+                "answer_type": "Paragraph",
+                "answer": "Yes, there is overlap."
             }
         ],
         "b": [
@@ -32,13 +32,13 @@
                 "question_type": "Process-Oriented",
                 "question": "Can the conclusion be drawn that there is more CN in the plasma than CO?",
                 "answer_type": "Paragraph",
-                "answer": "b\tThe intensity of the emission of species cannot be compared to others, if the goal is to determine the densities. With OES only the presence of species can be determined."
+                "answer": "The intensity of the emission of species cannot be compared to others, if the goal is to determine the densities. With OES only the presence of species can be determined."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "What is a safe saturation time for the oxygen plasma step?",
                 "answer_type": "Factoid",
-                "answer": "b\t2.5 s would be far enough in saturation."
+                "answer": "2.5 s would be far enough in saturation."
             }
         ]
     },

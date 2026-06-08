@@ -35,7 +35,7 @@
                 "question_type": "Process-Oriented",
                 "question": "Are the labeled transitions mostly from atomic oxygen or from molecular oxygen?",
                 "answer_type": "Factoid",
-                "answer": "a\tThe most transitions are coming from atomic oxygen."
+                "answer": "The most transitions are coming from atomic oxygen."
             }
         ],
         "d": [
@@ -43,7 +43,7 @@
                 "question_type": "Comparative/Trend",
                 "question": "What difference can be destinguished between the molecular emissions and the atomic emissions?",
                 "answer_type": "Paragraph",
-                "answer": "d\tMolecular emission in general results in a range of wavelengths, whereas the atomic emission is usually single sharp peaks."
+                "answer": "Molecular emission in general results in a range of wavelengths, whereas the atomic emission is usually single sharp peaks."
             }
         ],
         "b": [
@@ -51,7 +51,7 @@
                 "question_type": "Comparative/Trend",
                 "question": "What could be the reason that some peaks are saturated and which are these?",
                 "answer_type": "Paragraph",
-                "answer": "b\tIt could be that the intensity surpasses the detectors limit. The emission for which this counts are the beta and alpha hydrogen lines."
+                "answer": "It could be that the intensity surpasses the detectors limit. The emission for which this counts are the beta and alpha hydrogen lines."
             }
         ]
     },

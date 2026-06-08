@@ -32,7 +32,7 @@
             {
                 "question_type": "Application/Performance",
                 "question": "Based on this figure, is precursor intermixing a significant concern for a 2 mm gap spatial ALD reactor?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "No. At 2 mm gap size, both positions show low intermixing ratios (below 0.03), indicating effective precursor separation with minimal risk of unwanted CVD-type reactions."
             }
         ]

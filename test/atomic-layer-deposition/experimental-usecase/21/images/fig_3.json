@@ -31,7 +31,7 @@
             {
                 "question_type": "Process-Oriented",
                 "question": "What is the lower limit of the ALD temperature window for thermal and plasma ALD processes?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "It can be noticed that the growth per cycle of the thermal ALD process strongly decreases at 50 \u00b0C, indicating the lower limit of the temperature window. The ALD process window for the plasma-assisted process is extended towards lower temperatures, as it has a similar growth per cycle at 50 \u00b0C as at higher temperatures"
             },
             {

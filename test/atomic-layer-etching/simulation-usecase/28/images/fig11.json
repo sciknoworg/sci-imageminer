@@ -29,7 +29,7 @@
             {
                 "question_type": "Application/Performance",
                 "question": "Does the release of volatile byproducts occur continuously throughout the 25-minute experiment?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "No, the release is pulsed, occurring only during the discrete HF exposure times (approx. every 5 minutes)."
             }
         ],

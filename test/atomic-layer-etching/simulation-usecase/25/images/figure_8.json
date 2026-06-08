@@ -23,7 +23,7 @@
             {
                 "question_type": "Comparative/Trend",
                 "question": "Compare the Hf\u2013F bond length of configuration 1HF A to configuration 1HF C. Are they identical?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "Yes, both are 1.98 \u00c5."
             }
         ],
@@ -31,7 +31,7 @@
             {
                 "question_type": "Comparative/Trend",
                 "question": "Is the range of O\u2013H bond lengths on the ZrO\u2082 surface in panel (b) different from the range on the HfO\u2082 surface in panel (a)?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "No, both panels show an O\u2013H bond length range of 0.97\u20130.99 \u00c5."
             },
             {

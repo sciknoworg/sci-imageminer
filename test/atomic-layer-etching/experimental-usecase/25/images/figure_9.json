@@ -15,25 +15,25 @@
                 "question_type": "Comparative/Trend",
                 "question": "What temperature results in the highest EPC and how can this be concluded?",
                 "answer_type": "Paragraph",
-                "answer": "a\tThe highest temperature will also result in the highest EPC, this can be concluded based on the slopes of the different lines."
+                "answer": "The highest temperature will also result in the highest EPC, this can be concluded based on the slopes of the different lines."
             },
             {
                 "question_type": "Comparative/Trend",
                 "question": "What is the EPC for the process at 160 degrees Celcius?",
                 "answer_type": "Factoid",
-                "answer": "a\t10 angstrom per cycle."
+                "answer": "10 angstrom per cycle."
             },
             {
                 "question_type": "Comparative/Trend",
                 "question": "is there a linear trend in increase in EPC with increasing temperature?",
                 "answer_type": "Yes/No",
-                "answer": "a\tNo"
+                "answer": "No"
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "What processing temperature will result in the highest control in etching?",
                 "answer_type": "Paragraph",
-                "answer": "a\tThis will be determined by the height of the EPC. This is the lowest for the process at 128 degrees. This process will then also result in the most control."
+                "answer": "This will be determined by the height of the EPC. This is the lowest for the process at 128 degrees. This process will then also result in the most control."
             }
         ]
     },

@@ -32,7 +32,7 @@
             {
                 "question_type": "Application/Performance",
                 "question": "Given the temperature-insensitive growth rate shown, is this deposition process a good candidate for scaling up to an industrial reactor where maintaining perfect temperature uniformity across the wafer is challenging? Justify your answer.",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "Yes. The flat growth rate profile across a 180 K window demonstrates inherent robustness to temperature fluctuations. This means that minor hot or cold spots in a large reactor will not translate into significant thickness variations, leading to better wafer-scale uniformity and higher manufacturing yield without requiring prohibitively precise temperature control."
             }
         ]

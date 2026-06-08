@@ -17,7 +17,7 @@
             {
                 "question_type": "Process-Oriented",
                 "question": "Does the Ti\u2212Ti bonding interaction appear during the transition state of the iodine release reaction?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "Yes. The HOMO orbital analysis shows that the Ti1\u2212Ti2 bonding interaction is formed due to the overlap of their sd orbitals in the transition state."
             }
         ],

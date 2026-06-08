@@ -35,7 +35,7 @@
                 "question_type": "Process-Oriented",
                 "question": "Is fluorine effectively removed at temperatures above 150 \u00b0C according to the data?",
                 "answer_type": "Yes/No",
-                "answer": "Yes."
+                "answer": "Yes"
             }
         ],
         "b": [
@@ -66,5 +66,5 @@
             "width": 562,
             "height": 445
         }
-        }
+    }
 }

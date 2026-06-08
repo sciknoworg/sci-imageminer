@@ -31,14 +31,14 @@
             {
                 "question_type": "Comparative/Trend",
                 "question": "Do the preferred etching and purely etching processes start from the same energy level relative to the zero reference?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "No. In the purely etching case, SL starts above the 0 line at level X, whereas in the preferred etching case, SL starts below 0 at level X."
             },
             {
                 "question_type": "Structure-Property",
                 "question": "Does the purely etching process result in a final state that's above the zero-energy line?",
                 "answer_type": "Yes/No",
-                "answer": "No."
+                "answer": "No"
             }
         ]
     },

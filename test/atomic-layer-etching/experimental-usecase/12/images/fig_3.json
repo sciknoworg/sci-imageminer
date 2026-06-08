@@ -24,7 +24,7 @@
                 "question_type": "Comparative/Trend",
                 "question": "Why is there a drop in thickness after the switch from the plasma to the TMA step?",
                 "answer_type": "Paragraph",
-                "answer": "b\tBetween these data points actually one full ALE cycle has taken place. This is also the reason that the thickness difference is 3 angstroms."
+                "answer": "Between these data points actually one full ALE cycle has taken place. This is also the reason that the thickness difference is 3 angstroms."
             },
             {
                 "question_type": "Application/Performance",
@@ -92,19 +92,19 @@
                 "question_type": "Process-Oriented",
                 "question": "How can the EPC be determined?",
                 "answer_type": "Paragraph",
-                "answer": "a\tBy performing a linear fit in the last section of the graph and taking the slope."
+                "answer": "By performing a linear fit in the last section of the graph and taking the slope."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "Is the synergy high for this process?",
                 "answer_type": "Paragraph",
-                "answer": "a\tSynergy is high if one of the two doses on there own do not etch. This seems the case so the synergy is high."
+                "answer": "Synergy is high if one of the two doses on there own do not etch. This seems the case so the synergy is high."
             },
             {
                 "question_type": "Application/Performance",
                 "question": "How long would it take to etch 12 nm?",
                 "answer_type": "Paragraph",
-                "answer": "a\t12 nm, or 120 angstrom would require 39 cycles."
+                "answer": "12 nm, or 120 angstrom would require 39 cycles."
             },
             {
                 "question_type": "Process-Oriented",
@@ -151,7 +151,7 @@
             {
                 "question_type": "Application/Performance",
                 "question": "Does the data in region (c) support the use of this process for applications requiring precise, time-based depth control?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "Yes. The image clearly shows a linear relationship between the etch depth and the number of cycles with a specific rate of 3.1 \u00c5 per cycle. This linearity implies that manufacturers can precisely calculate the total etch depth simply by counting cycles, which is ideal for high-precision semiconductor fabrication."
             },
             {

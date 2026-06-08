@@ -18,7 +18,7 @@
                 "question_type": "Process-Oriented",
                 "question": "Is there a starting effect for this ALD process?",
                 "answer_type": "Paragraph",
-                "answer": "a\tThere does seem to be a startinf effect. The initial plasma pulses show higher intensities than the last pulses."
+                "answer": "There does seem to be a startinf effect. The initial plasma pulses show higher intensities than the last pulses."
             }
         ],
         "b": [
@@ -26,19 +26,19 @@
                 "question_type": "Process-Oriented",
                 "question": "How would the best process be described with the depicted data?",
                 "answer_type": "Paragraph",
-                "answer": "b\tThe best process is the one where the effect is only present in very little number of cycles. This would be the orange line."
+                "answer": "The best process is the one where the effect is only present in very little number of cycles. This would be the orange line."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "How many cycles are not precisely controlled ALD cycles if no conditioning is performed?",
                 "answer_type": "Paragraph",
-                "answer": "b\tAfter 140 cycles the decrease seems to saturate. This indicates that there are species in the plasma present that are not related to the ALD chemistry of the process."
+                "answer": "After 140 cycles the decrease seems to saturate. This indicates that there are species in the plasma present that are not related to the ALD chemistry of the process."
             },
             {
                 "question_type": "Comparative/Trend",
                 "question": "What is the saturation integrated intensity level for a pretreatment of H2 plasma?",
                 "answer_type": "Factoid",
-                "answer": "b\tThe saturation level is 500000."
+                "answer": "The saturation level is 500000."
             }
         ]
     },

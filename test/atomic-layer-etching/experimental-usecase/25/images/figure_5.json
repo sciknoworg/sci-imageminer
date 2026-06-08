@@ -15,25 +15,25 @@
                 "question_type": "Comparative/Trend",
                 "question": "How much material removed upon HF exposure?",
                 "answer_type": "Factoid",
-                "answer": "a\t2 angstrom."
+                "answer": "2 angstrom."
             },
             {
                 "question_type": "Structure-Property",
                 "question": "Is the shown film, artificially grown or placed above a WO3 film?",
                 "answer_type": "Paragraph",
-                "answer": "a\tArtificially grown, the B2O3 layer on top of the WO3 is not that thick as it is a result of the monolayer modification."
+                "answer": "Artificially grown, the B2O3 layer on top of the WO3 is not that thick as it is a result of the monolayer modification."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "If the exposure of HF is increased, can there be more etching per exposure?",
                 "answer_type": "Yes/No",
-                "answer": "a\tYes"
+                "answer": "Yes"
             },
             {
                 "question_type": "Structure-Property",
                 "question": "At what thickness does the graph stop?",
                 "answer_type": "Factoid",
-                "answer": "a\t53 nm."
+                "answer": "53 nm."
             }
         ]
     },

@@ -15,25 +15,25 @@
                 "question_type": "Process-Oriented",
                 "question": "How can the EPC be determined in from this graph?",
                 "answer_type": "Paragraph",
-                "answer": "a\tThis can be determined by calculating the slope and multiplying it with two, as the x-axis shows the number of half-cycles."
+                "answer": "This can be determined by calculating the slope and multiplying it with two, as the x-axis shows the number of half-cycles."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "At what temperature are the experiments performed?",
                 "answer_type": "Factoid",
-                "answer": "a\t207 degrees celcius."
+                "answer": "207 degrees celcius."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "What is an in-situ characterization method that can be used to measure the shown data?",
                 "answer_type": "Paragraph",
-                "answer": "a\tA technique that can be used to determine the thickness of thin films is ellipsometry."
+                "answer": "A technique that can be used to determine the thickness of thin films is ellipsometry."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "Does the data show signs of typical ALE?",
                 "answer_type": "Paragraph",
-                "answer": "a\tYes, the decrease in thickness is linear with respect to number of cycles."
+                "answer": "Yes, the decrease in thickness is linear with respect to number of cycles."
             }
         ]
     },

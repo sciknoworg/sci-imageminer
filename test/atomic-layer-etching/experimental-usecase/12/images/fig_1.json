@@ -83,7 +83,7 @@
             {
                 "question_type": "Application/Performance",
                 "question": "Does the spectral data in figure support the conclusion that this process is suitable for manufacturing devices requiring \u00c5ngstr\u00f6m-level depth control?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "Yes. The data supports this because the absorbance peaks for Cycles 2, 4, and 6 are nearly identical in intensity and shape. This repeatability implies a constant \"Etch Per Cycle\" (EPC) without significant drift, allowing engineers to precisely control the total etch depth simply by counting the number of cycles."
             },
             {
@@ -146,19 +146,19 @@
                 "question_type": "Process-Oriented",
                 "question": "Is there an ALE process visible and how is this shown?",
                 "answer_type": "Paragraph",
-                "answer": "a\tAl-O absorbance decreases for increasing cycle number indicating that there is less Al2O3, meaning there is etching."
+                "answer": "Al-O absorbance decreases for increasing cycle number indicating that there is less Al2O3, meaning there is etching."
             },
             {
                 "question_type": "Structure-Property",
                 "question": "Is the same type of Al-O removed each cycle in terms of bonding?",
                 "answer_type": "Paragraph",
-                "answer": "a\tIt seems that the wavenumber range around 850 cm-1 does not have the same fluctuation each cycle, indicating that there is a difference."
+                "answer": "It seems that the wavenumber range around 850 cm-1 does not have the same fluctuation each cycle, indicating that there is a difference."
             },
             {
                 "question_type": "Application/Performance",
                 "question": "Eventhough the exact change in absorbance is not the same at 800 and 1100 cm-1, could it still be that they are both related to the same amount of etching for different species?",
                 "answer_type": "Paragraph",
-                "answer": "a\tYes, this could be as not every vibrations is as likely to occur, which means that differences in absorption for different wavenumbers do not have to be the same."
+                "answer": "Yes, this could be as not every vibrations is as likely to occur, which means that differences in absorption for different wavenumbers do not have to be the same."
             },
             {
                 "question_type": "Process-Oriented",

@@ -18,7 +18,7 @@
                 "question_type": "Comparative/Trend",
                 "question": "What is the thinnest WO3 layer that can be achieved with this process according to the shown data?",
                 "answer_type": "Factoid",
-                "answer": "a\t3 angstrom"
+                "answer": "3 angstrom"
             }
         ],
         "b": [
@@ -26,19 +26,19 @@
                 "question_type": "Process-Oriented",
                 "question": "Why is there no etching of W visible?",
                 "answer_type": "Paragraph",
-                "answer": "a\tFor the etching of W, it must first be modified into WO3. As this process does not contain a O2/O3 step, this does not happen."
+                "answer": "For the etching of W, it must first be modified into WO3. As this process does not contain a O2/O3 step, this does not happen."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "Is the BCl3 and HF process selective and if so for what?",
                 "answer_type": "Paragraph",
-                "answer": "b\tThe process is selective. Only WO3 is etched whereas W is unharmed. This means the process is selective towards WO3 w.r.t. W."
+                "answer": "The process is selective. Only WO3 is etched whereas W is unharmed. This means the process is selective towards WO3 w.r.t. W."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "How many nanometers of tungsten are removed during this process?",
                 "answer_type": "Factoid",
-                "answer": "b\tNone"
+                "answer": "None"
             }
         ]
     },

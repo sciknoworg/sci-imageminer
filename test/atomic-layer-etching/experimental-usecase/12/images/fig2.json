@@ -30,7 +30,7 @@
                 "question_type": "Process-Oriented",
                 "question": "What happens at a dose time of 0.1 s of TMA?",
                 "answer_type": "Paragraph",
-                "answer": "c\tAt this dose time there is a negative EPC indicating that there is deposition of aluminum."
+                "answer": "At this dose time there is a negative EPC indicating that there is deposition of aluminum."
             },
             {
                 "question_type": "Process-Oriented",
@@ -148,7 +148,7 @@
                 "question_type": "Process-Oriented",
                 "question": "What is the saturated dose time of the plasma step?",
                 "answer_type": "Paragraph",
-                "answer": "a\tThe saturated time is already around 5s, however the process soft-saturates."
+                "answer": "The saturated time is already around 5s, however the process soft-saturates."
             },
             {
                 "question_type": "Process-Oriented",

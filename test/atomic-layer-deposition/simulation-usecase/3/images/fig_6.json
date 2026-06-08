@@ -35,7 +35,7 @@
             {
                 "question_type": "Comparative/Trend",
                 "question": "Is the peak deposition rate dependent on process temperature?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "No. The peak deposition rate values are nearly identical (~1.6\u00d710\u207b\u2074 kg/m\u00b2\u00b7s) across all four temperatures; only the time to reach the peak changes."
             }
         ],

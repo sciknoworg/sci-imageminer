@@ -14,7 +14,7 @@
             {
                 "question_type": "Process-Oriented",
                 "question": "Does including rotational motion of H\u2082O in the calculation affect the rate constant of the reaction?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "Yes, including rotational motion decreases the rate constant compared to ignoring rotation."
             }
         ],

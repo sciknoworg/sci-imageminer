@@ -18,13 +18,13 @@
                 "question_type": "Structure-Property",
                 "question": "What is the ideal S/Mo ratio and how can this be explaned based on the oxidation state of molybdenum?",
                 "answer_type": "Paragraph",
-                "answer": "a\tThe ideal ratio is 2.0, as the oxidation state of Mo is +4 and that of sulfer is -2."
+                "answer": "The ideal ratio is 2.0, as the oxidation state of Mo is +4 and that of sulfer is -2."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "What is the saturated plasma exposure time?",
                 "answer_type": "Factoid",
-                "answer": "a\t120 s."
+                "answer": "120 s."
             }
         ],
         "b": [
@@ -32,13 +32,13 @@
                 "question_type": "Structure-Property",
                 "question": "Will annealing lead to high quality MoS?",
                 "answer_type": "Paragraph",
-                "answer": "b\tNo, this will not happen as the annealing fixes the S/Mo ratio 1.7, which should be 2.0 for high quality MoS2."
+                "answer": "No, this will not happen as the annealing fixes the S/Mo ratio 1.7, which should be 2.0 for high quality MoS2."
             },
             {
                 "question_type": "Comparative/Trend",
                 "question": "Why does the Cl atomic percentige drop?",
                 "answer_type": "Paragraph",
-                "answer": "b\tArgon ions bombard the surface and remove Cl from the surface together with sulfur."
+                "answer": "Argon ions bombard the surface and remove Cl from the surface together with sulfur."
             }
         ]
     },

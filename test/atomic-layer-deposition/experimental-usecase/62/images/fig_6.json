@@ -18,13 +18,13 @@
                 "question_type": "Process-Oriented",
                 "question": "How long is the required tantalum precursor exposure time for saturation?",
                 "answer_type": "Factoid",
-                "answer": "a\tThe required exposure time is 4 seconds."
+                "answer": "The required exposure time is 4 seconds."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "Why does the integrated intensity not go through the point (0,0)?",
                 "answer_type": "Paragraph",
-                "answer": "a\tIn the pure hydrogen plasma, there are also species with intensity at this wavelength. This is used as the reference for the intensity after precursor dose."
+                "answer": "In the pure hydrogen plasma, there are also species with intensity at this wavelength. This is used as the reference for the intensity after precursor dose."
             }
         ],
         "b": [
@@ -32,13 +32,13 @@
                 "question_type": "Process-Oriented",
                 "question": "How many TMA doses does it take to reach saturation?",
                 "answer_type": "Factoid",
-                "answer": "b\tIt takes 6 doses."
+                "answer": "It takes 6 doses."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "If the plasma chemistry would not have been known before hand, what would be the plasma chemistry based on these results?",
                 "answer_type": "Paragraph",
-                "answer": "b\tIn the data, peaks related to oxygen species are visible. This is a clear indication that the plasma is an oxygen plasma."
+                "answer": "In the data, peaks related to oxygen species are visible. This is a clear indication that the plasma is an oxygen plasma."
             }
         ]
     },

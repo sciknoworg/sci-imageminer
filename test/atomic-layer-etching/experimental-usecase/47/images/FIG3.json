@@ -14,7 +14,7 @@
             {
                 "question_type": "Process-Oriented",
                 "question": "Volatile product formation is necessary for ALE",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "Equilibrium composition calculated by minimizing the Gibbs\nfree energy of the system when Mo and NbCl5(g) are given as the\nstarting materials indicates that they can react to form nonvolatile\nMoCl3 and various lower niobium chlorides (Fig. 3). Below 150 \u00b0C,\nthe dominant Nb-containing species is solid NbCl4, and above this\ntemperature up to 400 \u00b0C, the reacted NbCl5 is mostly expected to\nform NbCl3 and Nb3Cl8. Once the oxidized surface layer has been\netched, these lower chlorides could form a layer that prevents\nfurther reactions."
             },
             {

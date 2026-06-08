@@ -29,7 +29,7 @@
             {
                 "question_type": "Comparative/Trend",
                 "question": "Does higher temperature always result in higher deposition rate during the water pulse?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "No. Higher temperature increases the peak rate and accelerates saturation, but after ~0.003s the deposition rate at 250\u00b0C falls below that at 200\u00b0C due to faster consumption of reactive surface sites."
             }
         ],

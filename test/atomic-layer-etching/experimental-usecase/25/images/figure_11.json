@@ -15,25 +15,25 @@
                 "question_type": "Process-Oriented",
                 "question": "At what temperature did the experiment occur?",
                 "answer_type": "Factoid",
-                "answer": "a\t207 degrees Celcius"
+                "answer": "207 degrees Celcius"
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "How many cycles are still required to fully remove the W layer?",
                 "answer_type": "Paragraph",
-                "answer": "a\tAfter the 50 cycles, around 185 angstrom is still present, the EPC is 2.56 angstrom per cycle, so still around 70 cycles are required."
+                "answer": "After the 50 cycles, around 185 angstrom is still present, the EPC is 2.56 angstrom per cycle, so still around 70 cycles are required."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "What is the thickness after 35 cycles of etching?",
                 "answer_type": "Paragraph",
-                "answer": "a\t225 angstrom."
+                "answer": "225 angstrom."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "What is the EPC in nm/cycle and does this rely relate to atomic layer etching?",
                 "answer_type": "Paragraph",
-                "answer": "a\tThe EPC is 0.256 nm/cycle and this does relate to ALE as the etch per cycle is not too high."
+                "answer": "The EPC is 0.256 nm/cycle and this does relate to ALE as the etch per cycle is not too high."
             }
         ]
     },

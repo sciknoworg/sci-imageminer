@@ -21,7 +21,7 @@
                 "question_type": "Process-Oriented",
                 "question": "Does the caption indicate that any of the HF molecules remained in an undissociated state?",
                 "answer_type": "Yes/No",
-                "answer": "No."
+                "answer": "No"
             },
             {
                 "question_type": "Application/Performance",

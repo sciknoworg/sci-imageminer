@@ -20,7 +20,7 @@
             {
                 "question_type": "Comparative/Trend",
                 "question": "Compare the simulation's accuracy at the center (r < 0.5 cm) versus the edge (r > 1.5 cm). If the goal is to optimize edge yield, is this model reliable?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "Yes, for edge yield optimization, the model is reliable as it tracks the depletion profile accurately. However, it is totally inadequate for predicting center-wafer behavior."
             },
             {
@@ -32,7 +32,7 @@
             {
                 "question_type": "Application/Performance",
                 "question": "Given the shown radial non-uniformity (~15-20% variation from center to edge), is this reactor condition suitable for fabricating large-area, high-performance GaN-based power transistors that require strict threshold voltage uniformity across the wafer?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "No, a 15-20% thickness variation would translate directly into an unacceptable variation in device electrical properties, such as threshold voltage and on-resistance, across the wafer. For power transistors, such non-uniformity would drastically reduce manufacturing yield, as devices from different radial positions would not meet the same specification."
             }
         ]

@@ -15,25 +15,25 @@
                 "question_type": "Process-Oriented",
                 "question": "What feature of ALD and ALE is shown in this graph and how can you see it?",
                 "answer_type": "Paragraph",
-                "answer": "a\tThe feature that is visible is self-limiting. This is visible by the formation of a plateau after 3000 mTorr s."
+                "answer": "The feature that is visible is self-limiting. This is visible by the formation of a plateau after 3000 mTorr s."
             },
             {
                 "question_type": "Comparative/Trend",
                 "question": "What is the saturated etch rate of tungsten?",
                 "answer_type": "Factoid",
-                "answer": "a\t2.4 angstrom per cycle"
+                "answer": "2.4 angstrom per cycle"
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "What influence has the O2/O3 ratio on the total required exposure time?",
                 "answer_type": "Paragraph",
-                "answer": "a\tAs O3 is usually more reactive than O2, a higher fraction of O3 is likely to result in a decrease in required exposure time."
+                "answer": "As O3 is usually more reactive than O2, a higher fraction of O3 is likely to result in a decrease in required exposure time."
             },
             {
                 "question_type": "Comparative/Trend",
                 "question": "Is the shown trend linear?",
                 "answer_type": "Yes/No",
-                "answer": "a\tNo"
+                "answer": "No"
             }
         ]
     },

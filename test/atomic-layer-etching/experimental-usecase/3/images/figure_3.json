@@ -30,7 +30,7 @@
                 "question_type": "Structure-Property",
                 "question": "Does the chlorine adsorption change the peak ratios of the Mo 3d peak?",
                 "answer_type": "Paragraph",
-                "answer": "a\tThis only happens slightly, however the S-Mo-S peak does seem to be removed more, indicating that the sulfur is no longer bonded to Mo."
+                "answer": "This only happens slightly, however the S-Mo-S peak does seem to be removed more, indicating that the sulfur is no longer bonded to Mo."
             }
         ],
         "c": [
@@ -38,7 +38,7 @@
                 "question_type": "Structure-Property",
                 "question": "Which atoms are selectively etched?",
                 "answer_type": "Paragraph",
-                "answer": "c\tThe sulfur peaks decrease whereas the molybdenum peaks remain constant, so the sulfur is selectively etched."
+                "answer": "The sulfur peaks decrease whereas the molybdenum peaks remain constant, so the sulfur is selectively etched."
             }
         ],
         "e": [
@@ -46,7 +46,7 @@
                 "question_type": "Process-Oriented",
                 "question": "Why do the peak intensities increase upon longer plasma exposure after 60s?",
                 "answer_type": "Paragraph",
-                "answer": "e\tThe intensities of a bilayer MoS2 are equal to those of a Monolayer, so the should converge back to the pristine one."
+                "answer": "The intensities of a bilayer MoS2 are equal to those of a Monolayer, so the should converge back to the pristine one."
             }
         ],
         "b": [
@@ -54,7 +54,7 @@
                 "question_type": "Process-Oriented",
                 "question": "Is the chlorine selectively etched?",
                 "answer_type": "Paragraph",
-                "answer": "b\tAll peaks are equally removed by the argon plasma, so no this is not the case."
+                "answer": "All peaks are equally removed by the argon plasma, so no this is not the case."
             }
         ]
     },

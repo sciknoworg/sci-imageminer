@@ -42,7 +42,7 @@
                 "question_type": "Comparative/Trend",
                 "question": "What is the measured etch per cycle according to the TEM images?",
                 "answer_type": "Paragraph",
-                "answer": "b\tThe EPC is around 12/40 = 0.3 nm/cycle."
+                "answer": "The EPC is around 12/40 = 0.3 nm/cycle."
             },
             {
                 "question_type": "Application/Performance",
@@ -80,7 +80,7 @@
                 "answer_type": "Factoid",
                 "answer": "40 cycles of alternating SF\u2086 plasma and TMA pulses."
             },
-                {
+            {
                 "question_type": "Comparative/Trend",
                 "question": "What is the thickness  before and after ALE etching?",
                 "answer_type": "Paragraph",
@@ -122,13 +122,13 @@
                 "question_type": "Process-Oriented",
                 "question": "Was the deposition of alox fully conformal?",
                 "answer_type": "Paragraph",
-                "answer": "a\tNot all measurements along the trench show the same thickness where the biggest difference is 1.7 nm, so not fully conformal."
+                "answer": "Not all measurements along the trench show the same thickness where the biggest difference is 1.7 nm, so not fully conformal."
             },
             {
                 "question_type": "Application/Performance",
                 "question": "What is the main reason there is a color difference between the silicon substrate and the deposited aluminum oxide?",
                 "answer_type": "Paragraph",
-                "answer": "a\tThe main reason for this difference is the different densities of the materials."
+                "answer": "The main reason for this difference is the different densities of the materials."
             },
             {
                 "question_type": "Structure-Property",

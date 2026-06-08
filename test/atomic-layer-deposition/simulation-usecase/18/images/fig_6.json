@@ -32,7 +32,7 @@
             {
                 "question_type": "Application/Performance",
                 "question": "The model accurately reproduces experimental data across all three regimes. Is this validated model suitable for determining the optimal temperature window (e.g., 900-1100 K) to achieve both high growth rate and good thickness uniformity in a production reactor?",
-                "answer_type": "Yes/No",
+                "answer_type": "Paragraph",
                 "answer": "Yes.The model's proven accuracy across regimes allows it to identify the diffusion-limited plateau (near 900 K) as the optimal window. In this regime, the growth rate is high and, most importantly, insensitive to minor temperature fluctuations, which is the key to achieving excellent thickness uniformity across a production wafer. The model reliably defines this window, avoiding the inefficient kinetic and problematic high-T regimes."
             }
         ]

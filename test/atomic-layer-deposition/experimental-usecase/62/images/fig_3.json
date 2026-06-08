@@ -18,13 +18,13 @@
                 "question_type": "Comparative/Trend",
                 "question": "How can you tell that there are mostly molecular species coming from the ligands?",
                 "answer_type": "Paragraph",
-                "answer": "a\tThe spectrum related to the plasma after the TMA dose shows a broad range of emissions. Such a range usually denoted emission from molecular species."
+                "answer": "The spectrum related to the plasma after the TMA dose shows a broad range of emissions. Such a range usually denoted emission from molecular species."
             },
             {
                 "question_type": "Comparative/Trend",
                 "question": "At what wavelength can a hydrogen line be found?",
                 "answer_type": "Factoid",
-                "answer": "a\tA hydrogen line can be found at 660 nm."
+                "answer": "A hydrogen line can be found at 660 nm."
             }
         ],
         "b": [
@@ -32,13 +32,13 @@
                 "question_type": "Process-Oriented",
                 "question": "Based on this graph, what is the saturated oxygen plasma exposure time and how can you tell?",
                 "answer_type": "Paragraph",
-                "answer": "b\tThe saturated plasma exposure time is 2 s. At this time there is no more intensity measured of ligand related species."
+                "answer": "The saturated plasma exposure time is 2 s. At this time there is no more intensity measured of ligand related species."
             },
             {
                 "question_type": "Process-Oriented",
                 "question": "What atoms are likely in the ligands based on the graph?",
                 "answer_type": "Paragraph",
-                "answer": "b\tThe ligands are composed of C and H atoms."
+                "answer": "The ligands are composed of C and H atoms."
             }
         ]
     },
