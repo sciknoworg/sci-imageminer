@@ -1,0 +1,4 @@
+# Local Hugging Face dataset preparation artifacts from Codex.
+# These are intentionally kept out of the GitHub repository.
+__pycache__/
+/hf/

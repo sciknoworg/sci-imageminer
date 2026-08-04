@@ -122,3 +122,46 @@ You are free to use, modify, and redistribute the annotations with proper attrib
 Images were extracted from published scientific articles. Copyright remains with the original authors and/or publishers.
 
 Images are provided for research purposes only. Users are responsible for complying with the licensing terms of the original publications.
+
+## 📖 Citation
+
+The **Sci-ImageMiner project vision** is described in the following working paper, pre-released on Zenodo. Please cite this paper if you find the project useful:
+
+```bibtex
+@misc{d_souza_2025_17130928,
+  author       = {D'Souza, Jennifer},
+  title        = {A Pathway to General-Purpose Scientific AI:
+                   Multimodal Comprehension of Scientific Images},
+  month        = sep,
+  year         = 2025,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.17130928},
+  url          = {https://doi.org/10.5281/zenodo.17130928},
+}
+```
+
+Sci-ImageMiner was also featured as the **[ICDAR 2026 Competition on Information Extraction from Atomic Layer Deposition/Etching (ALD/E) Scientific Figures](https://sites.google.com/view/sci-imageminer/)**, organized as part of the [ICDAR 2026 competitions](https://icdar2026.org/index.php/competitions/). Please cite the competition report when referring to the benchmark, dataset, competition, or associated information-extraction tasks:
+
+```bibtex
+@article{ahmed2026icdar,
+  title   = {ICDAR 2026 Competition on Information Extraction from
+             Atomic Layer Deposition/Etching (ALD/E) Scientific Figures},
+  author  = {Ahmed, Fahad and Auer, S{\"o}ren and D'Souza, Jennifer},
+  journal = {arXiv preprint arXiv:2607.26848},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2607.26848}
+}
+```
+
+
+## ⭐ Acknowledgements  
+
+Within **Sci-ImageMiner**, the development of the **expert-annotated ALD/E-ImageMiner benchmark resource** was funded by:
+
+- <img src="assets/nfdi4ds-logo.png" alt="NFDI4DataScience Logo" width="200" align="middle"/>  
+
+  The [NFDI4DataScience](https://www.nfdi4datascience.de/) initiative, funded by the **German Research Foundation (DFG, Grant ID: 460234259)** under the *[Speedboat Annotation Project](https://www.nfdi4datascience.de/community/speed-boat-projects/)* funding scheme.  
+
+This research endeavor in conducted in the context of the following project:
+
+- The *AI-Aware Pathways to Sustainable Semiconductor Process and Manufacturing Technologies (AWASES)* initiative (Mackus et al., 2024), funded by **Merck and Intel**, with collaboration between **Eindhoven University**, **Leibniz University Hannover’s L3S Research Centre**, and **University of Warwick**. AWASES hosts three fully funded PhD positions and supports advances in **generative AI, multimodal models, and FAIR scientific knowledge graph construction**.  
