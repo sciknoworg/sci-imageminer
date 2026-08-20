@@ -22,6 +22,12 @@
                 "question": "Does the formation of chemisorbed Pt(acac)2 species on hydroxylated graphene oxide involve intermediate steps?",
                 "answer_type": "Paragraph",
                 "answer": "Yes. DFT calculations indicate that chemisorption proceeds through stable intermediate species, including the abstraction of hydroxyl groups, which affects the overall binding process."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why might Pt(acac)2 be unsuitable for practical ALD on graphene oxide surfaces?",
+                "answer_type": "Paragraph",
+                "answer": "Pt(acac)2 chemisorption is hindered on all types of GO due to high endothermicity, large activation barriers, and formation of very stable intermediate species where Pt does not remain bonded to the surface. On epoxydated surfaces, the chemisorbed species is energetically unfavorable, and on hydroxylated surfaces, intermediates stabilize Pt away from the surface. This prevents efficient nucleation and deposition, limiting its practical use in ALD."
             }
         ],
         "b": [
@@ -30,14 +36,6 @@
                 "question": "How does the stability of chemisorbed Pt species differ between epoxydated and hydroxylated graphene oxide?",
                 "answer_type": "Factoid",
                 "answer": "Chemisorbed Pt(acac)2 on hydroxylated GO is more stable (\u0394Ec = \u22124.38 eV) compared to epoxydated GO (\u0394Ec = \u22120.48 eV)."
-            }
-        ],
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "Why might Pt(acac)2 be unsuitable for practical ALD on graphene oxide surfaces?",
-                "answer_type": "Paragraph",
-                "answer": "Pt(acac)2 chemisorption is hindered on all types of GO due to high endothermicity, large activation barriers, and formation of very stable intermediate species where Pt does not remain bonded to the surface. On epoxydated surfaces, the chemisorbed species is energetically unfavorable, and on hydroxylated surfaces, intermediates stabilize Pt away from the surface. This prevents efficient nucleation and deposition, limiting its practical use in ALD."
             }
         ],
         "c": [

@@ -10,31 +10,25 @@
         "a": "| Deposition Temperature (\u00b0C)|O Content (at-%)|F Content (at-%)|\n|----------------------------|----------------|----------------|\n|~225|~4.8|~1.2|\n|~250|~4.5|~1.0|\n|~275|~5.2|~0.2|\n|~300|~4.0|~0.0|\n|~325|~3.5|~0.8|\n|~350|~2.5\u20133.0|~0.2|\n|~375|~3.2|~0.7|\n|~400|~3.8|~1.0|"
     },
     "vqa": {
-        "d": [
+        "a": [
             {
                 "question_type": "Application/Performance",
                 "question": "Why is the observed reduction of fluorine impurities at mid-range temperatures important for the performance of WN\u2093C\u1d67 diffusion barrier films?",
                 "answer_type": "Paragraph",
                 "answer": "Lower fluorine levels indicate more effective ligand removal and better reduction chemistry, which leads to denser, lower-resistivity films with improved electrical and chemical stability. Since fluorine can negatively affect conductivity and barrier integrity, achieving near-zero F content at 300\u2013350\u00b0C enhances the film\u2019s suitability for use in advanced interconnect structures where purity and stability are critical."
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "How do the impurity levels of fluorine and oxygen compare between low temperatures (~225\u2013250\u00b0C) and mid-range temperatures (~300\u2013350\u00b0C)?",
                 "answer_type": "Factoid",
                 "answer": "Oxygen remains relatively high (4\u20135 at.%) at all temperatures, while fluorine drops from around 1.0\u20131.2 at.% at low temperatures to nearly 0 at mid-range temperatures."
-            }
-        ],
-        "a": [
+            },
             {
                 "question_type": "Process-Oriented",
                 "question": "How does deposition temperature influence the fluorine and oxygen impurity concentrations in the WN\u2093C\u1d67 films?",
                 "answer_type": "Paragraph",
                 "answer": "Yes, impurity concentrations change with temperature, with fluorine decreasing significantly at optimal ALD temperatures."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "Which impurity-related features shown in the plot are most relevant for assessing film quality at different deposition temperatures?",

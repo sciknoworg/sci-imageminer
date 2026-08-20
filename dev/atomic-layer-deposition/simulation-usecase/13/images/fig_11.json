@@ -27,17 +27,13 @@
                 "question": "How does the reactivity of MeCpPtMe3 compare to Pt(acac)2 across different graphene surfaces?",
                 "answer_type": "Factoid",
                 "answer": "MeCpPtMe3 shows higher reactivity and more favorable chemisorption than Pt(acac)2 on both bare and functionalized graphene surfaces."
-            }
-        ],
-        "d": [
+            },
             {
                 "question_type": "Application/Performance",
                 "question": "How do the insights from these chemisorption mechanisms guide the practical ALD deposition of Pt films?",
                 "answer_type": "Paragraph",
                 "answer": "Understanding the chemisorption mechanisms allows optimization of ALD conditions for uniform and high-quality Pt deposition. For example, the higher reactivity of MeCpPtMe3 on graphene oxide suggests that mild surface oxidation (e.g., O\u2082 plasma treatment) can enhance nucleation. This knowledge helps achieve conformal ultrathin Pt films, critical for applications in catalysis, microreactors, and fuel cells."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "Which structural features of the graphene surface influence the chemisorption pathways of Pt precursors?",

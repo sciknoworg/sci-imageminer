@@ -19,6 +19,12 @@
                 "question": "Does the minimum-energy path indicate that MeCpPtMe3 chemisorption on graphene oxide is thermodynamically favorable?",
                 "answer_type": "Paragraph",
                 "answer": "Yes. The computed paths show an energetically downhill transition from physisorbed to chemisorbed states."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is graphene oxide considered a suitable substrate for Pt atomic layer deposition using MeCpPtMe3?",
+                "answer_type": "Paragraph",
+                "answer": "Graphene oxide provides thermodynamically favorable and kinetically accessible sites for MeCpPtMe3 chemisorption due to its surface oxygen functionalities. The low activation barriers and highly exothermic reaction pathways, regardless of whether the GO is epoxydated, hydroxylated, or a mixture, allow for stable Pt adsorption. Uniform functionalization further ensures continuous and controllable Pt loading, making GO a promising substrate for ALD applications."
             }
         ],
         "b": [
@@ -27,17 +33,7 @@
                 "question": "How does the chemisorption energy of MeCpPtMe3 compare between epoxydated and hydroxylated graphene oxide?",
                 "answer_type": "Factoid",
                 "answer": "Epoxydated graphene oxide exhibits slightly stronger chemisorption (\u22124.24 eV) than hydroxylated graphene oxide (\u22123.50 eV)."
-            }
-        ],
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "Why is graphene oxide considered a suitable substrate for Pt atomic layer deposition using MeCpPtMe3?",
-                "answer_type": "Paragraph",
-                "answer": "Graphene oxide provides thermodynamically favorable and kinetically accessible sites for MeCpPtMe3 chemisorption due to its surface oxygen functionalities. The low activation barriers and highly exothermic reaction pathways, regardless of whether the GO is epoxydated, hydroxylated, or a mixture, allow for stable Pt adsorption. Uniform functionalization further ensures continuous and controllable Pt loading, making GO a promising substrate for ALD applications."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "What surface features of graphene oxide influence the reaction barrier and energy of MeCpPtMe3 adsorption?",

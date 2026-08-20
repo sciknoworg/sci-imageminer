@@ -19,6 +19,12 @@
                 "question": "Does the binding of Pt(acac)\u2082 on graphene oxide proceed through a physisorbed intermediate before chemisorption?",
                 "answer_type": "Paragraph",
                 "answer": "Yes. The minimum-energy paths show that the precursor first physisorbs on the surface before transitioning to the chemisorbed state."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Based on the energy profiles, is Pt(acac)\u2082 suitable for efficient Pt deposition on graphene oxide surfaces?",
+                "answer_type": "Paragraph",
+                "answer": "The energy profiles indicate that Pt(acac)\u2082 chemisorption is significantly hindered on both epoxydated and hydroxylated GO. High barriers and the formation of stable intermediates, particularly on hydroxylated GO, make the process energetically less favorable. Consequently, Pt(acac)\u2082 is not ideal for practical Pt nucleation or ALD on graphene oxide surfaces."
             }
         ],
         "b": [
@@ -27,17 +33,7 @@
                 "question": "How do the physisorption energies of Pt(acac)\u2082 differ between epoxydated and hydroxylated graphene oxide?",
                 "answer_type": "Factoid",
                 "answer": "The physisorption energy is \u22121.96 eV for epoxydated GO and \u22120.86 eV for hydroxylated GO, indicating stronger initial adsorption on epoxydated surfaces."
-            }
-        ],
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "Based on the energy profiles, is Pt(acac)\u2082 suitable for efficient Pt deposition on graphene oxide surfaces?",
-                "answer_type": "Paragraph",
-                "answer": "The energy profiles indicate that Pt(acac)\u2082 chemisorption is significantly hindered on both epoxydated and hydroxylated GO. High barriers and the formation of stable intermediates, particularly on hydroxylated GO, make the process energetically less favorable. Consequently, Pt(acac)\u2082 is not ideal for practical Pt nucleation or ALD on graphene oxide surfaces."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "What effect does the type of oxygen functionality on graphene oxide have on the energy profile of Pt(acac)\u2082 binding?",

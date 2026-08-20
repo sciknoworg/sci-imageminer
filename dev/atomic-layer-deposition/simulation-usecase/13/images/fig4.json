@@ -30,9 +30,7 @@
                 "question": "Which precursor shows a more stable physisorbed state on pristine graphene, MeCpPtMe\u2083 or Pt(acac)\u2082?",
                 "answer_type": "Factoid",
                 "answer": "Pt(acac)\u2082 shows the more stable physisorbed state, with a physisorption energy of \u22121.15 eV."
-            }
-        ],
-        "d": [
+            },
             {
                 "question_type": "Application/Performance",
                 "question": "How do the calculated minimum energy paths affect the suitability of pristine graphene as a substrate for Pt ALD using MeCpPtMe\u2083 or Pt(acac)\u2082?",

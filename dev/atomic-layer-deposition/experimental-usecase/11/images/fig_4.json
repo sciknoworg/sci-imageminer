@@ -13,14 +13,6 @@
         "b": ""
     },
     "vqa": {
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "Why is the lack of copper pitting in WN\u2093C\u1d67 deposition important for its use in semiconductor metallization?",
-                "answer_type": "Paragraph",
-                "answer": "The absence of copper pitting indicates that WN\u2093C\u1d67 films prevent corrosive by-products, such as HF and HCl, from forming during deposition. This chemical stability is essential in semiconductor applications because surface damage severely compromises barrier integrity, adhesion, and overall device reliability. WN\u2093C\u1d67\u2019s compatibility with copper therefore makes it a superior candidate for diffusion barrier layers in advanced interconnect structures."
-            }
-        ],
         "b": [
             {
                 "question_type": "Comparative/Trend",
@@ -35,9 +27,13 @@
                 "question": "Does the choice of tungsten-based ALD film (W\u2093N vs. WN\u2093C\u1d67) affect the copper surface during deposition?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "c": [
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is the lack of copper pitting in WN\u2093C\u1d67 deposition important for its use in semiconductor metallization?",
+                "answer_type": "Paragraph",
+                "answer": "The absence of copper pitting indicates that WN\u2093C\u1d67 films prevent corrosive by-products, such as HF and HCl, from forming during deposition. This chemical stability is essential in semiconductor applications because surface damage severely compromises barrier integrity, adhesion, and overall device reliability. WN\u2093C\u1d67\u2019s compatibility with copper therefore makes it a superior candidate for diffusion barrier layers in advanced interconnect structures."
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "What structural features in the SEM images indicate differences in chemical compatibility with copper?",
