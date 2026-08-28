@@ -140,16 +140,21 @@ The **Sci-ImageMiner project vision** is described in the following working pape
 }
 ```
 
-Sci-ImageMiner was also featured as the **[ICDAR 2026 Competition on Information Extraction from Atomic Layer Deposition/Etching (ALD/E) Scientific Figures](https://sites.google.com/view/sci-imageminer/)**, organized as part of the [ICDAR 2026 competitions](https://icdar2026.org/index.php/competitions/). Please cite the competition report when referring to the benchmark, dataset, competition, or associated information-extraction tasks:
+Sci-ImageMiner was also featured as the **[ICDAR 2026 Competition on Information Extraction from Atomic Layer Deposition/Etching (ALD/E) Scientific Figures](https://sites.google.com/view/sci-imageminer/)**, organized as part of the [ICDAR 2026 competitions](https://icdar2026.org/index.php/competitions/). Please cite the official proceedings report when referring to the benchmark, dataset, competition, or associated information-extraction tasks:
 
 ```bibtex
-@article{ahmed2026icdar,
-  title   = {ICDAR 2026 Competition on Information Extraction from
-             Atomic Layer Deposition/Etching (ALD/E) Scientific Figures},
-  author  = {Ahmed, Fahad and Auer, S{\"o}ren and D'Souza, Jennifer},
-  journal = {arXiv preprint arXiv:2607.26848},
-  year    = {2026},
-  url     = {https://arxiv.org/abs/2607.26848}
+@InProceedings{10.1007/978-3-032-36042-7_19,
+  author    = {Ahmed, Fahad and D' Souza, Jennifer and Auer, S{\"o}ren},
+  editor    = {Fink, Gernot A. and Forn{\'e}s, Alicia and Kise, Koichi and Lopresti, Daniel},
+  title     = {ICDAR 2026 Competition on Information Extraction from
+               Atomic Layer Deposition/Etching (ALD/E) Scientific Figures},
+  booktitle = {Document Analysis and Recognition -- ICDAR 2026},
+  year      = {2027},
+  publisher = {Springer Nature Switzerland},
+  address   = {Cham},
+  pages     = {319--335},
+  doi       = {10.1007/978-3-032-36042-7_19},
+  url       = {https://doi.org/10.1007/978-3-032-36042-7_19}
 }
 ```
 
@@ -164,4 +169,4 @@ Within **Sci-ImageMiner**, the development of the **expert-annotated ALD/E-Image
 
 This research endeavor in conducted in the context of the following project:
 
-- The *AI-Aware Pathways to Sustainable Semiconductor Process and Manufacturing Technologies (AWASES)* initiative (Mackus et al., 2024), funded by **Merck and Intel**, with collaboration between **Eindhoven University**, **Leibniz University Hannover’s L3S Research Centre**, and **University of Warwick**. AWASES hosts three fully funded PhD positions and supports advances in **generative AI, multimodal models, and FAIR scientific knowledge graph construction**.  
+- The *AI-Aware Pathways to Sustainable Semiconductor Process and Manufacturing Technologies (AWASES)* initiative (Mackus et al., 2024), funded by **Merck and Intel**, with collaboration between **Eindhoven University**, **Leibniz University Hannover’s L3S Research Centre**, and **University of Warwick**. AWASES hosts three fully funded PhD positions and supports advances in **generative AI, multimodal models, and FAIR scientific knowledge graph construction**.

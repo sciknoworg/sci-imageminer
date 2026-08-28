@@ -24,3 +24,30 @@ preferred-citation:
   url: "https://doi.org/10.5281/zenodo.17130928"
   year: 2025
   month: 9
+
+references:
+  - type: conference-paper
+    authors:
+      - family-names: "Ahmed"
+        given-names: "Fahad"
+      - family-names: "D' Souza"
+        given-names: "Jennifer"
+      - family-names: "Auer"
+        given-names: "Sören"
+    editors:
+      - family-names: "Fink"
+        given-names: "Gernot A."
+      - family-names: "Fornés"
+        given-names: "Alicia"
+      - family-names: "Kise"
+        given-names: "Koichi"
+      - family-names: "Lopresti"
+        given-names: "Daniel"
+    title: "ICDAR 2026 Competition on Information Extraction from Atomic Layer Deposition/Etching (ALD/E) Scientific Figures"
+    collection-title: "Document Analysis and Recognition -- ICDAR 2026"
+    publisher: "Springer Nature Switzerland"
+    doi: "10.1007/978-3-032-36042-7_19"
+    url: "https://doi.org/10.1007/978-3-032-36042-7_19"
+    year: 2027
+    start: 319
+    end: 335
