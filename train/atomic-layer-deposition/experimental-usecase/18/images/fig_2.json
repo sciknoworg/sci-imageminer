@@ -13,31 +13,25 @@
         "b": "| Time (s) | \u0394 (\u00b0) |\n|---|---|\n| 100 | ~144 |\n| 200 | ~143 |\n| 300 | ~141 |\n| 400 | ~140 |\n| 500 | ~139 |\n| 550 | ~138 |"
     },
     "vqa": {
-        "d": [
+        "b": [
             {
                 "question_type": "Application/Performance",
                 "question": "How does the in-situ ellipsometry data in this figure support optimization and control of the ZrN PEALD process?",
                 "answer_type": "Paragraph",
                 "answer": "The in-situ ellipsometry measurements enable real-time monitoring of ZrN film growth, allowing direct observation of cycle-resolved thickness changes and confirmation of self-limiting behavior. This capability supports precise control of growth per cycle, rapid identification of saturation conditions, and reliable optimization of PEALD parameters for uniform, ultrathin ZrN films."
-            }
-        ],
-        "b": [
+            },        
             {
                 "question_type": "Comparative/Trend",
                 "question": "What change is observed in the ellipsometric parameters after 10 ZrN PEALD cycles compared to the blank Si substrate?",
                 "answer_type": "Factoid",
                 "answer": "Both \u03a8 and \u0394 exhibit systematic spectral shifts after 10 cycles, indicating the formation of an ultrathin ZrN film."
-            }
-        ],
-        "a": [
+            },
             {
                 "question_type": "Process-Oriented",
                 "question": "Does the figure provide in-situ evidence of self-limiting, cycle-by-cycle ZrN growth during PEALD?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "Which ellipsometric features shown in the figure are directly linked to ZrN film growth?",

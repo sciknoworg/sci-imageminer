@@ -16,20 +16,18 @@
         "c": "| Substrate velocity (cm/s) | [DEZ] at substrate surface (mol/m\u00b3) |\n|---|---|\n| 8 | 1.0 |\n| 8 | 0.9 |\n| 8 | 0.8 |\n| 8 | 0.7 |\n| 8 | 0.6 |"
     },
     "vqa": {
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "Why is controlling substrate velocity critical for achieving uniform spatial ALD growth?",
-                "answer_type": "Paragraph",
-                "answer": "Substrate velocity directly determines precursor residence time and surface exposure uniformity in spatial ALD. Excessively high velocities limit precursor adsorption and prevent surface saturation, while low velocities may lead to overdosing and parasitic reactions. Optimizing substrate speed ensures self-limited surface chemistry, uniform film thickness, and stable high-throughput deposition."
-            }
-        ],
         "a": [
             {
                 "question_type": "Process-Oriented",
                 "question": "Does substrate velocity influence the DEZ precursor distribution at the substrate surface in spatial ALD?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is controlling substrate velocity critical for achieving uniform spatial ALD growth?",
+                "answer_type": "Paragraph",
+                "answer": "Substrate velocity directly determines precursor residence time and surface exposure uniformity in spatial ALD. Excessively high velocities limit precursor adsorption and prevent surface saturation, while low velocities may lead to overdosing and parasitic reactions. Optimizing substrate speed ensures self-limited surface chemistry, uniform film thickness, and stable high-throughput deposition."
             }
         ],
         "c": [

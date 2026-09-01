@@ -11,19 +11,8 @@
         "c": "shows the ligand adopting the \u201cup\u201d orientation. These snapshots highlight how          proton orientation on nitrogen changes relative to the surface during rotation."
     },
     "data_extraction": {
-        "a": "",
-        "b": "",
-        "c": ""
     },
     "vqa": {
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "Why is understanding ligand rotation and proton orientation important in modeling ALD/PEALD surface reactions?",
-                "answer_type": "Paragraph",
-                "answer": "Understanding the rotation of protonated ligands around surface-bound hafnium atoms is crucial because such motions directly influence the accessibility of reactive sites and the progression of surface reactions during ALD and PEALD processes. Proton orientation affects hydrogen bonding, ligand stability, and the likelihood of ligand exchange or elimination reactions, all of which determine growth-per-cycle, film uniformity, and the formation of by-products. Therefore, visualizing transition states and orientation changes helps clarify the mechanistic pathways that control thin-film deposition behavior at the atomic level."
-            }
-        ],
         "b": [
             {
                 "question_type": "Comparative/Trend",
@@ -38,6 +27,12 @@
                 "question": "Does the figure depict a rotational process of the protonated ligand around the hafnium center on the HfO\u2082 surface?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is understanding ligand rotation and proton orientation important in modeling ALD/PEALD surface reactions?",
+                "answer_type": "Paragraph",
+                "answer": "Understanding the rotation of protonated ligands around surface-bound hafnium atoms is crucial because such motions directly influence the accessibility of reactive sites and the progression of surface reactions during ALD and PEALD processes. Proton orientation affects hydrogen bonding, ligand stability, and the likelihood of ligand exchange or elimination reactions, all of which determine growth-per-cycle, film uniformity, and the formation of by-products. Therefore, visualizing transition states and orientation changes helps clarify the mechanistic pathways that control thin-film deposition behavior at the atomic level."
             }
         ],
         "c": [

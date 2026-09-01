@@ -16,25 +16,19 @@
                 "question": "Does the figure show adsorption energies of TiCl\u2084 calculated using both single-level and ONIOM hybrid model chemistries?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "Which computational method most closely matches the ONIOM(CCSD(T)) reference for TiCl\u2084 adsorption?",
                 "answer_type": "Factoid",
                 "answer": "ONIOM-MP2 and single-level MP2 closely match ONIOM(CCSD(T)) results for Q\u2090d\u209b(TiCl\u2084)."
-            }
-        ],
-        "d": [
+            },
             {
                 "question_type": "Application/Performance",
                 "question": "How does the comparison of Q\u2090d\u209b(TiCl\u2084) across different model chemistries inform the selection of computational methods in this study?",
                 "answer_type": "Paragraph",
                 "answer": "The comparison shows that some methods, like ONIOM(B3LYP), significantly underestimate adsorption energies, while MP2-based approaches (ONIOM-MP2 or single-level MP2) provide results much closer to the high-accuracy ONIOM(CCSD(T)) reference. This informs the selection of MP2 for calculating heats of adsorption in the study, balancing computational efficiency with reliability. By validating trends across multiple methods, the study ensures that the chosen computational approach accurately predicts adsorption energetics, which is crucial for modeling TiCl\u2084 reactions on the SiO\u2082 surface."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "What key observations are highlighted in Figure 3 regarding the adsorption energies of TiCl\u2084?",

@@ -16,25 +16,19 @@
                 "question": "Does the ONIOM model separate atoms into high-level and low-level regions for computational efficiency?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "Which computational methods are used for the high-level region of the ONIOM cluster?",
                 "answer_type": "Factoid",
                 "answer": "B3LYP/6-311++G(2df,2p), MP2/6-311++G(2df,2p), and CCSD(T)/6-311++G(2df,2p)."
-            }
-        ],
-        "d": [
+            },
             {
                 "question_type": "Application/Performance",
                 "question": "How does the ONIOM cluster model help in predicting reaction energetics for the ALD process?",
                 "answer_type": "Paragraph",
                 "answer": "The ONIOM model allows selective application of computationally expensive high-level methods to the atoms that are most critical for reaction energetics, such as the substrate and TiCl\u2084 precursor. By approximating the remaining atoms at a lower level, the method reduces computational cost without sacrificing accuracy in the key reaction region. This approach ensures reliable predictions of adsorption and reaction energies, guiding the understanding of reaction mechanisms and informing subsequent computational or experimental studies in ALD TiO\u2082 deposition."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "What are the key features of the ONIOM cluster model shown in Figure 2?",

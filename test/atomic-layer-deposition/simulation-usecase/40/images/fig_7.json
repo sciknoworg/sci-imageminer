@@ -13,23 +13,13 @@
         "b": "| Growth per cycle (nm/cycle) | Mass density (g/cm^3) |\n|-----------------------------|-----------------------|\n| 0.15                        | 5.25                  |\n| 0.16                        | 5.36                  |\n| 0.17                        | 5.41                  |\n| 0.20                        | 5.42                  |\n| 0.25                        | 5.41                  |\n| 0.30                        | 5.39                  |\n| 0.33                        | 5.35                  |"
     },
     "vqa": {
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "Why is identifying the optimal growth-per-cycle regime important for SALD-deposited ZnO films?",
-                "answer_type": "Paragraph",
-                "answer": "Identifying the optimal growth-per-cycle regime is critical because it allows deposition of ZnO films with maximum mass density and improved material quality. Operating outside this regime may lead to porous or less dense films, which can degrade electrical, optical, and barrier properties. Optimizing growth conditions therefore enhances film performance while maintaining the high-throughput advantages of SALD for scalable manufacturing."
-            }
-        ],
         "a": [
             {
                 "question_type": "Process-Oriented",
                 "question": "Does changing the substrate velocity during SALD deposition affect the growth conditions of ZnO films?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "Which structural features in the XRR data indicate changes in ZnO film density?",
@@ -43,6 +33,12 @@
                 "question": "How does ZnO film mass density change with increasing growth per cycle?",
                 "answer_type": "Factoid",
                 "answer": "The mass density increases with growth per cycle up to an intermediate maximum and then slightly decreases at higher growth rates."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is identifying the optimal growth-per-cycle regime important for SALD-deposited ZnO films?",
+                "answer_type": "Paragraph",
+                "answer": "Identifying the optimal growth-per-cycle regime is critical because it allows deposition of ZnO films with maximum mass density and improved material quality. Operating outside this regime may lead to porous or less dense films, which can degrade electrical, optical, and barrier properties. Optimizing growth conditions therefore enhances film performance while maintaining the high-throughput advantages of SALD for scalable manufacturing."
             }
         ]
     },

@@ -13,14 +13,6 @@
         "b": ""
     },
     "vqa": {
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "How does the exposure\u2013GPC relationship shown in this figure guide optimization of spatial ALD for efficient film growth?",
-                "answer_type": "Paragraph",
-                "answer": "The figure identifies an optimal precursor exposure range where the surface is fully saturated and growth per cycle reaches its maximum without inducing precursor condensation or wastage. Operating within this regime enables efficient material utilization, predictable thickness control, and high-throughput spatial ALD, while avoiding excess precursor consumption that does not improve film growth or quality."
-            }
-        ],
         "a": [
             {
                 "question_type": "Process-Oriented",
@@ -29,20 +21,24 @@
                 "answer": "Yes"
             }
         ],
-        "c": [
-            {
-                "question_type": "Structure-Property",
-                "question": "Which process-related features shown in the figure control the observed GPC behavior in spatial ALD?",
-                "answer_type": "List",
-                "answer": "Degree of surface saturation by DEZ molecules, Langmuir-type adsorption kinetics, Precursor exposure time relative to substrate velocity, Onset of precursor wastage at saturation"
-            }
-        ],
         "b": [
             {
                 "question_type": "Comparative/Trend",
                 "question": "How does the growth per cycle change as the N\u2082 bubbling flow through DEZ increases?",
                 "answer_type": "Factoid",
                 "answer": "The growth per cycle increases rapidly at low DEZ flow rates and gradually saturates at higher flows."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which process-related features shown in the figure control the observed GPC behavior in spatial ALD?",
+                "answer_type": "List",
+                "answer": "Degree of surface saturation by DEZ molecules, Langmuir-type adsorption kinetics, Precursor exposure time relative to substrate velocity, Onset of precursor wastage at saturation"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How does the exposure\u2013GPC relationship shown in this figure guide optimization of spatial ALD for efficient film growth?",
+                "answer_type": "Paragraph",
+                "answer": "The figure identifies an optimal precursor exposure range where the surface is fully saturated and growth per cycle reaches its maximum without inducing precursor condensation or wastage. Operating within this regime enables efficient material utilization, predictable thickness control, and high-throughput spatial ALD, while avoiding excess precursor consumption that does not improve film growth or quality."
             }
         ]
     },

@@ -13,14 +13,6 @@
         "b": "|Description|\n|-----------|\n|Optimized initial state (IS), transition state (TS), and final state (FS) structures illustrating that N\u2082 is not dissociated on the N-terminated TiN (111) surface. The reaction is endothermic (\u0394E \u2248 1.24 eV) with a high activation energy of 1.45 eV, indicating that N\u2013N bond breaking is unfavorable on this surface.|"
     },
     "vqa": {
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "Explain why the N-terminated TiN (111) surface favors H\u2082 dissociation but not N\u2082 dissociation.",
-                "answer_type": "Paragraph",
-                "answer": "The N-terminated TiN (111) surface has a high binding energy for H atoms (Eb = 5.73 eV) and a low activation energy for H\u2013H bond breaking, making H\u2082 dissociation energetically favorable. In contrast, N\u2082 has a higher bond dissociation energy and the surface does not provide sufficient stabilization for N atoms, resulting in an endothermic reaction with a high activation barrier, so N\u2082 remains intact. This difference highlights the surface\u2019s selective reactivity toward small molecules."
-            }
-        ],
         "b": [
             {
                 "question_type": "Comparative/Trend",
@@ -35,9 +27,13 @@
                 "question": "Does H\u2082 dissociate on the N-terminated TiN (111) surface during chemisorption?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "c": [
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Explain why the N-terminated TiN (111) surface favors H\u2082 dissociation but not N\u2082 dissociation.",
+                "answer_type": "Paragraph",
+                "answer": "The N-terminated TiN (111) surface has a high binding energy for H atoms (Eb = 5.73 eV) and a low activation energy for H\u2013H bond breaking, making H\u2082 dissociation energetically favorable. In contrast, N\u2082 has a higher bond dissociation energy and the surface does not provide sufficient stabilization for N atoms, resulting in an endothermic reaction with a high activation barrier, so N\u2082 remains intact. This difference highlights the surface\u2019s selective reactivity toward small molecules."
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "List the key structural stages and adsorption sites for H\u2082 and N\u2082 on the N-terminated TiN (111) surfa",

@@ -11,9 +11,6 @@
         "c": "Top-down view of a rotary spatial ALD reactor where the wafer rotates beneath fixed precursor injection points (A and B) separated by inert gas curtains, with multiple exhaust ports arranged radially."
     },
     "data_extraction": {
-        "a": "",
-        "b": "",
-        "c": ""
     },
     "vqa": {
         "c": [

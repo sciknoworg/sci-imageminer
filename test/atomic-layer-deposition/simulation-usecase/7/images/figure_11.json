@@ -11,19 +11,8 @@
         "c": "shows the subsequent dissociation of HfX from a six-coordinated Hf site (6 c.n.) and a five-coordinated Hf site (5 c.n.) during the water pulse."
     },
     "data_extraction": {
-        "a": "",
-        "b": "",
-        "c": ""
     },
     "vqa": {
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "How does the sequence of reactions shown in Figure help in understanding the PEALD process for HfO\u2082 growth?",
-                "answer_type": "Paragraph",
-                "answer": "The reaction sequence in Figure provides key insights into the surface chemistry governing the PEALD growth of HfO\u2082. The initial arrangement of HfX precursors demonstrates how precursor clustering occurs before the water pulse. The dissociation of water into OH and H fragments highlights the activation of surface sites, which is essential for ligand removal and film densification. Finally, the detachment of HfX from different coordination environments illustrates how ligand elimination proceeds, enabling the formation of a stable oxide network. Together, these snapshots reveal the detailed mechanistic steps that drive the self-limiting ALD reaction, ultimately influencing film uniformity, density, and purity."
-            }
-        ],
         "b": [
             {
                 "question_type": "Comparative/Trend",
@@ -38,6 +27,12 @@
                 "question": "Does Figure illustrate the dissociation of water on the HfO\u2082 surface during the ALD water pulse?",
                 "answer_type": "Paragraph",
                 "answer": "Yes, the figure shows the dissociation of an H\u2082O molecule forming OH and H species on the HfO\u2082 surface."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How does the sequence of reactions shown in Figure help in understanding the PEALD process for HfO\u2082 growth?",
+                "answer_type": "Paragraph",
+                "answer": "The reaction sequence in Figure provides key insights into the surface chemistry governing the PEALD growth of HfO\u2082. The initial arrangement of HfX precursors demonstrates how precursor clustering occurs before the water pulse. The dissociation of water into OH and H fragments highlights the activation of surface sites, which is essential for ligand removal and film densification. Finally, the detachment of HfX from different coordination environments illustrates how ligand elimination proceeds, enabling the formation of a stable oxide network. Together, these snapshots reveal the detailed mechanistic steps that drive the self-limiting ALD reaction, ultimately influencing film uniformity, density, and purity."
             }
         ],
         "c": [

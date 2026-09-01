@@ -19,9 +19,7 @@
                 "question": "Does the TiI\u2084 molecule attack the surface \u2013OH group to form HI and a surface \u2013TiI\u2083 group in the transition state?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "How does the Ti\u2013O bond length change from the adsorption state to the transition state?",
@@ -29,15 +27,13 @@
                 "answer": "The Ti\u2013O bond shortens from 2.27 \u00c5 in the adsorption state to 1.90 \u00c5 in the transition state, indicating stronger coordination as the reaction progresses."
             }
         ],
-        "d": [
+        "b": [
             {
                 "question_type": "Application/Performance",
                 "question": "How do the bond changes observed in Figure 4 inform the calculation of activation barriers and reaction energetics for this ALD step?How do the bond changes observed in Figure 4 inform the calculation of activation barriers and reaction energetics for this ALD step?",
                 "answer_type": "Paragraph",
                 "answer": "The bond distance changes in the transition state reflect the key interactions driving the reaction, such as Ti coordination to O, partial H\u2013I formation, and O\u2013H bond cleavage. These structural insights allow accurate computation of the ZPE-corrected activation barrier (13.5 kcal/mol) and reaction exothermicity (9.4 kcal/mol). They also inform NBO analysis and mechanistic modeling, including the identification of electron delocalization effects that stabilize the transition state and affect the rate constants for the surface reaction. This detailed structural information is critical for predicting reaction kinetics and optimizing ALD processes."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "List the significant bond distance changes observed in the transition state compared to the adsorption equilibrium state.",

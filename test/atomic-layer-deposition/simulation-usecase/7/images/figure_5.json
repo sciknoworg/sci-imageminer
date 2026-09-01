@@ -10,31 +10,25 @@
         "a": ""
     },
     "vqa": {
-        "d": [
+        "a": [
             {
                 "question_type": "Application/Performance",
                 "question": "How does the proton diffusion and ligand dissociation shown in this figure influence ALD precursor reactivity?",
                 "answer_type": "Paragraph",
                 "answer": "Proton diffusion significantly affects ligand stability and precursor reactivity during ALD processes. As protons migrate from the hafnium oxide surface to the precursor ligands, they weaken the Hf\u2013N bonds and facilitate the dissociation of the topmost HX ligand. This proton-driven activation enhances ligand removal and helps drive surface reactions toward film formation. Understanding these proton transfer events is crucial for optimizing precursor design, improving plasma-assisted ALD efficiency, and achieving better control over surface chemistry and film quality."
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "Which chemical event is highlighted using red circles in this figure?",
                 "answer_type": "Factoid",
                 "answer": "The red circles indicate protons diffusing from the hafnium oxide surface to the precursor ligands."
-            }
-        ],
-        "a": [
+            },
             {
                 "question_type": "Process-Oriented",
                 "question": "Does the figure show the dissociation of the topmost HX ligand from the hafnium center?",
                 "answer_type": "Paragraph",
                 "answer": "Yes, the figure shows the topmost HX ligand dissociating from the hafnium atom during ab initio MD simulation."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "What structural or chemical features are emphasized in the figure?",

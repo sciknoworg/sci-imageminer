@@ -28,9 +28,7 @@
                 "question": "What does the comparison of P/M and O/P ratios across different metal phosphate ALD processes reveal about the influence of the phosphorous precursor and metal chemistry?",
                 "answer_type": "Paragraph",
                 "answer": "The comparison demonstrates that both the phosphorous precursor and the metal precursor significantly influence the final film composition. In particular, the TDMAP-based aluminum phosphate deposited in this work exhibits an unusually low P/M ratio and a very high O/P ratio, placing it far from the stoichiometry of an orthophosphate. This behavior contrasts with TMP-, TMP*-, DEPA-, and DEPA*-based processes, which generally yield compositions closer to P/M = 1. The stark difference with the TDMAP-based magnesium phosphate further suggests that the metal precursor itself can dictate growth chemistry and ligand exchange efficiency in ALD, reinforcing that phosphorus incorporation is not solely controlled by the phosphorous precursor but emerges from the combined metal\u2013phosphorus chemistry."
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "Which phosphorous precursors generally show higher phosphorus incorporation compared to TDMAP?",

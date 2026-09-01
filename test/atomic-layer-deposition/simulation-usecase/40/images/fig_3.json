@@ -13,28 +13,18 @@
         "b": ""
     },
     "vqa": {
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "How does the precursor-exposure-dependent texture evolution shown in this figure affect the performance of ZnO films in practical applications?",
-                "answer_type": "Paragraph",
-                "answer": "The enhancement of (002)-oriented growth at higher precursor exposure improves c-axis alignment, which is beneficial for applications requiring high electron mobility, piezoelectric response, and optical transparency. Controlled texture engineering through DEZ exposure in spatial ALD enables tailoring of ZnO film properties for optoelectronic devices, sensors, and transparent conductive coatings while maintaining low-temperature processing compatibility."
-            }
-        ],
         "a": [
             {
                 "question_type": "Process-Oriented",
                 "question": "Does increasing DEZ precursor exposure in spatial ALD modify the crystalline orientation of ZnO films?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "c": [
+            },
             {
-                "question_type": "Structure-Property",
-                "question": "Which crystallographic features shown in the figure are responsible for the observed changes in ZnO film properties?",
-                "answer_type": "List",
-                "answer": "Increasing dominance of the ZnO (002) diffraction peak, Reduction of the ZnO (101) texture contribution, Enhanced crystallinity with sharper diffraction peaks, Exposure-dependent orientation competition among ZnO planes"
+                "question_type": "Application/Performance",
+                "question": "How does the precursor-exposure-dependent texture evolution shown in this figure affect the performance of ZnO films in practical applications?",
+                "answer_type": "Paragraph",
+                "answer": "The enhancement of (002)-oriented growth at higher precursor exposure improves c-axis alignment, which is beneficial for applications requiring high electron mobility, piezoelectric response, and optical transparency. Controlled texture engineering through DEZ exposure in spatial ALD enables tailoring of ZnO film properties for optoelectronic devices, sensors, and transparent conductive coatings while maintaining low-temperature processing compatibility."
             }
         ],
         "b": [
@@ -43,6 +33,12 @@
                 "question": "How does the ZnO (002) texture coefficient change with increasing N\u2082 bubbling flow through DEZ?",
                 "answer_type": "Factoid",
                 "answer": "The ZnO (002) texture coefficient increases significantly at higher DEZ bubbling flows, becoming dominant above approximately 30 sccm."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which crystallographic features shown in the figure are responsible for the observed changes in ZnO film properties?",
+                "answer_type": "List",
+                "answer": "Increasing dominance of the ZnO (002) diffraction peak, Reduction of the ZnO (101) texture contribution, Enhanced crystallinity with sharper diffraction peaks, Exposure-dependent orientation competition among ZnO planes"
             }
         ]
     },

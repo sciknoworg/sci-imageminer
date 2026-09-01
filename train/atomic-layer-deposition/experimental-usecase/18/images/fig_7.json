@@ -13,12 +13,18 @@
         "b": "| Temperature (\u00b0C) | \u0394\u03c1/\u03c1\u2080 |\n|---|---|\n| 25  | 0.00 |\n| 50  | ~0.002 |\n| 75  | ~0.004 |\n| 100 | ~0.006 |\n| 125 | ~0.009 |"
     },
     "vqa": {
-        "d": [
+        "a": [
             {
                 "question_type": "Application/Performance",
                 "question": "How do the electrical transport results in this figure support the use of PEALD-grown ZrN films in practical devices?",
                 "answer_type": "Paragraph",
                 "answer": "The linear increase of resistivity with temperature and the positive, stable TCR confirm that the PEALD-grown ZrN films exhibit metallic conduction with predictable thermal behavior. This stability in electrical performance, combined with low-temperature deposition capability, supports the suitability of ZrN films for applications such as conductive diffusion barriers, interconnect layers, and electrodes in microelectronic devices where thermal reliability is essential."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the figure demonstrate metallic electrical transport behavior in PEALD-grown ZrN films?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
             }
         ],
         "b": [
@@ -27,17 +33,7 @@
                 "question": "What trend is observed in ZrN resistivity as the measurement temperature increases?",
                 "answer_type": "Factoid",
                 "answer": "The resistivity increases approximately linearly with temperature, yielding a positive TCR of about 0.0088 %/\u00b0C."
-            }
-        ],
-        "a": [
-            {
-                "question_type": "Process-Oriented",
-                "question": "Does the figure demonstrate metallic electrical transport behavior in PEALD-grown ZrN films?",
-                "answer_type": "Yes/No",
-                "answer": "Yes"
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "Which material characteristics shown in the figure are responsible for the observed temperature-dependent resistivity?",

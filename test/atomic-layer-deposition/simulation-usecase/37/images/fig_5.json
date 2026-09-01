@@ -19,6 +19,12 @@
                 "question": "Does reducing CH\u2083 coverage to half of the optimum level affect the growth rate of alumina during ALD?",
                 "answer_type": "Yes/No",
                 "answer": "yes"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Explain how deviations from optimum surface coverage influence ALD kinetics and film",
+                "answer_type": "Paragraph",
+                "answer": "Deviations from optimum surface coverage significantly affect ALD kinetics. Lower CH\u2083 coverage limits the number of TMA molecules that can adsorb, directly reducing the growth rate. Reduced H or OH coverage alters the surface termination non-linearly, partially limiting reactions during the H\u2082O pulse and producing a mixed surface of Al(CH\u2083) and Al(CH\u2083)\u2082. These effects result in slower growth and highlight the importance of maintaining sufficient surface coverage for efficient and predictable ALD film deposition."
             }
         ],
         "b": [
@@ -27,17 +33,7 @@
                 "question": "How does the growth rate change when H (or OH) coverage is reduced to half of the optimum compared to the reduction in CH\u2083 coverage?",
                 "answer_type": "Factoid",
                 "answer": "With H (or OH) coverage at half the optimum, the growth rate decreases to 1.1 \u00c5/cycle, which is less than the drop observed with half CH\u2083 coverage (0.8 \u00c5/cycle)."
-            }
-        ],
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "Explain how deviations from optimum surface coverage influence ALD kinetics and film",
-                "answer_type": "Paragraph",
-                "answer": "Deviations from optimum surface coverage significantly affect ALD kinetics. Lower CH\u2083 coverage limits the number of TMA molecules that can adsorb, directly reducing the growth rate. Reduced H or OH coverage alters the surface termination non-linearly, partially limiting reactions during the H\u2082O pulse and producing a mixed surface of Al(CH\u2083) and Al(CH\u2083)\u2082. These effects result in slower growth and highlight the importance of maintaining sufficient surface coverage for efficient and predictable ALD film deposition."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "List the surface species shown in the reaction portraits of Figure 5 and their coverage effects.",

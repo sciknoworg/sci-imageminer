@@ -22,17 +22,13 @@
                 "question": "How do the relative XPS peak intensities evolve with increasing PO cycles?",
                 "answer_type": "Factoid",
                 "answer": "With more PO cycles, the Al 2p peak intensity decreases while the P 2p and O 1s intensities increase, reflecting a transition toward a more phosphate-like material."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "What structural information is provided by the O 1s peaks?",
                 "answer_type": "Factoid",
                 "answer": "The O 1s peak shows increased broadening due to the growth of a higher-binding-energy shoulder attributed to bridging oxygen (P\u2013O\u2013P), indicating phosphate formation."
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "What trend is observed for the P 2p peak as the number of PO cycles increases?",

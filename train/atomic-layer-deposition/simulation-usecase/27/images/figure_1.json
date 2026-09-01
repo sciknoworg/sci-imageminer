@@ -10,31 +10,25 @@
         "a": ""
     },
     "vqa": {
-        "d": [
+        "a": [
             {
                 "question_type": "Application/Performance",
                 "question": "Why is the PEALD cycle shown in Figure 1 important for achieving high-quality thin films on advanced device structures?",
                 "answer_type": "Paragraph",
                 "answer": "Each stage of the PEALD cycle\u2014precursor exposure, surface saturation, purging, and plasma oxidation\u2014ensures accurate, self-limiting development at the atomic level, making it crucial.  This makes it possible for films to be extremely homogeneous and conformal across both simple and intricate 3D elements.  For sensitive substrates and next-generation device topologies, the use of plasma increases reactivity, enabling the deposition of thick, superior coatings at lower temperatures."
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "Which step in PEALD differentiates it from thermal ALD by introducing additional reactive species?",
                 "answer_type": "Factoid",
                 "answer": "The plasma oxidation step."
-            }
-        ],
-        "a": [
+            },
             {
                 "question_type": "Process-Oriented",
                 "question": "Does Figure 1 illustrate the sequential steps involved in a plasma-enhanced atomic layer deposition (PEALD) cycle?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "Which surface functional groups are involved in enabling the self-limiting reactions shown in the ALD cycle?",

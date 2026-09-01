@@ -13,20 +13,18 @@
         "b": "| Binding Energy (eV)|Counts/s|Note|\n|--------------------|--------|-------------------|\n|72|~1200|Baseline|\n|74.5|~4500|Al\u2013O peak maximum|\n|75.5|~2300|Al\u2013OF shoulder|\n|76.8|~900|Al\u2013F|\n|78|~400|Tail|"
     },
     "vqa": {
-        "d": [
-            {
-                "question_type": "Process-Oriented",
-                "question": "How do the XPS results help evaluate the effectiveness of CF\u2084 plasma etching of Al\u2082O\u2083?",
-                "answer_type": "Paragraph",
-                "answer": "The XPS spectra reveal the chemical changes induced by CF\u2084 plasma, showing strong fluorine incorporation and partial conversion of Al\u2013O to Al\u2013F and Al\u2013OF species. These transformations confirm that the plasma successfully breaks Al\u2013O bonds and forms volatile by-products during the etching process. The presence and relative intensities of fluorinated species give insight into etch progress, chemical reactivity, and the efficiency of surface modification under the stated pressure and power conditions."
-            }
-        ],
         "b": [
             {
                 "question_type": "Comparative/Trend",
                 "question": "At approximately what binding energy does the Al 2p peak appear in the narrow scan (panel b), and how does its intensity compare to adjacent chemical states?",
                 "answer_type": "Factoid",
                 "answer": "The Al 2p peak appears at ~74.5 eV with the highest intensity, while adjacent Al\u2013OF and Al\u2013F components show lower peak intensities."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What chemical states of aluminum are identified in the Al 2p deconvolution?",
+                "answer_type": "List",
+                "answer": "Al\u2013O (main oxide peak), Al\u2013OF (mixed oxyfluoride), Al\u2013F (fluoride component)"
             }
         ],
         "a": [
@@ -35,14 +33,12 @@
                 "question": "Does the XPS survey spectrum in panel (a) indicate that CF\u2084 plasma treatment introduces fluorine onto the Al\u2082O\u2083 surface?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "c": [
+            },
             {
-                "question_type": "Structure-Property",
-                "question": "What chemical states of aluminum are identified in the Al 2p deconvolution?",
-                "answer_type": "List",
-                "answer": "Al\u2013O (main oxide peak), Al\u2013OF (mixed oxyfluoride), Al\u2013F (fluoride component)"
+                "question_type": "Process-Oriented",
+                "question": "How do the XPS results help evaluate the effectiveness of CF\u2084 plasma etching of Al\u2082O\u2083?",
+                "answer_type": "Paragraph",
+                "answer": "The XPS spectra reveal the chemical changes induced by CF\u2084 plasma, showing strong fluorine incorporation and partial conversion of Al\u2013O to Al\u2013F and Al\u2013OF species. These transformations confirm that the plasma successfully breaks Al\u2013O bonds and forms volatile by-products during the etching process. The presence and relative intensities of fluorinated species give insight into etch progress, chemical reactivity, and the efficiency of surface modification under the stated pressure and power conditions."
             }
         ]
     },

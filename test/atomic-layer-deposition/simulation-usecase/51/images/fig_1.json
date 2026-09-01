@@ -13,20 +13,18 @@
         "b": "|Description|\n|-----------|\n|Optimized initial state (IS), transition state (TS), and final state (FS) structures illustrating N\u2013N bond dissociation on the TiN (001) surface.|"
     },
     "vqa": {
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "Explain why understanding H\u2082 and N\u2082 dissociative chemisorption on TiN (001) is important for surface reactions.",
-                "answer_type": "Paragraph",
-                "answer": "Understanding dissociative chemisorption on TiN (001) is important because it reveals how small molecules activate and interact with reactive surface sites. This knowledge is essential for predicting surface reactivity, catalytic behavior, and material performance in applications such as catalysis, surface coatings, and high-temperature or reactive environments where TiN is commonly used."
-            }
-        ],
         "b": [
             {
                 "question_type": "Process-Oriented",
                 "question": "On which surface sites do dissociated H atoms preferentially bind during H\u2082 chemisorption on TiN (001)?",
                 "answer_type": "Factoid",
                 "answer": "The dissociated H atoms preferentially bind to titanium sites, with a binding energy approximately 0.42 eV higher than on nitrogen sites."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Explain why understanding H\u2082 and N\u2082 dissociative chemisorption on TiN (001) is important for surface reactions.",
+                "answer_type": "Paragraph",
+                "answer": "Understanding dissociative chemisorption on TiN (001) is important because it reveals how small molecules activate and interact with reactive surface sites. This knowledge is essential for predicting surface reactivity, catalytic behavior, and material performance in applications such as catalysis, surface coatings, and high-temperature or reactive environments where TiN is commonly used."
             }
         ],
         "a": [
@@ -35,9 +33,7 @@
                 "question": "Does the dissociative chemisorption of H\u2082 on the TiN (001) surface involve breaking the H\u2013H bond before adsorption?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "List the key structural stages shown for H\u2082 and N\u2082 dissociative chemisorption on TiN (001).",

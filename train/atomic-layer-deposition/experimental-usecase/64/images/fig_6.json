@@ -10,31 +10,25 @@
         "a": "| 2\u03b8 (\u00b0) | Intensity / Peak Assignment |\n|---|---|\n| 35 | RuCp\u2082 (101) |\n| 37 | Ru (100) |\n| 39 | Ir (111) |\n| 41 | Ru (002) |\n| 43 | Ru (101) |\n| 45 | Ir (200) |\n| 47 | Ru (102) |\n| 50 | Ru(thd)\u2083 (002) |"
     },
     "vqa": {
-        "d": [
+        "a": [
             {
                 "question_type": "Application/Performance",
                 "question": "Explain why understanding the effect of precursor on crystal orientation is important for ALD-deposited ruthenium films.",
                 "answer_type": "Paragraph",
                 "answer": "The crystal orientation of ruthenium films affects properties such as conductivity, adhesion, and surface reactivity, which are critical for applications in microelectronics and catalysis. By choosing the appropriate precursor, one can control the film\u2019s crystal structure to optimize these properties for specific device performance or chemical applications."
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "How do the crystal orientations of ruthenium films grown from RuCp2 compare with those grown from Ru(thd)3 at 250 \u00b0C?",
                 "answer_type": "Factoid",
                 "answer": "RuCp2 films are slightly (101)-oriented, while Ru(thd)3 films are slightly (002)-oriented."
-            }
-        ],
-        "a": [
+            },
             {
                 "question_type": "Process-Oriented",
                 "question": "Does the choice of ruthenium precursor affect the crystal orientation of the ALD-grown films?",
                 "answer_type": "Paragraph",
                 "answer": "Yes. The XRD patterns show that films grown from RuCp2 and Ru(thd)3 have different preferred orientations, indicating that the precursor influences the crystal structure during deposition."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "Which crystalline orientation is characteristic of films grown from Ru(thd)3 and how does it compare to films grown from RuCp2?",

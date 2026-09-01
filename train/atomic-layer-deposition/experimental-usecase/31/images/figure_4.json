@@ -16,25 +16,19 @@
                 "question": "Does rapid thermal annealing induce phase transformation of PE-ALD Co films on Si into cobalt silicide?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "At what annealing temperature range do CoSi\u2082 diffraction peaks become dominant?",
                 "answer_type": "Factoid",
                 "answer": "Above approximately 700\u2013800 \u00b0C."
-            }
-        ],
-        "d": [
+            },
             {
                 "question_type": "Application/Performance",
                 "question": "Why is the formation of crystalline CoSi\u2082 important for semiconductor device applications?",
                 "answer_type": "Paragraph",
                 "answer": "Crystalline CoSi\u2082 is a low-resistivity, thermally stable silicide commonly used as a contact material in CMOS technology. Its formation demonstrates that PE-ALD Co films can be converted into technologically relevant silicides through post-deposition annealing, validating the process for integration into advanced semiconductor devices."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "Which structural phases are observed as annealing temperature increases?",

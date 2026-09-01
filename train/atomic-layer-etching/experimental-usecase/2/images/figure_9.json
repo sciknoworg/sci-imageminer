@@ -13,14 +13,6 @@
         "b": "| Binding Energy [eV] | Intensity [a.u.] |\n|---|---|\n| 284 | C-C/H |\n| 285 | C-CF |\n| 286 | C-F |\n| 287 | C-F<sub>2</sub> |\n| 288 | C-F<sub>3</sub> |"
     },
     "vqa": {
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "Why is achieving a steady-state fluorocarbon composition important for atomic layer etching (ALE)?",
-                "answer_type": "Paragraph",
-                "answer": "A steady-state fluorocarbon surface ensures reproducible surface reactions during ALE cycles, enabling precise thickness control and high selectivity. The similarity between thick deposited films and continuous plasma-grown FC layers indicates that sufficient precursor exposure can stabilize surface chemistry, which is critical for consistent etch performance and minimizing process drift."
-            }
-        ],
         "b": [
             {
                 "question_type": "Comparative/Trend",
@@ -35,6 +27,12 @@
                 "question": "Does increasing deposition thickness lead to a steady-state fluorocarbon surface chemistry similar to continuous plasma etching?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is achieving a steady-state fluorocarbon composition important for atomic layer etching (ALE)?",
+                "answer_type": "Paragraph",
+                "answer": "A steady-state fluorocarbon surface ensures reproducible surface reactions during ALE cycles, enabling precise thickness control and high selectivity. The similarity between thick deposited films and continuous plasma-grown FC layers indicates that sufficient precursor exposure can stabilize surface chemistry, which is critical for consistent etch performance and minimizing process drift."
             }
         ],
         "c": [

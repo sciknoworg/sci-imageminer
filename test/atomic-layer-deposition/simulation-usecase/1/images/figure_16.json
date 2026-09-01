@@ -16,25 +16,19 @@
                 "question": "Does the adsorption of TiCl4 on (SiH3O)3Si\u2212OH* proceed through a similar mechanism as TiI4?",
                 "answer_type": "Paragraph",
                 "answer": "Yes. Both reactions proceed via adsorption to the surface \u2212OH group, formation of a reactant-like complex (RC), transition state (TS), and product-like complex (PC)."
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "Which precursor, TiCl4 or TiI4, has a stronger heat of adsorption on the surface \u2212OH group?",
                 "answer_type": "Factoid",
                 "answer": "TiCl4. Its 0 K heat of adsorption is 10.2 kcal/mol, compared to 5.7 kcal/mol for TiI4, due to stronger Lewis acid/base interactions."
-            }
-        ],
-        "d": [
+            },
             {
                 "question_type": "Application/Performance",
                 "question": "How do the differences in precursor chemistry affect the ALD reaction kinetics and energetics?",
                 "answer_type": "Paragraph",
                 "answer": "The stronger electron-withdrawing Cl ligands in TiCl4 enhance Lewis acid/base interactions, stabilizing both the adsorption complex and transition state, which lowers the potential energy of the PES compared to TiI4. Despite these differences in adsorption strength, the activation barriers for the two reactions are nearly identical (13.5 kcal/mol for TiI4 vs. 13.7 kcal/mol for TiCl4), indicating similar reaction rates. The TiI4 reaction is slightly more exothermic, but the bond energies of Ti\u2212I and Ti\u2212Cl do not directly determine the kinetics; instead, the energetics of the transition states govern the reaction rates."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "List the energy points identified on the ZPE-corrected PES for these reactions.",

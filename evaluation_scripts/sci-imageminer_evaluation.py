@@ -12,13 +12,13 @@ either express or implied.
 """
 
 import os
+import os.path
+import re
 import sys
 import argparse
 
 import json
-import os
-import os.path
-import re
+import jsonlines
 
 
 from metrics import (
@@ -166,6 +166,16 @@ def load_json(file_path: str, encoding: str = 'utf-8'):
         print('File Not Found: {}'.format(file_path))
     except Exception as e:
         print('Exception Occured: {}'.format(e))
+
+
+def load_jsonl(file_path: str):
+    data = []
+    with jsonlines.open(file_path, mode='r')  as reader:
+        # for obj in reader.iter(type=dict, skip_invalid=True):
+        for obj in reader:
+            data.append(obj)
+
+    return data
 
 
 def write_file(file_path: str, text: str):
@@ -348,10 +358,24 @@ def main():
 
     # Load reference and prediction data
     references_data = load_json(reference_path)
-    predictions_data = load_json(prediction_path)
+    # predictions_data = load_json(prediction_path) # JSON
+    predictions_data = load_jsonl(prediction_path) # JSONL
+
+    print("Reference data: ", len(references_data))
+    print("Prediction data: ", len(predictions_data))
 
     # Validate JSON schema (predictions)
     validate_submission_schema(predictions_data, required_sample_keys=schema)
+
+    # print()
+    # print("Reference data: ", references_data[0])
+    # print()
+    # print("Prediction data: ", predictions_data[0])
+    # print()
+    
+
+    # exit()
+
 
     # Process and store per task data
     data = {}
@@ -527,8 +551,6 @@ def main():
     print('Saving scores to: ', output_scores_path)
     with open(output_scores_path, 'w') as score_file:
         score_file.write(json.dumps(scores))
-
-
 
 
 if __name__ == "__main__":

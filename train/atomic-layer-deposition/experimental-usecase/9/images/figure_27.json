@@ -16,25 +16,19 @@
                 "question": "Does obtaining film coverage parameters such as homogeneity and conformality depend on the thin-film deposition technique used?",
                 "answer_type": "Yes/No",
                 "answer": "yes"
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "Which of the coverage metrics in the illustration is appropriate for coating three-dimensional structures and which is appropriate for covering planar surfaces?",
                 "answer_type": "Factoid",
                 "answer": "Uniformity assesses planar surface covering, while conformality evaluates coverage over three-dimensional characteristics."
-            }
-        ],
-        "d": [
+            },
             {
                 "question_type": "Application/Performance",
                 "question": "Why is it critical to manage uniformity, conformality, and film growth at low temperatures in advanced thin-film applications?",
                 "answer_type": "Paragraph",
                 "answer": "Precise control of uniformity, conformality, and growth allows thin films to work consistently on both planar and complex 3D device topologies.  Reaching these parameters guarantees uniform mechanical, optical, and electrical behaviour throughout the substrate.  Low-temperature processing is especially crucial for temperature-sensitive materials and future flexible or polymer-based electronics, enabling high-quality films without damaging the underlying structures."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "What physical elements or attributes of the substrate determine the sort of coverage metric utilised during thin-film deposition?",

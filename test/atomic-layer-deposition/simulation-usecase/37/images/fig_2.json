@@ -19,6 +19,12 @@
                 "question": "How does the C\u2013C distance, R, affect the strain in the CH4 layer during ALD?",
                 "answer_type": "Paragraph",
                 "answer": "As the C\u2013C distance decreases below 3.8 \u00c5, strain increases, leading to contraction of the C\u2013H bonds and a higher energy penalty (\u0394E). At R > 3.8 \u00c5, there is minimal CH3\u2013CH3 interaction, indicating negligible steric strain."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "At what C\u2013C distance does CH3\u2013CH3 interaction become negligible, and how does this compare to smaller distances?",
+                "answer_type": "List",
+                "answer": "CH3\u2013CH3 interaction becomes negligible at R > 3.8 \u00c5, where \u0394E < 0.2 eV and C\u2013H bond lengths approach 1.10 \u00c5, At smaller distances (R \u2264 3.0 \u00c5), interaction is significant, \u0394E increases (up to 1.8 eV), and C\u2013H bonds contract to around 1.05 \u00c5"
             }
         ],
         "b": [
@@ -27,22 +33,12 @@
                 "question": "What structural representation is used to model the surface Al\u2013CH3 bond?",
                 "answer_type": "Factoid",
                 "answer": "A single hexagonal close-packed layer of CH4 molecules is used, with the H1\u2013C bond constrained along the z-axis to mimic the vertical orientation of the Al\u2013CH3 bond on the surface."
-            }
-        ],
-        "d": [
+            },
             {
                 "question_type": "Process-Oriented",
                 "question": "Why is understanding the steric strain at different C\u2013C distances important for ALD of Al2O3?",
                 "answer_type": "Paragraph",
                 "answer": "Yes, it is important for controlling ALD surface chemistry."
-            }
-        ],
-        "c": [
-            {
-                "question_type": "Structure-Property",
-                "question": "At what C\u2013C distance does CH3\u2013CH3 interaction become negligible, and how does this compare to smaller distances?",
-                "answer_type": "List",
-                "answer": "CH3\u2013CH3 interaction becomes negligible at R > 3.8 \u00c5, where \u0394E < 0.2 eV and C\u2013H bond lengths approach 1.10 \u00c5, At smaller distances (R \u2264 3.0 \u00c5), interaction is significant, \u0394E increases (up to 1.8 eV), and C\u2013H bonds contract to around 1.05 \u00c5"
             }
         ]
     },

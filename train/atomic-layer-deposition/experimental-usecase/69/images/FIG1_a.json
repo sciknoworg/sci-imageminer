@@ -22,9 +22,7 @@
                 "question": "What is the deposited layer thickness at 80 cycles?",
                 "answer_type": "Factoid",
                 "answer": "Roughly 9 nm."
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Process-Oriented",
                 "question": "How much material is removed during exposure to O2 plasma?",

@@ -16,25 +16,19 @@
                 "question": "How do the surface concentrations of CH\u2083 and H change during a complete ALD pulse\u2013purge\u2013pulse\u2013purge cycle?",
                 "answer_type": "Paragraph",
                 "answer": "During the ALD cycle, the TMA pulse saturates the surface with CH\u2083 fragments, increasing the y-axis value, followed by a purge that maintains the surface coverage. The H\u2082O pulse then introduces H species, increasing the x-axis value, followed by a purge. Diagonal lines in the portrait represent the desorption of CH\u2084 as a by-product. A successful stoichiometric cycle returns the surface concentrations of both CH\u2083 and H to their starting values, indicating no accumulation of intermediates."
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "Which surface intermediate reaches a higher coverage during the ALD cycle, CH\u2083 or H?",
                 "answer_type": "Factoid",
                 "answer": "CH\u2083 generally reaches higher surface coverage during the TMA pulse compared to H introduced by the H\u2082O pulse."
-            }
-        ],
-        "d": [
+            },
             {
                 "question_type": "Application/Performance",
                 "question": "Can the phase portrait be used to detect non-stoichiometric growth in ALD processes?",
                 "answer_type": "Paragraph",
                 "answer": "Yes. If the surface concentrations of CH\u2083 and H do not return to their initial values at the end of the cycle, it indicates accumulation of intermediates and non-stoichiometric growth."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "What does the size (height or width) of the phase portrait indicate about Al\u2082O\u2083 growth?",

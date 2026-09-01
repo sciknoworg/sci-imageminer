@@ -16,15 +16,13 @@
         "c": ""
     },
     "vqa": {
-        "d": [
+        "b": [
             {
                 "question_type": "Application/Performance",
                 "question": "Why is it important to use multiple structural models, as shown in Figure 3, when studying PEALD reaction energetics?",
                 "answer_type": "Paragraph",
                 "answer": "Using different structural models allows researchers to capture how precursor and plasma species behave on surfaces with varying complexity. Small clusters help isolate specific reaction mechanisms, while larger clusters and periodic surfaces offer more realistic geometries that better represent the actual substrate. Together, these models provide a balanced approach for understanding reactivity trends, validating computational predictions, and assessing how surface structure influences PEALD film growth behavior."
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "Which model in Figure 3 represents the most complex and realistic approximation of the actual substrate surface?",

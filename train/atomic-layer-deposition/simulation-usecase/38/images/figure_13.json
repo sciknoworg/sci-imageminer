@@ -16,14 +16,6 @@
         "c": "| Time (s)|O\u2083 Coverage (%)|\n|---------|---------------|\n|0.0|0|\n|1.0|40|\n|2.0|80|\n|3.0|95|\n|3.72|100|"
     },
     "vqa": {
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "How can the insights from Figure 13 be used to optimize ASALD process parameters?",
-                "answer_type": "Paragraph",
-                "answer": "By analyzing the coverage progression over time, researchers can adjust operating conditions such as reagent dosage, surface pressure, and wafer exposure time to ensure full coverage without overexposure. Understanding that BDEAS requires longer process times due to slower adsorption allows for precise control of deposition thickness and prevents oversaturation. Additionally, recognizing the impact of pressure depletion zones and species interactions informs reactor design modifications, such as improved purge streams, to maintain reagent availability and optimize surface coverage kinetics for all adsorption steps."
-            }
-        ],
         "b": [
             {
                 "question_type": "Comparative/Trend",
@@ -38,6 +30,12 @@
                 "question": "Does the integration of macroscopic fluid dynamics into the mesoscopic model affect the process time to reach full surface coverage?",
                 "answer_type": "Paragraph",
                 "answer": "Yes. The integration introduces pressure depletion zones and species interactions that reduce adsorption rates, leading to longer process times in the multiscale CFD simulations compared to prior mesoscopic models."
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "How can the insights from Figure 13 be used to optimize ASALD process parameters?",
+                "answer_type": "Paragraph",
+                "answer": "By analyzing the coverage progression over time, researchers can adjust operating conditions such as reagent dosage, surface pressure, and wafer exposure time to ensure full coverage without overexposure. Understanding that BDEAS requires longer process times due to slower adsorption allows for precise control of deposition thickness and prevents oversaturation. Additionally, recognizing the impact of pressure depletion zones and species interactions informs reactor design modifications, such as improved purge streams, to maintain reagent availability and optimize surface coverage kinetics for all adsorption steps."
             }
         ],
         "c": [

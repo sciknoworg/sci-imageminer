@@ -16,25 +16,19 @@
                 "question": "Does incomplete H-transfer during ALD reduce the growth rate of alumina?",
                 "answer_type": "Yes/No",
                 "answer": "yes"
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "How does the growth rate at low H mobility compare to the optimum growth rate?",
                 "answer_type": "Factoid",
                 "answer": "The growth rate drops to approximately 0.8 \u00c5/cycle, which is about half of the optimum rate."
-            }
-        ],
-        "d": [
+            },
             {
                 "question_type": "Application/Performance",
                 "question": "Explain the consequences of kinetically-limited ALD on film quality and deposition",
                 "answer_type": "Paragraph",
                 "answer": "Kinetically-limited ALD at low temperatures leads to incomplete H-transfer, leaving unreacted CH\u2083 and OH on the surface. This residual material can contaminate the growing alumina film and reduce the effective growth rate to about 0.8 \u00c5/cycle. Such limitations are important for controlling film uniformity, purity, and overall deposition efficiency, especially when precise monolayer growth is required."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "List the surface species affected by incomplete H-transfer during ALD.",

@@ -13,20 +13,18 @@
         "b": ""
     },
     "vqa": {
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "How do the differences shown in Figure 2 influence the suitability of CF\u2084 plasma for controlled etching applications?",
-                "answer_type": "Paragraph",
-                "answer": "Low-pressure CF\u2084 plasma produces deeper etching and stronger chemical modification of Al\u2082O\u2083, making it suitable for applications requiring high reactivity and material removal. In contrast, high-pressure plasma results in limited fluorine penetration and minimal etching, which is beneficial for gentle surface treatment. Thus, pressure acts as a key tuning parameter for precise etch-depth control"
-            }
-        ],
         "b": [
             {
                 "question_type": "Comparative/Trend",
                 "question": "Which condition shows deeper fluorine penetration in the Al\u2082O\u2083 layer?",
                 "answer_type": "Factoid",
                 "answer": "0.07 Torr for 10 minutes shows significantly deeper fluorine penetration."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "What key structural or elemental changes are observed after CF\u2084 plasma treatment?",
+                "answer_type": "List",
+                "answer": "Increased F incorporation at low pressure, Greater etching depth at low pressure, More uniform Al/O signal at high pressure, Clear surface modification identified by TEM contrast"
             }
         ],
         "a": [
@@ -35,14 +33,12 @@
                 "question": "Does Figure 2 compare how CF\u2084 plasma at different pressures affects the Al\u2082O\u2083 etching process?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "c": [
+            },
             {
-                "question_type": "Structure-Property",
-                "question": "What key structural or elemental changes are observed after CF\u2084 plasma treatment?",
-                "answer_type": "List",
-                "answer": "Increased F incorporation at low pressure, Greater etching depth at low pressure, More uniform Al/O signal at high pressure, Clear surface modification identified by TEM contrast"
+                "question_type": "Application/Performance",
+                "question": "How do the differences shown in Figure 2 influence the suitability of CF\u2084 plasma for controlled etching applications?",
+                "answer_type": "Paragraph",
+                "answer": "Low-pressure CF\u2084 plasma produces deeper etching and stronger chemical modification of Al\u2082O\u2083, making it suitable for applications requiring high reactivity and material removal. In contrast, high-pressure plasma results in limited fluorine penetration and minimal etching, which is beneficial for gentle surface treatment. Thus, pressure acts as a key tuning parameter for precise etch-depth control"
             }
         ]
     },

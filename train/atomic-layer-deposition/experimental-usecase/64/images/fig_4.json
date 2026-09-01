@@ -10,31 +10,25 @@
         "a": "| 2\u03b8 (\u00b0) | Intensity (a.u.) | Miller Index |\n|---|---|---|\n| 38.1 | High | (111) |\n| 44.3 | Medium | (200) |\n| 64.5 | Low | (220) |\n| 77.5 | Very Low | (311) |"
     },
     "vqa": {
-        "d": [
+        "a": [
             {
                 "question_type": "Application/Performance",
                 "question": "How does the preferred (111) orientation of the platinum film influence its properties?",
                 "answer_type": "Paragraph",
                 "answer": "The (111) orientation corresponds to the lowest surface energy, which makes the film more thermodynamically stable. This orientation contributes to better adhesion on substrates such as Al2O3 and iridium and supports low electrical resistivity, enhancing the performance of the platinum film for electronic applications."
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "Which crystallographic plane shows the strongest peak in the XRD pattern of the platinum film?",
                 "answer_type": "Factoid",
                 "answer": "The (111) plane."
-            }
-        ],
-        "a": [
+            },
             {
                 "question_type": "Process-Oriented",
                 "question": "Does the XRD pattern indicate a preferred crystal orientation for the platinum film?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "List the crystallographic planes identified in the XRD pattern of the platinum film.",

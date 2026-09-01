@@ -19,9 +19,7 @@
                 "question": "Does the growth behavior in Figure 3 indicate self-limiting ALD reactions for both Co precursors?",
                 "answer_type": "Yes/No",
                 "answer": "NO"
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "Which precursor shows clear saturation of growth rate with increasing precursor exposure time?",
@@ -29,15 +27,13 @@
                 "answer": "CoCp\u2082."
             }
         ],
-        "d": [
+        "b": [
             {
                 "question_type": "Application/Performance",
                 "question": "Why is the growth saturation and low resistivity observed with CoCp\u2082 important for device applications?",
                 "answer_type": "Paragraph",
                 "answer": "Growth saturation confirms true ALD behavior, ensuring precise thickness control and excellent conformality on complex device structures. The consistently low resistivity obtained with CoCp\u2082 indicates high-purity metallic cobalt, which is essential for interconnect and contact applications in advanced CMOS technology. Together, these properties make CoCp\u2082 a suitable precursor for scalable and reliable cobalt deposition."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "What features in the figure indicate poor film quality when using CoCp(CO)\u2082 as the precursor?",

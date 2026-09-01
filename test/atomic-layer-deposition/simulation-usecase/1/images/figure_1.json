@@ -30,9 +30,7 @@
                 "question": "Which type of surface functional group is represented in panel (b)?",
                 "answer_type": "Factoid",
                 "answer": "Adjacent hydrogen-bonded \u2013OH groups."
-            }
-        ],
-        "d": [
+            },
             {
                 "question_type": "Application/Performance",
                 "question": "How does understanding the different surface functional groups on SiO\u2082 help optimize ALD simulations for TiO\u2082 deposition?",

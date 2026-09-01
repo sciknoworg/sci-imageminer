@@ -1,16 +1,16 @@
 {
     "sample_id": "atomic-layer-etching/simulation-usecase/34/fig_11",
     "classification": {
-        "c": "bar chart"
+        "a": "bar chart"
     },
     "summarization": {
-        "c": "The bar chart shows the distribution of etching per cycle values. Most measurements cluster around the mean (\u03bc = 0.3511 \u00c5/cycle), with the highest frequencies near \u03bc and \u2212\u03c3. Frequencies decrease toward the \u00b13\u03c3 bins, indicating relatively few extreme values."
+        "a": "The bar chart shows the distribution of etching per cycle values. Most measurements cluster around the mean (\u03bc = 0.3511 \u00c5/cycle), with the highest frequencies near \u03bc and \u2212\u03c3. Frequencies decrease toward the \u00b13\u03c3 bins, indicating relatively few extreme values."
     },
     "data_extraction": {
         "a": "| Etching per Cycle (\u00c5/cycle) | Frequency |\n|-----------------------------|-----------|\n| -3\u03c3                         | 1         |\n| -2\u03c3                         | 4         |\n| -\u03c3                          | 23        |\n| \u03bc                           | 15        |\n| +\u03c3                          | 14        |\n| +2\u03c3                         | 5         |\n| +3\u03c3                         | 2         |"
     },
     "vqa": {
-        "c": [
+        "a": [
             {
                 "question_type": "Comparative/Trend",
                 "question": "How are the etching-per-cycle values distributed relative to the mean?",
@@ -38,7 +38,7 @@
         ]
     },
     "bbox": {
-        "c": {
+        "a": {
             "x": 0,
             "y": 0,
             "width": 512,

@@ -19,9 +19,7 @@
                 "question": "Does the adsorption of H\u2082O onto the -TiI\u2083 group proceed via a transition state where the Ti\u2013I bond breaks?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "How does the Ti\u2013O bond length change from the adsorption equilibrium state to the transition state?",
@@ -29,15 +27,13 @@
                 "answer": "It decreases from the adsorption equilibrium state to 1.95 \u00c5 in the transition state."
             }
         ],
-        "d": [
+        "b": [
             {
                 "question_type": "Application/Performance",
                 "question": "How can the mechanistic insights from this reaction step be applied to optimize ALD process conditions?",
                 "answer_type": "Paragraph",
                 "answer": "Understanding the adsorption and transition state energetics helps predict the activation barriers and exothermicity of surface reactions. For ALD process design, this information guides the choice of temperature and exposure times to ensure efficient surface hydroxyl regeneration, minimize undesired side reactions, and optimize precursor dosing. It also allows estimation of rate constants for kinetic modeling of the full deposition cycle."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "List the key structural and electronic changes observed during the H\u2082O adsorption and transition to the reaction state.",

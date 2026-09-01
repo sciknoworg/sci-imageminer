@@ -13,28 +13,18 @@
         "b": "| Substrate|Co-reactants Compared|Temperature Range (\u00b0C)|Trend Summary|\n|----------|---------------------|----------------------|-------------|\n|ZrO\u2082|BCl\u2083, SOCl\u2082, TiCl\u2084|250\u2013325|BCl\u2083 highest and strongly T-dependent; SOCl\u2082 nearly flat|"
     },
     "vqa": {
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "How can these temperature-dependent etch-rate trends be used to choose the optimal co-reactant for ALE of TiO\u2082 and ZrO\u2082?",
-                "answer_type": "Paragraph",
-                "answer": "The plots clearly show that SOCl\u2082 provides the highest etch rates for TiO\u2082 across the tested temperatures, identifying it as the most efficient co-reactant for TiO\u2082 ALE. For ZrO\u2082, BCl\u2083 exhibits by far the strongest temperature-driven increase in etch rate, making it the preferred co-reactant for high-performance etching. TiCl\u2084 remains intermediate for both oxides, while SOCl\u2082 performs poorly on ZrO\u2082. These relationships help determine suitable chemistries and processing windows for selective, optimized ALE."
-            }
-        ],
         "a": [
             {
                 "question_type": "Process-Oriented",
                 "question": "Does Figure 6 show that the ALE etch rate increases with substrate temperature for both TiO\u2082 and ZrO\u2082?",
                 "answer_type": "Paragraph",
                 "answer": "Yes, both TiO\u2082 and ZrO\u2082 show higher etch rates at elevated temperatures, demonstrating thermally activated reaction kinetics."
-            }
-        ],
-        "c": [
+            },
             {
-                "question_type": "Process-Oriented",
-                "question": "What reaction properties influence the slope of the etch-rate vs temperature curves?",
+                "question_type": "Application/Performance",
+                "question": "How can these temperature-dependent etch-rate trends be used to choose the optimal co-reactant for ALE of TiO\u2082 and ZrO\u2082?",
                 "answer_type": "Paragraph",
-                "answer": "Volatility of the reaction by-products (e.g., ZrCl\u2084, TiCl\u2084, WOCl\u2084), Stability of intermediate fluorides or sulfates, Activation energy of the ligand-exchange step, Ability of each co-reactant to remove fluorinated surface species"
+                "answer": "The plots clearly show that SOCl\u2082 provides the highest etch rates for TiO\u2082 across the tested temperatures, identifying it as the most efficient co-reactant for TiO\u2082 ALE. For ZrO\u2082, BCl\u2083 exhibits by far the strongest temperature-driven increase in etch rate, making it the preferred co-reactant for high-performance etching. TiCl\u2084 remains intermediate for both oxides, while SOCl\u2082 performs poorly on ZrO\u2082. These relationships help determine suitable chemistries and processing windows for selective, optimized ALE."
             }
         ],
         "b": [
@@ -43,6 +33,12 @@
                 "question": "Which co-reactant shows the strongest temperature-dependent increase in etch rate for ZrO\u2082?",
                 "answer_type": "Factoid",
                 "answer": "BCl\u2083 shows the steepest increase in etch rate with temperature for ZrO\u2082, significantly outperforming SOCl\u2082 and TiCl\u2084."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "What reaction properties influence the slope of the etch-rate vs temperature curves?",
+                "answer_type": "Paragraph",
+                "answer": "Volatility of the reaction by-products (e.g., ZrCl\u2084, TiCl\u2084, WOCl\u2084), Stability of intermediate fluorides or sulfates, Activation energy of the ligand-exchange step, Ability of each co-reactant to remove fluorinated surface species"
             }
         ]
     },

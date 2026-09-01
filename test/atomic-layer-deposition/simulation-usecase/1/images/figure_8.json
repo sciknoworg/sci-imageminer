@@ -16,25 +16,19 @@
                 "question": "Does including rotational motion of H\u2082O in the calculation affect the rate constant of the reaction?",
                 "answer_type": "Paragraph",
                 "answer": "Yes, including rotational motion decreases the rate constant compared to ignoring rotation."
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "Which rotational treatment results in the lowest Arrhenius activation energy for the (SiH\u2083O)\u2083Si\u2212O\u2212TiI\u2083* + H\u2082O reaction?",
                 "answer_type": "Factoid",
                 "answer": "The restricted rotation model produces a slightly lower activation energy (4.8 kcal/mol) compared to ignoring rotation (5.1 kcal/mol)."
-            }
-        ],
-        "d": [
+            },
             {
                 "question_type": "Application/Performance",
                 "question": "How does the treatment of H\u2082O rotation influence the calculated rate constants and what does this imply for modeling ALD reactions?",
                 "answer_type": "Paragraph",
                 "answer": "The treatment of H\u2082O rotation directly affects the free energy of the adsorbed complex, which in turn changes the activation barrier and the magnitude of the rate constant. Ignoring rotation overestimates the rate constant by underestimating the free energy barrier, while including full rotational freedom can underestimate it due to overestimation of rotational entropy. This highlights the importance of accurately modeling molecular rotations when predicting surface reaction kinetics in ALD processes, as small differences can significantly impact predicted reaction rates and process design."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "List the three rotational treatments of adsorbed H\u2082O considered in the Arrhenius plot.",

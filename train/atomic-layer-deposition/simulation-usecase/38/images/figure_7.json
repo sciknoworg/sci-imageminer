@@ -10,31 +10,25 @@
         "a": "| Time (s)|Hacac Pressure (Pa)|\n|---------|-------------------|\n|0|0|\n|0.8|60|\n|1.5|60|\n|3.6|0|"
     },
     "vqa": {
-        "d": [
+        "a": [
             {
                 "question_type": "Application/Performance",
                 "question": "List the key factors influencing the exposure time of a wafer section in the spatial ASALD reactor.",
                 "answer_type": "List",
                 "answer": "Wafer rotation speed (angular velocity), Geometry of the reaction zone, Position of the wafer in the reactor, Distribution and flow of reactant gases"
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "Does changing the angular velocity of the wafer affect the exposure time distribution?",
                 "answer_type": "Paragraph",
                 "answer": "Yes. Increasing the angular velocity reduces the exposure time for each wafer section, while decreasing it extends the exposure time, affecting reactant coverage uniformity."
-            }
-        ],
-        "a": [
+            },
             {
                 "question_type": "Process-Oriented",
                 "question": "How is the exposure time for a wafer section determined in a spatial ASALD reactor?",
                 "answer_type": "Paragraph",
                 "answer": "The exposure time is determined by the duration a wafer section is exposed to the reactant as it passes through a reaction zone while mounted on the rotating plate. The Hacac partial pressure rises to a plateau as the section enters the reaction zone and drops to zero as it exits. This timing depends on the wafer\u2019s angular velocity and the shape of the reaction zone, ensuring each section receives controlled exposure for proper surface coverage."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "At what times does the Hacac partial pressure reach the plateau and return to zero for the example node shown?",

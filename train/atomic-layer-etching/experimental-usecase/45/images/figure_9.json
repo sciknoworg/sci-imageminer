@@ -9,10 +9,10 @@
         "b": "Film thickness versus sample location before and after 200 TiN ALE cycles using O\u2083 and HF at 350\u00b0C. Initial thickness is uniform at approximately 72 \u00c5. After ALE, significant non-uniformity appears: upstream positions (1 through 3) show substantial etching to approximately 20 to 25 \u00c5, while downstream positions (4 and 5) retain more material at 35 to 47 \u00c5 due to reduced O\u2083 concentration from thermal decomposition."
     },
     "data_extraction": {
-        "a": "| Sample Location | Initial TiN Thickness (\u00c5) | After 200 Cycles ALE at 250\u00b0C (\u00c5) |\n|-----------------|--------------------------|----------------------------------|\n| 1               | 75                       | 20                               |\n| 2               | 75                       | 20                               |\n| 3               | 75                       | 22                               |\n| 4               | 75                       | 30                               |\n| 5               | 75                       | 45                               |"
+        "b": "| Sample Location | Initial TiN Thickness (\u00c5) | After 200 Cycles ALE at 250\u00b0C (\u00c5) |\n|-----------------|--------------------------|----------------------------------|\n| 1               | 75                       | 20                               |\n| 2               | 75                       | 20                               |\n| 3               | 75                       | 22                               |\n| 4               | 75                       | 30                               |\n| 5               | 75                       | 45                               |"
     },
     "vqa": {
-        "a": [
+        "b": [
             {
                 "question_type": "Comparative/Trend",
                 "question": "How does spatial uniformity at 350\u00b0C compare to 250\u00b0C?",

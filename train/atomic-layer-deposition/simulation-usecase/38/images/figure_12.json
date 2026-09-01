@@ -10,31 +10,25 @@
         "a": "| Position along boundary (\u00b5m)|N\u2082 Mole Fraction|\n|-----------------------------|----------------|\n|0.0|0.450|\n|1.3|0.505|\n|4.6|0.560|\n|8.4|0.615|\n|12.5|0.670|\n|16.8|0.725|\n|21.2|0.780|\n|25.9|0.835|\n|30.8|0.890|\n|36.0|0.945|\n|41.5|1.000|"
     },
     "vqa": {
-        "d": [
+        "a": [
             {
                 "question_type": "Application/Performance",
                 "question": "How does understanding the N\u2082 concentration gradient in Figure 12 assist in optimizing surface coverage simulations?",
                 "answer_type": "Paragraph",
                 "answer": "The N\u2082 concentration gradient highlights the spatial limitations for collecting accurate surface coverage data along the boundary region. By understanding these small-scale gradients, researchers can adjust simulation parameters, such as time step and nodal resolution, to better capture adsorption dynamics. This insight helps explain the discontinuous curves seen in Figure 11 and guides the design of more precise ASALD simulations, ensuring accurate prediction of surface coverage and uniform film deposition under different operating conditions."
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "How does the N\u2082 concentration change along the reagent-purge boundary in reactor R4?",
                 "answer_type": "Factoid",
                 "answer": "The N\u2082 mole fraction gradually increases from 0.450 to 1.000 along the boundary, illustrating a smooth concentration gradient across micrometer-scale positions."
-            }
-        ],
-        "a": [
+            },
             {
                 "question_type": "Process-Oriented",
                 "question": "the small micrometer-scale length along the reagent-purge boundary affect the ability to collect surface coverage data?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "What factors contribute to the discontinuous coverage curves observed in Figure 11 according to the description?",

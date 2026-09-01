@@ -13,28 +13,18 @@
         "b": "| Substrate velocity (cm/s) | Growth rate (nm/cycle) |\n|---|---|\n| 1 | 0.2 |\n| 2 | 0.2 |\n| 3 | 0.2 |\n| 4 | 0.2 |\n| 5 | 0.2 |\n| 6 | 0.2 |\n| 7 | 0.2 |\n| 8 | 0.2 |\n| 9 | 0.2 |"
     },
     "vqa": {
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "Why is controlling substrate velocity important for scalable spatial ALD processes?",
-                "answer_type": "Paragraph",
-                "answer": "Substrate velocity directly governs the effective precursor exposure and thus determines whether surface reactions reach saturation. At high velocities, insufficient exposure leads to reduced growth per cycle, while optimized velocity enables uniform, high-throughput deposition. This balance is critical for industrial-scale spatial ALD where productivity must be increased without sacrificing film quality or thickness control."
-            }
-        ],
         "a": [
             {
                 "question_type": "Process-Oriented",
                 "question": "Does increasing substrate velocity reduce the effective precursor exposure during SALD?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "c": [
+            },
             {
-                "question_type": "Structure-Property",
-                "question": "Which factors link substrate motion to film growth behavior in this system?",
-                "answer_type": "List",
-                "answer": "Substrate velocity (controls residence time), Effective DEZ exposure at the surface, DEZ flow rate (sccm), Saturation kinetics of ZnO ALD reactions"
+                "question_type": "Application/Performance",
+                "question": "Why is controlling substrate velocity important for scalable spatial ALD processes?",
+                "answer_type": "Paragraph",
+                "answer": "Substrate velocity directly governs the effective precursor exposure and thus determines whether surface reactions reach saturation. At high velocities, insufficient exposure leads to reduced growth per cycle, while optimized velocity enables uniform, high-throughput deposition. This balance is critical for industrial-scale spatial ALD where productivity must be increased without sacrificing film quality or thickness control."
             }
         ],
         "b": [
@@ -43,6 +33,12 @@
                 "question": "How does the ZnO growth rate change as substrate velocity increases at fixed DEZ flow?",
                 "answer_type": "Factoid",
                 "answer": "The ZnO growth rate decreases monotonically with increasing substrate velocity due to reduced effective exposure time."
+            },
+            {
+                "question_type": "Structure-Property",
+                "question": "Which factors link substrate motion to film growth behavior in this system?",
+                "answer_type": "List",
+                "answer": "Substrate velocity (controls residence time), Effective DEZ exposure at the surface, DEZ flow rate (sccm), Saturation kinetics of ZnO ALD reactions"
             }
         ]
     },

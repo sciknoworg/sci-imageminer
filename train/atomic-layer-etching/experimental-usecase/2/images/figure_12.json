@@ -16,14 +16,6 @@
         "c": "| Time (s) | Te (eV) \u2014 1.5 s | Te (eV) \u2014 5.0 s |\n|----------|------------------|------------------|\n| 0        | 0.13             | 0.12             |\n| 5        | 0.01             | 0.00             |\n| 10       | 0.00             | -0.01            |\n| 20       | 0.01             | 0.00             |\n| 40       | 0.01             | -0.01            |\n| 60       | 0.02             | 0.00             |\n| 80       | 0.03             | 0.00             |\n| 95       | 0.12             | 0.11             |"
     },
     "vqa": {
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "Why is understanding cycle-to-cycle plasma evolution important for atomic layer etching?",
-                "answer_type": "Paragraph",
-                "answer": "Cycle-to-cycle plasma evolution directly impacts etch uniformity, selectivity, and self-limitation in ALE processes. Increased residual fluorocarbon species from longer precursor pulses alter plasma electrical properties, which can reduce process controllability and degrade etching precision. Understanding these effects is critical for optimizing pulse timing and maintaining stable ALE operation."
-            }
-        ],
         "b": [
             {
                 "question_type": "Comparative/Trend",
@@ -38,6 +30,12 @@
                 "question": "Does increasing the C\u2084F\u2088 pulse duration modify plasma properties during each ALE cycle?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is understanding cycle-to-cycle plasma evolution important for atomic layer etching?",
+                "answer_type": "Paragraph",
+                "answer": "Cycle-to-cycle plasma evolution directly impacts etch uniformity, selectivity, and self-limitation in ALE processes. Increased residual fluorocarbon species from longer precursor pulses alter plasma electrical properties, which can reduce process controllability and degrade etching precision. Understanding these effects is critical for optimizing pulse timing and maintaining stable ALE operation."
             }
         ],
         "c": [

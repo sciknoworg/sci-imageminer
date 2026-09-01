@@ -13,12 +13,18 @@
         "b": "| ALD cycle # | Thickness (nm) |\n|---|---|\n| 25 | ~2.6 |\n| 50 | ~5.2 |\n| 75 | ~7.7 |\n| 100 | ~10.3 |"
     },
     "vqa": {
-        "d": [
+        "a": [
             {
                 "question_type": "Application/Performance",
                 "question": "How does the linear growth behavior shown in this figure support the use of this PEALD process for practical ZrN film deposition?",
                 "answer_type": "Paragraph",
                 "answer": "The linear thickness increase with cycle number demonstrates excellent process stability and reproducibility, allowing precise thickness control through cycle counting. The validated growth per cycle and agreement between in-situ and ex-situ measurements ensure reliable scaling of ZrN film thickness, which is essential for integrating conductive nitride layers into advanced electronic and interconnect applications."
+            },
+            {
+                "question_type": "Process-Oriented",
+                "question": "Does the figure demonstrate constant, self-limiting growth per cycle during ZrN PEALD?",
+                "answer_type": "Yes/No",
+                "answer": "Yes"
             }
         ],
         "b": [
@@ -27,17 +33,7 @@
                 "question": "What relationship is observed between ZrN film thickness and the number of PEALD cycles?",
                 "answer_type": "Factoid",
                 "answer": "ZrN film thickness increases linearly with ALD cycle number with a constant growth rate of approximately 0.10 nm per cycle."
-            }
-        ],
-        "a": [
-            {
-                "question_type": "Process-Oriented",
-                "question": "Does the figure demonstrate constant, self-limiting growth per cycle during ZrN PEALD?",
-                "answer_type": "Yes/No",
-                "answer": "Yes"
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "Which structural and measurement-related features shown in the figure support reliable determination of ZrN growth per cycle?",

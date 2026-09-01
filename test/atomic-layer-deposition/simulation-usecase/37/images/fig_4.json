@@ -16,25 +16,19 @@
                 "question": "Does the ALD process for alumina involve CH\u2084 desorption during the TMA pulse?",
                 "answer_type": "Paragraph",
                 "answer": "Yes. CH\u2084 is desorbed during the adsorption of TMA on the hydroxylated surface."
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "How does the number of [Me] per cell compare to [H] per cell during one ALD cycle?",
                 "answer_type": "Factoid",
                 "answer": "[Me] = 1 per cell, whereas [H] = 2 per cell, indicating that more H atoms are involved in surface regeneration than TMA methyl groups in adsorption."
-            }
-        ],
-        "d": [
+            },
             {
                 "question_type": "Application/Performance",
                 "question": "Explain how steric hindrance affects the maximum monolayer growth rate in the ALD of alumina.",
                 "answer_type": "Paragraph",
                 "answer": "Steric hindrance at the surface prevents deposition of a full monolayer of Al\u2082O\u2083. Even under optimal conditions, only about half a monolayer per cycle can form because the adsorbed TMA molecules occupy space that limits additional adsorption. This directly impacts the growth rate, limiting it to approximately 0.75 monolayer per cycle or 1.6 \u00c5 per cycle, slightly lower than the theoretical maximum predicted from the mechanistic coverage of [Me] and [H]."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Process-Oriented",
                 "question": "List the surface features or species involved in the ALD growth of alumina.",

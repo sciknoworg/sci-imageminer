@@ -4,7 +4,7 @@
         "a": "scatter plot"
     },
     "summarization": {
-        "b": "Figure shows film thickness profiles for platinum ALD using short (0.2 s) and long (1.5 s) MeCpPtMe\u2083 precursor pulses as a function of substrate position along the gas-flow direction. Long precursor pulses yield consistently thicker films, reflecting greater precursor availability across the surface. Both profiles show a mild decrease in thickness with distance from the leading edge, indicating precursor depletion during transport. The small error bars suggest good reproducibility for both pulse conditions."
+        "a": "Figure shows film thickness profiles for platinum ALD using short (0.2 s) and long (1.5 s) MeCpPtMe\u2083 precursor pulses as a function of substrate position along the gas-flow direction. Long precursor pulses yield consistently thicker films, reflecting greater precursor availability across the surface. Both profiles show a mild decrease in thickness with distance from the leading edge, indicating precursor depletion during transport. The small error bars suggest good reproducibility for both pulse conditions."
     },
     "data_extraction": {
         "a": "| Distance from leading edge (cm) | Long-pulse thickness (nm) | Short-pulse thickness (nm) |\n|---------------------------------|---------------------------|----------------------------|\n| 1                               | ~78 \u00b1 5                   | ~66 \u00b1 5                    |\n| 2                               | ~76 \u00b1 5                   | ~64 \u00b1 5                    |\n| 3                               | ~72 \u00b1 5                   | ~63 \u00b1 5                    |\n| 4                               | ~68 \u00b1 5                   | ~60 \u00b1 5                    |"

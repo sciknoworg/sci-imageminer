@@ -16,25 +16,19 @@
                 "question": "Does Figure 7 show a stepwise reaction pathway that includes reactant complexes, transition states, and product complexes for each hydroxylation step?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "How many consecutive hydroxylation reactions are represented in the ZPE-corrected PES shown in Figure 7?",
                 "answer_type": "Factoid",
                 "answer": "Three consecutive hydroxylation reactions."
-            }
-        ],
-        "d": [
+            },
             {
                 "question_type": "Application/Performance",
                 "question": "Why is the ZPE-corrected PES in Figure 7 important for understanding the surface hydroxylation of the \u2212TiI\u2083 intermediate in ALD processes?",
                 "answer_type": "Paragraph",
                 "answer": "The ZPE-corrected PES provides insight into both the kinetics and thermodynamics of the sequential hydroxylation reactions on the \u2212TiI\u2083 surface intermediate. By explicitly showing activation barriers and relative stabilities of reactant, transition, and product complexes, the figure allows evaluation of which hydroxylation steps are rate-limiting and how the surface chemistry evolves as iodine ligands are progressively replaced by hydroxyl groups. This information is essential for predicting reaction feasibility and temperature dependence in ALD processes, where controlled surface reactions determine film quality and growth efficiency."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "What energetic quantities are compared along the reaction coordinate in Figure 7 for each hydroxylation step?",

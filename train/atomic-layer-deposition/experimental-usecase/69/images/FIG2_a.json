@@ -22,17 +22,13 @@
                 "question": "What is the P/(P + Al + O) ratio at saturation?",
                 "answer_type": "Factoid",
                 "answer": "0.15."
-            }
-        ],
-        "d": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "How does the GPC change as a function of TMA exposure?",
                 "answer_type": "Factoid",
                 "answer": "After about 10 seconds of TMA exposure, the GPC plateaus at a value of 0.12 nm/cycle."
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "How does the GPC change as a function of O2 plasma exposure?",

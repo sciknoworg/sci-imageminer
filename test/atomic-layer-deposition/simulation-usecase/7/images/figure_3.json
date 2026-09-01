@@ -11,19 +11,8 @@
         "c": "depicts the final proton-shifted configuration. These snapshots represent key stages in the proton transfer mechanism obtained from structural optimization."
     },
     "data_extraction": {
-        "a": "",
-        "b": "",
-        "c": ""
     },
     "vqa": {
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "Why is understanding proton diffusion between nitrogen atoms important in this system?",
-                "answer_type": "Paragraph",
-                "answer": "Understanding proton diffusion is essential because it directly influences the stability, reactivity, and ligand dynamics of surface-bound Hf complexes during deposition or surface reactions. Proton transfer affects surface coordination states, determines the energetics of reaction pathways, and impacts the overall mechanism of film growth in processes such as ALD/PEALD. Insight into saddle points and final proton configurations helps predict reaction barriers and optimize processing conditions."
-            }
-        ],
         "b": [
             {
                 "question_type": "Comparative/Trend",
@@ -46,6 +35,12 @@
                 "question": "Which structural changes occur as the proton migrates between nitrogen atoms in Figure 3?",
                 "answer_type": "List",
                 "answer": "Change in N\u2013H bonding position, Shift in proton orientation relative to the surface, Identification of a saddle point where bond rearrangement is underway"
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Why is understanding proton diffusion between nitrogen atoms important in this system?",
+                "answer_type": "Paragraph",
+                "answer": "Understanding proton diffusion is essential because it directly influences the stability, reactivity, and ligand dynamics of surface-bound Hf complexes during deposition or surface reactions. Proton transfer affects surface coordination states, determines the energetics of reaction pathways, and impacts the overall mechanism of film growth in processes such as ALD/PEALD. Insight into saddle points and final proton configurations helps predict reaction barriers and optimize processing conditions."
             }
         ]
     },

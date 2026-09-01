@@ -17,10 +17,10 @@ either express or implied.
 import re
 import string
 import numpy as np
-import evaluate
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
-from teds_pubtables import teds_pubtables_official
-from deplot_metric import metrics as deplot_metrics
+# import evaluate # takes a long time to load
+# from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+# from teds_pubtables import teds_pubtables_official
+# from deplot_metric import metrics as deplot_metrics
 
 
 def score_factoid(metrics):
@@ -141,6 +141,9 @@ def compute_datatable_metrics(groundtruths, predictions, rounding=False, round_d
                 rms_scores.append(0.0)
                 teds_pubtables_scores.append(0.0)
             else:
+                from teds_pubtables import teds_pubtables_official
+                from deplot_metric import metrics as deplot_metrics
+
                 # RMS metric
                 _target = flatten_markdown_table(truth)
                 _prediction = flatten_markdown_table(pred)
@@ -175,6 +178,8 @@ def metric_accuracy_precision_recall_f1(predictions, groundtruths, labels, avera
             }
     else:
         if rounding:
+            from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+
             return {
                 "accuracy": round(accuracy_score(groundtruths, predictions), round_digits),
                 "precision": round(precision_score(groundtruths, predictions, labels=labels, average=average, zero_division=0), round_digits),
@@ -182,6 +187,8 @@ def metric_accuracy_precision_recall_f1(predictions, groundtruths, labels, avera
                 "f1_score": round(f1_score(groundtruths, predictions, labels=labels, average=average, zero_division=0), round_digits),
             }
         else:
+            from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+
             return {
                 "accuracy": accuracy_score(groundtruths, predictions),
                 "precision": precision_score(groundtruths, predictions, labels=labels, average=average, zero_division=0),
@@ -197,7 +204,7 @@ def metric_rouge(predictions, groundtruths, rouge_types=['rouge1', 'rouge2', 'ro
                 "rougeL": 0.0,
               }
     else:
-
+        import evaluate
         rouge = evaluate.load('rouge')
         scores = rouge.compute(predictions=predictions, references=groundtruths, rouge_types=rouge_types)
 
@@ -220,6 +227,7 @@ def metric_bertscore(predictions, groundtruths, model_type="distilbert-base-unca
                 "f1": 0.0
             }
     else:
+        import evaluate
         bertscore = evaluate.load("bertscore")
         scores = bertscore.compute(predictions=predictions, references=groundtruths,
                                 model_type=model_type, use_fast_tokenizer=True, lang="en")
@@ -296,6 +304,7 @@ def compute_paragraph_score(predictions, groundtruths, rounding=False, round_dig
             }
 
 def exact_match(predictions, groundtruths, ignore_case=True, ignore_punctuation=False, ignore_numbers=False, rounding=False, round_digits=2):
+    import evaluate
     exact_match_metric = evaluate.load("exact_match")
     return exact_match_metric.compute(references=groundtruths, predictions=predictions, ignore_case=ignore_case, ignore_punctuation=ignore_punctuation, ignore_numbers=ignore_numbers)
     

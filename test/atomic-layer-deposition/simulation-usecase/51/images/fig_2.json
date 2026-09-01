@@ -13,14 +13,6 @@
         "b": "|Description|\n|-----------|\n|Optimized initial state (IS), transition state (TS), and final state (FS) structures illustrating N\u2013N bond dissociation and adsorption of N atoms at the three-fold hollow Ti site on the Ti-terminated TiN (111) surface.|"
     },
     "vqa": {
-        "d": [
-            {
-                "question_type": "Application/Performance",
-                "question": "Explain why the Ti-terminated TiN (111) surface exhibits higher reactivity for H\u2082 and N\u2082 dissociation than the TiN (001) surface.",
-                "answer_type": "Paragraph",
-                "answer": "The Ti-terminated TiN (111) surface has more dangling bonds per Ti atom compared to TiN (001), which increases surface reactivity. This facilitates H\u2013H and N\u2013N bond dissociation with lower activation energies and higher adsorption energies, making dissociative chemisorption energetically favorable. Understanding this surface reactivity is important for predicting catalytic behavior and designing materials for surface reactions."
-            }
-        ],
         "b": [
             {
                 "question_type": "Comparative/Trend",
@@ -35,9 +27,13 @@
                 "question": "Does the dissociative chemisorption of H\u2082 on Ti-terminated TiN (111) involve H\u2013H bond breaking before adsorption?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "c": [
+            },
+            {
+                "question_type": "Application/Performance",
+                "question": "Explain why the Ti-terminated TiN (111) surface exhibits higher reactivity for H\u2082 and N\u2082 dissociation than the TiN (001) surface.",
+                "answer_type": "Paragraph",
+                "answer": "The Ti-terminated TiN (111) surface has more dangling bonds per Ti atom compared to TiN (001), which increases surface reactivity. This facilitates H\u2013H and N\u2013N bond dissociation with lower activation energies and higher adsorption energies, making dissociative chemisorption energetically favorable. Understanding this surface reactivity is important for predicting catalytic behavior and designing materials for surface reactions."
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "List the key structural stages and adsorption sites for H\u2082 and N\u2082 dissociative chemisorption on Ti-terminated TiN (111).",

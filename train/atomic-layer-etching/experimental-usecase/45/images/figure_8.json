@@ -9,10 +9,10 @@
         "b": "Film thickness versus sample location before and after 200 TiN ALE cycles using O\u2083 and HF at 250\u00b0C. The initial TiN thickness is uniform at approximately 75 \u00c5 across all positions. After ALE, positions 2 through 5 show consistent etching with an etch rate of 0.19 \u00c5/cycle, while position 1 (nearest to reactant entry) shows slightly higher etching at 0.27 \u00c5/cycle."
     },
     "data_extraction": {
-        "a": "| Sample Location | Initial TiN Thickness (\u00c5) | After 200 Cycles ALE at 250\u00b0C (\u00c5) |\n|-----------------|--------------------------|----------------------------------|\n| 1               | 75                       | 20                               |\n| 2               | 75                       | 35                               |\n| 3               | 75                       | 30                               |\n| 4               | 75                       | 35                               |\n| 5               | 75                       | 40                               |"
+        "b": "| Sample Location | Initial TiN Thickness (\u00c5) | After 200 Cycles ALE at 250\u00b0C (\u00c5) |\n|-----------------|--------------------------|----------------------------------|\n| 1               | 75                       | 20                               |\n| 2               | 75                       | 35                               |\n| 3               | 75                       | 30                               |\n| 4               | 75                       | 35                               |\n| 5               | 75                       | 40                               |"
     },
     "vqa": {
-        "a": [
+        "b": [
             {
                 "question_type": "Comparative/Trend",
                 "question": "How does the etch rate vary with sample position at 250\u00b0C?",

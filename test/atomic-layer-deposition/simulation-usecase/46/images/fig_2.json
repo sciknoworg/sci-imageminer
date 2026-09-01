@@ -1,7 +1,12 @@
 {
     "sample_id": "atomic-layer-deposition/simulation-usecase/46/fig_2",
     "classification": {
-        "a": "molecular structure diagram"
+        "a": "molecular structure diagram",
+        "b": "molecular structure diagram",
+        "c": "molecular structure diagram",
+        "d": "molecular structure diagram",
+        "e": "molecular structure diagram",
+        "f": "molecular structure diagram"
     },
     "summarization": {
         "a": "Optimized adsorption configuration of silane on a hydroxyl-terminated Si(001) surface, showing the interaction between the precursor and surface \u2013OH groups along with the calculated adsorption energy and key interatomic distances.",

@@ -16,25 +16,19 @@
                 "question": "Does quantum tunneling significantly influence the rate constant of the (SiH3O)3Si-OH* + TiI4 reaction at low temperatures?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "At high temperatures, how does the semiclassical tunneling-corrected rate constant (kSC-TST) compare to the classical TST rate constant (kTST)?",
                 "answer_type": "Factoid",
                 "answer": "At high temperatures, kSC-TST closely matches kTST, indicating tunneling effects are negligible in this regime."
-            }
-        ],
-        "d": [
+            },
             {
                 "question_type": "Application/Performance",
                 "question": "How can the Arrhenius plot information be used to estimate the operational temperature range where tunneling effects are important in ALD processes?",
                 "answer_type": "Paragraph",
                 "answer": "The Arrhenius plot shows a clear crossover temperature (Tx \u2248 151 K) below which tunneling significantly increases the reaction rate. By analyzing this plot, one can determine the temperature range where classical TST underestimates the rate and tunneling must be considered. For practical ALD applications, this allows process engineers to predict whether tunneling effects can be ignored at typical operating temperatures, ensuring accurate rate estimates and proper design of deposition cycles."
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "List the three data series presented in the Arrhenius plot and their significance.",

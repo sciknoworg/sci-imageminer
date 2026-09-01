@@ -10,31 +10,25 @@
         "a": "| Photon energy (eV) | Dielectric function \u03b5\u2082 |\n|---|---|\n| 0.7 | ~2.0 |\n| 1.0 | ~0.8 |\n| 2.0 | ~0.6 |\n| 3.0 | ~1.2 |\n| 4.0 | ~2.8 |\n| 5.0 | ~3.5 |\n| 6.0 | ~4.0 |\n| 7.0 | ~3.6 |"
     },
     "vqa": {
-        "d": [
+        "a": [
             {
                 "question_type": "Application/Performance",
                 "question": "How does the dielectric-function analysis in this figure support the use of PEALD-grown ZrN in device applications?",
                 "answer_type": "Paragraph",
                 "answer": "The strong Drude response observed in the dielectric-function analysis demonstrates a high free-carrier concentration, confirming the metallic nature of the PEALD-grown ZrN film even at low deposition temperature. This metallic optical behavior supports the suitability of ZrN for applications such as diffusion barriers, conductive electrodes, and plasmonic or interconnect layers where both electrical conductivity and controlled thin-film growth are required."
-            }
-        ],
-        "b": [
+            },
             {
                 "question_type": "Comparative/Trend",
                 "question": "How does the contribution to the imaginary dielectric function vary with photon energy?",
                 "answer_type": "Factoid",
                 "answer": "The Drude contribution dominates at low photon energies, while Lorentz oscillator contributions become prominent at higher photon energies."
-            }
-        ],
-        "a": [
+            },
             {
                 "question_type": "Process-Oriented",
                 "question": "Does the figure confirm metallic behavior of the PEALD-grown ZrN film through its optical response?",
                 "answer_type": "Yes/No",
                 "answer": "Yes"
-            }
-        ],
-        "c": [
+            },
             {
                 "question_type": "Structure-Property",
                 "question": "Which electronic contributions shown in the figure determine the optical and conductive properties of the ZrN film?",
