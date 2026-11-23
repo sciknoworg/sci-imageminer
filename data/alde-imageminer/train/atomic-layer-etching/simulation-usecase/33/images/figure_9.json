@@ -7,7 +7,7 @@
         "a": "The figure presents the variation of reflection coefficient as a function of incident angle (\u03b8<sub>in</sub>) from 0\u00b0 to 75\u00b0. From 0\u00b0 to 45\u00b0, the reflection coefficient remains relatively constant at around 0.1, indicating minimal reflection changes over low to moderate angles. At 60\u00b0, the coefficient begins to rise, and at 75\u00b0, it increases sharply to approximately 0.45. This indicates that higher incident angles lead to significantly more surface reflection, a behavior that may influence energy input or beam penetration in angle-sensitive surface processes."
     },
     "data_extraction": {
-        "a": "| \u03b8<sub>in</sub> (deg) | Reflection coefficient |\n|---|---|\n| 0 | 0.1 |\n| 15 | 0.1 |\n| 30 | 0.1 |\n| 45 | 0.1 |\n| 60 | 0.2 |\n| 75 | 0.45 |"
+      "a": "| \u03b8<sub>in</sub> (deg) | Reflection coefficient |\n| --- | --- |\n| 0 | 0.1 |\n| 15 | 0.1 |\n| 30 | 0.1 |\n| 45 | 0.1 |\n| 60 | 0.2 |\n| 75 | 0.45 |"
     },
     "vqa": {
         "a": [

@@ -11,9 +11,9 @@
         "c": "The figure illustrates the intensity of O 1s binding energy peaks at various energies"
     },
     "data_extraction": {
-        "a": "| Component | Binding Energy (eV) |\n|-----------|----------------------|\n| Li\u2082CO\u2083    | ~290                |\n| C=O       | ~288                |\n| C\u2013O       | ~286                |\n| C\u2013C       | ~284.5              |",
-        "b": "| Component | Binding Energy (eV) |\n|-----------|----------------------|\n| Li\u2082CO\u2083    | ~55.5               |",
-        "c": "| Component | Binding Energy (eV) |\n|-----------|----------------------|\n| Li\u2082CO\u2083    | ~532                |"
+      "a": "| Component | Binding Energy (eV) |\n| --- | --- |\n| Li\u2082CO\u2083 | ~290 |\n| C=O | ~288 |\n| C\u2013O | ~286 |\n| C\u2013C | ~284.5 |",
+      "b": "| Component | Binding Energy (eV) |\n| --- | --- |\n| Li\u2082CO\u2083 | ~55.5 |",
+      "c": "| Component | Binding Energy (eV) |\n| --- | --- |\n| Li\u2082CO\u2083 | ~532 |"
     },
     "vqa": {
         "a": [

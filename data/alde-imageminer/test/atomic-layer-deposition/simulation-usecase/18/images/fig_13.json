@@ -7,7 +7,7 @@
         "a": "The line chart  represents the GaN growth rate versus V/III ratio at 1273 K for the stagnation-flow reactor used by Safvi et al. Unlike the diffusion-limited decrease observed in Figure 13, this configuration exhibits a steady linear increase in growth rate with higher V/III ratios. This indicates that in stagnation-flow reactors, added ammonia effectively enhances surface reaction kinetics without being limited by gas-phase diffusion."
     },
     "data_extraction": {
-        "a": "| V/III | Growth Rate (\u00b5m/hr) |\n|---|---|\n| 35 | 0.58 |\n| 70 | 0.59 |\n| 142 | 0.54 |\n| 214 | 0.45 |"
+      "a": "| V/III | Growth Rate (\u00b5m/hr) |\n| --- | --- |\n| 35 | 0.58 |\n| 70 | 0.59 |\n| 142 | 0.54 |\n| 214 | 0.45 |"
     },
     "vqa": {
         "a": [

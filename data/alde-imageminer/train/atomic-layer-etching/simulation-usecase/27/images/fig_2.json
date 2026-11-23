@@ -7,8 +7,8 @@
         "a": "Process timing diagram illustrating the standard GaN ALE cycle. Half-cycle A consists of a 5 s gas stabilization followed by a 10 s SF6/Ar plasma (50/150 sccm, 100 mTorr, 100 W ICP) and a 10 s Ar purge. Half-cycle B involves four repeated TMA dose/hold sequences (0.1 s dose, 2 s hold) at 150 mTorr, followed by a 25 s Ar purge."
     },
     "data_extraction": {
-        "a": "| Step | Duration | Ar Flow (sccm) | SF\u2086 Flow (sccm) | Pressure (mTorr) | ICP Power (W) |\n|---|---|---|---|---|---|\n| Gas stabilise | 5 s | 150 | 50 | 100 | 0 |\n| Ar/SF\u2086 Plasma | 10 s | 150 | 50 | 100 | 100 |\n| Purge | 10 s | 300 | 0 | - | 0 |",
-        "b": "| Step | Duration | Ar Flow (sccm) | TMA Dose | Pressure (mTorr) |\n|---|---|---|---|---|\n| Dose | 0.1 s | 10 | On | 150 |\n| Hold | 2 s | 10 | Off | 150 |\n| Purge | 25 s | 300 | Off | - |"
+      "a": "| Step | Duration | Ar Flow (sccm) | SF\u2086 Flow (sccm) | Pressure (mTorr) | ICP Power (W) |\n| --- | --- | --- | --- | --- | --- |\n| Gas stabilise | 5 s | 150 | 50 | 100 | 0 |\n| Ar/SF\u2086 Plasma | 10 s | 150 | 50 | 100 | 100 |\n| Purge | 10 s | 300 | 0 | - | 0 |",
+      "b": "| Step | Duration | Ar Flow (sccm) | TMA Dose | Pressure (mTorr) |\n| --- | --- | --- | --- | --- |\n| Dose | 0.1 s | 10 | On | 150 |\n| Hold | 2 s | 10 | Off | 150 |\n| Purge | 25 s | 300 | Off | - |"
     },
     "vqa": {
         "a": [

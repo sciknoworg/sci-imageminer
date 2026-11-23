@@ -13,10 +13,10 @@
         "d": "Shows mass change per cycle (MCPC) versus temperature. The increasingly negative MCPC from 250\u00b0C to 325\u00b0C indicates higher etch rates at elevated temperatures."
     },
     "data_extraction": {
-        "a": "| TMA Exposure Time (s) | Delta M_TMA (ng/(cm^2 cycle)) |\n|---|---|\n| 0.0 | 0 |\n| 0.6 | -14 |\n| 1.0 | -20 |\n| 1.5 | -23 |\n| 1.75 | -27 |\n| 2.0 | -29 |\n| 2.25 | -32 |\n| 2.5 | -32 |",
-        "b": "| HF Exposure Time (s) | Delta M_HF (ng/(cm^2 cycle)) |\n|---|---|\n| 0.00 | 0 |\n| 0.60 | 12 |\n| 0.75 | 12 |\n| 1.00 | 13 |\n| 1.25 | 14 |\n| 1.50 | 15 |\n| 1.75 | 15 |",
-        "c": "| Temperature (\u00b0C) | Delta M_HF (Red Circles) | Delta M_TMA (Blue Squares) |\n|---|---|---|\n| 250 | 6 | -10 |\n| 275 | 9 | -20 |\n| 300 | 13 | -29 |\n| 325 | 19 | -42 |",
-        "d": "| Temperature (\u00b0C) | MCPC (ng/(cm^2 cycle)) |\n|---|---|\n| 250 | -4 |\n| 275 | -10 |\n| 300 | -16 |\n| 325 | -23 |"
+      "a": "| TMA Exposure Time (s) | Delta M_TMA (ng/(cm^2 cycle)) |\n| --- | --- |\n| 0.0 | 0 |\n| 0.6 | -14 |\n| 1.0 | -20 |\n| 1.5 | -23 |\n| 1.75 | -27 |\n| 2.0 | -29 |\n| 2.25 | -32 |\n| 2.5 | -32 |",
+      "b": "| HF Exposure Time (s) | Delta M_HF (ng/(cm^2 cycle)) |\n| --- | --- |\n| 0.00 | 0 |\n| 0.60 | 12 |\n| 0.75 | 12 |\n| 1.00 | 13 |\n| 1.25 | 14 |\n| 1.50 | 15 |\n| 1.75 | 15 |",
+      "c": "| Temperature (\u00b0C) | Delta M_HF (Red Circles) | Delta M_TMA (Blue Squares) |\n| --- | --- | --- |\n| 250 | 6 | -10 |\n| 275 | 9 | -20 |\n| 300 | 13 | -29 |\n| 325 | 19 | -42 |",
+      "d": "| Temperature (\u00b0C) | MCPC (ng/(cm^2 cycle)) |\n| --- | --- |\n| 250 | -4 |\n| 275 | -10 |\n| 300 | -16 |\n| 325 | -23 |"
     },
     "vqa": {
         "d": [

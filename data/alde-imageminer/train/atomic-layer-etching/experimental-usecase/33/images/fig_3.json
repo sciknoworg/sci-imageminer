@@ -7,7 +7,7 @@
         "a": "The bar chart compares etching amounts at two different temperatures, showing a significant difference between -10\u00b0C and 30\u00b0C."
     },
     "data_extraction": {
-        "a": "| Temperature | Etching Amount (nm) |\n|---|---|\n|-10 \u00b0C | 0.3 nm |\n| 30 \u00b0C | 20 nm |"
+      "a": "| Temperature | Etching Amount (nm) |\n| --- | --- |\n| -10 \u00b0C | 0.3 nm |\n| 30 \u00b0C | 20 nm |"
     },
     "vqa": {
         "a": [

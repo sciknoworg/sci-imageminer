@@ -7,7 +7,7 @@
         "a": "The line chart shows the film thickness in \u00c5ngstr\u00f6ms (\u00c5) over the number of cycles for XRR and SE methods at 250\u00b0C using H\u2082O\u2082 and HF"
     },
     "data_extraction": {
-        "a": "| Number of Cycles | XRR (Film Thickness, \u00c5) | SE (Film Thickness, \u00c5) |\n|---|---|---|\n| 0 | 63 | 73 |\n| 50 | 58 | 66 |\n| 100 | 51 | 61 |\n| 200 | 39 | 46 |\n| 400 | 6 | 12 |"
+      "a": "| Number of Cycles | XRR (Film Thickness, \u00c5) | SE (Film Thickness, \u00c5) |\n| --- | --- | --- |\n| 0 | 63 | 73 |\n| 50 | 58 | 66 |\n| 100 | 51 | 61 |\n| 200 | 39 | 46 |\n| 400 | 6 | 12 |"
     },
     "vqa": {
         "a": [

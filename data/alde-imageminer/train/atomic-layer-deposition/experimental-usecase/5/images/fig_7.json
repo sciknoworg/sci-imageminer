@@ -7,7 +7,7 @@
         "a": "This figure shows in situ QCM mass changes during a single TiN ALD cycle at 120 \u00b0C using long reactant pulses. During TDMAT exposure and the first purge, the mass increases by m\u2080 due to precursor adsorption. Subsequent NH\u2083 exposure produces an additional mass change, and the final mass after the second purge corresponds to m\u2080+m\u2081, the net per-cycle gain. The stepwise features confirm that mass uptake occurs in discrete, self-limiting half-reactions."
     },
     "data_extraction": {
-        "a": "| Time (s) | Mass Deposited (ng/cm\u00b2) | TiN Thickness (\u00c5) | Stage |\n|---|---|---|---|\n| 0   | ~0   | ~0.0 | Start |\n| 100 | ~95  | ~1.6 | End TDMAT exposure |\n| 110 | ~90  | ~1.5 | End first purge (m\u2080) |\n| 130 | ~165 | ~3.0 | End NH\u2083 exposure |\n| 160 | ~75  | ~1.3 | End second purge (m\u2080 + m\u2081) |"
+      "a": "| Time (s) | Mass Deposited (ng/cm\u00b2) | TiN Thickness (\u00c5) | Stage |\n| --- | --- | --- | --- |\n| 0 | ~0 | ~0.0 | Start |\n| 100 | ~95 | ~1.6 | End TDMAT exposure |\n| 110 | ~90 | ~1.5 | End first purge (m\u2080) |\n| 130 | ~165 | ~3.0 | End NH\u2083 exposure |\n| 160 | ~75 | ~1.3 | End second purge (m\u2080 + m\u2081) |"
     },
     "vqa": {
         "a": [

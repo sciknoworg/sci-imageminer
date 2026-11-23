@@ -11,9 +11,9 @@
         "c": "Scatter plot showing that Ebind per unit area also decreases with increasing Hf\u2013F coverage. Compared to (b), this representation highlights how the degree of dissociation directly correlates with surface stabilization."
     },
     "data_extraction": {
-        "a": "| Data Series | Total Coverage [HF/nm\u00b2] | Hf-F Coverage [Hf-F/nm\u00b2] |\n|----------------|----------------------------------|-----------------------------------|\n| Squares (on line) | 1.0 | 1.0 |\n| Squares (on line) | 2.5 | 2.5 |\n| Circles (deviation) | 2.0 | 1.5 |\n| Circles (deviation) | 4.0 | 3.0 |\n| Circles (deviation) | 6.0 | 5.0 |\n| Circles (deviation) | 8.0 | 6.5 |\n| Circles (saturation) | 15.0 | 6.0 |\n| Circles (saturation) | 17.0 | 7.0 |",
-        "b": "| Coverage [HF/nm\u00b2] | Ebind [eV/nm\u00b2] | \n|---|---| \n| 1.0 | ~ -1.0 | \n| 2.0 | ~ -3.0 | \n| 4.0 | ~ -4.5 | \n| 8.0 | ~ -8.0 | \n| 8.0 | ~ -9.5 | \n| 15.0 | ~ -12.0 | \n| 17.0 | ~ -13.0 |",
-        "c": "| Coverage [Hf-F/nm\u00b2] | Ebind [eV/nm\u00b2] |\n|---|---|\n| 0.5 | ~ -1.0 |\n| 2.0 | ~ -3.0 |\n| 3.0 | ~ -4.5 |\n| 5.8 | ~ -8.0 |\n| 6.0 | ~ -12.0 |\n| 7.0 | ~ -13.0 |"
+      "a": "| Data Series | Total Coverage [HF/nm\u00b2] | Hf-F Coverage [Hf-F/nm\u00b2] |\n| --- | --- | --- |\n| Squares (on line) | 1.0 | 1.0 |\n| Squares (on line) | 2.5 | 2.5 |\n| Circles (deviation) | 2.0 | 1.5 |\n| Circles (deviation) | 4.0 | 3.0 |\n| Circles (deviation) | 6.0 | 5.0 |\n| Circles (deviation) | 8.0 | 6.5 |\n| Circles (saturation) | 15.0 | 6.0 |\n| Circles (saturation) | 17.0 | 7.0 |",
+      "b": "| Coverage [HF/nm\u00b2] | Ebind [eV/nm\u00b2] |\n| --- | --- |\n| 1.0 | ~ -1.0 |\n| 2.0 | ~ -3.0 |\n| 4.0 | ~ -4.5 |\n| 8.0 | ~ -8.0 |\n| 8.0 | ~ -9.5 |\n| 15.0 | ~ -12.0 |\n| 17.0 | ~ -13.0 |",
+      "c": "| Coverage [Hf-F/nm\u00b2] | Ebind [eV/nm\u00b2] |\n| --- | --- |\n| 0.5 | ~ -1.0 |\n| 2.0 | ~ -3.0 |\n| 3.0 | ~ -4.5 |\n| 5.8 | ~ -8.0 |\n| 6.0 | ~ -12.0 |\n| 7.0 | ~ -13.0 |"
     },
     "vqa": {
         "a": [

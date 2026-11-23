@@ -7,7 +7,7 @@
         "a": "The Fe 2p XAS spectra show a clear evolution with increasing Mg content in Fe\u2082O\u2083:MgO films grown at 425 \u00b0C. All samples exhibit the characteristic Fe L\u2083 and L\u2082 edges near ~710 and ~724 eV, respectively, but the multiplet structure progressively broadens as Mg concentration increases. Even at 0.02 at.% Mg, reduced peak definition is visible relative to the non-doped film. At higher Mg levels (0.2\u20130.38 at.%), multiplet attenuation and baseline elevation indicate increased local disorder and modified Fe\u2013O coordination. The use of TEY emphasizes near-surface electronic changes induced by Mg incorporation."
     },
     "data_extraction": {
-        "a": "| Photon energy (eV) | Relative intensity |     Sample   |\n| ------------------ | ------------------ | ------------ |\n|      ~710          | High               | non-doped    |\n|      ~724          | Medium             | non-doped    |\n|      ~710          | High               | Mg 0.02 at.% |\n|      ~724          | Medium             | Mg 0.02 at.% |\n|      ~710          | Medium             | Mg 0.2 at.%  |\n|      ~724          | Medium             | Mg 0.2 at.%  |\n|      ~710          | Low                | Mg 0.38 at.% |\n|      ~724          | Low                | Mg 0.38 at.% |"
+      "a": "| Photon energy (eV) | Relative intensity | Sample |\n| --- | --- | --- |\n| ~710 | High | non-doped |\n| ~724 | Medium | non-doped |\n| ~710 | High | Mg 0.02 at.% |\n| ~724 | Medium | Mg 0.02 at.% |\n| ~710 | Medium | Mg 0.2 at.% |\n| ~724 | Medium | Mg 0.2 at.% |\n| ~710 | Low | Mg 0.38 at.% |\n| ~724 | Low | Mg 0.38 at.% |"
     },
     "vqa": {
         "a": [

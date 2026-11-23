@@ -7,7 +7,7 @@
         "a": "The line chart illustrates the trend of overall adsorption energy and averaged adsorption energy per H\u2082O molecule as the number of H\u2082O molecules increases, where the adsorption energy minimizes after the adsorption of three water molecules."
     },
     "data_extraction": {
-        "a": "| Number of H\u2082O molecules in the system | Overall adsorption energy | Averaged adsorption energy per H\u2082O |\n|---|---|---|\n| 1 | -1.25 | -1.25 |\n| 2 | -1.75 | -0.80 |\n| 3 | -2.25 | -0.75 |\n| 4 | -2.1 | -0.5 |\n| 5 | -2.25 | -0.5 |"
+      "a": "| Number of H\u2082O molecules in the system | Overall adsorption energy | Averaged adsorption energy per H\u2082O |\n| --- | --- | --- |\n| 1 | -1.25 | -1.25 |\n| 2 | -1.75 | -0.80 |\n| 3 | -2.25 | -0.75 |\n| 4 | -2.1 | -0.5 |\n| 5 | -2.25 | -0.5 |"
     },
     "vqa": {
         "a": [

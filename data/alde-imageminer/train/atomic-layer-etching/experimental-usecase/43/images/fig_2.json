@@ -9,7 +9,7 @@
         "b": "The XPS (X-ray photoelectron spectroscopy) graph shows the Al 2p peaks after fluorination, with features corresponding to Al\u2013O and AlOxFy. The intensity vs. binding energy spectrum confirms modification of the Al\u2082O\u2083 film, with deconvoluted peaks at 74.5, 75.8, and 76.5 eV assigned to Al\u2013O, AlOxFy, indicating the formation of AlF\u2083 and AlOxFy by F radicals."
     },
     "data_extraction": {
-        "a": "| Species label | Approx. binding energy (eV) | \n|---------------|-----------------------------|\n| Al\u2013O             | 74.5\u201375.0                   | \n| AlO\u2093F\u1d67         | 74.0\u201374.5                   | \n| Al\u2013F             | 73.5\u201374.0                   |"
+      "a": "| Species label | Approx. binding energy (eV) |\n| --- | --- |\n| Al\u2013O | 74.5\u201375.0 |\n| AlO\u2093F\u1d67 | 74.0\u201374.5 |\n| Al\u2013F | 73.5\u201374.0 |"
     },
     "vqa": {
         "a": [

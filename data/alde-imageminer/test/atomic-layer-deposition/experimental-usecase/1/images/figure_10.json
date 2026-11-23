@@ -7,7 +7,7 @@
         "a": "The chart displays the relationship between growth temperature and two properties: dielectric constant and breakdown field. The breakdown field shows a slight increase with increasing temperature, while the electric constant shows no correlation with temperature."
     },
     "data_extraction": {
-        "a": "| Growth Temperature (\u00b0C) | Dielectric Constant, k | Breakdown Field (MV/cm) |\n|---|---|---|\n| 33 | 7.5 | 3.7 |\n| 58 | 8.2 | 4.0 |\n| 80 | 7.2 | 4.5 |\n| 102 | 7.8 | 4.1 |\n| 125 |  8.4 ; 7.5 | 4.2 |\n| 177 |  7.5 | 4.4 |"
+      "a": "| Growth Temperature (\u00b0C) | Dielectric Constant, k | Breakdown Field (MV/cm) |\n| --- | --- | --- |\n| 33 | 7.5 | 3.7 |\n| 58 | 8.2 | 4.0 |\n| 80 | 7.2 | 4.5 |\n| 102 | 7.8 | 4.1 |\n| 125 | 8.4 ; 7.5 | 4.2 |\n| 177 | 7.5 | 4.4 |"
     },
     "vqa": {
         "a": [

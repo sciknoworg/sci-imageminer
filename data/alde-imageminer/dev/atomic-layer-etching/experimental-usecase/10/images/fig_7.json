@@ -9,8 +9,8 @@
         "b": "Panel (b) supports this observation by displaying FTIR spectra with distinct vibrational signatures for Al\u2013O bonds and hfac ligands on the Al\u2082O\u2083 sample, while SiO\u2082 shows minimal spectral activity. Together, the panels demonstrate selective etching of Al\u2082O\u2083 and surface chemical verification via absorbance spectroscopy."
     },
     "data_extraction": {
-        "a": "| Cycles | Thickness change (nm) \u2013 SiO\u2082 | Thickness change (nm) \u2013 Al\u2082O\u2083 |\n|--------|------------------------------|-------------------------------|\n| 0      | 0.00                         | 0.00                          |\n| 5      | 0.00                         | -0.40                         |\n| 10     | 0.00                         | -0.80                         |\n| 15     | 0.00                         | -1.20                         |\n| 20     | 0.00                         | -1.60                         |\n| 25     | 0.00                         | -2.00                         |\n| 30     | 0.00                         | -2.40                         |",
-        "b": "| Wavenumber (cm\u207b\u00b9) | Absorbance \u2013 Al\u2082O\u2083 | Absorbance \u2013 SiO\u2082 |\n|-------------------|---------------------|--------------------|\n| 4000              | ~0.0001             | ~0.00005           |\n| 3300              | ~0.0001             | ~0.00005           |\n| 1650              | Peak (hfac)         | \u2014                  |\n| 1000              | Strong peak (Al\u2013O)  | Low/no peak        |"
+      "a": "| Cycles | Thickness change (nm) \u2013 SiO\u2082 | Thickness change (nm) \u2013 Al\u2082O\u2083 |\n| --- | --- | --- |\n| 0 | 0.00 | 0.00 |\n| 5 | 0.00 | -0.40 |\n| 10 | 0.00 | -0.80 |\n| 15 | 0.00 | -1.20 |\n| 20 | 0.00 | -1.60 |\n| 25 | 0.00 | -2.00 |\n| 30 | 0.00 | -2.40 |",
+      "b": "| Wavenumber (cm-\u00b9) | Absorbance \u2013 Al\u2082O\u2083 | Absorbance \u2013 SiO\u2082 |\n| --- | --- | --- |\n| 4000 | ~0.0001 | ~0.00005 |\n| 3300 | ~0.0001 | ~0.00005 |\n| 1650 | Peak (hfac) | \u2014 |\n| 1000 | Strong peak (Al\u2013O) | Low/no peak |"
     },
     "vqa": {
         "b": [

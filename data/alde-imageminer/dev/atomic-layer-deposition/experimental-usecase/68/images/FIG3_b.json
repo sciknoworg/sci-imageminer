@@ -7,7 +7,7 @@
         "a": "This figure compares the growth per cycle of NiO films deposited using three different precursors as a function of temperature. At low temperature, the Bu-MeAMD precursor exhibits significantly higher growth per cycle than the Alanis and MeCp precursors. As temperature increases, the growth rates converge toward ~0.3 \u00c5 per cycle, indicating a common self-limiting growth regime. At the highest temperature, the Alanis-based film shows a modest increase, suggesting a change in surface kinetics or precursor efficiency."
     },
     "data_extraction": {
-        "a": "| Temperature (\u00b0C) | NiO_Alanis growth (\u00c5/cycle) | NiO_MeCp growth (\u00c5/cycle) | NiO_Bu-MeAMD growth (\u00c5/cycle) |\n|---|---|---|---|\n| 50  | ~0.34 | ~0.44 | ~0.78 |\n| 100 | ~0.28 | ~0.39 | ~0.56 |\n| 150 | ~0.28 | ~0.29 | ~0.43 |\n| 200 | ~0.30 | ~0.31 | ~0.38 |\n| 250 | ~0.31 |   -  | - |\n| 300 | ~0.32 | ~0.30   |  - |\n| 350 | ~0.40 |  -  |  - |"
+      "a": "| Temperature (\u00b0C) | NiO_Alanis growth (\u00c5/cycle) | NiO_MeCp growth (\u00c5/cycle) | NiO_Bu-MeAMD growth (\u00c5/cycle) |\n| --- | --- | --- | --- |\n| 50 | ~0.34 | ~0.44 | ~0.78 |\n| 100 | ~0.28 | ~0.39 | ~0.56 |\n| 150 | ~0.28 | ~0.29 | ~0.43 |\n| 200 | ~0.30 | ~0.31 | ~0.38 |\n| 250 | ~0.31 | - | - |\n| 300 | ~0.32 | ~0.30 | - |\n| 350 | ~0.40 | - | - |"
     },
     "vqa": {
         "a": [

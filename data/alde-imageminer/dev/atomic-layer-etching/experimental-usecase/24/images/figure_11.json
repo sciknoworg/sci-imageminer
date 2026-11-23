@@ -7,7 +7,7 @@
         "a": "The FTIR spectra compare TMA and HF exposures on Al2O3 at 300 \u00b0C. The TMA trace shows a strong positive peak near 1230 cm^-1 associated with CH3 deformation, while the HF trace shows a negative feature at the same position. HF also produces additional negative bands in the 1100\u2013900 cm^-1 region that are linked to AlF3 formation but the TMA spectrum remains close to baseline in this range."
     },
     "data_extraction": {
-        "a": "| Wavenumber (cm\u207b\u00b9) | Absorbance | Condition |\n| ----------------- | ---------- | --------- |\n|       ~1230       |  ~+0.065   |   TMA     |\n|       ~1230       | ~-0.055    |   HF      |\n|       ~1100       | ~+0.010    |   TMA     |\n|       ~1100       | ~-0.015    |   HF      |\n|       ~950        | ~+0.005    |   TMA     |\n|       ~950        | ~-0.020    |   HF      |"
+      "a": "| Wavenumber (cm-\u00b9) | Absorbance | Condition |\n| --- | --- | --- |\n| ~1230 | ~+0.065 | TMA |\n| ~1230 | ~-0.055 | HF |\n| ~1100 | ~+0.010 | TMA |\n| ~1100 | ~-0.015 | HF |\n| ~950 | ~+0.005 | TMA |\n| ~950 | ~-0.020 | HF |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The figure displays two infrared absorption spectra, one for Si-O-H and another for Si-NH-Si, with peaks at specific wavenumbers."
     },
     "data_extraction": {
-        "a": "| Wavenumber (cm\u207b\u00b9) | Functional Group  | \n|--------------------|-------------------|\n| ~3700\u20133200        | Si\u2013O\u2013H           |\n| ~1100                   | Si\u2013O\u2013Si          | \n| ~800                      | Si\u2013O\u2013Si          |\n| ~930                      | Si\u2013N                 | \n| ~3300\u20133400        | Si\u2013NH\u2013Si       | \n| ~1600\u20131650        | Si\u2013NH\u2013Si       |"
+      "a": "| Wavenumber (cm-\u00b9) | Functional Group |\n| --- | --- |\n| ~3700\u20133200 | Si\u2013O\u2013H |\n| ~1100 | Si\u2013O\u2013Si |\n| ~800 | Si\u2013O\u2013Si |\n| ~930 | Si\u2013N |\n| ~3300\u20133400 | Si\u2013NH\u2013Si |\n| ~1600\u20131650 | Si\u2013NH\u2013Si |"
     },
     "vqa": {
         "a": [

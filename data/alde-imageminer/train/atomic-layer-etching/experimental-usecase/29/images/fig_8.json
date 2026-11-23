@@ -7,7 +7,7 @@
         "a": "The chart shows emission intensity over time for Cl2 plasma and Cl2 gas processes, where Cl2 pulses are seperated by Ar plasma steps."
     },
     "data_extraction": {
-        "a": "| Process Time (sec) | Emission Intensity (a.u.) Cl2 plasma|Emission Intensity (a.u.) Cl2 gas|\n|---|---|---|\n| 0 | 0 |0 |\n| 25 | 3.5 |0.0|\n| 75 | 0.5 |0.5|\n| 125 | 3.5 |0.0|\n| 175 | 0.5|0.5| \n| 225 | 3.5 |0.0|"
+      "a": "| Process Time (sec) | Emission Intensity (a.u.) Cl2 plasma | Emission Intensity (a.u.) Cl2 gas |\n| --- | --- | --- |\n| 0 | 0 | 0 |\n| 25 | 3.5 | 0.0 |\n| 75 | 0.5 | 0.5 |\n| 125 | 3.5 | 0.0 |\n| 175 | 0.5 | 0.5 |\n| 225 | 3.5 | 0.0 |"
     },
     "vqa": {
         "a": [

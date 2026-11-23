@@ -7,7 +7,7 @@
         "a": "The figure displays X-ray diffraction patterns of samples annealed at different temperatures (200\u00b0C, 400\u00b0C, 600\u00b0C, and 700\u00b0C) with peaks corresponding to TiN, Cu, and Cu\u2083Si phases."
     },
     "data_extraction": {
-        "a": "| Sample | 2\u03b8 (degrees) |\n|---|---|\n| 700 \u00b0C | Peaks at 42, 50, 74, 90, 95 |\n| 600 \u00b0C | Peaks at 42, 50, 74, 90, 95 |\n| 400 \u00b0C | Peaks at 42, 50, 74, 90, 95 |\n| 200 \u00b0C | Peaks at 42, 50, 74, 90, 95 |"
+      "a": "| Sample | 2\u03b8 (degrees) |\n| --- | --- |\n| 700 \u00b0C | Peaks at 42, 50, 74, 90, 95 |\n| 600 \u00b0C | Peaks at 42, 50, 74, 90, 95 |\n| 400 \u00b0C | Peaks at 42, 50, 74, 90, 95 |\n| 200 \u00b0C | Peaks at 42, 50, 74, 90, 95 |"
     },
     "vqa": {
         "a": [

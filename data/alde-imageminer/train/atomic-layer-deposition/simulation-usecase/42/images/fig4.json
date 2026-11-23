@@ -13,10 +13,10 @@
         "d": "XPS O 1s region showing signals of TiO2 and adsorbed O2 for TiO2 grown with H2O-added sequence."
     },
     "data_extraction": {
-        "a": "| Species | Binding energy [eV] |\n|---|---|\n| TiO2 | Peaks at 458 and 464 |\n| Ru | Peak at 460 |",
-        "b": "| Species | Binding energy [eV] |\n|---|---|\n| TiO2 | Peak at 529 |\n| Abs. O2 | Peak at 531 |",
-        "c": "| Species | Binding energy [eV] |\n|---|---|\n| TiO2 | Peaks at 458 and 464 |\n| Ru | Peak at 460 |",
-        "d": "| Species | Binding energy [eV] |\n|---|---|\n| TiO2 | Peak at 529 |\n| Abs. O2 | Peak at 531 |"
+      "a": "| Species | Binding energy [eV] |\n| --- | --- |\n| TiO2 | Peaks at 458 and 464 |\n| Ru | Peak at 460 |",
+      "b": "| Species | Binding energy [eV] |\n| --- | --- |\n| TiO2 | Peak at 529 |\n| Abs. O2 | Peak at 531 |",
+      "c": "| Species | Binding energy [eV] |\n| --- | --- |\n| TiO2 | Peaks at 458 and 464 |\n| Ru | Peak at 460 |",
+      "d": "| Species | Binding energy [eV] |\n| --- | --- |\n| TiO2 | Peak at 529 |\n| Abs. O2 | Peak at 531 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "This figure shows \u0394m\u2082\u2032 as a function of growth temperature (\u2248100\u2013400 \u00b0C) for different TiCl\u2084 pulse-time sequences, with buffer layers grown at TB = 100 \u00b0C and TB = 300 \u00b0C. \u0394m\u2082\u2032 increases with temperature for all conditions, with a pronounced rise at \u2273300 \u00b0C. At lower growth temperatures (\u2248100\u2013250 \u00b0C), samples with TB = 100 \u00b0C consistently exhibit lower \u0394m\u2082\u2032 values than those with TB = 300 \u00b0C. At higher temperatures, \u0394m\u2082\u2032 converges to larger values across pulse times, indicating reduced sensitivity to buffer-layer temperature."
     },
     "data_extraction": {
-        "a": "| Growth Temp (\u00b0C) | 5 s pulse (\u25a0) | 2 s pulse (\u25cf, TB = 300 \u00b0C) | 0.5 s pulse (\u25cb) | 2 s pulse (\u25b2, TB = 100 \u00b0C) |\n|---|---|---|---|---|\n| 100 | ~4.0 | ~3.0 | \u2014 | ~2.0 |\n| 150 | ~3.0 | ~5.0 | \u2014 | ~4.0 |\n| 200 | ~6.0 | ~7.0 | ~6.5 | ~4.5 |\n| 250 | ~7.0 | ~9.0 | \u2014 | ~5.0 |\n| 300 | ~13.0 | ~13.0 | ~11.0 | \u2014 |\n| 350 | ~13.0 | ~13.0 | ~11.0 | ~10.0 |\n| 400 | ~13.0 | ~15.0 | ~12.0 | \u2014 |"
+      "a": "| Growth Temp (\u00b0C) | 5 s pulse (\u25a0) | 2 s pulse (\u25cf, TB = 300 \u00b0C) | 0.5 s pulse (\u25cb) | 2 s pulse (\u25b2, TB = 100 \u00b0C) |\n| --- | --- | --- | --- | --- |\n| 100 | ~4.0 | ~3.0 | \u2014 | ~2.0 |\n| 150 | ~3.0 | ~5.0 | \u2014 | ~4.0 |\n| 200 | ~6.0 | ~7.0 | ~6.5 | ~4.5 |\n| 250 | ~7.0 | ~9.0 | \u2014 | ~5.0 |\n| 300 | ~13.0 | ~13.0 | ~11.0 | \u2014 |\n| 350 | ~13.0 | ~13.0 | ~11.0 | ~10.0 |\n| 400 | ~13.0 | ~15.0 | ~12.0 | \u2014 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The figure shows the temperature dependence of Ta\u2082O\u2085 growth rate for thermal ALD and PE-ALD. Both methods exhibit three regimes: elevated growth rates at low temperatures, a stable ALD window in the middle, and increasing growth rates at high temperatures due to precursor decomposition. The ALD window spans 200 to 250\u00b0C for thermal ALD and 150 to 250\u00b0C for PE-ALD, demonstrating that PE-ALD enables ALD growth at approximately 50\u00b0C lower temperature."
     },
     "data_extraction": {
-        "a": "| T_s, \u00b0C | Growth rate thermal ALD (\u00c5/cycle) | Growth rate PE-ALD (\u00c5/cycle) |\n|---|---|---|\n| 100 | - | 1.40 |\n| 125 | 1.32 | - |\n| 150 | 1.20 | 1.20 |\n| 175 | - | 1.18 |\n| 200 | 0.90 | 1.17 |\n| 250 | 0.85 | 1.15 |\n| 275 | - | 1.25 |\n| 300 | 1.00 | - |\n| 500 | 1.58 | 1.70 |"
+      "a": "| T_s, \u00b0C | Growth rate thermal ALD (\u00c5/cycle) | Growth rate PE-ALD (\u00c5/cycle) |\n| --- | --- | --- |\n| 100 | - | 1.40 |\n| 125 | 1.32 | - |\n| 150 | 1.20 | 1.20 |\n| 175 | - | 1.18 |\n| 200 | 0.90 | 1.17 |\n| 250 | 0.85 | 1.15 |\n| 275 | - | 1.25 |\n| 300 | 1.00 | - |\n| 500 | 1.58 | 1.70 |"
     },
     "vqa": {
         "a": [

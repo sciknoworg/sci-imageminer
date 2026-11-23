@@ -7,7 +7,7 @@
         "a": "This line chart  plots the etch rate (measured by the loss of integrated Ti-O IR absorbance per HF exposure) against temperature (80-300\u00b0C) for a titanium-based film, showing that the etch rate increases with temperature."
     },
     "data_extraction": {
-        "a": "| Temperature (\u00b0C) | \u0394 Int. Abs. Loss / HF Exposure |\n|-----------------:|--------------------------------:|\n| 80                | 0.00                            |\n| 100              | 0.02                            |\n| 120              | 0.05                            |\n| 140              | 0.07                            |\n| 160              | 0.25                            |\n| 180              | 1.00                            |\n| 200              | 1.10                            |\n| 220              | 1.30                            |\n| 240              | 1.90                            |\n| 260              | 2.10                            |\n| 280              | 2.50                            |\n| 300              | 3.80                            |"
+      "a": "| Temperature (\u00b0C) | \u0394 Int. Abs. Loss / HF Exposure |\n| --- | --- |\n| 80 | 0.00 |\n| 100 | 0.02 |\n| 120 | 0.05 |\n| 140 | 0.07 |\n| 160 | 0.25 |\n| 180 | 1.00 |\n| 200 | 1.10 |\n| 220 | 1.30 |\n| 240 | 1.90 |\n| 260 | 2.10 |\n| 280 | 2.50 |\n| 300 | 3.80 |"
     },
     "vqa": {
         "a": [

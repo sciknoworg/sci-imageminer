@@ -7,7 +7,7 @@
         "a": "The figure shows Raman spectra of monolayer MoS\u2082 under different conditions: pristine state and after Cl adsorption for 2 minutes and 10 minutes."
     },
     "data_extraction": {
-        "a": "| Sample | Raman Shift (cm\u207b\u00b9) |\n|---|---|\n| Pristine | Peaks at 385, 405 |\n| Cl adsorption 2min | Peaks at 385, 405 |\n| Cl adsorption 10min | Peaks at 385, 405 |"
+      "a": "| Sample | Raman Shift (cm-\u00b9) |\n| --- | --- |\n| Pristine | Peaks at 385, 405 |\n| Cl adsorption 2min | Peaks at 385, 405 |\n| Cl adsorption 10min | Peaks at 385, 405 |"
     },
     "vqa": {
         "a": [

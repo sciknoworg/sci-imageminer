@@ -7,7 +7,7 @@
         "a": "The figure displays X-ray diffraction patterns of multiple HfO2 samples prepared at different temperatures, showing that growth of crystalline phase(s) does not occur below 200 \u00b0C."
     },
     "data_extraction": {
-        "a": "| Sample | \u00b02\u0398 |\n|---|---|\n| 150 \u00b0C |  |\n| 200 \u00b0C | Peaks at 18, 35, 36 |\n| 225 \u00b0C | Peaks at 18, 25, 28, 34, 35, 36, 39, 50, 51, 57, 60 |\n| 300 \u00b0C | Peaks at 18, 25, 28, 34, 35, 36, 39, 50, 51, 57, 60, 76 |"
+      "a": "| Sample | \u00b02\u0398 |\n| --- | --- |\n| 150 \u00b0C |  |\n| 200 \u00b0C | Peaks at 18, 35, 36 |\n| 225 \u00b0C | Peaks at 18, 25, 28, 34, 35, 36, 39, 50, 51, 57, 60 |\n| 300 \u00b0C | Peaks at 18, 25, 28, 34, 35, 36, 39, 50, 51, 57, 60, 76 |"
     },
     "vqa": {
         "a": [

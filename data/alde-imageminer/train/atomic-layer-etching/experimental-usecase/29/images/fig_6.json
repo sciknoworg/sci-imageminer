@@ -11,8 +11,8 @@
         "c": "The bar chart compares the NBE signal intensity across three conditions: initial state, with quartz window (QW), and without quartz window."
     },
     "data_extraction": {
-        "b": "|Class| NBE Signal Intensity (a.u.) | \n|---|---|\n| Initial | 1.0 |\n|w/ QW |0.7|\n|w/o QW |0.15|",
-        "c": "|Class| NBE Signal Intensity (a.u.) | \n|---|---|\n| Initial | 1.0 |\n|w/ QW |0.65|\n|w/o QW |0.5|"
+      "b": "| Class | NBE Signal Intensity (a.u.) |\n| --- | --- |\n| Initial | 1.0 |\n| w/ QW | 0.7 |\n| w/o QW | 0.15 |",
+      "c": "| Class | NBE Signal Intensity (a.u.) |\n| --- | --- |\n| Initial | 1.0 |\n| w/ QW | 0.65 |\n| w/o QW | 0.5 |"
     },
     "vqa": {
         "c": [

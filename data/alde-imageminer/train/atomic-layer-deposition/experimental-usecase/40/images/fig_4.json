@@ -7,7 +7,7 @@
         "a": "Stacked XRD patterns comparing TiN and Ti\u2013Si\u2013N films deposited by plasma-enhanced ALD. The TiN film exhibits clear polycrystalline TiN reflections with a dominant (200) orientation, whereas the Ti\u2013Si\u2013N film shows strongly suppressed and broadened TiN-related features, indicating a largely X-ray amorphous or nanocrystalline structure due to silicon incorporation."
     },
     "data_extraction": {
-        "a": "| Sample Name | Labeled Peak | 2\u03b8 (\u00b0) | Observed Intensity & Shape |\n|-------------|--------------|--------|----------------------------|\n| TiN PEALD   | TiN(111)     | ~36\u201337 | Low to moderate, sharp peak |\n|             | TiN(200)     | ~42\u201343 | High, sharp peak (dominant orientation) |\n|             | Si substrate | ~55     | Very high, sharp peak      |\n|             | TiN(220)     | ~61\u201362  | Low, sharp peak            |\n| Ti\u2013Si\u2013N PEALD | TiN-related features | ~36\u201343 | Very weak, broad features |\n|               | Si substrate | ~55        | Very high, sharp peak      |"
+      "a": "| Sample Name | Labeled Peak | 2\u03b8 (\u00b0) | Observed Intensity & Shape |\n| --- | --- | --- | --- |\n| TiN PEALD | TiN(111) | ~36\u201337 | Low to moderate, sharp peak |\n|  | TiN(200) | ~42\u201343 | High, sharp peak (dominant orientation) |\n|  | Si substrate | ~55 | Very high, sharp peak |\n|  | TiN(220) | ~61\u201362 | Low, sharp peak |\n| Ti\u2013Si\u2013N PEALD | TiN-related features | ~36\u201343 | Very weak, broad features |\n|  | Si substrate | ~55 | Very high, sharp peak |"
     },
     "vqa": {
         "a": [

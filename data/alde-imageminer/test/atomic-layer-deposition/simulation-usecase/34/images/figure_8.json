@@ -7,7 +7,7 @@
         "a": "The scatter plot shows the relationship between plasma exposure time and contact resistance for samples treated with O\u2082 Plasma ALD, H\u2082 Plasma ALD, and H\u2082 Plasma PVD."
     },
     "data_extraction": {
-        "a": "| Plasma Exposure Time (min) | Contact Resistance (\u03a9\u00b5m) O2 Plasma ALD | Contact Resistance (\u03a9\u00b5m) H2 Plasma ALD | Contact Resistance (\u03a9\u00b5m) H2 Plasma PVD |\n|---|---|---|---|\n| 0 |  |  | 11500 |\n| 5 | 4000 | 1000 | 4000 |\n| 7 |  | 500 |  |\n| 10 | 1500 | 1500 |  |\n| 15 | 1500 | 500 |  |\n| 20 |  | 500 |  |"
+      "a": "| Plasma Exposure Time (min) | Contact Resistance (\u03a9\u00b5m) O2 Plasma ALD | Contact Resistance (\u03a9\u00b5m) H2 Plasma ALD | Contact Resistance (\u03a9\u00b5m) H2 Plasma PVD |\n| --- | --- | --- | --- |\n| 0 |  |  | 11500 |\n| 5 | 4000 | 1000 | 4000 |\n| 7 |  | 500 |  |\n| 10 | 1500 | 1500 |  |\n| 15 | 1500 | 500 |  |\n| 20 |  | 500 |  |"
     },
     "vqa": {
         "a": [

@@ -11,7 +11,7 @@
         "c": "The image shows the surface morphology of the trench bottom \u0393i/\u0393n  = 10^-5i in the passivation step after 25 pulses (87.5 s etch time)."
     },
     "data_extraction": {
-        "a": "| Image | \u0393\u1d62/\u0393\u2099 Ratio | Surface Width (nm) | Height Scale |\n|-------|-------------|----------------------|--------------|\n| (a)   | 0.01        | 25                   | Low \u2192 High (Black \u2192 Red \u2192 Yellow) |\n| (b)   | 10\u207b\u00b3        | 25                   | Low \u2192 High (Black \u2192 Red \u2192 Yellow) |\n| (c)   | 10\u207b\u2074        | 25                   | Low \u2192 High (Black \u2192 Red \u2192 Yellow) |"
+      "a": "| Image | \u0393\u1d62/\u0393\u2099 Ratio | Surface Width (nm) | Height Scale |\n| --- | --- | --- | --- |\n| (a) | 0.01 | 25 | Low \u2192 High (Black \u2192 Red \u2192 Yellow) |\n| (b) | 10-\u00b3 | 25 | Low \u2192 High (Black \u2192 Red \u2192 Yellow) |\n| (c) | 10-\u2074 | 25 | Low \u2192 High (Black \u2192 Red \u2192 Yellow) |"
     },
     "vqa": {
         "c": [

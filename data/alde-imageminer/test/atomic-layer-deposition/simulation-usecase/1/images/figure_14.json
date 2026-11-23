@@ -12,10 +12,10 @@
         "c": "Product-like adsorption equilibrium, showing formation of an I\u2082 molecule (I2\u2212I4) and lengthened Ti\u2212I bonds due to Ti rehybridization. The reaction is strongly endothermic (57.8 kcal/mol) with a high activation barrier (61.9 kcal/mol)."
     },
     "data_extraction": {
-        "a": "|Atom Pair|Bond Length (\u00c5)|\n|---------|---------------|\n|Ti1\u2212Ti2|3.28|\n|Ti1\u2212I2|3.14|\n|Ti2\u2212I4|2.80|",
-        "b": "|Atom Pair|Bond Length (\u00c5)|\n|---------|---------------|\n|Ti1\u2212Ti2|3.28|\n|Ti1\u2212I2|3.14|\n|Ti2\u2212I4|2.80|",
-        "c": "|Atom Pair|Bond Length (\u00c5)|\n|---------|---------------|\n|Ti\u2212I bonds|All longer than in reactant|\n|I2\u2212I4|Formed as I2 molecule|",
-        "d": "|Reaction Coordinate|Relative Energy (kcal/mol)|\n|-------------------|--------------------------|\n|Reactant|0.0|\n|Transition State|61.9|\n|Product|57.8|"
+      "a": "| Atom Pair | Bond Length (\u00c5) |\n| --- | --- |\n| Ti1-Ti2 | 3.28 |\n| Ti1-I2 | 3.14 |\n| Ti2-I4 | 2.80 |",
+      "b": "| Atom Pair | Bond Length (\u00c5) |\n| --- | --- |\n| Ti1-Ti2 | 3.28 |\n| Ti1-I2 | 3.14 |\n| Ti2-I4 | 2.80 |",
+      "c": "| Atom Pair | Bond Length (\u00c5) |\n| --- | --- |\n| Ti-I bonds | All longer than in reactant |\n| I2-I4 | Formed as I2 molecule |",
+      "d": "| Reaction Coordinate | Relative Energy (kcal/mol) |\n| --- | --- |\n| Reactant | 0.0 |\n| Transition State | 61.9 |\n| Product | 57.8 |"
     },
     "vqa": {
         "a": [

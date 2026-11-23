@@ -7,7 +7,7 @@
         "a": "The figure shows the growth rate of platinum films deposited from MeCpPtMe\u2083 as a function of deposition temperature (200\u2013300 \u00b0C). The film thicknesses were measured using EDX and XRR. The plot illustrates that the growth rate increases with temperature, from about 0.30 \u00c5/cycle at 200 \u00b0C to 0.51 \u00c5/cycle at 300 \u00b0C. Pulse and purge times for the precursor and oxygen were 0.7\u20131.0 s."
     },
     "data_extraction": {
-        "a": "| Deposition temperature (\u00b0C) | Growth rate (\u00c5 cycle\u207b\u00b9) |\n|---|---|\n| 200 | 0.30 |\n| 220 | 0.36 |\n| 240 | 0.41 |\n| 260 | 0.45 |\n| 280 | 0.48 |\n| 300 | 0.51 |"
+      "a": "| Deposition temperature (\u00b0C) | Growth rate (\u00c5 cycle-\u00b9) |\n| --- | --- |\n| 200 | 0.30 |\n| 220 | 0.36 |\n| 240 | 0.41 |\n| 260 | 0.45 |\n| 280 | 0.48 |\n| 300 | 0.51 |"
     },
     "vqa": {
         "a": [

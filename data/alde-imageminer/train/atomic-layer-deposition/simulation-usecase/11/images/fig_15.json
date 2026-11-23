@@ -9,8 +9,8 @@
         "b": "The figure shows the 3\u03c3 variability over time for two different \u03b2<sub>bp</sub> values, where \u03b2<sub>bp</sub> = 10<sup>-4</sup> and \u03b2<sub>bp</sub> = 10<sup>-3</sup>."
     },
     "data_extraction": {
-        "a": "| Time, s | Average coverage \u03b2<sub>bp</sub> = 10<sup>-4</sup> | Average coverage \u03b2<sub>bp</sub> = 10<sup>-3</sup> |\n|---|---|---|\n| 0.0 | 0.0 | 0.0 |\n| 0.5 | 0.4 | 0.4 |\n| 1.0 | 0.85 | 0.8 |\n| 1.5 | 1.0 | 0.85 |\n| 2.0 | 1.0 | 0.85 |\n| 2.5 | 1.0 | 0.85 |\n| 3.0 | 1.0 | 0.85 |",
-        "b": "| Time, s | 3\u03c3 variability (%) \u03b2<sub>bp</sub> = 10<sup>-4</sup> | 3\u03c3 variability (%) \u03b2<sub>bp</sub> = 10<sup>-3</sup> |\n|---|---|---|\n| 1.0 | 95 | 80 |\n| 1.5 | 10 | 20 |\n| 2.0 | 2 | 20 |\n| 2.5 | 2 | 20 |\n| 3.0 | 2 | 20 |"
+      "a": "| Time, s | Average coverage \u03b2<sub>bp</sub> = 10<sup>-4</sup> | Average coverage \u03b2<sub>bp</sub> = 10<sup>-3</sup> |\n| --- | --- | --- |\n| 0.0 | 0.0 | 0.0 |\n| 0.5 | 0.4 | 0.4 |\n| 1.0 | 0.85 | 0.8 |\n| 1.5 | 1.0 | 0.85 |\n| 2.0 | 1.0 | 0.85 |\n| 2.5 | 1.0 | 0.85 |\n| 3.0 | 1.0 | 0.85 |",
+      "b": "| Time, s | 3\u03c3 variability (%) \u03b2<sub>bp</sub> = 10<sup>-4</sup> | 3\u03c3 variability (%) \u03b2<sub>bp</sub> = 10<sup>-3</sup> |\n| --- | --- | --- |\n| 1.0 | 95 | 80 |\n| 1.5 | 10 | 20 |\n| 2.0 | 2 | 20 |\n| 2.5 | 2 | 20 |\n| 3.0 | 2 | 20 |"
     },
     "vqa": {
         "b": [

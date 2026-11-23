@@ -7,7 +7,7 @@
         "a": "The chart shows the relationship between energy (in eV) and thickness (in nm) for thin and thick Cl layer depositions."
     },
     "data_extraction": {
-        "a": "| Energy (eV) | Thin Cl layer deposition (nm) | Thick Cl layer deposition (nm) |\n|-------------|--------------------------------|---------------------------------|\n| 0           | 0.0                            | 0.0                             |\n| 10          | 0.8                            | 0.9                             |\n| 20          | 1.5                            | 1.7                             |\n| 30          | 1.8                            | 2.0                             |\n| 40          | 2.0                            | 2.0                             |\n| 50          | 1.8                            | 2.1                             |\n| 60          | 1.8                            | 2.3                             |"
+      "a": "| Energy (eV) | Thin Cl layer deposition (nm) | Thick Cl layer deposition (nm) |\n| --- | --- | --- |\n| 0 | 0.0 | 0.0 |\n| 10 | 0.8 | 0.9 |\n| 20 | 1.5 | 1.7 |\n| 30 | 1.8 | 2.0 |\n| 40 | 2.0 | 2.0 |\n| 50 | 1.8 | 2.1 |\n| 60 | 1.8 | 2.3 |"
     },
     "vqa": {
         "a": [

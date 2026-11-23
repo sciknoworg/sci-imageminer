@@ -7,7 +7,7 @@
         "a": "The figure shows the linear relationship between doping fraction (DF) and the optical band gap (Eg_opt) for three different materials: TIB, DMAI, and TMA."
     },
     "data_extraction": {
-        "a": "| Doping fraction, DF | TIB | DMAI | TMA |\n|---|---|---|---|\n| 0.00 | 3.25 | 3.25 | 3.25 |\n| 0.02 | 3.30 | 3.30 | 3.30 |\n| 0.04 | 3.35 | 3.35 | 3.35 |\n| 0.06 | 3.40 | 3.40 | 3.40 |\n| 0.08 | 3.45 | 3.45 | 3.45 |\n| 0.10 | 3.50 | 3.50 | 3.50 |\n| 0.12 | 3.55 | 3.55 | 3.55 |"
+      "a": "| Doping fraction, DF | TIB | DMAI | TMA |\n| --- | --- | --- | --- |\n| 0.00 | 3.25 | 3.25 | 3.25 |\n| 0.02 | 3.30 | 3.30 | 3.30 |\n| 0.04 | 3.35 | 3.35 | 3.35 |\n| 0.06 | 3.40 | 3.40 | 3.40 |\n| 0.08 | 3.45 | 3.45 | 3.45 |\n| 0.10 | 3.50 | 3.50 | 3.50 |\n| 0.12 | 3.55 | 3.55 | 3.55 |"
     },
     "vqa": {
         "a": [

@@ -13,10 +13,10 @@
         "d": "This figure shows an EDX line scan of elemental distributions for Aluminum (Al), Germanium (Ge), and Silicon (Si) over a distance of ~70 \u03bcm. The Al signal exhibits a clear square-wave periodicity, alternating between high intensity (~4.5 a.u.) and near zero, indicating a patterned Al structure with ~10 \u03bcm line width and ~20 \u03bcm pitch. In contrast, the Ge and Si signals remain relatively constant and low across the scan, confirming that they constitute the continuous underlying substrate beneath the patterned Al features."
     },
     "data_extraction": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "| Distance (\u00b5m) | Ge\u207a Intensity (a.u.) | Al\u207a Intensity (a.u.) | Si\u207a Intensity (a.u.) |\n|--------------|----------------------|----------------------|----------------------|\n| 150          | 1                    | 0.2                  | 1                    |\n| 160          | 1                    | 4.5                  | 1                    |\n| 170          | 1                    | 0.2                  | 1                    |\n| 180          | 1                    | 4.5                  | 1                    |\n| 190          | 1                    | 0.2                  | 1                    |\n| 200          | 1                    | 4.5                  | 1                    |\n| 210          | 1                    | 0.2                  | 1                    |\n| 220          | 1                    | 4.5                  | 1                    |"
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": "| Distance (\u00b5m) | Ge\u207a Intensity (a.u.) | Al\u207a Intensity (a.u.) | Si\u207a Intensity (a.u.) |\n| --- | --- | --- | --- |\n| 150 | 1 | 0.2 | 1 |\n| 160 | 1 | 4.5 | 1 |\n| 170 | 1 | 0.2 | 1 |\n| 180 | 1 | 4.5 | 1 |\n| 190 | 1 | 0.2 | 1 |\n| 200 | 1 | 4.5 | 1 |\n| 210 | 1 | 0.2 | 1 |\n| 220 | 1 | 4.5 | 1 |"
     },
     "vqa": {
         "d": [

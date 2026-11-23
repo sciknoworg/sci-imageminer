@@ -9,8 +9,8 @@
         "b": "The high-resolution Al 2p spectrum shows peak deconvolution into components corresponding to Al\u2013F, Al\u2013O\u2013F, and Al\u2013O bonding states, revealing surface chemical modification after CF\u2084 plasma exposure."
     },
     "data_extraction": {
-        "a": "| Binding Energy (eV)|Counts/s|Note|\n|--------------------|--------|----------------------|\n|~75|~48000|O 1s region (approx.)|\n|~285|~6000|C 1s|\n|~530|~11000|O 1s major peak|\n|~685|~15000|F 1s|\n|~975|~9000|O KLL|\n|~1200|~8000|Al KLL|",
-        "b": "| Binding Energy (eV)|Counts/s|Note|\n|--------------------|--------|-------------------|\n|72|~1200|Baseline|\n|74.5|~4500|Al\u2013O peak maximum|\n|75.5|~2300|Al\u2013OF shoulder|\n|76.8|~900|Al\u2013F|\n|78|~400|Tail|"
+      "a": "| Binding Energy (eV) | Counts/s | Note |\n| --- | --- | --- |\n| ~75 | ~48000 | O 1s region (approx.) |\n| ~285 | ~6000 | C 1s |\n| ~530 | ~11000 | O 1s major peak |\n| ~685 | ~15000 | F 1s |\n| ~975 | ~9000 | O KLL |\n| ~1200 | ~8000 | Al KLL |",
+      "b": "| Binding Energy (eV) | Counts/s | Note |\n| --- | --- | --- |\n| 72 | ~1200 | Baseline |\n| 74.5 | ~4500 | Al\u2013O peak maximum |\n| 75.5 | ~2300 | Al\u2013OF shoulder |\n| 76.8 | ~900 | Al\u2013F |\n| 78 | ~400 | Tail |"
     },
     "vqa": {
         "b": [

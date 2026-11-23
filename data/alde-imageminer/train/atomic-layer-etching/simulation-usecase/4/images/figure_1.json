@@ -7,7 +7,7 @@
         "a": "The figure illustrates how the etch per cycle of TiN films varies with NbF\u2085 pulse time during the NbF\u2085\u2013CCl\u2084 etch process at 460 \u00b0C. The etch per cycle increases from about 0.3 \u00c5 without NbF\u2085 to approximately 0.8 \u00c5 at a 3 s NbF\u2085 pulse, showing a gradual increase without clear saturation under the applied conditions."
     },
     "data_extraction": {
-        "a": "| NbF\u2085 pulse time [s] | Etch per cycle [\u00c5] |\n|---|---|\n| 0.0 | 0.3 |\n| 1.0 | 0.6 |\n| 3.0 | 0.8 |"
+      "a": "| NbF\u2085 pulse time [s] | Etch per cycle [\u00c5] |\n| --- | --- |\n| 0.0 | 0.3 |\n| 1.0 | 0.6 |\n| 3.0 | 0.8 |"
     },
     "vqa": {
         "a": [

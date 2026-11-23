@@ -7,7 +7,7 @@
         "a": "IV curve of three samples, all with different plasma exposure times and/or compositions. The tested solar cells had a MnOx thickness of 20 nm."
     },
     "data_extraction": {
-        "a": "| voltage (V) | 9.0% 2 second O2 | 10.4% 2 second O2 & Ar | 5.8% 1 second O2 |\n|---|---|---|---|\n|-0.2 | -30 | -30 | -30 |\n| 0 | -30 | -30 | -30 |\n| 0.2 | -30 | -30 | -28 |\n| 0.4 | -20 | -24 | -2 |\n| 0.6 | 0 | 0 | 0 |\n| 0.8 | 18 | 6 | 8 |"
+      "a": "| voltage (V) | 9.0% 2 second O2 | 10.4% 2 second O2 & Ar | 5.8% 1 second O2 |\n| --- | --- | --- | --- |\n| -0.2 | -30 | -30 | -30 |\n| 0 | -30 | -30 | -30 |\n| 0.2 | -30 | -30 | -28 |\n| 0.4 | -20 | -24 | -2 |\n| 0.6 | 0 | 0 | 0 |\n| 0.8 | 18 | 6 | 8 |"
     },
     "vqa": {
         "a": [

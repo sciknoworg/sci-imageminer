@@ -7,7 +7,7 @@
         "a": "Line chart showing free-energy Delta G profiles for continuous etching and self-limiting reactions of HfO2 under three HF surface coverages (16 HF, 24 HF, and 32 HF) as functions of temperature. The figure identifies three crossover temperatures T1 = 429 K (16O/32F), T2 = 618 K (12O/24F), and T3 = 657K (8O/16F)\u2014at which the self-limiting and spontaneous etch pathways become thermodynamically equivalent."
     },
     "data_extraction": {
-        "a": "| Temperature [K] | Ref (Blue) [eV] | 32 HF (Yellow) [eV] | 24 HF (Gray) [eV] | 16 HF (Orange) [eV] | Note |\n|---|---|---|---|---|---|\n| 0 | ~ -0.8 | ~ -2.2 | ~ -2.8 | ~ -3.0 | Start |\n| 429 | ~ -0.7 | ~ -0.7 | ~ -1.3 | ~ -1.5 | T1 (Crossover) |\n| 618 | ~ -0.65 | 0.0 | ~ -0.6 | ~ -0.8 | T2 (Yellow Zero) |\n| 657 | ~ -0.6 | ~ +0.2 | 0.0 | 0.0 | T3 (Gray/Orange Zero) |\n| 1000 | ~ -0.5 | ~ +1.5 | ~ +0.8 | ~ +0.7 | End |"
+      "a": "| Temperature [K] | Ref (Blue) [eV] | 32 HF (Yellow) [eV] | 24 HF (Gray) [eV] | 16 HF (Orange) [eV] | Note |\n| --- | --- | --- | --- | --- | --- |\n| 0 | ~ -0.8 | ~ -2.2 | ~ -2.8 | ~ -3.0 | Start |\n| 429 | ~ -0.7 | ~ -0.7 | ~ -1.3 | ~ -1.5 | T1 (Crossover) |\n| 618 | ~ -0.65 | 0.0 | ~ -0.6 | ~ -0.8 | T2 (Yellow Zero) |\n| 657 | ~ -0.6 | ~ +0.2 | 0.0 | 0.0 | T3 (Gray/Orange Zero) |\n| 1000 | ~ -0.5 | ~ +1.5 | ~ +0.8 | ~ +0.7 | End |"
     },
     "vqa": {
         "a": [

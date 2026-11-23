@@ -9,8 +9,8 @@
         "b": "Time-resolved pulse sequence for a single ZrN PEALD cycle, detailing TDMAZr precursor pulse, Ar purge, forming-gas plasma exposure, and final purge. Temporal separation of half-reactions establishes the self-limiting ALD mechanism and underpins saturation behavior observed in subsequent figures."
     },
     "data_extraction": {
-        "a": "",
-        "b": "| Time step | TDMAZr pulse | Forming gas | Plasma power | Ar gas flow |\n|---|---|---|---|---|\n| t1 | ON  | OFF | OFF | ON  |\n| t2 | OFF | OFF | OFF | ON  |\n| t3 | OFF | ON  | ON  | ON  |\n| t4 | OFF | OFF | OFF | ON  |"
+      "a": "",
+      "b": "| Time step | TDMAZr pulse | Forming gas | Plasma power | Ar gas flow |\n| --- | --- | --- | --- | --- |\n| t1 | ON | OFF | OFF | ON |\n| t2 | OFF | OFF | OFF | ON |\n| t3 | OFF | ON | ON | ON |\n| t4 | OFF | OFF | OFF | ON |"
     },
     "vqa": {
         "a": [

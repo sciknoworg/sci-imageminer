@@ -11,9 +11,9 @@
         "c": "The plot shows the temperature dependence of magnetic moment per gram for a composite composed of 100 \u00d7 Fe\u2082O\u2083 and 15 \u00d7 (10 \u00d7 MgO + 100 \u00d7 Fe\u2082O\u2083), grown at 375 \u00b0C with an average diameter of 411 nm. Magnetization measurements were conducted using an FGA with an applied magnetic field of 1000 Oe under ZFC and FC conditions following forming gas annealing, with the Verwey transition temperature (T\ud835\udc49) indicated."
     },
     "data_extraction": {
-        "a": "| Temperature (K) | FC (emu/g) | ZFC (emu/g) |\n| --------------- | ---------- | ----------- |\n| 10              | ~0.10      | ~0.01       |\n| 50              | ~0.10      | ~0.03       |\n| 100             | ~0.10      | ~0.07       |\n| 125             | ~0.10      | ~0.10       |\n| 200             | ~0.10      | ~0.09       |\n| 300             | ~0.10      | ~0.08       |",
-        "b": "| Temperature (K) | FC (emu/g) | ZFC (emu/g) |\n| --------------- | ---------- | ----------- |\n| 10              | ~0.055     | ~0.030      |\n| 50              | ~0.055     | ~0.040      |\n| 100             | ~0.055     | ~0.050      |\n| 120             | ~0.055     | ~0.055      |\n| 200             | ~0.055     | ~0.050      |\n| 300             | ~0.055     | ~0.045      |",
-        "c": "| Temperature (K) | FC (emu/g) | ZFC (emu/g) |\n| --------------- | ---------- | ----------- |\n| 10              | ~0.069     | ~0.068      |\n| 50              | ~0.069     | ~0.069      |\n| 100             | ~0.069     | ~0.070      |\n| 150             | ~0.068     | ~0.069      |\n| 200             | ~0.067     | ~0.068      |\n| 300             | ~0.066     | ~0.067      |"
+      "a": "| Temperature (K) | FC (emu/g) | ZFC (emu/g) |\n| --- | --- | --- |\n| 10 | ~0.10 | ~0.01 |\n| 50 | ~0.10 | ~0.03 |\n| 100 | ~0.10 | ~0.07 |\n| 125 | ~0.10 | ~0.10 |\n| 200 | ~0.10 | ~0.09 |\n| 300 | ~0.10 | ~0.08 |",
+      "b": "| Temperature (K) | FC (emu/g) | ZFC (emu/g) |\n| --- | --- | --- |\n| 10 | ~0.055 | ~0.030 |\n| 50 | ~0.055 | ~0.040 |\n| 100 | ~0.055 | ~0.050 |\n| 120 | ~0.055 | ~0.055 |\n| 200 | ~0.055 | ~0.050 |\n| 300 | ~0.055 | ~0.045 |",
+      "c": "| Temperature (K) | FC (emu/g) | ZFC (emu/g) |\n| --- | --- | --- |\n| 10 | ~0.069 | ~0.068 |\n| 50 | ~0.069 | ~0.069 |\n| 100 | ~0.069 | ~0.070 |\n| 150 | ~0.068 | ~0.069 |\n| 200 | ~0.067 | ~0.068 |\n| 300 | ~0.066 | ~0.067 |"
     },
     "vqa": {
         "b": [

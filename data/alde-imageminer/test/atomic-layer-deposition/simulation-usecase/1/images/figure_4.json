@@ -9,8 +9,8 @@
         "b": "Transition state for the reaction, showing Ti\u2013O distance decreased to 1.90 \u00c5, Ti\u2013I bond largely broken at 3.58 \u00c5, partial formation of H\u2013I bond at 1.95 \u00c5, and full breaking of the O\u2013H bond, capturing the evolution of bonding along the reaction pathway."
     },
     "data_extraction": {
-        "a": "|Bond|Distance (\u00c5)|\n|----|------------|\n|Ti-O|2.27|\n|Ti-I|2.66|\n|H-I|\u2014|\n|O-H|\u2014|",
-        "b": "|Bond|Distance (\u00c5)|\n|----|------------|\n|Ti-O|1.90|\n|Ti-I|3.58|\n|H-I|1.95|\n|O-H|broken|"
+      "a": "| Bond | Distance (\u00c5) |\n| --- | --- |\n| Ti-O | 2.27 |\n| Ti-I | 2.66 |\n| H-I | \u2014 |\n| O-H | \u2014 |",
+      "b": "| Bond | Distance (\u00c5) |\n| --- | --- |\n| Ti-O | 1.90 |\n| Ti-I | 3.58 |\n| H-I | 1.95 |\n| O-H | broken |"
     },
     "vqa": {
         "a": [

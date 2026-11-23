@@ -9,8 +9,8 @@
         "b": "A line chart displaying the relationship between deposition temperature and the number of ZnO islands formed corresponding to the SEM images."
     },
     "data_extraction": {
-        "a": "| Number of ZnO islands |  |\n|---------------------|---|\n| 150                 |  |\n| 50                  |  |\n| 20                  |  |\n| 0                   |  |",
-        "b": "| Deposition temperature (\u00b0C) | Number of ZnO islands |\n|-----------------------------|------------------------|\n| 100                         | 150                    |\n| 150                         | 50                     |\n| 200                         | 20                     |\n| 250                         | 0                      |"
+      "a": "",
+      "b": "| Deposition temperature (\u00b0C) | Number of ZnO islands |\n| --- | --- |\n| 100 | 150 |\n| 150 | 50 |\n| 200 | 20 |\n| 250 | 0 |"
     },
     "vqa": {
         "b": [

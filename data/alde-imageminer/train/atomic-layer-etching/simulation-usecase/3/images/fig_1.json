@@ -9,8 +9,8 @@
         "b": "The figure depicts a process flow of the etch front at multiple times, with different colors representing different materials."
     },
     "data_extraction": {
-        "a": "| Feature        | Aspect Ratio (AR) | Width (nm) |\n|---------------|--------------------|------------|\n| Trench 1      | 2                 | 30         |\n| Trench 2      | 10                | 30         |",
-        "b": "| Step | Description        | Species Present         |\n|------|--------------------|-------------------------|\n| 1    | Initial surface    | Si                     |\n| 2    | After Cl exposure  | SiCl                   |\n| 3    | Intermediate       | SiCl\u2082                  |\n| 4    | After Ar\u207a bombard  | SiCl\u2083 + SiCl\u2082 + SiCl   |\n| 5    | Final surface      | Si                     |"
+      "a": "| Feature | Aspect Ratio (AR) | Width (nm) |\n| --- | --- | --- |\n| Trench 1 | 2 | 30 |\n| Trench 2 | 10 | 30 |",
+      "b": "| Step | Description | Species Present |\n| --- | --- | --- |\n| 1 | Initial surface | Si |\n| 2 | After Cl exposure | SiCl |\n| 3 | Intermediate | SiCl\u2082 |\n| 4 | After Ar\u207a bombard | SiCl\u2083 + SiCl\u2082 + SiCl |\n| 5 | Final surface | Si |"
     },
     "vqa": {
         "b": [

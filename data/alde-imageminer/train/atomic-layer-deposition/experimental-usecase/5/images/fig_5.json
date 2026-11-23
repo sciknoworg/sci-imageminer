@@ -9,8 +9,8 @@
         "b": "In panel (b), increasing NH\u2083 exposure time similarly increases deposition rate and then reaches a clear plateau around ~20 s, indicating saturation of the nitridation/ligand-exchange step on a surface terminated with precursor fragments. The plateau regions demonstrate self-limiting ALD chemistry, while the \u201cshort/medium/long\u201d regimes highlight the exposure windows that transition from incomplete reaction to near-saturated growth."
     },
     "data_extraction": {
-        "a": "| TDMAT Exposure Time (s) | Mass Deposition Rate (ng/cm\u00b2/cycle) | TiN Growth Rate (\u00c5/cycle) |\n|---|---|---|\n| 0   | ~0  | ~0.0 |\n| 5   | ~39 | ~0.8 |\n| 20  | ~46 | ~0.9 |\n| 50  | ~52 | ~1.0 |\n| 100 | ~55 | ~1.05 |\n| 200 | ~60 | ~1.2 |",
-        "b": "| NH\u2083 Exposure Time (s) | Mass Deposition Rate (ng/cm\u00b2/cycle) | TiN Growth Rate (\u00c5/cycle) |\n|---|---|---|\n| 0   | ~5  | ~0.1 |\n| 2   | ~41 | ~0.8 |\n| 5   | ~49 | ~0.9 |\n| 10  | ~55 | ~1.05 |\n| 20  | ~63 | ~1.2 |\n| 40  | ~63 | ~1.2 |"
+      "a": "| TDMAT Exposure Time (s) | Mass Deposition Rate (ng/cm\u00b2/cycle) | TiN Growth Rate (\u00c5/cycle) |\n| --- | --- | --- |\n| 0 | ~0 | ~0.0 |\n| 5 | ~39 | ~0.8 |\n| 20 | ~46 | ~0.9 |\n| 50 | ~52 | ~1.0 |\n| 100 | ~55 | ~1.05 |\n| 200 | ~60 | ~1.2 |",
+      "b": "| NH\u2083 Exposure Time (s) | Mass Deposition Rate (ng/cm\u00b2/cycle) | TiN Growth Rate (\u00c5/cycle) |\n| --- | --- | --- |\n| 0 | ~5 | ~0.1 |\n| 2 | ~41 | ~0.8 |\n| 5 | ~49 | ~0.9 |\n| 10 | ~55 | ~1.05 |\n| 20 | ~63 | ~1.2 |\n| 40 | ~63 | ~1.2 |"
     },
     "vqa": {
         "b": [

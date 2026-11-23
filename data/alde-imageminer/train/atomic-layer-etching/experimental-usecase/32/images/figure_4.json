@@ -9,8 +9,8 @@
         "b": "Multiple scatter plot showing InGaAs etch depth as a function of Ar\u207a ion exposure time at acceleration grid voltages of 10 V and 30 V. The 30 V condition produces substantially higher etch depths over the same exposure times, indicating a strong dependence of sputter yield on ion energy."
     },
     "data_extraction": {
-        "a": "| Acceleration Grid Voltage (V) | Etch Depth (\u00c5) |\n|---|---|\n| 0 | 0 |\n| 10 | 0 |\n| 30 | ~10 |\n| 50 | ~60 |",
-        "b": "| Ar+ Ion Exposure Time (sec) | 30V Etch Depth (\u00c5) | 10V Etch Depth (\u00c5) | \n|---|---|---| \n| 0 | 0 | 0 | \n| 50 | ~20 | 0 | \n| 100 | ~95 | 0 | \n| 150 | ~210 | ~75 |"
+      "a": "| Acceleration Grid Voltage (V) | Etch Depth (\u00c5) |\n| --- | --- |\n| 0 | 0 |\n| 10 | 0 |\n| 30 | ~10 |\n| 50 | ~60 |",
+      "b": "| Ar+ Ion Exposure Time (sec) | 30V Etch Depth (\u00c5) | 10V Etch Depth (\u00c5) |\n| --- | --- | --- |\n| 0 | 0 | 0 |\n| 50 | ~20 | 0 |\n| 100 | ~95 | 0 |\n| 150 | ~210 | ~75 |"
     },
     "vqa": {
         "b": [

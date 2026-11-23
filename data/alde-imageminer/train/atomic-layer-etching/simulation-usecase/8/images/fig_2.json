@@ -7,7 +7,7 @@
         "a": "A process flow diagram illustrating the sequence of operations and gas flow rates during two half-cycles (A and B) in a plasma process."
     },
     "data_extraction": {
-        "a": "| Time (s)| Ar (sccm)| SF6 (sccm)|TMA (pulses)|Pressure (mTorr)|ICP(W)|\n|---|---|---|---|---|---|\n|0-5|150|50|0|100|0|\n|5-15|150|50|0|100|100|\n|15-25|300|0|0|-|0|\n|25-33.4|10|0|4|150|0|\n|33.4-58.4|300|0|0|-|0|"
+      "a": "| Time (s) | Ar (sccm) | SF6 (sccm) | TMA (pulses) | Pressure (mTorr) | ICP(W) |\n| --- | --- | --- | --- | --- | --- |\n| 0-5 | 150 | 50 | 0 | 100 | 0 |\n| 5-15 | 150 | 50 | 0 | 100 | 100 |\n| 15-25 | 300 | 0 | 0 | - | 0 |\n| 25-33.4 | 10 | 0 | 4 | 150 | 0 |\n| 33.4-58.4 | 300 | 0 | 0 | - | 0 |"
     },
     "vqa": {
         "a": [

@@ -9,8 +9,8 @@
         "b": "The chart illustrates the surface roughness over 10 cycles for two conditions: the base case and a process using half the H\u2082O injected per cycle. The base case remains relatively smooth, showing a slow increase in roughness over cycling. The half-H\u2082O condition exhibits significant increases in surface roughness."
     },
     "data_extraction": {
-        "a": "| Cycle | Growth per cycle, \u00c5 (Base case) | Growth per cycle, \u00c5 (Half H\u2082O amount injected per cycle) |\n|---|---|---|\n| 1 | 0.98 | 3.07 |\n| 2 | 1.22 | 5.64 |\n| 3 | 1.96 | 2.57 |\n| 4 | 0.98 | 18.77 |\n| 5 | 1.59 | 25.15 |\n| 6 | 0 | 3.31 |\n| 7 | 1.22 | 47.8 |\n| 8 | 5.27 | 9.44 |\n| 9 | 0.85 | 3.55 |\n| 10 | 1.47 | 32.0 |",
-        "b": "| Cycle | Surface Roughness, \u00c5 (Base case) | Surface Roughness, \u00c5 (Half H\u2082O amount injected per cycle) |\n|---|---|---|\n| 0 | 1.17 | 1.17 |\n| 1 | 1.76 | 4.5 |\n| 2 | 2.35 | 10 |\n| 3 | 4.11 | 12.35 |\n| 4 | 4.51 | 29.01 |\n| 5 | 5.49 | 38.23 |\n| 6 | 3.72 | 43.13 |\n| 7 | 4.51 | 67.84 |\n| 8 | 8.63 | 64.90 |\n| 9 | 7.45 | 67.25 |\n| 10 | 8.43 | 72.15 |"
+      "a": "| Cycle | Growth per cycle, \u00c5 (Base case) | Growth per cycle, \u00c5 (Half H\u2082O amount injected per cycle) |\n| --- | --- | --- |\n| 1 | 0.98 | 3.07 |\n| 2 | 1.22 | 5.64 |\n| 3 | 1.96 | 2.57 |\n| 4 | 0.98 | 18.77 |\n| 5 | 1.59 | 25.15 |\n| 6 | 0 | 3.31 |\n| 7 | 1.22 | 47.8 |\n| 8 | 5.27 | 9.44 |\n| 9 | 0.85 | 3.55 |\n| 10 | 1.47 | 32.0 |",
+      "b": "| Cycle | Surface Roughness, \u00c5 (Base case) | Surface Roughness, \u00c5 (Half H\u2082O amount injected per cycle) |\n| --- | --- | --- |\n| 0 | 1.17 | 1.17 |\n| 1 | 1.76 | 4.5 |\n| 2 | 2.35 | 10 |\n| 3 | 4.11 | 12.35 |\n| 4 | 4.51 | 29.01 |\n| 5 | 5.49 | 38.23 |\n| 6 | 3.72 | 43.13 |\n| 7 | 4.51 | 67.84 |\n| 8 | 8.63 | 64.90 |\n| 9 | 7.45 | 67.25 |\n| 10 | 8.43 | 72.15 |"
     },
     "vqa": {
         "a": [

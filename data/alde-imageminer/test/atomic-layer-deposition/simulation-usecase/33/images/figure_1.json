@@ -11,9 +11,9 @@
         "c": "The figure shows the binding energy spectrum of material treated with 35 seconds of H\u2082 plasma, with contributions from sp\u00b2, sp\u00b3, C-O, and C=O."
     },
     "data_extraction": {
-        "a": "| Binding Energy, eV | Component | Peak Intensity (normalized) |\n|---|---|---|\n| 284.4 | sp\u00b2 | 0.88 |\n| 285.5 | C-O | 0.05 |\n| 286.5 | Plasmon 1 | 0.08 |\n| 290.5 | Plasmon 2 | 0.02 |",
-        "b": "| Binding Energy, eV | Component | Peak Intensity (normalized) |\n|---|---|---|\n| 284.4 | sp\u00b2 | 0.55 |\n| 285.0 | sp\u00b3 | 0.55 |\n| 286.2 | C-O | 0.35 |\n| 287.5 | C=O | 0.22 |",
-        "c": "| Binding Energy, eV | Component | Peak Intensity (normalized) |\n|---|---|---|\n| 284.4 | sp\u00b2 | 0.60 |\n| 285.0 | sp\u00b3 | 0.58 |\n| 286.2 | C-O | 0.38 |\n| 287.5 | C=O | 0.08 |"
+      "a": "| Binding Energy, eV | Component | Peak Intensity (normalized) |\n| --- | --- | --- |\n| 284.4 | sp\u00b2 | 0.88 |\n| 285.5 | C-O | 0.05 |\n| 286.5 | Plasmon 1 | 0.08 |\n| 290.5 | Plasmon 2 | 0.02 |",
+      "b": "| Binding Energy, eV | Component | Peak Intensity (normalized) |\n| --- | --- | --- |\n| 284.4 | sp\u00b2 | 0.55 |\n| 285.0 | sp\u00b3 | 0.55 |\n| 286.2 | C-O | 0.35 |\n| 287.5 | C=O | 0.22 |",
+      "c": "| Binding Energy, eV | Component | Peak Intensity (normalized) |\n| --- | --- | --- |\n| 284.4 | sp\u00b2 | 0.60 |\n| 285.0 | sp\u00b3 | 0.58 |\n| 286.2 | C-O | 0.38 |\n| 287.5 | C=O | 0.08 |"
     },
     "vqa": {
         "a": [

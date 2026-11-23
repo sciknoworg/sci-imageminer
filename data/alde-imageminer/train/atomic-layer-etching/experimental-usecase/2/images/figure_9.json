@@ -9,8 +9,8 @@
         "b": "The C 1s XPS spectrum of the thick fluorocarbon film after deposition exhibits stronger C\u2013F, C\u2013F\u2082, and C\u2013F\u2083 peak intensities compared to the thin film, demonstrating increased fluorination and a higher degree of CF\u2093 bonding as film thickness increases."
     },
     "data_extraction": {
-        "a": "| Binding Energy [eV] | Intensity [a.u.] |\n|---|---|\n| 284 | C-C/H |\n| 285 | C-CF |\n| 286 | C-F |\n| 287 | C-F<sub>2</sub> |\n| 288 | C-F<sub>3</sub> |",
-        "b": "| Binding Energy [eV] | Intensity [a.u.] |\n|---|---|\n| 284 | C-C/H |\n| 285 | C-CF |\n| 286 | C-F |\n| 287 | C-F<sub>2</sub> |\n| 288 | C-F<sub>3</sub> |"
+      "a": "| Binding Energy [eV] | Intensity [a.u.] |\n| --- | --- |\n| 284 | C-C/H |\n| 285 | C-CF |\n| 286 | C-F |\n| 287 | C-F<sub>2</sub> |\n| 288 | C-F<sub>3</sub> |",
+      "b": "| Binding Energy [eV] | Intensity [a.u.] |\n| --- | --- |\n| 284 | C-C/H |\n| 285 | C-CF |\n| 286 | C-F |\n| 287 | C-F<sub>2</sub> |\n| 288 | C-F<sub>3</sub> |"
     },
     "vqa": {
         "b": [

@@ -9,8 +9,8 @@
         "b": "The growth rate of a material increases gradually with increasing (Et\u2083Si)\u2082Te pulse length, but shows subsaturation."
     },
     "data_extraction": {
-        "a": "| SbCl\u2083 pulse length (s) | Growth rate (\u00c5/cycle) |\n|---|---|\n| 0.0 | 0.0 |\n|0.2|0.3|\n| 0.5 | 0.6 |\n| 1.0 | 0.6 |\n| 2.0 | 0.6 |",
-        "b": "| (Et\u2083Si)\u2082Te pulse length (s) | Growth rate (\u00c5/cycle) |\n|---|---|\n| 0.0 | 0.0 |\n|0.2|0.0|\n| 0.5 | 0.45 |\n| 1.0 | 0.6 |\n| 1.5 | 0.7 |\n| 2.0 | 0.6 |\n| 3.0 | 0.65 |\n| 4.0 | 0.7 |"
+      "a": "| SbCl\u2083 pulse length (s) | Growth rate (\u00c5/cycle) |\n| --- | --- |\n| 0.0 | 0.0 |\n| 0.2 | 0.3 |\n| 0.5 | 0.6 |\n| 1.0 | 0.6 |\n| 2.0 | 0.6 |",
+      "b": "| (Et\u2083Si)\u2082Te pulse length (s) | Growth rate (\u00c5/cycle) |\n| --- | --- |\n| 0.0 | 0.0 |\n| 0.2 | 0.0 |\n| 0.5 | 0.45 |\n| 1.0 | 0.6 |\n| 1.5 | 0.7 |\n| 2.0 | 0.6 |\n| 3.0 | 0.65 |\n| 4.0 | 0.7 |"
     },
     "vqa": {
         "a": [

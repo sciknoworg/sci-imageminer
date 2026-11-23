@@ -7,7 +7,7 @@
         "a": "The chart illustrates the potential energy diagram plotting the energy changes (\u0394E) in kJ/mol for two reaction mechanisms: one occurring on the same dimer  (R1a/R2a) and one bridging adjacent dimers (R1b/R2b). The chart traces the reaction progress through  chemisorption state (CS), transition states (TS) and physisorption states (PS) ."
     },
     "data_extraction": {
-        "a": "|  Reaction coordinate, a.u.| Species Label | \u0394E, kJ/mol | \n| --- | --- | --- |\n| 1 | CS | -132.0 | \n| 2 | TS(R1a) | -41.0 |\n| 3 | PS(R1a) | -70.5 |\n| 4  | Product(R1a) | -50.1 |\n| 5 | TS (R2a) | 19.7 |\n| 6 | PS(R2a) | 12.9 |\n| 7 | Product(R2a) | 18.0 |\n| 2 | TS(R1b) | -71.1 |\n| 3 | PS(R1b) | -111.1 |\n| 4 | Product(R1b) | -93.4 |\n| 5 | TS(R2b) | -20.8 |\n| 6 | PS(R2b) | -59.9 |\n| 7 | Product(R2b) | - 39.9 |"
+      "a": "| Reaction coordinate, a.u. | Species Label | \u0394E, kJ/mol |\n| --- | --- | --- |\n| 1 | CS | -132.0 |\n| 2 | TS(R1a) | -41.0 |\n| 3 | PS(R1a) | -70.5 |\n| 4 | Product(R1a) | -50.1 |\n| 5 | TS (R2a) | 19.7 |\n| 6 | PS(R2a) | 12.9 |\n| 7 | Product(R2a) | 18.0 |\n| 2 | TS(R1b) | -71.1 |\n| 3 | PS(R1b) | -111.1 |\n| 4 | Product(R1b) | -93.4 |\n| 5 | TS(R2b) | -20.8 |\n| 6 | PS(R2b) | -59.9 |\n| 7 | Product(R2b) | - 39.9 |"
     },
     "vqa": {
         "a": [

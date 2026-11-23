@@ -15,11 +15,11 @@
         "e": "The infrared spectrum displays a peak corresponding to the formation of the Zn\u2013O bond upon Zn\u2013H adsorption on the graphene oxide matrix. This figure shows a set of simulated infrared (IR) spectra tracking the stepwise adsorption of a Zn\u2013H species onto a graphene oxide surface. Each spectrum highlights the emergence or transformation of specific vibrational peaks corresponding to changes in carbon-oxygen bonds and the formation of a new Zn\u2013O bond."
     },
     "data_extraction": {
-        "a": "| Frequency (cm\u207b\u00b9) | Calculated | Calculated | Calculated |\n|----------------|------------|------------|------------|\n| 1500           |            |            |            |\n| 1000           |            |            |            |\n| 500            |            |            |            |",
-        "b": "| Frequency (cm\u207b\u00b9) | Calculated | Calculated | Calculated |\n|----------------|------------|------------|------------|\n| 1500           |     C=C       |            |            |\n| 1000           |     C-O       |            |            |\n| 500            |      C=C      |            |            |",
-        "c": "| Frequency (cm\u207b\u00b9) | Calculated | Calculated | Calculated |\n|----------------|------------|------------|------------|\n| 1500           |     C=C       |            |            |\n| 1000           |     C-O       |            |            |\n| 500            |      C=C      |            |            |",
-        "d": "| Frequency (cm\u207b\u00b9) | Calculated | Calculated | Calculated |\n|----------------|------------|------------|------------|\n| 1500           |     C=C       |            |            |\n| 1000           |     C-O       |            |            |\n| 500            |      C=C      |            |            |",
-        "e": "| Frequency (cm\u207b\u00b9) | Calculated | Calculated | Calculated |\n|----------------|------------|------------|------------|\n| 1500           |     C=C       |            |            |\n| 1000           |     C-O       |            |            |\n| 500            |      C=C      |            |            |"
+      "a": "| Frequency (cm-\u00b9) | Calculated | Calculated | Calculated |\n| --- | --- | --- | --- |\n| 1500 |  |  |  |\n| 1000 |  |  |  |\n| 500 |  |  |  |",
+      "b": "| Frequency (cm-\u00b9) | Calculated | Calculated | Calculated |\n| --- | --- | --- | --- |\n| 1500 | C=C |  |  |\n| 1000 | C-O |  |  |\n| 500 | C=C |  |  |",
+      "c": "| Frequency (cm-\u00b9) | Calculated | Calculated | Calculated |\n| --- | --- | --- | --- |\n| 1500 | C=C |  |  |\n| 1000 | C-O |  |  |\n| 500 | C=C |  |  |",
+      "d": "| Frequency (cm-\u00b9) | Calculated | Calculated | Calculated |\n| --- | --- | --- | --- |\n| 1500 | C=C |  |  |\n| 1000 | C-O |  |  |\n| 500 | C=C |  |  |",
+      "e": "| Frequency (cm-\u00b9) | Calculated | Calculated | Calculated |\n| --- | --- | --- | --- |\n| 1500 | C=C |  |  |\n| 1000 | C-O |  |  |\n| 500 | C=C |  |  |"
     },
     "vqa": {
         "b": [

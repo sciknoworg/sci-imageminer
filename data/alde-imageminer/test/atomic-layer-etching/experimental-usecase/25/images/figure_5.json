@@ -7,7 +7,7 @@
         "a": "The line chart illustrates the thickness changes of B2O3 after HF exposures at 207\u00b0C. The blue squares represent measurements taken before the HF dose, while the red circles represent those taken after the HF dose."
     },
     "data_extraction": {
-        "a": "| Number of HF Exposures | Before HF Dose | After HF Dose |\n|---|---|---|\n| 1 | 540 | 538 |\n| 2 | 538 | 536 |\n| 3 | 536 | 534 |\n| 4 | 534 | 532 |\n| 5 | 532 | 530 |\n| 6 | 530 | 530 |"
+      "a": "| Number of HF Exposures | Before HF Dose | After HF Dose |\n| --- | --- | --- |\n| 1 | 540 | 538 |\n| 2 | 538 | 536 |\n| 3 | 536 | 534 |\n| 4 | 534 | 532 |\n| 5 | 532 | 530 |\n| 6 | 530 | 530 |"
     },
     "vqa": {
         "a": [

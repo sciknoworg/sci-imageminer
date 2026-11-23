@@ -9,8 +9,8 @@
         "b": "The figure illustrates the SIMS depth profiles of O-, F-, Al-, AIO-, and AIOF- species as a function of sputter time."
     },
     "data_extraction": {
-        "a": "| Measurement | Assignment | Curve type | Peak: Binding energy [eV] | Peak: Intensity (a.u.) |\n|---|---|---|---|---|\n|Reference| Al2O3 | Envelope | 74.57 | 273 |\n| Fluorination | Al2O3, AlOFx, AlF3 | Envelope | 74.98| 75 |\n| Fluorination | Al2O3 |Component | 74.72 | 65 |\n| Fluorination | AlOFx |Component | 75.76 | 38 |\n| Fluorination | AlF3 |Component | 76.59 | 6 |",
-        "b": "| Sputter time (s) | Intensity (a.u): O- | Intensity (a.u): F- | Intensity (a.u): Al- | Intensity (a.u): AlO- | Intensity (a.u): AlOF- |\n|---|---|---|---|---|---|\n| 0 | 0 | 51 | 0 |0 | 0 |\n| 5 | 52 | 34 | 3 | 40 | 2 |\n| 10 | 52 | 12 | 3 |43 | 0 |\n| 15 | 52 |  6| 3 | 43 | 0 |\n| 20 | 52 | 5 | 3 | 43 | 0 |\n| 25 | 52 | 3 | 3 | 43| 0 |\n| 30 | 53 | 3 | 3 | 44 | 0 |"
+      "a": "| Measurement | Assignment | Curve type | Peak: Binding energy [eV] | Peak: Intensity (a.u.) |\n| --- | --- | --- | --- | --- |\n| Reference | Al2O3 | Envelope | 74.57 | 273 |\n| Fluorination | Al2O3, AlOFx, AlF3 | Envelope | 74.98 | 75 |\n| Fluorination | Al2O3 | Component | 74.72 | 65 |\n| Fluorination | AlOFx | Component | 75.76 | 38 |\n| Fluorination | AlF3 | Component | 76.59 | 6 |",
+      "b": "| Sputter time (s) | Intensity (a.u): O- | Intensity (a.u): F- | Intensity (a.u): Al- | Intensity (a.u): AlO- | Intensity (a.u): AlOF- |\n| --- | --- | --- | --- | --- | --- |\n| 0 | 0 | 51 | 0 | 0 | 0 |\n| 5 | 52 | 34 | 3 | 40 | 2 |\n| 10 | 52 | 12 | 3 | 43 | 0 |\n| 15 | 52 | 6 | 3 | 43 | 0 |\n| 20 | 52 | 5 | 3 | 43 | 0 |\n| 25 | 52 | 3 | 3 | 43 | 0 |\n| 30 | 53 | 3 | 3 | 44 | 0 |"
     },
     "vqa": {
         "a": [

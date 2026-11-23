@@ -7,7 +7,7 @@
         "a": "The chart compares the experimental data and model prediction on the relationship between the inlet argon flow rate (in sccm) and the outlet pressure (in Torr). There is a linear increase in outlet pressure as the inlet argon flow rate increases."
     },
     "data_extraction": {
-        "a": "| Inlet Argon Flow Rate (sccm) | Outlet Pressure - Experiments (Torr) | Outlet Pressure - Model (Torr) |\n|------------------------------|--------------------------------------|--------------------------------|\n| 0                            | 0.000                               | 0.000                         |\n| 50                           | 0.015                               | 0.012                         |\n| 75                           | 0.022                               | 0.020                         |\n| 100                          | 0.030                               | 0.028                         |\n| 150                          | 0.045                               | 0.043                         |\n| 200                          | 0.060                               | 0.058                         |\n| 250                          | 0.075                               | 0.073                         |\n| 300                          | 0.085                                | 0.08                         |"
+      "a": "| Inlet Argon Flow Rate (sccm) | Outlet Pressure - Experiments (Torr) | Outlet Pressure - Model (Torr) |\n| --- | --- | --- |\n| 0 | 0.000 | 0.000 |\n| 50 | 0.015 | 0.012 |\n| 75 | 0.022 | 0.020 |\n| 100 | 0.030 | 0.028 |\n| 150 | 0.045 | 0.043 |\n| 200 | 0.060 | 0.058 |\n| 250 | 0.075 | 0.073 |\n| 300 | 0.085 | 0.08 |"
     },
     "vqa": {
         "a": [

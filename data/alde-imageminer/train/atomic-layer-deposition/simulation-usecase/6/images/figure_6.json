@@ -13,10 +13,10 @@
         "d": "The pie chart illustrates the prevalence of different reaction mechanisms studied."
     },
     "data_extraction": {
-        "a": "| Material | Percentage |\n|----------|------------|\n| Al2O3    | 34%        |\n| HfO2     | 18%        |\n| TiO2     | 12%        |\n| Cu/CuO   | 10%        |\n| ZrO2     | 12%        |\n| ZnO      | 4%         |\n| Others   | 10%        |",
-        "b": "| Precursor | Percentage |\n|------------|------------|\n| DFT       | 83%        |\n| GCM/CAMD  | 17%        |",
-        "c": "| Characterization Method | Percentage |\n|-------------------------|------------|\n| DFT                     | 30%        |\n| Mass balance            | 20%        |\n| Monte Carlo              | 30%        |\n| CFD                     | 5%         |\n| ANSYS Fluent            | 5%         |\n| LBM                     | 5%         |\n| GCM                     | 5%         |",
-        "d": "| Reaction Mechanism | Percentage |\n|---------------------|------------|\n| DFT                 | 92%        |\n| MD                  | 4%         |\n| Monte Carlo          | 4%         |"
+      "a": "| Material | Percentage |\n| --- | --- |\n| Al2O3 | 34% |\n| HfO2 | 18% |\n| TiO2 | 12% |\n| Cu/CuO | 10% |\n| ZrO2 | 12% |\n| ZnO | 4% |\n| Others | 10% |",
+      "b": "| Precursor | Percentage |\n| --- | --- |\n| DFT | 83% |\n| GCM/CAMD | 17% |",
+      "c": "| Characterization Method | Percentage |\n| --- | --- |\n| DFT | 30% |\n| Mass balance | 20% |\n| Monte Carlo | 30% |\n| CFD | 5% |\n| ANSYS Fluent | 5% |\n| LBM | 5% |\n| GCM | 5% |",
+      "d": "| Reaction Mechanism | Percentage |\n| --- | --- |\n| DFT | 92% |\n| MD | 4% |\n| Monte Carlo | 4% |"
     },
     "vqa": {
         "c": [

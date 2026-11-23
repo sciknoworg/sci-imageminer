@@ -7,7 +7,7 @@
         "d": "This scatter plot illustrates the atomic percentages of carbon and nitrogen present on a surface following plasma exposure under different chamber pressures, ranging from 1000 to 5000 mTorr. The trends indicate relatively stable nitrogen incorporation between 1000\u20134000 mTorr, followed by a sharp increase at 5000 mTorr. Carbon follows a similar pattern but with more pronounced variability and a dramatic rise in atomic percentage at the highest pressure. These shifts align with a transition from inductively to capacitively coupled plasma modes, as indicated on the chart, implying that plasma coupling regime influences surface residue accumulation."
     },
     "data_extraction": {
-        "d": "| Pressure (mTorr) | Atomic % C | Atomic % N |\n|---|---|---|\n| 1000 | 1 | 0.5 |\n| 2000 | 2 | 1 |\n| 3000 | 3 | 1 |\n| 4000 | 2 | 1 |\n| 5000 | 11 | 6 |"
+      "d": "| Pressure (mTorr) | Atomic % C | Atomic % N |\n| --- | --- | --- |\n| 1000 | 1 | 0.5 |\n| 2000 | 2 | 1 |\n| 3000 | 3 | 1 |\n| 4000 | 2 | 1 |\n| 5000 | 11 | 6 |"
     },
     "vqa": {
         "d": [

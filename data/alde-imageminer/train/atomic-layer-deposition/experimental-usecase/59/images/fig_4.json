@@ -11,9 +11,9 @@
         "c": "The figure shows the growth rate (nm/cycle) versus the deposition temperature (\u00b0C). The growth rate remains constant across different deposition temperatures."
     },
     "data_extraction": {
-        "a": "| PDMAT dosing (s) | Growth rate (nm/cycle) |\n|---|---|\n| 0 | 0.00 |\n| 1 | 0.035 |\n| 2 | 0.035 |\n| 3 | 0.040 |\n| 4 | 0.040 |\n| 5 | 0.040 |",
-        "b": "| Plasma exposure time (s) | Growth rate (nm/cycle) |\n|---|---|\n| 0 | 0.00 |\n| 5 | 0.04 |\n| 10 | 0.042 |\n| 15 | - |\n| 20 | - |\n| 25 | - |\n| 30 | 0.05 |",
-        "c": "| Deposition temperature (\u00b0C) | Growth rate (nm/cycle) |\n|---|---|\n| 150 | 0.05 |\n| 175 | 0.05 |\n| 200 | 0.05 |\n| 225 | 0.05 |\n| 250 | 0.05 |"
+      "a": "| PDMAT dosing (s) | Growth rate (nm/cycle) |\n| --- | --- |\n| 0 | 0.00 |\n| 1 | 0.035 |\n| 2 | 0.035 |\n| 3 | 0.040 |\n| 4 | 0.040 |\n| 5 | 0.040 |",
+      "b": "| Plasma exposure time (s) | Growth rate (nm/cycle) |\n| --- | --- |\n| 0 | 0.00 |\n| 5 | 0.04 |\n| 10 | 0.042 |\n| 15 | - |\n| 20 | - |\n| 25 | - |\n| 30 | 0.05 |",
+      "c": "| Deposition temperature (\u00b0C) | Growth rate (nm/cycle) |\n| --- | --- |\n| 150 | 0.05 |\n| 175 | 0.05 |\n| 200 | 0.05 |\n| 225 | 0.05 |\n| 250 | 0.05 |"
     },
     "vqa": {
         "a": [

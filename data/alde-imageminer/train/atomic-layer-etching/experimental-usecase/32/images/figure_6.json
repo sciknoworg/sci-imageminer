@@ -7,7 +7,7 @@
         "a": "Multi-axis chart showing InGaAs etch depth (left axis, black squares) and etch rate per cycle (right axis, red circles) as a function of the number of ALE cycles. Etch depth increases approximately linearly from 100 to 400 cycles, while the etch rate remains nearly constant at ~1.1 \u00c5/cycle across the range."
     },
     "data_extraction": {
-        "a": "| No. of ALE Cycles | Etch Depth (\u00c5) [Left Axis] | Etch Rate (\u00c5/Cycle) [Right Axis] |\n|---|---|---|\n| 100 | ~105 | ~1.10 |\n| 200 | ~220 | ~1.10 |\n| 300 | ~335 | ~1.13 |\n| 400 | ~460 | ~1.15 |"
+      "a": "| No. of ALE Cycles | Etch Depth (\u00c5) [Left Axis] | Etch Rate (\u00c5/Cycle) [Right Axis] |\n| --- | --- | --- |\n| 100 | ~105 | ~1.10 |\n| 200 | ~220 | ~1.10 |\n| 300 | ~335 | ~1.13 |\n| 400 | ~460 | ~1.15 |"
     },
     "vqa": {
         "a": [

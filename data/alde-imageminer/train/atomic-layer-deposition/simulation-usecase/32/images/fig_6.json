@@ -9,8 +9,8 @@
         "b": "temperature profile on the substrate surface for the substratecenter at 300\u25e6C."
     },
     "data_extraction": {
-        "a": "| Object | Temperature Range (\u00b0C) |\n|-----------|--------------------------|\n| Reactor      | 50 \u2013 300               |",
-        "b": "| Object | Temperature Range (\u00b0C) |\n|-----------|--------------------------|\n| Substrate| 280 \u2013 300               |"
+      "a": "| Object | Temperature Range (\u00b0C) |\n| --- | --- |\n| Reactor | 50 \u2013 300 |",
+      "b": "| Object | Temperature Range (\u00b0C) |\n| --- | --- |\n| Substrate | 280 \u2013 300 |"
     },
     "vqa": {
         "a": [

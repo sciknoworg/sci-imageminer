@@ -7,7 +7,7 @@
         "b": "The bar chart shows the distribution of etching fraction values relative to the mean. Most measurements cluster around \u03bc = 0.7777, with the highest frequency near the center. The number of observations decreases toward the \u00b13\u03c3 bins, indicating a relatively narrow spread with few extreme values."
     },
     "data_extraction": {
-        "b": "| Etching Fraction | Frequency |\n|------------------|-----------|\n|-3\u03c3              | 1         |\n|-2\u03c3              | 4         |\n|-\u03c3               | 20        |\n|\u03bc                 | 25        |\n|+\u03c3                | 12        |\n|+2\u03c3               | 5         |\n|+3\u03c3               | 2         |"
+      "b": "| Etching Fraction | Frequency |\n| --- | --- |\n| -3\u03c3 | 1 |\n| -2\u03c3 | 4 |\n| -\u03c3 | 20 |\n| \u03bc | 25 |\n| +\u03c3 | 12 |\n| +2\u03c3 | 5 |\n| +3\u03c3 | 2 |"
     },
     "vqa": {
         "b": [

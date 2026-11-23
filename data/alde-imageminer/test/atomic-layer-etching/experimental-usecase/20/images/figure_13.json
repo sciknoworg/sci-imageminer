@@ -7,7 +7,7 @@
         "a": "The chart shows the decrease in AlN thickness over different number of ALE cycles with XeF\u2082/BCl\u2083/H\u2082O etching at 255\u00b0C, with an etch rate of 0.49 \u00c5/cycle."
     },
     "data_extraction": {
-        "a": "| XeF\u2082/BCl\u2083/H\u2082O Cycles | AIN Thickness (\u00c5) |\n|---|---|\n| 0 | 2935 |\n| 25 | 2923 |\n| 50 | 2910 |\n| 75 | 2900 |\n| 100 | 2880 |"
+      "a": "| XeF\u2082/BCl\u2083/H\u2082O Cycles | AIN Thickness (\u00c5) |\n| --- | --- |\n| 0 | 2935 |\n| 25 | 2923 |\n| 50 | 2910 |\n| 75 | 2900 |\n| 100 | 2880 |"
     },
     "vqa": {
         "a": [

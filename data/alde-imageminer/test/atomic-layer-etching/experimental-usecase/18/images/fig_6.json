@@ -7,7 +7,7 @@
         "a": "The diagram illustrates different types of ALE (Atomic Layer Etching) classified  based on directionality of modification and removal steps, which can be isotropic or directional."
     },
     "data_extraction": {
-        "a": "| Removal Step | Modification Step | Modification Type | Removal Type | ALE Classification |\n|-------------------|-------------------|-----------------------------------|---------------------------| --------------|\n| Isotropic      |   Isotropic       | Isotropic ALE - Modification       | Isotropic ALE - Removal     |   Isotropic ALE   |\n| Isotropic      |   Directional   | Directional ALE - Modification  | Isotropic ALE - Removal     |  Directional ALE |\n| Directional |   Isotropic        | Isotropic ALE - Modification      | Directional ALE - Removal |  Directional ALE |\n| Directional |   Directional    | Directional ALE - Modification | Directional ALE - Removal |  Directional ALE |"
+      "a": "| Removal Step | Modification Step | Modification Type | Removal Type | ALE Classification |\n| --- | --- | --- | --- | --- |\n| Isotropic | Isotropic | Isotropic ALE - Modification | Isotropic ALE - Removal | Isotropic ALE |\n| Isotropic | Directional | Directional ALE - Modification | Isotropic ALE - Removal | Directional ALE |\n| Directional | Isotropic | Isotropic ALE - Modification | Directional ALE - Removal | Directional ALE |\n| Directional | Directional | Directional ALE - Modification | Directional ALE - Removal | Directional ALE |"
     },
     "vqa": {
         "a": [

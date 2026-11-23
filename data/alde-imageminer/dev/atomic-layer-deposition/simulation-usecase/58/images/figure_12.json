@@ -7,7 +7,7 @@
         "a": "The plot relates reaction pathways and the energy changes along these different pathways between the transtition states, reactants and products"
     },
     "data_extraction": {
-        "a": "| Reaction Pathway | Energy (kcal/mol) |\n|------------------|------------------|\n| R               | 0                |\n| TS (a)            | 20.8               |\n| TS  (b)            | 30               |\n| TS  (c)            | 34.5               |\n| P(a)            | -10.2              |\n| P(b)            | 7.3            |\n| P(c)            | 4.8           |"
+      "a": "| Reaction Pathway | Energy (kcal/mol) |\n| --- | --- |\n| R | 0 |\n| TS (a) | 20.8 |\n| TS  (b) | 30 |\n| TS  (c) | 34.5 |\n| P(a) | -10.2 |\n| P(b) | 7.3 |\n| P(c) | 4.8 |"
     },
     "vqa": {
         "a": [

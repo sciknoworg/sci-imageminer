@@ -9,8 +9,8 @@
         "b": "The enlarged view emphasizes distinct optimal modification windows: AlN\u2093 peaks earliest (~6\u20138 s), Al\u2082O\u2083 slightly later (~8\u201310 s), and HfO\u2082 latest (~10\u201312 s). Beyond these windows, etch rates decrease, indicating over-modification effects."
     },
     "data_extraction": {
-        "a": "| Modification step duration (s) | Al\u2082O\u2083 (nm/cyc) | HfO\u2082 (nm/cyc) | AlN\u2093 (nm/cyc) | TiN (nm/cyc) | SiO\u2082 (nm/cyc) |\n|---|---|---|---|---|---|\n| 0  | ~0.02 | ~0.01 | ~0.02 | ~0.00 | ~0.05 |\n| 4  | ~0.15 | ~0.06 | ~0.17 | ~0.00 | ~0.30 |\n| 6  | ~0.17 | ~0.08 | ~0.18 | ~0.00 | ~0.45 |\n| 10 | ~0.16 | ~0.09 | ~0.17 | ~0.00 | ~0.62 |\n| 12 | ~0.15 | ~0.09 | ~0.16 | ~0.00 | ~0.65 |\n| 14 | ~0.09 | ~0.07 | ~0.10 | ~\u22120.02 | ~0.82 |",
-        "b": "| Modification step duration (s) | Al\u2082O\u2083 (nm/cyc) | HfO\u2082 (nm/cyc) | AlN\u2093 (nm/cyc) |\n|---|---|---|---|\n| 0  | ~0.02 | ~0.01 | ~0.02 |\n| 4  | ~0.15 | ~0.07 | ~0.17 |\n| 6  | ~0.17 | ~0.09 | ~0.19 |\n| 10 | ~0.16 | ~0.10 | ~0.19 |\n| 12 | ~0.16 | ~0.10 | ~0.18 |\n| 14 | ~0.08 | ~0.06 | ~0.10 |"
+      "a": "| Modification step duration (s) | Al\u2082O\u2083 (nm/cyc) | HfO\u2082 (nm/cyc) | AlN\u2093 (nm/cyc) | TiN (nm/cyc) | SiO\u2082 (nm/cyc) |\n| --- | --- | --- | --- | --- | --- |\n| 0 | ~0.02 | ~0.01 | ~0.02 | ~0.00 | ~0.05 |\n| 4 | ~0.15 | ~0.06 | ~0.17 | ~0.00 | ~0.30 |\n| 6 | ~0.17 | ~0.08 | ~0.18 | ~0.00 | ~0.45 |\n| 10 | ~0.16 | ~0.09 | ~0.17 | ~0.00 | ~0.62 |\n| 12 | ~0.15 | ~0.09 | ~0.16 | ~0.00 | ~0.65 |\n| 14 | ~0.09 | ~0.07 | ~0.10 | ~-0.02 | ~0.82 |",
+      "b": "| Modification step duration (s) | Al\u2082O\u2083 (nm/cyc) | HfO\u2082 (nm/cyc) | AlN\u2093 (nm/cyc) |\n| --- | --- | --- | --- |\n| 0 | ~0.02 | ~0.01 | ~0.02 |\n| 4 | ~0.15 | ~0.07 | ~0.17 |\n| 6 | ~0.17 | ~0.09 | ~0.19 |\n| 10 | ~0.16 | ~0.10 | ~0.19 |\n| 12 | ~0.16 | ~0.10 | ~0.18 |\n| 14 | ~0.08 | ~0.06 | ~0.10 |"
     },
     "vqa": {
         "a": [

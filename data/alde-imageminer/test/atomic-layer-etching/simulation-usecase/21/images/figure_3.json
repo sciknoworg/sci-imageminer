@@ -7,7 +7,7 @@
         "a": "The periodic table is color-coded to show surface binding energy E\u2080 for elemental solids using discrete ranges from <2 eV to >7 eV. Elements with high E\u2080, including carbon and refractory transition metals, occupy the darkest bins, indicating strong lattice cohesion and resistance to removal. Alkali metals and weakly bound elements fall into the lowest categories, reflecting low surface stability. The map provides a qualitative basis for anticipating where strong chemical\u2013physical synergy is required for effective directional ALE"
     },
     "data_extraction": {
-        "a": "| Element | Surface binding energy E\u2080 (categorical) |\n|---------|------------------------------------------|\n| H, Li,Na, K, Rb, Cs, Mg, Ca, Sr, Ba, Zn, Cd, Hg, Tl, Po, Br, I, At, He, Ne, Ar, Kr, Xe, Rn| < 2 eV |\n| Be, Sc, Y, La, Ti, Cr, Mn, Fe, Co, Ni, Pd, Cu, Ag, Au,Al, Si, Ge, Sn, N, P, As,Sb, Cl| 2\u20135 eV   |\n| B, O, F, V, Rh, Pt,  | 5-6 eV  |\n| Zr, Mo, Tc, Ru, Hf, Ir | 6-7 eV  |\n| C, Nb, Ta, W, Re, Os | 7+ eV  |"
+      "a": "| Element | Surface binding energy E\u2080 (categorical) |\n| --- | --- |\n| H, Li,Na, K, Rb, Cs, Mg, Ca, Sr, Ba, Zn, Cd, Hg, Tl, Po, Br, I, At, He, Ne, Ar, Kr, Xe, Rn | < 2 eV |\n| Be, Sc, Y, La, Ti, Cr, Mn, Fe, Co, Ni, Pd, Cu, Ag, Au,Al, Si, Ge, Sn, N, P, As,Sb, Cl | 2\u20135 eV |\n| B, O, F, V, Rh, Pt, | 5-6 eV |\n| Zr, Mo, Tc, Ru, Hf, Ir | 6-7 eV |\n| C, Nb, Ta, W, Re, Os | 7+ eV |"
     },
     "vqa": {
         "a": [

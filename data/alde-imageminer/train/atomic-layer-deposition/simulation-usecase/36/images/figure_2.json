@@ -9,8 +9,8 @@
         "b": "The Al 2p spectra display a common peak centered near ~75 eV for all cycle counts. Peak intensity increases monotonically from 50 to 100 cycles, while peak position and width remain essentially unchanged. The spectra therefore differ primarily in amplitude rather than energy shift."
     },
     "data_extraction": {
-        "a": "| ALD cycles | ODPA/Ti (deg) | HF-treated Si (deg) | SiO\u2082 (deg) | Ti (deg) |\n|-----------|----------------|----------------------|------------|----------|\n| 0         | ~110           | ~90                  | ~70        | ~60      |\n| 25        | ~110           | ~45                  | ~45        | ~45      |\n| 50        | ~105           | ~45                  | ~45        | ~45      |\n| 100       | ~90            | ~45                  | ~45        | ~45      |\n| 150       | ~45            | ~45                  | ~45        | ~45      |",
-        "b": "| Binding energy (eV) | Relative intensity trend |\n|---------------------|--------------------------|\n| ~73.0               | Very low                 |\n| ~74.0               | Rising                   |\n| ~75.0               | Maximum (100 > 70 > 50)  |\n| ~76.0               | Decreasing               |\n| ~77.0               | Very low                 |"
+      "a": "| ALD cycles | ODPA/Ti (deg) | HF-treated Si (deg) | SiO\u2082 (deg) | Ti (deg) |\n| --- | --- | --- | --- | --- |\n| 0 | ~110 | ~90 | ~70 | ~60 |\n| 25 | ~110 | ~45 | ~45 | ~45 |\n| 50 | ~105 | ~45 | ~45 | ~45 |\n| 100 | ~90 | ~45 | ~45 | ~45 |\n| 150 | ~45 | ~45 | ~45 | ~45 |",
+      "b": "| Binding energy (eV) | Relative intensity trend |\n| --- | --- |\n| ~73.0 | Very low |\n| ~74.0 | Rising |\n| ~75.0 | Maximum (100 > 70 > 50) |\n| ~76.0 | Decreasing |\n| ~77.0 | Very low |"
     },
     "vqa": {
         "a": [

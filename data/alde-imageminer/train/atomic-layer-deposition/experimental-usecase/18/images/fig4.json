@@ -13,10 +13,10 @@
         "d": "Post-precursor purge time affects GPC: insufficient purging causes elevated growth from parasitic reactions, while longer purge times restore true ALD behavior."
     },
     "data_extraction": {
-        "a": "| Substrate Temperature (\u00b0C) | GPC (nm/cycle) |\n|---|---|\n| 100 | ~0.11 |\n| 150 | ~0.10 |\n| 200 | ~0.11 |\n| 250 | ~0.15 |\n| 300 | ~0.55 |",
-        "b": "| TDMAZr pulse (s) | GPC (nm/cycle) |\n|---|---|\n| 0.02 | ~0.07 |\n| 0.04 | ~0.09 |\n| 0.06 | ~0.10 |\n| 0.08 | ~0.10 |\n| 0.10 | ~0.10 |\n| 0.12 | ~0.10 |\n| 0.16 | ~0.10 |\n| 0.20 | ~0.10 |",
-        "c": "| Plasma exposure (s) | GPC (nm/cycle) |\n|---|---|\n| 1 | ~0.12 |\n| 3 | ~0.12 |\n| 6 | ~0.10 |\n| 9 | ~0.10 |\n| 12 | ~0.10 |\n| 15 | ~0.10 |\n| 18 | ~0.10 |",
-        "d": "| Post-TDMAZr purge (s) | GPC (nm/cycle) |\n|---|---|\n| 1 | ~0.26 |\n| 3 | ~0.25 |\n| 6 | ~0.10 |\n| 9 | ~0.10 |\n| 12 | ~0.10 |\n| 15 | ~0.10 |\n| 18 | ~0.10 |"
+      "a": "| Substrate Temperature (\u00b0C) | GPC (nm/cycle) |\n| --- | --- |\n| 100 | ~0.11 |\n| 150 | ~0.10 |\n| 200 | ~0.11 |\n| 250 | ~0.15 |\n| 300 | ~0.55 |",
+      "b": "| TDMAZr pulse (s) | GPC (nm/cycle) |\n| --- | --- |\n| 0.02 | ~0.07 |\n| 0.04 | ~0.09 |\n| 0.06 | ~0.10 |\n| 0.08 | ~0.10 |\n| 0.10 | ~0.10 |\n| 0.12 | ~0.10 |\n| 0.16 | ~0.10 |\n| 0.20 | ~0.10 |",
+      "c": "| Plasma exposure (s) | GPC (nm/cycle) |\n| --- | --- |\n| 1 | ~0.12 |\n| 3 | ~0.12 |\n| 6 | ~0.10 |\n| 9 | ~0.10 |\n| 12 | ~0.10 |\n| 15 | ~0.10 |\n| 18 | ~0.10 |",
+      "d": "| Post-TDMAZr purge (s) | GPC (nm/cycle) |\n| --- | --- |\n| 1 | ~0.26 |\n| 3 | ~0.25 |\n| 6 | ~0.10 |\n| 9 | ~0.10 |\n| 12 | ~0.10 |\n| 15 | ~0.10 |\n| 18 | ~0.10 |"
     },
     "vqa": {
         "d": [

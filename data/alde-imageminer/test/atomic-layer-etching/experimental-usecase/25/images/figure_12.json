@@ -9,8 +9,8 @@
         "b": "The figure illustrates the thickness of W as a function of the number of half-cycles, with an etch rate of 2.44 \u00c5/cycle."
     },
     "data_extraction": {
-        "a": "| Number of Half-Cycles | WO\u2083 Thickness (\u00c5) After O\u2082/O\u2083 | WO\u2083 Thickness (\u00c5) After BCl\u2083/HF |\n|---|---|---|\n| 0 | 35 | 27 |\n| 10 | 42 | 36 |\n| 20 | 37 | 30 |\n| 30 | 32 | 25 |\n| 40 | 29 | 22 |\n| 50 | 26 | 21 |\n| 60 | 25 | 17 |",
-        "b": "| Number of Half-Cycles | W Thickness (\u00c5) |\n|---|---|\n| 0 | 230 |\n| 10 | 215 |\n| 20 | 200 |\n| 30 | 185 |\n| 40 | 170 |\n| 50 | 160 |\n| 60 | 150 |"
+      "a": "| Number of Half-Cycles | WO\u2083 Thickness (\u00c5) After O\u2082/O\u2083 | WO\u2083 Thickness (\u00c5) After BCl\u2083/HF |\n| --- | --- | --- |\n| 0 | 35 | 27 |\n| 10 | 42 | 36 |\n| 20 | 37 | 30 |\n| 30 | 32 | 25 |\n| 40 | 29 | 22 |\n| 50 | 26 | 21 |\n| 60 | 25 | 17 |",
+      "b": "| Number of Half-Cycles | W Thickness (\u00c5) |\n| --- | --- |\n| 0 | 230 |\n| 10 | 215 |\n| 20 | 200 |\n| 30 | 185 |\n| 40 | 170 |\n| 50 | 160 |\n| 60 | 150 |"
     },
     "vqa": {
         "a": [

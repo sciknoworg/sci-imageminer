@@ -13,10 +13,10 @@
         "d": "X-ray diffraction patterns are shown for different temperatures, indicating changes in crystallinity for 350 degrees for ALD grown GeSe."
     },
     "data_extraction": {
-        "a": "| Temperature (\u00b0C) | Sheet resistance (\u03a9/\u25a1) |\n|---|---|\n| 0 | 3*10^7 |\n| 50 | 3*10^7 |\n| 100 | 3*10^7 |\n| 150 | 3*10^7 |\n| 200 | 3*10^7 |\n| 250 | 3*10^7 |\n| 300 | 3*10^7 |\n| 350 | 10^4 |",
-        "b": "| Temperature (\u00b0C) | Sheet resistance (\u03a9/\u25a1) |\n|---|---|\n| 0 | 3*10^7 |\n| 50 | 3*10^7 |\n| 100 | 3*10^7 |\n| 150 | 3*10^7 |\n| 200 | 3*10^7 |\n| 250 | 3*10^7 |\n| 300 | 3*10^7 |\n| 350 | 10^4 |",
-        "c": "| 2\u03b8 (\u00b0) | Intensity (A.U.) |\n|---|---|\n| 20 | - |\n| 25 | - |\n| 30 | - |\n| 32 | Peak for 340 and 350 degrees|\n| 40 | - |\n| 45 | - |\n| 50 | - |",
-        "d": "| 2\u03b8 (\u00b0) | Intensity (A.U.) |\n|---|---|\n| 20 | - |\n| 25 | - |\n| 30 | - |\n| 32 | Peak for 350 degrees|\n| 40 | - |\n| 45 | - |\n| 50 | - |"
+      "a": "| Temperature (\u00b0C) | Sheet resistance (\u03a9/\u25a1) |\n| --- | --- |\n| 0 | 3e+7 |\n| 50 | 3e+7 |\n| 100 | 3e+7 |\n| 150 | 3e+7 |\n| 200 | 3e+7 |\n| 250 | 3e+7 |\n| 300 | 3e+7 |\n| 350 | 10^4 |",
+      "b": "| Temperature (\u00b0C) | Sheet resistance (\u03a9/\u25a1) |\n| --- | --- |\n| 0 | 3e+7 |\n| 50 | 3e+7 |\n| 100 | 3e+7 |\n| 150 | 3e+7 |\n| 200 | 3e+7 |\n| 250 | 3e+7 |\n| 300 | 3e+7 |\n| 350 | 10^4 |",
+      "c": "| 2\u03b8 (\u00b0) | Intensity (A.U.) |\n| --- | --- |\n| 20 | - |\n| 25 | - |\n| 30 | - |\n| 32 | Peak for 340 and 350 degrees |\n| 40 | - |\n| 45 | - |\n| 50 | - |",
+      "d": "| 2\u03b8 (\u00b0) | Intensity (A.U.) |\n| --- | --- |\n| 20 | - |\n| 25 | - |\n| 30 | - |\n| 32 | Peak for 350 degrees |\n| 40 | - |\n| 45 | - |\n| 50 | - |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The figure displays a spectra chart comparing the intensity of Co3O4 control, and the initial Co3O4 powder after 15 Hacac exposures at 250 \u00b0C."
     },
     "data_extraction": {
-        "a": "| 2 Theta (degrees) | Co3O4 after Hacac | Co3O4 control |\n| --- | --- | --- |\n| 30 | peak at 32\u00b0| peak at 32\u00b0 |\n| 35 | peak at 37\u00b0, 39\u00b0 | peak at 37\u00b0 |\n| 40 | peak at 43\u00b0 | peak at 43\u00b0 |\n| 45 | peak at 45\u00b0 | - |\n| 50 | - | - |\n| 55 | peak at 56\u00b0 | peak at 56\u00b0 |\n| 60 | peak at 60\u00b0, 62\u00b0 | peak at 60\u00b0 |\n| 65 | peak at 66\u00b0 | peak at 6\u00b0 |\n| 70 | - | - |"
+      "a": "| 2 Theta (degrees) | Co3O4 after Hacac | Co3O4 control |\n| --- | --- | --- |\n| 30 | peak at 32\u00b0 | peak at 32\u00b0 |\n| 35 | peak at 37\u00b0, 39\u00b0 | peak at 37\u00b0 |\n| 40 | peak at 43\u00b0 | peak at 43\u00b0 |\n| 45 | peak at 45\u00b0 | - |\n| 50 | - | - |\n| 55 | peak at 56\u00b0 | peak at 56\u00b0 |\n| 60 | peak at 60\u00b0, 62\u00b0 | peak at 60\u00b0 |\n| 65 | peak at 66\u00b0 | peak at 6\u00b0 |\n| 70 | - | - |"
     },
     "vqa": {
         "a": [

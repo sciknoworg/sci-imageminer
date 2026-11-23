@@ -7,7 +7,7 @@
         "a": "The figure shows the growth rate (\u00c5/cycle) as a function of the deposition temperature (\u00b0C). The growth rate of the material decreases as the deposition temperature increases, reaching at minimum at around 320 \u00b0C before slightly increasing again."
     },
     "data_extraction": {
-        "a": "| Deposition temperature / \u00b0C | Growth rate \u00c5 / cycle |\n|---|---|\n| 250 | 1.5 \u00b1 0.1 |\n| 275 | 1.3 \u00b1 0.1 |\n| 300 | 1.2 \u00b1 0.1 |\n| 310 | 1.0 \u00b1 0.1 |\n| 350 | 1.2 \u00b1 0.1 |"
+      "a": "| Deposition temperature / \u00b0C | Growth rate \u00c5 / cycle |\n| --- | --- |\n| 250 | 1.5 \u00b1 0.1 |\n| 275 | 1.3 \u00b1 0.1 |\n| 300 | 1.2 \u00b1 0.1 |\n| 310 | 1.0 \u00b1 0.1 |\n| 350 | 1.2 \u00b1 0.1 |"
     },
     "vqa": {
         "a": [

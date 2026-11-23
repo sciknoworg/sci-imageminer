@@ -9,8 +9,8 @@
         "b": "Calculated reaction energy profile for the surface reaction of TeDMAS with surface \u2013OH groups on Si(001), showing strong adsorption but a high reaction barrier consistent with steric hindrance and kinetically unfavorable surface reactions."
     },
     "data_extraction": {
-        "a": "| State | Energy (eV) |\n|---|---|\n| Adsorption state | 0.69 |\n| Transition state | 1.10 |\n| Reaction state | 1.49 |\n| Adsorption state | 2.53 |\n| Transition state | 1.90 |\n| Reaction state | 1.49 |\n| Adsorption state | 0.28 |\n| Reaction state | -1.69 |",
-        "b": "| State | Energy (eV) |\n|---|---|\n| Adsorption state | 0.84 |\n| Transition state | 1.03 |\n| Reaction state | 1.83 |\n| Adsorption state | 2.23 |\n| Transition state | 2.02 |\n| Reaction state | 1.81 |\n| Adsorption state | 1.67 |\n| Reaction state | -1.69 |"
+      "a": "| State | Energy (eV) |\n| --- | --- |\n| Adsorption state | 0.69 |\n| Transition state | 1.10 |\n| Reaction state | 1.49 |\n| Adsorption state | 2.53 |\n| Transition state | 1.90 |\n| Reaction state | 1.49 |\n| Adsorption state | 0.28 |\n| Reaction state | -1.69 |",
+      "b": "| State | Energy (eV) |\n| --- | --- |\n| Adsorption state | 0.84 |\n| Transition state | 1.03 |\n| Reaction state | 1.83 |\n| Adsorption state | 2.23 |\n| Transition state | 2.02 |\n| Reaction state | 1.81 |\n| Adsorption state | 1.67 |\n| Reaction state | -1.69 |"
     },
     "vqa": {
         "b": [

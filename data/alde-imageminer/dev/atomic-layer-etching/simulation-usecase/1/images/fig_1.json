@@ -7,7 +7,7 @@
         "a": "The line chart shows the fraction of fluorine (F) as a function of height (h) in angstroms (\u00c5). The chart includes three lines representing different impact scenarios: 100 impacts, 200 impacts, and 400 CF2+ impacts"
     },
     "data_extraction": {
-        "a": "| Height h (\u00c5) | 100 impacts (%) | 200 impacts (%) | 400 impacts (%) |\n|---|---|---|---|\n| 18 | 0 | 0 | 0 |\n| 20 | 0 | 0.5 | 2 |\n| 21 | 1 | 3 | 7 |\n| 22 | 3 | 7 | 12 |\n| 23 | 5 | 11 | 22 |\n| 24 | 8 | 15 | 32 |\n| 25 | 18 | 30 | 48 |\n| 26 | 35 | 52 | 60 |\n| 27 | 60 | 62 | 63 |\n| 28 | 78 | 58 | 65 |\n| 29 | - | 67 | 68 |"
+      "a": "| Height h (\u00c5) | 100 impacts (%) | 200 impacts (%) | 400 impacts (%) |\n| --- | --- | --- | --- |\n| 18 | 0 | 0 | 0 |\n| 20 | 0 | 0.5 | 2 |\n| 21 | 1 | 3 | 7 |\n| 22 | 3 | 7 | 12 |\n| 23 | 5 | 11 | 22 |\n| 24 | 8 | 15 | 32 |\n| 25 | 18 | 30 | 48 |\n| 26 | 35 | 52 | 60 |\n| 27 | 60 | 62 | 63 |\n| 28 | 78 | 58 | 65 |\n| 29 | - | 67 | 68 |"
     },
     "vqa": {
         "a": [

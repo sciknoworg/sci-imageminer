@@ -9,8 +9,8 @@
         "b": "The etch rate of WO\u2083 increases with increasing HF exposure at a constant temperature and BCl\u2083 exposure, and soft-saturates at 4.2 angstrom per cycle."
     },
     "data_extraction": {
-        "a": "| BCl\u2083 Exposure (mTorr s) | WO\u2083 Etch Rate (\u00c5/cycle) |\n|---|---|\n| 0 | 0 |\n| 200 | 3.7 |\n| 300 | 4.2 |\n| 500 | 4.1 |",
-        "b": "| HF Exposure (mTorr s) | WO\u2083 Etch Rate (\u00c5/cycle) |\n|---|---|\n| 0 | 0 |\n| 100 | 2.7 |\n| 150 | 3.8 |\n| 200 | 4.2 |\n| 300 | 4.3 |"
+      "a": "| BCl\u2083 Exposure (mTorr s) | WO\u2083 Etch Rate (\u00c5/cycle) |\n| --- | --- |\n| 0 | 0 |\n| 200 | 3.7 |\n| 300 | 4.2 |\n| 500 | 4.1 |",
+      "b": "| HF Exposure (mTorr s) | WO\u2083 Etch Rate (\u00c5/cycle) |\n| --- | --- |\n| 0 | 0 |\n| 100 | 2.7 |\n| 150 | 3.8 |\n| 200 | 4.2 |\n| 300 | 4.3 |"
     },
     "vqa": {
         "a": [

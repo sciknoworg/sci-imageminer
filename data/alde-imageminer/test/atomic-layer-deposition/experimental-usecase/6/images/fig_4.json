@@ -7,7 +7,7 @@
         "a": "The scatter plot illustrates the variation in growth rate as a function of deposition temperature during a material deposition process, likely ALD. The plot reveals a clear negative correlation: as the deposition temperature increases from 25\u202f\u00b0C to 200\u202f\u00b0C, the growth rate steadily decreases from 2.0\u202f\u00c5/cycle to 0.4\u202f\u00c5/cycle. This trend may indicate a transition from a kinetically favorable low-temperature regime to a surface-limited regime at higher temperatures, where desorption or precursor decomposition could reduce deposition efficiency"
     },
     "data_extraction": {
-        "a": "| Deposition Temperature (\u00b0C) | Growth Rate (\u00c5/cycle) |\n|---|---|\n| 25 | 2.0 |\n| 50 | 1.8 |\n| 75 | 1.5 |\n| 100 | 1.2 |\n| 125 | 1.0 |\n| 150 | 0.8 |\n| 175 | 0.6 |\n| 200 | 0.4 |"
+      "a": "| Deposition Temperature (\u00b0C) | Growth Rate (\u00c5/cycle) |\n| --- | --- |\n| 25 | 2.0 |\n| 50 | 1.8 |\n| 75 | 1.5 |\n| 100 | 1.2 |\n| 125 | 1.0 |\n| 150 | 0.8 |\n| 175 | 0.6 |\n| 200 | 0.4 |"
     },
     "vqa": {
         "a": [

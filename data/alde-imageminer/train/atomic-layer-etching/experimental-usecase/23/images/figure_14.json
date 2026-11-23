@@ -7,7 +7,7 @@
         "a": "The graph shows the X-ray diffraction patterns for Zinc Sulphide deposited using ALD method at 100C with two thickness values 20 nm and 60 nm . Higher thickness shows a clear sharp crytalline peak"
     },
     "data_extraction": {
-        "a": "| 2Theta (\u00b0) | Intensity (Arb. Units) | Thickness (nm)|\n|---|---|---|\n| 20 | 0 |20 |\n| 20 | 0 |60 |\n| 29 | h(002)/c(111)| 60 |\n| 30 | 0 |20|\n| 30 | 0 |60 |\n| 40 | 0 |20 |\n| 40 | 0 |60 |\n| 49  | h(110)/c(220)| 60|\n| 50 | 0 |20 |\n| 50 | 0 |60 |\n| 52 |h(103)| 60 |\n| 57  |c(311)|  60 |\n| 60 | 0 |20 |\n| 60 | 0 |60 |\n| 70 | 0 |20 |\n| 70 | 0 |60 |\n| 80 | 0 |20 |\n| 80 | 0 |60 |"
+      "a": "| 2Theta (\u00b0) | Intensity (Arb. Units) | Thickness (nm) |\n| --- | --- | --- |\n| 20 | 0 | 20 |\n| 20 | 0 | 60 |\n| 29 | h(002)/c(111) | 60 |\n| 30 | 0 | 20 |\n| 30 | 0 | 60 |\n| 40 | 0 | 20 |\n| 40 | 0 | 60 |\n| 49 | h(110)/c(220) | 60 |\n| 50 | 0 | 20 |\n| 50 | 0 | 60 |\n| 52 | h(103) | 60 |\n| 57 | c(311) | 60 |\n| 60 | 0 | 20 |\n| 60 | 0 | 60 |\n| 70 | 0 | 20 |\n| 70 | 0 | 60 |\n| 80 | 0 | 20 |\n| 80 | 0 | 60 |"
     },
     "vqa": {
         "a": [

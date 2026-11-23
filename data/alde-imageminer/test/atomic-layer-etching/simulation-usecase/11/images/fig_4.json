@@ -7,7 +7,7 @@
         "a": "Kinetic Monte Carlo simulation results showing the progression of half-cycle completion (%) versus time for both ALE steps at 573 K. Step A (HF fluorination, blue) reaches 100% surface coverage at 1.38 s, while Step B (TMA etching, orange) completes at 2.38 s. Both curves show rapid initial progress followed by a gradual approach to saturation, characteristic of self-limiting ALE surface reactions."
     },
     "data_extraction": {
-        "a": "| Time (s) | Step A (%) | Step B (%) |\n|---|---|---|\n| 0.00 | 0 | 0 |\n| 0.05 | 16 | 0 |\n| 0.10 | 41 | 10 |\n| 0.15 | 50 | 25 |\n| 0.20 | 64 | 38 |\n| 0.25 | 72 | 48 |\n| 0.30 | 77 | 56 |\n| 0.40 | 84 | 68 |\n| 0.50 | 91 | 78 |\n| 0.60 | 94 | 82 |\n| 0.80 | 98 | 91 |\n| 1.00 | 99 | 95 |\n| 1.25 | 99.5 | 96 |\n| 1.50 | 100 | 98 |\n| 2.00 | 100 | 99.5 |\n| 2.50 | 100 | 100 |"
+      "a": "| Time (s) | Step A (%) | Step B (%) |\n| --- | --- | --- |\n| 0.00 | 0 | 0 |\n| 0.05 | 16 | 0 |\n| 0.10 | 41 | 10 |\n| 0.15 | 50 | 25 |\n| 0.20 | 64 | 38 |\n| 0.25 | 72 | 48 |\n| 0.30 | 77 | 56 |\n| 0.40 | 84 | 68 |\n| 0.50 | 91 | 78 |\n| 0.60 | 94 | 82 |\n| 0.80 | 98 | 91 |\n| 1.00 | 99 | 95 |\n| 1.25 | 99.5 | 96 |\n| 1.50 | 100 | 98 |\n| 2.00 | 100 | 99.5 |\n| 2.50 | 100 | 100 |"
     },
     "vqa": {
         "a": [

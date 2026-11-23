@@ -9,8 +9,8 @@
         "b": "Second step of B\u2082H\u2086 dissociative chemisorption, showing further decomposition of B\u2082H\u2085 and stabilization of B fragments on the surface."
     },
     "data_extraction": {
-        "a": "|Description|\n|-----------|\n| The H atoms of B\u2082H\u2086 interact with the pre-adsorbed H atoms on the H-covered Ti-terminated TiN (111) surface, forming H\u2082 that desorbs. The remaining B\u2082H\u2085 fragment binds to the surface at the hollow site formed by three Ti atoms (Site 4). |",
-        "b": "|Description|\n|-----------|\n| The subsequent reaction of B\u2082H\u2085 on the surface continues the decomposition mechanism, with further H removal and stabilization of B fragments on the Ti hollow sites. This completes the dissociative chemisorption pathway of B\u2082H\u2086 on the H-covered surface. |"
+      "a": "| Description |\n| --- |\n| The H atoms of B\u2082H\u2086 interact with the pre-adsorbed H atoms on the H-covered Ti-terminated TiN (111) surface, forming H\u2082 that desorbs. The remaining B\u2082H\u2085 fragment binds to the surface at the hollow site formed by three Ti atoms (Site 4). |",
+      "b": "| Description |\n| --- |\n| The subsequent reaction of B\u2082H\u2085 on the surface continues the decomposition mechanism, with further H removal and stabilization of B fragments on the Ti hollow sites. This completes the dissociative chemisorption pathway of B\u2082H\u2086 on the H-covered surface. |"
     },
     "vqa": {
         "b": [

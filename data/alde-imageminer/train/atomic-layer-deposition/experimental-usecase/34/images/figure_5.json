@@ -7,7 +7,7 @@
         "a": "This figure presents time-resolved mass spectrometry data for various reaction by-products during exposure to LiHMDS, O\u2082 plasma (O\u2082*), and the surface reaction (SR) step. The top four subplots show ion current intensity for species including H\u2082O\u207a (m/z=18), SiH\u2083\u207a (m/z=30), CO\u2082\u207a (m/z=44), and HNSi\u2082Me\u2083\u207a (m/z=146), with clear changes occurring after precursor and plasma exposure. CO\u2082 and H\u2082O peaks intensify during the SR period, consistent with ligand combustion, while HNSi\u2082Me\u2083\u207a appears following LiHMDS exposure, reflecting gas-phase fragmentation of unreacted precursor. The bottom panel tracks chamber pressure, showing correlation between dose timing and ion evolution. These measurements collectively map the dynamic release of volatile by-products during an ALD half-cycle.."
     },
     "data_extraction": {
-        "a": "| Time (s) | LiHMDS (A) | O\u2082* (A) | SR (A) |\n|----------|------------|---------|--------|\n| 0        | 1.5E-12    | 1.5E-12 | 1.5E-12 |\n| 5        | 1.6E-12    | 1.5E-12 | 1.5E-12 |\n| 10       | 1.8E-12    | 1.5E-12 | 2.0E-12 |\n| 15       | 2.2E-12    | 2.5E-12 | 3.0E-12 |\n| 20       | 1.8E-12    | 3.5E-12 | 2.8E-12 |\n| 25       | 1.5E-12    | 2.2E-12 | 1.7E-12 |"
+      "a": "| Time (s) | LiHMDS (A) | O\u2082* (A) | SR (A) |\n| --- | --- | --- | --- |\n| 0 | 1.5E-12 | 1.5E-12 | 1.5E-12 |\n| 5 | 1.6E-12 | 1.5E-12 | 1.5E-12 |\n| 10 | 1.8E-12 | 1.5E-12 | 2.0E-12 |\n| 15 | 2.2E-12 | 2.5E-12 | 3.0E-12 |\n| 20 | 1.8E-12 | 3.5E-12 | 2.8E-12 |\n| 25 | 1.5E-12 | 2.2E-12 | 1.7E-12 |"
     },
     "vqa": {
         "a": [

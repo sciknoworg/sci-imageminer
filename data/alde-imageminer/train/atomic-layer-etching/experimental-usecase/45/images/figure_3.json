@@ -7,7 +7,7 @@
         "a": "The line chart illustrates the decrease in film thickness over cycles for TiN ALE at 250\u00b0C using O\u2083 & HF"
     },
     "data_extraction": {
-        "a": "| Number of Cycles | SE (Film Thickness, \u00c5) | XRR (Film Thickness, \u00c5) |\n|---|---|---|\n| 0 | 73 | 63 |\n| 25 | 68 | 61 |\n| 50 | 63 | 57 |\n| 100 | 52 | 47 |\n| 150 | 45 | 26 |\n| 200 | 34 | 27 |\n| 300 | 16 | 6 |"
+      "a": "| Number of Cycles | SE (Film Thickness, \u00c5) | XRR (Film Thickness, \u00c5) |\n| --- | --- | --- |\n| 0 | 73 | 63 |\n| 25 | 68 | 61 |\n| 50 | 63 | 57 |\n| 100 | 52 | 47 |\n| 150 | 45 | 26 |\n| 200 | 34 | 27 |\n| 300 | 16 | 6 |"
     },
     "vqa": {
         "a": [

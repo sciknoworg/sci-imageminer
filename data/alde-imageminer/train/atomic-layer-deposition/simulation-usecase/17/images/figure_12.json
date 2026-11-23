@@ -7,7 +7,7 @@
         "a": "The line graph shows the variation in computed bandgap (eV) as a function of  lead (Pb\u2093)  in Sn\u2081\u208b\u2093Pb\u2093O. The band gap seems to increase with increase in (Pb\u2093)  content.  This trend, calculated using Density Functional Theory (DFT), demonstrates that lead doping is an effective method for tuning the electronic properties of tin oxide without creating defect states within the band gap."
     },
     "data_extraction": {
-        "a": "| x: Sn_{1-x}Pb_xO | band gap (eV) |\n|---|---|\n| 0 | 0.4 |\n| 0.2 | 0.55 |\n| 0.4 | 0.8 |\n| 0.6 | 1.1 |\n| 0.8 | 1.25 |\n| 1 | 1.4 |"
+      "a": "| x: Sn_{1-x}Pb_xO | band gap (eV) |\n| --- | --- |\n| 0 | 0.4 |\n| 0.2 | 0.55 |\n| 0.4 | 0.8 |\n| 0.6 | 1.1 |\n| 0.8 | 1.25 |\n| 1 | 1.4 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The graph shows the thickness of WO\u2083 as a function of the number of O\u2082/O\u2083 exposures at 207\u00b0C, where the thickness increases for increasing number of exposures."
     },
     "data_extraction": {
-        "a": "| Number of O\u2082/O\u2083 Exposures | WO\u2083 Thickness (\u00c5) |\n|---|---|\n| 0 | 33 |\n| 1 | 33 |\n| 2 | 33 |\n| 3 | 35 |\n| 4 | 37 |\n| 5 | 42 |\n| 6 | 45 |\n| 8 | 49 |\n| 10 | 52 |\n| 12 | 55 |\n| 16 | 59 |\n| 20 | 61 |\n| 24 | 62 |\n| 28 | 63 |\n| 32 | 64 |\n| 34 | 65 |"
+      "a": "| Number of O\u2082/O\u2083 Exposures | WO\u2083 Thickness (\u00c5) |\n| --- | --- |\n| 0 | 33 |\n| 1 | 33 |\n| 2 | 33 |\n| 3 | 35 |\n| 4 | 37 |\n| 5 | 42 |\n| 6 | 45 |\n| 8 | 49 |\n| 10 | 52 |\n| 12 | 55 |\n| 16 | 59 |\n| 20 | 61 |\n| 24 | 62 |\n| 28 | 63 |\n| 32 | 64 |\n| 34 | 65 |"
     },
     "vqa": {
         "a": [

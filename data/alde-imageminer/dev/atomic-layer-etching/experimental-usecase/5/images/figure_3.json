@@ -9,8 +9,8 @@
         "b": "The etch depth increases with CI species exposure time at both 15V and 10V acceleration voltages."
     },
     "data_extraction": {
-        "a": "| Acceleration Grid Voltage (V) | Etch Depth (\u00c5) |\n|---|---|\n| 0 | 0 |\n| 5 | 0 |\n| 10 | 0 |\n| 15 | 40 |\n| 20 | 70 |\n| 30 | 150 |",
-        "b": "| CI Species Exposure Time (min) | Etch Depth (\u00c5) 15 V |Etch Depth (\u00c5) 10 V |\n|---|---|---|\n| 0 | 0 |0|\n| 5 | 0 |0|\n| 10 | 0 |0|\n| 15 | 6 |0|\n| 25 | 20 |5|\n| 35 | 60 |17|"
+      "a": "| Acceleration Grid Voltage (V) | Etch Depth (\u00c5) |\n| --- | --- |\n| 0 | 0 |\n| 5 | 0 |\n| 10 | 0 |\n| 15 | 40 |\n| 20 | 70 |\n| 30 | 150 |",
+      "b": "| CI Species Exposure Time (min) | Etch Depth (\u00c5) 15 V | Etch Depth (\u00c5) 10 V |\n| --- | --- | --- |\n| 0 | 0 | 0 |\n| 5 | 0 | 0 |\n| 10 | 0 | 0 |\n| 15 | 6 | 0 |\n| 25 | 20 | 5 |\n| 35 | 60 | 17 |"
     },
     "vqa": {
         "b": [

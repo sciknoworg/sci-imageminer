@@ -13,10 +13,10 @@
         "d": "EPC is insensitive to TMA pump time and remains at \u22483.2\u20133.3 \u00c5 across all values shown. The auto summary implied a dependence without interpretation. The manual summary clarifies that the reaction completes during dosing and does not require extended pumping."
     },
     "data_extraction": {
-        "a": "| SF plasma time (s) | EPC (\u00c5) |\n|---|---|\n| 0 | 0 |\n| 5 | 2 |\n| 10 | 3 |\n| 15 | 3 |\n| 20 | 3 |\n| 25 | 3 |\n| 30 | 3 |",
-        "b": "| Plasma pump time (s) | EPC (\u00c5) |\n|---|---|\n| 10 | 2.9 |\n| 20 | 3 |\n| 30 | 3 |",
-        "c": "| TMA dosing time (s) | EPC (\u00c5) |\n|---|---|\n| 0 | 0 |\n| 0.1 | -0.1 |\n| 0.2 | 0 |\n| 0.4 | 2 |\n| 0.6 | 3 |\n| 0.8 | 3 |",
-        "d": "| TMA pump time (s) | EPC (\u00c5) |\n|---|---|\n| 5 | 3.25 |\n| 10 | 3 |\n| 30 | 3 |"
+      "a": "| SF plasma time (s) | EPC (\u00c5) |\n| --- | --- |\n| 0 | 0 |\n| 5 | 2 |\n| 10 | 3 |\n| 15 | 3 |\n| 20 | 3 |\n| 25 | 3 |\n| 30 | 3 |",
+      "b": "| Plasma pump time (s) | EPC (\u00c5) |\n| --- | --- |\n| 10 | 2.9 |\n| 20 | 3 |\n| 30 | 3 |",
+      "c": "| TMA dosing time (s) | EPC (\u00c5) |\n| --- | --- |\n| 0 | 0 |\n| 0.1 | -0.1 |\n| 0.2 | 0 |\n| 0.4 | 2 |\n| 0.6 | 3 |\n| 0.8 | 3 |",
+      "d": "| TMA pump time (s) | EPC (\u00c5) |\n| --- | --- |\n| 5 | 3.25 |\n| 10 | 3 |\n| 30 | 3 |"
     },
     "vqa": {
         "c": [

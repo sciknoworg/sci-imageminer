@@ -9,8 +9,8 @@
         "b": "The spectrum displays the XPS counts at various binding energies for Ga-N and Ga-O."
     },
     "data_extraction": {
-        "a": "| Sputter depth (nm)| Peak area (CPS eV) Ga-O| Peak area (CPS eV) Ga-N|\n|---|---|---|\n| 0 | 4000 |0|\n|5|1300|4500|\n|10|1000|5000|\n|15|1000|5000|\n|20|1000|5000|\n|25|0|5700|\n|30|0|6000|\n|35|0|5700|\n|40|0|500|",
-        "b": "| Binding energy (eV) | XPS counts (a.u.) |\n|---|---|\n| 14 | 0 |\n| 16 | 0 |\n| 18 | 0.3 |\n| 20 | 2 |\n| 22 | 0.3 |\n| 24 | 0 |\n| 26 | 0 |"
+      "a": "| Sputter depth (nm) | Peak area (CPS eV) Ga-O | Peak area (CPS eV) Ga-N |\n| --- | --- | --- |\n| 0 | 4000 | 0 |\n| 5 | 1300 | 4500 |\n| 10 | 1000 | 5000 |\n| 15 | 1000 | 5000 |\n| 20 | 1000 | 5000 |\n| 25 | 0 | 5700 |\n| 30 | 0 | 6000 |\n| 35 | 0 | 5700 |\n| 40 | 0 | 500 |",
+      "b": "| Binding energy (eV) | XPS counts (a.u.) |\n| --- | --- |\n| 14 | 0 |\n| 16 | 0 |\n| 18 | 0.3 |\n| 20 | 2 |\n| 22 | 0.3 |\n| 24 | 0 |\n| 26 | 0 |"
     },
     "vqa": {
         "b": [

@@ -9,8 +9,8 @@
         "b": "The normalized integrated absorbance of N-H\u2082 Stretch and W-F\u2093 Stretch against WF6 exposure at T = 600 K."
     },
     "data_extraction": {
-        "a": "| Reactant Exposure (Torr min) | N-H\u2082 Stretch | W-F\u2093 Stretch |\n|---|---|---|\n| 0 | 0.0 | 0.0 |\n| 10\u207b\u00b3 | 0.1 | 0.9 |\n| 10\u207b\u00b2 | 0.2 | 0.8 |\n| 10\u207b\u00b9 | 0.3 | 0.7 |\n| 1 | 0.4 | 0.6 |\n| 10 | 0.5 | 0.5 |\n| 10\u00b2 | 0.6 | 0.4 |\n| 10\u00b3 | 0.7 | 0.3 |",
-        "b": "| Reactant Exposure (Torr min) | N-H\u2082 Stretch | W-F\u2093 Stretch |\n|---|---|---|\n| 0 | 0.0 | 0.0 |\n| 10\u207b\u00b3 | 0.1 | 0.9 |\n| 10\u207b\u00b2 | 0.2 | 0.8 |\n| 10\u207b\u00b9 | 0.3 | 0.7 |\n| 1 | 0.4 | 0.6 |\n| 10 | 0.5 | 0.5 |\n| 10\u00b2 | 0.6 | 0.4 |\n| 10\u00b3 | 0.7 | 0.3 |"
+      "a": "| Reactant Exposure (Torr min) | N-H\u2082 Stretch | W-F\u2093 Stretch |\n| --- | --- | --- |\n| 0 | 0.0 | 0.0 |\n| 10-\u00b3 | 0.1 | 0.9 |\n| 10-\u00b2 | 0.2 | 0.8 |\n| 10-\u00b9 | 0.3 | 0.7 |\n| 1 | 0.4 | 0.6 |\n| 10 | 0.5 | 0.5 |\n| 10\u00b2 | 0.6 | 0.4 |\n| 10\u00b3 | 0.7 | 0.3 |",
+      "b": "| Reactant Exposure (Torr min) | N-H\u2082 Stretch | W-F\u2093 Stretch |\n| --- | --- | --- |\n| 0 | 0.0 | 0.0 |\n| 10-\u00b3 | 0.1 | 0.9 |\n| 10-\u00b2 | 0.2 | 0.8 |\n| 10-\u00b9 | 0.3 | 0.7 |\n| 1 | 0.4 | 0.6 |\n| 10 | 0.5 | 0.5 |\n| 10\u00b2 | 0.6 | 0.4 |\n| 10\u00b3 | 0.7 | 0.3 |"
     },
     "vqa": {
         "a": [

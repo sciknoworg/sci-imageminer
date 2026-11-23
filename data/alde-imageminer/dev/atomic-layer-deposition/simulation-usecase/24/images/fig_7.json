@@ -7,7 +7,7 @@
         "a": "The image depicts a reaction scheme illustrating the transformation of O\u2083Si-O-Zr-Cl* into O\u2083Si-O-Zr-OH* through the interaction with H\u2082O(g), where the line chart shows the change in energy (\u0394E) in kcal/mol for the reaction pathway, indicating the activation energy barrier."
     },
     "data_extraction": {
-        "a": "| Reaction Step | \u0394E (kcal/mol) |\n|---|---|\n| Start | 0 |\n| Complex | -17|\n| TS |4|\n| HCl (a) | -1|\n| HCl (g)| 2|"
+      "a": "| Reaction Step | \u0394E (kcal/mol) |\n| --- | --- |\n| Start | 0 |\n| Complex | -17 |\n| TS | 4 |\n| HCl (a) | -1 |\n| HCl (g) | 2 |"
     },
     "vqa": {
         "a": [

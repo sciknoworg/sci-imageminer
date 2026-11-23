@@ -7,7 +7,7 @@
         "a": "The figure presents a parity plot comparing reaction energies computed via Density Functional Theory (DFT) and a Neural Network Potential (NNP) model. Each point represents a single reaction\u2019s predicted energy from both methods, with the color intensity indicating the density of data points at that value. The data clusters tightly along the diagonal parity line (dashed), suggesting strong agreement between DFT and NNP predictions across a broad energy range (from -5 eV to 10 eV). This indicates that the NNP model is well-trained and capable of accurately reproducing DFT-level energetics for the evaluated reactions."
     },
     "data_extraction": {
-        "a": "| $E_{\\mathrm{rxn}}^{\\mathrm{DFT}}$ (eV) | $E_{\\mathrm{rxn}}^{\\mathrm{NNP}}$ (eV) |\n|---------------------------------------|----------------------------------------|\n| -5                                    | -5                                     |\n| -3                                    | -2.9                                   |\n| 0                                     | 0.1                                    |\n| 2                                     | 2.1                                    |\n| 5                                     | 5.2                                    |\n| 8                                     | 8.3                                    |\n| 10                                    | 10                                     |"
+      "a": "| $E_{\\mathrm{rxn}}^{\\mathrm{DFT}}$ (eV) | $E_{\\mathrm{rxn}}^{\\mathrm{NNP}}$ (eV) |\n| --- | --- |\n| -5 | -5 |\n| -3 | -2.9 |\n| 0 | 0.1 |\n| 2 | 2.1 |\n| 5 | 5.2 |\n| 8 | 8.3 |\n| 10 | 10 |"
     },
     "vqa": {
         "a": [

@@ -15,11 +15,11 @@
         "e": "A reaction energy profile diagram showing the potential energy profile for the ligand exchange reaction between H2O(g) and the preabsorbed metal precursor."
     },
     "data_extraction": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "",
-        "e": "| Energy (kcal/mol) | a | b | c | d | e |\n|---|---|---|---|---|---|\n| -15 | - | -13 | - | - | - |\n| -10 | - | - | - | - | - |\n| -5 | - | - | - | -4 | - |\n| 0 | - | - | - | - | -1 |  \n| 5 | - | - | - | - | - |  \n| 10 | - | - | 12.5 | - | - |  \n| 15 | 15 | - | - | - | - |"
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": "",
+      "e": "| Energy (kcal/mol) | a | b | c | d | e |\n| --- | --- | --- | --- | --- | --- |\n| -15 | - | -13 | - | - | - |\n| -10 | - | - | - | - | - |\n| -5 | - | - | - | -4 | - |\n| 0 | - | - | - | - | -1 |\n| 5 | - | - | - | - | - |\n| 10 | - | - | 12.5 | - | - |\n| 15 | 15 | - | - | - | - |"
     },
     "vqa": {
         "d": [

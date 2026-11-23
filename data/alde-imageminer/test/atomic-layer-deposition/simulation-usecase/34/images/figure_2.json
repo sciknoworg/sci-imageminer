@@ -11,9 +11,9 @@
         "c": "The figure shows the C 1s XPS spectrum of O\u2082 plasma treated graphene for 5 minutes, with contributions from C sp\u00b2, C sp\u00b3, C-O, and C=O."
     },
     "data_extraction": {
-        "a": "| Component | Binding Energy (eV) |\n|---|---|\n| C sp^2 | Peak at 284.5 |\n| Plasmon 1 | Peak at 290 |\n| Plasmon 2 | Peak at 293 |\n| C-O | Peak at 286.5 |",
-        "b": "| Component | Binding Energy (eV) |\n|---|---|\n| C sp^2 | Peak at 284.5 |\n| C sp^3 | Peak at 285 |",
-        "c": "| Component | Binding Energy (eV) |\n|---|---|\n| C sp^2 | Peak at 284.5 |\n| C sp^3 | Peak at 285 |\n| C-O | Peak at 286.5 |\n| C=O | Peak at 289 |"
+      "a": "| Component | Binding Energy (eV) |\n| --- | --- |\n| C sp^2 | Peak at 284.5 |\n| Plasmon 1 | Peak at 290 |\n| Plasmon 2 | Peak at 293 |\n| C-O | Peak at 286.5 |",
+      "b": "| Component | Binding Energy (eV) |\n| --- | --- |\n| C sp^2 | Peak at 284.5 |\n| C sp^3 | Peak at 285 |",
+      "c": "| Component | Binding Energy (eV) |\n| --- | --- |\n| C sp^2 | Peak at 284.5 |\n| C sp^3 | Peak at 285 |\n| C-O | Peak at 286.5 |\n| C=O | Peak at 289 |"
     },
     "vqa": {
         "a": [

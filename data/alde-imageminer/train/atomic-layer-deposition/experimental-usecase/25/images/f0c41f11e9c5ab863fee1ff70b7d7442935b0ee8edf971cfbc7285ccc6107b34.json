@@ -11,9 +11,9 @@
         "c": "A line chart depicting the solar cell efficiency of Sn1-xGexOy and Zn1-xGexOy as a function of Ge content of ESL."
     },
     "data_extraction": {
-        "a": "| Process Step                          | Description                                      |\n|--------------------------------------|--------------------------------------------------|\n| Precursors                           | Ge(N(CH\u2083)\u2082)\u2084 and Sn(N(CH\u2083)\u2082)\u2084 or Zn(C\u2082H\u2085)\u2082      |\n| Reactant                             | H\u2082O                                             |\n| Deposited Layer                      | Sn\u2081\u208b\u2093Ge\u2093O\u1d67 or Zn\u2081\u208b\u2093Ge\u2093O\u1d67 (Electron Selective Layer, ESL) |\n| Substrate                            | (Ag, Cu)(In, Ga)Se\u2082                             |\n| Method                               | Atomic Layer Deposition (ALD) Supercycle        |",
-        "b": "| Ge Content in ESL | Optical Absorption Shift |\n|--------------------|---------------------------|\n| Low               | Lower absorption edge     |\n| High              | Higher absorption edge    |",
-        "c": "| Ge Content in ESL | Sn\u2081\u208b\u2093Ge\u2093O\u1d67 Efficiency | Zn\u2081\u208b\u2093Ge\u2093O\u1d67 Efficiency |\n|--------------------|--------------------------|--------------------------|\n| Low               | Moderate                | Low                      |\n| Medium            | Peak                    | Increasing               |\n| High              | Decline                 | Peak                     |"
+      "a": "| Process Step | Description |\n| --- | --- |\n| Precursors | Ge(N(CH\u2083)\u2082)\u2084 and Sn(N(CH\u2083)\u2082)\u2084 or Zn(C\u2082H\u2085)\u2082 |\n| Reactant | H\u2082O |\n| Deposited Layer | Sn\u2081\u208b\u2093Ge\u2093O\u1d67 or Zn\u2081\u208b\u2093Ge\u2093O\u1d67 (Electron Selective Layer, ESL) |\n| Substrate | (Ag, Cu)(In, Ga)Se\u2082 |\n| Method | Atomic Layer Deposition (ALD) Supercycle |",
+      "b": "| Ge Content in ESL | Optical Absorption Shift |\n| --- | --- |\n| Low | Lower absorption edge |\n| High | Higher absorption edge |",
+      "c": "| Ge Content in ESL | Sn\u2081\u208b\u2093Ge\u2093O\u1d67 Efficiency | Zn\u2081\u208b\u2093Ge\u2093O\u1d67 Efficiency |\n| --- | --- | --- |\n| Low | Moderate | Low |\n| Medium | Peak | Increasing |\n| High | Decline | Peak |"
     },
     "vqa": {
         "a": [

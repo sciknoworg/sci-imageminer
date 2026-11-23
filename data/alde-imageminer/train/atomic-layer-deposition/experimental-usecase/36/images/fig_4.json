@@ -9,8 +9,8 @@
         "b": "The figure shows a high-resolution spectra of O 1s with a peak at 531.1 eV."
     },
     "data_extraction": {
-        "a": "| Binding Energy (eV) | Intensity (counts/s) |\n|---|---|\n| 14 | 0 |\n| 16 | 0 |\n| 18 | 0 |\n| 20 | 4500 |\n| 22 | 0 |\n| 24 | 0 |\n| 26 | 0 |",
-        "b": "| Binding Energy (eV) | Intensity (counts/s) |\n|---|---|\n| 526 | 0 |\n| 528 | 0 |\n| 530 | 0 |\n| 531 | 22000 |\n| 534 | 0 |\n| 536 | 0 |"
+      "a": "| Binding Energy (eV) | Intensity (counts/s) |\n| --- | --- |\n| 14 | 0 |\n| 16 | 0 |\n| 18 | 0 |\n| 20 | 4500 |\n| 22 | 0 |\n| 24 | 0 |\n| 26 | 0 |",
+      "b": "| Binding Energy (eV) | Intensity (counts/s) |\n| --- | --- |\n| 526 | 0 |\n| 528 | 0 |\n| 530 | 0 |\n| 531 | 22000 |\n| 534 | 0 |\n| 536 | 0 |"
     },
     "vqa": {
         "a": [

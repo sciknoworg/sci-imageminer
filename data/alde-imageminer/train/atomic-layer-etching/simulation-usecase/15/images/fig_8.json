@@ -7,7 +7,7 @@
         "a": "The histogram shows that atomic chlorine (>40%) is the dominant ejected species, indicating significant sputtering of adsorbed chlorine without effective etching. Actual etching occurs via SiCl and SiCl\u2082 fragments (~35%), while the presence of pure Si (~16%) reveals unintended physical sputtering of the underlying silicon by 70 eV ions."
     },
     "data_extraction": {
-        "a": "| Etch product | Ar\u207a Bombardment step (%) |\n|-------------|--------------------------:|\n| Si          | ~18                      |\n| Si<sub>2</sub> | ~2                     |\n| SiCl        | ~22                       |\n| SiCl<sub>2</sub> | ~18                |\n| SiCl<sub>4</sub> | ~1                 |\n| Si<sub>2</sub>Cl | ~2                 |\n| Si<sub>2</sub>Cl<sub>2</sub> | ~1    |\n| Cl          | ~42                       |\n| Cl<sub>2</sub> | ~2                  |"
+      "a": "| Etch product | Ar\u207a Bombardment step (%) |\n| --- | --- |\n| Si | ~18 |\n| Si<sub>2</sub> | ~2 |\n| SiCl | ~22 |\n| SiCl<sub>2</sub> | ~18 |\n| SiCl<sub>4</sub> | ~1 |\n| Si<sub>2</sub>Cl | ~2 |\n| Si<sub>2</sub>Cl<sub>2</sub> | ~1 |\n| Cl | ~42 |\n| Cl<sub>2</sub> | ~2 |"
     },
     "vqa": {
         "a": [

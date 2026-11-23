@@ -9,8 +9,8 @@
         "b": "The figure shows the energy profile on OH-terminated SiO2 surfaces."
     },
     "data_extraction": {
-        "a": "| Surface Termination      | Initial Energy (eV) | Transition State (eV) | Final Energy (eV) |\n|---------------------------|----------------------|-------------------------|--------------------|\n| H-terminated Si (a)      | 0.00                | 1.16                   | -0.98             |",
-        "b": "| Surface Termination      | Initial Energy (eV) | Transition State (eV) | Final Energy (eV) |\n|---------------------------|----------------------|-------------------------|--------------------|\n| OH-terminated SiO\u2082 (b)   | 0.00                | 0.81                   | -1.25             |"
+      "a": "| Surface Termination | Initial Energy (eV) | Transition State (eV) | Final Energy (eV) |\n| --- | --- | --- | --- |\n| H-terminated Si (a) | 0.00 | 1.16 | -0.98 |",
+      "b": "| Surface Termination | Initial Energy (eV) | Transition State (eV) | Final Energy (eV) |\n| --- | --- | --- | --- |\n| OH-terminated SiO\u2082 (b) | 0.00 | 0.81 | -1.25 |"
     },
     "vqa": {
         "b": [

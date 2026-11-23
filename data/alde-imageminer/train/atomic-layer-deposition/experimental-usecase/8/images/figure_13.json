@@ -7,7 +7,7 @@
         "a": "CIE 1931 x y chromaticity diagram with a point for an ALD/MLD thin film emission compared against reference lamp chromaticities (LED, fluorescent, incandescent)."
     },
     "data_extraction": {
-        "a": "| Sample / Light Source | CIE x | CIE y |\n|---|---|---|\n| LED lamp (Blue Dot) | 0.40 | 0.39 |\n| ALD/MLD thin film (Red Dot) | 0.45 | 0.45 |\n| Incandescent bulb (Green Dot) | 0.48 | 0.42 |\n| Fluorescent lamp (Black Dot) | 0.50 | 0.46 |"
+      "a": "| Sample / Light Source | CIE x | CIE y |\n| --- | --- | --- |\n| LED lamp (Blue Dot) | 0.40 | 0.39 |\n| ALD/MLD thin film (Red Dot) | 0.45 | 0.45 |\n| Incandescent bulb (Green Dot) | 0.48 | 0.42 |\n| Fluorescent lamp (Black Dot) | 0.50 | 0.46 |"
     },
     "vqa": {
         "a": [

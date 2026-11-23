@@ -9,8 +9,8 @@
         "b": "The line chart shows the thickness (\u00c5) of AlN as a function of ALE reaction cycle number at 275 \u00b0C. Two ALE processes are compared: thermal ALE from 0 to 14 cycles and Ar plasma-enhanced ALE from 15 to 26 cycles. The use of Ar plasma increases the AlN etch rate from 0.36 to 0.66 \u00c5/cycle. This image clearly indicates that Ar Plasma enhnaced ALE shows a higher etch rate."
     },
     "data_extraction": {
-        "a": "| Cycle Number | Thickness (\u00c5) |\n|---|---|\n| 0 | 450 |\n| 4 | 449 |\n| 8 | 447 |\n| 12 | 446 |\n| 16 | 441 |\n| 20 | 433 |\n| 24 | 438 |\n| 28 | 425 |",
-        "b": "| Cycle Number | Thickness (\u00c5) |\n|---|---|\n| 0 | 438 |\n| 4 | 436 |\n| 8 | 435 |\n| 12 | 433 |\n| 16 | 430 |\n| 20 | 428 |"
+      "a": "| Cycle Number | Thickness (\u00c5) |\n| --- | --- |\n| 0 | 450 |\n| 4 | 449 |\n| 8 | 447 |\n| 12 | 446 |\n| 16 | 441 |\n| 20 | 433 |\n| 24 | 438 |\n| 28 | 425 |",
+      "b": "| Cycle Number | Thickness (\u00c5) |\n| --- | --- |\n| 0 | 438 |\n| 4 | 436 |\n| 8 | 435 |\n| 12 | 433 |\n| 16 | 430 |\n| 20 | 428 |"
     },
     "vqa": {
         "a": [

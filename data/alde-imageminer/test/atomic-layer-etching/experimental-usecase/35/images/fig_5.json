@@ -13,10 +13,10 @@
         "d": "The ZrO\u2082 etch rate versus co-reactant dose time reveals that BCl\u2083 again provides the most efficient and rapid etching, TiCl\u2084 shows slower saturation behavior, and SOCl\u2082 produces only weak etching, confirming co-reactant-controlled surface reaction kinetics."
     },
     "data_extraction": {
-        "a": "| Substrate|Variable Scanned|Best Co-reactant|Worst Co-reactant|Trend Summary|\n|----------|----------------|----------------|-----------------|-------------|\n|TiO2|WF6 dose time|SOCl2|TiCl4|Faster saturation for SOCl2; TiCl4 slow/low etch|",
-        "b": "| Substrate|Variable Scanned|Best Co-reactant|Worst Co-reactant|Trend Summary|\n|----------|----------------|----------------|-----------------|-------------|\n|TiO2|Co-reactant dose|SOCl2|TiCl4|SOCl2 gives highest etch rates; BCl3 moderate|",
-        "c": "| Substrate|Variable Scanned|Best Co-reactant|Worst Co-reactant|Trend Summary|\n|----------|----------------|----------------|-----------------|-------------|\n|ZrO2|WF6 dose time|BCl3|SOCl2|BCl3 saturates fastest and highest; SOCl2 very low|",
-        "d": "| Substrate|Variable Scanned|Best Co-reactant|Worst Co-reactant|Trend Summary|\n|----------|----------------|----------------|-----------------|-------------|\n|ZrO2|Co-reactant dose|BCl3|SOCl2|Strong BCl3 saturation; SOCl2 remains near zero|"
+      "a": "| Substrate | Variable Scanned | Best Co-reactant | Worst Co-reactant | Trend Summary |\n| --- | --- | --- | --- | --- |\n| TiO2 | WF6 dose time | SOCl2 | TiCl4 | Faster saturation for SOCl2; TiCl4 slow/low etch |",
+      "b": "| Substrate | Variable Scanned | Best Co-reactant | Worst Co-reactant | Trend Summary |\n| --- | --- | --- | --- | --- |\n| TiO2 | Co-reactant dose | SOCl2 | TiCl4 | SOCl2 gives highest etch rates; BCl3 moderate |",
+      "c": "| Substrate | Variable Scanned | Best Co-reactant | Worst Co-reactant | Trend Summary |\n| --- | --- | --- | --- | --- |\n| ZrO2 | WF6 dose time | BCl3 | SOCl2 | BCl3 saturates fastest and highest; SOCl2 very low |",
+      "d": "| Substrate | Variable Scanned | Best Co-reactant | Worst Co-reactant | Trend Summary |\n| --- | --- | --- | --- | --- |\n| ZrO2 | Co-reactant dose | BCl3 | SOCl2 | Strong BCl3 saturation; SOCl2 remains near zero |"
     },
     "vqa": {
         "d": [

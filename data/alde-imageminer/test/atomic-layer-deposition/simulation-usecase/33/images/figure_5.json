@@ -7,7 +7,7 @@
         "a": "Grouped bar chart of Hall mobility for graphene samples after transfer, after plasma treatment, after 100 cycles Al2O3 ALD, and after a 400 C anneal, comparing pristine graphene to 30 s O2 plasma and 35 s H2 plasma conditions. Plasma treatment strongly reduces mobility (about 195 cm2/(V s) for O2 and 467 cm2/(V s) for H2), while Al2O3 ALD and subsequent anneal recover mobility, with the H2 plasma sample reaching about 2190 cm2/(V s) after the 400 C anneal."
     },
     "data_extraction": {
-        "a": "| Sample | Pristine (cm\u00b2/(V\u00b7s)) | Plasma Treatment (cm\u00b2/(V\u00b7s)) | Al\u2082O\u2083 ALD (cm\u00b2/(V\u00b7s)) | 400\u00b0C Anneal (cm\u00b2/(V\u00b7s)) |\n|---|---|---|---|---|\n| Pristine | 1300 | X | 1500 | 1850 |\n| O\u2082 Plasma 30s | 1800 | 180 | 1400 | 1620 |\n| H\u2082 Plasma 35s | 1450 | 450 | 1480 | 2200 |"
+      "a": "| Sample | Pristine (cm\u00b2/(V\u00b7s)) | Plasma Treatment (cm\u00b2/(V\u00b7s)) | Al\u2082O\u2083 ALD (cm\u00b2/(V\u00b7s)) | 400\u00b0C Anneal (cm\u00b2/(V\u00b7s)) |\n| --- | --- | --- | --- | --- |\n| Pristine | 1300 | X | 1500 | 1850 |\n| O\u2082 Plasma 30s | 1800 | 180 | 1400 | 1620 |\n| H\u2082 Plasma 35s | 1450 | 450 | 1480 | 2200 |"
     },
     "vqa": {
         "a": [

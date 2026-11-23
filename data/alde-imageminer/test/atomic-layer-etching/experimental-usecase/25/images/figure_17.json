@@ -9,8 +9,8 @@
         "b": "The thickness of W remains relatively constant for increasing number of cycles."
     },
     "data_extraction": {
-        "a": "| Number of Cycles | WO\u2083 Thickness (\u00c5) |\n|---|---|\n| 0 | 20 |\n| 3 | 14 |\n| 6 | 7 |\n| 12 | 4 |\n| 18 | 4 |\n| 24 | 3 |\n| 30 | 3 |",
-        "b": "| Number of Cycles | W Thickness (\u00c5) |\n|---|---|\n| 0 | 219 |\n| 3 | 217 |\n| 6 | 217 |\n| 12 | 216 |\n| 18 | 216 |\n| 24 | 215 |\n| 30 | 215 |"
+      "a": "| Number of Cycles | WO\u2083 Thickness (\u00c5) |\n| --- | --- |\n| 0 | 20 |\n| 3 | 14 |\n| 6 | 7 |\n| 12 | 4 |\n| 18 | 4 |\n| 24 | 3 |\n| 30 | 3 |",
+      "b": "| Number of Cycles | W Thickness (\u00c5) |\n| --- | --- |\n| 0 | 219 |\n| 3 | 217 |\n| 6 | 217 |\n| 12 | 216 |\n| 18 | 216 |\n| 24 | 215 |\n| 30 | 215 |"
     },
     "vqa": {
         "a": [

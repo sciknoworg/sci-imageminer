@@ -8,8 +8,8 @@
         "a": "This dual-panel figure illustrates how MCPC (mass change per cycle) varies with precursor exposure time for both SF\u2084 and Sn(acac)\u2082 in the Al\u2082O\u2083 ALE process. In both cases, the MCPC decreases rapidly with increasing exposure time and asymptotically approaches a saturation point, indicating that each half-reaction becomes self-limiting beyond a certain exposure threshold. These saturation behaviors confirm that both precursors operate via self-limiting surface chemistry, a defining feature of atomic layer etching processes."
     },
     "data_extraction": {
-        "a": "| SF\u2084 Exposure Time (s) | MCPC (ng/cm\u00b2) |\n|------------------------|----------------|\n| 0                      | 3.8            |\n| 0.5                    | 2.1            |\n| 1                      | 1.1            |\n| 2                      | 0.7            |\n| 3                      | 0.5            |",
-        "b": "| Sn(acac)\u2082 Exposure Time (s) | MCPC (ng/cm\u00b2) |\n|-----------------------------|----------------|\n| 0                           | 3.6            |\n| 0.5                         | 2.3            |\n| 1                           | 1.2            |\n| 2                           | 0.6            |\n| 3                           | 0.4            |"
+      "a": "| SF\u2084 Exposure Time (s) | MCPC (ng/cm\u00b2) |\n| --- | --- |\n| 0 | 3.8 |\n| 0.5 | 2.1 |\n| 1 | 1.1 |\n| 2 | 0.7 |\n| 3 | 0.5 |",
+      "b": "| Sn(acac)\u2082 Exposure Time (s) | MCPC (ng/cm\u00b2) |\n| --- | --- |\n| 0 | 3.6 |\n| 0.5 | 2.3 |\n| 1 | 1.2 |\n| 2 | 0.6 |\n| 3 | 0.4 |"
     },
     "vqa": {
         "b": [

@@ -9,8 +9,8 @@
         "b": "The figure shows Raman spectra of graphene exposed to O\u2082 plasma at various times, up to 5 minutes."
     },
     "data_extraction": {
-        "a": "| Sample | Raman Shift (cm\u207b\u00b9) |\n|---|---|\n| Pristine | Peaks at 1600, 2450, 2700 |\n| 2 min | Peaks at 1350, 1600, 1650, 2450, 2700, 2950 |\n| 3 min | Peaks at 1350, 1600, 1650, 2700, 2950 |\n| 4 min | Peaks at 1350, 1600, 1650, 2450, 2700, 2950 |\n| 5 min | Peaks at 1350, 1600, 1650, 2700, 2950 |\n| 6 min | Peaks at 1350, 1600, 1650, 2700, 2950 |\n| 8 min | Peaks at 1350, 1600, 1650, 2700, 2950 |",
-        "b": "| Sample | Raman Shift (cm\u207b\u00b9) |\n|---|---|\n| Pristine | Peaks at 1600, 2450, 2700 |\n| 1 min | Peaks at 1350, 1600, 1650, 2700, 2950 |\n| 2 min | Peaks at 1350, 1600, 1650, 2700, 2950 |\n| 3 min | Peaks at 1350, 1600, 1650, 2700, 2950 |\n| 5 min | Peaks at 1350, 1600, 2700, 2950 |"
+      "a": "| Sample | Raman Shift (cm-\u00b9) |\n| --- | --- |\n| Pristine | Peaks at 1600, 2450, 2700 |\n| 2 min | Peaks at 1350, 1600, 1650, 2450, 2700, 2950 |\n| 3 min | Peaks at 1350, 1600, 1650, 2700, 2950 |\n| 4 min | Peaks at 1350, 1600, 1650, 2450, 2700, 2950 |\n| 5 min | Peaks at 1350, 1600, 1650, 2700, 2950 |\n| 6 min | Peaks at 1350, 1600, 1650, 2700, 2950 |\n| 8 min | Peaks at 1350, 1600, 1650, 2700, 2950 |",
+      "b": "| Sample | Raman Shift (cm-\u00b9) |\n| --- | --- |\n| Pristine | Peaks at 1600, 2450, 2700 |\n| 1 min | Peaks at 1350, 1600, 1650, 2700, 2950 |\n| 2 min | Peaks at 1350, 1600, 1650, 2700, 2950 |\n| 3 min | Peaks at 1350, 1600, 1650, 2700, 2950 |\n| 5 min | Peaks at 1350, 1600, 2700, 2950 |"
     },
     "vqa": {
         "a": [

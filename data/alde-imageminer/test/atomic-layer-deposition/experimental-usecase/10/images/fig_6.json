@@ -9,7 +9,7 @@
         "a": "The stacked spectra chart compares optical emission spectra from O\u2082, H\u2082, and N\u2082 plasmas. Each spectrum displays characteristic peaks at distinct wavelengths corresponding to specific electronic transitions: O\u2082\u207a and O emission lines, H\u2082 Lyman and Fulcher bands, and N\u2082 second positive and first negative systems. Insets show photographs of the respective plasma discharges, illustrating the visible color differences associated with each gas."
     },
     "data_extraction": {
-        "a": "| Wavelength (nm) | O\u2082 Intensity (a.u.) | H\u2082 Intensity (a.u.) | N\u2082 Intensity (a.u.) |\n|----------------|----------------------|----------------------|----------------------|\n| 100 | 0.1 | 0.2 | 0.3 |\n| 200 | 1.2 | 0.9 | 1.0 |\n| 300 | 0.8 | 1.1 | 1.3 |\n| 400 | 0.3 | 0.6 | 1.1 |\n| 500 | 0.4 | 0.8 | 0.7 |\n| 600 | 0.7 | 0.9 | 1.0 |\n| 700 | 0.2 | 0.3 | 0.9 |\n| 800 | 0.0 | 0.0 | 0.2 |"
+      "a": "| Wavelength (nm) | O\u2082 Intensity (a.u.) | H\u2082 Intensity (a.u.) | N\u2082 Intensity (a.u.) |\n| --- | --- | --- | --- |\n| 100 | 0.1 | 0.2 | 0.3 |\n| 200 | 1.2 | 0.9 | 1.0 |\n| 300 | 0.8 | 1.1 | 1.3 |\n| 400 | 0.3 | 0.6 | 1.1 |\n| 500 | 0.4 | 0.8 | 0.7 |\n| 600 | 0.7 | 0.9 | 1.0 |\n| 700 | 0.2 | 0.3 | 0.9 |\n| 800 | 0.0 | 0.0 | 0.2 |"
     },
     "vqa": {
         "b": [

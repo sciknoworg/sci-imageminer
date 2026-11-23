@@ -7,7 +7,7 @@
         "a": "The grouped bar chart shows XPS atom percent for the initial AlGaN surface, after Cl2 ALE, and after BCl3 and Cl2 ALE."
     },
     "data_extraction": {
-        "a": "| Sample | Ga (Atom %) | N (Atom %) | Al (Atom %) | O (Atom %) |\n|---|---|---|---|---|\n| (a) Initial | 50 | 45 | 5 | 3 |\n| (b) Cl\u2082 | 35 | 42 | 5 | 18 |\n| (c) BCl\u2083/Cl\u2082 | 48 | 42 | 5 | 5 |"
+      "a": "| Sample | Ga (Atom %) | N (Atom %) | Al (Atom %) | O (Atom %) |\n| --- | --- | --- | --- | --- |\n| (a) Initial | 50 | 45 | 5 | 3 |\n| (b) Cl\u2082 | 35 | 42 | 5 | 18 |\n| (c) BCl\u2083/Cl\u2082 | 48 | 42 | 5 | 5 |"
     },
     "vqa": {
         "a": [

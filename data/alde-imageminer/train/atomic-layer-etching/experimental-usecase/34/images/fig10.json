@@ -13,10 +13,10 @@
         "d": "provides a bar chart comparison of the average pore diameters for the three conditions, showing relatively consistent pore sizes with slight variations after ALE cycles."
     },
     "data_extraction": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "| Condition|Pore Diameter (nm)|Error Bar (approx.)|\n|----------|------------------|-------------------|\n|AAO|~200|\u00b1100|\n|100 cycles|~220|\u00b1120|\n|300 cycles|~270|\u00b1130|"
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": "| Condition | Pore Diameter (nm) | Error Bar (approx.) |\n| --- | --- | --- |\n| AAO | ~200 | \u00b1100 |\n| 100 cycles | ~220 | \u00b1120 |\n| 300 cycles | ~270 | \u00b1130 |"
     },
     "vqa": {
         "d": [

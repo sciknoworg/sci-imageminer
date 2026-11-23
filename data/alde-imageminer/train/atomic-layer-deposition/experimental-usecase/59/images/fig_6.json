@@ -7,7 +7,7 @@
         "a": "The scatter plot shows the relationship between resistivity and plasma exposure time (s). The fitted curve indicates that resistivity decreases as plasma exposure time increases."
     },
     "data_extraction": {
-        "a": "| Plasma exposure time (s) | In-situ SE | Ex-situ SE |\n| --- | --- | --- |\n| 0 | 10^4 | 10^5 |\n| 5 | - | - |\n| 10 | 10^3 | 10^3 |\n| 15 | - | - |\n| 20 | - | - |\n| 25 | - | - |\n| 30 | - | 6*10^2 |"
+      "a": "| Plasma exposure time (s) | In-situ SE | Ex-situ SE |\n| --- | --- | --- |\n| 0 | 10^4 | 10^5 |\n| 5 | - | - |\n| 10 | 10^3 | 10^3 |\n| 15 | - | - |\n| 20 | - | - |\n| 25 | - | - |\n| 30 | - | 6e+2 |"
     },
     "vqa": {
         "a": [

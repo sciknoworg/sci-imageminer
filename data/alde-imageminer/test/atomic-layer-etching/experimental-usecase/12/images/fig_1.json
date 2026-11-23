@@ -9,8 +9,8 @@
         "b": "The spectral chart shows the Al\u2013CH\u2083 absorbance peaks at 2900 and 3500 cm\u207b\u00b9. The spectra were recorded after each SF\u2086 plasma and TMA half-cycle and are referenced to the spectrum from the previous half-cycle. The figure compares the absorbance spectra for TMA-referenced to SF\u2086 plasma(blue line) and SF\u2086-plasma-referenced to TMA(red line)  for cycles 2, 4, and 6. Sharp absorbance peaks were observed close to 2900 to 2950 cm\u207b\u00b9."
     },
     "data_extraction": {
-        "a": "| Wavenumber (cm\u207b\u00b9) | Cycle 1 | Cycle 2 | Cycle 3 | Cycle 4 | Cycle 5 | Cycle 6 |\n|--------------------|---------|---------|---------|---------|---------|---------|\n| 1000              | 0.002   | 0.0018  | 0.0016  | 0.0014  | 0.0012  | 0.0010  |\n| 900               | 0.0018  | 0.0016  | 0.0014  | 0.0012  | 0.0010  | 0.0008  |\n| 800               | 0.0016  | 0.0014  | 0.0012  | 0.0010  | 0.0008  | 0.0006  |",
-        "b": "| Wavenumber (cm\u207b\u00b9) | Cycle 2 (Blue) | Cycle 2 (Red) | Cycle 4 (Blue) | Cycle 4 (Red) | Cycle 6 (Blue) | Cycle 6 (Red) |\n|--------------------|-----------------|---------------|-----------------|---------------|-----------------|---------------|\n| 3000              | +0.005         | -0.005        | +0.005         | -0.005        | +0.005         | -0.005        |\n| 2800              | +0.004         | -0.004        | +0.004         | -0.004        | +0.004         | -0.004        |"
+      "a": "| Wavenumber (cm-\u00b9) | Cycle 1 | Cycle 2 | Cycle 3 | Cycle 4 | Cycle 5 | Cycle 6 |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1000 | 0.002 | 0.0018 | 0.0016 | 0.0014 | 0.0012 | 0.0010 |\n| 900 | 0.0018 | 0.0016 | 0.0014 | 0.0012 | 0.0010 | 0.0008 |\n| 800 | 0.0016 | 0.0014 | 0.0012 | 0.0010 | 0.0008 | 0.0006 |",
+      "b": "| Wavenumber (cm-\u00b9) | Cycle 2 (Blue) | Cycle 2 (Red) | Cycle 4 (Blue) | Cycle 4 (Red) | Cycle 6 (Blue) | Cycle 6 (Red) |\n| --- | --- | --- | --- | --- | --- | --- |\n| 3000 | +0.005 | -0.005 | +0.005 | -0.005 | +0.005 | -0.005 |\n| 2800 | +0.004 | -0.004 | +0.004 | -0.004 | +0.004 | -0.004 |"
     },
     "vqa": {
         "b": [

@@ -9,8 +9,8 @@
         "b": "Figure (b) is a heatmap that maps the equilibrium constant (lnQ) over a temperature-pressure space. The diagram includes a shaded process window indicating practical temperature and pressure ranges where the targeted surface reactions may be viable, providing a framework for selecting operating conditions."
     },
     "data_extraction": {
-        "a": "| Temperature [K] | \u0394G [eV / Co] |\n|---|---|\n| 0 | -6 |\n| 200 | -5 |\n| 400 | -4 |\n| 600 | -3 |\n| 800 | -2 |\n| 1000 | -1 |",
-        "b": "| Temperature [K] | Equilibrium constant: lnQ |\n|---|---|\n| 0 | -75 |\n| 200 | -50 |\n| 400 | -25 |\n| 600 | 0 |\n| 800 | 25 |\n| 1000 | 50 |"
+      "a": "| Temperature [K] | \u0394G [eV / Co] |\n| --- | --- |\n| 0 | -6 |\n| 200 | -5 |\n| 400 | -4 |\n| 600 | -3 |\n| 800 | -2 |\n| 1000 | -1 |",
+      "b": "| Temperature [K] | Equilibrium constant: lnQ |\n| --- | --- |\n| 0 | -75 |\n| 200 | -50 |\n| 400 | -25 |\n| 600 | 0 |\n| 800 | 25 |\n| 1000 | 50 |"
     },
     "vqa": {
         "a": [

@@ -11,9 +11,9 @@
         "c": "The figure shows a scatter plot with points representing the binding energy (E_bind) in eV/nm\u00b2 against the coverage of Hf-F per nm\u00b2. Energy decreases as the coverage increases."
     },
     "data_extraction": {
-        "a": "| Coverage [HF/nm\u00b2] | Coverage [Hf-F/nm\u00b2] |\n|---|---|\n| 0 | 0 |\n| 5 | 4 |\n| 10 | 6.5 |\n| 15 | 7 |\n| 20 | 9 |",
-        "b": "| Coverage [HF/nm\u00b2] | E_bind [eV/nm\u00b2] |\n|---|---|\n| 0 | -1 |\n| 5 | -10 |\n| 10 | -15 |\n| 15 | -18 |\n| 20 | -21 |",
-        "c": "| Coverage [HF/nm\u00b2] | E_bind [eV/nm\u00b2] |\n|---|---|\n| 0 | -2 |\n| 2 | -4 |\n| 4 | -10 |\n| 6 | -18 |\n| 8 | -20 |\n| 10 | - |"
+      "a": "| Coverage [HF/nm\u00b2] | Coverage [Hf-F/nm\u00b2] |\n| --- | --- |\n| 0 | 0 |\n| 5 | 4 |\n| 10 | 6.5 |\n| 15 | 7 |\n| 20 | 9 |",
+      "b": "| Coverage [HF/nm\u00b2] | E_bind [eV/nm\u00b2] |\n| --- | --- |\n| 0 | -1 |\n| 5 | -10 |\n| 10 | -15 |\n| 15 | -18 |\n| 20 | -21 |",
+      "c": "| Coverage [HF/nm\u00b2] | E_bind [eV/nm\u00b2] |\n| --- | --- |\n| 0 | -2 |\n| 2 | -4 |\n| 4 | -10 |\n| 6 | -18 |\n| 8 | -20 |\n| 10 | - |"
     },
     "vqa": {
         "a": [

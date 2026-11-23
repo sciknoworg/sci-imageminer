@@ -7,7 +7,7 @@
         "a": "The chart displays the intensity of X-ray diffraction peaks at various 2\u03b8 angles, indicating crystalline phases of two materials: GeTe and Sb2Te3."
     },
     "data_extraction": {
-        "a": "| 2\u03b8  | Intensity (au) GeTe| Intensity (au) Sb2Te3|\n|---|---|---|\n| 20 | - | -|\n| 27 | 021 peak | 009 peak|\n| 28 | - |015 peak |\n| 30 | 202 peak |-|\n| 38 | - |1 0 10 peak |\n| 43 | 024 peak |110 peak|\n| 45 | 220 peak |0015 peak|\n| 52 | Si peak |205 peak|\n| 63 | - |1 0 19 peak|"
+      "a": "| 2\u03b8 | Intensity (au) GeTe | Intensity (au) Sb2Te3 |\n| --- | --- | --- |\n| 20 | - | - |\n| 27 | 021 peak | 009 peak |\n| 28 | - | 015 peak |\n| 30 | 202 peak | - |\n| 38 | - | 1 0 10 peak |\n| 43 | 024 peak | 110 peak |\n| 45 | 220 peak | 0015 peak |\n| 52 | Si peak | 205 peak |\n| 63 | - | 1 0 19 peak |"
     },
     "vqa": {
         "a": [

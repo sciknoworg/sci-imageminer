@@ -17,12 +17,12 @@
         "f": "SEM image of Pt deposition after 500 ALD cycles on graphene treated with 5 min O\u2082 plasma, showing a nearly continuous Pt layer with uniform coverage across the graphene surface."
     },
     "data_extraction": {
-        "a": "| Binding Energy (eV) | sp\u00b2 | C\u2013O | C=O | Plasmon 1 | Plasmon 2 | Sample |\n|---|---|---|---|---|---|---|\n| 284.4 | Major | Minor | 0 | 0 | 0 | Pristine graphene |\n| 286.4 | 0 | Minor | 0 | 0 | 0 | Pristine graphene |\n| 290.4 | 0 | 0 | 0 | Minor | 0 | Pristine graphene |\n| 293.2 | 0 | 0 | 0 | 0 | Minor | Pristine graphene |\n| 284.6 | Minor | Minor | 0 | 0 | 0 | 5 min O\u2082 plasma graphene |\n| 286.4 | 0 | Minor | 0 | 0 | 0 | 5 min O\u2082 plasma graphene |\n| 289.0 | 0 | 0 | Minor | 0 | 0 | 5 min O\u2082 plasma graphene |",
-        "b": "| Sample | Pristine | 1 min O\u2082 Plasma |\n|---|---|---|\n| SEM Image | image_path | image_path |",
-        "c": "| Sample | 2 min O\u2082 Plasma |\n|---|---|\n| SEM Image | image_path |",
-        "d": "| Sample | 3 min O\u2082 Plasma |\n|---|---|\n| SEM Image | image_path |",
-        "e": "| Sample | 5 min O\u2082 Plasma |\n|---|---|\n| SEM Image | image_path |",
-        "f": "| Sample | 1000 ALD cycles on 5 min O\u2082 Plasma |\n|---|---|\n| SEM Image | image_path |"
+      "a": "| Binding Energy (eV) | sp\u00b2 | C\u2013O | C=O | Plasmon 1 | Plasmon 2 | Sample |\n| --- | --- | --- | --- | --- | --- | --- |\n| 284.4 | Major | Minor | 0 | 0 | 0 | Pristine graphene |\n| 286.4 | 0 | Minor | 0 | 0 | 0 | Pristine graphene |\n| 290.4 | 0 | 0 | 0 | Minor | 0 | Pristine graphene |\n| 293.2 | 0 | 0 | 0 | 0 | Minor | Pristine graphene |\n| 284.6 | Minor | Minor | 0 | 0 | 0 | 5 min O\u2082 plasma graphene |\n| 286.4 | 0 | Minor | 0 | 0 | 0 | 5 min O\u2082 plasma graphene |\n| 289.0 | 0 | 0 | Minor | 0 | 0 | 5 min O\u2082 plasma graphene |",
+      "b": "| Sample | Pristine | 1 min O\u2082 Plasma |\n| --- | --- | --- |\n| SEM Image | image_path | image_path |",
+      "c": "| Sample | 2 min O\u2082 Plasma |\n| --- | --- |\n| SEM Image | image_path |",
+      "d": "| Sample | 3 min O\u2082 Plasma |\n| --- | --- |\n| SEM Image | image_path |",
+      "e": "| Sample | 5 min O\u2082 Plasma |\n| --- | --- |\n| SEM Image | image_path |",
+      "f": "| Sample | 1000 ALD cycles on 5 min O\u2082 Plasma |\n| --- | --- |\n| SEM Image | image_path |"
     },
     "vqa": {
         "a": [

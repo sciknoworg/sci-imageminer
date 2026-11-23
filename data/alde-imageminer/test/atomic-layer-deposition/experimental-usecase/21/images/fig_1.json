@@ -9,8 +9,8 @@
         "b": "Schematic of plasma-assisted ALD of Li2CO3"
     },
     "data_extraction": {
-        "a": "| Step          | Time Range (s) |\n|---------------|-----------------|\n| LiO'Bu        | 0 \u2013 8          |\n| H\u2082O reaction  | 8 \u2013 12         |\n| CO\u2082           | 12 \u2013 18        |\n| Ar purge      | 0 \u2013 6, 12 \u2013 18 |\n| Total cycle   | 0 \u2013 20         |",
-        "b": "| Step           | Time Range (s) |\n|----------------|-----------------|\n| LiO'Bu         | 0 \u2013 6          |\n| O\u2082             | 6 \u2013 10         |\n| Plasma power   | 10 \u2013 12        |\n| Ar purge       | 0 \u2013 4, 10 \u2013 12 |\n| Total cycle    | 0 \u2013 14         |"
+      "a": "| Step | Time Range (s) |\n| --- | --- |\n| LiO'Bu | 0 \u2013 8 |\n| H\u2082O reaction | 8 \u2013 12 |\n| CO\u2082 | 12 \u2013 18 |\n| Ar purge | 0 \u2013 6, 12 \u2013 18 |\n| Total cycle | 0 \u2013 20 |",
+      "b": "| Step | Time Range (s) |\n| --- | --- |\n| LiO'Bu | 0 \u2013 6 |\n| O\u2082 | 6 \u2013 10 |\n| Plasma power | 10 \u2013 12 |\n| Ar purge | 0 \u2013 4, 10 \u2013 12 |\n| Total cycle | 0 \u2013 14 |"
     },
     "vqa": {
         "a": [

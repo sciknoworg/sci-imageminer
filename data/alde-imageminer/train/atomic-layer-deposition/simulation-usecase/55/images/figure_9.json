@@ -7,7 +7,7 @@
         "a": "The figure shows the evolution of surface \u2013OH concentration during Al2O3 ALD at 300 \u00b0C for two different initial \u2013OH surface coverages. For the high initial \u2013OH case (6.0%), the surface concentration increases rapidly during early cycles and then approaches a plateau near 5 nm\u207b\u00b2. In contrast, the low initial \u2013OH case (0.5%) exhibits a slower but continuous increase throughout the ALD cycles, eventually reaching much lower values than the high-OH surface. This highlights the strong influence of initial surface chemistry on hydroxyl regeneration behavior."
     },
     "data_extraction": {
-        "a": "| ALD cycles | \u2013OH concentration (nm\u207b\u00b2), H: 6.0% | \u2013OH concentration (nm\u207b\u00b2), H: 0.5% |\n|---|---|---|\n| 1 | 2.8 | 0.2 |\n| 3 | 3.8 | 0.4 |\n| 5 | 4.0 | 0.9 |\n| 7 | 4.6 | 1.4 |\n| 8 | 4.9 | 1.8 |\n| 9 | 4.9 | 2.0 |\n| 10 | 4.9 | 2.6 |\n| 12 | 5.1 | 3.0 |"
+      "a": "| ALD cycles | \u2013OH concentration (nm-\u00b2), H: 6.0% | \u2013OH concentration (nm-\u00b2), H: 0.5% |\n| --- | --- | --- |\n| 1 | 2.8 | 0.2 |\n| 3 | 3.8 | 0.4 |\n| 5 | 4.0 | 0.9 |\n| 7 | 4.6 | 1.4 |\n| 8 | 4.9 | 1.8 |\n| 9 | 4.9 | 2.0 |\n| 10 | 4.9 | 2.6 |\n| 12 | 5.1 | 3.0 |"
     },
     "vqa": {
         "a": [

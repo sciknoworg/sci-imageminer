@@ -9,8 +9,8 @@
         "b": "This panel shows the Si 2p XPS spectrum of Ti\u2013Si\u2013N. The peak matches Si\u2013N bonding."
     },
     "data_extraction": {
-        "a": "| Peak assignment | Curve style | Binding energy (eV) | Relative intensity |\n|-----------------|-------------|---------------------|-------------------|\n| Ti\u2013N bonding    | Dash-dot    | ~397.0              | High              |\n| Si\u2013N bonding    | Dashed      | ~398.5              | Medium            |\n| Total N 1s      | Solid       | ~397.2 (envelope)   | Total             |",
-        "b": "| Peak assignment | Curve style | Binding energy (eV) | Chemical state |\n|-----------------|-------------|---------------------|----------------|\n| Si\u2083N\u2084-like      | Solid       | ~102.0              | Si\u2013N bonding  |"
+      "a": "| Peak assignment | Curve style | Binding energy (eV) | Relative intensity |\n| --- | --- | --- | --- |\n| Ti\u2013N bonding | Dash-dot | ~397.0 | High |\n| Si\u2013N bonding | Dashed | ~398.5 | Medium |\n| Total N 1s | Solid | ~397.2 (envelope) | Total |",
+      "b": "| Peak assignment | Curve style | Binding energy (eV) | Chemical state |\n| --- | --- | --- | --- |\n| Si\u2083N\u2084-like | Solid | ~102.0 | Si\u2013N bonding |"
     },
     "vqa": {
         "a": [

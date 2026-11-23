@@ -7,7 +7,7 @@
         "a": "The scatter plot illustrates the thickness of WO\u2083 at various numbers of half-cycles, with specific arrows indicating etching, conversion, and removal processes."
     },
     "data_extraction": {
-        "a": "| Number of Half-Cycles | WO\u2083 Thickness (\u00c5) |\n|---|---|\n| 9 | 88 |\n| 10 | 86.5 |\n| 11 | 84 |\n| 12 | 82.5 |\n| 13 | 80 |"
+      "a": "| Number of Half-Cycles | WO\u2083 Thickness (\u00c5) |\n| --- | --- |\n| 9 | 88 |\n| 10 | 86.5 |\n| 11 | 84 |\n| 12 | 82.5 |\n| 13 | 80 |"
     },
     "vqa": {
         "a": [

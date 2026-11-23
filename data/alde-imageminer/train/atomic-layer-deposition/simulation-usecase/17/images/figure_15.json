@@ -10,9 +10,9 @@
         "c": "This figure is a stacked graph showing the evolution of Germanium (Ge) coordination number (CN) to Oxygen over time during a simulated ALD process. It tracks the structure through two TMA doses and one H\u2082O dose, showing how the GeOx interface changes as Al\u2082O\u2083 deposition proceeds."
     },
     "data_extraction": {
-        "a": "",
-        "b": "| Energy [eV] | reaction state |\n|----------------|--------------------|\n|     0.0     | Initial State |\n|   -0.1     | Transition state | \n|   -3.02   |Final state |",
-        "c": "| Time (ns) | Counts (%) | CN |\n|-----------|------------|-----|\n| 0   | 13.38 | 1 |\n| 0   | 10.8  | 2 |\n| 0   | 17.68 | 3 |\n| 0   | 48.11 | 4 |\n| 0   | 9.75  | 5 |\n| 0.5 | 12.64 | 1 |\n| 0.5 | 13.69 | 2 |\n| 0.5 | 37.35 | 3 |\n| 0.5 | 34.15 | 4 |\n| 0.5 | 0.1   | 5 |\n| 1   | 10.86 | 1 |\n| 1   | 16.5  | 2 |\n| 1   | 42.39 | 3 |\n| 1   | 29.11 | 4 |\n| 1   | 0.1   | 5 |\n| 1.5 | 10.86 | 1 |\n| 1.5 | 18.3  | 2 |\n| 1.5 | 37.35 | 3 |\n| 1.5 | 32    | 4 |\n| 1.5 | 0.1   | 5 |"
+      "a": "",
+      "b": "| Energy [eV] | reaction state |\n| --- | --- |\n| 0.0 | Initial State |\n| -0.1 | Transition state |\n| -3.02 | Final state |",
+      "c": "| Time (ns) | Counts (%) | CN |\n| --- | --- | --- |\n| 0 | 13.38 | 1 |\n| 0 | 10.8 | 2 |\n| 0 | 17.68 | 3 |\n| 0 | 48.11 | 4 |\n| 0 | 9.75 | 5 |\n| 0.5 | 12.64 | 1 |\n| 0.5 | 13.69 | 2 |\n| 0.5 | 37.35 | 3 |\n| 0.5 | 34.15 | 4 |\n| 0.5 | 0.1 | 5 |\n| 1 | 10.86 | 1 |\n| 1 | 16.5 | 2 |\n| 1 | 42.39 | 3 |\n| 1 | 29.11 | 4 |\n| 1 | 0.1 | 5 |\n| 1.5 | 10.86 | 1 |\n| 1.5 | 18.3 | 2 |\n| 1.5 | 37.35 | 3 |\n| 1.5 | 32 | 4 |\n| 1.5 | 0.1 | 5 |"
     },
     "vqa": {
         "b": [

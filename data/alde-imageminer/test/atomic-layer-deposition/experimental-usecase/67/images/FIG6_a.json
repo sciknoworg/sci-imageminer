@@ -7,7 +7,7 @@
         "a": "This figure shows how atomic oxygen density varies as a function of O\u2082 flow fraction in the plasma. As the O\u2082 flow fraction increases from 0.0 to 0.3, the atomic oxygen density rises, reaching a maximum near 0.3. At higher O\u2082 flow fraction (0.5), the atomic oxygen density decreases slightly. This behaviour suggests an optimal oxygen fraction for generating atomic oxygen, beyond which recombination or dilution effects reduce the available atomic species"
     },
     "data_extraction": {
-        "a": "| O\u2082 Flow Fraction | Atomic O density (atoms/m\u00b3) |\n|------------------|----------------------------|\n| 0.0             | ~1.8 \u00d7 10^19                |\n| 0.1             | ~2.5 \u00d7 10^19                |\n| 0.3             | ~3.0 \u00d7 10^19                |\n| 0.5             | ~2.5 \u00d7 10^19                |"
+      "a": "| O\u2082 Flow Fraction | Atomic O density (atoms/m\u00b3) |\n| --- | --- |\n| 0.0 | ~1.8e+19 |\n| 0.1 | ~2.5e+19 |\n| 0.3 | ~3.0e+19 |\n| 0.5 | ~2.5e+19 |"
     },
     "vqa": {
         "a": [

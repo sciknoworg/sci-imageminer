@@ -7,7 +7,7 @@
         "a": "The chart shows the etch depth per cycle for different Cl2 concentrations at both non-ideal and ideal conditions."
     },
     "data_extraction": {
-        "a": "| Cl\u2082 (ppm) | AR  | Ideal (ML) | Non-Ideal (ML) | Total Etch Depth (ML) | % Ideal |\n|-----------|-----|------------|-----------------|-------------------------|---------|\n| 1         | 10  | 1.0        | 0.0             | 1.0                     | 100     |\n| 1         | 2   | 1.0        | 0.02            | 1.02                    | 98      |\n| 10        | 10  | 1.0        | 0.01            | 1.01                    | 99      |\n| 10        | 2   | 1.0        | 0.06            | 1.06                    | 94      |\n| 100       | 10  | 1.0        | 0.08            | 1.08                    | 92      |\n| 100       | 2   | 1.0        | 0.4             | 1.4                     | 71      |"
+      "a": "| Cl\u2082 (ppm) | AR | Ideal (ML) | Non-Ideal (ML) | Total Etch Depth (ML) | % Ideal |\n| --- | --- | --- | --- | --- | --- |\n| 1 | 10 | 1.0 | 0.0 | 1.0 | 100 |\n| 1 | 2 | 1.0 | 0.02 | 1.02 | 98 |\n| 10 | 10 | 1.0 | 0.01 | 1.01 | 99 |\n| 10 | 2 | 1.0 | 0.06 | 1.06 | 94 |\n| 100 | 10 | 1.0 | 0.08 | 1.08 | 92 |\n| 100 | 2 | 1.0 | 0.4 | 1.4 | 71 |"
     },
     "vqa": {
         "a": [

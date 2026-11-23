@@ -7,7 +7,7 @@
         "a": "This figure shows in situ QCM measurements of mass deposited during TiN ALD at 120 \u00b0C using long reactant pulses (100\u201310\u201320\u201330). The mass increases approximately linearly with the number of AB cycles, while the raw trace exhibits step-like features corresponding to individual precursor exposures. The equivalent TiN thickness, derived from the mass uptake, also increases linearly with cycle number. Together, these trends indicate stable, cycle-by-cycle growth consistent with self-limiting ALD behavior under long-pulse conditions."
     },
     "data_extraction": {
-        "a": "| AB Cycles | Mass Deposited (ng/cm\u00b2) | TiN Thickness (\u00c5) |\n|---|---|---|\n| 0 | ~0 | ~0 |\n| 1 | ~120 | ~1.5 |\n| 3 | ~280 | ~4.5 |\n| 5 | ~420 | ~7.0 |\n| 7 | ~560 | ~10.0 |\n| 10 | ~800 | ~15.0 |"
+      "a": "| AB Cycles | Mass Deposited (ng/cm\u00b2) | TiN Thickness (\u00c5) |\n| --- | --- | --- |\n| 0 | ~0 | ~0 |\n| 1 | ~120 | ~1.5 |\n| 3 | ~280 | ~4.5 |\n| 5 | ~420 | ~7.0 |\n| 7 | ~560 | ~10.0 |\n| 10 | ~800 | ~15.0 |"
     },
     "vqa": {
         "a": [

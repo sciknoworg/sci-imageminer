@@ -7,7 +7,7 @@
         "a": "The scatter plot shows the relationship between temperature (T, \u00b0C) and the ratio x = Cl / Me. Data points represent experimental measurements, whereas calculations for Zr and Hf are shown with lines.."
     },
     "data_extraction": {
-        "a": "| T,\u00b0C | x = Cl / Me |\n|---|---|\n| 100 | 2.00 |\n| 200 | 2.25 |\n| 300 | 2.30 |\n| 400 | 2.60 |\n| 500 | 2.80 |\n| 600 | 3.00 |"
+      "a": "| T,\u00b0C | x = Cl / Me |\n| --- | --- |\n| 100 | 2.00 |\n| 200 | 2.25 |\n| 300 | 2.30 |\n| 400 | 2.60 |\n| 500 | 2.80 |\n| 600 | 3.00 |"
     },
     "vqa": {
         "a": [

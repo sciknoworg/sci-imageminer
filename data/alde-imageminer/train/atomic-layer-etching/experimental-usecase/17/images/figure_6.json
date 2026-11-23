@@ -8,8 +8,8 @@
         "a": "The figure presents FTIR absorbance spectra collected during fluorination of Al\u2082O\u2083 using SF\u2084 (blue) and HF (red) at 200\u202f\u00b0C over 10 exposure cycles. Each spectrum shows how absorbance changes with increasing exposure, highlighting characteristic peaks for Al\u2013O and Al\u2013F bonding. For SF\u2084, the Al\u2013F signal grows consistently with cycle number, while for HF, Al\u2013O peaks diminish and Al\u2013F peaks grow, indicating progressive surface fluorination. The separation of the two data sets allows direct comparison of chemical evolution during ALE processes."
     },
     "data_extraction": {
-        "a": "| Wavenumber (cm\u207b\u00b9) | Absorbance (SF\u2084, Cycle 10) |\n|------------------|----------------------------|\n| 1000             | 0.05                       |\n| 900              | 0.15                       |\n| 800              | 0.25                       |\n| 700              | 0.32                       |\n| 600              | 0.38                       |\n| 500              | 0.35                       |\n| 400              | 0.30                       |",
-        "b": "| Wavenumber (cm\u207b\u00b9) | Absorbance (HF, Cycle 10) |\n|------------------|---------------------------|\n| 1000             | -0.15                     |\n| 900              | -0.20                     |\n| 800              | -0.28                     |\n| 700              | -0.34                     |\n| 600              | -0.38                     |\n| 500              | -0.35                     |\n| 400              | -0.32                     |"
+      "a": "| Wavenumber (cm-\u00b9) | Absorbance (SF\u2084, Cycle 10) |\n| --- | --- |\n| 1000 | 0.05 |\n| 900 | 0.15 |\n| 800 | 0.25 |\n| 700 | 0.32 |\n| 600 | 0.38 |\n| 500 | 0.35 |\n| 400 | 0.30 |",
+      "b": "| Wavenumber (cm-\u00b9) | Absorbance (HF, Cycle 10) |\n| --- | --- |\n| 1000 | -0.15 |\n| 900 | -0.20 |\n| 800 | -0.28 |\n| 700 | -0.34 |\n| 600 | -0.38 |\n| 500 | -0.35 |\n| 400 | -0.32 |"
     },
     "vqa": {
         "b": [

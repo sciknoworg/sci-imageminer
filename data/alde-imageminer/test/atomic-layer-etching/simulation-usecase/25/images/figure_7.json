@@ -7,7 +7,7 @@
         "a": "Line chart showing free-energy (\u0394G) profiles for continuous etching and self-limiting reactions of ZrO2 for three HF surface models (16 HF, 24 HF, and 32 HF) as functions of temperature. The figure marks three crossover temperatures\u2014T1 = 273 K, T2 = 502 K, and T3 = 534 K\u2014corresponding to the 16O/32F, 12O/24F, and 8O/16F models, respectively, where self-limiting and spontaneous etch pathways become thermodynamically equivalent."
     },
     "data_extraction": {
-        "a": "| Temperature [K] | Ref (Blue) [eV] | 32 HF (Yellow) [eV] | 24 HF (Gray) [eV] | 16 HF (Orange) [eV] | Note |\n|---|---|---|---|---|---|\n| 0 | ~ -1.0 | ~ -1.9 | ~ -2.7 | ~ -2.8 | Start |\n| 273 | ~ -0.95 | ~ -0.95 | ~ -1.8 | ~ -1.9 | T1 (Crossover) |\n| 502 | ~ -0.9 | 0.0 | ~ -1.0 | ~ -1.1 | T2 (Yellow Zero) |\n| 534 | ~ -0.9 | ~ +0.2 | 0.0 | 0.0 | T3 (Gray/Orange Zero) |\n| 1000 | ~ -0.7 | ~ +1.8 | ~ +0.9 | ~ +0.8 | End |"
+      "a": "| Temperature [K] | Ref (Blue) [eV] | 32 HF (Yellow) [eV] | 24 HF (Gray) [eV] | 16 HF (Orange) [eV] | Note |\n| --- | --- | --- | --- | --- | --- |\n| 0 | ~ -1.0 | ~ -1.9 | ~ -2.7 | ~ -2.8 | Start |\n| 273 | ~ -0.95 | ~ -0.95 | ~ -1.8 | ~ -1.9 | T1 (Crossover) |\n| 502 | ~ -0.9 | 0.0 | ~ -1.0 | ~ -1.1 | T2 (Yellow Zero) |\n| 534 | ~ -0.9 | ~ +0.2 | 0.0 | 0.0 | T3 (Gray/Orange Zero) |\n| 1000 | ~ -0.7 | ~ +1.8 | ~ +0.9 | ~ +0.8 | End |"
     },
     "vqa": {
         "a": [

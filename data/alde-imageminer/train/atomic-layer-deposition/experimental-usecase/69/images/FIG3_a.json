@@ -7,7 +7,7 @@
         "a": "The chart displays the relationship between average GPC (nanometers per cycle) and the P/(P+O+Al) atomic fraction as a function of temperature (\u00b0C)."
     },
     "data_extraction": {
-        "a": "| Temperature (\u00b0C) | Average GPC (nm/cycle) | P/(P+O+Al) atomic fraction |\n|---|---|---|\n| 125 | 0.20 | 0.17 |\n| 150 | 0.18 |  |\n| 175 | 0.17 | 0.15 |\n| 200 | 0.17 |  |\n| 225 | 0.13 | 0.14 |\n| 250 | 0.13 | 0.15 |\n| 275 | 0.11 | 0.14 |\n| 300 | 0.12 | 0.13 |\n| 325 | 0.10 | 0.15 |\n| 350 | 0.07 | 0.13 |"
+      "a": "| Temperature (\u00b0C) | Average GPC (nm/cycle) | P/(P+O+Al) atomic fraction |\n| --- | --- | --- |\n| 125 | 0.20 | 0.17 |\n| 150 | 0.18 |  |\n| 175 | 0.17 | 0.15 |\n| 200 | 0.17 |  |\n| 225 | 0.13 | 0.14 |\n| 250 | 0.13 | 0.15 |\n| 275 | 0.11 | 0.14 |\n| 300 | 0.12 | 0.13 |\n| 325 | 0.10 | 0.15 |\n| 350 | 0.07 | 0.13 |"
     },
     "vqa": {
         "a": [

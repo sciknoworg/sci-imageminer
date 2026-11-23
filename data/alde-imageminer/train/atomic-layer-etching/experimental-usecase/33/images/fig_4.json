@@ -7,7 +7,7 @@
         "a": "The scatter plot shows the relationship between Radical Exposure Time (in seconds) and EPC (in nm/cycle). There is a positive correlation where EPC increases as the Radical Exposure Time increases, but form as saturation is observed."
     },
     "data_extraction": {
-        "a": "| Radical Exposure Time (s) | EPC (nm/cycle) |\n|---|---|\n| 0 | 0 |\n| 10 | 0.9 |\n| 30 | 0.6|\n| 50 | 1.2 |\n| 60 | 2.8 |\n| 120 | 3 |\n| 240 | 3.3 |"
+      "a": "| Radical Exposure Time (s) | EPC (nm/cycle) |\n| --- | --- |\n| 0 | 0 |\n| 10 | 0.9 |\n| 30 | 0.6 |\n| 50 | 1.2 |\n| 60 | 2.8 |\n| 120 | 3 |\n| 240 | 3.3 |"
     },
     "vqa": {
         "a": [

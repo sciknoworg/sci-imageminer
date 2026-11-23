@@ -7,7 +7,7 @@
         "a": "The figure presents a multi-line plot showing product count (in arbitrary units) over time for three different incident electron energies: 45 eV, 80 eV, and 215 eV. Each energy condition produces a distinct response pattern across four repeated steps, with the 215 eV trace showing the highest product count. The signal rises sharply at the beginning of each active phase and drops immediately at the end of each step, highlighting a rapid and reversible product formation tied to process cycles."
     },
     "data_extraction": {
-        "a": "| Time (s) | 45 eV  | 80 eV  | 215 eV  |\n|----------|--------|--------|---------|\n| 0        | 0      | 0      | 0       |\n| 1        | ~20k   | ~60k   | ~180k   |\n| 2        | ~20k   | ~60k   | ~180k   |\n| 5        | ~20k   | ~60k   | ~180k   |\n| 6        | 0      | 0      | 0       |\n| 7        | ~20k   | ~60k   | ~180k   |\n| 10       | ~20k   | ~60k   | ~180k   |\n| 12       | 0      | 0      | 0       |"
+      "a": "| Time (s) | 45 eV | 80 eV | 215 eV |\n| --- | --- | --- | --- |\n| 0 | 0 | 0 | 0 |\n| 1 | ~20k | ~60k | ~180k |\n| 2 | ~20k | ~60k | ~180k |\n| 5 | ~20k | ~60k | ~180k |\n| 6 | 0 | 0 | 0 |\n| 7 | ~20k | ~60k | ~180k |\n| 10 | ~20k | ~60k | ~180k |\n| 12 | 0 | 0 | 0 |"
     },
     "vqa": {
         "a": [

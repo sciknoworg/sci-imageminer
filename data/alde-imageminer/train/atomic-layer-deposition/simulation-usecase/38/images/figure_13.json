@@ -11,9 +11,9 @@
         "c": "O\u2083 surface coverage (%) over time during adsorption (0.1 mole fraction), reaching full coverage at ~3.72 s. The curves indicate non-linear adsorption behavior and are consistent with experimental dosage times reported in the literature."
     },
     "data_extraction": {
-        "a": "| Time (s)|Hacac Coverage (%)|\n|---------|------------------|\n|0.0|0|\n|1.0|25|\n|2.0|60|\n|3.0|90|\n|3.77|100|",
-        "b": "| Time (s)|BDEAS Coverage (%)|\n|---------|------------------|\n|0.0|0|\n|2.0|20|\n|4.0|50|\n|6.0|85|\n|6.99|100|",
-        "c": "| Time (s)|O\u2083 Coverage (%)|\n|---------|---------------|\n|0.0|0|\n|1.0|40|\n|2.0|80|\n|3.0|95|\n|3.72|100|"
+      "a": "| Time (s) | Hacac Coverage (%) |\n| --- | --- |\n| 0.0 | 0 |\n| 1.0 | 25 |\n| 2.0 | 60 |\n| 3.0 | 90 |\n| 3.77 | 100 |",
+      "b": "| Time (s) | BDEAS Coverage (%) |\n| --- | --- |\n| 0.0 | 0 |\n| 2.0 | 20 |\n| 4.0 | 50 |\n| 6.0 | 85 |\n| 6.99 | 100 |",
+      "c": "| Time (s) | O\u2083 Coverage (%) |\n| --- | --- |\n| 0.0 | 0 |\n| 1.0 | 40 |\n| 2.0 | 80 |\n| 3.0 | 95 |\n| 3.72 | 100 |"
     },
     "vqa": {
         "b": [

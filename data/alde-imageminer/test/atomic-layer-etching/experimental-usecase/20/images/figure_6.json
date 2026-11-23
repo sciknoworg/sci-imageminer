@@ -9,8 +9,8 @@
         "b": "The line chart shows the thickness of AlN (Aluminum Nitride) over HF/BCl\u2083 cycles with a static exposure of BCl3, which remains almost constant over the number of cycles."
     },
     "data_extraction": {
-        "a": "| HF/BCl\u2083 Cycle | AlN Thickness (\u00c5) |\n|---|---|\n| 0 | 2827.5 |\n| 10 | 2828.0 |\n| 20 | 2828.5 |\n| 30 | 2829.0 |",
-        "b": "| HF/BCl\u2083 Cycle | AlN Thickness (\u00c5) |\n|---|---|\n| 0 | 2743.0 |\n| 10 | 2742.5 |\n| 20 | 2742.5 |\n| 30 | 2743.0 |"
+      "a": "| HF/BCl\u2083 Cycle | AlN Thickness (\u00c5) |\n| --- | --- |\n| 0 | 2827.5 |\n| 10 | 2828.0 |\n| 20 | 2828.5 |\n| 30 | 2829.0 |",
+      "b": "| HF/BCl\u2083 Cycle | AlN Thickness (\u00c5) |\n| --- | --- |\n| 0 | 2743.0 |\n| 10 | 2742.5 |\n| 20 | 2742.5 |\n| 30 | 2743.0 |"
     },
     "vqa": {
         "a": [

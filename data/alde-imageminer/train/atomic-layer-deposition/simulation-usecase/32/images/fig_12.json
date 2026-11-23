@@ -7,7 +7,7 @@
         "a": "The visualization shows a heatmap of TMA flux on the substrate surface, scale in mol/m2, during the whole TMA exposure integrated over time, with a color gradient indicating varying values, ranging from blue (lowest value) to red (highest value). The color bar on the right provides the scale."
     },
     "data_extraction": {
-        "a": "| Value |\n|---|\n| 0.0118 |\n| 0.0120 |\n| 0.0122 |\n| 0.0124 |\n| 0.0126 |\n| 0.0128 |\n| 0.0130 |"
+      "a": "| Value |\n| --- |\n| 0.0118 |\n| 0.0120 |\n| 0.0122 |\n| 0.0124 |\n| 0.0126 |\n| 0.0128 |\n| 0.0130 |"
     },
     "vqa": {
         "a": [

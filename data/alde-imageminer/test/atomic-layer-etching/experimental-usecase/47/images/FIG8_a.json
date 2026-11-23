@@ -7,7 +7,7 @@
         "a": "The image plots number of ALE cycles and the surface roughness."
     },
     "data_extraction": {
-        "a": "| no. cycles | R<sub>q</sub> (nm) |\n|---|---|\n| 0 | 3.2 |\n| 50 | 3.5 |\n| 100 | 3.6 |\n| 200 | 4.2 |"
+      "a": "| no. cycles | R<sub>q</sub> (nm) |\n| --- | --- |\n| 0 | 3.2 |\n| 50 | 3.5 |\n| 100 | 3.6 |\n| 200 | 4.2 |"
     },
     "vqa": {
         "a": [

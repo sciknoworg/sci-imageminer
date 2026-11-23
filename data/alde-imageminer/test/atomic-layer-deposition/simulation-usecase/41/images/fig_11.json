@@ -20,7 +20,7 @@
         "h": "RMD snapshot for C C breaking observed during the reaction between Cu(acac)2 and ozone on the CuO(111) surface, at t = 147.6 ps"
     },
     "data_extraction": {
-        "a": "| figure_label | time_step(ps) |\n|---|---|\n| a | 92.2 |\n| b | 93.2 |\n| c | 93.8 |\n| d | 69.7 |\n| e | 70.2 |\n| f | 146.6 |\n| g | 146.9 |\n| h | 147.6 |"
+      "a": "| figure_label | time_step(ps) |\n| --- | --- |\n| a | 92.2 |\n| b | 93.2 |\n| c | 93.8 |\n| d | 69.7 |\n| e | 70.2 |\n| f | 146.6 |\n| g | 146.9 |\n| h | 147.6 |"
     },
     "vqa": {
         "a": [

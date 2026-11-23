@@ -7,7 +7,7 @@
         "a": "The figure presents Raman spectra collected at varying pressures ranging from 850 mTorr to 5000 mTorr. The spectra show multiple sharp peaks corresponding to vibrational modes such as B\u2081g and Ag, as well as peaks attributed to Al\u2082O\u2083. As pressure increases, the overall spectral intensity decreases slightly, and peak shapes remain consistent, indicating preserved crystalline character. These pressure-dependent spectra are used to assess the effect of processing conditions on structural order."
     },
     "data_extraction": {
-        "a": "| Raman shift (cm\u207b\u00b9) | Intensity (a.u.) |\n|---|---|\n| 100 | 5000 mTorr |\n| 200 | 3700 mTorr |\n| 300 | 2500 mTorr |\n| 400 | 1600 mTorr |\n| 500 | 850 mTorr |"
+      "a": "| Raman shift (cm-\u00b9) | Intensity (a.u.) |\n| --- | --- |\n| 100 | 5000 mTorr |\n| 200 | 3700 mTorr |\n| 300 | 2500 mTorr |\n| 400 | 1600 mTorr |\n| 500 | 850 mTorr |"
     },
     "vqa": {
         "a": [

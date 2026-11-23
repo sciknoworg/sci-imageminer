@@ -7,7 +7,7 @@
         "a": "Growth per cycle is plotted against ALD cycles. Higher initial OH gives higher growth from the start. Lower OH shows slow early growth and gradual increase."
     },
     "data_extraction": {
-        "a": "| ALD cycles | Growth per cycle (\u00c5), H: 6% | Growth per cycle (\u00c5), H: 0.5% |\n|---|---|---|\n| 1 | ~0.50 | ~0.10 |\n| 2 | ~0.50 | ~0.10 |\n| 3 | ~0.55 | ~0.15 |\n| 4 | ~0.40 | ~0.15 |\n| 5 | ~0.50 | ~0.20 |\n| 6 | ~0.60 | ~0.20 |\n| 7 | ~0.70 | ~0.30 |\n| 8 | ~0.46 | ~0.40 |\n| 9 | ~0.50 | ~0.30 |\n| 10 | ~0.46 | ~0.45 |\n| 11 | ~0.56 | ~0.30 |\n| 12 | ~0.46 | ~0.40 |"
+      "a": "| ALD cycles | Growth per cycle (\u00c5), H: 6% | Growth per cycle (\u00c5), H: 0.5% |\n| --- | --- | --- |\n| 1 | ~0.50 | ~0.10 |\n| 2 | ~0.50 | ~0.10 |\n| 3 | ~0.55 | ~0.15 |\n| 4 | ~0.40 | ~0.15 |\n| 5 | ~0.50 | ~0.20 |\n| 6 | ~0.60 | ~0.20 |\n| 7 | ~0.70 | ~0.30 |\n| 8 | ~0.46 | ~0.40 |\n| 9 | ~0.50 | ~0.30 |\n| 10 | ~0.46 | ~0.45 |\n| 11 | ~0.56 | ~0.30 |\n| 12 | ~0.46 | ~0.40 |"
     },
     "vqa": {
         "a": [

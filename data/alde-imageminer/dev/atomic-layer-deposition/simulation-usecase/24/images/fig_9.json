@@ -7,7 +7,7 @@
         "a": "The chart shows the energy change (\u0394E) in kcal/mol for the reaction of ZrCl4 with different substrate complexes labeled A, B, and C."
     },
     "data_extraction": {
-        "a": "| Reaction Step | \u0394E (kcal/mol) A |\u0394E (kcal/mol) B |\u0394E (kcal/mol) C |\n|---|---|---|---|\n| Start | 0 |0 |0 |\n| Complex | -17|-21|-28|\n| TS | 0| -2|-8|\n| HCl (g)| -5| -7|-12|"
+      "a": "| Reaction Step | \u0394E (kcal/mol) A | \u0394E (kcal/mol) B | \u0394E (kcal/mol) C |\n| --- | --- | --- | --- |\n| Start | 0 | 0 | 0 |\n| Complex | -17 | -21 | -28 |\n| TS | 0 | -2 | -8 |\n| HCl (g) | -5 | -7 | -12 |"
     },
     "vqa": {
         "a": [

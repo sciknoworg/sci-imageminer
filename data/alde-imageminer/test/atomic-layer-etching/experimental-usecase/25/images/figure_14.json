@@ -7,7 +7,7 @@
         "a": "The chart shows the relationship between oxygen/ozone exposure (in mTorr s) and the etch rate of tungsten (W) in angstrom per cycle. The etch rate increases with increasing exposure up to 3000 mTorr s, after which it plateaus."
     },
     "data_extraction": {
-        "a": "| O\u2082/O\u2083 Exposure (mTorr s) | W Etch Rate (\u00c5/cycle) |\n|---|---|\n| 0 | 0.0 |\n| 1000 | 0.7 |\n| 2000 | 1.9 |\n| 3000 | 2.4 |\n| 4000 | 2.4 |"
+      "a": "| O\u2082/O\u2083 Exposure (mTorr s) | W Etch Rate (\u00c5/cycle) |\n| --- | --- |\n| 0 | 0.0 |\n| 1000 | 0.7 |\n| 2000 | 1.9 |\n| 3000 | 2.4 |\n| 4000 | 2.4 |"
     },
     "vqa": {
         "a": [

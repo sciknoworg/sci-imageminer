@@ -9,8 +9,8 @@
         "b": "The etch depth increases with higher..., with a steeper increase at 30V compared to 10V."
     },
     "data_extraction": {
-        "a": "| Acceleration Grid Voltage (V) | Etch Depth (\u00c5) |\n|---|---|\n| 0 | 0 |\n| 10 | 0 |\n| 30 | 10 |\n| 50 | 60 |",
-        "b": "| ? | Etch Depth (\u00c5) 10 V |Etch Depth (\u00c5) 30 V |\n|---|---|---|\n| 0 | 0 | 0 |\n| 50 | 0 | 25 | \n| 100 | 0 | 100 |\n| 150 | 75 | 200 |"
+      "a": "| Acceleration Grid Voltage (V) | Etch Depth (\u00c5) |\n| --- | --- |\n| 0 | 0 |\n| 10 | 0 |\n| 30 | 10 |\n| 50 | 60 |",
+      "b": "| ? | Etch Depth (\u00c5) 10 V | Etch Depth (\u00c5) 30 V |\n| --- | --- | --- |\n| 0 | 0 | 0 |\n| 50 | 0 | 25 |\n| 100 | 0 | 100 |\n| 150 | 75 | 200 |"
     },
     "vqa": {
         "b": [

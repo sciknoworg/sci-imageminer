@@ -13,7 +13,7 @@
         "d": "The image displays a contour representing the pressure of TMA (Tetrakis(methoxymethyl)amine) on surface across reactor G1."
     },
     "data_extraction": {
-        "a": "| Case | Dominant Pressure Range (Pa) | High-Pressure Region (Pa) |\n|------|------------------------------|----------------------------|\n| G0   | 0 \u2013 42                      | 56 \u2013 70                   |\n| G1   | 0 \u2013 42                      | 49 \u2013 56                   |\n| G2   | 0 \u2013 42                      | 63 \u2013 70                   |\n| G3   | 0 \u2013 49                      | 42 \u2013 56                   |"
+      "a": "| Case | Dominant Pressure Range (Pa) | High-Pressure Region (Pa) |\n| --- | --- | --- |\n| G0 | 0 \u2013 42 | 56 \u2013 70 |\n| G1 | 0 \u2013 42 | 49 \u2013 56 |\n| G2 | 0 \u2013 42 | 63 \u2013 70 |\n| G3 | 0 \u2013 49 | 42 \u2013 56 |"
     },
     "vqa": {
         "c": [

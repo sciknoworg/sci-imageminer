@@ -7,7 +7,7 @@
         "a": "reflects different degrees of peak intensity and binding energy shift, enabling comparison of how plasma environment modifies the chemical state and surface composition of Al\u2082O\u2083 during CF\u2084-based processing."
     },
     "data_extraction": {
-        "a": "| Binding Energy (eV)|counts/s|\n|--------------------|--------|\n|68|0|\n|70|500|\n|72|1000|\n|74|2000|\n|76|3000|\n|78|4000|\n|80|5000|\n|82|6000|\n|84|7000|"
+      "a": "| Binding Energy (eV) | counts/s |\n| --- | --- |\n| 68 | 0 |\n| 70 | 500 |\n| 72 | 1000 |\n| 74 | 2000 |\n| 76 | 3000 |\n| 78 | 4000 |\n| 80 | 5000 |\n| 82 | 6000 |\n| 84 | 7000 |"
     },
     "vqa": {
         "a": [

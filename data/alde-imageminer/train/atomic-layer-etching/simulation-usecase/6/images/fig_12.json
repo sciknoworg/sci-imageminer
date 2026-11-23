@@ -9,8 +9,8 @@
         "b": "Panel (b) presents Monte Carlo simulation results for the same ion energies and dosages. The simulated Si counts for 215 eV also show a plateauing behavior at higher dosages, though with more fluctuations and slightly different relative magnitudes compared to the experimental data"
     },
     "data_extraction": {
-        "a": "| Ion Dosage (Ar\u207a/cm\u00b2) \u00d7 10\u00b9\u2075 | 45 eV | 80 eV | 215 eV |\n|----------------------------|-------|-------|--------|\n| 0                          | 0     | 0     | 2      |\n| 10                         | 0     | 0.5   | 4      |\n| 20                         | 0     | 1     | 5      |\n| 30                         | 0     | 1.5   | 6      |\n| 40                         | 0     | 2     | 7      |\n| 50                         | 0     | 2.5   | 8      |",
-        "b": "| Ion Dosage (Ar\u207a/cm\u00b2) \u00d7 10\u00b9\u2075 | 45 eV | 80 eV | 215 eV |\n|----------------------------|-------|-------|--------|\n| 0                          | 5     | 0.5   | 6      |\n| 10                         | 6     | 1     | 7      |\n| 20                         | 7     | 1.5   | 8      |\n| 30                         | 6     | 2     | 7      |\n| 40                         | 7     | 2.5   | 6      |\n| 50                         | 6     | 3     | 6      |"
+      "a": "| Ion Dosage (Ar\u207a/cm\u00b2) \u00d7 10\u00b9\u2075 | 45 eV | 80 eV | 215 eV |\n| --- | --- | --- | --- |\n| 0 | 0 | 0 | 2 |\n| 10 | 0 | 0.5 | 4 |\n| 20 | 0 | 1 | 5 |\n| 30 | 0 | 1.5 | 6 |\n| 40 | 0 | 2 | 7 |\n| 50 | 0 | 2.5 | 8 |",
+      "b": "| Ion Dosage (Ar\u207a/cm\u00b2) \u00d7 10\u00b9\u2075 | 45 eV | 80 eV | 215 eV |\n| --- | --- | --- | --- |\n| 0 | 5 | 0.5 | 6 |\n| 10 | 6 | 1 | 7 |\n| 20 | 7 | 1.5 | 8 |\n| 30 | 6 | 2 | 7 |\n| 40 | 7 | 2.5 | 6 |\n| 50 | 6 | 3 | 6 |"
     },
     "vqa": {
         "b": [

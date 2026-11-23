@@ -7,7 +7,7 @@
         "a": "The graph represents the variation of dielectric constants of the Ga\u2082O\u2083 thin films annealed at various temperatures. As temperature increases the dielectric constant decreases clearly."
     },
     "data_extraction": {
-        "a": "| Temperature (\u00b0C) | Dielectric Constant |\n|-----------------|---------------------|\n| 200             | 13                  |\n| 500             | 10.5              |\n| 700             | 9                   |\n| 900             | 9.3                  |"
+      "a": "| Temperature (\u00b0C) | Dielectric Constant |\n| --- | --- |\n| 200 | 13 |\n| 500 | 10.5 |\n| 700 | 9 |\n| 900 | 9.3 |"
     },
     "vqa": {
         "a": [

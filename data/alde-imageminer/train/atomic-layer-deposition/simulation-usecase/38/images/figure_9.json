@@ -7,7 +7,7 @@
         "a": "The figure shows nitrogen mole fraction contours on a rotating wafer in reactor R2 for three gap distances (10 mm, 5 mm, and 1 mm) under steady-state and increasing angular velocities. The contours illustrate how nitrogen penetrates the reaction zones and how reagents are dragged into the purge zones as rotation speed increases. Smaller gap distances better suppress intermixing, while higher angular velocities promote nitrogen invasion and reagent runoff, defining operational limits for maintaining self-limiting behavior."
     },
     "data_extraction": {
-        "a": "| Gap Distance|Steady State|Low Angular Velocity|Medium Angular Velocity|High Angular Velocity|Very High Angular Velocity|\n|-------------|------------|--------------------|-----------------------|---------------------|--------------------------|\n|10 mm|Contours of N\u2082 mole fraction at steady state|0.2\u20130.5 rad/s|0.6\u20131.0 rad/s|0.7\u20131.2 rad/s|0.8 rad/s|\n|5 mm|Contours of N\u2082 mole fraction at steady state|0.5 rad/s|1.0 rad/s|1.1 rad/s|1.2 rad/s|\n|1 mm|Contours of N\u2082 mole fraction at steady state|1.0 rad/s|2.0 rad/s|2.3 rad/s|2.5 rad/s|"
+      "a": "| Gap Distance | Steady State | Low Angular Velocity | Medium Angular Velocity | High Angular Velocity | Very High Angular Velocity |\n| --- | --- | --- | --- | --- | --- |\n| 10 mm | Contours of N\u2082 mole fraction at steady state | 0.2\u20130.5 rad/s | 0.6\u20131.0 rad/s | 0.7\u20131.2 rad/s | 0.8 rad/s |\n| 5 mm | Contours of N\u2082 mole fraction at steady state | 0.5 rad/s | 1.0 rad/s | 1.1 rad/s | 1.2 rad/s |\n| 1 mm | Contours of N\u2082 mole fraction at steady state | 1.0 rad/s | 2.0 rad/s | 2.3 rad/s | 2.5 rad/s |"
     },
     "vqa": {
         "a": [

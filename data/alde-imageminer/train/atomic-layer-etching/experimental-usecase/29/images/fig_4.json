@@ -9,8 +9,8 @@
         "b": "The figure shows the cathodoluminescence (CL) intensity of a material at different wavelengths after various treatments (initial, RIE, ALE)."
     },
     "data_extraction": {
-        "a": "| Wavelength (nm) | CL Intensity (au) initial |CL Intensity (au) RIE |CL Intensity (au) ALE |\n|---|---|---|---|\n| 300 | 0 |0 |0 |\n| 310 | 0 |0 |0 |\n| 320 | 200 |50|20|\n|326|500|200|100|\n| 330 | 400 |100|50|\n| 340 | 80 | 60|50|\n| 350 | 200|200|200|",
-        "b": "| Wavelength (nm) | CL Intensity (au) initial |CL Intensity (au) RIE |CL Intensity (au) ALE |\n|---|---|---|---|\n| 340 | 0 |0 |0 |\n| 350 | 0 |0 |0 |\n| 360 | 5000 | 5000 | 5000 |\n|365|12000|11000|9500|\n| 370 | 4000 |4000 |4000 |\n| 380 | 500 |500 |500 |\n| 390 | 0 |0 |0 |"
+      "a": "| Wavelength (nm) | CL Intensity (au) initial | CL Intensity (au) RIE | CL Intensity (au) ALE |\n| --- | --- | --- | --- |\n| 300 | 0 | 0 | 0 |\n| 310 | 0 | 0 | 0 |\n| 320 | 200 | 50 | 20 |\n| 326 | 500 | 200 | 100 |\n| 330 | 400 | 100 | 50 |\n| 340 | 80 | 60 | 50 |\n| 350 | 200 | 200 | 200 |",
+      "b": "| Wavelength (nm) | CL Intensity (au) initial | CL Intensity (au) RIE | CL Intensity (au) ALE |\n| --- | --- | --- | --- |\n| 340 | 0 | 0 | 0 |\n| 350 | 0 | 0 | 0 |\n| 360 | 5000 | 5000 | 5000 |\n| 365 | 12000 | 11000 | 9500 |\n| 370 | 4000 | 4000 | 4000 |\n| 380 | 500 | 500 | 500 |\n| 390 | 0 | 0 | 0 |"
     },
     "vqa": {
         "b": [

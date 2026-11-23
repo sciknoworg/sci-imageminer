@@ -7,7 +7,7 @@
         "a": "The line chart shows the thickness of an aluminum nitride (AlN) film as a function of the number of Atomic Layer Etching (ALE) reaction cycles at 275\u202f\u00b0C, specifically in the pure AlN region of the film. From the linear change in thickness with cycle count, an average etch rate of 0.38\u202f\u00c5/cycle is determined.  The number of cycles were taken from 472 to 492."
     },
     "data_extraction": {
-        "a": "| Cycle Number | Thickness (\u00c5) |\n|---|---|\n| 472 | 412 |\n| 474 | 411 |\n| 476 | 410 |\n| 478 | 409 |\n| 480 | 408 |\n| 482 | 407 |\n| 484 | 407 |\n| 486 | 406 |\n| 488 | 405 |"
+      "a": "| Cycle Number | Thickness (\u00c5) |\n| --- | --- |\n| 472 | 412 |\n| 474 | 411 |\n| 476 | 410 |\n| 478 | 409 |\n| 480 | 408 |\n| 482 | 407 |\n| 484 | 407 |\n| 486 | 406 |\n| 488 | 405 |"
     },
     "vqa": {
         "a": [

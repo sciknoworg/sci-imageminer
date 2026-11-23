@@ -7,7 +7,7 @@
         "a": "The chart shows the relationship between temperature (T., \u00b0C) and mass/thickness increment per cycle (a.u.) and hydroxylation degree (a.u.). The mass/thickness increment decreases with increasing temperature, while the hydroxylation degree shows a profile starting at one, gradually decreasing to zero after a threshold."
     },
     "data_extraction": {
-        "a": "| T., \u00b0C | Mass, thickness increment per cycle, a.u. | Hydroxylation degree, a.u. Left |Hydroxylation degree, a.u. Middle |Hydroxylation degree, a.u. Right |\n|---|---|---|---|---|\n| 100 | 1.00 | 1.00 | 1.00 | 1.00 |\n| 200 | 0.79 | 0.17 | 1.00 | 1.00 |\n| 300 | 0.67 | 0.00 | 1.00 | 1.00 |\n| 400 | 0.60 | 0.00 | 0.17 | 1.00 |\n| 500 | 0.57 | 0.00 | 0.00 | 0.83 |\n| 600 | 0.54 | 0.00 | 0.00 | 0.17 |"
+      "a": "| T., \u00b0C | Mass, thickness increment per cycle, a.u. | Hydroxylation degree, a.u. Left | Hydroxylation degree, a.u. Middle | Hydroxylation degree, a.u. Right |\n| --- | --- | --- | --- | --- |\n| 100 | 1.00 | 1.00 | 1.00 | 1.00 |\n| 200 | 0.79 | 0.17 | 1.00 | 1.00 |\n| 300 | 0.67 | 0.00 | 1.00 | 1.00 |\n| 400 | 0.60 | 0.00 | 0.17 | 1.00 |\n| 500 | 0.57 | 0.00 | 0.00 | 0.83 |\n| 600 | 0.54 | 0.00 | 0.00 | 0.17 |"
     },
     "vqa": {
         "a": [

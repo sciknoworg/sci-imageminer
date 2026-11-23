@@ -7,7 +7,7 @@
         "a": "The excitation energy of a system decreases as the number of silicon (Si) atoms increases, this is a stepwise relation as a function of the number of Si atoms."
     },
     "data_extraction": {
-        "a": "| Number of Si atoms | Excitation energy (eV) |\n|---|---|\n| 0 | - |\n| 3 | 4.1 |\n| 7 | 3.7 |\n| 11 | 3.6 |\n| 15 | 3.2 |\n| 24 | 3.2 |\n| 34 | 3.1 |"
+      "a": "| Number of Si atoms | Excitation energy (eV) |\n| --- | --- |\n| 0 | - |\n| 3 | 4.1 |\n| 7 | 3.7 |\n| 11 | 3.6 |\n| 15 | 3.2 |\n| 24 | 3.2 |\n| 34 | 3.1 |"
     },
     "vqa": {
         "a": [

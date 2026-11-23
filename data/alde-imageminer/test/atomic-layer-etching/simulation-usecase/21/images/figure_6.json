@@ -7,7 +7,7 @@
         "a": "The plot compares silicon thickness across the wafer before and after ALE. Thickness decreases uniformly from 87 nm to 40 nm, while the 3\u03c3 variation remains \u00b11.5 nm in both cases. The preservation of the same statistical spread indicates that material removal occurs evenly across the wafer. This demonstrates that ALE maintains wafer-scale uniformity despite substantial thickness reduction"
     },
     "data_extraction": {
-        "a": "| Condition   | Si thickness (nm) | Variation (3\u03c3, nm) |\n|-------------|------------------|--------------------|\n| Before etch | 87               | \u00b11.5               |\n| After ALE   | 40               | \u00b11.5               |"
+      "a": "| Condition | Si thickness (nm) | Variation (3\u03c3, nm) |\n| --- | --- | --- |\n| Before etch | 87 | \u00b11.5 |\n| After ALE | 40 | \u00b11.5 |"
     },
     "vqa": {
         "a": [

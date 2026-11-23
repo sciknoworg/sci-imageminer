@@ -7,7 +7,7 @@
         "a": "The multi-axis chart shows the evolution of DC self-bias voltage, chlorine gas flow, and chamber pressure over time. The process is divided into four clearly marked steps, each showing how plasma conditions and gas flow influence system parameters. The other panels are not separate figures but sub-intervals within (a). Their summaries have been removed to avoid redundancy and reflect the unified timeline."
     },
     "data_extraction": {
-        "a": "| Time (s) | DC Self-Bias (V) | Cl\u2082 Flow (seccm) | P (mTorr) |\n|----------|------------------|------------------|-----------|\n| 0        | 0                | 0                | 22        |\n| 1        | 0                | 20               | 22        |\n| 2        | -60              | 20               | 21        |\n| 3        | -60              | 0                | 20        |\n| 4        | -60              | 0                | 20        |\n| 5        | 0                | 20               | 21        |\n| 6        | 0                | 0                | 22        |\n| 7        | 0                | 0                | 22        |"
+      "a": "| Time (s) | DC Self-Bias (V) | Cl\u2082 Flow (seccm) | P (mTorr) |\n| --- | --- | --- | --- |\n| 0 | 0 | 0 | 22 |\n| 1 | 0 | 20 | 22 |\n| 2 | -60 | 20 | 21 |\n| 3 | -60 | 0 | 20 |\n| 4 | -60 | 0 | 20 |\n| 5 | 0 | 20 | 21 |\n| 6 | 0 | 0 | 22 |\n| 7 | 0 | 0 | 22 |"
     },
     "vqa": {
         "a": [

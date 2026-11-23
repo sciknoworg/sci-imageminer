@@ -7,7 +7,7 @@
         "a": "The chart displays emission intensity against wavelength, highlighting peaks at specific wavelengths for a chlorine plasma."
     },
     "data_extraction": {
-        "a": "| Wavelength (nm) | Emission Intensity (a.u.) |\n|---|---|\n| 200 | 0 |\n| 250 | 160 Cl2 |\n| 300 | 40, Cl2 |\n| 350-750 | range Cl2, Cl2+, Cl, Cl+ |\n| 750-800 | range Cl |"
+      "a": "| Wavelength (nm) | Emission Intensity (a.u.) |\n| --- | --- |\n| 200 | 0 |\n| 250 | 160 Cl2 |\n| 300 | 40, Cl2 |\n| 350-750 | range Cl2, Cl2+, Cl, Cl+ |\n| 750-800 | range Cl |"
     },
     "vqa": {
         "a": [

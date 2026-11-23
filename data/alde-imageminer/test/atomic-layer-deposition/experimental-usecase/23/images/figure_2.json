@@ -9,8 +9,8 @@
         "b": "Enlarged image of symmetric CH3 deformation feature during first TMGa-H2O cycle and first O3 exposure."
     },
     "data_extraction": {
-        "a": "| ALD Step | Wavenumber (cm\u207b\u00b9) |\n|---|---|\n| 1st TMGa | Trough at 3730; Peaks at 1215, 2915, 2975 |\n| 1st Water | Troughs at 1215, 2915, 2975; Peak at 3730 |\n| 1st Ozone | Troughs at 1215, 2915, 2975; Peaks at 1372, 1586, 3730 |\n| 3rd TMGa |  |\n| 3rd Water |  |\n| 5th TMGa |  |\n| 5th Water |  |",
-        "b": "| ALD Step | Wavenumber (cm\u207b\u00b9) |\n|---|---|\n| 1st TMGa | Peaks at 1209, 1220 |\n| 1st Water | Trough at 1209 |\n| 1st Ozone | Trough at 1220 |"
+      "a": "| ALD Step | Wavenumber (cm-\u00b9) |\n| --- | --- |\n| 1st TMGa | Trough at 3730; Peaks at 1215, 2915, 2975 |\n| 1st Water | Troughs at 1215, 2915, 2975; Peak at 3730 |\n| 1st Ozone | Troughs at 1215, 2915, 2975; Peaks at 1372, 1586, 3730 |\n| 3rd TMGa |  |\n| 3rd Water |  |\n| 5th TMGa |  |\n| 5th Water |  |",
+      "b": "| ALD Step | Wavenumber (cm-\u00b9) |\n| --- | --- |\n| 1st TMGa | Peaks at 1209, 1220 |\n| 1st Water | Trough at 1209 |\n| 1st Ozone | Trough at 1220 |"
     },
     "vqa": {
         "a": [

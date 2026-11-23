@@ -7,7 +7,7 @@
         "a": "The images plots the number of ALE cycles and the thicknesses indicating a decreasing trend and etching."
     },
     "data_extraction": {
-        "a": "| no. cycles | Thickness left (nm) |\n|---|---|\n| 0 | 52 |\n| 200 | 41 |\n| 400 | 25 |\n| 600 | 12 |\n| 800 | 2 |\n| 1000 | 1 |"
+      "a": "| no. cycles | Thickness left (nm) |\n| --- | --- |\n| 0 | 52 |\n| 200 | 41 |\n| 400 | 25 |\n| 600 | 12 |\n| 800 | 2 |\n| 1000 | 1 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The chart displays the refractive index n and extinction coefficient k of materials under different conditions of oxygen and argon exposure over a range of photon energies."
     },
     "data_extraction": {
-        "a": "| Sample | refractive index n | extinction coefficient k |\n|---|---|---|\n| 2 second O2 | Exponential increase from (1.5 eV, n = 1.8) to (3.0 eV, n = 2.2) | Constant at k = 0 |\n| 2 second O2 & Ar | Exponential increase from (1.5 eV, n = 1.9) to (3.0 eV, n = 2.3) | Constant at > 0 |\n| 1 second O2 | Peak at 2 eV, trough at 2.5 eV | Peak at 2.25 eV, trough at 2.75 eV |"
+      "a": "| Sample | refractive index n | extinction coefficient k |\n| --- | --- | --- |\n| 2 second O2 | Exponential increase from (1.5 eV, n = 1.8) to (3.0 eV, n = 2.2) | Constant at k = 0 |\n| 2 second O2 & Ar | Exponential increase from (1.5 eV, n = 1.9) to (3.0 eV, n = 2.3) | Constant at > 0 |\n| 1 second O2 | Peak at 2 eV, trough at 2.5 eV | Peak at 2.25 eV, trough at 2.75 eV |"
     },
     "vqa": {
         "a": [

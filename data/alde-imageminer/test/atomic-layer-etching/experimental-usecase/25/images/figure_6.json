@@ -7,7 +7,7 @@
         "a": "The chart shows the thickness of WO\u2083 after exposure to BCl\u2083 and HF doses at 207\u00b0C, plotted against the number of half-cycles."
     },
     "data_extraction": {
-        "a": "| Number of Half-Cycles | WO\u2083 Thickness (\u00c5) |\n|---|---|\n| 5 | 97 |\n| 10 | 84 |\n| 15 | 75 |\n| 20 | 65 |\n| 25 | 55 |\n| 30 | 48 |"
+      "a": "| Number of Half-Cycles | WO\u2083 Thickness (\u00c5) |\n| --- | --- |\n| 5 | 97 |\n| 10 | 84 |\n| 15 | 75 |\n| 20 | 65 |\n| 25 | 55 |\n| 30 | 48 |"
     },
     "vqa": {
         "a": [

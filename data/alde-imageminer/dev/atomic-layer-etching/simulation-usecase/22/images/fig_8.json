@@ -7,7 +7,7 @@
         "a": "The timeline chart illustrates the chronological progression of various research milestones and computational modelling advancements in materials science and technology from 1988 to 2014. Each milestone and advancement is referenced."
     },
     "data_extraction": {
-        "a": "| Year | Event | Reference |\n|------|-------|-----------|\n| 1988 | Diamond | [31] |\n| 1989 | Directional III-V (GaAs) | [32] |\n| 1990 | Directional Si with F | [33] |\n| 1991 | Electrochemical (e.g., CdTe) | [105] |\n| 1993 | Directional Si with Cl2, Isotropic III-Vs | [39], [34] |\n| 1994 | Isotropic SiO2 with salts | [109] |\n| 1997 | Computational modeling | - |\n| 1998 | Comoutational modeling | - |\n| 2001 | Neutral Beams | [83] |\n| 2007 | Concept of directional SiO2 with deposition | [102] |\n| 2008 | Directional high-k dielectrics | [51] |\n| 2011 | Graphene using Zn deposition | [123] |\n| 2013 | Si plasma assisted, SiO2 with deposition | [6], [90] |\n| 2014 | First ALE workshop | - |"
+      "a": "| Year | Event | Reference |\n| --- | --- | --- |\n| 1988 | Diamond | [31] |\n| 1989 | Directional III-V (GaAs) | [32] |\n| 1990 | Directional Si with F | [33] |\n| 1991 | Electrochemical (e.g., CdTe) | [105] |\n| 1993 | Directional Si with Cl2, Isotropic III-Vs | [39], [34] |\n| 1994 | Isotropic SiO2 with salts | [109] |\n| 1997 | Computational modeling | - |\n| 1998 | Comoutational modeling | - |\n| 2001 | Neutral Beams | [83] |\n| 2007 | Concept of directional SiO2 with deposition | [102] |\n| 2008 | Directional high-k dielectrics | [51] |\n| 2011 | Graphene using Zn deposition | [123] |\n| 2013 | Si plasma assisted, SiO2 with deposition | [6], [90] |\n| 2014 | First ALE workshop | - |"
     },
     "vqa": {
         "a": [

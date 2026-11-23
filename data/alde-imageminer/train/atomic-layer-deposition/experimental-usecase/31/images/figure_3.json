@@ -9,8 +9,8 @@
         "b": "In the PE-ALD Co process using CoCp\u2082 at 300 \u00b0C, the growth rate increases rapidly at short exposure times and then saturates, while the resistivity remains relatively low and stable with increasing exposure time, suggesting a more robust and self-limiting growth behavior."
     },
     "data_extraction": {
-        "a": "| t<sub>S</sub> (s)|Growth Rate (\u00c5/cycle)|Resistivity (\u00b5\u03a9cm)|\n|------------------|---------------------|------------------|\n|0|0|0|\n|1|2|250|\n|2|1|100|\n|3|0.5|50|\n|4|0|25|",
-        "b": "| t<sub>S</sub> (s)|Growth Rate (\u00c5/cycle)|Resistivity (\u00b5\u03a9cm)|\n|------------------|---------------------|------------------|\n|0|0|0|\n|2|0.5|250|\n|4|0.5|150|\n|6|0.5|100|\n|8|0.5|50|"
+      "a": "| t<sub>S</sub> (s) | Growth Rate (\u00c5/cycle) | Resistivity (\u00b5\u03a9cm) |\n| --- | --- | --- |\n| 0 | 0 | 0 |\n| 1 | 2 | 250 |\n| 2 | 1 | 100 |\n| 3 | 0.5 | 50 |\n| 4 | 0 | 25 |",
+      "b": "| t<sub>S</sub> (s) | Growth Rate (\u00c5/cycle) | Resistivity (\u00b5\u03a9cm) |\n| --- | --- | --- |\n| 0 | 0 | 0 |\n| 2 | 0.5 | 250 |\n| 4 | 0.5 | 150 |\n| 6 | 0.5 | 100 |\n| 8 | 0.5 | 50 |"
     },
     "vqa": {
         "a": [

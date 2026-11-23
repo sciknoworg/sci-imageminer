@@ -7,7 +7,7 @@
         "a": "Figure 12 illustrates the concentration gradient of N\u2082 mole fraction along the reagent-purge boundary in reactor R4. The heatmap shows the small micrometer-scale variations in N\u2082 concentration, highlighting the limited spatial resolution available for capturing the temporal progression of surface coverage. These small length scales make it challenging to collect surface coverage data at high angular velocities and short time scales, which contributes to the discontinuous curves observed in Figure 11. The figure emphasizes the spatial difficulty in simulating adsorption dynamics near the boundary region."
     },
     "data_extraction": {
-        "a": "| Position along boundary (\u00b5m)|N\u2082 Mole Fraction|\n|-----------------------------|----------------|\n|0.0|0.450|\n|1.3|0.505|\n|4.6|0.560|\n|8.4|0.615|\n|12.5|0.670|\n|16.8|0.725|\n|21.2|0.780|\n|25.9|0.835|\n|30.8|0.890|\n|36.0|0.945|\n|41.5|1.000|"
+      "a": "| Position along boundary (\u00b5m) | N\u2082 Mole Fraction |\n| --- | --- |\n| 0.0 | 0.450 |\n| 1.3 | 0.505 |\n| 4.6 | 0.560 |\n| 8.4 | 0.615 |\n| 12.5 | 0.670 |\n| 16.8 | 0.725 |\n| 21.2 | 0.780 |\n| 25.9 | 0.835 |\n| 30.8 | 0.890 |\n| 36.0 | 0.945 |\n| 41.5 | 1.000 |"
     },
     "vqa": {
         "a": [

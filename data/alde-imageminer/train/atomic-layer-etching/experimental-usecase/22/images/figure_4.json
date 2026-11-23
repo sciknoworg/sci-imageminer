@@ -9,8 +9,8 @@
         "b": "Panel (b) reveals characteristic Mo-F and Mo-O vibrational bands, suggesting the formation of metal-oxygen and metal-fluorine bonds post-exposure"
     },
     "data_extraction": {
-        "a": "| Wavenumbers (cm\u207b\u00b9)| MoF\u2086 | H\u2082O |\n|-------------------|------|-----|\n| 1400              | ~0   | ~0  |\n| 1200              | ~0   | ~0  |\n| 1000              | ~0   | 0.15|\n| 800               | ~0   | 0.20|\n| 600               | ~0   | ~0  |",
-        "b": "| Wavenumbers (cm\u207b\u00b9)| MoF\u2086 | H\u2082O |\n|-------------------|------|-----|\n| 1400              | 0.05 | ~0  |\n| 1200              | 0.12 | 0.02|\n| 1000              | 0.25 | 0.15|\n| 800               | 0.20 | 0.18|\n| 600               | 0.02 | 0.02|"
+      "a": "| Wavenumbers (cm-\u00b9) | MoF\u2086 | H\u2082O |\n| --- | --- | --- |\n| 1400 | ~0 | ~0 |\n| 1200 | ~0 | ~0 |\n| 1000 | ~0 | 0.15 |\n| 800 | ~0 | 0.20 |\n| 600 | ~0 | ~0 |",
+      "b": "| Wavenumbers (cm-\u00b9) | MoF\u2086 | H\u2082O |\n| --- | --- | --- |\n| 1400 | 0.05 | ~0 |\n| 1200 | 0.12 | 0.02 |\n| 1000 | 0.25 | 0.15 |\n| 800 | 0.20 | 0.18 |\n| 600 | 0.02 | 0.02 |"
     },
     "vqa": {
         "b": [

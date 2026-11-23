@@ -7,7 +7,7 @@
         "a": "The line chart illustrates the growth rate of a material in \u00c5 per cycle as a function of TiF pulse length in seconds. The growth rate increases with increasing pulse length but it slightly decreases at 2 s."
     },
     "data_extraction": {
-        "a": "| TiF, pulse length / s | Growth rate \u00c5/cycle |\n|---|---|\n| 0.5 | 0.95 |\n| 1 | 1.00 |\n| 2 | 0.95 |\n| 3 | 1.20 |\n| 4 | 1.30 |\n| 6 | 1.40 |"
+      "a": "| TiF, pulse length / s | Growth rate \u00c5/cycle |\n| --- | --- |\n| 0.5 | 0.95 |\n| 1 | 1.00 |\n| 2 | 0.95 |\n| 3 | 1.20 |\n| 4 | 1.30 |\n| 6 | 1.40 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The figure presents stacked FTIR spectra of an initially NH\u2083-terminated TiN surface recorded during the third TDMAT exposure at 152 \u00b0C. With increasing TDMAT exposure from 0 to 33 Torr\u00b7min, the N\u2013H stretching feature near ~3300 cm\u207b\u00b9 decreases in relative intensity. Concurrently, strong C\u2013H stretching bands appear and grow in the 2800\u20133000 cm\u207b\u00b9 region. The spectra are vertically offset, but the systematic evolution of these bands indicates progressive surface modification during exposure."
     },
     "data_extraction": {
-        "a": "| Frequency (cm\u207b\u00b9) | Infrared Absorbance | Feature |\n|---|---|---|\n| 3350 | 0.82 | N\u2013H stretching region (low exposure) |\n| 2950 | 0.90 | C\u2013H stretch onset |\n| 2920 | 1.05 | C\u2013H asymmetric stretch (increasing exposure) |\n| 2850 | 0.98 | C\u2013H symmetric stretch |\n| 2920 | 1.30 | C\u2013H asymmetric stretch (33 Torr\u00b7min) |"
+      "a": "| Frequency (cm-\u00b9) | Infrared Absorbance | Feature |\n| --- | --- | --- |\n| 3350 | 0.82 | N\u2013H stretching region (low exposure) |\n| 2950 | 0.90 | C\u2013H stretch onset |\n| 2920 | 1.05 | C\u2013H asymmetric stretch (increasing exposure) |\n| 2850 | 0.98 | C\u2013H symmetric stretch |\n| 2920 | 1.30 | C\u2013H asymmetric stretch (33 Torr\u00b7min) |"
     },
     "vqa": {
         "a": [

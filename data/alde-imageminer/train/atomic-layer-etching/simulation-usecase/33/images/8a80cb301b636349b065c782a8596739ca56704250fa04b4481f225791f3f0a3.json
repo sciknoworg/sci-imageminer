@@ -7,7 +7,7 @@
         "a": "The scatter plot displays the etching yield of silicon nitride (Si\u2083N\u2084) as a function of the electronic input energy (E\u2099) during HF-based processing. As the input energy increases from 0 to 50 eV, the etching yield steadily rises in a nonlinear fashion. The data points are fit with a dashed curve, showing an accelerating increase, suggesting that higher E\u2099 values significantly enhance the reaction efficiency. The inclusion of error bars indicates variability in the measurements, particularly at higher energies."
     },
     "data_extraction": {
-        "a": "| $E_{\\mathrm{in}}$ (eV) | Etching yield ($\\mathrm{Si}_3\\mathrm{N}_4$/HF) |\n|---|---|\n| 0.00 | 0.00 |\n| 10.00 | 0.01 |\n| 20.00 | 0.04 |\n| 30.00 | 0.06 |\n| 40.00 | 0.07 |\n| 50.00 | 0.08 |"
+      "a": "| $E_{\\mathrm{in}}$ (eV) | Etching yield ($\\mathrm{Si}_3\\mathrm{N}_4$/HF) |\n| --- | --- |\n| 0.00 | 0.00 |\n| 10.00 | 0.01 |\n| 20.00 | 0.04 |\n| 30.00 | 0.06 |\n| 40.00 | 0.07 |\n| 50.00 | 0.08 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The line chart shows the relationship between plasma treatment time (s) and the etched amount (nm), indicating a linear increase."
     },
     "data_extraction": {
-        "a": "| plasma treatment (s) | etched amount (nm) |\n|---|---|\n| 0 | 0 |\n| 15 | 2.58 |\n| 30 | 6.6 |"
+      "a": "| plasma treatment (s) | etched amount (nm) |\n| --- | --- |\n| 0 | 0 |\n| 15 | 2.58 |\n| 30 | 6.6 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "Number of F and C atoms in the SiO\u2082 sample versus CF\u2082\u207a ion impacts at 20 eV. F accumulates to ~100 atoms and saturates after ~250 impacts, while C remains low (~15 atoms), producing a strongly F-rich passivation layer."
     },
     "data_extraction": {
-        "a": "| Number of CF2+ Ion Impacts | F (Number of Atoms) | C (Number of Atoms) |\n|---|---|---|\n| 0 | 0 | 0 |\n| 25 | 18 | 5 |\n| 50 | 32 | 8 |\n| 75 | 42 | 10 |\n| 100 | 52 | 11 |\n| 125 | 62 | 12 |\n| 150 | 72 | 13 |\n| 175 | 85 | 13 |\n| 200 | 88 | 15 |\n| 225 | 90 | 16 |\n| 250 | 98 | 15 |\n| 275 | 102 | 15 |\n| 300 | 98 | 14 |\n| 350 | 96 | 12 |\n| 400 | 94 | 10 |\n| 450 | 105 | 11 |"
+      "a": "| Number of CF2+ Ion Impacts | F (Number of Atoms) | C (Number of Atoms) |\n| --- | --- | --- |\n| 0 | 0 | 0 |\n| 25 | 18 | 5 |\n| 50 | 32 | 8 |\n| 75 | 42 | 10 |\n| 100 | 52 | 11 |\n| 125 | 62 | 12 |\n| 150 | 72 | 13 |\n| 175 | 85 | 13 |\n| 200 | 88 | 15 |\n| 225 | 90 | 16 |\n| 250 | 98 | 15 |\n| 275 | 102 | 15 |\n| 300 | 98 | 14 |\n| 350 | 96 | 12 |\n| 400 | 94 | 10 |\n| 450 | 105 | 11 |"
     },
     "vqa": {
         "a": [

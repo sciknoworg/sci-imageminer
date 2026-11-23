@@ -7,7 +7,7 @@
         "a": "This line  chart represents the tungsten(W) film thickness after 3 ALD- AB cycles as a function of the number of Si\u2082H\u2086 pulses per cycle (B-step), while the WF\u2086 exposure (A-step) is held constant at 9 pulses per cycle. It demonstrates that film growth requires a minimum number of Si\u2082H\u2086 pulses to complete the reaction cycle."
     },
     "data_extraction": {
-        "a": "| Number of Si\u2082H\u2086 Pulses | Tungsten Film Thickness (\u00c5) |\n|---|---|\n| 0 | 0 |\n| 4 | 5 |\n| 12 | 7.5 |\n| 24 | 8.1 |\n| 48 | 7.4 |\n| 60 | 8.1 |"
+      "a": "| Number of Si\u2082H\u2086 Pulses | Tungsten Film Thickness (\u00c5) |\n| --- | --- |\n| 0 | 0 |\n| 4 | 5 |\n| 12 | 7.5 |\n| 24 | 8.1 |\n| 48 | 7.4 |\n| 60 | 8.1 |"
     },
     "vqa": {
         "a": [

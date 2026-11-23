@@ -7,7 +7,7 @@
         "a": "The image depicts the moleculat structure of various cluster models, Si3\u200bN4\u200b)4\u200b cluster model with NH2/HNH2\u200b/H terminated (Si3N4)4(NH3)12(Si3\u200bN4\u200b)4\u200b(NH3\u200b)1\u200b2 cluster (lower left) and OH/HOH/H terminated (Si3N4)4(H2O)12(Si3\u200bN4\u200b)4\u200b(H2\u200bO)12\u200b cluster (lower right)."
     },
     "data_extraction": {
-        "a": "| Base Structure     | Modification Added       | Resulting Structure Formula         |\n|---------------------|--------------------------|--------------------------------------|\n| (Si\u2083N\u2084)\u2084          | + 12 \u00d7 NH\u2082 + 12 \u00d7 H\u207a    | (Si\u2083N\u2084)\u2084(NH\u2083)\u2081\u2082                     |\n| (Si\u2083N\u2084)\u2084          | + 12 \u00d7 OH\u207b + 12 \u00d7 H\u207a    | (Si\u2083N\u2084)\u2084(H\u2082O)\u2081\u2082                     |"
+      "a": "| Base Structure | Modification Added | Resulting Structure Formula |\n| --- | --- | --- |\n| (Si\u2083N\u2084)\u2084 | + 12 \u00d7 NH\u2082 + 12 \u00d7 H\u207a | (Si\u2083N\u2084)\u2084(NH\u2083)\u2081\u2082 |\n| (Si\u2083N\u2084)\u2084 | + 12 \u00d7 OH- + 12 \u00d7 H\u207a | (Si\u2083N\u2084)\u2084(H\u2082O)\u2081\u2082 |"
     },
     "vqa": {
         "a": [

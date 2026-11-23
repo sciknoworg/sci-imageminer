@@ -7,7 +7,7 @@
         "a": "The chart represents X-ray diffraction (XRD) intensity against 2\u03b8 angles, indicating the crystalline structure of Ga2O3 after 200 cycles which decreases slightly as the angle increases."
     },
     "data_extraction": {
-        "a": "| 2\u03b8 | XRD intensity (count/s) |\n|---|---|\n| 15 | - |\n| 20 | - |\n| 25 | - |\n| 30 | - |\n| 35 | - |\n| 40 | - |\n| 45 | - |"
+      "a": "| 2\u03b8 | XRD intensity (count/s) |\n| --- | --- |\n| 15 | - |\n| 20 | - |\n| 25 | - |\n| 30 | - |\n| 35 | - |\n| 40 | - |\n| 45 | - |"
     },
     "vqa": {
         "a": [

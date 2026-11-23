@@ -7,7 +7,7 @@
         "a": "The line chart illustrates the relationship between Ar+ ion incident energy (in eV) and etch per cycleEPC (in \u00c5) for thin and thick Cl layer deposition methods."
     },
     "data_extraction": {
-        "a": "| Energy (eV) | Thin Cl layer deposition (\u00c5) | Thick Cl layer deposition (\u00c5) |\n|-------------|-------------------------------|--------------------------------|\n| 0           | 0                             | 0                              |\n| 10          | 1                             | 2                              |\n| 20          | 2                             | 4                              |\n| 30          | 4                             | 6                              |\n| 40          | 7                             | 10                             |\n| 50          | 11                            | 14                             |\n| 60          | 16                            | 19                             |"
+      "a": "| Energy (eV) | Thin Cl layer deposition (\u00c5) | Thick Cl layer deposition (\u00c5) |\n| --- | --- | --- |\n| 0 | 0 | 0 |\n| 10 | 1 | 2 |\n| 20 | 2 | 4 |\n| 30 | 4 | 6 |\n| 40 | 7 | 10 |\n| 50 | 11 | 14 |\n| 60 | 16 | 19 |"
     },
     "vqa": {
         "a": [

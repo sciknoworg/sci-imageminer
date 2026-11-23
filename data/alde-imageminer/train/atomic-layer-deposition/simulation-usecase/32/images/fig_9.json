@@ -7,7 +7,7 @@
         "a": "The chart compares the outlet pressure over time for experimental data and a model."
     },
     "data_extraction": {
-        "a": "| Time (s) | Outlet Pressure - Experiments (Torr) | Outlet Pressure - Model (Torr) |\n|----------|---------------------------------------|---------------------------------|\n| 0        | 0.049                                | 0.049                          |\n| 5        | 0.075 (H\u2082O peak)                     | 0.074                          |\n| 10       | 0.058 (TMA peak)                     | 0.057                          |\n| 15       | 0.075 (H\u2082O peak)                     | 0.074                          |\n| 20       | 0.049                                | 0.049                          |\n| 25       | 0.075 (H\u2082O peak)                     | 0.074                          |\n| 30       | 0.058 (TMA peak)                     | 0.057                          |\n| 35       | 0.075 (H\u2082O peak)                     | 0.074                          |\n| 40       | 0.049                                             |  0.049                        |"
+      "a": "| Time (s) | Outlet Pressure - Experiments (Torr) | Outlet Pressure - Model (Torr) |\n| --- | --- | --- |\n| 0 | 0.049 | 0.049 |\n| 5 | 0.075 (H\u2082O peak) | 0.074 |\n| 10 | 0.058 (TMA peak) | 0.057 |\n| 15 | 0.075 (H\u2082O peak) | 0.074 |\n| 20 | 0.049 | 0.049 |\n| 25 | 0.075 (H\u2082O peak) | 0.074 |\n| 30 | 0.058 (TMA peak) | 0.057 |\n| 35 | 0.075 (H\u2082O peak) | 0.074 |\n| 40 | 0.049 | 0.049 |"
     },
     "vqa": {
         "a": [

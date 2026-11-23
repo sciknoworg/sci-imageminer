@@ -7,7 +7,7 @@
         "a": "The line chart shows the relationship between self-bias voltage and etch depth per cycle. There is a linear increase in etch depth with increasing self-bias voltage after the ALE window."
     },
     "data_extraction": {
-        "a": "| Self-Bias Voltage (V) | Etch Depth per Cycle (nm) |\n|---|---|\n| 0 | 0 |\n| 25 | 0 |\n| 30 | 0.3 |\n| 35 | 0.5 |\n| 40 | 0.6 |\n| 45 | 0.6 |\n| 50 | 0.6 |\n| 55 | 0.6 |\n| 60 | 0.8 |\n| 65 | 0.9 |\n| 70 | 1.0 |\n| 75 | 1.2 |\n| 80 | 1.5 |\n| 85 | 1.7 |\n| 90 | 2.0 |\n| 95 | 2.2 |\n| 100 | 2.5 |"
+      "a": "| Self-Bias Voltage (V) | Etch Depth per Cycle (nm) |\n| --- | --- |\n| 0 | 0 |\n| 25 | 0 |\n| 30 | 0.3 |\n| 35 | 0.5 |\n| 40 | 0.6 |\n| 45 | 0.6 |\n| 50 | 0.6 |\n| 55 | 0.6 |\n| 60 | 0.8 |\n| 65 | 0.9 |\n| 70 | 1.0 |\n| 75 | 1.2 |\n| 80 | 1.5 |\n| 85 | 1.7 |\n| 90 | 2.0 |\n| 95 | 2.2 |\n| 100 | 2.5 |"
     },
     "vqa": {
         "a": [

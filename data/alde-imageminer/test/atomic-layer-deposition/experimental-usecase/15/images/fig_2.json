@@ -7,7 +7,7 @@
         "a": "The chart shows the normalized capacitance of BST films with different dielectric layers (BST/TiO2/Si, BST/Ta2O5/Si, BST/MgO) as a function of applied voltage. The tunability of capacitance is indicated at specific voltages."
     },
     "data_extraction": {
-        "a": "| Applied Voltage (V) | Normalized Capacitance |\n|---------------------|------------------------|\n| 0                   | 1.0                    |\n| 5                   | 0.7                    |\n| 10                  | 0.4                    |\n| 35                  | 0.6                    |"
+      "a": "| Applied Voltage (V) | Normalized Capacitance |\n| --- | --- |\n| 0 | 1.0 |\n| 5 | 0.7 |\n| 10 | 0.4 |\n| 35 | 0.6 |"
     },
     "vqa": {
         "a": [

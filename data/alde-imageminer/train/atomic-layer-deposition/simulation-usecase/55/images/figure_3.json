@@ -7,7 +7,7 @@
         "a": "The figure presents total density profiles along the Z direction of an Al\u2082O\u2083 film after 0, 4, and 8 ALD cycles. All three profiles show a high initial density near the substrate interface, followed by a rapid decrease and a secondary peak around 5\u20137 \u00c5. With increasing ALD cycles, the density extends further into the film, producing broader and more gradual decay profiles. The L8 curve maintains higher density values at larger Z distances, indicating thicker and more fully developed film growth compared with L0 and L4."
     },
     "data_extraction": {
-        "a": "| Z (\u00c5) | Density L0 (g/cm\u00b3) | Density L4 (g/cm\u00b3) | Density L8 (g/cm\u00b3) |\n|---|---|---|---|\n| 3  | 1.15 | 1.15 | 1.15 |\n| 4  | 0.58 | 0.58 | 0.58 |\n| 5  | 0.65 | 0.63 | 0.61 |\n| 6  | 0.80 | 0.87 | 0.85 |\n| 7  | 0.56 | 0.70 | 0.70 |\n| 8  | 0.25 | 0.58 | 0.68 |\n| 9  | 0.10 | 0.38 | 0.58 |\n| 10 | 0.03 | 0.20 | 0.50 |\n| 11 | 0.00 | 0.10 | 0.40 |\n| 12 | 0.00 | 0.05 | 0.30 |\n| 13 | 0.00 | 0.00 | 0.18 |\n| 14 | 0.00 | 0.00 | 0.10 |\n| 15 | 0.00 | 0.00 | 0.00 |\n| 17 | 0.00 | 0.00 | 0.00 |"
+      "a": "| Z (\u00c5) | Density L0 (g/cm\u00b3) | Density L4 (g/cm\u00b3) | Density L8 (g/cm\u00b3) |\n| --- | --- | --- | --- |\n| 3 | 1.15 | 1.15 | 1.15 |\n| 4 | 0.58 | 0.58 | 0.58 |\n| 5 | 0.65 | 0.63 | 0.61 |\n| 6 | 0.80 | 0.87 | 0.85 |\n| 7 | 0.56 | 0.70 | 0.70 |\n| 8 | 0.25 | 0.58 | 0.68 |\n| 9 | 0.10 | 0.38 | 0.58 |\n| 10 | 0.03 | 0.20 | 0.50 |\n| 11 | 0.00 | 0.10 | 0.40 |\n| 12 | 0.00 | 0.05 | 0.30 |\n| 13 | 0.00 | 0.00 | 0.18 |\n| 14 | 0.00 | 0.00 | 0.10 |\n| 15 | 0.00 | 0.00 | 0.00 |\n| 17 | 0.00 | 0.00 | 0.00 |"
     },
     "vqa": {
         "a": [

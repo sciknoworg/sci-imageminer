@@ -9,8 +9,8 @@
         "b": "Transition state for reaction F on the SiO\u2082 surface, showing a shortened Ti\u2212O bond (1.90 \u00c5), partial breaking of the Ti\u2212I1 bond (3.03 \u00c5), partial formation of the Si\u2212I1 bond (2.69 \u00c5), and partial breaking of the Si\u2212O bond (2.07 \u00c5). Delocalization interactions between I lone pairs and Ti antibonding orbitals are also present, with an activation barrier of 15.7 kcal/mol and a reaction enthalpy of \u221223.3 kcal/mol."
     },
     "data_extraction": {
-        "a": "|Atoms|Bond Lengths (\u00c5)|\n|-----|----------------|\n|Ti-O|1.75|\n|Ti-Si|2.64|\n|Si-O|2.22|\n|O-Si|2.69|\n|Si-O-H|2.22|\n|Si-O-H|3.03|",
-        "b": "|Atoms|Bond Lengths (\u00c5)|\n|-----|----------------|\n|Ti-O|1.90|\n|Ti-I1|3.03|\n|Ti-I2/I3|2.91 (approx.)|\n|Ti-I4|2.95 (approx.)|\n|Si-O|2.07|\n|Si-I1|2.69|"
+      "a": "| Atoms | Bond Lengths (\u00c5) |\n| --- | --- |\n| Ti-O | 1.75 |\n| Ti-Si | 2.64 |\n| Si-O | 2.22 |\n| O-Si | 2.69 |\n| Si-O-H | 2.22 |\n| Si-O-H | 3.03 |",
+      "b": "| Atoms | Bond Lengths (\u00c5) |\n| --- | --- |\n| Ti-O | 1.90 |\n| Ti-I1 | 3.03 |\n| Ti-I2/I3 | 2.91 (approx.) |\n| Ti-I4 | 2.95 (approx.) |\n| Si-O | 2.07 |\n| Si-I1 | 2.69 |"
     },
     "vqa": {
         "b": [

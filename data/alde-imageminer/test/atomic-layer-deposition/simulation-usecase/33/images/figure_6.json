@@ -9,8 +9,8 @@
         "b": "Hall mobility after the same steps, with the pristine reference annealed at 400 C before the Hall measurement. Mobility drops after H2 plasma, then recovers after 200 C and rises further after 400 C to above the initial value."
     },
     "data_extraction": {
-        "a": "| Raman Shift, cm\u207b\u00b9 | Peak | Pristine | H\u2082 Plasma | 200\u00b0C Anneal | 400\u00b0C Anneal |\n|---|---|---|---|---|---|\n| 1350 | D | 0.05 | 0.15 | 0.12 | 0.08 |\n| 1580 | G | 0.55 | 0.70 | 0.75 | 0.80 |\n| 2450 | D+D' | 0.05 | 0.08 | 0.06 | 0.05 |\n| 2700 | 2D | 1.00 | 0.45 | 0.50 | 0.55 |",
-        "b": "| Treatment Stage | Mobility (cm\u00b2/(V\u00b7s)) |\n|---|---|\n| Pristine | 1250 |\n| H\u2082 Plasma | 400 |\n| 200\u00b0C Anneal | 900 |\n| 400\u00b0C Anneal | 1700 |"
+      "a": "| Raman Shift, cm-\u00b9 | Peak | Pristine | H\u2082 Plasma | 200\u00b0C Anneal | 400\u00b0C Anneal |\n| --- | --- | --- | --- | --- | --- |\n| 1350 | D | 0.05 | 0.15 | 0.12 | 0.08 |\n| 1580 | G | 0.55 | 0.70 | 0.75 | 0.80 |\n| 2450 | D+D' | 0.05 | 0.08 | 0.06 | 0.05 |\n| 2700 | 2D | 1.00 | 0.45 | 0.50 | 0.55 |",
+      "b": "| Treatment Stage | Mobility (cm\u00b2/(V\u00b7s)) |\n| --- | --- |\n| Pristine | 1250 |\n| H\u2082 Plasma | 400 |\n| 200\u00b0C Anneal | 900 |\n| 400\u00b0C Anneal | 1700 |"
     },
     "vqa": {
         "a": [

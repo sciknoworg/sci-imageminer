@@ -7,7 +7,7 @@
         "a": "The figure shows growth rate of thermal ALD Ta\u2082O\u2085 as a function of PDMAT exposure time at 250\u00b0C. The growth rate increases rapidly at short exposure times and saturates at approximately 0.85 \u00c5/cycle for t_s \u2265 1 s, demonstrating self-limiting adsorption characteristic of ideal ALD behavior."
     },
     "data_extraction": {
-        "a": "| t_s (s) | Growth rate (\u00c5/cycle) |\n|---|---|\n| 0 | 0 |\n| 0.5 | 0.7 |\n| 1 | 0.8 |\n| 1.5 | 0.8 |\n| 2 | 0.8 |\n| 2.5 | 0.8 |\n| 3 | 0.8 |\n| 3.5 | 0.8 |\n| 4 | 0.8 |\n| 4.5 | 0.8 |\n| 5 | 0.8 |"
+      "a": "| t_s (s) | Growth rate (\u00c5/cycle) |\n| --- | --- |\n| 0 | 0 |\n| 0.5 | 0.7 |\n| 1 | 0.8 |\n| 1.5 | 0.8 |\n| 2 | 0.8 |\n| 2.5 | 0.8 |\n| 3 | 0.8 |\n| 3.5 | 0.8 |\n| 4 | 0.8 |\n| 4.5 | 0.8 |\n| 5 | 0.8 |"
     },
     "vqa": {
         "a": [

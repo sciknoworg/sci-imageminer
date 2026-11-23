@@ -7,7 +7,7 @@
         "a": "The chart shows the gibbs free energy changes as a function of temperature for various chemical reactions."
     },
     "data_extraction": {
-        "a": "| Reaction                                                       | \u0394G Range (kJ/mol) | Trend with Temperature |\n|--------------------------------------------------------------|--------------------|-------------------------|\n| MoO\u2082 + NbCl\u2085(g) \u2192 MoOCl\u2082(g) + NbOCl\u2083(g)                    | ~150 to ~50       | Decreases              |\n| MoO\u2083 + 3 NbCl\u2085(g) \u2192 MoCl\u2086(g) + 3 NbOCl\u2083(g)                 | ~120 to ~20       | Decreases              |\n| MoO\u2082 + 2 NbCl\u2085(g) \u2192 MoOCl\u2084(g) + 2 NbOCl\u2083(g)                | ~50 to ~-50       | Decreases              |\n| MoO\u2083 + 2 NbCl\u2085(g) \u2192 MoOCl\u2084(g) + 2 NbOCl\u2083(g)                | ~0 to ~-100       | Decreases              |\n| MoO\u2083 + NbCl\u2085(g) \u2192 MoO\u2082Cl\u2082(g) + NbOCl\u2083(g)                   | ~-50 to ~-150     | Decreases              |"
+      "a": "| Reaction | \u0394G Range (kJ/mol) | Trend with Temperature |\n| --- | --- | --- |\n| MoO\u2082 + NbCl\u2085(g) \u2192 MoOCl\u2082(g) + NbOCl\u2083(g) | ~150 to ~50 | Decreases |\n| MoO\u2083 + 3 NbCl\u2085(g) \u2192 MoCl\u2086(g) + 3 NbOCl\u2083(g) | ~120 to ~20 | Decreases |\n| MoO\u2082 + 2 NbCl\u2085(g) \u2192 MoOCl\u2084(g) + 2 NbOCl\u2083(g) | ~50 to ~-50 | Decreases |\n| MoO\u2083 + 2 NbCl\u2085(g) \u2192 MoOCl\u2084(g) + 2 NbOCl\u2083(g) | ~0 to ~-100 | Decreases |\n| MoO\u2083 + NbCl\u2085(g) \u2192 MoO\u2082Cl\u2082(g) + NbOCl\u2083(g) | ~-50 to ~-150 | Decreases |"
     },
     "vqa": {
         "a": [

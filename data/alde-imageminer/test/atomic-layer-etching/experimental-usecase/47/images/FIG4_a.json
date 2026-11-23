@@ -7,7 +7,7 @@
         "a": "The etch per cycle EPC (in \u00c5) is plotted against oxygen pulse length (in seconds). As the oxygen pulse length increases, there is a corresponding increase in EPC."
     },
     "data_extraction": {
-        "a": "| O\u2082 pulse length (s) | EPC (\u00c5) |\n|---|---|\n| 1 | 0.4 |\n| 2 | 0.8 |\n| 3 | 1.2 |\n| 6 | 1.8 |\n| 10 | 2.0 |"
+      "a": "| O\u2082 pulse length (s) | EPC (\u00c5) |\n| --- | --- |\n| 1 | 0.4 |\n| 2 | 0.8 |\n| 3 | 1.2 |\n| 6 | 1.8 |\n| 10 | 2.0 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "This in situ FTIR spectroscopy measurement shows the progressive loss of infrared absorbance from Al\u2013O stretching vibrations (800\u20131000 cm\u207b\u00b9) during Al\u2082O\u2083 ALE at 300\u00b0C. The spectra are referenced to the initial ZrO\u2082 nanoparticle substrate. As the number of ALE cycles increases from 0 to 4, 6, and 8, the absorbance peak centered around 900 cm\u207b\u00b9 systematically decreases in intensity, directly confirming the removal of Al\u2082O\u2083 material. The Al\u2082O\u2083 film was initially grown using 15 cycles of Al\u2082O\u2083 ALD with TMA and H\u2082O at 150\u00b0C, then etched using sequential TMA and HF exposures at 300\u00b0C."
     },
     "data_extraction": {
-        "a": "| Wavenumber (cm\u207b\u00b9) | Absorbance (0 cycles) | Absorbance (4 cycles) | Absorbance (6 cycles) | Absorbance (8 cycles) |\n|---|---:|---:|---:|---:|\n| 1300 | ~0.06 | ~0.05 | ~0.04 | ~0.03 |\n| 1100 | ~0.06 | ~0.05 | ~0.04 | ~0.03 |\n| 940  | ~0.59 | ~0.56 | ~0.50 | ~0.40 |\n| 900  | ~0.53 | ~0.52 | ~0.42 | ~0.38 |\n| 800  | ~0.00 | ~0.00 | ~0.00 | ~0.00 |\n| 700  | ~0.00 | ~0.00 | ~0.00 | ~0.00 |"
+      "a": "| Wavenumber (cm-\u00b9) | Absorbance (0 cycles) | Absorbance (4 cycles) | Absorbance (6 cycles) | Absorbance (8 cycles) |\n| --- | --- | --- | --- | --- |\n| 1300 | ~0.06 | ~0.05 | ~0.04 | ~0.03 |\n| 1100 | ~0.06 | ~0.05 | ~0.04 | ~0.03 |\n| 940 | ~0.59 | ~0.56 | ~0.50 | ~0.40 |\n| 900 | ~0.53 | ~0.52 | ~0.42 | ~0.38 |\n| 800 | ~0.00 | ~0.00 | ~0.00 | ~0.00 |\n| 700 | ~0.00 | ~0.00 | ~0.00 | ~0.00 |"
     }, 
     "vqa": {
         "a": [

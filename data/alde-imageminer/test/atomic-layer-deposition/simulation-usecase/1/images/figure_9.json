@@ -13,10 +13,10 @@
         "d": "Transition state for reaction D, showing elongated Ti\u2212I and H\u2212O bonds and a shortened Ti\u2212O bond, indicating progression toward HI formation."
     },
     "data_extraction": {
-        "a": "|Element|Color|\n|-------|-----|\n|Ti|Gray|\n|O|Red|\n|Si|Cyan|\n|H|White|",
-        "b": "|Element|Color|\n|-------|-----|\n|Ti|Gray|\n|O|Red|\n|Si|Cyan|\n|H|White|",
-        "c": "|Element|Color|\n|-------|-----|\n|Ti|Gray|\n|O|Red|\n|H|White|\n|I|Purple|",
-        "d": "|Element|Color|\n|-------|-----|\n|Ti|Gray|\n|O|Red|\n|H|White|\n|I|Purple|"
+      "a": "| Element | Color |\n| --- | --- |\n| Ti | Gray |\n| O | Red |\n| Si | Cyan |\n| H | White |",
+      "b": "| Element | Color |\n| --- | --- |\n| Ti | Gray |\n| O | Red |\n| Si | Cyan |\n| H | White |",
+      "c": "| Element | Color |\n| --- | --- |\n| Ti | Gray |\n| O | Red |\n| H | White |\n| I | Purple |",
+      "d": "| Element | Color |\n| --- | --- |\n| Ti | Gray |\n| O | Red |\n| H | White |\n| I | Purple |"
     },
     "vqa": {
         "a": [

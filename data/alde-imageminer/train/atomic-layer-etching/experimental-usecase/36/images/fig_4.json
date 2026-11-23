@@ -7,7 +7,7 @@
         "a": "The chart shows a linear relationship between the number of cycles and the amount of blanket TiO2 etched (in nm), indicating a consistent increase with each cycle."
     },
     "data_extraction": {
-        "a": "| Number of cycles | blanket TiO2 etched amount (nm) |\n|---|---|\n| 0 | 0 |\n| 1 | 0.69 |\n| 4 | 2.89 |\n| 8 | 5.66 |\n| 12 | 8.65 |"
+      "a": "| Number of cycles | blanket TiO2 etched amount (nm) |\n| --- | --- |\n| 0 | 0 |\n| 1 | 0.69 |\n| 4 | 2.89 |\n| 8 | 5.66 |\n| 12 | 8.65 |"
     },
     "vqa": {
         "a": [

@@ -8,8 +8,8 @@
         "a": "The two scatter plots examine how growth rate varies with increasing N\u2082 purge time after the TDMASn pulse during an ALD process. In both cases, a sharp decrease in growth rate is observed between 0 s and 60 s of purge time, indicating rapid removal or deactivation of reactive surface species. In plot (a), the growth rate partially recovers at intermediate purge times, while in (b), it continues to decrease monotonically. This suggests different mechanisms or sensitivities to precursor byproducts or surface reactivity in the two experimental conditions, possibly related to substrate type, reactant sequence, or deposition temperature."
     },
     "data_extraction": {
-        "a": "| N\u2082 Purge after TDMASn Pulse (s) | Growth Rate (\u00c5/cycle) |\n|---|---|\n| 0 | 2.5 |\n| 60 | 2.0 |\n| 180 | 2.7 |\n| 360 | 2.2 |",
-        "b": "| N\u2082 Purge after TDMASn Pulse (s) | Growth Rate (\u00c5/cycle) |\n|---|---|\n| 0 | 3.5 |\n| 60 | 2.0 |\n| 180 | 1.8 |\n| 360 | 1.7 |"
+      "a": "| N\u2082 Purge after TDMASn Pulse (s) | Growth Rate (\u00c5/cycle) |\n| --- | --- |\n| 0 | 2.5 |\n| 60 | 2.0 |\n| 180 | 2.7 |\n| 360 | 2.2 |",
+      "b": "| N\u2082 Purge after TDMASn Pulse (s) | Growth Rate (\u00c5/cycle) |\n| --- | --- |\n| 0 | 3.5 |\n| 60 | 2.0 |\n| 180 | 1.8 |\n| 360 | 1.7 |"
     },
     "vqa": {
         "b": [

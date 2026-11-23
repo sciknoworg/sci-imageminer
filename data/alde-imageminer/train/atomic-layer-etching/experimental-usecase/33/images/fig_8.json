@@ -7,7 +7,7 @@
         "a": "The line chart illustrates the variation of N/Ti ratio across different conditions: 'With native oxide', 'Before mod.', 'After mod.', and 'IR Annealing'."
     },
     "data_extraction": {
-        "a": "|Process step| N/Ti Ratio | \n|---|---|\n| With native oxide| 0.95 | \n| Before mod. |0.98 | \n| After mod. |0.75 | \n| IR Annealing | 1.00 |"
+      "a": "| Process step | N/Ti Ratio |\n| --- | --- |\n| With native oxide | 0.95 |\n| Before mod. | 0.98 |\n| After mod. | 0.75 |\n| IR Annealing | 1.00 |"
     },
     "vqa": {
         "a": [

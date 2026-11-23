@@ -7,7 +7,7 @@
         "a": "The chart shows the relation between SiH\u2084/NH\u2083 ratio and Si content and film thickness per cycle. As the ratio increases, the Si content increases until it reaches a plateau, while the film thickness per cycle decreases."
     },
     "data_extraction": {
-        "a": "| SiH\u2084/NH\u2083 ratio | Si Contents [at.%] | Film thickness per cycle [nm/cycle] |\n|---|---|---|\n| 10\u207b\u00b2 | 1 | 0.38 |\n| 10\u207b\u00b9 | 18 | 0.28 |\n| 10\u2070 | 23 | 0.19 |\n| 10\u00b9 | 23 | 0.01 |"
+      "a": "| SiH\u2084/NH\u2083 ratio | Si Contents [at.%] | Film thickness per cycle [nm/cycle] |\n| --- | --- | --- |\n| 10-\u00b2 | 1 | 0.38 |\n| 10-\u00b9 | 18 | 0.28 |\n| 10\u2070 | 23 | 0.19 |\n| 10\u00b9 | 23 | 0.01 |"
     },
     "vqa": {
         "a": [

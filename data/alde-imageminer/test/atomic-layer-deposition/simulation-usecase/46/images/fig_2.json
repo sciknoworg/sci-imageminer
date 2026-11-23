@@ -17,12 +17,12 @@
         "f": "Optimized adsorption configuration of TeDMAS on the hydroxyl-terminated Si(001) surface, illustrating the influence of the highest DMA ligand count on precursor\u2013surface interaction strength and steric effects."
     },
     "data_extraction": {
-        "a": "| Interaction                | Distance (\u00c5) |\n|---------------------------|--------------|\n| H(surface) \u2013 Si           | 2.33         |\n| O(surface) \u2013 H(silane)    | 2.89         |\n| Internal Si\u2013H reference   | 1.49         |",
-        "b": "| Interaction                         | Distance (\u00c5) |\n|------------------------------------|--------------|\n| Si \u2013 surface O                     | 1.74         |\n| Si \u2013 surface H                     | 3.03         |\n| Internal ligand bond               | 1.76         |",
-        "c": "| Interaction              | Distance (\u00c5) |\n|--------------------------|--------------|\n| Si \u2013 O(surface)          | 1.69         |\n| N \u2013 H(surface)           | 1.76         |\n| Secondary Si \u2013 surface   | 3.12         |",
-        "d": "| Interaction              | Distance (\u00c5) |\n|--------------------------|--------------|\n| N \u2013 H(surface)           | 1.75         |\n| N \u2013 H(surface)           | 1.83         |\n| Internal ligand bond     | 1.84         |",
-        "e": "| Interaction              | Distance (\u00c5) |\n|--------------------------|--------------|\n| Si \u2013 O(surface)          | 1.77         |\n| N \u2013 H(surface)           | 1.76         |\n| Secondary Si \u2013 surface   | 3.20         |",
-        "f": "| Interaction              | Distance (\u00c5) |\n|--------------------------|--------------|\n| Si \u2013 O(surface)          | 1.75         |\n| N \u2013 H(surface)           | 1.77         |\n| Secondary Si \u2013 surface   | 3.44         |"
+      "a": "| Interaction | Distance (\u00c5) |\n| --- | --- |\n| H(surface) \u2013 Si | 2.33 |\n| O(surface) \u2013 H(silane) | 2.89 |\n| Internal Si\u2013H reference | 1.49 |",
+      "b": "| Interaction | Distance (\u00c5) |\n| --- | --- |\n| Si \u2013 surface O | 1.74 |\n| Si \u2013 surface H | 3.03 |\n| Internal ligand bond | 1.76 |",
+      "c": "| Interaction | Distance (\u00c5) |\n| --- | --- |\n| Si \u2013 O(surface) | 1.69 |\n| N \u2013 H(surface) | 1.76 |\n| Secondary Si \u2013 surface | 3.12 |",
+      "d": "| Interaction | Distance (\u00c5) |\n| --- | --- |\n| N \u2013 H(surface) | 1.75 |\n| N \u2013 H(surface) | 1.83 |\n| Internal ligand bond | 1.84 |",
+      "e": "| Interaction | Distance (\u00c5) |\n| --- | --- |\n| Si \u2013 O(surface) | 1.77 |\n| N \u2013 H(surface) | 1.76 |\n| Secondary Si \u2013 surface | 3.20 |",
+      "f": "| Interaction | Distance (\u00c5) |\n| --- | --- |\n| Si \u2013 O(surface) | 1.75 |\n| N \u2013 H(surface) | 1.77 |\n| Secondary Si \u2013 surface | 3.44 |"
     },
     "vqa": {
         "d": [

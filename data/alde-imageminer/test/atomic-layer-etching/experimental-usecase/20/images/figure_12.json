@@ -9,8 +9,8 @@
         "b": "The line chart displays the intensity of AlCl\u2082\u207a and AlCl\u2083\u207a as a function of temperature. Both intensities increase with temperature, with AlCl\u2082\u207a showing a steeper rise than AlCl\u2083\u207a."
     },
     "data_extraction": {
-        "a": "| Temperature (\u00b0C) | BCl\u2083\u207a | BCIF\u2082\u207a | BCl\u2082F\u207a | BF\u2083\u207a |\n|----------------|-------|--------|---------|-------|\n| 0             |  200  |  40    |    0    |   0   |\n| 100           |  160   |  40     |    20    |   10   |\n| 200           |  150   |  40     |   20     |   20   |\n| 300           |  80   |   100   |    80    |   100   |\n| 400           |  -   |   -   |    -    |   -   |",
-        "b": "| Temperature (\u00b0C) | AlCl\u2082\u207a | AlCl\u2083\u207a |\n|----------------|--------|--------|\n| 0              | 0      | 0      |\n| 100            | 0     | 0     |\n| 200            | 0    | 0     |\n| 300            | 200    | 80     |\n| 400            | -    | -     |"
+      "a": "| Temperature (\u00b0C) | BCl\u2083\u207a | BCIF\u2082\u207a | BCl\u2082F\u207a | BF\u2083\u207a |\n| --- | --- | --- | --- | --- |\n| 0 | 200 | 40 | 0 | 0 |\n| 100 | 160 | 40 | 20 | 10 |\n| 200 | 150 | 40 | 20 | 20 |\n| 300 | 80 | 100 | 80 | 100 |\n| 400 | - | - | - | - |",
+      "b": "| Temperature (\u00b0C) | AlCl\u2082\u207a | AlCl\u2083\u207a |\n| --- | --- | --- |\n| 0 | 0 | 0 |\n| 100 | 0 | 0 |\n| 200 | 0 | 0 |\n| 300 | 200 | 80 |\n| 400 | - | - |"
     },
     "vqa": {
         "a": [

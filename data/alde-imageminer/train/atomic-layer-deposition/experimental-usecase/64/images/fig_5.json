@@ -7,7 +7,7 @@
         "a": "The figure shows the growth rate of ruthenium films deposited from RuCp2 on an iridium substrate as a function of deposition temperature. Film thicknesses were measured by EDX and XRR, and the growth rate increases with temperature, ranging from about 0.12 \u00c5/cycle at 225\u202f\u00b0C to 0.35 \u00c5/cycle at 275\u202f\u00b0C."
     },
     "data_extraction": {
-        "a": "| Deposition temperature (\u00b0C) | Growth rate (\u00c5 cycle\u207b\u00b9) |\n|---|---|\n| 225 | 0.12 |\n| 230 | 0.15 |\n| 250 | 0.25 |\n| 275 | 0.35 |\n| 280 | 0.33 |"
+      "a": "| Deposition temperature (\u00b0C) | Growth rate (\u00c5 cycle-\u00b9) |\n| --- | --- |\n| 225 | 0.12 |\n| 230 | 0.15 |\n| 250 | 0.25 |\n| 275 | 0.35 |\n| 280 | 0.33 |"
     },
     "vqa": {
         "a": [

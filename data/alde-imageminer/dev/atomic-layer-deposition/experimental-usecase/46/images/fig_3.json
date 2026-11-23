@@ -9,8 +9,8 @@
         "b": "TEM cross-sectional view of  unpassivated InGaAs device"
     },
     "data_extraction": {
-        "a": "| Pd |   (HfO<sub>2</sub>)| Interfacial layer (IL)| \n|---------|-----------------|-----------|\n|  9nm     |   9.4 nm    | 0.8 nm       |",
-        "b": "| Pd |  (HfO<sub>2</sub>) | Interfacial layer (IL)| \n|---------|-----------------|-----------|\n|  9nm     |   5.2 nm    | 1.9 nm       |"
+      "a": "| Pd | (HfO<sub>2</sub>) | Interfacial layer (IL) |\n| --- | --- | --- |\n| 9nm | 9.4 nm | 0.8 nm |",
+      "b": "| Pd | (HfO<sub>2</sub>) | Interfacial layer (IL) |\n| --- | --- | --- |\n| 9nm | 5.2 nm | 1.9 nm |"
     },
     "vqa": {
         "b": [

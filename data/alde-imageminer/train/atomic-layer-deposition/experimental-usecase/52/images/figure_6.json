@@ -7,7 +7,7 @@
         "a": "The chart displays the number of atoms per nm\u00b2 supercycle for Li NRA, Li RBS, and Co RBS measurements, along with the Co/Li atomic ratio, against the Co/Li dosing ratio"
     },
     "data_extraction": {
-        "a": "| Co/Li dosing ratio (x) | Li NRA (atoms/nm\u00b2 supercycle) | Li RBS (atoms/nm\u00b2 supercycle) | Co RBS (atoms/nm\u00b2 supercycle) | Co/Li atomic ratio |\n|---|---|---|---|---|\n| 2 | 5.0 | 4.9 | 1.6 | 0.35 |\n| 3 | 5.0 | 4.7 | 2.7 | 0.50 |\n| 4 | 4.8 | 4.5 | 4.0 | 0.80 |\n| 5 | 5.0 | 6.0 | 4.9 | 0.85 |"
+      "a": "| Co/Li dosing ratio (x) | Li NRA (atoms/nm\u00b2 supercycle) | Li RBS (atoms/nm\u00b2 supercycle) | Co RBS (atoms/nm\u00b2 supercycle) | Co/Li atomic ratio |\n| --- | --- | --- | --- | --- |\n| 2 | 5.0 | 4.9 | 1.6 | 0.35 |\n| 3 | 5.0 | 4.7 | 2.7 | 0.50 |\n| 4 | 4.8 | 4.5 | 4.0 | 0.80 |\n| 5 | 5.0 | 6.0 | 4.9 | 0.85 |"
     },
     "vqa": {
         "a": [

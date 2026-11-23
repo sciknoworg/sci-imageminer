@@ -7,7 +7,7 @@
         "a": "The line chart shows the relationship between the duration of C\u2084F\u2088 plasma treatment (in s) and the thickness of the CF polymer formed (in nm), indicating a linear relationship between them."
     },
     "data_extraction": {
-        "a": "| C\u2084F\u2088 plasma treatment time (s) | Thickness of CF polymer (nm) |\n|---|---|\n| 0 | 0 |\n| 10 | 3.53 |\n| 30 | 13.11 |\n| 60 | 26.91 |"
+      "a": "| C\u2084F\u2088 plasma treatment time (s) | Thickness of CF polymer (nm) |\n| --- | --- |\n| 0 | 0 |\n| 10 | 3.53 |\n| 30 | 13.11 |\n| 60 | 26.91 |"
     },
     "vqa": {
         "a": [

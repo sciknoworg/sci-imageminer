@@ -9,8 +9,8 @@
         "b": "This line chart represents the change in refractive index (at 632.8 nm) with increasing WF\u2086 doses, showing a sharp initial drop (0\u201325 doses) followed by stabilization at ~1.85, indicating initial chemical modification before steady-state etching."
     },
     "data_extraction": {
-        "a": "| Number of WF\u2086 Doses | Thickness (\u00c5) |\n|--------------------:|--------------:|\n| 0   | 56.00 |\n| 10  | 58.64 |\n| 25  | 53.11 |\n| 50  | 50.34 |\n| 100 | 33.71 |",
-        "b": "| Number of WF\u2086 Doses | Refractive Index @ 632.8 nm |\n|--------------------:|----------------------------:|\n| 0   | 2.31 |\n| 10  | 2.29 |\n| 25  | 1.88 |\n| 50  | 1.83 |\n| 100 | 1.90 |"
+      "a": "| Number of WF\u2086 Doses | Thickness (\u00c5) |\n| --- | --- |\n| 0 | 56.00 |\n| 10 | 58.64 |\n| 25 | 53.11 |\n| 50 | 50.34 |\n| 100 | 33.71 |",
+      "b": "| Number of WF\u2086 Doses | Refractive Index @ 632.8 nm |\n| --- | --- |\n| 0 | 2.31 |\n| 10 | 2.29 |\n| 25 | 1.88 |\n| 50 | 1.83 |\n| 100 | 1.90 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The figure plots the mass per cycle (MPC) during 400 ALD cycles for ZnO and GeO\u2093 films. Each deposition was interrupted after 200 cycles by inserting a single cycle of the opposite material, creating ZnO/GeO\u2093/ZnO and GeO\u2093/ZnO/GeO\u2093 sequences"
     },
     "data_extraction": {
-        "a": "| Cycle Number | ZnO / 1 cycle GeO\u2093 / ZnO (ng/cm\u00b2) | GeO\u2093 / 1 cycle ZnO / GeO\u2093 (ng/cm\u00b2) |\n|--------------|------------------------------------|--------------------------------------|\n| 0            | 140                                | 20                                   |\n| 50           | 145                                | 22                                   |\n| 100          | 147                                | 23                                   |\n| 150          | 148                                | 24                                   |\n| 200 (Interruption) | 150            | 50                                   |\n| 250          | 152                                | 24                                   |\n| 300          | 153                                | 25                                   |\n| 350          | 155                                | 26                                   |\n| 400          | 158                                | 27                                   |"
+      "a": "| Cycle Number | ZnO / 1 cycle GeO\u2093 / ZnO (ng/cm\u00b2) | GeO\u2093 / 1 cycle ZnO / GeO\u2093 (ng/cm\u00b2) |\n| --- | --- | --- |\n| 0 | 140 | 20 |\n| 50 | 145 | 22 |\n| 100 | 147 | 23 |\n| 150 | 148 | 24 |\n| 200 (Interruption) | 150 | 50 |\n| 250 | 152 | 24 |\n| 300 | 153 | 25 |\n| 350 | 155 | 26 |\n| 400 | 158 | 27 |"
     },
     "vqa": {
         "a": [

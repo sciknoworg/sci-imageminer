@@ -7,7 +7,7 @@
         "a": "The figure plots the change in energy (\u0394E) in kJ/mol for various compounds when interacting with H2O and NH3."
     },
     "data_extraction": {
-        "a": "| Precursor       | \u0394E (kJ/mol) with H\u2082O | \u0394E (kJ/mol) with NH\u2083 |\n|------------------|------------------------|------------------------|\n| SiH\u2082Cl\u2082         | 0                      | +45                   |\n| SiH\u2082DMA\u2082        | -30                    | 0                     |\n| SiH\u2082HFMA\u2082       | -60                    | -20                   |\n| SiH\u2082EMA\u2082        | -50                    | 0                     |\n| BDEAS           | -55                    | -2                    |\n| BTBAS           | -60                    | -10                   |\n| SiH\u2082CH\u2083         | -110                   | -70                   |\n| SiH\u2084            | -80                    | -30                   |"
+      "a": "| Precursor | \u0394E (kJ/mol) with H\u2082O | \u0394E (kJ/mol) with NH\u2083 |\n| --- | --- | --- |\n| SiH\u2082Cl\u2082 | 0 | +45 |\n| SiH\u2082DMA\u2082 | -30 | 0 |\n| SiH\u2082HFMA\u2082 | -60 | -20 |\n| SiH\u2082EMA\u2082 | -50 | 0 |\n| BDEAS | -55 | -2 |\n| BTBAS | -60 | -10 |\n| SiH\u2082CH\u2083 | -110 | -70 |\n| SiH\u2084 | -80 | -30 |"
     },
     "vqa": {
         "a": [

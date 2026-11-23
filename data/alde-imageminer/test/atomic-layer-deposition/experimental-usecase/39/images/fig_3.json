@@ -7,7 +7,7 @@
         "a": "The chart shows the growth rate of SE (angstroms per cycle) at 70 and 200 \u00b0C and QCM mass gain (Hz) against the number of Al(CH\u2083)\u2083 exposures per cycle."
     },
     "data_extraction": {
-        "a": "| Number of Al(CH\u2083)\u2083 exp. per cycle | SE: Growth rate (\u00c5/cycle) 70 \u00b0C |SE: Growth rate (\u00c5/cycle) 200 \u00b0C | QCM: Mass gain (Hz) 70 \u00b0C |\n|---|---|---|---|\n| 1 | 1.2 | 1.0 | 4.25 |\n| 2 | 1.5 | 1.2 | 5.5 |\n| 3 | 1.6 | 1.25 | 6.0 |\n| 4 | 1.7 |  | 6.5 |\n| 6 | 1.7 |  | 6.5 |\n| 8 |  | 1.25 |  |\n| 10 | 1.8 |  | 6.75 |\n| 15 | 1.8 |  | 6.75 |"
+      "a": "| Number of Al(CH\u2083)\u2083 exp. per cycle | SE: Growth rate (\u00c5/cycle) 70 \u00b0C | SE: Growth rate (\u00c5/cycle) 200 \u00b0C | QCM: Mass gain (Hz) 70 \u00b0C |\n| --- | --- | --- | --- |\n| 1 | 1.2 | 1.0 | 4.25 |\n| 2 | 1.5 | 1.2 | 5.5 |\n| 3 | 1.6 | 1.25 | 6.0 |\n| 4 | 1.7 |  | 6.5 |\n| 6 | 1.7 |  | 6.5 |\n| 8 |  | 1.25 |  |\n| 10 | 1.8 |  | 6.75 |\n| 15 | 1.8 |  | 6.75 |"
     },
     "vqa": {
         "a": [

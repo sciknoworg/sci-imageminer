@@ -11,9 +11,9 @@
         "c": "The figure shows the XPS data of the Cl 2p region for six different samples"
     },
     "data_extraction": {
-        "a": "| Sample | Binding Energy (eV) |\n|---|---| \n| Pristine | Peaks at 230, 233 |\n| 1st cycle | Peaks at 230, 233 | \n| 2nd Cl | Peaks at 230, 233 |\n| 2nd Ar | Peaks at 230, 233 |\n| 3rd Cl | Peaks at 230, 233, 236 |\n| 3rd Ar | Peaks at 233, 236 |",
-        "b": "| Sample | Binding Energy (eV) |\n|---|---| \n| Pristine | Peaks at 162, 164 |\n| 1st cycle | Peaks at 162, 164 | \n| 2nd Cl | Peaks at 162, 164 |\n| 2nd Ar | Peaks at 162, 164 |\n| 3rd Cl | Peaks at 162, 164 |\n| 3rd Ar |  |",
-        "c": "| Sample | Binding Energy (eV) |\n|---|---| \n| Pristine |  |\n| 1st cycle |  | \n| 2nd Cl | Peaks at 202, 200 |\n| 2nd Ar |  |\n| 3rd Cl | Peaks at 202, 200 |\n| 3rd Ar |  |"
+      "a": "| Sample | Binding Energy (eV) |\n| --- | --- |\n| Pristine | Peaks at 230, 233 |\n| 1st cycle | Peaks at 230, 233 |\n| 2nd Cl | Peaks at 230, 233 |\n| 2nd Ar | Peaks at 230, 233 |\n| 3rd Cl | Peaks at 230, 233, 236 |\n| 3rd Ar | Peaks at 233, 236 |",
+      "b": "| Sample | Binding Energy (eV) |\n| --- | --- |\n| Pristine | Peaks at 162, 164 |\n| 1st cycle | Peaks at 162, 164 |\n| 2nd Cl | Peaks at 162, 164 |\n| 2nd Ar | Peaks at 162, 164 |\n| 3rd Cl | Peaks at 162, 164 |\n| 3rd Ar |  |",
+      "c": "| Sample | Binding Energy (eV) |\n| --- | --- |\n| Pristine |  |\n| 1st cycle |  |\n| 2nd Cl | Peaks at 202, 200 |\n| 2nd Ar |  |\n| 3rd Cl | Peaks at 202, 200 |\n| 3rd Ar |  |"
     },
     "vqa": {
         "a": [

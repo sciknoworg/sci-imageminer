@@ -9,8 +9,8 @@
         "b": "The subfigure shows corresponding difference spectra in the O\u2013H stretching region. The presence and intensity of BO\u2013H and hydrogen-bonded O\u2013H features indicate different hydroxylation behavior depending on whether H2O or BCl3 is dosed first."
     },
     "data_extraction": {
-        "a": "| Wave number region (cm\u207b\u00b9) | Vibrational assignment | Difference between exposure sequences |\n|--------------------------|------------------------|---------------------------------------|\n| ~1400\u20131600 | B\u2013O stretch | Stronger feature for BCl3\u2192H2O sequence |\n| ~1000 | B\u2013Cl related mode | Present after BCl3 exposure, reduced after H2O |\n| ~700\u2013800 | B\u2013O\u2013B bend | Appears more clearly after H2O exposure |\n| ~500\u2013600 | O\u2013B\u2013O bend | Small but distinct differences between sequences |",
-        "b": "| Wave number region (cm\u207b\u00b9) | Vibrational assignment | Difference between exposure sequences |\n|--------------------------|------------------------|---------------------------------------|\n| ~3700 | BO\u2013H stretch | Sharp feature associated with hydroxyl formation |\n| ~3600\u20133200 | H-bonded O\u2013H | Broad positive band stronger for H2O\u2192BCl3 sequence |"
+      "a": "| Wave number region (cm-\u00b9) | Vibrational assignment | Difference between exposure sequences |\n| --- | --- | --- |\n| ~1400\u20131600 | B\u2013O stretch | Stronger feature for BCl3\u2192H2O sequence |\n| ~1000 | B\u2013Cl related mode | Present after BCl3 exposure, reduced after H2O |\n| ~700\u2013800 | B\u2013O\u2013B bend | Appears more clearly after H2O exposure |\n| ~500\u2013600 | O\u2013B\u2013O bend | Small but distinct differences between sequences |",
+      "b": "| Wave number region (cm-\u00b9) | Vibrational assignment | Difference between exposure sequences |\n| --- | --- | --- |\n| ~3700 | BO\u2013H stretch | Sharp feature associated with hydroxyl formation |\n| ~3600\u20133200 | H-bonded O\u2013H | Broad positive band stronger for H2O\u2192BCl3 sequence |"
     },
     "vqa": {
         "a": [

@@ -9,8 +9,8 @@
         "b": "The chart displays the relationship between plasma gas residence time (s) and time constant (s). There is a linear increase in time constant B with increasing plasma gas residence time, whilst time constan A remains constant."
     },
     "data_extraction": {
-        "a": "| Plasma exposure time (s) | Growth per cycle (\u00c5) 0.44 s|Growth per cycle (\u00c5) 0.15 s|Growth per cycle (\u00c5) 0.09 s|\n|---|---|---|---|\n| 0 | 0.0 |0.0|0.0|\n| 2 | 0.46 |0.31|0.27|\n| 4 | 0.44 |0.29|0.26|\n| 6 | 0.4 |0.26|0.25|\n| 8 | 0.35 |0.25|0.25|\n| 12 | 0.3 |0.24|0.24|\n| 16 | 0.27 |0.24|0.24|",
-        "b": "| Plasma gas residence time (s) | Time constant tB (s) | Time constant tA (s) |\n|---|---|---|\n| 0.0 | 0.0 |0.8|\n| 0.1 | 2 \u00b1 0.7 |0.8|\n| 0.15 | 2.5 \u00b1 0.3 |0.8|\n| 0.45 | 8 \u00b1 2 |0.8|"
+      "a": "| Plasma exposure time (s) | Growth per cycle (\u00c5) 0.44 s | Growth per cycle (\u00c5) 0.15 s | Growth per cycle (\u00c5) 0.09 s |\n| --- | --- | --- | --- |\n| 0 | 0.0 | 0.0 | 0.0 |\n| 2 | 0.46 | 0.31 | 0.27 |\n| 4 | 0.44 | 0.29 | 0.26 |\n| 6 | 0.4 | 0.26 | 0.25 |\n| 8 | 0.35 | 0.25 | 0.25 |\n| 12 | 0.3 | 0.24 | 0.24 |\n| 16 | 0.27 | 0.24 | 0.24 |",
+      "b": "| Plasma gas residence time (s) | Time constant tB (s) | Time constant tA (s) |\n| --- | --- | --- |\n| 0.0 | 0.0 | 0.8 |\n| 0.1 | 2 \u00b1 0.7 | 0.8 |\n| 0.15 | 2.5 \u00b1 0.3 | 0.8 |\n| 0.45 | 8 \u00b1 2 | 0.8 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The chart shows the growth rate of HfO\u2082 on borosilicate glass at various temperatures, along with the corresponding refractive index at 580 nm."
     },
     "data_extraction": {
-        "a": "| GROWTH TEMPERATURE, \u00b0C | GROWTH RATE, nm/cycle | REFRACTIVE INDEX AT 580 nm |\n|---|---|---|\n| 150 | 0.10 | 2.08 |\n| 175 | 0.09 | 2.08 |\n| 200 | 0.09 | 2.10 |\n| 225 | 0.09 | 2.09 |\n| 250 | 0.09 | 2.09 |\n| 275 | 0.10 | 2.08 |\n| 300 | 0.12 | 2.06 |\n| 325 | 0.15 | 2.05 |"
+      "a": "| GROWTH TEMPERATURE, \u00b0C | GROWTH RATE, nm/cycle | REFRACTIVE INDEX AT 580 nm |\n| --- | --- | --- |\n| 150 | 0.10 | 2.08 |\n| 175 | 0.09 | 2.08 |\n| 200 | 0.09 | 2.10 |\n| 225 | 0.09 | 2.09 |\n| 250 | 0.09 | 2.09 |\n| 275 | 0.10 | 2.08 |\n| 300 | 0.12 | 2.06 |\n| 325 | 0.15 | 2.05 |"
     },
     "vqa": {
         "a": [

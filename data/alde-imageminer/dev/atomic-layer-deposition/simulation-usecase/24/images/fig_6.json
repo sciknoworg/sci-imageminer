@@ -7,7 +7,7 @@
         "a": "The image depicts a reaction scheme illustrating the formation of (SiH\u2083O)\u2083Si-OH from ZrCl\u2084(g) and O\u2083Si-OH* through a transition state (TS), where the lines show  the energy changes (\u0394E) for different starting substrates (A, C, B) during a chemical reaction."
     },
     "data_extraction": {
-        "a": "| Reaction Step | \u0394E (kcal/mol) A |\u0394E (kcal/mol) B |\u0394E (kcal/mol) C |\n|---|---|---|---|\n| Start | 0 |0 |0 |\n| Complex | -16|-17|-17|\n| TS | 0|-0.5|-1|\n| HCl (g)| -5 |-5.5|-6|"
+      "a": "| Reaction Step | \u0394E (kcal/mol) A | \u0394E (kcal/mol) B | \u0394E (kcal/mol) C |\n| --- | --- | --- | --- |\n| Start | 0 | 0 | 0 |\n| Complex | -16 | -17 | -17 |\n| TS | 0 | -0.5 | -1 |\n| HCl (g) | -5 | -5.5 | -6 |"
     },
     "vqa": {
         "a": [

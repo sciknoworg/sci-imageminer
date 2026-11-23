@@ -9,8 +9,8 @@
         "b": "H (or OH) coverage at half the optimum level, leading to a non-linear reduction in growth rate to 1.1 \u00c5/cycle and a surface saturated with a mixture of Al(CH\u2083) and Al(CH\u2083)\u2082, illustrating the effect of reduced H/OH coverage on ALD kinetics."
     },
     "data_extraction": {
-        "a": "| Species | Coverage | Growth Rate (\u00c5/cycle) | Notes |\n|---|---|---|---|\n| [CH\u2083] | 0.5 \u00d7 optimum | 0.8 | Reduced TMA adsorption lowers growth rate |\n| OH | optimum | \u2013 | Hydroxyl coverage unchanged |",
-        "b": "| Species | Coverage | Growth Rate (\u00c5/cycle) | Notes |\n|---|---|---|---|\n| H | 0.5 \u00d7 optimum | 1.1 | Partial dehydroxylation affects growth rate non-linearly |\n| Al(CH\u2083)/Al(CH\u2083)\u2082 | mixed | \u2013 | Surface saturated mixture at end of TMA pulse |"
+      "a": "| Species | Coverage | Growth Rate (\u00c5/cycle) | Notes |\n| --- | --- | --- | --- |\n| [CH\u2083] | 0.5 \u00d7 optimum | 0.8 | Reduced TMA adsorption lowers growth rate |\n| OH | optimum | \u2013 | Hydroxyl coverage unchanged |",
+      "b": "| Species | Coverage | Growth Rate (\u00c5/cycle) | Notes |\n| --- | --- | --- | --- |\n| H | 0.5 \u00d7 optimum | 1.1 | Partial dehydroxylation affects growth rate non-linearly |\n| Al(CH\u2083)/Al(CH\u2083)\u2082 | mixed | \u2013 | Surface saturated mixture at end of TMA pulse |"
     },
     "vqa": {
         "a": [

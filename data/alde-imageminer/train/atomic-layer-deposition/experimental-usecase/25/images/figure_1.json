@@ -7,7 +7,7 @@
         "a": "The band diagram shows the energy levels of ZnO, SnOy, Zn1-xGexOy (ZGO), and Sn1-xGexOy (TGO) materials plotted against the cation ratio, x."
     },
     "data_extraction": {
-        "a": "| Material                | Conduction Band (E_c) [eV] | Valence Band (E_v) [eV] |\n|-------------------------|-----------------------------|---------------------------|\n| ZnO                    | -4.5                        | -7.5                      |\n| SnO_y                  | -4.8                        | -8.0                      |\n| ZGO (Zn\u2081\u208b\u2093Ge\u2093O_y)      | -4.5 \u2192 -4.0 (as x \u2192 1)      | -7.5 \u2192 -8.5 (as x \u2192 1)    |\n| TGO (Sn\u2081\u208b\u2093Ge\u2093O_y)      | -4.8 \u2192 -4.0 (as x \u2192 1)      | -8.0 \u2192 -8.8 (as x \u2192 1)    |\n| GeO_y                  | -4.0                        | -8.8                      |"
+      "a": "| Material | Conduction Band (E_c) [eV] | Valence Band (E_v) [eV] |\n| --- | --- | --- |\n| ZnO | -4.5 | -7.5 |\n| SnO_y | -4.8 | -8.0 |\n| ZGO (Zn\u2081\u208b\u2093Ge\u2093O_y) | -4.5 \u2192 -4.0 (as x \u2192 1) | -7.5 \u2192 -8.5 (as x \u2192 1) |\n| TGO (Sn\u2081\u208b\u2093Ge\u2093O_y) | -4.8 \u2192 -4.0 (as x \u2192 1) | -8.0 \u2192 -8.8 (as x \u2192 1) |\n| GeO_y | -4.0 | -8.8 |"
     },
     "vqa": {
         "a": [

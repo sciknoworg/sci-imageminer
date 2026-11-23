@@ -7,7 +7,7 @@
         "a": "This line chart presents mass change data during Al\u2082O\u2083 atomic layer etching (ALE) at 200\u00b0C, showing stepwise decreases in mass following alternating exposures to SF\u2084 and Sn(acac)\u2082. Distinct mass loss events (\u0394M) occur upon each SF\u2084 pulse, indicating volatile byproduct formation from fluorination. The subsequent Sn(acac)\u2082 exposures yield mass gains, consistent with precursor adsorption. The black dashed arrow labeled MCPC highlights a stable mass plateau following precursor saturation, marking the point of maximum chemisorbed precursor coverage."
     },
     "data_extraction": {
-        "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|----------|----------------------|\n| 13700    | -250                 |\n| 13720    | -255                 |\n| 13740    | -257                 |\n| 13760    | -258                 |\n| 13780    | -260                 |\n| 13800    | -263                 |\n| 13820    | -265                 |\n| 13840    | -266                 |\n| 13860    | -268                 |\n| 13880    | -269                 |\n| 13900    | -270                 |"
+      "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n| --- | --- |\n| 13700 | -250 |\n| 13720 | -255 |\n| 13740 | -257 |\n| 13760 | -258 |\n| 13780 | -260 |\n| 13800 | -263 |\n| 13820 | -265 |\n| 13840 | -266 |\n| 13860 | -268 |\n| 13880 | -269 |\n| 13900 | -270 |"
     },
     "vqa": {
         "a": [

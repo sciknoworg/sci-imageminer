@@ -9,8 +9,8 @@
         "b": "Optimized structures for N\u2082 dissociative chemisorption on the TiN (001) surface, showing adsorption, N\u2261N bond breaking, and structural evolution along the dissociation pathway."
     },
     "data_extraction": {
-        "a": "|Description|\n|-----------|\n|Optimized initial state (IS), transition state (TS), and final state (FS) structures showing H\u2013H bond dissociation and adsorption of H atoms on Ti sites of the TiN (001) surface.|",
-        "b": "|Description|\n|-----------|\n|Optimized initial state (IS), transition state (TS), and final state (FS) structures illustrating N\u2013N bond dissociation on the TiN (001) surface.|"
+      "a": "| Description |\n| --- |\n| Optimized initial state (IS), transition state (TS), and final state (FS) structures showing H\u2013H bond dissociation and adsorption of H atoms on Ti sites of the TiN (001) surface. |",
+      "b": "| Description |\n| --- |\n| Optimized initial state (IS), transition state (TS), and final state (FS) structures illustrating N\u2013N bond dissociation on the TiN (001) surface. |"
     },
     "vqa": {
         "b": [

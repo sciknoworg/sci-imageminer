@@ -7,7 +7,7 @@
         "a": "The bar chart shows an EPC synergy test at 80 V bias by comparing EPC for a full ALE cycle, chlorination only, and Ar sputter only. EPC is 0.37 nm for ALE, about 0.00 nm for chlorination only, and 0.05 nm for Ar sputter only."
     },
     "data_extraction": {
-        "a": "| Category | EPC [nm] |\n|----------|----------|\n| ALE      | 0.37     |\n| Chlorination only | 0.00     |\n| Ar sputter only | 0.05     |"
+      "a": "| Category | EPC [nm] |\n| --- | --- |\n| ALE | 0.37 |\n| Chlorination only | 0.00 |\n| Ar sputter only | 0.05 |"
     },
     "vqa": {
         "a": [

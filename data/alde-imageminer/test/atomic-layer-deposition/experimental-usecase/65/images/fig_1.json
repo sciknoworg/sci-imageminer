@@ -9,8 +9,8 @@
         "b": "The apparatus diagram depicts the flow of feedstock gas through a plasma reactor, showing the movement of feedstock species, reaction products, and redepositing species."
     },
     "data_extraction": {
-        "a": "| Time (s) | Optical emission signal (a.u.) plasma feedstock|Optical emission signal (a.u.) reaction products|\n|---|---|---|\n| 1 | 0|0|\n|1.5|3|1|\n| 2 | 3|0.5|\n| 3 | 3|0|\n| 4 |3|0|\n| 5 | 3|0|",
-        "b": ""
+      "a": "| Time (s) | Optical emission signal (a.u.) plasma feedstock | Optical emission signal (a.u.) reaction products |\n| --- | --- | --- |\n| 1 | 0 | 0 |\n| 1.5 | 3 | 1 |\n| 2 | 3 | 0.5 |\n| 3 | 3 | 0 |\n| 4 | 3 | 0 |\n| 5 | 3 | 0 |",
+      "b": ""
     },
     "vqa": {
         "a": [

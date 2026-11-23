@@ -7,7 +7,7 @@
         "a": "Multi-axis chart showing the atomic percentages of In, Ga, and As (left axis) and Cl (right axis) as a function of Cl adsorption time measured by XPS. The substrate element percentages remain approximately constant across the time range, while the Cl signal increases at short times and saturates at about 16% after ~10 s, as indicated by the annotation in the figure."
     },
     "data_extraction": {
-        "a": "| Time (s) | In (%) | Ga (%) | As (%) | Cl (%) |\n|---|---|---|---|---|\n| Pristine (0) | ~45 | ~36 | ~15 | ~1 |\n| 2.5 | ~48 | ~38 | ~14 | ~13 |\n| 5.0 | ~49 | ~36 | ~14 | ~20 |\n| 10.0 | ~49 | ~38 | ~13 | ~26 |\n| 20.0 | ~48 | ~38 | ~15 | ~26 |"
+      "a": "| Time (s) | In (%) | Ga (%) | As (%) | Cl (%) |\n| --- | --- | --- | --- | --- |\n| Pristine (0) | ~45 | ~36 | ~15 | ~1 |\n| 2.5 | ~48 | ~38 | ~14 | ~13 |\n| 5.0 | ~49 | ~36 | ~14 | ~20 |\n| 10.0 | ~49 | ~38 | ~13 | ~26 |\n| 20.0 | ~48 | ~38 | ~15 | ~26 |"
     },
     "vqa": {
         "a": [

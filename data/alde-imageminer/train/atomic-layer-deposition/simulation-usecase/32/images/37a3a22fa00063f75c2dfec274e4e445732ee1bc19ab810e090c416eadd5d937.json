@@ -7,7 +7,7 @@
         "a": "The scatter plot compares the capacitance and Pirani guage readings with Argon flow"
     },
     "data_extraction": {
-        "a": "| Pirani Gauge (Torr) | Capacitance Manometer (Torr) |\n|----------------------|------------------------------|\n| 0.00                | 0.00                        |\n| 0.02                | 0.03                        |\n| 0.04                | 0.06                        |\n| 0.06                | 0.09                        |\n| 0.08                | 0.11                        |\n| 0.10                | 0.14                        |\n| 0.12                | 0.17                        |\n| 0.14                | 0.20                        |"
+      "a": "| Pirani Gauge (Torr) | Capacitance Manometer (Torr) |\n| --- | --- |\n| 0.00 | 0.00 |\n| 0.02 | 0.03 |\n| 0.04 | 0.06 |\n| 0.06 | 0.09 |\n| 0.08 | 0.11 |\n| 0.10 | 0.14 |\n| 0.12 | 0.17 |\n| 0.14 | 0.20 |"
     },
     "vqa": {
         "a": [

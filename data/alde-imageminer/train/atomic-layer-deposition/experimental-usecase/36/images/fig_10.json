@@ -9,8 +9,8 @@
         "b": "The chart displays the drain current (I<sub>DS</sub>) of Ni/Au-HEMT and Ga<sub>2</sub>O<sub>3</sub> MOS-HEMT as a function of gate-source voltage (V<sub>GS</sub>) on a logarithmic scale with a VDS value of 8V."
     },
     "data_extraction": {
-        "a": "| I<sub>DS</sub> (mA/mm) | Ni/Au-HEMT | Ga2O3 MOS-HEMT |\n| --- | --- | --- |\n|-6| 0 | 0 |\n|-4| 0 | 0 |\n|-2| 300 | 400 |\n|0| 500 | 800 |\n|2| 800 | 1000 |",
-        "b": "| I<sub>DS</sub> (mA/mm) | Ni/Au-HEMT | Ga2O3 MOS-HEMT |\n| --- | --- | --- |\n| -6 | 10^-3 | 10^-4 |\n| -4 | 10^-1 | 10^2 |\n| -2 | 10^2 | 10^2 |\n| 0 | 10^3 | 10^3 |\n| 2 | 10^3 | 10^3 |"
+      "a": "| I<sub>DS</sub> (mA/mm) | Ni/Au-HEMT | Ga2O3 MOS-HEMT |\n| --- | --- | --- |\n| -6 | 0 | 0 |\n| -4 | 0 | 0 |\n| -2 | 300 | 400 |\n| 0 | 500 | 800 |\n| 2 | 800 | 1000 |",
+      "b": "| I<sub>DS</sub> (mA/mm) | Ni/Au-HEMT | Ga2O3 MOS-HEMT |\n| --- | --- | --- |\n| -6 | 10^-3 | 10^-4 |\n| -4 | 10^-1 | 10^2 |\n| -2 | 10^2 | 10^2 |\n| 0 | 10^3 | 10^3 |\n| 2 | 10^3 | 10^3 |"
     },
     "vqa": {
         "a": [

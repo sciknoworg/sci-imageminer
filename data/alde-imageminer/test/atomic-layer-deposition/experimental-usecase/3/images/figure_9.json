@@ -7,7 +7,7 @@
         "a": "The spectrum plots detected counts versus energy for  400 \u00b0C and  450 \u00b0C, showing separate signals attributed to carbon from the substrate and film and nitrogen in the film."
     },
     "data_extraction": {
-        "a": "| Energy (MeV) | 400 \u00b0C: Counts | 450 \u00b0C: Counts |\n|---|---|---|\n| 0.475 | 90.9 | 125.1 |\n| 0.488 | 33.1 | 76.7 |\n| 0.515 | 24.9 | 61.3 |\n| 0.594 | 18.9 | 29.1 |\n| 0.619 | 15.1 | 25.5 |\n| 0.645 | 16.2 | 25.7 |\n| 0.675 | 75.3 | 124.2 |"
+      "a": "| Energy (MeV) | 400 \u00b0C: Counts | 450 \u00b0C: Counts |\n| --- | --- | --- |\n| 0.475 | 90.9 | 125.1 |\n| 0.488 | 33.1 | 76.7 |\n| 0.515 | 24.9 | 61.3 |\n| 0.594 | 18.9 | 29.1 |\n| 0.619 | 15.1 | 25.5 |\n| 0.645 | 16.2 | 25.7 |\n| 0.675 | 75.3 | 124.2 |"
     },
     "vqa": {
         "a": [

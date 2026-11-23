@@ -7,7 +7,7 @@
         "a": "This figure shows the dependence of growth per cycle on oxygen plasma exposure time. Growth increases sharply upon introducing the plasma and reaches a saturation plateau near ~0.3 \u00c5 per cycle within ~1\u20132 s. Further increases in plasma exposure do not enhance growth and instead lead to a slight decrease at the longest exposure. The dashed lines mark the approximate saturation level and the plasma time required to reach it, indicating a narrow optimal process window."
     },
     "data_extraction": {
-        "a": "| Oxygen plasma exposure (s) | Growth per cycle (\u00c5) |\n|----------------------------|----------------------|\n| 0                          | 0.00                 |\n| 0.5                        | 0.28                 |\n| 1.0                        | 0.30                 |\n| 2.0                        | 0.32                 |\n| 4.0                        | 0.30                 |\n| 5.0                        | 0.28                 |\n| 10.0                       | 0.26                 |"
+      "a": "| Oxygen plasma exposure (s) | Growth per cycle (\u00c5) |\n| --- | --- |\n| 0 | 0.00 |\n| 0.5 | 0.28 |\n| 1.0 | 0.30 |\n| 2.0 | 0.32 |\n| 4.0 | 0.30 |\n| 5.0 | 0.28 |\n| 10.0 | 0.26 |"
     },
     "vqa": {
         "a": [

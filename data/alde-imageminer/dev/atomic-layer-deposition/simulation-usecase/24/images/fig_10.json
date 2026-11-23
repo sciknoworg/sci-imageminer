@@ -7,7 +7,7 @@
         "a": "The line chart illustrates the energy change (\u0394E) in kcal/mol for different during the reaction of water with different substrates (A, B, and C)."
     },
     "data_extraction": {
-        "a": "| Reaction part | delta E, A |delta E, B |delta E, C |\n| --- | --- | --- | --- |\n|Start|0|0|0|\n|Complex|-17|-15|-17|\n| TS | 3 | 4 | 4 |\n| HCl(a) | -5 | -2 | 0 |\n| HCl(g) | 0 | 3 | 3 |"
+      "a": "| Reaction part | delta E, A | delta E, B | delta E, C |\n| --- | --- | --- | --- |\n| Start | 0 | 0 | 0 |\n| Complex | -17 | -15 | -17 |\n| TS | 3 | 4 | 4 |\n| HCl(a) | -5 | -2 | 0 |\n| HCl(g) | 0 | 3 | 3 |"
     },
     "vqa": {
         "a": [

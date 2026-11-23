@@ -7,7 +7,7 @@
         "a": "This specific heatmap displays the integral over time of the H2O flux on the substrate surface, during the whole H2O exposure and purge, scale in mol/m2."
     },
     "data_extraction": {
-        "a": "| Value |\n|---|\n| 0.038 |\n| 0.0385 |\n| 0.039 |\n| 0.0395 |\n| 0.04 |"
+      "a": "| Value |\n| --- |\n| 0.038 |\n| 0.0385 |\n| 0.039 |\n| 0.0395 |\n| 0.04 |"
     },
     "vqa": {
         "a": [

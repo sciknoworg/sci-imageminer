@@ -9,8 +9,8 @@
         "b": "The figure displays a scatter plot comparing experimental and simulated currents against voltage, highlighting a exponential increase in current with voltage."
     },
     "data_extraction": {
-        "a": "| Voltage (V) | Current (A) |\n|---|---|\n|0.5| 10^-4 |\n|0.7| 10^-3 |\n|0.9| 10^-2 |\n|1.1| 2*10^-2 |\n|1.3| 2.5*10^-2 |\n|1.5| 2.5*10^-2 |\n|1.7| 10^-4 |\n|1.9| 10^-4 |",
-        "b": "| Voltage (V) | Current (A) |\n|---|---|\n|0| 10^-8 |\n|0.5| 4*10^-7 |\n|1| 10^-6 |\n|1.5| 4*10^-6 |\n|2| 10^-5 |\n|2.5| 10^-3 |"
+      "a": "| Voltage (V) | Current (A) |\n| --- | --- |\n| 0.5 | 10^-4 |\n| 0.7 | 10^-3 |\n| 0.9 | 10^-2 |\n| 1.1 | 2e-2 |\n| 1.3 | 2.5e-2 |\n| 1.5 | 2.5e-2 |\n| 1.7 | 10^-4 |\n| 1.9 | 10^-4 |",
+      "b": "| Voltage (V) | Current (A) |\n| --- | --- |\n| 0 | 10^-8 |\n| 0.5 | 4e-7 |\n| 1 | 10^-6 |\n| 1.5 | 4e-6 |\n| 2 | 10^-5 |\n| 2.5 | 10^-3 |"
     },
     "vqa": {
         "a": [

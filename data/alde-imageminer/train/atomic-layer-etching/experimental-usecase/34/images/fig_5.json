@@ -7,7 +7,7 @@
         "a": "The figure presents a saturation curve showing how the etching-per-cycle rate increases sharply during the initial seconds of CF\u2084 plasma treatment and then gradually plateaus as the exposure time reaches 20 seconds. This indicates a self-limiting etching behavior characteristic of atomic layer processes."
     },
     "data_extraction": {
-        "a": "| CF4 plasma treatment (s)|Etching per cycle (nm)|\n|-------------------------|----------------------|\n|0|0.00|\n|5|0.20|\n|10|0.25|\n|20|0.24|"
+      "a": "| CF4 plasma treatment (s) | Etching per cycle (nm) |\n| --- | --- |\n| 0 | 0.00 |\n| 5 | 0.20 |\n| 10 | 0.25 |\n| 20 | 0.24 |"
     },
     "vqa": {
         "a": [

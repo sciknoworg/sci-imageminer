@@ -7,7 +7,7 @@
         "a": "The multiple line chart shows Al\u2082O\u2083 thickness as a function of the number of cycles at 300 \u00b0C. Thickness decreases approximately linearly with increasing cycles. Measurements from XRR and SE closely agree across the full range, indicating consistent thickness reduction per cycle."
     },
     "data_extraction": {
-        "a": "| Number of cycles | Thickness (\u00c5), XRR | Thickness (\u00c5), SE |\n|------------------|--------------------|--------------------|\n| 0                | ~170               | ~165               |\n| 50               | ~130               | ~135               |\n| 100              | ~100               | ~105               |\n| 200              | ~50                | ~55                |"
+      "a": "| Number of cycles | Thickness (\u00c5), XRR | Thickness (\u00c5), SE |\n| --- | --- | --- |\n| 0 | ~170 | ~165 |\n| 50 | ~130 | ~135 |\n| 100 | ~100 | ~105 |\n| 200 | ~50 | ~55 |"
     },
     "vqa": {
         "a": [

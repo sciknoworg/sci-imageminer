@@ -9,8 +9,8 @@
         "b": "Comparison of ZrN thickness measured in-situ by ellipsometry and ex-situ by X-ray reflectivity on identical samples. Close agreement validates the accuracy of the ellipsometric thickness model."
     },
     "data_extraction": {
-        "a": "| ALD cycle # | ZrN thickness (nm) |\n|---|---|\n| 5  | ~0.5 |\n| 10 | ~1.0 |\n| 20 | ~2.1 |\n| 30 | ~3.1 |\n| 40 | ~4.1 |\n| 50 | ~5.2 |\n| 60 | ~6.2 |",
-        "b": "| ALD cycle # | Thickness (nm) |\n|---|---|\n| 25 | ~2.6 |\n| 50 | ~5.2 |\n| 75 | ~7.7 |\n| 100 | ~10.3 |"
+      "a": "| ALD cycle # | ZrN thickness (nm) |\n| --- | --- |\n| 5 | ~0.5 |\n| 10 | ~1.0 |\n| 20 | ~2.1 |\n| 30 | ~3.1 |\n| 40 | ~4.1 |\n| 50 | ~5.2 |\n| 60 | ~6.2 |",
+      "b": "| ALD cycle # | Thickness (nm) |\n| --- | --- |\n| 25 | ~2.6 |\n| 50 | ~5.2 |\n| 75 | ~7.7 |\n| 100 | ~10.3 |"
     },
     "vqa": {
         "a": [

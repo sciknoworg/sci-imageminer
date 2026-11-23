@@ -9,8 +9,8 @@
         "b": "Minimum-energy pathway for MeCpPtMe\u2083 binding on hydroxylated graphene oxide, showing energy decrease from physisorbed to chemisorbed states. Adsorption is thermodynamically favorable and kinetically feasible, with low activation barriers, though slightly weaker than on epoxydated GO."
     },
     "data_extraction": {
-        "a": "| Reaction Coordinate [\u00c5] | Energy [eV] |\n|---|---|\n| 0   | 0.0   |\n| 5   | -1.0  |\n| 7   | -2.31 |\n| 10  | -3.00 |\n| 15  | -4.24 |",
-        "b": "| Reaction Coordinate [\u00c5] | Energy [eV] |\n|---|---|\n| 0   | 0.0   |\n| 5   | -0.8  |\n| 7   | -2.00 |\n| 10  | -2.75 |\n| 15  | -3.50 |"
+      "a": "| Reaction Coordinate [\u00c5] | Energy [eV] |\n| --- | --- |\n| 0 | 0.0 |\n| 5 | -1.0 |\n| 7 | -2.31 |\n| 10 | -3.00 |\n| 15 | -4.24 |",
+      "b": "| Reaction Coordinate [\u00c5] | Energy [eV] |\n| --- | --- |\n| 0 | 0.0 |\n| 5 | -0.8 |\n| 7 | -2.00 |\n| 10 | -2.75 |\n| 15 | -3.50 |"
     },
     "vqa": {
         "a": [

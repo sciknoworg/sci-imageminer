@@ -7,7 +7,7 @@
         "a": "The chart illustrates the change in energy (\u0394E) in kcal/mol for different steps in the reaction of chlorine groups at the surface with water, for the first (A), second (B), and third (C) chlorine group at the surface."
     },
     "data_extraction": {
-        "a": "| Reaction Step | \u0394E (kcal/mol) A |\u0394E (kcal/mol) B |\u0394E (kcal/mol) C |\n|---|---|---|---|\n| Start | 0 |0 |0 |\n| Complex | -18|-17|-15|\n| TS | 4|4|0|\n| HCl (a) | -1|-3|-2|\n| HCl (g)| 0.5|5|7|"
+      "a": "| Reaction Step | \u0394E (kcal/mol) A | \u0394E (kcal/mol) B | \u0394E (kcal/mol) C |\n| --- | --- | --- | --- |\n| Start | 0 | 0 | 0 |\n| Complex | -18 | -17 | -15 |\n| TS | 4 | 4 | 0 |\n| HCl (a) | -1 | -3 | -2 |\n| HCl (g) | 0.5 | 5 | 7 |"
     },
     "vqa": {
         "a": [

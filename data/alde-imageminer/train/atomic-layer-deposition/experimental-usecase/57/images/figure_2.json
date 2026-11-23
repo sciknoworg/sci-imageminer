@@ -15,11 +15,11 @@
         "e": "The figure compares AFM images of CsI films deposited at different temperatures and thicknesses."
     },
     "data_extraction": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "| Temperature (\u00b0C) | 2\u03b8 (\u00b0) | Assigned Plane |\n|-----------------|-------|----------------|\n| 150              | 28.5   | (200)          |\n| 150              | 33.0   | (211)          |\n| 150              | 36.0   | (220)          |\n| 150              | 47.5   | (310)          |\n| 150              | 56.0   | (222)          |\n| 150              | 69.0   | (321)          |",
-        "e": "| Deposition temperature (\u00b0C) | Relative roughness Rq (%) |\n|-----------------------------|---------------------------|\n| 150                         | 5                          |\n| 170                         | 7                          |\n| 190                         | 10                         |\n| 210                         | 15                         |\n| 230                         | 22                         |\n| 250                         | 35                         |\n| 270                         | 55                         |\n| 290                         | 80                         |\n| 305                         | 95                         |"
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": "| Temperature (\u00b0C) | 2\u03b8 (\u00b0) | Assigned Plane |\n| --- | --- | --- |\n| 150 | 28.5 | (200) |\n| 150 | 33.0 | (211) |\n| 150 | 36.0 | (220) |\n| 150 | 47.5 | (310) |\n| 150 | 56.0 | (222) |\n| 150 | 69.0 | (321) |",
+      "e": "| Deposition temperature (\u00b0C) | Relative roughness Rq (%) |\n| --- | --- |\n| 150 | 5 |\n| 170 | 7 |\n| 190 | 10 |\n| 210 | 15 |\n| 230 | 22 |\n| 250 | 35 |\n| 270 | 55 |\n| 290 | 80 |\n| 305 | 95 |"
     },
     "vqa": {
         "d": [

@@ -7,7 +7,7 @@
         "a": "The scatter plot shows the relationship between injection level and effective lifetime for two different thickness passivation layers (30 nm and 15 nm). The data points are clustered around a curve, indicating a non-linear relationship."
     },
     "data_extraction": {
-        "a": "| Injection level \u0394n (cm\u207b\u00b3) | Effective lifetime (s), 30 nm|Effective lifetime (s), 15 nm|\n|---|---|---|\n| 10\u00b9\u00b2 | 2*10\u207b\u2074 |-|\n| 10\u00b9\u00b3 | 4*10\u207b\u2074 |10\u207b\u00b3|\n| 10\u00b9\u2074 | 6*10\u207b\u2074 |10\u207b\u00b3 |\n| 10\u00b9\u2075 | 9*10\u207b\u2074 |10\u207b\u00b3 |\n| 10\u00b9\u2076 | 10\u207b\u00b3 |10\u207b\u00b3 |\n| 10\u00b9\u2077 | 10\u207b\u2074 |10\u207b\u2074 |"
+      "a": "| Injection level \u0394n (cm-\u00b3) | Effective lifetime (s), 30 nm | Effective lifetime (s), 15 nm |\n| --- | --- | --- |\n| 10\u00b9\u00b2 | 2*10-\u2074 | - |\n| 10\u00b9\u00b3 | 4*10-\u2074 | 10-\u00b3 |\n| 10\u00b9\u2074 | 6*10-\u2074 | 10-\u00b3 |\n| 10\u00b9\u2075 | 9*10-\u2074 | 10-\u00b3 |\n| 10\u00b9\u2076 | 10-\u00b3 | 10-\u00b3 |\n| 10\u00b9\u2077 | 10-\u2074 | 10-\u2074 |"
     },
     "vqa": {
         "a": [

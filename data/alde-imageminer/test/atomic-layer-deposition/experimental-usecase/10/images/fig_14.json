@@ -9,7 +9,7 @@
         "b": "The use of different chamber windows (no window, quartz, MgF\u2082) alters the plasma interaction with the surface, showing that optical transparency and window material strongly influence degradation rates."
     },
     "data_extraction": {
-        "a": "| O\u2082 Plasma Exposure Time (s) | 100 W, 7.5 mTorr | 500 W, 7.5 mTorr | 100 W, 7.5 mTorr (quartz window) |\n|----------------------------|------------------|------------------|----------------------------------|\n| 0                          | 10.0             | 9.8              | 10.0                             |\n| 25                         | 6.5              | 4.5              | 9.5                              |\n| 50                         | 2.0              | 1.0              | 9.0                              |\n| 75                         | 0.9              | 0.6              | 8.5                              |\n| 100                        | 0.5              | 0.3              | 8.0                              |\n| 125                        | 0.3              | 0.2              | 7.5                              |\n| 150                        | 0.2              | 0.1              | 7.0                              |"
+      "a": "| O\u2082 Plasma Exposure Time (s) | 100 W, 7.5 mTorr | 500 W, 7.5 mTorr | 100 W, 7.5 mTorr (quartz window) |\n| --- | --- | --- | --- |\n| 0 | 10.0 | 9.8 | 10.0 |\n| 25 | 6.5 | 4.5 | 9.5 |\n| 50 | 2.0 | 1.0 | 9.0 |\n| 75 | 0.9 | 0.6 | 8.5 |\n| 100 | 0.5 | 0.3 | 8.0 |\n| 125 | 0.3 | 0.2 | 7.5 |\n| 150 | 0.2 | 0.1 | 7.0 |"
     },
     "vqa": {
         "b": [

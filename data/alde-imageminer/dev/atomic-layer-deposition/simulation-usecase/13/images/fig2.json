@@ -17,12 +17,12 @@
         "f": "Top and side views of graphene with a hydrogenated grain boundary, showing H atoms terminating dangling bonds at the GB, stabilizing the structure for ALD modeling."
     },
     "data_extraction": {
-        "a": "| Graphene model | Description |\n|---|---|\n| Pristine graphene (PG) | Perfect sp\u00b2 carbon lattice with no dangling bonds; inactive toward ALD nucleation |",
-        "b": "| Graphene model | Description |\n|---|---|\n| Graphene with monovacancy (MV) | Single missing carbon atom creating dangling bonds and enhanced reactivity |",
-        "c": "| Graphene model | Description |\n|---|---|\n| Graphene with 585 divacancy (DV) | Reconstructed divacancy defect altering local \u03c0-conjugation |",
-        "d": "| Graphene model | Description |\n|---|---|\n| Graphene with grain boundary (GB, 558-type) | Line defect based on STM-derived 558-type grain boundary structure |",
-        "e": "| Graphene model | Description |\n|---|---|\n| Oxygenated grain boundary (epoxy) | Grain boundary decorated with epoxy oxygen groups |",
-        "f": "| Graphene model | Description |\n|---|---|\n| Oxygenated grain boundary (hydroxyl) / hydrogenated GB | Grain boundary functionalized with hydroxyl or hydrogen species, modifying ALD activity |"
+      "a": "| Graphene model | Description |\n| --- | --- |\n| Pristine graphene (PG) | Perfect sp\u00b2 carbon lattice with no dangling bonds; inactive toward ALD nucleation |",
+      "b": "| Graphene model | Description |\n| --- | --- |\n| Graphene with monovacancy (MV) | Single missing carbon atom creating dangling bonds and enhanced reactivity |",
+      "c": "| Graphene model | Description |\n| --- | --- |\n| Graphene with 585 divacancy (DV) | Reconstructed divacancy defect altering local \u03c0-conjugation |",
+      "d": "| Graphene model | Description |\n| --- | --- |\n| Graphene with grain boundary (GB, 558-type) | Line defect based on STM-derived 558-type grain boundary structure |",
+      "e": "| Graphene model | Description |\n| --- | --- |\n| Oxygenated grain boundary (epoxy) | Grain boundary decorated with epoxy oxygen groups |",
+      "f": "| Graphene model | Description |\n| --- | --- |\n| Oxygenated grain boundary (hydroxyl) / hydrogenated GB | Grain boundary functionalized with hydroxyl or hydrogen species, modifying ALD activity |"
     },
     "vqa": {
         "a": [

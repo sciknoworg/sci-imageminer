@@ -7,7 +7,7 @@
         "a": "The line chart illustrates the relationship between Ar Plasma RF power and depth, indicating an increase in depth with increasing power. The depth plateaus in the region 15-30W, labeled as ALE Window."
     },
     "data_extraction": {
-        "a": "| Ar Plasma RF power (W) | Depth (nm) |\n|---|---|\n| 0 | 0 |\n| 5 | 2 |\n| 10 | 5 |\n| 15 | 13 |\n| 20 | 12 |\n| 25 | 14 |\n| 30 | 14 |\n| 35 | 28 |\n| 40 | 38 |"
+      "a": "| Ar Plasma RF power (W) | Depth (nm) |\n| --- | --- |\n| 0 | 0 |\n| 5 | 2 |\n| 10 | 5 |\n| 15 | 13 |\n| 20 | 12 |\n| 25 | 14 |\n| 30 | 14 |\n| 35 | 28 |\n| 40 | 38 |"
     },
     "vqa": {
         "a": [

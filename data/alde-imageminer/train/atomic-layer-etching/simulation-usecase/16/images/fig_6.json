@@ -13,10 +13,10 @@
         "d": "The line chart illustrates the mole fraction of HF and TMA with sharp transitions at specific positions related to the tool geometry."
     },
     "data_extraction": {
-        "a": "| Position (mm) | Mole Fraction HF |Mole Fraction TMA |\n|---|---|---|\n|-100 | 0.2 |0.12|\n|-50 | 0.21 |0.13|\n|0 | 0.15 |0.18|\n|50 | 0.13 |0.26|\n|100 | 0.11 |0.25|",
-        "b": "| Position (mm) | Mole Fraction HF |Mole Fraction TMA |\n|---|---|---|\n|-100 | 0 |0|\n|-50 | 0.67 |0|\n|0 | 0 |0|\n|50 | 0 |0.55|\n|100 | 0 |0|",
-        "c": "| Position (mm) | Mole Fraction HF |Mole Fraction TMA |\n|---|---|---|\n|-100 | 0 |0|\n|-50 | 0.67 |0|\n|0 | 0 |0|\n|50 | 0 |0.55|\n|100 | 0 |0|",
-        "d": "| Position (mm) | Mole Fraction HF |Mole Fraction TMA |\n|---|---|---|\n|-100 | 0 |0|\n|-50 | 0.67 |0|\n|0 | 0 |0|\n|50 | 0 |0.55|\n|100 | 0 |0|"
+      "a": "| Position (mm) | Mole Fraction HF | Mole Fraction TMA |\n| --- | --- | --- |\n| -100 | 0.2 | 0.12 |\n| -50 | 0.21 | 0.13 |\n| 0 | 0.15 | 0.18 |\n| 50 | 0.13 | 0.26 |\n| 100 | 0.11 | 0.25 |",
+      "b": "| Position (mm) | Mole Fraction HF | Mole Fraction TMA |\n| --- | --- | --- |\n| -100 | 0 | 0 |\n| -50 | 0.67 | 0 |\n| 0 | 0 | 0 |\n| 50 | 0 | 0.55 |\n| 100 | 0 | 0 |",
+      "c": "| Position (mm) | Mole Fraction HF | Mole Fraction TMA |\n| --- | --- | --- |\n| -100 | 0 | 0 |\n| -50 | 0.67 | 0 |\n| 0 | 0 | 0 |\n| 50 | 0 | 0.55 |\n| 100 | 0 | 0 |",
+      "d": "| Position (mm) | Mole Fraction HF | Mole Fraction TMA |\n| --- | --- | --- |\n| -100 | 0 | 0 |\n| -50 | 0.67 | 0 |\n| 0 | 0 | 0 |\n| 50 | 0 | 0.55 |\n| 100 | 0 | 0 |"
     },
     "vqa": {
         "c": [

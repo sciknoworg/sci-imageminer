@@ -7,7 +7,7 @@
         "a": "Multiple line chart comparing electronic potential energies (\u0394E) and Gibbs free energies (\u0394G at 80 \u00b0C) per metal atom for nickel formate (FA) and formamidinate (FAmd) oligomers. The FA system shows its lowest \u0394G at the dimer stage, while the FAmd system reaches its minimum \u0394G at the trimer. These trends indicate ligand-dependent stabilization as oligomer size increases."
     },
     "data_extraction": {
-        "a": "| Oligomer State | \u0394E_FA (eV) | \u0394G_FA (80\u00b0C)(eV) | \u0394E_FAmd(eV) | \u0394G_FAmd (80\u00b0C)(eV) |\n|----------------|-------------|------------------|--------------|------------------|\n| Monomer | 0.0    | 0.0    | 0.0     | 0.0     |\n| Dimer   | ~ -1.0 | ~ -0.5 | ~ -1.50 | ~ -0.75 |\n| Trimer  | ~ -1.0 | ~ -0.4 | ~ -1.90 | ~ -1.25 |\n| Tetramer| ~ -0.6 | ~ 0.00 | ~ -1.10 | ~ -0.25  |"
+      "a": "| Oligomer State | \u0394E_FA (eV) | \u0394G_FA (80\u00b0C)(eV) | \u0394E_FAmd(eV) | \u0394G_FAmd (80\u00b0C)(eV) |\n| --- | --- | --- | --- | --- |\n| Monomer | 0.0 | 0.0 | 0.0 | 0.0 |\n| Dimer | ~ -1.0 | ~ -0.5 | ~ -1.50 | ~ -0.75 |\n| Trimer | ~ -1.0 | ~ -0.4 | ~ -1.90 | ~ -1.25 |\n| Tetramer | ~ -0.6 | ~ 0.00 | ~ -1.10 | ~ -0.25 |"
     },
     "vqa": {
         "a": [

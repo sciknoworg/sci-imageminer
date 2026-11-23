@@ -9,8 +9,8 @@
         "b": "The figure displays the Ion Energy Distribution Function (IEDF) for Ar+ at different ion energies."
     },
     "data_extraction": {
-        "a": "| Sample | Raman Shift (cm\u207b\u00b9) |\n|---|---|\n| Pristine | Peaks at 385, 405 |\n| 1st-70V 2 min |  |\n| 1st-50V 2 min |  |\n| 1st-30V 2 min |  |\n| 1st-10V 10 min | Peaks at 385, 405 |\n| 1st-10V 2 min | Peaks at 385, 405 |",
-        "b": "| Sample | Ion Energy (eV) |\n|---|---|\n| 10V | Peak at 20 |\n| 30V | Peak at 20 |\n| 50V | Peak at 50 |\n| 70V | Peak at 70 |"
+      "a": "| Sample | Raman Shift (cm-\u00b9) |\n| --- | --- |\n| Pristine | Peaks at 385, 405 |\n| 1st-70V 2 min |  |\n| 1st-50V 2 min |  |\n| 1st-30V 2 min |  |\n| 1st-10V 10 min | Peaks at 385, 405 |\n| 1st-10V 2 min | Peaks at 385, 405 |",
+      "b": "| Sample | Ion Energy (eV) |\n| --- | --- |\n| 10V | Peak at 20 |\n| 30V | Peak at 20 |\n| 50V | Peak at 50 |\n| 70V | Peak at 70 |"
     },
     "vqa": {
         "a": [

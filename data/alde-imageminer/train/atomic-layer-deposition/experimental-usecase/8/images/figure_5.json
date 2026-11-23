@@ -7,7 +7,7 @@
         "a": "The box plot compares precursor vessel temperatures for eight rare earth precursor classes used in ALD: R(amd)3, R(amd)(Cp)2, R(or')x, R(Cp)3, R(thd)x, R(famd)3, R(guan)3, and R(tmsa)3. Temperatures range from approximately 80 to 200 \u00b0C. White squares indicate arithmetic means, boxes span the interquartile range, and black diamonds mark outliers. R(or')x shows the highest mean temperature near 165 \u00b0C, while R(amd)(Cp)2 displays the lowest mean around 131 \u00b0C."
     },
     "data_extraction": {
-        "a": "| R(amd)\\_3 | R(amd)\\(Cp\\)_2 | R(or')\\_x | R(Cp)_3 | R(thd)_x | R(famd)_3 | R(guan)_3 | R(tmsa)_3 |\n|---|---|---|---|---|---|---|---|\n| 120 | 130 | 190 | 170 | 150 | 140 | 150 | 140 |"
+      "a": "| R(amd)\\_3 | R(amd)\\(Cp\\)_2 | R(or')\\_x | R(Cp)_3 | R(thd)_x | R(famd)_3 | R(guan)_3 | R(tmsa)_3 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 120 | 130 | 190 | 170 | 150 | 140 | 150 | 140 |"
     },
     "vqa": {
         "a": [

@@ -15,11 +15,11 @@
         "e": "The bar chart shows the distribution of coercivity (H<sub>c</sub>) values for ZnO:Fe samples"
     },
     "data_extraction": {
-        "a": "| H<sub>c</sub> (Oe) | Relative frequency (%) |\n|---------------|-------|\n| 0-500           | 76% |\n| 500-1000    | 19% |\n| 1000-4000 | 5% |",
-        "b": "| H<sub>c</sub> (Oe) | Relative frequency (%) |\n|---------------|-------|\n| 0-500           | 70% |\n| 500-1000    | 23% |\n| 1000-4000 | 7% |",
-        "c": "| H<sub>c</sub> (Oe) | Relative frequency (%) |\n|---------------|-------|\n| 0-500           | 41% |\n| 500-1000    | 40% |\n| 1000-4000 | 19% |",
-        "d": "| H<sub>c</sub> (Oe) | Relative frequency (%) |\n|---------------|-------|\n| 0-500           | 35% |\n| 500-1000    | 39% |\n| 1000-4000 | 26% |",
-        "e": "| H<sub>c</sub> (Oe) | Relative frequency (%) |\n|---------------|-------|\n| 0-500           | 33% |\n| 500-1000    | 36% |\n| 1000-4000 | 21% |"
+      "a": "| H<sub>c</sub> (Oe) | Relative frequency (%) |\n| --- | --- |\n| 0-500 | 76% |\n| 500-1000 | 19% |\n| 1000-4000 | 5% |",
+      "b": "| H<sub>c</sub> (Oe) | Relative frequency (%) |\n| --- | --- |\n| 0-500 | 70% |\n| 500-1000 | 23% |\n| 1000-4000 | 7% |",
+      "c": "| H<sub>c</sub> (Oe) | Relative frequency (%) |\n| --- | --- |\n| 0-500 | 41% |\n| 500-1000 | 40% |\n| 1000-4000 | 19% |",
+      "d": "| H<sub>c</sub> (Oe) | Relative frequency (%) |\n| --- | --- |\n| 0-500 | 35% |\n| 500-1000 | 39% |\n| 1000-4000 | 26% |",
+      "e": "| H<sub>c</sub> (Oe) | Relative frequency (%) |\n| --- | --- |\n| 0-500 | 33% |\n| 500-1000 | 36% |\n| 1000-4000 | 21% |"
     },
     "vqa": {
         "d": [

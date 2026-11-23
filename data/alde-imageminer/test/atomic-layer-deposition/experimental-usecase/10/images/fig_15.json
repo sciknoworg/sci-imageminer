@@ -7,7 +7,7 @@
         "a": "The figure shows a linear relationship between Ti atom surface coverage and the number of ALD cycles. The direct proportionality indicates a consistent growth rate per cycle, characteristic of self-limiting reactions in atomic layer deposition (ALD)."
     },
     "data_extraction": {
-        "a": "| Number of Cycles | Ti Atom Surface Coverage (\u00d710\u00b9\u2075 /cm\u00b2) |\n|------------------|---------------------------------------|\n| 0                | 0                                     |\n| 10               | 5                                     |\n| 20               | 10                                    |\n| 30               | 15                                    |\n| 40               | 20                                    |\n| 50               | 25                                    |\n| 60               | 30                                    |"
+      "a": "| Number of Cycles | Ti Atom Surface Coverage (\u00d710\u00b9\u2075 /cm\u00b2) |\n| --- | --- |\n| 0 | 0 |\n| 10 | 5 |\n| 20 | 10 |\n| 30 | 15 |\n| 40 | 20 |\n| 50 | 25 |\n| 60 | 30 |"
     },
     "vqa": {
         "a": [

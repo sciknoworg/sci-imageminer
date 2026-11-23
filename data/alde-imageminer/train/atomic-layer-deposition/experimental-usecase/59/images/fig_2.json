@@ -9,8 +9,8 @@
         "b": "The figure shows the dielectric function \u03b5\u2082 as a function of photon energy for different models: Tauc-Lorentz, Tauc-Lorentz 1, and Tauc-Lorentz 2 for the semiconductive Ta3N5 film."
     },
     "data_extraction": {
-        "a": "| Photon energy (eV) | Drude Lorentz  | Drude | Lorentz 1 | Lorentz 2 |  \n|---|---|---|---|---|\n| 1 | 14 | 8 | 0 | 3 |\n| 2 | 9 | 3 | 1 | 5 |\n| 3 | 6 | 2 | 2 | 2 |\n| 4 | 4 | 1 | 3 | 1 |\n| 5 | 5 | 0.5 | 4 | 0.5 |\n| 6 | 6 | 0 | 5.5 | 0 |",
-        "b": "| Photon energy (eV) | Tauc-Lorentz  | Tauc-Lorentz 1 | Tauc-Lorentz 2 |\n|---|---|---|---|\n| 1 | 0 | 0 | 0 | \n| 2 | 0 | 0 | 0 | \n| 3 | 1.5 | 1.5 | 0 |\n| 4 | 6 | 5.5 | 0 |\n| 5 | 5.8 | 4.5 | 2 |\n| 6 | 5 | 2 | 3 |"
+      "a": "| Photon energy (eV) | Drude Lorentz | Drude | Lorentz 1 | Lorentz 2 |\n| --- | --- | --- | --- | --- |\n| 1 | 14 | 8 | 0 | 3 |\n| 2 | 9 | 3 | 1 | 5 |\n| 3 | 6 | 2 | 2 | 2 |\n| 4 | 4 | 1 | 3 | 1 |\n| 5 | 5 | 0.5 | 4 | 0.5 |\n| 6 | 6 | 0 | 5.5 | 0 |",
+      "b": "| Photon energy (eV) | Tauc-Lorentz | Tauc-Lorentz 1 | Tauc-Lorentz 2 |\n| --- | --- | --- | --- |\n| 1 | 0 | 0 | 0 |\n| 2 | 0 | 0 | 0 |\n| 3 | 1.5 | 1.5 | 0 |\n| 4 | 6 | 5.5 | 0 |\n| 5 | 5.8 | 4.5 | 2 |\n| 6 | 5 | 2 | 3 |"
     },
     "vqa": {
         "a": [

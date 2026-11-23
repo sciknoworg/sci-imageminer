@@ -7,7 +7,7 @@
         "a": "The figure illustrates a reaction pathway with energy changes (\u0394G) at various steps (A01, A02, A03TS, A04, A05TS, A06, A07TS, A08) for the chemisorption of Ga(NMe2)3 precursor."
     },
     "data_extraction": {
-        "a": "| Reaction Step | \u0394G (kJ/mol) |\n|---|---|\n| A01 | 0.0 |\n| A02 | +14.7 |\n| A03TS | +42.2 |\n| A04 | -106.0 |\n| A05TS | -104.1 |\n| A06 | -223.9 |\n| A07TS | -201.7 |\n| A08 | -231.9 |"
+      "a": "| Reaction Step | \u0394G (kJ/mol) |\n| --- | --- |\n| A01 | 0.0 |\n| A02 | +14.7 |\n| A03TS | +42.2 |\n| A04 | -106.0 |\n| A05TS | -104.1 |\n| A06 | -223.9 |\n| A07TS | -201.7 |\n| A08 | -231.9 |"
     },
     "vqa": {
         "a": [

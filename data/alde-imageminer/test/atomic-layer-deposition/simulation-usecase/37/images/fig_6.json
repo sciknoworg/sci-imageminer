@@ -7,7 +7,7 @@
         "a": "Figure 6 illustrates the effect of incomplete H-transfer on the ALD growth of alumina. Due to kinetic limitations at low temperatures, only half of the available H reacts during the H\u2082O pulse, resulting in partial CH\u2084 desorption. As a result, some CH\u2083 and OH remain on the surface ([CH\u2083] > 6.6 \u00b5mol/m\u00b2, [OH] > 13 \u00b5mol/m\u00b2), which can lead to contamination and a reduced growth rate of approximately 0.8 \u00c5/cycle, compared to the optimum conditions shown in Fig. 4."
     },
     "data_extraction": {
-        "a": "| Species | Coverage (\u00b5mol/m\u00b2) | Notes |\n|---|---|---|\n| [CH\u2083] | >6.6 | Some unreacted CH\u2083 remains due to incomplete H-transfer |\n| [OH] | >13 | Hydroxyl groups not fully consumed, may cause film contamination |\n| H reacted | 50% | Only half of available H reacts to produce CH\u2084, compared to optimum |"
+      "a": "| Species | Coverage (\u00b5mol/m\u00b2) | Notes |\n| --- | --- | --- |\n| [CH\u2083] | >6.6 | Some unreacted CH\u2083 remains due to incomplete H-transfer |\n| [OH] | >13 | Hydroxyl groups not fully consumed, may cause film contamination |\n| H reacted | 50% | Only half of available H reacts to produce CH\u2084, compared to optimum |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The figure shows mass loss from Al2O3 during repeated TMA/HF cycles at four temperatures. All traces decrease roughly linearly with time, but the slope becomes steeper at higher temperatures, indicating faster etching. The 250 \u00b0C curve shows the smallest mass loss while the 325 \u00b0C trace shows the largest, consistent with thermally enhanced reaction rates. The right-hand axis converts the mass loss to an equivalent thickness removed."
     },
     "data_extraction": {
-        "a": "| Temperature (\u00b0C) | Time (s) | Mass change (ng/cm\u00b2) |\n|------------------|----------|-----------------------|\n| 250              | 0        | ~0                    |\n| 250              | 4000     | ~-500                 |\n| 250              | 8000     | ~-900                 |\n| 275              | 0        | ~0                    |\n| 275              | 4000     | ~-800                 |\n| 275              | 8000     | ~-1600                |\n| 300              | 0        | ~0                    |\n| 300              | 4000     | ~-1100                |\n| 300              | 8000     | ~-2200                |\n| 325              | 0        | ~0                    |\n| 325              | 4000     | ~-1500                |\n| 325              | 8000     | ~-3000                |"
+      "a": "| Temperature (\u00b0C) | Time (s) | Mass change (ng/cm\u00b2) |\n| --- | --- | --- |\n| 250 | 0 | ~0 |\n| 250 | 4000 | ~-500 |\n| 250 | 8000 | ~-900 |\n| 275 | 0 | ~0 |\n| 275 | 4000 | ~-800 |\n| 275 | 8000 | ~-1600 |\n| 300 | 0 | ~0 |\n| 300 | 4000 | ~-1100 |\n| 300 | 8000 | ~-2200 |\n| 325 | 0 | ~0 |\n| 325 | 4000 | ~-1500 |\n| 325 | 8000 | ~-3000 |"
     },
     "vqa": {
         "a": [

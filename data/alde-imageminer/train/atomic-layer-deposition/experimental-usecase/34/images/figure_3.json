@@ -9,9 +9,9 @@
         "a": "The figure presents ion current traces for various species monitored during sequential pulsing of LiHMDS and H\u2082O in an ALD process. Subfigure (a) shows the evolution of ion signals for multiple mass fragments (e.g., CH\u2083\u207a, H\u2082O\u207a, NH(SiMe\u2083)\u2082\u207a) across time and marks key events such as precursor pulses and surface reaction (SR) start and end times. Subfigures (b) and (c) zoom in on the time-resolved ion currents for specific m/z values (15 and 146), further detailing the temporal behavior of key reaction byproducts during the LiHMDS pulse. Together, the data provide insight into precursor decomposition and reaction dynamics on the surface."
     },
     "data_extraction": {
-        "a": "| Time (s) | LiHMDS | SR start | H\u2082O | SR end |\n|----------|--------|----------|-----|--------|\n| 0        | 1E-12  | 1E-12    | 1E-12| 1E-12  |\n| 5        | 1E-11  | 1E-11    | 1E-11| 1E-11  |\n| 10       | 1E-12  | 1E-12    | 1E-12| 1E-12  |\n| 15       | 1E-12  | 1E-12    | 1E-12| 1E-12  |\n| 20       | 1E-12  | 1E-12    | 1E-12| 1E-12  |\n| 25       | 1E-12  | 1E-12    | 1E-12| 1E-12  |\n| 30       | 1E-12  | 1E-12    | 1E-12| 1E-12  |\n| 75       | 1E-12  | 1E-12    | 1E-12| 1E-12  |\n| 80       | 1E-12  | 1E-12    | 1E-12| 1E-12  |",
-        "b": "| Time (s) | Ion current (A) |\n|----------|-----------------|\n| 0        | 1E-11           |\n| 2        | 1E-10           |\n| 4        | 1E-10           |\n| 6        | 1E-10           |\n| 8        | 1E-10           |",
-        "c": "| Time (s) | Ion current (A) |\n|----------|-----------------|\n| 0        | 1E-11           |\n| 2        | 1E-10           |\n| 4        | 1E-10           |\n| 6        | 1E-10           |\n| 8        | 1E-10           |"
+      "a": "| Time (s) | LiHMDS | SR start | H\u2082O | SR end |\n| --- | --- | --- | --- | --- |\n| 0 | 1E-12 | 1E-12 | 1E-12 | 1E-12 |\n| 5 | 1E-11 | 1E-11 | 1E-11 | 1E-11 |\n| 10 | 1E-12 | 1E-12 | 1E-12 | 1E-12 |\n| 15 | 1E-12 | 1E-12 | 1E-12 | 1E-12 |\n| 20 | 1E-12 | 1E-12 | 1E-12 | 1E-12 |\n| 25 | 1E-12 | 1E-12 | 1E-12 | 1E-12 |\n| 30 | 1E-12 | 1E-12 | 1E-12 | 1E-12 |\n| 75 | 1E-12 | 1E-12 | 1E-12 | 1E-12 |\n| 80 | 1E-12 | 1E-12 | 1E-12 | 1E-12 |",
+      "b": "| Time (s) | Ion current (A) |\n| --- | --- |\n| 0 | 1E-11 |\n| 2 | 1E-10 |\n| 4 | 1E-10 |\n| 6 | 1E-10 |\n| 8 | 1E-10 |",
+      "c": "| Time (s) | Ion current (A) |\n| --- | --- |\n| 0 | 1E-11 |\n| 2 | 1E-10 |\n| 4 | 1E-10 |\n| 6 | 1E-10 |\n| 8 | 1E-10 |"
     },
     "vqa": {
         "a": [

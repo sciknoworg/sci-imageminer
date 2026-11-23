@@ -7,7 +7,7 @@
         "a": "The chart illustrates a reaction pathway with energy changes at various points, including reactants (R), transition state (TS), and products (P) for three reaction pathways - a, b, c."
     },
     "data_extraction": {
-        "a": "| Reaction Pathway | Energy (kcal/mol) |\n|------------------|------------------|\n| R               | 0                |\n| TS (a)      | 36.8             |\n| TS (b)      | 37.1            |\n| TS (c)      | 41.9             |\n| P(a)            | -22              |\n| P(b)            | 11             |\n| P(c)            | 1             |"
+      "a": "| Reaction Pathway | Energy (kcal/mol) |\n| --- | --- |\n| R | 0 |\n| TS (a) | 36.8 |\n| TS (b) | 37.1 |\n| TS (c) | 41.9 |\n| P(a) | -22 |\n| P(b) | 11 |\n| P(c) | 1 |"
     },
     "vqa": {
         "a": [

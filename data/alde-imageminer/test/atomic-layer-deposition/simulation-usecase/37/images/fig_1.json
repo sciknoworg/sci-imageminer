@@ -7,7 +7,7 @@
         "a": "The figure shows a phase portrait representing the ALD growth of Al\u2082O\u2083 from TMA and H\u2082O. It plots the surface coverage of reactive intermediates, CH\u2083 (from TMA) on the y-axis and H (from H\u2082O) on the x-axis, over the course of a pulse\u2013purge\u2013pulse\u2013purge cycle. Solid lines indicate the TMA pulse and purge, dotted lines indicate the H\u2082O pulse and purge, and diagonal lines represent CH\u2084 desorption. The portrait illustrates how the surface concentrations evolve during the cycle, returning to their initial values in a stoichiometric growth cycle."
     },
     "data_extraction": {
-        "a": "| Surface CH\u2083 coverage (atoms/unit area) | Surface H coverage (atoms/unit area) |\n|---|---|\n| 0   | 0   |\n| 0.5 | 0.5 |\n| 1   | 1   |\n| 1.5 | 1.5 |\n| 2   | 2   |"
+      "a": "| Surface CH\u2083 coverage (atoms/unit area) | Surface H coverage (atoms/unit area) |\n| --- | --- |\n| 0 | 0 |\n| 0.5 | 0.5 |\n| 1 | 1 |\n| 1.5 | 1.5 |\n| 2 | 2 |"
     },
     "vqa": {
         "a": [

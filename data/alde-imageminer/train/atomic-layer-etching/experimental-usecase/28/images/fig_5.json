@@ -9,8 +9,8 @@
         "b": "The chart displays the atomic percentage of O1s, Al2p, F1s, and C1s across NF3 and TMA half-cycles. Percentage of fluorine is increasing after NF\u2083, then decreasing after TMA."
     },
     "data_extraction": {
-        "a": "| RF power (W) | Fluorinated layer depth (nm) | Etched depth (nm) |\n|---|---|---|\n| 0 | 0.0 | 0.0 |\n| 10 | 0.79 | 0.3 |\n| 50 | 0.95 | 0.38 |\n| 100 | 1.14 | 0.43 |",
-        "b": "| Cycle number | Step |O 1s | Al 2p | F 1s | C 1s |\n|---|---|---|---|---|---|\n| 0 | Start NF3  | 51 | 29 | 0 |18 |\n| 0.5 | Start TMA  | 38 | 29 | 26 | 9 |\n| 1 | Start NF3  | 44 | 30 |  15 | 10 |\n| 1.5 | Start TMA | 39 | 26 | 25 | 9 |\n| 2 | Start NF3  | 48 | 29 | 14 | 9 |\n| 2.5 | Start TMA | 38 | 28 | 25 | 9 |\n| 3 | Start NF3  | 48 | 30 | 13 | 9 |\n| 3.5 | Start TMA | 38 | 28 | 26 | 9 |\n| 4 | End TMA | 46 | 30 | 13 | 11 |"
+      "a": "| RF power (W) | Fluorinated layer depth (nm) | Etched depth (nm) |\n| --- | --- | --- |\n| 0 | 0.0 | 0.0 |\n| 10 | 0.79 | 0.3 |\n| 50 | 0.95 | 0.38 |\n| 100 | 1.14 | 0.43 |",
+      "b": "| Cycle number | Step | O 1s | Al 2p | F 1s | C 1s |\n| --- | --- | --- | --- | --- | --- |\n| 0 | Start NF3 | 51 | 29 | 0 | 18 |\n| 0.5 | Start TMA | 38 | 29 | 26 | 9 |\n| 1 | Start NF3 | 44 | 30 | 15 | 10 |\n| 1.5 | Start TMA | 39 | 26 | 25 | 9 |\n| 2 | Start NF3 | 48 | 29 | 14 | 9 |\n| 2.5 | Start TMA | 38 | 28 | 25 | 9 |\n| 3 | Start NF3 | 48 | 30 | 13 | 9 |\n| 3.5 | Start TMA | 38 | 28 | 26 | 9 |\n| 4 | End TMA | 46 | 30 | 13 | 11 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The heatmap shows how the mapped value varies with TMA flow rate and substrate velocity. Most of the field remains at low values across the parameter space. Only a slight increase appears at high substrate velocity and high TMA flow rate, indicating a weak dependence on both parameters."
     },
     "data_extraction": {
-        "a": "| TMA flow rate (sccm) | Substrate velocity (mm/s) | Relative value |\n|---------------------|--------------------------|----------------|\n| 20                  | 90                       | Low            |\n| 60                  | 90                       | Low            |\n| 100                 | 90                       | Medium         |\n| 20                  | 60                       | Low            |\n| 60                  | 60                       | Low            |\n| 100                 | 60                       | Low            |\n| 20                  | 30                       | Low            |\n| 60                  | 30                       | Low            |\n| 100                 | 30                       | Low            |"
+      "a": "| TMA flow rate (sccm) | Substrate velocity (mm/s) | Relative value |\n| --- | --- | --- |\n| 20 | 90 | Low |\n| 60 | 90 | Low |\n| 100 | 90 | Medium |\n| 20 | 60 | Low |\n| 60 | 60 | Low |\n| 100 | 60 | Low |\n| 20 | 30 | Low |\n| 60 | 30 | Low |\n| 100 | 30 | Low |"
     },
     "vqa": {
         "a": [

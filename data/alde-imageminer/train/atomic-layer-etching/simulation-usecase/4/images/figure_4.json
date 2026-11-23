@@ -7,7 +7,7 @@
         "a": "Figure 4 shows the change in film thickness with the total number of etch cycles at 460 \u00b0C for TiN, SiO\u2082, Al\u2082O\u2083, and Si\u2083N\u2084 films. The TiN film is selectively etched by the CCl\u2084-only CVE process, with thickness decreasing linearly at approximately 0.3 \u00c5 per cycle, reaching about 13 nm after 500 cycles. In contrast, the thickness of Al\u2082O\u2083, SiO\u2082, and Si\u2083N\u2084 remains unchanged even after 1000 etch cycles, demonstrating the high selectivity of TiN etching over other materials."
     },
     "data_extraction": {
-        "a": "| Etch cycles | TiN (ALD) | Al\u2082O\u2083 (ALD) | SiO\u2082 (TOx) | Si\u2083N\u2084 (LPCVD) |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 100 | 3 | 0 | 0 | 0 |\n| 300 | 9 | 0 | 0 | 0 |\n| 500 | 13 | 0 | 0 | 0 |\n| 1000 | 30 | 0 | 0 | 0 |"
+      "a": "| Etch cycles | TiN (ALD) | Al\u2082O\u2083 (ALD) | SiO\u2082 (TOx) | Si\u2083N\u2084 (LPCVD) |\n| --- | --- | --- | --- | --- |\n| 0 | 0 | 0 | 0 | 0 |\n| 100 | 3 | 0 | 0 | 0 |\n| 300 | 9 | 0 | 0 | 0 |\n| 500 | 13 | 0 | 0 | 0 |\n| 1000 | 30 | 0 | 0 | 0 |"
     },
     "vqa": {
         "a": [

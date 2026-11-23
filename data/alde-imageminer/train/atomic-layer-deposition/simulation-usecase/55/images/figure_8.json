@@ -7,7 +7,7 @@
         "a": "The figure presents the growth per ALD cycle of an Al2O3 film at 300 \u00b0C expressed in terms of deposited mass and average height. Both quantities increase overall with ALD cycles, but exhibit noticeable fluctuations. The height-based growth shows stronger oscillations compared to mass-based growth, indicating differences between local thickness variation and overall material uptake during deposition."
     },
     "data_extraction": {
-        "a": "| ALD cycles | Growth per cycle (10\u207b\u2079 g/cm\u00b2)-Mass | Growth per cycle (\u00c5)-Height |\n|---|---|---|\n| 1 | 1.2 | 0.07 |\n| 2 | 1.0 | 0.05 |\n| 3 | 1.9 | 0.10 |\n| 4 | 2.0 | 0.12 |\n| 5 | 2.4 | 0.14 |\n| 6 | 3.0 | 0.20 |\n| 7 | 4.0 | 0.18 |\n| 8 | 5.2 | 0.30 |\n| 9 | 6.0 | 0.33 |\n| 10 | 7.0 | 0.38 |\n| 11 | 6.0 | 0.35 |\n| 12 | 7.4 | 0.40 |"
+      "a": "| ALD cycles | Growth per cycle (10-\u2079 g/cm\u00b2)-Mass | Growth per cycle (\u00c5)-Height |\n| --- | --- | --- |\n| 1 | 1.2 | 0.07 |\n| 2 | 1.0 | 0.05 |\n| 3 | 1.9 | 0.10 |\n| 4 | 2.0 | 0.12 |\n| 5 | 2.4 | 0.14 |\n| 6 | 3.0 | 0.20 |\n| 7 | 4.0 | 0.18 |\n| 8 | 5.2 | 0.30 |\n| 9 | 6.0 | 0.33 |\n| 10 | 7.0 | 0.38 |\n| 11 | 6.0 | 0.35 |\n| 12 | 7.4 | 0.40 |"
     },
     "vqa": {
         "a": [

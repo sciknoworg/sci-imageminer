@@ -11,9 +11,9 @@
         "c": "The figure shows the relationship between the thickness and number of cycles. As the number of cycles increases, so does the thickness."
     },
     "data_extraction": {
-        "a": "| Prec. Purge (sec) | Dep. Rate (\u00c5/cycle) |\n|------------------|--------------------|\n| 0                | ~1                 |\n| 10               | ~0.87              |\n| 20               | ~0.89              |\n| 30               | ~0.82              |\n| 40               | ~0.80              |\n| 60               | ~0.79              |",
-        "b": "| Reactor Temperature (\u00b0C) | Dep. Rate (\u00c5/cycle) |\n|---------------------------|---------------------|\n| 200                       |           -         |\n| 250                       | ~0.85               |\n| 300                       | ~0.88               |\n| 350                       | ~1.1                |\n| 400                       | ~1.6                |",
-        "c": "| Number of Cycles | Thickness (\u00c5ng) |\n|-------------------|-----------------|\n| 75                |      -          |\n| 125               | ~135            |\n| 175               | ~150            |\n| 225               |    -            |\n| 275               |    -            |"
+      "a": "| Prec. Purge (sec) | Dep. Rate (\u00c5/cycle) |\n| --- | --- |\n| 0 | ~1 |\n| 10 | ~0.87 |\n| 20 | ~0.89 |\n| 30 | ~0.82 |\n| 40 | ~0.80 |\n| 60 | ~0.79 |",
+      "b": "| Reactor Temperature (\u00b0C) | Dep. Rate (\u00c5/cycle) |\n| --- | --- |\n| 200 | - |\n| 250 | ~0.85 |\n| 300 | ~0.88 |\n| 350 | ~1.1 |\n| 400 | ~1.6 |",
+      "c": "| Number of Cycles | Thickness (\u00c5ng) |\n| --- | --- |\n| 75 | - |\n| 125 | ~135 |\n| 175 | ~150 |\n| 225 | - |\n| 275 | - |"
     },
     "vqa": {
         "a": [

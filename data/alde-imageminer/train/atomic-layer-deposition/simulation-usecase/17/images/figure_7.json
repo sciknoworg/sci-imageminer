@@ -10,9 +10,9 @@
         "b": "The bar chart represents  the exchange energy comparison of the different deposited transition metals showing two different regions 'Exchangeable region' and 'Non-exchangeable region'."
     },
     "data_extraction": {
-        "a": "| Deposited metal | Cosegregation energy (eV) |\n|---|---|\n| Ti | -0.12 |\n| Cr | -1.05 |\n| Fe | -1.45 |\n| Mn | -1.89 |\n| Co | -2.92 |\n| Ni | -3.32 |\n| Cu | -4.32 |",
-        "b": "| Deposited metal | Exchange energy (eV) |\n|---|---|\n| Ti | -3.2 |\n| Cr | -2.27 |\n| Fe | -1.87 |\n| Mn | -1.43 |\n| Co | -0.4 |\n| Ni | 0 |\n| Cu | 1.0 |",
-        "c": ""
+      "a": "| Deposited metal | Cosegregation energy (eV) |\n| --- | --- |\n| Ti | -0.12 |\n| Cr | -1.05 |\n| Fe | -1.45 |\n| Mn | -1.89 |\n| Co | -2.92 |\n| Ni | -3.32 |\n| Cu | -4.32 |",
+      "b": "| Deposited metal | Exchange energy (eV) |\n| --- | --- |\n| Ti | -3.2 |\n| Cr | -2.27 |\n| Fe | -1.87 |\n| Mn | -1.43 |\n| Co | -0.4 |\n| Ni | 0 |\n| Cu | 1.0 |",
+      "c": ""
     },
     "vqa": {
         "b": [

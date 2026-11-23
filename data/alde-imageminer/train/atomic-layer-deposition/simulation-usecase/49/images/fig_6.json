@@ -7,7 +7,7 @@
         "a": "The figure presents the calculated potential energy profile for the decomposition of B\u2082H\u2086 on the N-terminated TiN(111) surface, showing energy changes at various stages."
     },
     "data_extraction": {
-        "a": "| Reaction Step (Species) | Energy (eV) |\n|---|---|\n| B2H6* | -0.03 |\n| Transition State (B-B & B-H) | 0.39 |\n| BH2* + BH* + H* | -7.17 |\n| BH* | -16.3 |\n| Transition State (B-H) | 0.14 |\n| B* | -19.0 |"
+      "a": "| Reaction Step (Species) | Energy (eV) |\n| --- | --- |\n| B2H6* | -0.03 |\n| Transition State (B-B & B-H) | 0.39 |\n| BH2* + BH* + H* | -7.17 |\n| BH* | -16.3 |\n| Transition State (B-H) | 0.14 |\n| B* | -19.0 |"
     },
     "vqa": {
         "a": [

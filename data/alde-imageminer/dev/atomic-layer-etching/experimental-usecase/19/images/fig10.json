@@ -7,7 +7,7 @@
         "a": "The line chart shows the film thickness of various materials (TiN, Al\u2082O\u2083, Si\u2083N\u2084, HfO\u2082, ZrO\u2082, SiO\u2082) over cycles at 250\u00b0C using O\u2083 & HF."
     },
     "data_extraction": {
-        "a": "| Number of Cycles | TiN | Al\u2082O\u2083 | Si\u2083N\u2084 | HfO\u2082 | ZrO\u2082 | SiO\u2082 |\n|---|---|---|---|---|---|---|\n| 0 | 75 | 40 | 40 | 55 | 55 | 55 |\n| 100 | 60 | 40 | 40 | 55 | 55 | 55 |\n| 200 | 45 | 40 | 40 | 55 | 55 | 55 |\n| 300 | 30 | 40 | 40 | 55 | 55 | 55 |\n| 400 | 15 | 40 | 40 | 55 | 55 | 55 |"
+      "a": "| Number of Cycles | TiN | Al\u2082O\u2083 | Si\u2083N\u2084 | HfO\u2082 | ZrO\u2082 | SiO\u2082 |\n| --- | --- | --- | --- | --- | --- | --- |\n| 0 | 75 | 40 | 40 | 55 | 55 | 55 |\n| 100 | 60 | 40 | 40 | 55 | 55 | 55 |\n| 200 | 45 | 40 | 40 | 55 | 55 | 55 |\n| 300 | 30 | 40 | 40 | 55 | 55 | 55 |\n| 400 | 15 | 40 | 40 | 55 | 55 | 55 |"
     },
     "vqa": {
         "a": [

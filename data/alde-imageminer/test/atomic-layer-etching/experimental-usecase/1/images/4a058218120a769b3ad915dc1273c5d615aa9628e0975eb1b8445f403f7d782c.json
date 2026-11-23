@@ -7,7 +7,7 @@
         "a": "The figure shows two overlapping software screenshots displaying line plots of electrochemical measurements. The left panel appears to show a voltage profile (likely charge-discharge cycles over time), while the right panel displays a capacity (or similar cumulative metric) plotted against cycle number or time. Different colored curves in the right plot suggest comparison across multiple channels or cell conditions (e.g., different materials or electrolytes). The consistent curvature upward indicates increasing cumulative response over repeated measurements"
     },
     "data_extraction": {
-        "a": "| x | y1 | y2 | y3 |\n|---|---|---|---|\n| 0 | 0.178 | 0.178 | 0.178 |\n| 1 | 0.256 | 0.256 | 0.256 |\n| 2 | 0.334 | 0.334 | 0.334 |\n| 3 | 0.412 | 0.412 | 0.412 |\n| 4 | 0.490 | 0.490 | 0.490 |\n| 5 | 0.568 | 0.568 | 0.568 |\n| 6 | 0.646 | 0.646 | 0.646 |\n| 7 | 0.724 | 0.724 | 0.724 |\n| 8 | 0.802 | 0.802 | 0.802 |\n| 9 | 0.880 | 0.880 | 0.880 |"
+      "a": "| x | y1 | y2 | y3 |\n| --- | --- | --- | --- |\n| 0 | 0.178 | 0.178 | 0.178 |\n| 1 | 0.256 | 0.256 | 0.256 |\n| 2 | 0.334 | 0.334 | 0.334 |\n| 3 | 0.412 | 0.412 | 0.412 |\n| 4 | 0.490 | 0.490 | 0.490 |\n| 5 | 0.568 | 0.568 | 0.568 |\n| 6 | 0.646 | 0.646 | 0.646 |\n| 7 | 0.724 | 0.724 | 0.724 |\n| 8 | 0.802 | 0.802 | 0.802 |\n| 9 | 0.880 | 0.880 | 0.880 |"
     },
     "vqa": {
         "a": [

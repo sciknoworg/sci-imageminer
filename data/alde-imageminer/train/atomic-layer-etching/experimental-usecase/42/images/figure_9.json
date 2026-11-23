@@ -7,7 +7,7 @@
         "a": "The chart plots the etch rate of SiCl4  versus temperature for ZrO2, HfO2, and Al2O3."
     },
     "data_extraction": {
-        "a": "| Temperature (\u00b0C) | ZrO\u2082 Etch Rate (\u00c5/cycle) | HfO\u2082 Etch Rate (\u00c5/cycle) | Al\u2082O\u2083 Etch Rate (\u00c5/cycle) |\n|------------------|---------------------------|---------------------------|---------------------------|\n| 250              | 0.00                    | 0.00                    | 0.00                    |\n| 300              | 0.055                 | 0.015                   | 0.005                   |\n| 350              | 0.15                    | 0.06                  | 0.01                    |"
+      "a": "| Temperature (\u00b0C) | ZrO\u2082 Etch Rate (\u00c5/cycle) | HfO\u2082 Etch Rate (\u00c5/cycle) | Al\u2082O\u2083 Etch Rate (\u00c5/cycle) |\n| --- | --- | --- | --- |\n| 250 | 0.00 | 0.00 | 0.00 |\n| 300 | 0.055 | 0.015 | 0.005 |\n| 350 | 0.15 | 0.06 | 0.01 |"
     },
     "vqa": {
         "a": [

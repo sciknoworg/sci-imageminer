@@ -7,7 +7,7 @@
         "a": "The line chart illustrates a non-linear  increase in lithium concentration (in at.%) as the number of LiO<sup>t</sup>Bu + H<sub>2</sub>O sub-cycles increases."
     },
     "data_extraction": {
-        "a": "| Number of LiO<sup>t</sup>Bu + H<sub>2</sub>O sub-cycles | Lithium concentration (at.%) |\n|---|---|\n| 0 | 0 |\n| 1 | 19.67 |\n| 3 | 21.06 |"
+      "a": "| Number of LiO<sup>t</sup>Bu + H<sub>2</sub>O sub-cycles | Lithium concentration (at.%) |\n| --- | --- |\n| 0 | 0 |\n| 1 | 19.67 |\n| 3 | 21.06 |"
     },
     "vqa": {
         "a": [

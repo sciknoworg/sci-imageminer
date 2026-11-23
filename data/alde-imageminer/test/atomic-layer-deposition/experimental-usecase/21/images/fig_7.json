@@ -7,7 +7,7 @@
         "a": "The figure displays X-ray diffraction patterns for TiN samples prepared at different temperatures with reference peaks"
     },
     "data_extraction": {
-        "a": "| Process  | Temperature (\u00b0C) | Main Peaks Observed (2\u03b8 \u00b0) |\n|----------|-------------------|-----------------------------|\n| Thermal  | 300              | ~36, ~42, ~62             |\n| Thermal  | 150              | ~36, ~42, ~62             |\n| Thermal  | 100              | ~36, ~42, ~62             |\n| Plasma   | 250              | ~36, ~42, ~62             |\n| Plasma   | 150              | ~36, ~42, ~62             |\n| Plasma   | 50               | ~36, ~42, ~62             |"
+      "a": "| Process | Temperature (\u00b0C) | Main Peaks Observed (2\u03b8 \u00b0) |\n| --- | --- | --- |\n| Thermal | 300 | ~36, ~42, ~62 |\n| Thermal | 150 | ~36, ~42, ~62 |\n| Thermal | 100 | ~36, ~42, ~62 |\n| Plasma | 250 | ~36, ~42, ~62 |\n| Plasma | 150 | ~36, ~42, ~62 |\n| Plasma | 50 | ~36, ~42, ~62 |"
     },
     "vqa": {
         "a": [

@@ -9,8 +9,8 @@
         "b": "DFT-computed energy profile for InCp chemisorption on hydroxylated silicon oxide (Si-OH termination). The reaction is exothermic with a final energy of -0.30 eV and a lower activation barrier of 0.28 eV. The favorable thermodynamics and kinetics on Si-OH compared to Si-H explain the selectivity of In2O3:H ALD."
     },
     "data_extraction": {
-        "a": "| Reaction Step | Energy (eV) |\n|---|---|\n| Initial State | 0.00 |\n| Transition State | 0.36 |\n| Final State | 0.31 |",
-        "b": "| Reaction Step | Energy (eV) |\n|---|---|\n| Initial State | 0.00 |\n| Transition State | 0.28 |\n| Final State | -0.30 |"
+      "a": "| Reaction Step | Energy (eV) |\n| --- | --- |\n| Initial State | 0.00 |\n| Transition State | 0.36 |\n| Final State | 0.31 |",
+      "b": "| Reaction Step | Energy (eV) |\n| --- | --- |\n| Initial State | 0.00 |\n| Transition State | 0.28 |\n| Final State | -0.30 |"
     },
     "vqa": {
         "b": [

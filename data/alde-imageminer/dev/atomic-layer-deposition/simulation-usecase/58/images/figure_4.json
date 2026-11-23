@@ -7,7 +7,7 @@
         "a": "A reaction scheme illustrating the energy changes along a reaction pathway."
     },
     "data_extraction": {
-        "a": "| Reaction Pathway | Energy (kcal/mol) |\n|------------------|------------------|\n| R(g)            | 0                |\n| R               | -6.7             |\n| TS              | -0.6             |\n| P               | -15            |\n| P(g)            |    -14.2          |"
+      "a": "| Reaction Pathway | Energy (kcal/mol) |\n| --- | --- |\n| R(g) | 0 |\n| R | -6.7 |\n| TS | -0.6 |\n| P | -15 |\n| P(g) | -14.2 |"
     },
     "vqa": {
         "a": [

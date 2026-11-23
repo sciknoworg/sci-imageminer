@@ -7,7 +7,7 @@
         "a": "The line chart shows the mass change during atomic layer etching (ALE) of VO\u2082 at 200\u202f\u00b0C over 50 cycles. A steady linear decrease in mass is observed, reaching approximately \u2013600\u202fng/cm\u00b2 by 5000 seconds. The etch rate is specified as 0.30\u202f\u00c5/cycle, and the process involves alternating pulses of SF\u2084 and Sn(acac)\u2082, each with pulse and purge times indicated as \"3\u201355\u20133\u201355\". The linear profile confirms self-limiting and uniform removal per cycle, consistent with ideal ALE behaviour."
     },
     "data_extraction": {
-        "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|----------|----------------------|\n| 0        | 150                  |\n| 1000     | 0                    |\n| 2000     | -150                 |\n| 3000     | -300                 |\n| 4000     | -450                 |\n| 5000     | -600                 |"
+      "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n| --- | --- |\n| 0 | 150 |\n| 1000 | 0 |\n| 2000 | -150 |\n| 3000 | -300 |\n| 4000 | -450 |\n| 5000 | -600 |"
     },
     "vqa": {
         "a": [

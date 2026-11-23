@@ -7,7 +7,7 @@
         "a": "The figure shows the color scale used to represent etching per cycle values in \u00c5 per cycle. It serves as a legend for the heatmaps, mapping color to numerical etch-rate values rather than displaying data directly."
     },
     "data_extraction": {
-        "a": "| Etching Per Cycle (\u00c5/cycle) |\n|---|\n| 0 |\n| 0.005 |\n| 0.010 |\n| 0.015 |\n| 0.020 |\n| 0.025 |\n| 0.030 |\n| 0.035 |\n| 0.040 |\n| 0.045 |\n| 0.050 |"
+      "a": "| Etching Per Cycle (\u00c5/cycle) |\n| --- |\n| 0 |\n| 0.005 |\n| 0.010 |\n| 0.015 |\n| 0.020 |\n| 0.025 |\n| 0.030 |\n| 0.035 |\n| 0.040 |\n| 0.045 |\n| 0.050 |"
     },
     "vqa": {
         "a": [

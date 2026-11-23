@@ -13,10 +13,10 @@
         "d": "The multiple line chart shows EPC over batch number. EPC declines strongly in the no-control case, while both EWMA and ANN stabilize EPC near the target, with ANN showing the smallest deviation."
     },
     "data_extraction": {
-        "a": "| Batch number | Target | EWMA | ANN  | No control |\n|--------------|--------|------|------|------------|\n| 1            | ~20    | ~21  | ~20  | ~22        |\n| 10           | ~20    | ~22  | ~20  | ~24        |\n| 20           | ~20    | ~23  | ~20  | ~25        |",
-        "b": "| Batch number | Target | EWMA | ANN  | No control |\n|--------------|--------|------|------|------------|\n| 1            | ~45    | ~46  | ~45  | ~48        |\n| 10           | ~45    | ~47  | ~45  | ~50        |\n| 20           | ~45    | ~48  | ~45  | ~52        |",
-        "c": "| Batch number | Target | EWMA | ANN  | No control |\n|--------------|--------|------|------|------------|\n| 1            | ~70    | ~72  | ~70  | ~75        |\n| 10           | ~70    | ~68  | ~70  | ~65        |\n| 20           | ~70    | ~65  | ~70  | ~55        |",
-        "d": "| Batch number | Target | EWMA | ANN  | No control |\n|--------------|--------|------|------|------------|\n| 1            | ~0.35  | ~0.36| ~0.35| ~0.34      |\n| 10           | ~0.35  | ~0.33| ~0.35| ~0.28      |\n| 20           | ~0.35  | ~0.32| ~0.35| ~0.20      |"
+      "a": "| Batch number | Target | EWMA | ANN | No control |\n| --- | --- | --- | --- | --- |\n| 1 | ~20 | ~21 | ~20 | ~22 |\n| 10 | ~20 | ~22 | ~20 | ~24 |\n| 20 | ~20 | ~23 | ~20 | ~25 |",
+      "b": "| Batch number | Target | EWMA | ANN | No control |\n| --- | --- | --- | --- | --- |\n| 1 | ~45 | ~46 | ~45 | ~48 |\n| 10 | ~45 | ~47 | ~45 | ~50 |\n| 20 | ~45 | ~48 | ~45 | ~52 |",
+      "c": "| Batch number | Target | EWMA | ANN | No control |\n| --- | --- | --- | --- | --- |\n| 1 | ~70 | ~72 | ~70 | ~75 |\n| 10 | ~70 | ~68 | ~70 | ~65 |\n| 20 | ~70 | ~65 | ~70 | ~55 |",
+      "d": "| Batch number | Target | EWMA | ANN | No control |\n| --- | --- | --- | --- | --- |\n| 1 | ~0.35 | ~0.36 | ~0.35 | ~0.34 |\n| 10 | ~0.35 | ~0.33 | ~0.35 | ~0.28 |\n| 20 | ~0.35 | ~0.32 | ~0.35 | ~0.20 |"
     },
     "vqa": {
         "a": [

@@ -9,8 +9,8 @@
         "b": "The inset spectra chart displays the intensity of Al2p peaks at different binding energies."
     },
     "data_extraction": {
-        "a": "| Table temperature\u00b0C | Al2p peak area (CPS eV) | Peak binding energy (eV) |\n|---|---|---|\n| 100 | 17000 | 76.0 |\n| 125 | 17000 | 76.0 |\n| 150 | 15000 | 76.0 |\n| 175 | 5000 | 75.7|\n| 200 | 2000 | 74.7 |\n| 225 | 2000 | 74.5 |\n| 250 | 2000 | 74.7 |\n| 275 | 2000 | 74.5 |\n| 300 | 2000 | 74.6 |",
-        "b": "| Binding energy (eV) | Intensity (CPS) |\n|---|---|\n| 72 | 0 |\n| 74 | 0 |\n| 76 | Peak |\n| 78 | 0 |\n| 80 | 0 |"
+      "a": "| Table temperature\u00b0C | Al2p peak area (CPS eV) | Peak binding energy (eV) |\n| --- | --- | --- |\n| 100 | 17000 | 76.0 |\n| 125 | 17000 | 76.0 |\n| 150 | 15000 | 76.0 |\n| 175 | 5000 | 75.7 |\n| 200 | 2000 | 74.7 |\n| 225 | 2000 | 74.5 |\n| 250 | 2000 | 74.7 |\n| 275 | 2000 | 74.5 |\n| 300 | 2000 | 74.6 |",
+      "b": "| Binding energy (eV) | Intensity (CPS) |\n| --- | --- |\n| 72 | 0 |\n| 74 | 0 |\n| 76 | Peak |\n| 78 | 0 |\n| 80 | 0 |"
     },
     "vqa": {
         "b": [

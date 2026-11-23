@@ -7,7 +7,7 @@
         "a": "The figure illustrates how resistivity decreases as deposition temperature increases. Measurements from spectroscopic ellipsometry (solid line) and 4-point probe (open circles) both show a consistent downward trend, indicating improved conductivity at higher deposition temperatures. Error bars represent experimental uncertainty for each temperature point."
     },
     "data_extraction": {
-        "a": "| Deposition Temperature (\u00b0C) | Resistivity (\u00b5\u03a9\u00b7cm) | Measurement Method          |\n|-----------------------------|----------------------|----------------------------|\n| 100                         | 300                  | Spectroscopic ellipsometry |\n| 200                         | 150                  | Spectroscopic ellipsometry |\n| 300                         | 120                  | Spectroscopic ellipsometry |\n| 400                         | 80                   | Spectroscopic ellipsometry |\n| 100                         | 200                  | 4-point probe              |\n| 400                         | 70                   | 4-point probe              |"
+      "a": "| Deposition Temperature (\u00b0C) | Resistivity (\u00b5\u03a9\u00b7cm) | Measurement Method |\n| --- | --- | --- |\n| 100 | 300 | Spectroscopic ellipsometry |\n| 200 | 150 | Spectroscopic ellipsometry |\n| 300 | 120 | Spectroscopic ellipsometry |\n| 400 | 80 | Spectroscopic ellipsometry |\n| 100 | 200 | 4-point probe |\n| 400 | 70 | 4-point probe |"
     },
     "vqa": {
         "b": [

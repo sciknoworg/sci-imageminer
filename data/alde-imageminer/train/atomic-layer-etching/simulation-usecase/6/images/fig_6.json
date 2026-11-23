@@ -7,7 +7,7 @@
         "a": "This multi-axis chart tracks the progression of Si etching and Cl uptake across five repeated cycles under 100 eV Ar\u207a ion bombardment. The red curve (left y-axis) indicates the amount of Si etched per cycle, which increases sharply during each ion bombardment step and then returns to baseline, showing a reproducible, step-like etching profile. Meanwhile, the blue line (right y-axis) demonstrates a continuous, linear increase in chlorine uptake with each cycle, indicating cumulative surface adsorption. Together, these trends reveal a consistent etch\u2013adsorb dynamic where physical sputtering removes Si while chemical Cl incorporation steadily rises, likely due to residual Cl interactions at the surface"
     },
     "data_extraction": {
-        "a": "| Cycle Number | Si Etched (\u00c5) | Cl Uptake (Cl/cm\u00b2 \u00d7 10\u00b9\u2075) |\n|--------------|----------------|----------------------------|\n| 0            | 0              | 0.10                       |\n| 1            | 32             | 0.22                       |\n| 2            | 32             | 0.34                       |\n| 3            | 32             | 0.46                       |\n| 4            | 32             | 0.58                       |\n| 5            | 32             | 0.70                       |"
+      "a": "| Cycle Number | Si Etched (\u00c5) | Cl Uptake (Cl/cm\u00b2 \u00d7 10\u00b9\u2075) |\n| --- | --- | --- |\n| 0 | 0 | 0.10 |\n| 1 | 32 | 0.22 |\n| 2 | 32 | 0.34 |\n| 3 | 32 | 0.46 |\n| 4 | 32 | 0.58 |\n| 5 | 32 | 0.70 |"
     },
     "vqa": {
         "a": [

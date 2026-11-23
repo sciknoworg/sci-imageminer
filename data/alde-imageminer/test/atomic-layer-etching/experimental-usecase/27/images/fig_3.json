@@ -7,7 +7,7 @@
         "a": "The chart shows the relationship between etch depth, etch rate, and surface roughness against the number of ALET cycles."
     },
     "data_extraction": {
-        "a": "| Number of ALET Cycles | Etch Depth (\u00c5) | Etch Rate (\u00c5/cycles) | Surface Roughness (\u00c5) |\n|---|---|---|---|\n| 50 | 50 | 1.00 | 4.0 |\n| 100 | 100 | 1.00 |  |\n| 150 | 150 | 1.10 | 4.5 |\n| 250 | 260 | 1.10 | 5.0 |"
+      "a": "| Number of ALET Cycles | Etch Depth (\u00c5) | Etch Rate (\u00c5/cycles) | Surface Roughness (\u00c5) |\n| --- | --- | --- | --- |\n| 50 | 50 | 1.00 | 4.0 |\n| 100 | 100 | 1.00 |  |\n| 150 | 150 | 1.10 | 4.5 |\n| 250 | 260 | 1.10 | 5.0 |"
     },
     "vqa": {
         "a": [

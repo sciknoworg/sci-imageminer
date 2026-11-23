@@ -9,8 +9,8 @@
         "b": "The diagram represent the Density Functional Theory (DFT)-calculated reaction energy values comparing the chemisorption of Hacac on SiO\u2082surfaces. The diagrams show the activation energy (E\u2090) and reaction energy (\u0394E) for the ligand-exchange reaction where Hacac replaces a surface hydroxyl group. The key difference is that the reaction is exothermic and low-barrier on Al\u2082O\u2083 (\u0394E = -0.49 eV, E\u2090 = 0.01/0.25 eV) but endothermic and high-barrier on SiO\u2082 (\u0394E = +0.98 eV, E\u2090 = 2.35 eV)."
     },
     "data_extraction": {
-        "a": "| Reaction step | Energy (eV) |\n| ------ | ------- |\n| Physisorbed state | 0.05  |\n| Transition State  | 0.25  |\n|  Chemisorbed Product State | -0.49 |",
-        "b": "| Reaction step | Energy (eV) |\n| ------ | ------- |\n| Physisorbed state | 0.05  |\n|  Transition State  | 2.25  |\n|  Chemisorbed Product State | 0.98 |"
+      "a": "| Reaction step | Energy (eV) |\n| --- | --- |\n| Physisorbed state | 0.05 |\n| Transition State | 0.25 |\n| Chemisorbed Product State | -0.49 |",
+      "b": "| Reaction step | Energy (eV) |\n| --- | --- |\n| Physisorbed state | 0.05 |\n| Transition State | 2.25 |\n| Chemisorbed Product State | 0.98 |"
     },
     "vqa": {
         "b": [

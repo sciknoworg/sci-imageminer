@@ -7,7 +7,7 @@
         "a": "The figure shows how the failure temperature increases with film thickness for PE-ALD and PVD TaN and Ta films. Across all materials, thicker films withstand higher temperatures, with ALD-based films generally exhibiting higher thermal stability than their PVD counterparts."
     },
     "data_extraction": {
-        "a": "| Film thickness (nm) | PE-ALD TaN | PVD TaN | PE-ALD Ta | PVD Ta |\n|---|---|---|---|---|\n| 0 | 580 | 590 | 600 | 610 |\n| 5 | 670 | 680 | 690 | 700 |\n| 10 | 760 | 770 | 780 | 790 |\n| 15 | 850 | 860 | 870 | 880 |"
+      "a": "| Film thickness (nm) | PE-ALD TaN | PVD TaN | PE-ALD Ta | PVD Ta |\n| --- | --- | --- | --- | --- |\n| 0 | 580 | 590 | 600 | 610 |\n| 5 | 670 | 680 | 690 | 700 |\n| 10 | 760 | 770 | 780 | 790 |\n| 15 | 850 | 860 | 870 | 880 |"
     },
     "vqa": {
         "a": [

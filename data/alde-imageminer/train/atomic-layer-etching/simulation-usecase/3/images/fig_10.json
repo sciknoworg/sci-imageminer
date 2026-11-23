@@ -7,7 +7,7 @@
         "a": "The visualization represents the total ion density in a cylindrical region, with color gradients indicating varying densities."
     },
     "data_extraction": {
-        "a": "| Phase        | Location (qualitative) | Total Ion Density (10^11 cm^-3) |\n|--------------|-------------------------|----------------------------------|\n| Cl phase     | Inner upper lobe        | 4.71                             |\n| Cl phase     | Lower-left region       | 2.15                             |\n| Center line  | Interface (mid-height)  | 3.86                             |\n| Ar+ phase    | Right mid-height        | 1.47                             |"
+      "a": "| Phase | Location (qualitative) | Total Ion Density (10^11 cm^-3) |\n| --- | --- | --- |\n| Cl phase | Inner upper lobe | 4.71 |\n| Cl phase | Lower-left region | 2.15 |\n| Center line | Interface (mid-height) | 3.86 |\n| Ar+ phase | Right mid-height | 1.47 |"
     },
     "vqa": {
         "a": [

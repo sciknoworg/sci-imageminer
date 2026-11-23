@@ -9,8 +9,8 @@
         "b": "The line chart illustrates the relationship between TMA pulses and EPC (nm/cycle) at two temperatures, 300\u00b0C and 150\u00b0C."
     },
     "data_extraction": {
-        "a": "| SF\u2086 plasma time (s) | EPC (nm/cycle) 300 degrees |EPC (nm/cycle) 150 degrees |\n|---|---|---|\n| 0 | 0.0 |0.0|\n| 5 | 0.37 |0.27|\n| 10 | 0.4 |0.3|\n| 15 | 0.41 |0.31|\n| 30 | 0.41 |0.35|",
-        "b": "| TMA pulses | EPC (nm/cycle) 300 degrees |EPC (nm/cycle) 150 degrees |\n|---|---|---|\n| 0 | 0.4 |0.0|\n| 2 | 0.4 |0.05|\n| 4 | 0.4 |0.25|\n| 6 | 0.4 |0.31|\n| 10 | 0.4 |0.31|"
+      "a": "| SF\u2086 plasma time (s) | EPC (nm/cycle) 300 degrees | EPC (nm/cycle) 150 degrees |\n| --- | --- | --- |\n| 0 | 0.0 | 0.0 |\n| 5 | 0.37 | 0.27 |\n| 10 | 0.4 | 0.3 |\n| 15 | 0.41 | 0.31 |\n| 30 | 0.41 | 0.35 |",
+      "b": "| TMA pulses | EPC (nm/cycle) 300 degrees | EPC (nm/cycle) 150 degrees |\n| --- | --- | --- |\n| 0 | 0.4 | 0.0 |\n| 2 | 0.4 | 0.05 |\n| 4 | 0.4 | 0.25 |\n| 6 | 0.4 | 0.31 |\n| 10 | 0.4 | 0.31 |"
     },
     "vqa": {
         "b": [

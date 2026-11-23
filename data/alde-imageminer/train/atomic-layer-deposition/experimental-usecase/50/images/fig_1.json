@@ -7,7 +7,7 @@
         "a": "The figure illustrates a supercycle reaction scheme involving ZnO and doping element X, with labeled cycles and time intervals."
     },
     "data_extraction": {
-        "a": "| Step       | ZnO Cycle            | Dopant Cycle         |\n|------------|----------------------|----------------------|\n| Precursor  | DEZ                 | X                   |\n| Reactant   | H\u2082O                 | H\u2082O                 |\n| Purge      | Purge               | Purge               |"
+      "a": "| Step | ZnO Cycle | Dopant Cycle |\n| --- | --- | --- |\n| Precursor | DEZ | X |\n| Reactant | H\u2082O | H\u2082O |\n| Purge | Purge | Purge |"
     },
     "vqa": {
         "a": [

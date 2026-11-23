@@ -7,7 +7,7 @@
         "a": "The chart shows the etch depth and etch rate of various materials (InGaAs, Si, SiO<sub>2</sub>, HfO<sub>2</sub>, PR, ACL) as a function of Ar<sup>+</sup> ion exposure time. The etch depth increases with exposure time for InGaAs, while the etch rate saturates at around 50 seconds."
     },
     "data_extraction": {
-        "a": "| Ar<sup>+</sup> Ion Exposure Time (sec/cycle) | Etch Depth (\u00c5) InGaAs|Etch Depth (\u00c5) Other| Etch Rate (\u00c5/Cycle) InGaAs|Etch Rate (\u00c5/Cycle) Other|\n|---|---|---|---|---|\n| 0 | 0 | 0 |0|0|\n| 20 | 40 | 0 |0.4|0|\n| 30 | 60 | 0|0.6 |0|\n| 50 | 100 | 0|1.0 |0|\n| 80 | 100 |0| 1.0 |0|\n| 100 | 100 | 0|1.0 |0|"
+      "a": "| Ar<sup>+</sup> Ion Exposure Time (sec/cycle) | Etch Depth (\u00c5) InGaAs | Etch Depth (\u00c5) Other | Etch Rate (\u00c5/Cycle) InGaAs | Etch Rate (\u00c5/Cycle) Other |\n| --- | --- | --- | --- | --- |\n| 0 | 0 | 0 | 0 | 0 |\n| 20 | 40 | 0 | 0.4 | 0 |\n| 30 | 60 | 0 | 0.6 | 0 |\n| 50 | 100 | 0 | 1.0 | 0 |\n| 80 | 100 | 0 | 1.0 | 0 |\n| 100 | 100 | 0 | 1.0 | 0 |"
     },
     "vqa": {
         "a": [

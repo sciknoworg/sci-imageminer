@@ -7,7 +7,7 @@
         "a": "The figure plots EPC against oxygen pulse length for different temperatures."
     },
     "data_extraction": {
-        "b": "| O\u2082 pulse length (s) | 400 \u00b0C | 350 \u00b0C | 300 \u00b0C | 250 \u00b0C |\n|---|---|---|---|---|\n| 1 | 3.0 | 1.5 | 0.6 | 0.1 |\n| 2 | 3.5 | 2.0 | 0.8 | 0.2 |\n| 3 | 4.0 | 2.5 | 1.2 | 0.3 |\n| 6 | 4.5 | 2.8 | 1.6 | 0.4 |"
+      "b": "| O\u2082 pulse length (s) | 400 \u00b0C | 350 \u00b0C | 300 \u00b0C | 250 \u00b0C |\n| --- | --- | --- | --- | --- |\n| 1 | 3.0 | 1.5 | 0.6 | 0.1 |\n| 2 | 3.5 | 2.0 | 0.8 | 0.2 |\n| 3 | 4.0 | 2.5 | 1.2 | 0.3 |\n| 6 | 4.5 | 2.8 | 1.6 | 0.4 |"
     },
     "vqa": {
         "a": [

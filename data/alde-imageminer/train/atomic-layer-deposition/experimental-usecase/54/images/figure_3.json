@@ -9,8 +9,8 @@
         "b": "The figure depicts the FPP resistivity of the TiN and TaN films as a function of plasma exposure time. The resistivity of TiN is practically constant, but the resistivity of TaN decreases exponentially as a function of plasma exposure time."
     },
     "data_extraction": {
-        "a": "| Plasma exposure time (s) | TaN (H\u2082 plasma) | TiN (H\u2082-N\u2082 30:4 plasma) |\n|---|---|---|\n| 0 | 0.02 | 0.03 |\n| 5 | 0.03 | 0.04 |\n| 10 | 0.04 | 0.04 |\n| 20 | 0.05 | 0.04 |\n| 30 | 0.06 | 0.04 |",
-        "b": "| Plasma exposure time (s) | TaN (H\u2082 plasma) | TiN (H\u2082-N\u2082 30:4 plasma) |\n|---|---|---|\n| 0 | 3*10^4 | 2*10^2 |\n| 5 | 4*10^3 | 2*10^2 |\n| 10 | 10^3 | 2*10^2 |\n| 30 | 4*10^2 | 10^2 |"
+      "a": "| Plasma exposure time (s) | TaN (H\u2082 plasma) | TiN (H\u2082-N\u2082 30:4 plasma) |\n| --- | --- | --- |\n| 0 | 0.02 | 0.03 |\n| 5 | 0.03 | 0.04 |\n| 10 | 0.04 | 0.04 |\n| 20 | 0.05 | 0.04 |\n| 30 | 0.06 | 0.04 |",
+      "b": "| Plasma exposure time (s) | TaN (H\u2082 plasma) | TiN (H\u2082-N\u2082 30:4 plasma) |\n| --- | --- | --- |\n| 0 | 3e+4 | 2e+2 |\n| 5 | 4e+3 | 2e+2 |\n| 10 | 10^3 | 2e+2 |\n| 30 | 4e+2 | 10^2 |"
     },
     "vqa": {
         "a": [

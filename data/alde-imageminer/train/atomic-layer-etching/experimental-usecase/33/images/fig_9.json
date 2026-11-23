@@ -7,7 +7,7 @@
         "a": "The figure displays three spectra charts labeled a, b, and c, each showing intensity against binding energy in electron volts at different stages in the ALE process."
     },
     "data_extraction": {
-        "a": "| Binding Energy (eV) | Intensity (a.u.) a |Intensity (a.u.) a |Intensity (a.u.) a |\n|---|---|---|---|\n| 470 | -|-|-|\n| 465 | Peak | Peak | Peak |\n| 459 | Ti-O | Ti-O | Ti-O |\n| 456 | Ti-N | Ti-N | Ti-N |\n|450|-|-|-|"
+      "a": "| Binding Energy (eV) | Intensity (a.u.) a | Intensity (a.u.) a | Intensity (a.u.) a |\n| --- | --- | --- | --- |\n| 470 | - | - | - |\n| 465 | Peak | Peak | Peak |\n| 459 | Ti-O | Ti-O | Ti-O |\n| 456 | Ti-N | Ti-N | Ti-N |\n| 450 | - | - | - |"
     },
     "vqa": {
         "a": [

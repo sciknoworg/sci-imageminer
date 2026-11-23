@@ -7,7 +7,7 @@
         "a": "This figure shows the electrical resistivity of TiN ALD films as a function of deposition temperature. For all pulse lengths, resistivity decreases sharply with increasing temperature. Short pulse sequences consistently yield the lowest resistivity at high temperature. Medium pulses show intermediate behavior, while long pulses retain substantially higher resistivity, especially at lower temperatures. The results indicate that both deposition temperature and pulse timing strongly influence TiN film electrical quality."
     },
     "data_extraction": {
-        "a": "| Pulse sequence | Deposition temperature (\u00b0C) | Resistivity (\u00b5\u03a9\u00b7cm) |\n|---|---|---|\n| Short  | 60  | ~2.5\u00d710\u2077 |\n| Short  | 120 | ~5\u00d710\u2076 |\n| Short  | 180 | ~5\u00d710\u2074 |\n| Short  | 240 | ~1.5\u00d710\u2074 |\n| Medium | 120 | ~2\u00d710\u2077 |\n| Medium | 180 | ~3\u00d710\u2075 |\n| Medium | 240 | ~2\u00d710\u2074 |\n| Long   | 180 | ~1\u00d710\u2077 |\n| Long   | 240 | ~3\u00d710\u2075 |"
+      "a": "| Pulse sequence | Deposition temperature (\u00b0C) | Resistivity (\u00b5\u03a9\u00b7cm) |\n| --- | --- | --- |\n| Short | 60 | ~2.5e+7 |\n| Short | 120 | ~5e+6 |\n| Short | 180 | ~5e+4 |\n| Short | 240 | ~1.5e+4 |\n| Medium | 120 | ~2e+7 |\n| Medium | 180 | ~3e+5 |\n| Medium | 240 | ~2e+4 |\n| Long | 180 | ~1e+7 |\n| Long | 240 | ~3e+5 |"
     },
     "vqa": {
         "a": [

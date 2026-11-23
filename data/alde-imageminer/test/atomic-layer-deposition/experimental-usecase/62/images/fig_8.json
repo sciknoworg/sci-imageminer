@@ -9,8 +9,8 @@
         "b": "A line chart showing the integrated 656 nm signal per cycle across different conditions."
     },
     "data_extraction": {
-        "a": "| Time (s) | Intensity (a.u.) |\n|---|---|\n| 0 | 0 |\n| 50 | 0 |\n| 100 | 4x10^4 |\n| 150 | 4x10^4 |\n| 200 | 4x10^4 |\n| 250 | 6x10^4 |\n| 300 | 0 |",
-        "b": "| Cycle number | Integrated 656 nm signal per cycle No cond.|Integrated 656 nm signal per cycle H2-N2 plasma|Integrated 656 nm signal per cycle H2 plasma|Integrated 656 nm signal per cycle TiCl4|\n|---|---|---|---|---|\n| 0 | 9x10^5 |5x10^5 |7x10^5 |6x10^5 |\n| 20 | 8x10^5 |5x10^5 |5x10^5 |5x10^5 |\n| 40 | 6x10^5 |5x10^5 |5x10^5 |4.5x10^5 |\n| 60 | 6x10^5 |5x10^5 |5x10^5 |4.5x10^5 |\n| 80 | 6x10^5 |5x10^5 |5x10^5 |4.5x10^5 |\n| 100 | 5x10^5 |5x10^5 |5x10^5 |4.5x10^5 |\n| 120 | 5x10^5 |5x10^5 |5x10^5 |4.5x10^5 |\n| 140 | 5x10^5 |5x10^5 |5x10^5 |4.5x10^5 |"
+      "a": "| Time (s) | Intensity (a.u.) |\n| --- | --- |\n| 0 | 0 |\n| 50 | 0 |\n| 100 | 4e+4 |\n| 150 | 4e+4 |\n| 200 | 4e+4 |\n| 250 | 6e+4 |\n| 300 | 0 |",
+      "b": "| Cycle number | Integrated 656 nm signal per cycle No cond. | Integrated 656 nm signal per cycle H2-N2 plasma | Integrated 656 nm signal per cycle H2 plasma | Integrated 656 nm signal per cycle TiCl4 |\n| --- | --- | --- | --- | --- |\n| 0 | 9e+5 | 5e+5 | 7e+5 | 6e+5 |\n| 20 | 8e+5 | 5e+5 | 5e+5 | 5e+5 |\n| 40 | 6e+5 | 5e+5 | 5e+5 | 4.5e+5 |\n| 60 | 6e+5 | 5e+5 | 5e+5 | 4.5e+5 |\n| 80 | 6e+5 | 5e+5 | 5e+5 | 4.5e+5 |\n| 100 | 5e+5 | 5e+5 | 5e+5 | 4.5e+5 |\n| 120 | 5e+5 | 5e+5 | 5e+5 | 4.5e+5 |\n| 140 | 5e+5 | 5e+5 | 5e+5 | 4.5e+5 |"
     },
     "vqa": {
         "a": [

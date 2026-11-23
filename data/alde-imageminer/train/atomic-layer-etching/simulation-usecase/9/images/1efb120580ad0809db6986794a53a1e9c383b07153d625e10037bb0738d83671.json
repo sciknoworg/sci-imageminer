@@ -9,8 +9,8 @@
         "b": "The line chart illustrates the decrease in total energy with increasing cut-off energies."
     },
     "data_extraction": {
-        "a": "| Layer number | Adsorption Energy (eV) |\n|---|---|\n| 4 | 4.2 |\n| 6 | 4.13 |\n| 8 | 4.12 |\n| 10 | 4.12 |\n| 12 | 4.12 |",
-        "b": "| Cut-off energies (Ry) | Total energy (Ry) |\n|---|---|\n| 15 | -945.9 |\n| 20 | -946.1 |\n| 25 | -946.2 |\n| 30 | -946.3 |\n| 35 | -946.3 |\n| 40 | -946.3 |\n| 45 | -946.3 |\n| 50 | -946.3 |\n| 55 | -946.3 |\n| 60 | -946.35 |"
+      "a": "| Layer number | Adsorption Energy (eV) |\n| --- | --- |\n| 4 | 4.2 |\n| 6 | 4.13 |\n| 8 | 4.12 |\n| 10 | 4.12 |\n| 12 | 4.12 |",
+      "b": "| Cut-off energies (Ry) | Total energy (Ry) |\n| --- | --- |\n| 15 | -945.9 |\n| 20 | -946.1 |\n| 25 | -946.2 |\n| 30 | -946.3 |\n| 35 | -946.3 |\n| 40 | -946.3 |\n| 45 | -946.3 |\n| 50 | -946.3 |\n| 55 | -946.3 |\n| 60 | -946.35 |"
     },
     "vqa": {
         "b": [

@@ -7,7 +7,7 @@
         "a": "Number of F and C atoms in the SiO\u2082 sample versus CF\u2083\u207a ion impacts at 20 eV. F reaches ~75 atoms at steady-state while C remains extremely low (~5 atoms). Compared to CF\u2082\u207a, saturation takes longer (~400 impacts) and the film contains less of both species."
     },
     "data_extraction": {
-        "a": "| Number of CF3+ Ion Impacts | F (Number of Atoms) | C (Number of Atoms) |\n|---|---|---|\n| 0 | 0 | 0 |\n| 50 | 14 | 3 |\n| 100 | 25 | 4 |\n| 150 | 32 | 3 |\n| 200 | 48 | 3 |\n| 250 | 50 | 4 |\n| 300 | 55 | 4 |\n| 350 | 68 | 5 |\n| 400 | 75 | 5 |\n| 450 | 75 | 5 |\n| 500 | 76 | 5 |\n| 550 | 75 | 5 |\n| 600 | 70 | 5 |"
+      "a": "| Number of CF3+ Ion Impacts | F (Number of Atoms) | C (Number of Atoms) |\n| --- | --- | --- |\n| 0 | 0 | 0 |\n| 50 | 14 | 3 |\n| 100 | 25 | 4 |\n| 150 | 32 | 3 |\n| 200 | 48 | 3 |\n| 250 | 50 | 4 |\n| 300 | 55 | 4 |\n| 350 | 68 | 5 |\n| 400 | 75 | 5 |\n| 450 | 75 | 5 |\n| 500 | 76 | 5 |\n| 550 | 75 | 5 |\n| 600 | 70 | 5 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The etch rate increases with temperature up to 250\u00b0C and then plateaus"
     },
     "data_extraction": {
-        "a": "| Temperature(\u00b0C) | Etch Rate (\u00c5/cycle) |\n|---|---|\n| 150 | 0.06 |\n| 200 | 0.14 |\n| 250 | 0.21 |\n| 300 | 0.20 |\n| 350 | 0.21 |"
+      "a": "| Temperature(\u00b0C) | Etch Rate (\u00c5/cycle) |\n| --- | --- |\n| 150 | 0.06 |\n| 200 | 0.14 |\n| 250 | 0.21 |\n| 300 | 0.20 |\n| 350 | 0.21 |"
     },
     "vqa": {
         "a": [

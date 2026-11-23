@@ -9,8 +9,8 @@
         "b": "The figure shows the time-dependent intensity changes of specific molecular emissions (O, H, CO, CN) over time."
     },
     "data_extraction": {
-        "a": "| Wavelength (nm) | Intensity (a.u.) O2 plasma |Intensity (a.u.) O2 plasma after ALD cycle |\n|---|---|---|\n| 360-400 | - | CN range |\n| 400-750 | - | CO range |\n| 660 | - | H alpha peak |\n| 780 | O peak |O peak |",
-        "b": "| Time (s) | Intensity (a.u.) O |Intensity (a.u.) H |Intensity (a.u.) CO |Intensity (a.u.) CN |\n|----------|------------------|----------|----------|------------------|\n| 0        | 0     |0     |0     |0     |\n| 0.5      | 0     |0     |0     |0     |\n| 1        | 200   | 200   |100|100|\n| 1.5      | 250   |130|80|80|\n| 2        | 260    |80|50|50|\n| 2.5      | 260    |50|50|20|\n| 3        | 260    |50|50|20|\n| 3.5      | 260    |50|50|20|\n| 4        | 260    |50|50|20|"
+      "a": "| Wavelength (nm) | Intensity (a.u.) O2 plasma | Intensity (a.u.) O2 plasma after ALD cycle |\n| --- | --- | --- |\n| 360-400 | - | CN range |\n| 400-750 | - | CO range |\n| 660 | - | H alpha peak |\n| 780 | O peak | O peak |",
+      "b": "| Time (s) | Intensity (a.u.) O | Intensity (a.u.) H | Intensity (a.u.) CO | Intensity (a.u.) CN |\n| --- | --- | --- | --- | --- |\n| 0 | 0 | 0 | 0 | 0 |\n| 0.5 | 0 | 0 | 0 | 0 |\n| 1 | 200 | 200 | 100 | 100 |\n| 1.5 | 250 | 130 | 80 | 80 |\n| 2 | 260 | 80 | 50 | 50 |\n| 2.5 | 260 | 50 | 50 | 20 |\n| 3 | 260 | 50 | 50 | 20 |\n| 3.5 | 260 | 50 | 50 | 20 |\n| 4 | 260 | 50 | 50 | 20 |"
     },
     "vqa": {
         "a": [

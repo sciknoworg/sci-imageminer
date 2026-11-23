@@ -21,14 +21,14 @@
         "h": "HAADF-STEM image with corresponding EDX elemental maps, confirming the homogeneous distribution of Mo and S over the TiNTs and successful formation of the MoS\u2082/TiNTs heterostructure."
     },
     "data_extraction": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "| Mode label | Raman shift (cm\u207b\u00b9) | Relative intensity | Note |\n|----------|--------------------|--------------------|-------|\n| E_g       | ~145               | High               | Main TiO\u2082 anatase peak |\n| B\u2081g       | ~395               | Medium             | TiO\u2082 lattice vibration  |\n| A\u2081g       | ~515               | Medium             | TiO\u2082 mode  |\n| E_g       | ~640               | Medium\u2013low  | Higher-order TiO\u2082 peak |\n| LA         | ~230                | Medium          | Longitudinal acoustic mode MoS\u2082 |\n| E\u2082g\u00b9      | ~380\u2013390     | High               | In-plane MoS\u2082 vibration |\n| A\u2081g       | ~405\u2013410      | Very high     | Out-of-plane MoS\u2082 vibration |\n| 2LA(M)   | ~450\u2013460  | Medium        | Second-order MoS\u2082 mode |",
-        "e": "",
-        "f": "",
-        "g": "",
-        "h": ""
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": "| Mode label | Raman shift (cm-\u00b9) | Relative intensity | Note |\n| --- | --- | --- | --- |\n| E_g | ~145 | High | Main TiO\u2082 anatase peak |\n| B\u2081g | ~395 | Medium | TiO\u2082 lattice vibration |\n| A\u2081g | ~515 | Medium | TiO\u2082 mode |\n| E_g | ~640 | Medium\u2013low | Higher-order TiO\u2082 peak |\n| LA | ~230 | Medium | Longitudinal acoustic mode MoS\u2082 |\n| E\u2082g\u00b9 | ~380\u2013390 | High | In-plane MoS\u2082 vibration |\n| A\u2081g | ~405\u2013410 | Very high | Out-of-plane MoS\u2082 vibration |\n| 2LA(M) | ~450\u2013460 | Medium | Second-order MoS\u2082 mode |",
+      "e": "",
+      "f": "",
+      "g": "",
+      "h": ""
     },
     "vqa": {
         "d": [

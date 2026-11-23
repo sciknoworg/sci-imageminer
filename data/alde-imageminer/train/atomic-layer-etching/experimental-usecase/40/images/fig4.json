@@ -13,10 +13,10 @@
         "d": "The F 1s XPS spectra show F-C (~690 eV) and F-Ti (~685 eV) components. The ALE-treated film (bottom) exhibits increased fluorine signal compared to the original (top), consistent with fluorine incorporation from the SF6/H2 plasma step."
     },
     "data_extraction": {
-        "a": "| Binding Energy, eV | Component | Original | After ALE |\n|---|---|---|---|\n| 455 | Ti-N | 0.70 | 0.55 |\n| 458 | Ti-ON | 1.00 | 0.85 |\n| 460 | Ti-O | 0.45 | 0.55 |\n| 462 | Ti-F | 0.25 | 0.40 |\n| 454 | Ti-C | 0.10 | 0.15 |\n| 464 | Ti-N (2p\u2081/\u2082) | 0.55 | 0.45 |\n| 466 | Ti-ON (2p\u2081/\u2082) | 0.35 | 0.30 |",
-        "b": "| Binding Energy, eV | Component | Original | After ALE |\n|---|---|---|---|\n| 397 | N-Ti | 1.00 | 0.75 |\n| 399 | N-O | 0.15 | 0.35 |",
-        "c": "| Binding Energy, eV | Component | Original | After ALE |\n|---|---|---|---|\n| 530 | O-Ti | 0.55 | 0.45 |\n| 532 | O-N | 1.00 | 1.00 |",
-        "d": "| Binding Energy, eV | Component | Original | After ALE |\n|---|---|---|---|\n| 685 | F-Ti | 0.45 | 1.00 |\n| 689 | F-C | 1.00 | 0.55 |"
+      "a": "| Binding Energy, eV | Component | Original | After ALE |\n| --- | --- | --- | --- |\n| 455 | Ti-N | 0.70 | 0.55 |\n| 458 | Ti-ON | 1.00 | 0.85 |\n| 460 | Ti-O | 0.45 | 0.55 |\n| 462 | Ti-F | 0.25 | 0.40 |\n| 454 | Ti-C | 0.10 | 0.15 |\n| 464 | Ti-N (2p\u2081/\u2082) | 0.55 | 0.45 |\n| 466 | Ti-ON (2p\u2081/\u2082) | 0.35 | 0.30 |",
+      "b": "| Binding Energy, eV | Component | Original | After ALE |\n| --- | --- | --- | --- |\n| 397 | N-Ti | 1.00 | 0.75 |\n| 399 | N-O | 0.15 | 0.35 |",
+      "c": "| Binding Energy, eV | Component | Original | After ALE |\n| --- | --- | --- | --- |\n| 530 | O-Ti | 0.55 | 0.45 |\n| 532 | O-N | 1.00 | 1.00 |",
+      "d": "| Binding Energy, eV | Component | Original | After ALE |\n| --- | --- | --- | --- |\n| 685 | F-Ti | 0.45 | 1.00 |\n| 689 | F-C | 1.00 | 0.55 |"
     },
     "vqa": {
         "a": [

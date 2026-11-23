@@ -7,7 +7,7 @@
         "a": "The figure shows the XRD pattern of a single-crystal AlN film, with different peaks appearing at specific 2\u03b8 angles that correspond to the (002) at 36.0 degrees, (101) at 38.1 degrees and (00001) at 41.7 degrees, crystal planes."
     },
     "data_extraction": {
-        "a": "| 2\u03b8 (degrees) | Counts |\n|---|---|\n| 35.0 | peak at 36.0\u00b0  |\n| 37.5 | peak at 38.1\u00b0 |\n| 40.0 | - |\n| 42.5 | peak at 41.7\u00b0 |"
+      "a": "| 2\u03b8 (degrees) | Counts |\n| --- | --- |\n| 35.0 | peak at 36.0\u00b0 |\n| 37.5 | peak at 38.1\u00b0 |\n| 40.0 | - |\n| 42.5 | peak at 41.7\u00b0 |"
     },
     "vqa": {
         "a": [

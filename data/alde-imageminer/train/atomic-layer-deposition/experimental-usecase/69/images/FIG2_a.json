@@ -7,7 +7,7 @@
         "a": "The chart displays the relationship between the atomic ratio of P/(P + O + Al) and GPC (nm/cycle) as a function of TDMAP exposure time (in seconds)."
     },
     "data_extraction": {
-        "a": "| O - T<sub>Al</sub> - O | GPC (nm/cycle) | P/(P + O + Al) atomic ratio |\n|---|---|---|\n| 0 | 0.12 | 0.00 |\n| 5 | 0.10 |  |\n| 10 | 0.10 | 0.14 |\n| 15 | 0.12 |  |\n| 20 |  | 0.15 |\n| 30 | 0.13 | 0.15 |"
+      "a": "| O - T<sub>Al</sub> - O | GPC (nm/cycle) | P/(P + O + Al) atomic ratio |\n| --- | --- | --- |\n| 0 | 0.12 | 0.00 |\n| 5 | 0.10 |  |\n| 10 | 0.10 | 0.14 |\n| 15 | 0.12 |  |\n| 20 |  | 0.15 |\n| 30 | 0.13 | 0.15 |"
     },
     "vqa": {
         "a": [

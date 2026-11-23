@@ -7,7 +7,7 @@
         "a": "This figure is an Arrhenius plot (logarithm of etch rate vs. inverse temperature) derived from the data in Figure 10. The linear fit (a dashed line) yields an activation energy (E\u2090) of 42 kJ/mol for the HF etching reaction of the Ti-based film."
     },
     "data_extraction": {
-        "a": "| 1000/T (K\u207b\u00b9) | ln[\u0394 Int. Abs. Loss / HF Exposure] |\n|-------------:|------------------------------------:|\n| 1.75         | 2.65                               |\n| 1.80         | 2.50                               |\n| 1.85         | 2.45                               |\n| 2.00         | 2.05                               |\n| 2.20         | 2.00                               |\n| 2.35         | 1.30                               |\n| 2.45         | 0.70                               |\n| 2.55         | 0.75                               |\n| 2.65         | 0.10                               |\n| 2.80         | 0.25                               |"
+      "a": "| 1000/T (K-\u00b9) | ln[\u0394 Int. Abs. Loss / HF Exposure] |\n| --- | --- |\n| 1.75 | 2.65 |\n| 1.80 | 2.50 |\n| 1.85 | 2.45 |\n| 2.00 | 2.05 |\n| 2.20 | 2.00 |\n| 2.35 | 1.30 |\n| 2.45 | 0.70 |\n| 2.55 | 0.75 |\n| 2.65 | 0.10 |\n| 2.80 | 0.25 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The normalized NBE signal intensity decreases with increasing plasma exposure time for both Ar plasma and Cl2 plasma."
     },
     "data_extraction": {
-        "a": "| Plasma Exposure Time (s) | Normalized NBE Signal Intensity (a.u.) Cl2 plasma| Normalized NBE Signal Intensity (a.u.) Ar plasma|\n|---|---|---|\n| 0 | 1.0 | 1.0|\n| 50 | 0.5 |0.7|\n| 100 | 0.45 |0.6|\n| 200 | 0.35 |0.5|\n| 300 | 0.25 |0.35|\n| 350 | 0.25 |0.3|"
+      "a": "| Plasma Exposure Time (s) | Normalized NBE Signal Intensity (a.u.) Cl2 plasma | Normalized NBE Signal Intensity (a.u.) Ar plasma |\n| --- | --- | --- |\n| 0 | 1.0 | 1.0 |\n| 50 | 0.5 | 0.7 |\n| 100 | 0.45 | 0.6 |\n| 200 | 0.35 | 0.5 |\n| 300 | 0.25 | 0.35 |\n| 350 | 0.25 | 0.3 |"
     },
     "vqa": {
         "a": [

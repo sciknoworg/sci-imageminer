@@ -9,8 +9,8 @@
             "b": "\u0394M_TMA/MCPC ratio as a function of ALE cycles, which stabilizes at approximately 1.8 after the first three cycles. This steady ratio is used to define the stoichiometry of the ALE reactions and indicates consistent, repeatable mass changes."
     },
     "data_extraction": {
-            "a": "| Number of cycles | \u0394M_HF (ng/cm\u00b2) | MCPC (ng/(cm\u00b2\u00b7cycle)) | \u0394M_TMA (ng/cm\u00b2) |\n|------------------|----------------|-----------------------|------------------|\n| 0   | ~35 | ~ -15 | ~ -30 |\n| 20  | ~15 | ~ -15 | ~ -30 |\n| 40  | ~15 | ~ -15 | ~ -30 |\n| 60  | ~15 | ~ -15 | ~ -30 |\n| 80  | ~15 | ~ -20 | ~ -30 |\n| 100 | ~15 | ~ -15 | ~ -30 |",
-            "b": "| Number of cycles | \u0394M_TMA / MCPC |\n|------------------|---------------|\n| 0   | ~0.5 |\n| 20  | ~2.0 |\n| 40  | ~2.0 |\n| 60  | ~2.0 |\n| 80  | ~2.0 |\n| 100 | ~2.0 |"
+      "a": "| Number of cycles | \u0394M_HF (ng/cm\u00b2) | MCPC (ng/(cm\u00b2\u00b7cycle)) | \u0394M_TMA (ng/cm\u00b2) |\n| --- | --- | --- | --- |\n| 0 | ~35 | ~ -15 | ~ -30 |\n| 20 | ~15 | ~ -15 | ~ -30 |\n| 40 | ~15 | ~ -15 | ~ -30 |\n| 60 | ~15 | ~ -15 | ~ -30 |\n| 80 | ~15 | ~ -20 | ~ -30 |\n| 100 | ~15 | ~ -15 | ~ -30 |",
+      "b": "| Number of cycles | \u0394M_TMA / MCPC |\n| --- | --- |\n| 0 | ~0.5 |\n| 20 | ~2.0 |\n| 40 | ~2.0 |\n| 60 | ~2.0 |\n| 80 | ~2.0 |\n| 100 | ~2.0 |"
     },
     "vqa": {
         "b": [

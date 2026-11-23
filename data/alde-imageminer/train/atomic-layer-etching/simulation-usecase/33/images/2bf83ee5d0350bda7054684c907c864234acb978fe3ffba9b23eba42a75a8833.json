@@ -7,7 +7,7 @@
         "a": "This figure depicts the evolution of surface-bound species on silicon under increasing HF (hydrofluoric acid) dose, showing the number density per square nanometer (N\u1d62) for unfluorinated Si and various fluorinated forms: SiF, SiF\u2082, and SiF\u2083. Initially, the surface is composed entirely of unfluorinated Si species (~28\u202fnm\u207b\u00b2), but with increasing HF exposure, the density of fluorinated species grows. SiF appears first, followed by SiF\u2082 and SiF\u2083, suggesting a stepwise fluorination mechanism. The density of each fluorinated species eventually saturates, while the total Si-related surface density remains roughly constant, indicating that fluorination modifies the surface rather than etching it away."
     },
     "data_extraction": {
-        "a": "| Dose (HF/nm\u00b2) | Si (nm\u207b\u00b2) | SiF (nm\u207b\u00b2) | SiF\u2082 (nm\u207b\u00b2) | SiF\u2083 (nm\u207b\u00b2) |\n|---------------|-----------|------------|-------------|-------------|\n| 0             | 28        | 0          | 0           | 0           |\n| 50            | 26        | 5          | 3           | 2           |\n| 100           | 26        | 7          | 4           | 3           |\n| 150           | 26        | 8          | 4           | 3           |\n| 200           | 26        | 8          | 4           | 3           |"
+      "a": "| Dose (HF/nm\u00b2) | Si (nm-\u00b2) | SiF (nm-\u00b2) | SiF\u2082 (nm-\u00b2) | SiF\u2083 (nm-\u00b2) |\n| --- | --- | --- | --- | --- |\n| 0 | 28 | 0 | 0 | 0 |\n| 50 | 26 | 5 | 3 | 2 |\n| 100 | 26 | 7 | 4 | 3 |\n| 150 | 26 | 8 | 4 | 3 |\n| 200 | 26 | 8 | 4 | 3 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "This XPS spectrum displays binding energy versus electron counts (in arbitrary units), revealing the elemental composition of a tin-containing sample. Prominent peaks are observed at characteristic energies corresponding to tin orbitals (Sn 3d, 3p, 3s, and 4d) and oxygen (O 1s), confirming the presence of Sn and O in the sample. The intensity of the Sn 3d5 peak is particularly dominant, suggesting a significant contribution of tin species to the sample surface. These spectral features are consistent with typical SnO\u2082 or similar tin-oxide thin films, where surface oxidation states can be assessed based on peak positions and shapes"
     },
     "data_extraction": {
-        "a": "| Binding Energy (eV) | Notable Peaks      |\n|---------------------|--------------------|\n| ~486\u2013495            | Sn 3d5 and Sn 3d3   |\n| ~530                | O 1s               |\n| ~700\u2013800            | Sn 3p3, Sn 3p1      |\n| ~850\u2013950            | Sn 3s              |\n| ~25\u201345              | Sn 4d              |"
+      "a": "| Binding Energy (eV) | Notable Peaks |\n| --- | --- |\n| ~486\u2013495 | Sn 3d5 and Sn 3d3 |\n| ~530 | O 1s |\n| ~700\u2013800 | Sn 3p3, Sn 3p1 |\n| ~850\u2013950 | Sn 3s |\n| ~25\u201345 | Sn 4d |"
     },
     "vqa": {
         "a": [

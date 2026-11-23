@@ -7,7 +7,7 @@
         "a": "The figure presents real-time ellipsometry trajectories (\u0394 vs \u03a8) comparing cyclic ALE with continuous Ar/C\u2084F\u2088 plasma etching during processing of a SiO\u2082\u2013Si\u2013SiO\u2082 multilayer stack. The cyclic ALE trajectory exhibits discrete, stepwise movement corresponding to controlled layer-by-layer processing, whereas continuous etching shows a smoother, continuous trajectory, indicating different surface reaction pathways and selectivity between top SiO\u2082, Si, and bottom SiO\u2082 layers."
     },
     "data_extraction": {
-        "a": "| \u0394 [\u00b0] | \u03a8 [\u00b0] |\n|---|---|\n| 60 | 13 |\n| 70 | 14 |\n| 80 | 15 |\n| 90 | 16 |\n| 100 | 17 |"
+      "a": "| \u0394 [\u00b0] | \u03a8 [\u00b0] |\n| --- | --- |\n| 60 | 13 |\n| 70 | 14 |\n| 80 | 15 |\n| 90 | 16 |\n| 100 | 17 |"
     },
     "vqa": {
         "a": [

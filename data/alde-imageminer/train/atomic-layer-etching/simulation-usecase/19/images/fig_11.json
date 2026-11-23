@@ -9,8 +9,8 @@
         "b": "The figure displays the ion energy and angular distribution (IEAD) during the second step (etching). The color gradient represents relative intensity of ions arriving at that specific energy and angle."
     },
     "data_extraction": {
-        "a": "| Angle (deg) |  Energy (eV) | Intensity |\n|---|---|---|\n| -15  | 3 | 0.01 |\n| 0  | 3 | 0.01 |\n| 15  | 3 | 0.01 |\n| -15  | 15 | 0.01 |\n| -7  | 15 | 0.53 |\n| 0  | 15 | 1 |\n| 7  | 15 | 0.53 |\n| 15  | 15 | 0.01 |\n| -3  | 58 | 0.01 |\n| 0  | 58 | 0.53 |\n| 3  | 58 | 0.01 |\n| -3  | 83 | 0.01 |\n| 0  | 83 | 0.53 |\n| 3  | 83 | 0.01 |",
-        "b": "| Angle (deg) |  Energy (eV) | Intensity |\n|---|---|---|\n| 0  | 42 | 0.01 |\n| -6 | 63 | 0.01 |\n| 0  | 63 | 0.85 |\n| 6  | 63 | 0.01 |\n| -6 | 68 | 0.01 |\n| 0  | 68 | 1 |\n| 6  | 68 | 0.01 |\n| 0  | 75 | 0.01 |"
+      "a": "| Angle (deg) | Energy (eV) | Intensity |\n| --- | --- | --- |\n| -15 | 3 | 0.01 |\n| 0 | 3 | 0.01 |\n| 15 | 3 | 0.01 |\n| -15 | 15 | 0.01 |\n| -7 | 15 | 0.53 |\n| 0 | 15 | 1 |\n| 7 | 15 | 0.53 |\n| 15 | 15 | 0.01 |\n| -3 | 58 | 0.01 |\n| 0 | 58 | 0.53 |\n| 3 | 58 | 0.01 |\n| -3 | 83 | 0.01 |\n| 0 | 83 | 0.53 |\n| 3 | 83 | 0.01 |",
+      "b": "| Angle (deg) | Energy (eV) | Intensity |\n| --- | --- | --- |\n| 0 | 42 | 0.01 |\n| -6 | 63 | 0.01 |\n| 0 | 63 | 0.85 |\n| 6 | 63 | 0.01 |\n| -6 | 68 | 0.01 |\n| 0 | 68 | 1 |\n| 6 | 68 | 0.01 |\n| 0 | 75 | 0.01 |"
     },
     "vqa": {
         "b": [

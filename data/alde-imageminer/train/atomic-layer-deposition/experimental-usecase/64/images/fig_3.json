@@ -9,8 +9,8 @@
         "b": "AFM image of a 50-nm platinum film grown at 300\u202f\u00b0C over a 2\u202f\u00b5m \u00d7 2\u202f\u00b5m region, with a z-range of 9.7\u202fnm and RMS roughness of 1.2\u202fnm. The surface shows larger grains and increased roughness compared to the 250\u202f\u00b0C film."
     },
     "data_extraction": {
-        "a": "| Parameter | Value |\n|---|---|\n| Film thickness | 45 nm |\n| Deposition temperature | 250 \u00b0C |\n| Scan area | 2 \u00b5m \u00d7 2 \u00b5m |\n| Z-range | 6.1 nm |\n| RMS surface roughness | 0.8 nm |\n| Grain characteristics | Smaller grains compared to 300 \u00b0C film |",
-        "b": "| Parameter | Value |\n|---|---|\n| Film thickness | 50 nm |\n| Deposition temperature | 300 \u00b0C |\n| Scan area | 2 \u00b5m \u00d7 2 \u00b5m |\n| Z-range | 9.7 nm |\n| RMS surface roughness | 1.2 nm |\n| Grain characteristics | Larger grains compared to 250 \u00b0C film |"
+      "a": "| Parameter | Value |\n| --- | --- |\n| Film thickness | 45 nm |\n| Deposition temperature | 250 \u00b0C |\n| Scan area | 2 \u00b5m \u00d7 2 \u00b5m |\n| Z-range | 6.1 nm |\n| RMS surface roughness | 0.8 nm |\n| Grain characteristics | Smaller grains compared to 300 \u00b0C film |",
+      "b": "| Parameter | Value |\n| --- | --- |\n| Film thickness | 50 nm |\n| Deposition temperature | 300 \u00b0C |\n| Scan area | 2 \u00b5m \u00d7 2 \u00b5m |\n| Z-range | 9.7 nm |\n| RMS surface roughness | 1.2 nm |\n| Grain characteristics | Larger grains compared to 250 \u00b0C film |"
     },
     "vqa": {
         "b": [

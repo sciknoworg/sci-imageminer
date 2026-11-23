@@ -7,7 +7,7 @@
         "a": "The figure shows the mechanisms that have been investigated for the key step in the chemisorption of the Ga(NMe2)3 precursor, which is follower by the injection of H2S."
     },
     "data_extraction": {
-        "a": "| Reaction Step | \u0394G (kJ/mol) |\n|---|---|\n| E014 | 0.0 |\n| EO2TS | N/A |\n| E03 | -82.9 |\n| E04TS | -21.8 |\n| E06TS | --79.3 |\n| E05 | -148.6 |\n| E07 | -195.4 |"
+      "a": "| Reaction Step | \u0394G (kJ/mol) |\n| --- | --- |\n| E014 | 0.0 |\n| EO2TS | N/A |\n| E03 | -82.9 |\n| E04TS | -21.8 |\n| E06TS | --79.3 |\n| E05 | -148.6 |\n| E07 | -195.4 |"
     },
     "vqa": {
         "a": [

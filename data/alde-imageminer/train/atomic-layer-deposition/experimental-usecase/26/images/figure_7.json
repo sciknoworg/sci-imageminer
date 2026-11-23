@@ -9,7 +9,7 @@
         "b": "The multi-axis chart indicates that carrier concentration increases significantly with SnO\u2082 cycles, while mobility remains relatively constant."
     },
     "data_extraction": {
-        "a": "| % SnO\u2082 Cycles | Resistivity (Ohm\u00b7cm) | Carrier Concentration (cm\u207b\u00b3) | Mobility (cm\u00b2/V\u00b7s) |\n|---------------|----------------------|------------------------------|---------------------|\n| 0             | 1e2                  | 1e19                         | 10                  |\n| 5             | 1e-3                 | 1e20                         | 100                 |\n| 10            | 1e-3                 | 1e21                         | 100                 |\n| 15            | 1e-3                 | \u2014                            | \u2014                   |\n| 20            | 1e-3                 | \u2014                            | \u2014                   |\n| 25            | 1e3                  | 1e22                         | 100                 |"
+      "a": "| % SnO\u2082 Cycles | Resistivity (Ohm\u00b7cm) | Carrier Concentration (cm-\u00b3) | Mobility (cm\u00b2/V\u00b7s) |\n| --- | --- | --- | --- |\n| 0 | 1e2 | 1e19 | 10 |\n| 5 | 1e-3 | 1e20 | 100 |\n| 10 | 1e-3 | 1e21 | 100 |\n| 15 | 1e-3 | \u2014 | \u2014 |\n| 20 | 1e-3 | \u2014 | \u2014 |\n| 25 | 1e3 | 1e22 | 100 |"
     },
     "vqa": {
         "b": [

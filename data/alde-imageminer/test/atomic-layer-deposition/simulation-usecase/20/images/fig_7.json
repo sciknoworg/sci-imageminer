@@ -7,7 +7,7 @@
         "a": "Growth per cycle (GPC) of Al\u2082O\u2083 thin films as a function of dosing time at three deposition temperatures (150\u00b0C, 200\u00b0C, 250\u00b0C) with 1.5 mm gap size and 0.22 torr pumping pressure. Higher temperatures yield higher saturated GPC values, with 250\u00b0C reaching approximately 1.23 \u00c5/cycle and 150\u00b0C reaching approximately 1.18 \u00c5/cycle. All curves saturate around 0.015 s."
     },
     "data_extraction": {
-        "a": "| Time (s) | Al\u2082O\u2083-250\u00b0C (\u00c5/cycle) | Al\u2082O\u2083-200\u00b0C (\u00c5/cycle) | Al\u2082O\u2083-150\u00b0C (\u00c5/cycle) |\n|---|---|---|---|\n| 0.000 | 0.00 | 0.00 | 0.00 |\n| 0.002 | 0.35 | 0.30 | 0.25 |\n| 0.005 | 0.80 | 0.75 | 0.70 |\n| 0.008 | 1.10 | 1.05 | 1.00 |\n| 0.010 | 1.19 | 1.16 | 1.12 |\n| 0.012 | 1.22 | 1.19 | 1.16 |\n| 0.015 | 1.24 | 1.21 | 1.18 |\n| 0.020 | 1.25 | 1.22 | 1.20 |\n| 0.030 | 1.25 | 1.22 | 1.20 |\n| 0.040 | 1.25 | 1.22 | 1.20 |"
+      "a": "| Time (s) | Al\u2082O\u2083-250\u00b0C (\u00c5/cycle) | Al\u2082O\u2083-200\u00b0C (\u00c5/cycle) | Al\u2082O\u2083-150\u00b0C (\u00c5/cycle) |\n| --- | --- | --- | --- |\n| 0.000 | 0.00 | 0.00 | 0.00 |\n| 0.002 | 0.35 | 0.30 | 0.25 |\n| 0.005 | 0.80 | 0.75 | 0.70 |\n| 0.008 | 1.10 | 1.05 | 1.00 |\n| 0.010 | 1.19 | 1.16 | 1.12 |\n| 0.012 | 1.22 | 1.19 | 1.16 |\n| 0.015 | 1.24 | 1.21 | 1.18 |\n| 0.020 | 1.25 | 1.22 | 1.20 |\n| 0.030 | 1.25 | 1.22 | 1.20 |\n| 0.040 | 1.25 | 1.22 | 1.20 |"
     },
     "vqa": {
         "a": [

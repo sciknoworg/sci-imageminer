@@ -13,10 +13,10 @@
         "d": "The scatter plot shows the relationship between O\u2082 plasma purge time and GPC (nanometers). The data points decrease slightly with increasing exposure time."
     },
     "data_extraction": {
-        "a": "| HfCp(NMe\u2082)\u2083 dose (s) | GPC (nm) |\n|---|---|\n| 0.5 | 0.04 \u00b1 0.008 |\n| 1 | 0.09 \u00b1 0.008 |\n| 3 | 0.10 \u00b1 0.008 |\n| 5 | 0.11 \u00b1 0.008 |\n| 8 | 0.11 \u00b1 0.008 |",
-        "b": "| HfCp(NMe\u2082)\u2083 purge (s) | GPC (nm) |\n|---|---|\n| 0 | 0.11 \u00b1 0.008|\n| 1 | 0.107 \u00b1 0.008 |\n| 3 | 0.106 \u00b1 0.008 |\n| 5 | 0.106 \u00b1 0.008 |\n| 10 | 0.108 \u00b1 0.008 |",
-        "c": "| O\u2082 plasma exposure time (s) | GPC (nm) |\n|---|---|\n| 1 | 0.07 \u00b1 0.008 |\n| 3 | 0.09 \u00b1 0.008 |\n| 5 | 0.10 \u00b1 0.008 |\n| 8 | 0.11 \u00b10.008 |",
-        "d": "| O\u2082 plasma purge (s) | GPC (nm) |\n|---|---|\n| 0 | 0.12 \u00b1 0.008 |\n| 1 | 0.118 \u00b1 0.008 |\n| 2 | 0.111 \u00b1 0.008 |\n| 3 | 0.110 \u00b1 0.008 |\n| 4 | 0.108 \u00b1 0.008 |"
+      "a": "| HfCp(NMe\u2082)\u2083 dose (s) | GPC (nm) |\n| --- | --- |\n| 0.5 | 0.04 \u00b1 0.008 |\n| 1 | 0.09 \u00b1 0.008 |\n| 3 | 0.10 \u00b1 0.008 |\n| 5 | 0.11 \u00b1 0.008 |\n| 8 | 0.11 \u00b1 0.008 |",
+      "b": "| HfCp(NMe\u2082)\u2083 purge (s) | GPC (nm) |\n| --- | --- |\n| 0 | 0.11 \u00b1 0.008 |\n| 1 | 0.107 \u00b1 0.008 |\n| 3 | 0.106 \u00b1 0.008 |\n| 5 | 0.106 \u00b1 0.008 |\n| 10 | 0.108 \u00b1 0.008 |",
+      "c": "| O\u2082 plasma exposure time (s) | GPC (nm) |\n| --- | --- |\n| 1 | 0.07 \u00b1 0.008 |\n| 3 | 0.09 \u00b1 0.008 |\n| 5 | 0.10 \u00b1 0.008 |\n| 8 | 0.11 \u00b10.008 |",
+      "d": "| O\u2082 plasma purge (s) | GPC (nm) |\n| --- | --- |\n| 0 | 0.12 \u00b1 0.008 |\n| 1 | 0.118 \u00b1 0.008 |\n| 2 | 0.111 \u00b1 0.008 |\n| 3 | 0.110 \u00b1 0.008 |\n| 4 | 0.108 \u00b1 0.008 |"
     },
     "vqa": {
         "a": [

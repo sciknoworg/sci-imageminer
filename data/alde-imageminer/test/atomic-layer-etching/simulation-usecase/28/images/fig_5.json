@@ -7,7 +7,7 @@
         "a": "The figure shows multiple infrared difference spectra of a B2O3 ALD film recorded after consecutive HF exposures at 150 \u00b0C. A sharp H\u2013F stretching feature appears after HF dosing, while the B\u2013O\u2013H band decreases, indicating loss of specific hydroxyl configurations. Simultaneously, a broad hydrogen-bonded O\u2013H band deepens with increasing HF exposure, reflecting progressive changes in surface O\u2013H bonding."
     },
     "data_extraction": {
-        "a": "| Wavenumber region (cm\u207b\u00b9) | Vibrational assignment | Evolution with HF exposure |\n|--------------------------|------------------------|----------------------------|\n| ~3750\u20133800 | H\u2013F stretch | Sharp positive peak appears after initial HF exposure |\n| ~3700 | B\u2013O\u2013H stretch | Negative feature indicating loss of B\u2013O\u2013H species |\n| ~3650\u20133450 | H-bonded O\u2013H | Broad negative band that deepens and broadens with repeated HF exposures (cycles 4\u20139) |"
+      "a": "| Wavenumber region (cm-\u00b9) | Vibrational assignment | Evolution with HF exposure |\n| --- | --- | --- |\n| ~3750\u20133800 | H\u2013F stretch | Sharp positive peak appears after initial HF exposure |\n| ~3700 | B\u2013O\u2013H stretch | Negative feature indicating loss of B\u2013O\u2013H species |\n| ~3650\u20133450 | H-bonded O\u2013H | Broad negative band that deepens and broadens with repeated HF exposures (cycles 4\u20139) |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The line chart shows the relationship between the number of cycles and the SE thickness at two different temperatures, 70 \u00b0C and 200 \u00b0C."
     },
     "data_extraction": {
-        "a": "| Number of cycles | SE: Thickness (\u00c5) 70 \u00b0C | SE: Thickness (\u00c5) 200 \u00b0C |\n|---|---|---|\n| 0 | 0 | 0 |\n| 50 | 60 | 60 |\n| 100 | 160 | 120 |\n| 150 | 250 | 180 |\n| 200 | 340 | 250 |\n| 250 | 420 | 320 |\n| 300 | 500 | 380 |"
+      "a": "| Number of cycles | SE: Thickness (\u00c5) 70 \u00b0C | SE: Thickness (\u00c5) 200 \u00b0C |\n| --- | --- | --- |\n| 0 | 0 | 0 |\n| 50 | 60 | 60 |\n| 100 | 160 | 120 |\n| 150 | 250 | 180 |\n| 200 | 340 | 250 |\n| 250 | 420 | 320 |\n| 300 | 500 | 380 |"
     },
     "vqa": {
         "a": [

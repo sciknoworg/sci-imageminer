@@ -7,7 +7,7 @@
         "a": "The figure schematically illustrates the dependence of etched thickness per cycle on reactant exposure time under different reactant pressures. Curves (i), (ii), and (iii) represent increasing pressure conditions, showing that higher pressure leads to faster attainment of saturation surface coverage, which is required for self-limiting atomic layer etching."
     },
     "data_extraction": {
-        "a": "| Exposure Time of Substrate to Chemical Reactant | Thickness Loss Per Cycle |\n|---|---|\n|(i)| Saturation coverage |\n|(ii)| | \n|(iii)| |"
+      "a": "| Exposure Time of Substrate to Chemical Reactant | Thickness Loss Per Cycle |\n| --- | --- |\n| (i) | Saturation coverage |\n| (ii) |  |\n| (iii) |  |"
     },
     "vqa": {
         "a": [

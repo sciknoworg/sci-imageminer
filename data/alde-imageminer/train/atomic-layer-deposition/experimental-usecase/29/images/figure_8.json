@@ -7,7 +7,7 @@
         "a": "The line chart shows a linear relationship between the number of AB cycles and film thickness, indicating a linear growth rate."
     },
     "data_extraction": {
-        "a": "| AB Cycles | Film Thickness (\u00c5) |\n|---|---|\n| 3 | 7.5 |\n| 6 | 15 |\n| 12 | 30.5 |\n| 19 | 48.5 |\n| 25 | 64 |\n| 32 | 81.5 |\n| 48 | 122.4 |"
+      "a": "| AB Cycles | Film Thickness (\u00c5) |\n| --- | --- |\n| 3 | 7.5 |\n| 6 | 15 |\n| 12 | 30.5 |\n| 19 | 48.5 |\n| 25 | 64 |\n| 32 | 81.5 |\n| 48 | 122.4 |"
     },
     "vqa": {
         "a": [

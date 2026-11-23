@@ -9,8 +9,8 @@
         "b": "The bar chart compares the maximum energy achieved by three routes (Route 1, Route 2, and Route 3). Route 3 has the highest maximum energy"
     },
     "data_extraction": {
-        "a": "| Reaction Step | Route 1 (eV) | Route 2 (eV) | Route 3 (eV) |\n|---|---|---|---|\n| 0 | 0.0 | 0.0 | 0.0 |\n| 1 | 5.4 | 4.0 | 13.0 |\n| 2 | 7.8 | 11.5 | 11.0 |\n| 3 | 10.8 | 13.5 | 22.0 |\n| 4 | - | 20.5 | 29.0 |\n| 5 | - | 22.5 | 34.0 |",
-        "b": "| Route | Maximum Energy (eV) |\n|---|---|\n| Route 1 | 5.4 |\n| Route 2 | 7.3 |\n| Route 3 | 12.9 |"
+      "a": "| Reaction Step | Route 1 (eV) | Route 2 (eV) | Route 3 (eV) |\n| --- | --- | --- | --- |\n| 0 | 0.0 | 0.0 | 0.0 |\n| 1 | 5.4 | 4.0 | 13.0 |\n| 2 | 7.8 | 11.5 | 11.0 |\n| 3 | 10.8 | 13.5 | 22.0 |\n| 4 | - | 20.5 | 29.0 |\n| 5 | - | 22.5 | 34.0 |",
+      "b": "| Route | Maximum Energy (eV) |\n| --- | --- |\n| Route 1 | 5.4 |\n| Route 2 | 7.3 |\n| Route 3 | 12.9 |"
     },
     "vqa": {
         "a": [

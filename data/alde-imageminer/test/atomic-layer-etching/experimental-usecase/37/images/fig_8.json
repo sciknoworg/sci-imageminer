@@ -7,7 +7,7 @@
         "a": "The line chart shows the thickness of Si-OH and Si-H as a function of super-cycles. Both thicknesses increase linearly with increasing super-cycles."
     },
     "data_extraction": {
-        "a": "| Super-Cycles | Thickness (nm) Si-H | Thickness (nm) Si-OH |\n|---|---|---|\n| 0 | 0 | 0 |\n| 5 | 0 | 4 |\n| 10 | 0 | 8 |\n| 15 | 0 | 13 |\n| 20 | 0 | 17.5 |\n| 25 | 0.5 | 22.5 |\n| 30 | 0.5 | 25 |"
+      "a": "| Super-Cycles | Thickness (nm) Si-H | Thickness (nm) Si-OH |\n| --- | --- | --- |\n| 0 | 0 | 0 |\n| 5 | 0 | 4 |\n| 10 | 0 | 8 |\n| 15 | 0 | 13 |\n| 20 | 0 | 17.5 |\n| 25 | 0.5 | 22.5 |\n| 30 | 0.5 | 25 |"
     },
     "vqa": {
         "a": [

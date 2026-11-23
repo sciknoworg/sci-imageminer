@@ -7,7 +7,7 @@
         "a": "The chart shows the EPC (nm/cycle) of Plasma ALE GaN, Plasma ALE Al\u2082O\u2083, and Thermal ALE GaN at various temperatures. The data points are connected by lines, indicating trends over temperature"
     },
     "data_extraction": {
-        "a": "| Temperature (\u00b0C) | Plasma ALE GaN (nm/cycle) | Plasma ALE Al\u2082O\u2083 (nm/cycle) | Thermal ALE GaN (nm/cycle) |\n|---|---|---|---|\n| 100 | -0.01 | - | - |\n| 125 | 0.21 | - | - |\n| 150 | 0.33 | - | - |\n| 170 | - | - | 0.02 |\n| 175 | 0.35 | -0.01 | - |\n| 185 | - | - | 0.03 |\n| 200 | 0.36 | 0.02 | 0.05 |\n| 225 | 0.37 | 0.08 | - |\n| 250 | 0.39 | 0.21 | 0.06 |\n| 275 | 0.40 | 0.27 | - |\n| 300 | 0.43 | 0.29 | 0.07 |\n| 325 | - | 0.30 | - |\n| 350 | - | 0.31 | - |\n| 375 | - | 0.34 | - |"
+      "a": "| Temperature (\u00b0C) | Plasma ALE GaN (nm/cycle) | Plasma ALE Al\u2082O\u2083 (nm/cycle) | Thermal ALE GaN (nm/cycle) |\n| --- | --- | --- | --- |\n| 100 | -0.01 | - | - |\n| 125 | 0.21 | - | - |\n| 150 | 0.33 | - | - |\n| 170 | - | - | 0.02 |\n| 175 | 0.35 | -0.01 | - |\n| 185 | - | - | 0.03 |\n| 200 | 0.36 | 0.02 | 0.05 |\n| 225 | 0.37 | 0.08 | - |\n| 250 | 0.39 | 0.21 | 0.06 |\n| 275 | 0.40 | 0.27 | - |\n| 300 | 0.43 | 0.29 | 0.07 |\n| 325 | - | 0.30 | - |\n| 350 | - | 0.31 | - |\n| 375 | - | 0.34 | - |"
     },
     "vqa": {
         "a": [

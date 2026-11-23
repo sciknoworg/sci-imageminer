@@ -7,7 +7,7 @@
         "a": "The image displays various molecular structures of the transition states for the reactions of SiH2(NH2)2 and SiH2DMA2 silicon precursors with SiH3\u2212NH\u2212SiH3, SiH3\u2212NH2, and SiH3\u2212OH surface models"
     },
     "data_extraction": {
-        "a": "| Precursor        | Si\u2083\u2013NH\u2013Si\u2083 Surface | Si\u2083\u2013NH\u2082 Surface | Si\u2083\u2013OH Surface |\n|-------------------|----------------------|-------------------|-----------------|\n| SiH\u2082(NH\u2082)\u2082       | Present             | Present          | Present        |\n| SiH\u2082DMA\u2082         | Present             | Present          | Present        |"
+      "a": "| Precursor | Si\u2083\u2013NH\u2013Si\u2083 Surface | Si\u2083\u2013NH\u2082 Surface | Si\u2083\u2013OH Surface |\n| --- | --- | --- | --- |\n| SiH\u2082(NH\u2082)\u2082 | Present | Present | Present |\n| SiH\u2082DMA\u2082 | Present | Present | Present |"
     },
     "vqa": {
         "a": [

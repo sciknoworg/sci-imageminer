@@ -7,7 +7,7 @@
         "a": "Etch depth increases approximately linearly with the number of ALE cycles for most materials, indicating a near-constant etch-per-cycle under a 10 s activation step. SiO\u2082 exhibits the steepest slope and the largest accumulated etch depth, reaching ~27 nm after 40 cycles. AlN\u2093 and Al\u2082O\u2083 show moderate linear removal, while HfO\u2082 etches slowly. TiN shows essentially no measurable etch depth across all cycles, indicating strong resistance to the ALE process. Dashed lines represent linear fits to the experimental data."
     },
     "data_extraction": {
-        "a": "| Cycles | Al2O3 etch depth (nm) | HfO2 etch depth (nm) | AlNx etch depth (nm) | TiN etch depth (nm) | SiO2 etch depth (nm) |\n|---|---|---|---|---|---|\n| 0  | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 |\n| 15 | ~2.0 | ~1.5 | ~3.0 | ~0.0 | ~6.0 |\n| 20 | ~3.5 | ~2.5 | ~5.0 | ~0.0 | ~12.0 |\n| 30 | ~5.0 | ~3.2 | ~6.0 | ~0.0 | ~20.0 |\n| 40 | ~6.0 | ~4.0 | ~7.5 | ~0.0 | ~27.0 |"
+      "a": "| Cycles | Al2O3 etch depth (nm) | HfO2 etch depth (nm) | AlNx etch depth (nm) | TiN etch depth (nm) | SiO2 etch depth (nm) |\n| --- | --- | --- | --- | --- | --- |\n| 0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 |\n| 15 | ~2.0 | ~1.5 | ~3.0 | ~0.0 | ~6.0 |\n| 20 | ~3.5 | ~2.5 | ~5.0 | ~0.0 | ~12.0 |\n| 30 | ~5.0 | ~3.2 | ~6.0 | ~0.0 | ~20.0 |\n| 40 | ~6.0 | ~4.0 | ~7.5 | ~0.0 | ~27.0 |"
     },
     "vqa": {
         "a": [

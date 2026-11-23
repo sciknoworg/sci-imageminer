@@ -7,7 +7,7 @@
         "a": "The figure shows the capacitance-voltage characteristics of the conventional HEMT and the Ga2O3 MOS-HEMT."
     },
     "data_extraction": {
-        "a": "| Gate Voltage (V) | Ga2O3 MOS-HEMT | conventional HEMT |\n|-----------------|-------|-------|\n| -8             | 0   | 0   |\n| -7             | 0   | 0   |\n| -6             | 0   | 0   |\n| -5             | 0   | 0   |\n| -4             | 15  | 0   |\n| -3             | 15  | 27   |\n| -2             | 15  | 27   |\n| -1             | 15  | 27   |\n|  0             | 15  | 27   |"
+      "a": "| Gate Voltage (V) | Ga2O3 MOS-HEMT | conventional HEMT |\n| --- | --- | --- |\n| -8 | 0 | 0 |\n| -7 | 0 | 0 |\n| -6 | 0 | 0 |\n| -5 | 0 | 0 |\n| -4 | 15 | 0 |\n| -3 | 15 | 27 |\n| -2 | 15 | 27 |\n| -1 | 15 | 27 |\n| 0 | 15 | 27 |"
     },
     "vqa": {
         "a": [

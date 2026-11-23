@@ -7,7 +7,7 @@
         "a": "The chart shows the mass change over time for 10 HF exposures on ALD TiO\u2082 at different temperatures (200\u00b0C, 250\u00b0C, and 300\u00b0C). The mass decreases over time, indicating a loss of material"
     },
     "data_extraction": {
-        "a": "| Time (s) | 200\u00b0C (Mass Change, ng/cm^2) | 250\u00b0C (Mass Change, ng/cm^2) | 300\u00b0C (Mass Change, ng/cm^2) |\n|---|---|---|---|\n| 0 | 0 | 0 | 0 |\n| 50 | -20 | -25 | -28 |\n| 100 | -35 | -45 | -55 |\n| 150 | -50 | -75 | -85 |\n| 200 | -60 | -95 | -120 |\n| 250 | -75 | -105 | -125 |\n| 300 | -85 | -125 | -155 |\n| 350 | -95 | -150 | -185 |\n| 400 | -105 | -175 | -190 |\n| 450 | -115 | -200 | -240 |\n| 500 | -125 | -220 | -250 |\n| 550 | -135 | -245 | -280 |\n| 600 | -160 | -255 | -310 |"
+      "a": "| Time (s) | 200\u00b0C (Mass Change, ng/cm^2) | 250\u00b0C (Mass Change, ng/cm^2) | 300\u00b0C (Mass Change, ng/cm^2) |\n| --- | --- | --- | --- |\n| 0 | 0 | 0 | 0 |\n| 50 | -20 | -25 | -28 |\n| 100 | -35 | -45 | -55 |\n| 150 | -50 | -75 | -85 |\n| 200 | -60 | -95 | -120 |\n| 250 | -75 | -105 | -125 |\n| 300 | -85 | -125 | -155 |\n| 350 | -95 | -150 | -185 |\n| 400 | -105 | -175 | -190 |\n| 450 | -115 | -200 | -240 |\n| 500 | -125 | -220 | -250 |\n| 550 | -135 | -245 | -280 |\n| 600 | -160 | -255 | -310 |"
     },
     "vqa": {
         "a": [

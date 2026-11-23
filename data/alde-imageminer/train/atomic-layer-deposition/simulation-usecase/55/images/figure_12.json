@@ -7,7 +7,7 @@
         "a": "The figure shows how surface \u2212OH concentration increases during ALD. The increase is faster at 300 \u00b0C than at 150 \u00b0C. Higher temperature leads to much higher \u2212OH coverage."
     },
     "data_extraction": {
-        "a": "| ALD cycles | \u2013OH concentration (nm\u207b\u00b2), 150 \u00b0C | \u2013OH concentration (nm\u207b\u00b2), 300 \u00b0C |\n|---|---|---|\n| 0 | 0.10 | ~0.10 |\n| 1 | 0.18 | ~0.20 |\n| 2 | 0.20 | ~0.25 |\n| 3 | 0.30 | ~0.40 |\n| 4 | 0.48 | ~0.60 |\n| 5 | 0.60 | ~0.90 |\n| 6 | 0.70 | ~1.10 |\n| 7 | 0.95 | ~1.50 |\n| 8 | 1.20 | ~1.80 |"
+      "a": "| ALD cycles | \u2013OH concentration (nm-\u00b2), 150 \u00b0C | \u2013OH concentration (nm-\u00b2), 300 \u00b0C |\n| --- | --- | --- |\n| 0 | 0.10 | ~0.10 |\n| 1 | 0.18 | ~0.20 |\n| 2 | 0.20 | ~0.25 |\n| 3 | 0.30 | ~0.40 |\n| 4 | 0.48 | ~0.60 |\n| 5 | 0.60 | ~0.90 |\n| 6 | 0.70 | ~1.10 |\n| 7 | 0.95 | ~1.50 |\n| 8 | 1.20 | ~1.80 |"
     },
     "vqa": {
         "a": [

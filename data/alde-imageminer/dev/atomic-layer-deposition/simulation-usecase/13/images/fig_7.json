@@ -11,9 +11,9 @@
         "c": "Optimized structures of MeCpPtMe\u2083 and Pt(acac)\u2082 on mixed graphene oxide with random distribution of epoxy and hydroxyl groups, showing physisorbed and chemisorbed species. Relative energies and hydrogen bonding interactions are indicated, highlighting stability differences compared to single-functionalized surfaces."
     },
     "data_extraction": {
-        "a": "| Species | \u0394Ep [eV] | \u0394Ec [eV] | \u0394Er [eV] |\n|---|---|---|---|\n| Pt(acac)\u2082 | -1.96 | -0.48 | 1.48 |",
-        "b": "| Species | \u0394Ep [eV] | \u0394Ec [eV] | \u0394Er [eV] |\n|---|---|---|---|\n| Pt(acac)\u2082 | - | -4.38 | - |",
-        "c": "| Species | \u0394Ep [eV] | \u0394Ec [eV] | \u0394Er [eV] |\n|---|---|---|---|\n| Pt(acac)\u2082 | - | - | - |"
+      "a": "| Species | \u0394Ep [eV] | \u0394Ec [eV] | \u0394Er [eV] |\n| --- | --- | --- | --- |\n| Pt(acac)\u2082 | -1.96 | -0.48 | 1.48 |",
+      "b": "| Species | \u0394Ep [eV] | \u0394Ec [eV] | \u0394Er [eV] |\n| --- | --- | --- | --- |\n| Pt(acac)\u2082 | - | -4.38 | - |",
+      "c": "| Species | \u0394Ep [eV] | \u0394Ec [eV] | \u0394Er [eV] |\n| --- | --- | --- | --- |\n| Pt(acac)\u2082 | - | - | - |"
     },
     "vqa": {
         "a": [

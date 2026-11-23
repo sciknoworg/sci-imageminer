@@ -9,8 +9,8 @@
         "b": "The figure shows a line chart with depth on the y-axis and atomic density on the x-axis, displaying the density profiles of Si, Cl, and Ar+ corresponding to the layer highlighted in the image a"
     },
     "data_extraction": {
-        "a": "",
-        "b": "| Depth (nm) | Si Atomic Density (\u00d710^23/cm\u00b3) | Cl Atomic Density (\u00d710^23/cm\u00b3) | Ar Atomic Density (\u00d710^23/cm\u00b3) |\n|-----------|---------------------------------|---------------------------------|--------------------------------|\n| 0.0       | 0.50                            | 0.05                            | 0.02                           |\n| -0.5      | 0.48                            | 0.03                            | 0.015                          |\n| -1.0      | 0.45                            | 0.01                            | 0.005                          |\n| -1.5      | 0.43                            | ~0                              | ~0                             |\n| -2.0      | 0.42                            | ~0                              | ~0                             |\n| -2.5      | 0.41                            | ~0                              | ~0                             |\n| -3.0      | 0.40                            | ~0                              | ~0                             |"
+      "a": "",
+      "b": "| Depth (nm) | Si Atomic Density (\u00d710^23/cm\u00b3) | Cl Atomic Density (\u00d710^23/cm\u00b3) | Ar Atomic Density (\u00d710^23/cm\u00b3) |\n| --- | --- | --- | --- |\n| 0.0 | 0.50 | 0.05 | 0.02 |\n| -0.5 | 0.48 | 0.03 | 0.015 |\n| -1.0 | 0.45 | 0.01 | 0.005 |\n| -1.5 | 0.43 | ~0 | ~0 |\n| -2.0 | 0.42 | ~0 | ~0 |\n| -2.5 | 0.41 | ~0 | ~0 |\n| -3.0 | 0.40 | ~0 | ~0 |"
     },
     "vqa": {
         "a": [

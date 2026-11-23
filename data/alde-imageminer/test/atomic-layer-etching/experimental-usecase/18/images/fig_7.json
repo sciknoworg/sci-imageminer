@@ -7,7 +7,7 @@
         "a": "The series of image illustrate the formation of horizontal devices using a 3D Vertical integration scheme with ALE and ALD processes."
     },
     "data_extraction": {
-        "a": "| Number of Steps | Process |\n|------|----|\n|Step 1| RIE|\n|Step 2| ALE|\n|Step 3| ALD|\n|Step 4| ALE|\n|Step 5| Metal fill|"
+      "a": "| Number of Steps | Process |\n| --- | --- |\n| Step 1 | RIE |\n| Step 2 | ALE |\n| Step 3 | ALD |\n| Step 4 | ALE |\n| Step 5 | Metal fill |"
     },
     "vqa": {
         "a": [

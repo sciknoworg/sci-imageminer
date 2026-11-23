@@ -7,7 +7,7 @@
         "a": "The figure illustrates a chemical reaction pathway involving the transformation of O\u2083Si-O-Zr-Cl* into O\u2083Si-O-Zr-OH* through the intermediate TS (transition state) and the release of HCl(g), where the represents the energy change (\u0394E) during a chemical reaction, showing the activation energy barrier at 20.3 kcal/mol and the overall energy difference between reactants and products."
     },
     "data_extraction": {
-        "a": "| Reaction Step | \u0394E (kcal/mol) |\n|---|---|\n| Start | 0 |\n| TS | -18|\n| TS | 5.3|\n| TS | -0.7|\n| TS | 0.5|"
+      "a": "| Reaction Step | \u0394E (kcal/mol) |\n| --- | --- |\n| Start | 0 |\n| TS | -18 |\n| TS | 5.3 |\n| TS | -0.7 |\n| TS | 0.5 |"
     },
     "vqa": {
         "a": [

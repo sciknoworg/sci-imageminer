@@ -15,11 +15,11 @@
         "e": "The figure shows a spectral intensity plot against wavelength of OES performed on an ammonia plasma, with labeled important transitions."
     },
     "data_extraction": {
-        "a": "| Wavelength (nm) | Intensity (au) |\n|-----------------|------------------|\n| 300   - 500    |        O2+ range |\n| 400            |     O peak       |\n| 440            |      O peak      |\n| 500  - 750     |        O2+ range |\n| 620            |     O peak       |\n| 650            |    O peak        |\n| 780            |     O peak       |\n| 850            |     O peak       |",
-        "b": "| Wavelength (nm) | Intensity (au) |\n|-----------------|------------------|\n| 440            |        gamma-H peak      |\n| 500            |        beta-H peak       |\n| 660            |         alpha-H peak     |\n| 580 - 650      |          H2 range        |",
-        "c": "| Wavelength (nm) | Intensity (au) |\n|-----------------|------------------|\n| 300  -450          |      N2 range        |\n| 500  -800          |      N2 range        |",
-        "d": "| Wavelength (nm) | Intensity (au) |\n|-----------------|------------------|\n| 300  -450          |      N2 range        |\n| 440            |        gamma-H peak      |\n| 500            |        beta-H peak       |\n| 660            |         alpha-H peak     |\n| 580 - 650      |          H2 range        |\n| 650  -800          |      N2 range        |",
-        "e": "| Wavelength (nm) | Intensity (au) |\n|-----------------|------------------|\n| 300  -450          |      N2 range        |\n|340| NH peak|\n| 440            |        gamma-H peak      |\n| 500            |        beta-H peak       |\n| 660            |         alpha-H peak     |\n| 500  -800          |      N2 range        |"
+      "a": "| Wavelength (nm) | Intensity (au) |\n| --- | --- |\n| 300   - 500 | O2+ range |\n| 400 | O peak |\n| 440 | O peak |\n| 500  - 750 | O2+ range |\n| 620 | O peak |\n| 650 | O peak |\n| 780 | O peak |\n| 850 | O peak |",
+      "b": "| Wavelength (nm) | Intensity (au) |\n| --- | --- |\n| 440 | gamma-H peak |\n| 500 | beta-H peak |\n| 660 | alpha-H peak |\n| 580 - 650 | H2 range |",
+      "c": "| Wavelength (nm) | Intensity (au) |\n| --- | --- |\n| 300  -450 | N2 range |\n| 500  -800 | N2 range |",
+      "d": "| Wavelength (nm) | Intensity (au) |\n| --- | --- |\n| 300  -450 | N2 range |\n| 440 | gamma-H peak |\n| 500 | beta-H peak |\n| 660 | alpha-H peak |\n| 580 - 650 | H2 range |\n| 650  -800 | N2 range |",
+      "e": "| Wavelength (nm) | Intensity (au) |\n| --- | --- |\n| 300  -450 | N2 range |\n| 340 | NH peak |\n| 440 | gamma-H peak |\n| 500 | beta-H peak |\n| 660 | alpha-H peak |\n| 500  -800 | N2 range |"
     },
     "vqa": {
         "e": [

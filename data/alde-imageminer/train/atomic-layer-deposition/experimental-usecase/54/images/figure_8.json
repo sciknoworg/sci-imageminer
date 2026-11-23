@@ -9,8 +9,8 @@
         "b": "The chart shows the intensity of Cu(111) and crystallite size at different anneal temperatures for a Cu-TiN-Si stack."
     },
     "data_extraction": {
-        "a": "| Anneal temperature (\u00b0C) | Intensity Cu(111) (counts/s) | Crystallite size (nm) |\n|---|---|---|\n| 200 | 100 | 30 |\n| 400 | 135 | 30 |\n| 600 | 145 | 30 |\n| 650 | 100 | 30 |\n| 700 | 70 | 30 |",
-        "b": "| Anneal temperature (\u00b0C) | Intensity Cu(111) (counts/s) | Crystallite size (nm) |\n|---|---|---|\n| 200 | 50 | 30 |\n| 300 | 70 | 30 |\n| 400 | 70 | 30 |\n| 500 | 80 | 30 |\n| 600 | 90 | 30 |\n| 700 | 150 | 40 |"
+      "a": "| Anneal temperature (\u00b0C) | Intensity Cu(111) (counts/s) | Crystallite size (nm) |\n| --- | --- | --- |\n| 200 | 100 | 30 |\n| 400 | 135 | 30 |\n| 600 | 145 | 30 |\n| 650 | 100 | 30 |\n| 700 | 70 | 30 |",
+      "b": "| Anneal temperature (\u00b0C) | Intensity Cu(111) (counts/s) | Crystallite size (nm) |\n| --- | --- | --- |\n| 200 | 50 | 30 |\n| 300 | 70 | 30 |\n| 400 | 70 | 30 |\n| 500 | 80 | 30 |\n| 600 | 90 | 30 |\n| 700 | 150 | 40 |"
     },
     "vqa": {
         "a": [

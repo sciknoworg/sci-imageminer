@@ -7,7 +7,7 @@
         "a": "Resistivity versus temperature (1.7 to 6 K) showing superconducting transitions for three TiN films. The 60 nm ALD film (blue) has Tc \u2248 3.22 K and resistivity ~222 \u03bc\u03a9cm. The ALE-treated 50 nm film (red) and 50 nm ALD reference (black) show nearly identical Tc \u2248 3.1 K, demonstrating that ALE does not degrade superconducting properties beyond the expected thickness dependence."
     },
     "data_extraction": {
-        "a": "| Temperature, K | 60 nm ALD (\u03bc\u03a9cm) | 50 nm after ALE (\u03bc\u03a9cm) | 50 nm ALD (\u03bc\u03a9cm) |\n|---|---|---|---|\n| 2.0 | 0 | 0 | 0 |\n| 2.5 | 0 | 0 | 0 |\n| 2.9 | 0 | 0 | 0 |\n| 3.0 | 0 | 0 | 85 |\n| 3.05 | 0 | 5 | 110 |\n| 3.1 | 15 | 150 | 150 |\n| 3.15 | 65 | 165 | 175 |\n| 3.2 | 150 | 185 | 190 |\n| 3.3 | 185 | 195 | 210 |\n| 3.5 | 210 | 200 | 220 |\n| 4.0 | 215 | 202 | 225 |\n| 5.0 | 218 | 203 | 227 |\n| 6.0 | 220 | 205 | 228 |"
+      "a": "| Temperature, K | 60 nm ALD (\u03bc\u03a9cm) | 50 nm after ALE (\u03bc\u03a9cm) | 50 nm ALD (\u03bc\u03a9cm) |\n| --- | --- | --- | --- |\n| 2.0 | 0 | 0 | 0 |\n| 2.5 | 0 | 0 | 0 |\n| 2.9 | 0 | 0 | 0 |\n| 3.0 | 0 | 0 | 85 |\n| 3.05 | 0 | 5 | 110 |\n| 3.1 | 15 | 150 | 150 |\n| 3.15 | 65 | 165 | 175 |\n| 3.2 | 150 | 185 | 190 |\n| 3.3 | 185 | 195 | 210 |\n| 3.5 | 210 | 200 | 220 |\n| 4.0 | 215 | 202 | 225 |\n| 5.0 | 218 | 203 | 227 |\n| 6.0 | 220 | 205 | 228 |"
     },
     "vqa": {
         "a": [

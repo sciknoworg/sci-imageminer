@@ -7,7 +7,7 @@
         "a": "The figure shows the ZPE-corrected potential energy surface (PES) for the two consecutive hydroxylation reactions on the surface \u2212TiI2 intermediate. Each reaction is represented by its reactant complex (RC), transition state (TS), and product complex (PC), with the relative energies (in kcal/mol) indicated. The first and second hydroxylation reactions have nearly identical activation barriers (22.2 and 22.4 kcal/mol), and the overall 0 K reaction enthalpy for completing both exchanges is 2.6 kcal/mol."
     },
     "data_extraction": {
-        "a": "|Reaction Step|Relative Energy (kcal/mol)|\n|-------------|---------------------------|\n|RC1 + H\u2082O|0.0|\n|TS1|22.2|\n|PC1|0.0|\n|RC2 + H\u2082O|0.0|\n|TS2|22.4|\n|PC2|2.6|"
+      "a": "| Reaction Step | Relative Energy (kcal/mol) |\n| --- | --- |\n| RC1 + H\u2082O | 0.0 |\n| TS1 | 22.2 |\n| PC1 | 0.0 |\n| RC2 + H\u2082O | 0.0 |\n| TS2 | 22.4 |\n| PC2 | 2.6 |"
     },
     "vqa": {
         "a": [

@@ -13,10 +13,10 @@
         "d": "The chart shows the relationship between ICP power and DC self-bias for BCl3 plasma step at bias power of 2 W."
     },
     "data_extraction": {
-        "a": "| Bias Power [W] | DC self-bias [V] |\n|---|---|\n| 0 |   |\n| 1 |   |\n| 2 |   |\n| 3 | 5 |\n| 4 | 10 |\n| 5 | 15 |\n| 6 | 20 |",
-        "b": "| Bias Power [W] | DC self-bias [V] |\n|---|---|\n| 0 |   |\n| 1 |   |\n| 2 | 5 |\n| 3 | 10 |\n| 4 | 13 |\n| 5 | 17 |\n| 6 | 21 |",
-        "c": "| ICP power [W] | DC Self-bias [V] |\n|---|---|\n| 250 |   |\n| 300 |   |\n| 350 |   |\n| 400 | 4.0 |\n| 450 | 4.1 |\n| 500 | 4.2 |",
-        "d": "| ICP power [W] | DC Self-bias [V] |\n|---|---|\n| 150 | 11 |\n| 200 | 10 |\n| 250 | 8 |\n| 300 | 6 |\n| 350 | 4 |\n| 400 | 4 |"
+      "a": "| Bias Power [W] | DC self-bias [V] |\n| --- | --- |\n| 0 |  |\n| 1 |  |\n| 2 |  |\n| 3 | 5 |\n| 4 | 10 |\n| 5 | 15 |\n| 6 | 20 |",
+      "b": "| Bias Power [W] | DC self-bias [V] |\n| --- | --- |\n| 0 |  |\n| 1 |  |\n| 2 | 5 |\n| 3 | 10 |\n| 4 | 13 |\n| 5 | 17 |\n| 6 | 21 |",
+      "c": "| ICP power [W] | DC Self-bias [V] |\n| --- | --- |\n| 250 |  |\n| 300 |  |\n| 350 |  |\n| 400 | 4.0 |\n| 450 | 4.1 |\n| 500 | 4.2 |",
+      "d": "| ICP power [W] | DC Self-bias [V] |\n| --- | --- |\n| 150 | 11 |\n| 200 | 10 |\n| 250 | 8 |\n| 300 | 6 |\n| 350 | 4 |\n| 400 | 4 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The line plot shows the tungsten film thickness obtained after three AB cycles as a function of the number of WF\u2086 pulses at 425 K. The thickness reaches saturation after about 10 WF\u2086 pulses, indicating that additional pulses do not increase growth. The data also confirms that using 40 Si\u2082H\u2086 pulses in each AB cycle is sufficient to complete the Si\u2082H\u2086 half-reaction."
     },
     "data_extraction": {
-        "a": "| Number of WF6 Pulses | Tungsten Film Thickness (\u00c5) |\n|---|---|\n| 0 | 0 |\n| 1 | 3 |\n| 5 | 7 |\n| 10 | 7.2 |\n| 15 | 7.2 |\n| 20 | 7.2 |\n| 25 | 6.5 |\n| 30 | 7.2 |\n| 40 | 7.2 |\n| 50 | 7.2 |"
+      "a": "| Number of WF6 Pulses | Tungsten Film Thickness (\u00c5) |\n| --- | --- |\n| 0 | 0 |\n| 1 | 3 |\n| 5 | 7 |\n| 10 | 7.2 |\n| 15 | 7.2 |\n| 20 | 7.2 |\n| 25 | 6.5 |\n| 30 | 7.2 |\n| 40 | 7.2 |\n| 50 | 7.2 |"
     },
     "vqa": {
         "a": [

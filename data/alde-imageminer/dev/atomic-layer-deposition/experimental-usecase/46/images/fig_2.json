@@ -9,8 +9,8 @@
         "b": "The figure illustrates the capacitance (C) of a device as a function of gate bias (V<sub>g</sub>) at different frequencies (1 kHz, 10 kHz, 100 kHz, 1 MHz) for the 50 \u00b0C H2S passivated sample. The inset provides a closer view of the capacitance at 100 kHz."
     },
     "data_extraction": {
-        "a": "| Gate Bias V<sub>g</sub> (V) | Unpassivated | 350\u00b0C H<sub>2</sub>S | 200\u00b0C H<sub>2</sub>S | 50\u00b0C H<sub>2</sub>S |\n|-----------------------------|--------------|-----------------------|-----------------------|----------------------|\n| -2                          | 0.0028       | 0.0026               | 0.0024               | 0.0022              |\n| -1                          | 0.003        | 0.0028               | 0.0026                | 0.0024              |\n| 0                           | 0.005        | 0.004               | 0.004                   | 0.0038              |\n| 1                           | 0.006        | 0.0068              | 0.0058                 | 0.0080              |\n| 2                           | 0.0072       | 0.0074              | 0.0062               | 0.0090              |\n| 3                           | 0.0078       | 0.0080               | 0.0070               | 0.0010              |",
-        "b": ""
+      "a": "| Gate Bias V<sub>g</sub> (V) | Unpassivated | 350\u00b0C H<sub>2</sub>S | 200\u00b0C H<sub>2</sub>S | 50\u00b0C H<sub>2</sub>S |\n| --- | --- | --- | --- | --- |\n| -2 | 0.0028 | 0.0026 | 0.0024 | 0.0022 |\n| -1 | 0.003 | 0.0028 | 0.0026 | 0.0024 |\n| 0 | 0.005 | 0.004 | 0.004 | 0.0038 |\n| 1 | 0.006 | 0.0068 | 0.0058 | 0.0080 |\n| 2 | 0.0072 | 0.0074 | 0.0062 | 0.0090 |\n| 3 | 0.0078 | 0.0080 | 0.0070 | 0.0010 |",
+      "b": ""
     },
     "vqa": {
         "b": [

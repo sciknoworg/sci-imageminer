@@ -13,10 +13,10 @@
         "d": "At 30 eV ion energy, this panel shows substantial Si thickness reduction alongside fluorocarbon and SiFx evolution, demonstrating that higher ion energy increases substrate etching and reduces selectivity."
     },
     "data_extraction": {
-        "a": "| Time [s] | Thickness Change [\u00c5] |\n|---|---|\n|-10 | 0 |\n|0 | 5 |\n|10 | 3 |\n|20 | 1 |\n|30 | -1 |\n|40 | -3 |\n|50 | -5 |",
-        "b": "| Time [s] | Thickness Change [\u00c5] |\n|---|---|\n|-10 | 0 |\n|0 | 5 |\n|10 | 3 |\n|20 | 1 |\n|30 | -1 |\n|40 | -3 |\n|50 | -5 |",
-        "c": "| Time [s] | Thickness Change [\u00c5] |\n|---|---|\n|-10 | 0 |\n|0 | 5 |\n|10 | 3 |\n|20 | 1 |\n|30 | -1 |\n|40 | -3 |\n|50 | -5 |",
-        "d": "| Time [s] | Thickness Change [\u00c5] |\n|---|---|\n|-10 | 0 |\n|0 | 5 |\n|10 | 3 |\n|20 | 1 |\n|30 | -1 |\n|40 | -3 |\n|50 | -5 |"
+      "a": "| Time [s] | Thickness Change [\u00c5] |\n| --- | --- |\n| -10 | 0 |\n| 0 | 5 |\n| 10 | 3 |\n| 20 | 1 |\n| 30 | -1 |\n| 40 | -3 |\n| 50 | -5 |",
+      "b": "| Time [s] | Thickness Change [\u00c5] |\n| --- | --- |\n| -10 | 0 |\n| 0 | 5 |\n| 10 | 3 |\n| 20 | 1 |\n| 30 | -1 |\n| 40 | -3 |\n| 50 | -5 |",
+      "c": "| Time [s] | Thickness Change [\u00c5] |\n| --- | --- |\n| -10 | 0 |\n| 0 | 5 |\n| 10 | 3 |\n| 20 | 1 |\n| 30 | -1 |\n| 40 | -3 |\n| 50 | -5 |",
+      "d": "| Time [s] | Thickness Change [\u00c5] |\n| --- | --- |\n| -10 | 0 |\n| 0 | 5 |\n| 10 | 3 |\n| 20 | 1 |\n| 30 | -1 |\n| 40 | -3 |\n| 50 | -5 |"
     },
     "vqa": {
         "d": [

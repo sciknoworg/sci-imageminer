@@ -7,7 +7,7 @@
         "a": "The bar chart shows the distribution of coverage fraction values relative to the mean. Most measurements fall between \u2212\u03c3 and +\u03c3, with the highest frequencies near the mean. Very few values occur at the extreme \u00b13\u03c3 bins, indicating a narrow spread around \u03bc."
     },
     "data_extraction": {
-        "a": "| Coverage Fraction | Frequency |\n|-------------------|-----------|\n| -3\u03c3              | 1         |\n| -2\u03c3              | 4         |\n| -\u03c3               | 20        |\n| \u03bc                 | 19        |\n| +\u03c3                | 16        |\n| +2\u03c3              | 10        |\n| +3\u03c3              | 0         |"
+      "a": "| Coverage Fraction | Frequency |\n| --- | --- |\n| -3\u03c3 | 1 |\n| -2\u03c3 | 4 |\n| -\u03c3 | 20 |\n| \u03bc | 19 |\n| +\u03c3 | 16 |\n| +2\u03c3 | 10 |\n| +3\u03c3 | 0 |"
     },
     "vqa": {
         "a": [

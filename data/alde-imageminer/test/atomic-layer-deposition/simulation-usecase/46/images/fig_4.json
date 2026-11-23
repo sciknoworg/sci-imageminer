@@ -9,7 +9,7 @@
         "b": "Entropy-corrected adsorption energies at 600 K are presented, showing a downward shift in adsorption energies under ALD conditions and a narrower window of viable precursors, explaining the preference for intermediate ligand numbers."
     },
     "data_extraction": {
-        "a": "| Number of dimethylamino ligands | Adsorption energy (eV) | Reaction energy barrier (eV) |\n|---|---|---|\n| 0 (Silane) | 0.16 | 1.42 |\n| 1 (DMAS) | 0.59 | 0.65 |\n| 2 (BDMAS) | 0.69 | 0.28 |\n| 3 (TDMAS) | 0.74 | 0.75 |\n| 4 (TeDMAS) | 0.84 | 1.81 |"
+      "a": "| Number of dimethylamino ligands | Adsorption energy (eV) | Reaction energy barrier (eV) |\n| --- | --- | --- |\n| 0 (Silane) | 0.16 | 1.42 |\n| 1 (DMAS) | 0.59 | 0.65 |\n| 2 (BDMAS) | 0.69 | 0.28 |\n| 3 (TDMAS) | 0.74 | 0.75 |\n| 4 (TeDMAS) | 0.84 | 1.81 |"
     },
     "vqa": {
         "a": [

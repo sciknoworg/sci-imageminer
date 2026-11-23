@@ -7,7 +7,7 @@
         "a": "The line chart shows the increase in SnO\u2082 content (mol %) as a function of SnO\u2082 cycle percentage, as measured by XRF. A dashed line indicates the expected values from the Rule of Mixtures. The measured data rises faster than predicted, suggesting non-linear incorporation."
     },
     "data_extraction": {
-        "a": "| % SnO\u2082 Cycles | SnO\u2082 Content (mol %) |\n|---------------|----------------------|\n| 0             | 0                    |\n| 5             | 2                    |\n| 10            | 12                   |\n| 15            | 26                   |\n| 25            | 40                   |"
+      "a": "| % SnO\u2082 Cycles | SnO\u2082 Content (mol %) |\n| --- | --- |\n| 0 | 0 |\n| 5 | 2 |\n| 10 | 12 |\n| 15 | 26 |\n| 25 | 40 |"
     },
     "vqa": {
         "a": [

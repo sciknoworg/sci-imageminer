@@ -7,7 +7,7 @@
         "a": "Multiple-line chart showing the temperature dependence of individual contributions to the reaction free energy for the SE1 etching reaction of HfO\u2082 with HF. The plot separates constant energetic terms (\u0394E, \u0394E+\u0394ZPE) from temperature-dependent contributions (T\u0394S, \u0394W, RT ln Q), illustrating how entropy and pressure effects progressively increase \u0394G with temperature while the reaction remains exergonic across the range shown."
     },
     "data_extraction": {
-        "a": "| Temperature [K] | \u0394E [eV] | \u0394E+\u0394ZPE [eV] | \u0394G [eV] | T\u0394S [eV] | \u0394W [eV] |\n|---|---|---|---|---|---|\n| 0 | ~ -0.9 | ~ -0.76 | ~ -0.76 | 0.0 | 0.0 |\n| 200 | ~ -0.9 | ~ -0.76 | ~ -0.75 | ~ -0.05 | ~ -0.02 |\n| 400 | ~ -0.9 | ~ -0.76 | ~ -0.68 | ~ -0.15 | ~ -0.06 |\n| 600 | ~ -0.9 | ~ -0.76 | ~ -0.60 | ~ -0.25 | ~ -0.09 |\n| 800 | ~ -0.9 | ~ -0.76 | ~ -0.52 | ~ -0.40 | ~ -0.11 |\n| 1000 | ~ -0.9 | ~ -0.76 | ~ -0.44 | ~ -0.50 | ~ -0.13 |"
+      "a": "| Temperature [K] | \u0394E [eV] | \u0394E+\u0394ZPE [eV] | \u0394G [eV] | T\u0394S [eV] | \u0394W [eV] |\n| --- | --- | --- | --- | --- | --- |\n| 0 | ~ -0.9 | ~ -0.76 | ~ -0.76 | 0.0 | 0.0 |\n| 200 | ~ -0.9 | ~ -0.76 | ~ -0.75 | ~ -0.05 | ~ -0.02 |\n| 400 | ~ -0.9 | ~ -0.76 | ~ -0.68 | ~ -0.15 | ~ -0.06 |\n| 600 | ~ -0.9 | ~ -0.76 | ~ -0.60 | ~ -0.25 | ~ -0.09 |\n| 800 | ~ -0.9 | ~ -0.76 | ~ -0.52 | ~ -0.40 | ~ -0.11 |\n| 1000 | ~ -0.9 | ~ -0.76 | ~ -0.44 | ~ -0.50 | ~ -0.13 |"
     },
     "vqa": {
         "a": [

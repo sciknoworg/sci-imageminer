@@ -7,7 +7,7 @@
         "a": "The scatter plot compares numerical predictions with experimental growth rates from Theodoropoulos et al. specifically within the diffusion-limited regime. The data shows a nearly constant growth rate (\u03bcm/hr) across the temperature range of 1120\u20131300 K, which the simulation reproduces accurately.  The experiment data points are represented by diamonds, while the numerical results from the present study are shown as circles."
     },
     "data_extraction": {
-        "a": "| T (K) | Growth Rate (\u00b5m/hr) | Work                 |\n|-------|---------------------|----------------------|\n| 1120  | 2.50                | Experimental study   |\n| 1160  | 2.50                | Numerical (this work)|\n| 1180  | 2.50                | Experimental study   |\n| 1200  | 2.55                | Numerical (this work)|\n| 1220  | 2.50                | Experimental study   |\n| 1240  | 2.55                | Numerical (this work)|\n| 1280  | 2.45                | Experimental study   |\n| 1320  | 2.50                | Numerical (this work)|"
+      "a": "| T (K) | Growth Rate (\u00b5m/hr) | Work |\n| --- | --- | --- |\n| 1120 | 2.50 | Experimental study |\n| 1160 | 2.50 | Numerical (this work) |\n| 1180 | 2.50 | Experimental study |\n| 1200 | 2.55 | Numerical (this work) |\n| 1220 | 2.50 | Experimental study |\n| 1240 | 2.55 | Numerical (this work) |\n| 1280 | 2.45 | Experimental study |\n| 1320 | 2.50 | Numerical (this work) |"
     },
     "vqa": {
         "a": [

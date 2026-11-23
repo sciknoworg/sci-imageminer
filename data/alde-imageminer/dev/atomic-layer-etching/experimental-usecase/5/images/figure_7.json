@@ -7,7 +7,7 @@
         "a": "The grouped bar chart displays atomic percentages of various elements (In, Ga, As, Cl, C) across three conditions (Ref., ALE, RIE) along with RMS roughness measurements."
     },
     "data_extraction": {
-        "a": "| Atomic Percentage (%) | Ref. | ALE | RIE |\n|---|---|---|---|\n| In | 20.6% | 29.5% | 38.0% |\n| Ga | 43.4% | 21.8% | 18.4% |\n| As | 6.6% | 5.3% | 2.4% |\n| Cl | 0.0% | 0.0% | 7.8% |\n| RMS Roughness (nm) | 4.5 | 4.8 | 5.4 |"
+      "a": "| Atomic Percentage (%) | Ref. | ALE | RIE |\n| --- | --- | --- | --- |\n| In | 20.6% | 29.5% | 38.0% |\n| Ga | 43.4% | 21.8% | 18.4% |\n| As | 6.6% | 5.3% | 2.4% |\n| Cl | 0.0% | 0.0% | 7.8% |\n| RMS Roughness (nm) | 4.5 | 4.8 | 5.4 |"
     },
     "vqa": {
         "a": [

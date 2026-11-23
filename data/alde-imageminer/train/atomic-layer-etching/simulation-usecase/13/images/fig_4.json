@@ -7,7 +7,7 @@
         "a": "The chart shows the average hot spot temperature and the average number of atoms in the hot spot over time."
     },
     "data_extraction": {
-        "a": "| Time (ps) | Average hot spot temperature (K) | Average number of atoms in the hot spot |\n|---|---|---|\n| 0.0 | 300 | 0 |\n| 0.2 | 1000 | 70 |\n| 0.4 | 800 | 80 |\n| 0.6 | 700 | 60 |\n| 0.8 | 600 | 50 |\n| 1.0 | 500 | 40 |\n| 1.2 | 400 | 25 |\n| 1.4 | 400 | 20 |"
+      "a": "| Time (ps) | Average hot spot temperature (K) | Average number of atoms in the hot spot |\n| --- | --- | --- |\n| 0.0 | 300 | 0 |\n| 0.2 | 1000 | 70 |\n| 0.4 | 800 | 80 |\n| 0.6 | 700 | 60 |\n| 0.8 | 600 | 50 |\n| 1.0 | 500 | 40 |\n| 1.2 | 400 | 25 |\n| 1.4 | 400 | 20 |"
     },
     "vqa": {
         "a": [

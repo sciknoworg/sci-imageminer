@@ -9,8 +9,8 @@
         "b": "Transition state for reaction E on the SiO\u2082 substrate, showing partial breaking of the Ti\u2212I bond and partial formation of the H\u2212I bond. Only the reactive site of the substrate is displayed."
     },
     "data_extraction": {
-        "a": "|Element|Color|\n|-------|-----|\n|Ti|Gray|\n|O|Red|\n|H|White|",
-        "b": "|Element|Color|\n|-------|-----|\n|Ti|Gray|\n|O|Red|\n|H|White|\n|I|Purple|"
+      "a": "| Element | Color |\n| --- | --- |\n| Ti | Gray |\n| O | Red |\n| H | White |",
+      "b": "| Element | Color |\n| --- | --- |\n| Ti | Gray |\n| O | Red |\n| H | White |\n| I | Purple |"
     },
     "vqa": {
         "b": [

@@ -7,7 +7,7 @@
         "a": "The chart shows the energy changes at various points in a reaction pathway using two different computational methods: GGA-PBE and vdW-DF."
     },
     "data_extraction": {
-        "a": "| Reaction Step | GGA-PBE Energy (eV) | vdW-DF Energy (eV) |\n|---|---|---|\n| Cu(acac)\u2082(g) | 0.00 | 0.00 |\n| Cu(acac)\u2082@T | -0.48 | -1.42 |\n| Cu(acac)\u2082@H | -1.51 | -2.16 |\n| TS1 | -0.92 | -1.68 |\n| Cu(acac)* + acac* | -1.88 | -2.29 |\n| TS2 | -1.32 | -1.79 |\n| Cu* + 2acac* | -2.10 | -2.61 |"
+      "a": "| Reaction Step | GGA-PBE Energy (eV) | vdW-DF Energy (eV) |\n| --- | --- | --- |\n| Cu(acac)\u2082(g) | 0.00 | 0.00 |\n| Cu(acac)\u2082@T | -0.48 | -1.42 |\n| Cu(acac)\u2082@H | -1.51 | -2.16 |\n| TS1 | -0.92 | -1.68 |\n| Cu(acac)* + acac* | -1.88 | -2.29 |\n| TS2 | -1.32 | -1.79 |\n| Cu* + 2acac* | -2.10 | -2.61 |"
     },
     "vqa": {
         "a": [

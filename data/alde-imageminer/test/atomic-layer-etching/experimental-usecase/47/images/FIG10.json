@@ -7,7 +7,7 @@
         "a": "The image plots the resistivity  as a function of thickness for samples before and after etching."
     },
     "data_extraction": {
-        "a": "| Thickness (nm) | Resistivity (\u00b5\u03a9\u00b7cm) | Condition        |\n|---------------|----------------------|------------------|\n| ~5           | 33                   | Kim et al.      |\n| ~10          | 25                   | After etching   |\n| ~12          | 17                   | After etching   |\n| ~15          | 14                   | After etching   |\n| ~15          | 13                   | Kim et al.      |\n| ~18          | 12                   | Before etching  |\n| ~20          | 12                   | After etching   |\n| ~25          | 11                   | After etching   |\n| ~30          | 10                   | After etching   |\n| ~35          | 9                    | After etching   |\n| ~40          | 8                    | Before etching  |\n| ~45          | 8                    | After etching   |\n| ~50          | 7                    | Before etching  |\n| ~55          | 7                    | Before etching  |\n| ~60          | 7                    | Before etching  |"
+      "a": "| Thickness (nm) | Resistivity (\u00b5\u03a9\u00b7cm) | Condition |\n| --- | --- | --- |\n| ~5 | 33 | Kim et al. |\n| ~10 | 25 | After etching |\n| ~12 | 17 | After etching |\n| ~15 | 14 | After etching |\n| ~15 | 13 | Kim et al. |\n| ~18 | 12 | Before etching |\n| ~20 | 12 | After etching |\n| ~25 | 11 | After etching |\n| ~30 | 10 | After etching |\n| ~35 | 9 | After etching |\n| ~40 | 8 | Before etching |\n| ~45 | 8 | After etching |\n| ~50 | 7 | Before etching |\n| ~55 | 7 | Before etching |\n| ~60 | 7 | Before etching |"
     },
     "vqa": {
         "a": [

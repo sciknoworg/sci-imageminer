@@ -9,8 +9,8 @@
         "b": "In this figure, increasing NH\u2083 exposure produces the opposite behavior: N\u2013H absorbance increases and saturates while C\u2013H absorbance decreases and levels off, consistent with NH\u2083-driven ligand removal and surface re-termination by NHx* species. Together, the two panels demonstrate complementary half-reactions and self-limiting surface chemistry characteristic of ALD cycling."
     },
     "data_extraction": {
-        "a": "| TDMAT Exposure (Torr\u00b7min) | C\u2013H (integrated absorbance) | N\u2013H (integrated absorbance) |\n|---|---|---|\n| 0   | ~0.23 | ~1.00 |\n| 3   | ~0.78 | ~0.25 |\n| 6   | ~0.88 | ~0.15 |\n| 10  | ~0.90 | ~0.10 |\n| 15  | ~0.94 | ~0.06 |\n| 20  | ~0.95 | ~0.04 |\n| 25  | ~0.98 | ~0.02 |\n| 35  | ~1.00 | ~0.01 |",
-        "b": "| NH\u2083 Exposure (Torr\u00b7min) | C\u2013H (integrated absorbance) | N\u2013H (integrated absorbance) |\n|---|---|---|\n| 0     | ~1.00 | ~0.00 |\n| 500   | ~0.45 | ~0.78 |\n| 1000  | ~0.38 | ~0.95 |\n| 1500  | ~0.36 | ~0.95 |\n| 2000  | ~0.34 | ~0.85 |\n| 3000  | ~0.34 | ~0.95 |\n| 3500  | ~0.33 | ~0.98 |"
+      "a": "| TDMAT Exposure (Torr\u00b7min) | C\u2013H (integrated absorbance) | N\u2013H (integrated absorbance) |\n| --- | --- | --- |\n| 0 | ~0.23 | ~1.00 |\n| 3 | ~0.78 | ~0.25 |\n| 6 | ~0.88 | ~0.15 |\n| 10 | ~0.90 | ~0.10 |\n| 15 | ~0.94 | ~0.06 |\n| 20 | ~0.95 | ~0.04 |\n| 25 | ~0.98 | ~0.02 |\n| 35 | ~1.00 | ~0.01 |",
+      "b": "| NH\u2083 Exposure (Torr\u00b7min) | C\u2013H (integrated absorbance) | N\u2013H (integrated absorbance) |\n| --- | --- | --- |\n| 0 | ~1.00 | ~0.00 |\n| 500 | ~0.45 | ~0.78 |\n| 1000 | ~0.38 | ~0.95 |\n| 1500 | ~0.36 | ~0.95 |\n| 2000 | ~0.34 | ~0.85 |\n| 3000 | ~0.34 | ~0.95 |\n| 3500 | ~0.33 | ~0.98 |"
     },
     "vqa": {
         "b": [

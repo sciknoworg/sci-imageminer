@@ -23,15 +23,15 @@
         "i": "This high-magnification SEM image illustrates near-cylindrical pores with smooth, thick walls after 300 cycles, confirming excellent thickness control and conformality even after extensive ALD processing."
     },
     "data_extraction": {
-        "a": "| Description|\n|------------|\n|SEM image at 20k tilt, 0 cycles|",
-        "b": "| Description|\n|------------|\n|SEM image at 30k, 0 cycles|",
-        "c": "| Description|\n|------------|\n|SEM image at 50k, 0 cycles|",
-        "d": "| Description|\n|------------|\n|SEM image at 20k tilt, 100 cycles|",
-        "e": "| Description|\n|------------|\n|SEM image at 30k, 100 cycles|",
-        "f": "| Description|\n|------------|\n|SEM image at 50k, 100 cycles|",
-        "g": "| Description|\n|------------|\n|SEM image at 20k tilt, 300 cycles|",
-        "h": "| Description|\n|------------|\n|SEM image at 30k, 300 cycles|",
-        "i": "| Description|\n|------------|\n|SEM image at 50k, 300 cycles|"
+      "a": "| Description |\n| --- |\n| SEM image at 20k tilt, 0 cycles |",
+      "b": "| Description |\n| --- |\n| SEM image at 30k, 0 cycles |",
+      "c": "| Description |\n| --- |\n| SEM image at 50k, 0 cycles |",
+      "d": "| Description |\n| --- |\n| SEM image at 20k tilt, 100 cycles |",
+      "e": "| Description |\n| --- |\n| SEM image at 30k, 100 cycles |",
+      "f": "| Description |\n| --- |\n| SEM image at 50k, 100 cycles |",
+      "g": "| Description |\n| --- |\n| SEM image at 20k tilt, 300 cycles |",
+      "h": "| Description |\n| --- |\n| SEM image at 30k, 300 cycles |",
+      "i": "| Description |\n| --- |\n| SEM image at 50k, 300 cycles |"
     },
     "vqa": {
         "d": [

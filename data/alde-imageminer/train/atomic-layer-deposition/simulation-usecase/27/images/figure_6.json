@@ -9,8 +9,8 @@
         "b": "shows density steadily rising with increasing pP\u2082, indicating denser films when P\u2082-type surface terminations dominate."
     },
     "data_extraction": {
-        "a": "| occupation probability p<sub>P2</sub>|growth per cycle [\u00c5]|\n|--------------------------------------|--------------------|\n|0|2.2|\n|0.25|2.7|\n|0.5|2.6|\n|0.75|2.5|\n|1|2.0|",
-        "b": "| occupation probability p<sub>P2</sub>|density [g/cm<sup>3</sup>]|\n|--------------------------------------|--------------------------|\n|0|1.6|\n|0.25|2.3|\n|0.5|2.4|\n|0.75|2.5|\n|1|2.7|"
+      "a": "| occupation probability p<sub>P2</sub> | growth per cycle [\u00c5] |\n| --- | --- |\n| 0 | 2.2 |\n| 0.25 | 2.7 |\n| 0.5 | 2.6 |\n| 0.75 | 2.5 |\n| 1 | 2.0 |",
+      "b": "| occupation probability p<sub>P2</sub> | density [g/cm<sup>3</sup>] |\n| --- | --- |\n| 0 | 1.6 |\n| 0.25 | 2.3 |\n| 0.5 | 2.4 |\n| 0.75 | 2.5 |\n| 1 | 2.7 |"
     },
     "vqa": {
         "a": [

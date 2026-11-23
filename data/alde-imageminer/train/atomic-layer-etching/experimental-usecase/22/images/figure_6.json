@@ -9,7 +9,7 @@
         "a": "The figure shows Raman spectra of MoS\u2082 before and after etching corresponds to the control, 75 cycles etched, and 90 cycles etched samples, respectively. Each spectrum displays two prominent peaks corresponding to the in-plane (E\u00b2g) and out-of-plane (A\u2081g) vibrational modes of MoS\u2082. With increasing etching cycles, the separation between these peaks decreases from 25.5 cm\u207b\u00b9 to 22 cm\u207b\u00b9, suggesting a reduction in the number of MoS\u2082 layers or structural modification due to etching."
     },
     "data_extraction": {
-        "a": "| Panel | Condition          | Peak 1 (cm\u207b\u00b9) | Peak 2 (cm\u207b\u00b9) | Peak Separation (cm\u207b\u00b9) |\n|-------|--------------------|---------------|---------------|-------------------------|\n| (a)   | Control            | 382.4         | 407.9         | 25.5                    |\n| (b)   | 75 cycles etched   | 383.3         | 406.8         | 23.5                    |\n| (c)   | 90 cycles etched   | 384.3         | 406.3         | 22.0                    |"
+      "a": "| Panel | Condition | Peak 1 (cm-\u00b9) | Peak 2 (cm-\u00b9) | Peak Separation (cm-\u00b9) |\n| --- | --- | --- | --- | --- |\n| (a) | Control | 382.4 | 407.9 | 25.5 |\n| (b) | 75 cycles etched | 383.3 | 406.8 | 23.5 |\n| (c) | 90 cycles etched | 384.3 | 406.3 | 22.0 |"
     },
     "vqa": {
         "a": [

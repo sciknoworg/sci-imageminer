@@ -7,7 +7,7 @@
         "a": "The scatter plot shows the amount of aluminum adsorbed (\u0394c_Al) as a function of AlMe\u2083 reaction temperature on alumina pretreated at 560\u00b0C. The fitted line (y = a + bx) yields a = 2.9 \u00b1 0.1 nm\u207b\u00b2 and b = \u22120.0003 \u00b1 0.0005, indicating that \u0394c_Al remains essentially constant (~2.9 nm\u207b\u00b2) across the 80\u2013300\u00b0C range, demonstrating temperature independence of aluminum adsorption in this regime."
     },
     "data_extraction": {
-        "a": "| AlMe\u2083 reaction temperature [\u00b0C] | \u0394c\u2090 [nm\u00b2] |\n|---|---|\n| 100 | 2.9 \u00b1 0.1 |\n| 150 | 2.9 \u00b1 0.1 |\n| 200 | 2.9 \u00b1 0.1 |\n| 250 | 2.9 \u00b1 0.1 |\n| 300 | 2.9 \u00b1 0.1 |"
+      "a": "| AlMe\u2083 reaction temperature [\u00b0C] | \u0394c\u2090 [nm\u00b2] |\n| --- | --- |\n| 100 | 2.9 \u00b1 0.1 |\n| 150 | 2.9 \u00b1 0.1 |\n| 200 | 2.9 \u00b1 0.1 |\n| 250 | 2.9 \u00b1 0.1 |\n| 300 | 2.9 \u00b1 0.1 |"
     },
     "vqa": {
         "a": [

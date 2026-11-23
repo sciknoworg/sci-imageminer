@@ -7,7 +7,7 @@
         "a": "The line chart illustrates the mass (in ng/cm\u00b2) over time (in seconds), showing a stepwise increase during the TMA exposure and water exposure phases, followed by distinct plateaus."
     },
     "data_extraction": {
-        "a": "| Time (s) | Mass (ng/cm\u00b2) |\n|---|---|\n| 2 | 0,19 |\n| 4 | 24,62 |\n| 12 | 25,00 |\n| 14 | 35,53 |\n| 45 | 31,58 |\n| 46 | 55,45 |\n| 56 | 56,39 |\n| 57 | 66,92 |\n| 87 | 62,78 |\n| 89 | 85,34 |\n| 98 | 87,59 |\n| 100 | 98,12 |\n| 129 | 93,80 |"
+      "a": "| Time (s) | Mass (ng/cm\u00b2) |\n| --- | --- |\n| 2 | 0,19 |\n| 4 | 24,62 |\n| 12 | 25,00 |\n| 14 | 35,53 |\n| 45 | 31,58 |\n| 46 | 55,45 |\n| 56 | 56,39 |\n| 57 | 66,92 |\n| 87 | 62,78 |\n| 89 | 85,34 |\n| 98 | 87,59 |\n| 100 | 98,12 |\n| 129 | 93,80 |"
     },
     "vqa": {
         "a": [

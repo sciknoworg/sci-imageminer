@@ -7,7 +7,7 @@
         "a": "The chart shows the etch depth and etch rate as a function of the number of ALE cycles. The etch depth increases with the number of cycles, whereas the etch rate remains constant."
     },
     "data_extraction": {
-        "a": "| No. of ALE Cycles | Etch Depth (\u00c5) | Etch Rate (\u00c5/Cycle) |\n|---|---|---|\n| 100 | 100 \u00b1 5 | 1.1 \u00b1 0.1 |\n| 200 | 210 \u00b1 5 | 1.1 \u00b1 0.1 |\n| 300 | 325 \u00b1 5 | 1.1 \u00b1 0.1 |\n| 400 | 450 \u00b1 5 | 1.1 \u00b1 0.1 |"
+      "a": "| No. of ALE Cycles | Etch Depth (\u00c5) | Etch Rate (\u00c5/Cycle) |\n| --- | --- | --- |\n| 100 | 100 \u00b1 5 | 1.1 \u00b1 0.1 |\n| 200 | 210 \u00b1 5 | 1.1 \u00b1 0.1 |\n| 300 | 325 \u00b1 5 | 1.1 \u00b1 0.1 |\n| 400 | 450 \u00b1 5 | 1.1 \u00b1 0.1 |"
     },
     "vqa": {
         "a": [

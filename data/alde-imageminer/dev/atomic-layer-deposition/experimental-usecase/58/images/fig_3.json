@@ -7,7 +7,7 @@
         "a": "The figure displays a series of X-ray diffraction patterns for PVD Ti/PE-ALD Co/Si(001) at different annealing temperatures (T_a). Peaks corresponding to CoSi_2 (200) and \u03b2-Co (111) are observed."
     },
     "data_extraction": {
-        "a": "| 2\u03b8 (degree) | Intensity (a.u.) Ta=400|Intensity (a.u.) Ta=400|Intensity (a.u.) Ta=400|Intensity (a.u.) Ta=400|Intensity (a.u.) Ta=400|Intensity (a.u.) Ta=400|\n|---|---|---|---|---|---|---|\n| 20 | 0 | 0 | 0 | 0 | 0 | 0 |\n| 30 | 0 | 0 | 0 | 0 | 0 | 0 |\n| 33 | CoSi2 (200) | 0 | 0 | 0 | CoSi2 (200) | CoSi2 (200) |\n| 40 | 0 | 0 | 0 | 0 | 0 | 0 |\n| 44 | beta-Co (111) | beta-Co (111) | beta-Co (111) | 0 | 0 | 0 |\n| 50 | 0 | 0 | 0 | 0 | 0 | 0 |\n| 60 | 0 | 0 | 0 | 0 | 0 | 0 |"
+      "a": "| 2\u03b8 (degree) | Intensity (a.u.) Ta=400 | Intensity (a.u.) Ta=400 | Intensity (a.u.) Ta=400 | Intensity (a.u.) Ta=400 | Intensity (a.u.) Ta=400 | Intensity (a.u.) Ta=400 |\n| --- | --- | --- | --- | --- | --- | --- |\n| 20 | 0 | 0 | 0 | 0 | 0 | 0 |\n| 30 | 0 | 0 | 0 | 0 | 0 | 0 |\n| 33 | CoSi2 (200) | 0 | 0 | 0 | CoSi2 (200) | CoSi2 (200) |\n| 40 | 0 | 0 | 0 | 0 | 0 | 0 |\n| 44 | beta-Co (111) | beta-Co (111) | beta-Co (111) | 0 | 0 | 0 |\n| 50 | 0 | 0 | 0 | 0 | 0 | 0 |\n| 60 | 0 | 0 | 0 | 0 | 0 | 0 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The image depicts the reaction pathway involving the co-reactant H2S regenerating the thiol end groups of the surface. The \u0394G values indicate the free energy changes associated with each step."
     },
     "data_extraction": {
-        "a": "| Reaction Step | \u0394G (kJ/mol) |\n|---|---|\n| A04 | -106.0 |\n| D01TS | -55.0 |\n| D02 | -167.5 |\n| D03TS | -96.6 |\n| D08TS | -160.9 |\n| D04 | -254.9 |\n| D05TS | -193.6 |\n| D06 | -302.4 |\n| D07TS | -144.8 |\n| A06 | -231.3 |"
+      "a": "| Reaction Step | \u0394G (kJ/mol) |\n| --- | --- |\n| A04 | -106.0 |\n| D01TS | -55.0 |\n| D02 | -167.5 |\n| D03TS | -96.6 |\n| D08TS | -160.9 |\n| D04 | -254.9 |\n| D05TS | -193.6 |\n| D06 | -302.4 |\n| D07TS | -144.8 |\n| A06 | -231.3 |"
     },
     "vqa": {
         "a": [

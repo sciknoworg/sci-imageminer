@@ -9,8 +9,8 @@
         "b": "The bar chart compares the Al/O ratio across three samples: Ref., Partial Layer Etching, and ALET."
     },
     "data_extraction": {
-        "a": "| Sample | Atomic Percentage Al | Atomic Percentage O |\n|---|---|---|\n| Ref. | 35 | 65 |\n| Partial Layer Etching | 30 | 70 |\n| ALET | 35 | 65 |",
-        "b": "| Sample | Al/O Ratio |\n|---|---|\n| Ref. | 0.55 |\n| Partial Layer Etching | 0.4 |\n| ALET | 0.55 |"
+      "a": "| Sample | Atomic Percentage Al | Atomic Percentage O |\n| --- | --- | --- |\n| Ref. | 35 | 65 |\n| Partial Layer Etching | 30 | 70 |\n| ALET | 35 | 65 |",
+      "b": "| Sample | Al/O Ratio |\n| --- | --- |\n| Ref. | 0.55 |\n| Partial Layer Etching | 0.4 |\n| ALET | 0.55 |"
     },
     "vqa": {
         "a": [

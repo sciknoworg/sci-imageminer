@@ -7,7 +7,7 @@
         "a": "This mass spectrum provides insight into the fragmentation pattern of a chemical precursor or reaction product, likely related to LiHMDS or a related organosilicon species used in ALD. The strong peak at m/z = 28 may correspond to CO or N\u2082 fragments, while peaks at m/z = 43 and 57 indicate possible hydrocarbon or Si-containing fragments such as Si(CH\u2083)\u2083\u207a. The presence of higher-mass peaks at 130, 146, and 161 suggests detection of larger, intact precursor fragments or ligand-containing species, consistent with gas-phase decomposition products. Interpreting these peaks helps identify volatile by-products and understand surface or gas-phase chemistry during ALD cycles."
     },
     "data_extraction": {
-        "a": "| m/z (amu) | Ion current (nA) |\n|----------|------------------|\n| 15       | 30               |\n| 28       | 50               |\n| 43       | 40               |\n| 57       | 35               |\n| 65.5     | 20               |\n| 73       | 15               |\n| 86       | 10               |\n| 100      | 5                |\n| 130      | 20               |\n| 146      | 30               |\n| 161      | 5                |"
+      "a": "| m/z (amu) | Ion current (nA) |\n| --- | --- |\n| 15 | 30 |\n| 28 | 50 |\n| 43 | 40 |\n| 57 | 35 |\n| 65.5 | 20 |\n| 73 | 15 |\n| 86 | 10 |\n| 100 | 5 |\n| 130 | 20 |\n| 146 | 30 |\n| 161 | 5 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The figure displays multiple XRD spectra of SnS\u2082, HfS\u2082, ZrS\u2082,  films grown on mica, with intensity plotted against \u03c6 (\u00b0)."
     },
     "data_extraction": {
-        "a": "| Material      | Peaks (\u00b0)                          |\n|--------------|-------------------------------------|\n| (10\\bar{1}0) SnS\u2082 | ~0, ~60, ~120, ~180, ~240, ~300 |\n| (10\\bar{1}0) HfS\u2082 | ~0, ~60, ~180, ~240, ~300 |\n| (10\\bar{1}0) ZrS\u2082 | ~0, ~60, ~120, ~180, ~300 |\n| (020) mica       | ~0, ~90, ~180, ~270             |"
+      "a": "| Material | Peaks (\u00b0) |\n| --- | --- |\n| (10\\bar{1}0) SnS\u2082 | ~0, ~60, ~120, ~180, ~240, ~300 |\n| (10\\bar{1}0) HfS\u2082 | ~0, ~60, ~180, ~240, ~300 |\n| (10\\bar{1}0) ZrS\u2082 | ~0, ~60, ~120, ~180, ~300 |\n| (020) mica | ~0, ~90, ~180, ~270 |"
     },
     "vqa": {
         "a": [

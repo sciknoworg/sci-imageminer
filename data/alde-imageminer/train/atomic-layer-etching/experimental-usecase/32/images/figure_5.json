@@ -7,7 +7,7 @@
         "a": "Multi-axis chart showing etch depth (left axis) and etch rate (right axis) as a function of Ar\u207a ion exposure time for multiple materials under optimized ALE conditions. InGaAs exhibits a clear increase in etch depth that saturates near ~110 \u00c5, while Si, SiO\u2082, HfO\u2082, PR, and ACL show no measurable etching across the entire time range."
     },
     "data_extraction": {
-        "a": "| Time (s/cycle) | InGaAs Etch Depth (\u00c5) | InGaAs Etch Rate (\u00c5/Cycle) | Etch Depth of Si, SiO\u2082, HfO\u2082, PR, ACL (\u00c5) | Etch Rate of Si, SiO\u2082, HfO\u2082, PR, ACL (\u00c5/Cycle) |\n|---|---|---|---|---|\n| 0 | 0 | 0.0 | 0 | 0 |\n| 20 | ~45 | ~0.4 | 0 | 0 |\n| 30 | ~60 | ~0.6 | 0 | 0 |\n| 50 | ~110 | ~1.1 | 0 | 0 |\n| 80 | ~115 | ~1.2 | 0 | 0 |\n| 100 | ~110 | ~1.1 | 0 | 0 |"
+      "a": "| Time (s/cycle) | InGaAs Etch Depth (\u00c5) | InGaAs Etch Rate (\u00c5/Cycle) | Etch Depth of Si, SiO\u2082, HfO\u2082, PR, ACL (\u00c5) | Etch Rate of Si, SiO\u2082, HfO\u2082, PR, ACL (\u00c5/Cycle) |\n| --- | --- | --- | --- | --- |\n| 0 | 0 | 0.0 | 0 | 0 |\n| 20 | ~45 | ~0.4 | 0 | 0 |\n| 30 | ~60 | ~0.6 | 0 | 0 |\n| 50 | ~110 | ~1.1 | 0 | 0 |\n| 80 | ~115 | ~1.2 | 0 | 0 |\n| 100 | ~110 | ~1.1 | 0 | 0 |"
     },
     "vqa": {
         "a": [

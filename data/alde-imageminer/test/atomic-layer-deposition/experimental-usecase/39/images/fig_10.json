@@ -7,7 +7,7 @@
         "a": "The chart shows the integrated intensity of OES signals at different wavelengths (777 nm - O*, 656 nm - H*, 519 nm - CO*) as a function of the number of Al(CH\u2083)\u2083 exposures per cycle."
     },
     "data_extraction": {
-        "a": "| Number of Al(CH3)3 exposures per cycle | Intensity (a.u.) 777 nm \u2013 O* | Intensity (a.u.) 656 nm \u2013 H* | Intensity (a.u.) 519 nm \u2013 CO* |\n|---|---|---|---|\n| 0  | 55 | 0  | 0  |\n| 1  | 50 | 22 | 35 |\n| 2  | 47 | 42 | 58 |\n| 3  | 42 | 50 | 67 |\n| 4  | 41 | 57 | 73 |\n| 6  | 41 | 62 | 79 |\n| 10 | 40 | 63 | 81 |\n| 15 | 39 | 66 | 84 |"
+      "a": "| Number of Al(CH3)3 exposures per cycle | Intensity (a.u.) 777 nm \u2013 O* | Intensity (a.u.) 656 nm \u2013 H* | Intensity (a.u.) 519 nm \u2013 CO* |\n| --- | --- | --- | --- |\n| 0 | 55 | 0 | 0 |\n| 1 | 50 | 22 | 35 |\n| 2 | 47 | 42 | 58 |\n| 3 | 42 | 50 | 67 |\n| 4 | 41 | 57 | 73 |\n| 6 | 41 | 62 | 79 |\n| 10 | 40 | 63 | 81 |\n| 15 | 39 | 66 | 84 |"
     },
     "vqa": {
         "a": [

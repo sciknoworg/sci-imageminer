@@ -9,8 +9,8 @@
         "b": "The line chart displays the averaged molar fraction of TMA and water over time for feeding system outlet, with both fractions decreasing."
     },
     "data_extraction": {
-        "a": "| Time (s) | Flow Rate - Water (sccm) | Flow Rate - TMA (sccm) |\n|----------|---------------------------|-------------------------|\n| 0.00     | 700                       | 450                     |\n| 0.02     | 500                       | 300                     |\n| 0.05     | 200                       | 100                     |\n| 0.10     | 50                        | 20                      |\n| 0.15     | -                       | -        |",
-        "b": "| Time (s) | Molar Fraction - Water | Molar Fraction - TMA |\n|----------|-------------------------|-----------------------|\n| 0.00     | 0.95                    | 0.90                  |\n| 0.02     | 0.80                    | 0.60                  |\n| 0.05     | 0.40                    | 0.20                  |\n| 0.10     | 0.10                    | 0.05                  |\n| 0.15    | 0.06                     |0.05                   |\n| 0.2        | 0.03                  |0.02                   |\n| 0.25     |     0                        | 0                   |\n| 0.3       | 0                         |0                   |"
+      "a": "| Time (s) | Flow Rate - Water (sccm) | Flow Rate - TMA (sccm) |\n| --- | --- | --- |\n| 0.00 | 700 | 450 |\n| 0.02 | 500 | 300 |\n| 0.05 | 200 | 100 |\n| 0.10 | 50 | 20 |\n| 0.15 | - | - |",
+      "b": "| Time (s) | Molar Fraction - Water | Molar Fraction - TMA |\n| --- | --- | --- |\n| 0.00 | 0.95 | 0.90 |\n| 0.02 | 0.80 | 0.60 |\n| 0.05 | 0.40 | 0.20 |\n| 0.10 | 0.10 | 0.05 |\n| 0.15 | 0.06 | 0.05 |\n| 0.2 | 0.03 | 0.02 |\n| 0.25 | 0 | 0 |\n| 0.3 | 0 | 0 |"
     },
     "vqa": {
         "a": [

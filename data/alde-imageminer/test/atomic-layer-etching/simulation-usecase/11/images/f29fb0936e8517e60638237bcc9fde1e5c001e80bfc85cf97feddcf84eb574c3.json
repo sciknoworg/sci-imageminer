@@ -7,7 +7,7 @@
         "a": "Convergence test for the kinetic energy cutoff for charge density and potential (ecutrho) in DFT calculations for \u03b8-Al2O3 (2\u0304 0 1). Unlike ecutwfc, the total energy increases (becomes less negative) with increasing ecutrho, rising from approximately -2454.038 Ry at 100 Ry to a converged value around -2454.006 Ry at ecutrho=200 Ry. This parameter controls the grid density for representing charge density and potentials."
     },
     "data_extraction": {
-        "a": "| Kinetic energy cut-off for charge density and potential (Ry) | Total energy (Ry) |\n|---|---|\n| 100 | -0.040 |\n| 150 | -0.010 |\n| 200 | -0.005 |\n| 250 | -0.005 |\n| 300 | -0.005 |\n| 350 | -0.005 |\n| 400 | -0.005 |"
+      "a": "| Kinetic energy cut-off for charge density and potential (Ry) | Total energy (Ry) |\n| --- | --- |\n| 100 | -0.040 |\n| 150 | -0.010 |\n| 200 | -0.005 |\n| 250 | -0.005 |\n| 300 | -0.005 |\n| 350 | -0.005 |\n| 400 | -0.005 |"
     },
     "vqa": {
         "a": [

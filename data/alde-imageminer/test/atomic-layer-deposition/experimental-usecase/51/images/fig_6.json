@@ -7,7 +7,7 @@
         "a": "The figure displays an XPS chart of the Mo 3d doublet of MoOx with the results of three samples superimposed."
     },
     "data_extraction": {
-        "a": "| Sample | binding energy (eV) |\n|---|---|\n| 2 second O2 | Peaks at 232.5 and 235.5 |\n| 2 second O2 & Ar | Peaks at 232.5 and 235.5 |\n| 1 second O2 | Peaks at 232.5 and 235.5 |"
+      "a": "| Sample | binding energy (eV) |\n| --- | --- |\n| 2 second O2 | Peaks at 232.5 and 235.5 |\n| 2 second O2 & Ar | Peaks at 232.5 and 235.5 |\n| 1 second O2 | Peaks at 232.5 and 235.5 |"
     },
     "vqa": {
         "a": [

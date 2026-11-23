@@ -7,7 +7,7 @@
         "a": "The scatter plot shows a positive linear relationship between the number of cycles and etching amount, indicating that the etching amount increases proportionally with the number of cycles."
     },
     "data_extraction": {
-        "a": "| Number of Cycles | Etching Amount (nm) |\n|-----------------|--------------------|\n| 0               | 0                  |\n| 2               | 3                  |\n| 4               | 10                 |\n| 6               | 12                 |\n| 8               | 17                 |\n| 10              | 19                 |"
+      "a": "| Number of Cycles | Etching Amount (nm) |\n| --- | --- |\n| 0 | 0 |\n| 2 | 3 |\n| 4 | 10 |\n| 6 | 12 |\n| 8 | 17 |\n| 10 | 19 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The chart shows the C1 spectra from XPS characterisation for NbCl\u2085 and O\u2082 across four cycles."
     },
     "data_extraction": {
-        "a": "| Cycle      | Precursor | Binding Energy Range (eV) | Peak Position (eV) |\n|-----------|-----------|----------------------------|---------------------|\n| 1st       | NbCl\u2085    | 196 \u2013 202                 | ~198.5             |\n| 1st       | O\u2082       | 196 \u2013 202                 | ~199.5             |\n| 2nd       | NbCl\u2085    | 196 \u2013 202                 | ~198.5             |\n| 2nd       | O\u2082       | 196 \u2013 202                 | ~199.5             |\n| 3rd       | NbCl\u2085    | 196 \u2013 202                 | ~198.5             |\n| 3rd       | O\u2082       | 196 \u2013 202                 | ~199.5             |\n| 4th       | NbCl\u2085    | 196 \u2013 202                 | ~198.5             |\n| 4th       | O\u2082       | 196 \u2013 202                 | ~199.5             |"
+      "a": "| Cycle | Precursor | Binding Energy Range (eV) | Peak Position (eV) |\n| --- | --- | --- | --- |\n| 1st | NbCl\u2085 | 196 \u2013 202 | ~198.5 |\n| 1st | O\u2082 | 196 \u2013 202 | ~199.5 |\n| 2nd | NbCl\u2085 | 196 \u2013 202 | ~198.5 |\n| 2nd | O\u2082 | 196 \u2013 202 | ~199.5 |\n| 3rd | NbCl\u2085 | 196 \u2013 202 | ~198.5 |\n| 3rd | O\u2082 | 196 \u2013 202 | ~199.5 |\n| 4th | NbCl\u2085 | 196 \u2013 202 | ~198.5 |\n| 4th | O\u2082 | 196 \u2013 202 | ~199.5 |"
     },
     "vqa": {
         "a": [

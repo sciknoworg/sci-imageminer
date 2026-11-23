@@ -9,8 +9,8 @@
         "b": "Normalized resistivity change (\u0394\u03c1/\u03c1\u2080) versus temperature. Positive temperature coefficient of resistivity (TCR \u2248 0.0088 %/\u00b0C) confirms stable metallic transport over the measured range."
     },
     "data_extraction": {
-        "a": "| Temperature (\u00b0C) | Resistivity (\u00b5\u03a9\u00b7cm) |\n|---|---|\n| 25  | ~560 |\n| 50  | ~650 |\n| 75  | ~750 |\n| 100 | ~880 |\n| 125 | ~1020 |",
-        "b": "| Temperature (\u00b0C) | \u0394\u03c1/\u03c1\u2080 |\n|---|---|\n| 25  | 0.00 |\n| 50  | ~0.002 |\n| 75  | ~0.004 |\n| 100 | ~0.006 |\n| 125 | ~0.009 |"
+      "a": "| Temperature (\u00b0C) | Resistivity (\u00b5\u03a9\u00b7cm) |\n| --- | --- |\n| 25 | ~560 |\n| 50 | ~650 |\n| 75 | ~750 |\n| 100 | ~880 |\n| 125 | ~1020 |",
+      "b": "| Temperature (\u00b0C) | \u0394\u03c1/\u03c1\u2080 |\n| --- | --- |\n| 25 | 0.00 |\n| 50 | ~0.002 |\n| 75 | ~0.004 |\n| 100 | ~0.006 |\n| 125 | ~0.009 |"
     },
     "vqa": {
         "a": [

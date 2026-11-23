@@ -9,8 +9,8 @@
         "b": "A line chart showing the decrease in AlN thickness at 255\u00b0C during BCl\u2083 static etching with an etch rate of 0.62 \u00c5/cycle."
     },
     "data_extraction": {
-        "a": "| XeF\u2082/BCl\u2083 Cycles | AlN Thickness (\u00c5) |\n|---|---|\n| 0 | 2911 |\n| 10 | 2912 |\n| 20 | 2912 |\n| 30 | 2913 |\n| 40 | 2914 |",
-        "b": "| XeF\u2082/BCl\u2083 Cycles | AlN Thickness (\u00c5) |\n|---|---|\n| 0 | - |\n| 100 | 2850 |\n| 200 | 2810 |\n| 300 | - |"
+      "a": "| XeF\u2082/BCl\u2083 Cycles | AlN Thickness (\u00c5) |\n| --- | --- |\n| 0 | 2911 |\n| 10 | 2912 |\n| 20 | 2912 |\n| 30 | 2913 |\n| 40 | 2914 |",
+      "b": "| XeF\u2082/BCl\u2083 Cycles | AlN Thickness (\u00c5) |\n| --- | --- |\n| 0 | - |\n| 100 | 2850 |\n| 200 | 2810 |\n| 300 | - |"
     },
     "vqa": {
         "a": [

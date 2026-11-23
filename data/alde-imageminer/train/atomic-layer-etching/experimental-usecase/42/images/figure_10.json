@@ -7,7 +7,7 @@
         "a": "Etch rate versus temperature is plotted for Al2O3 using TMA, DMAC, Sn(acac)2"
     },
     "data_extraction": {
-        "a": "| Temperature (\u00b0C) | Sn(acac)\u2082 Etch Rate (\u00c5/cycle) | DMAC Etch Rate (\u00c5/cycle) | TMA Etch Rate (\u00c5/cycle) |\n|------------------|--------------------------------|---------------------------|--------------------------|\n| 150              | 0.15                          | \u2014                         | \u2014                        |\n| 175              | 0.20                          | \u2014                         | \u2014                        |\n| 200              | 0.28                          | \u2014                         | \u2014                        |\n| 225              | 0.40                          | 0.10                     | \u2014                        |\n| 250              | 0.50                          | 0.35                     | 0.15                    |\n| 275              | \u2014                              | 0.50                     | 0.30                    |\n| 300              | \u2014                              | 0.65                     | 0.45                    |\n| 325              | \u2014                              | \u2014                         | 0.65                    |"
+      "a": "| Temperature (\u00b0C) | Sn(acac)\u2082 Etch Rate (\u00c5/cycle) | DMAC Etch Rate (\u00c5/cycle) | TMA Etch Rate (\u00c5/cycle) |\n| --- | --- | --- | --- |\n| 150 | 0.15 | \u2014 | \u2014 |\n| 175 | 0.20 | \u2014 | \u2014 |\n| 200 | 0.28 | \u2014 | \u2014 |\n| 225 | 0.40 | 0.10 | \u2014 |\n| 250 | 0.50 | 0.35 | 0.15 |\n| 275 | \u2014 | 0.50 | 0.30 |\n| 300 | \u2014 | 0.65 | 0.45 |\n| 325 | \u2014 | \u2014 | 0.65 |"
     },
     "vqa": {
         "a": [

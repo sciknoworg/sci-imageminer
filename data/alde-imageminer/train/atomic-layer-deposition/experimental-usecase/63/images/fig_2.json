@@ -9,8 +9,8 @@
         "b": "High resolution XPS O 1s spectrum for the same film, with the O 1s peak centered near 532.3 eV."
     },
     "data_extraction": {
-        "a": "| Binding Energy (eV) | Ga 3d #1 (Intensity a.u.) | Ga 3d #2 (Intensity a.u.) |\n|---|---|---|\n| 28 | 5 | 10 |\n| 27 | 5 | 15 |\n| 26 | 5 | 30 |\n| 25 | 5 | 35 |\n| 24 | 5 | 30 |\n| 23 | 10 | 15 |\n| 22 | 50 | 10 |\n| 21.2 | 100 | 5 |\n| 21 | 95 | 5 |\n| 20 | 40 | 5 |\n| 19 | 10 | 5 |\n| 18 | 5 | 5 |\n| 17 | 5 | 5 |",
-        "b": "| Binding Energy (eV) | Intensity (a.u.) |\n|---|---|\n| 536 | 2 |\n| 535 | 5 |\n| 534 | 20 |\n| 533 | 70 |\n| 532.3 | 100 |\n| 532 | 90 |\n| 531 | 40 |\n| 530 | 10 |\n| 529 | 5 |\n| 528 | 2 |"
+      "a": "| Binding Energy (eV) | Ga 3d #1 (Intensity a.u.) | Ga 3d #2 (Intensity a.u.) |\n| --- | --- | --- |\n| 28 | 5 | 10 |\n| 27 | 5 | 15 |\n| 26 | 5 | 30 |\n| 25 | 5 | 35 |\n| 24 | 5 | 30 |\n| 23 | 10 | 15 |\n| 22 | 50 | 10 |\n| 21.2 | 100 | 5 |\n| 21 | 95 | 5 |\n| 20 | 40 | 5 |\n| 19 | 10 | 5 |\n| 18 | 5 | 5 |\n| 17 | 5 | 5 |",
+      "b": "| Binding Energy (eV) | Intensity (a.u.) |\n| --- | --- |\n| 536 | 2 |\n| 535 | 5 |\n| 534 | 20 |\n| 533 | 70 |\n| 532.3 | 100 |\n| 532 | 90 |\n| 531 | 40 |\n| 530 | 10 |\n| 529 | 5 |\n| 528 | 2 |"
     },
     "vqa": {
         "a": [

@@ -9,8 +9,8 @@
         "b": "Bottom schematic showing the chemisorption mechanism of Pt(acac)\u2082 on graphene surfaces, indicating lower reactivity and less favorable binding on pristine and functionalized graphene, including graphene oxide. The schematic highlights how ligand type and surface functionality limit chemisorption and affect ALD film growth."
     },
     "data_extraction": {
-        "a": "|Description|\n|-----------|\n| Schematic overview of the most feasible chemisorption mechanisms for MeCpPtMe\u2083 on bare and functionalized graphene surfaces, highlighting the dependence on surface groups and ligands. Demonstrates enhanced reactivity of graphene oxide towards MeCpPtMe\u2083, facilitating uniform ALD nucleation. |",
-        "b": "|Description|\n|-----------|\n| Schematic overview of the most feasible chemisorption mechanisms for Pt(acac)\u2082 on bare and functionalized graphene surfaces, showing lower reactivity compared to MeCpPtMe\u2083 and the impact of surface decoration on chemisorption efficiency. |"
+      "a": "| Description |\n| --- |\n| Schematic overview of the most feasible chemisorption mechanisms for MeCpPtMe\u2083 on bare and functionalized graphene surfaces, highlighting the dependence on surface groups and ligands. Demonstrates enhanced reactivity of graphene oxide towards MeCpPtMe\u2083, facilitating uniform ALD nucleation. |",
+      "b": "| Description |\n| --- |\n| Schematic overview of the most feasible chemisorption mechanisms for Pt(acac)\u2082 on bare and functionalized graphene surfaces, showing lower reactivity compared to MeCpPtMe\u2083 and the impact of surface decoration on chemisorption efficiency. |"
     },
     "vqa": {
         "a": [

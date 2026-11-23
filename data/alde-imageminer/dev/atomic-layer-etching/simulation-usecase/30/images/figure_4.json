@@ -7,7 +7,7 @@
         "a": "The chart shows the etch per cycle at different CCl\u2084 pulse times. The NbF5 and nitrogen pulse times were set to 3 and 6 seconds respectively. The temperature was fixed at 460 \u00b0C."
     },
     "data_extraction": {
-        "a": "| CCl\u2084 pulse time [s] | etch per cycle [\u00c5/Cycle] |\n|---|---|\n| 0.5 | 1.1 |\n| 1.5 | 1.05 |\n|1.75 | 1.0 |\n| 3.0 | 1.43 |"
+      "a": "| CCl\u2084 pulse time [s] | etch per cycle [\u00c5/Cycle] |\n| --- | --- |\n| 0.5 | 1.1 |\n| 1.5 | 1.05 |\n| 1.75 | 1.0 |\n| 3.0 | 1.43 |"
     },
     "vqa": {
         "a": [

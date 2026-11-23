@@ -11,9 +11,9 @@
         "c": "Oxygen bridges (Si\u2013O\u2013Si) on SiO\u2082 clusters, representing bridge sites on the surface. Small clusters were used for simulations, with a larger cluster (Si\u2081\u2082O\u2081\u2084H\u2082\u2084) validating cluster size effects."
     },
     "data_extraction": {
-        "a": "| Surface Functional Group | Cluster Model | Notes |\n|--------------------------|---------------|-------|\n| Isolated \u2013OH groups      | Small cluster | Representative of single hydroxyl sites on SiO\u2082 |",
-        "b": "| Surface Functional Group | Cluster Model | Notes |\n|--------------------------|---------------|-------|\n| Adjacent hydrogen-bonded \u2013OH groups | Small cluster | Representative of \u2013OH groups with hydrogen bonding |",
-        "c": "| Surface Functional Group | Cluster Model | Notes |\n|--------------------------|---------------|-------|\n| Oxygen bridges           | Small cluster | Represents Si\u2013O\u2013Si bridge sites on the surface |"
+      "a": "| Surface Functional Group | Cluster Model | Notes |\n| --- | --- | --- |\n| Isolated \u2013OH groups | Small cluster | Representative of single hydroxyl sites on SiO\u2082 |",
+      "b": "| Surface Functional Group | Cluster Model | Notes |\n| --- | --- | --- |\n| Adjacent hydrogen-bonded \u2013OH groups | Small cluster | Representative of \u2013OH groups with hydrogen bonding |",
+      "c": "| Surface Functional Group | Cluster Model | Notes |\n| --- | --- | --- |\n| Oxygen bridges | Small cluster | Represents Si\u2013O\u2013Si bridge sites on the surface |"
     },
     "vqa": {
         "a": [

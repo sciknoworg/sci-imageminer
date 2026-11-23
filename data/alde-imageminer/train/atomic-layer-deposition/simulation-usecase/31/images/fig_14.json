@@ -9,8 +9,8 @@
         "b": "The heatmap illustrates the flow inside a scientific setup with a central point and surrounding curved lines, representing flow patterns."
     },
     "data_extraction": {
-        "a": "| Left |Right |\n|---|---|\n| 0.00-0.10 |0.10|",
-        "b": ""
+      "a": "| Left | Right |\n| --- | --- |\n| 0.00-0.10 | 0.10 |",
+      "b": ""
     },
     "vqa": {
         "a": [

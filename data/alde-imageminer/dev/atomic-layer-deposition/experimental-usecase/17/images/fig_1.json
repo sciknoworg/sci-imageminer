@@ -7,7 +7,7 @@
         "a": "The schematic represents the thin film deposition process over time. One deposition cycle consisted of four pulses [(CH3)2GaNH2]3 vapor pulse with 100-SCCM Ar carrier gas for 0.1 s, an Ar purge gas pulse for 2 s, an O2 plasma gas pulse for 1 s, and an Ar purge gas pulse for 0.4 s."
     },
     "data_extraction": {
-        "a": "| Time segment | Ga source | Ar purge (1) | O\u2082 plasma | Ar purge (2) |\n|-------------|-----------|--------------|-----------|--------------|\n| t\u2081          | ON        | OFF          | OFF       | OFF          |\n| t\u2082          | OFF       | ON           | OFF       | OFF          |\n| t\u2083          | OFF       | OFF          | ON        | OFF          |\n| t\u2084          | OFF       | ON           | OFF       | OFF          |\n| t\u2085          | ON        | OFF          | OFF       | OFF          |\n| t\u2086          | OFF       | ON           | OFF       | OFF          |\n| t\u2087          | OFF       | OFF          | ON        | OFF          |\n| t\u2088          | OFF       | ON           | OFF       | OFF          |"
+      "a": "| Time segment | Ga source | Ar purge (1) | O\u2082 plasma | Ar purge (2) |\n| --- | --- | --- | --- | --- |\n| t\u2081 | ON | OFF | OFF | OFF |\n| t\u2082 | OFF | ON | OFF | OFF |\n| t\u2083 | OFF | OFF | ON | OFF |\n| t\u2084 | OFF | ON | OFF | OFF |\n| t\u2085 | ON | OFF | OFF | OFF |\n| t\u2086 | OFF | ON | OFF | OFF |\n| t\u2087 | OFF | OFF | ON | OFF |\n| t\u2088 | OFF | ON | OFF | OFF |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "Thermodynamic profile comparing the Gibbs free energy (\u0394G) of three etching mechanisms (CVE1, CVE2, SL) versus temperature. CVE1 and CVE2 remain exergonic (\u0394G < 0) across the entire temperature range. The SL reaction transitions from exergonic to endergonic at 110 K, becoming thermodynamically unfavorable at higher temperatures."
     },
     "data_extraction": {
-        "a": "| Temperature (K) | \u0394G (eV) - SL(Green) | \u0394G (eV) - CVE2 (Blue) | \u0394G (eV)- CVE1 (Red) |\n|-----------------|---------------------|------------------------|-------------------------|\n| 0             | -0.5           | -1.0            | -1.3            |\n| 110           | 0.0            | -1.1            | -1.5            |\n| 200           | 0.5            | -1.1            | -1.6            |\n| 400           | 1.8            | -1.1            | -1.7            |\n| 600           | 3.0            | -1.1            | -1.8            |\n| 800           | 4.2            | -1.2            | -1.9            |\n| 1000          | 5.2            | -1.2            | -2.0            |"
+      "a": "| Temperature (K) | \u0394G (eV) - SL(Green) | \u0394G (eV) - CVE2 (Blue) | \u0394G (eV)- CVE1 (Red) |\n| --- | --- | --- | --- |\n| 0 | -0.5 | -1.0 | -1.3 |\n| 110 | 0.0 | -1.1 | -1.5 |\n| 200 | 0.5 | -1.1 | -1.6 |\n| 400 | 1.8 | -1.1 | -1.7 |\n| 600 | 3.0 | -1.1 | -1.8 |\n| 800 | 4.2 | -1.2 | -1.9 |\n| 1000 | 5.2 | -1.2 | -2.0 |"
     },
     "vqa": {
         "a": [

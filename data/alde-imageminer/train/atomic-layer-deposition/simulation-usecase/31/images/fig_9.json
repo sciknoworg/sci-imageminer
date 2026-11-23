@@ -9,8 +9,8 @@
         "b": "The line charts depict the temporal evolution of normalized concentration (c/c0) at different Reynolds numbers (Re) for four quadrants (Q1, Q2, Q3, Q4)."
     },
     "data_extraction": {
-        "a": "",
-        "b": "|Reynolds number | Graph look|\n|---|---|\n|40|Smooth distribution over time|\n|80|Smooth distribution over time|\n|200| Smooth distribution over time|\n|800|Non-smooth distribution over time|\n|2400|Non-smooth distribution over time|"
+      "a": "",
+      "b": "| Reynolds number | Graph look |\n| --- | --- |\n| 40 | Smooth distribution over time |\n| 80 | Smooth distribution over time |\n| 200 | Smooth distribution over time |\n| 800 | Non-smooth distribution over time |\n| 2400 | Non-smooth distribution over time |"
     },
     "vqa": {
         "a": [

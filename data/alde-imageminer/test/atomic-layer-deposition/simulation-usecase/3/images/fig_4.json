@@ -7,7 +7,7 @@
         "a": "The line chart illustrates the growth per cycle at different temperatures for two experimental conditions and one numerical simulation"
     },
     "data_extraction": {
-        "a": "| Temperature (\u00b0C) | Experimental-8s purging (\u00c5/Cycle) | Experimental-20s purging (\u00c5/Cycle) | Numerical simulation (\u00c5/Cycle) |\n|---|---|---|---|\n| 100 | 1.01 | 1.04 | 1.09 |\n| 150 | 1.06 | 1.14 | 1.19 |\n| 200 | 1.14 | 1.16 | 1.23 |\n| 250 | 1.10 | 1.07 | 1.21 |"
+      "a": "| Temperature (\u00b0C) | Experimental-8s purging (\u00c5/Cycle) | Experimental-20s purging (\u00c5/Cycle) | Numerical simulation (\u00c5/Cycle) |\n| --- | --- | --- | --- |\n| 100 | 1.01 | 1.04 | 1.09 |\n| 150 | 1.06 | 1.14 | 1.19 |\n| 200 | 1.14 | 1.16 | 1.23 |\n| 250 | 1.10 | 1.07 | 1.21 |"
     },
     "vqa": {
         "a": [

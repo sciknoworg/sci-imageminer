@@ -7,7 +7,7 @@
         "a": "The line plot shows the etched thickness of a sample versus the number of Atomic Layer Etching (ALE) cycles at 275\u00b0C. The etch process reveals two distinct regions: an initial slow-etch region attributed to a surface AlO\u2093N\u1d67 layer, and a subsequent faster-etch region attributed to pure AlN."
     },
     "data_extraction": {
-        "a": "| Cycle Number | Thickness (\u00c5) |\n|-------|-------------|\n|   0   |    491      |\n| 100   |    479      |\n| 200   |    472      |\n| 301   |    460      |\n| 400   |    435      |\n| 500   |    400      |\n| 600   |    355      |"
+      "a": "| Cycle Number | Thickness (\u00c5) |\n| --- | --- |\n| 0 | 491 |\n| 100 | 479 |\n| 200 | 472 |\n| 301 | 460 |\n| 400 | 435 |\n| 500 | 400 |\n| 600 | 355 |"
     },
     "vqa": {
         "a": [

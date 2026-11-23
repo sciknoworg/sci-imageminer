@@ -7,7 +7,7 @@
         "a": "The figure presents a scatter plot showing how the etching rate of Al\u2082O\u2083 during CF\u2084 dry etching varies with working pressure. The data reveal a steep decline in etching rate as pressure increases from a high rate at near-zero pressure to almost negligible etching above ~1 Torr indicating strong pressure-dependent suppression of etching efficiency."
     },
     "data_extraction": {
-        "a": "| Working pressure (Torr)|Etching rate (nm/min)|\n|------------------------|---------------------|\n|0.0|4.5|\n|0.2|2.8|\n|0.3|1.1|\n|0.6|0.3|\n|1.0|0.5|\n|1.4|0.2|\n|2.0|0.2|"
+      "a": "| Working pressure (Torr) | Etching rate (nm/min) |\n| --- | --- |\n| 0.0 | 4.5 |\n| 0.2 | 2.8 |\n| 0.3 | 1.1 |\n| 0.6 | 0.3 |\n| 1.0 | 0.5 |\n| 1.4 | 0.2 |\n| 2.0 | 0.2 |"
     },
     "vqa": {
         "a": [

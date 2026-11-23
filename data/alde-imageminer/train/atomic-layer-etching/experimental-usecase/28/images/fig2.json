@@ -11,9 +11,9 @@
         "c": "The chart illustrates the atomic percentage changes of O1 s, Al 2p, F 1s, and C 1s with increasing plasma fluorination time. O, Al and C decrease rapidly and then plateau, F increases rapidly and then plateaus."
     },
     "data_extraction": {
-        "a": "| Depth (nm) | 0W: Intensity (arb.units) | 10W: Intensity (arb.units) | 50W: Intensity (arb.units) | 100W: Intensity (arb.units) |\n|---|---|---|---|---|\n| 0 | 2 | 65 | 63 | 66 |\n| 1 | 2|  43| 52 | 60 |\n| 2 | 2 | 15 | 15 | 20 |\n| 3 | 2 | 8 | 10 | 11 |\n| 4 | 2 | 6 | 8 | 7 |",
-        "b": "| Measurement | Peak: Intensity (arb.units) | Peak: Binding energy [eV]  | \n|---|---|---|\n| Reference | 2.15 | 685 | \n| 5s |  29 | 686.1 | \n| 20s| 38 | 686.4 | \n| 50s| 42 | 686.4 | \n| 60s| 42 | 686.4 |",
-        "c": "| Plasma fluorination time (s) | Atomic % O 1s | Atomic % Al 2p | Atomic % F 1s | Atomic % C 1s |\n|---|---|---|---|---|\n| 0 | 52.1% | 28.8% | 0% | 18.5% |\n| 5 | 42% | 27.9% | 21.2% | 9% |\n| 20 | 38.7% | 27% | 21.8% | 10.8% |\n| 50 | 37.5% | 27.9% | 24.9% | 8.6% |\n| 60 | 38.4% | 27.9% | 25.3% | 8.1% |"
+      "a": "| Depth (nm) | 0W: Intensity (arb.units) | 10W: Intensity (arb.units) | 50W: Intensity (arb.units) | 100W: Intensity (arb.units) |\n| --- | --- | --- | --- | --- |\n| 0 | 2 | 65 | 63 | 66 |\n| 1 | 2 | 43 | 52 | 60 |\n| 2 | 2 | 15 | 15 | 20 |\n| 3 | 2 | 8 | 10 | 11 |\n| 4 | 2 | 6 | 8 | 7 |",
+      "b": "| Measurement | Peak: Intensity (arb.units) | Peak: Binding energy [eV] |\n| --- | --- | --- |\n| Reference | 2.15 | 685 |\n| 5s | 29 | 686.1 |\n| 20s | 38 | 686.4 |\n| 50s | 42 | 686.4 |\n| 60s | 42 | 686.4 |",
+      "c": "| Plasma fluorination time (s) | Atomic % O 1s | Atomic % Al 2p | Atomic % F 1s | Atomic % C 1s |\n| --- | --- | --- | --- | --- |\n| 0 | 52.1% | 28.8% | 0% | 18.5% |\n| 5 | 42% | 27.9% | 21.2% | 9% |\n| 20 | 38.7% | 27% | 21.8% | 10.8% |\n| 50 | 37.5% | 27.9% | 24.9% | 8.6% |\n| 60 | 38.4% | 27.9% | 25.3% | 8.1% |"
     },
     "vqa": {
         "a": [

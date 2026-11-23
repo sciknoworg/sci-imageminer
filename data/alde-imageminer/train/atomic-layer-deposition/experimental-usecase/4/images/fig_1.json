@@ -7,7 +7,7 @@
         "a": "The chart shows the growth rate and refractive index at 580 nm of HfO\u2082 deposited on borosilicate glass as a function of Hf[N(CH\u2083)(C\u2082H\u2085)\u2084] pulse length at a growth temperature of 250 \u00b0C."
     },
     "data_extraction": {
-        "a": "| Hf[N(CH3)(C2H5)]4 PULSE LENGTH, s | GROWTH RATE, nm/cycle | REFRACTIVE INDEX AT 580 nm |\n|---|---|---|\n| 0.2 | 0.08 | 2.08 |\n| 0.4 | 0.09 | 2.09 |\n| 0.6 | 0.09 | 2.09|\n| 0.8 | 0.09 | 2.09 |\n| 1.0 | 0.09 | 2.08 |"
+      "a": "| Hf[N(CH3)(C2H5)]4 PULSE LENGTH, s | GROWTH RATE, nm/cycle | REFRACTIVE INDEX AT 580 nm |\n| --- | --- | --- |\n| 0.2 | 0.08 | 2.08 |\n| 0.4 | 0.09 | 2.09 |\n| 0.6 | 0.09 | 2.09 |\n| 0.8 | 0.09 | 2.09 |\n| 1.0 | 0.09 | 2.08 |"
     },
     "vqa": {
         "a": [

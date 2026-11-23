@@ -7,7 +7,7 @@
         "a": "This figure plots the evolution of various nitrogen-containing surface species as a function of HF dose, measured in molecules per square nanometer (N\u1d62, nm\u207b\u00b2). The total nitrogen concentration (N) initially drops with HF exposure, suggesting removal or conversion, but then stabilizes around 30 nm\u207b\u00b2. NH\u2080 (neutral nitrogen) shows a slight decline, while NH\u2081 and NH\u2082 exhibit clear increasing trends. This suggests that as HF dose increases, nitrogen becomes increasingly hydrogenated, forming amine-like species. The saturation of NH\u2081 and NH\u2082 levels beyond ~100 HF/nm\u00b2 implies a steady-state surface composition. The figure highlights the chemical evolution of surface-bound nitrogen species during HF exposure."
     },
     "data_extraction": {
-        "a": "| Dose (HF/nm\u00b2) | N (nm\u207b\u00b2) | NH\u2080 (nm\u207b\u00b2) | NH\u2081 (nm\u207b\u00b2) | NH\u2082 (nm\u207b\u00b2) |\n|---------------|-----------|-------------|-------------|-------------|\n| 0             | 35        | 10          | 0           | 0           |\n| 50            | 30        | 8           | 5           | 2           |\n| 100           | 28        | 7           | 7           | 3           |\n| 150           | 30        | 7           | 9           | 4           |\n| 200           | 32        | 8           | 9           | 5           |"
+      "a": "| Dose (HF/nm\u00b2) | N (nm-\u00b2) | NH\u2080 (nm-\u00b2) | NH\u2081 (nm-\u00b2) | NH\u2082 (nm-\u00b2) |\n| --- | --- | --- | --- | --- |\n| 0 | 35 | 10 | 0 | 0 |\n| 50 | 30 | 8 | 5 | 2 |\n| 100 | 28 | 7 | 7 | 3 |\n| 150 | 30 | 7 | 9 | 4 |\n| 200 | 32 | 8 | 9 | 5 |"
     },
     "vqa": {
         "a": [

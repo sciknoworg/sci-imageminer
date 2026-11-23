@@ -13,10 +13,10 @@
         "d": "PSD of the AFM height maps before and after ALE, showing lower PSD intensity after ALE across the measured spatial frequency range."
     },
     "data_extraction": {
-        "a": "| Property | Value (nm) |\n|----------|------------|\n| Rq (Roughness) | 0.82 \u00b1 0.25 |",
-        "b": "| Property | Value (nm) | \n|----------|------------| \n| Rq (Roughness) | 0.55 \u00b1 0.13 |",
-        "c": "| Position (nm) | Height (Before ALE) | Height (After ALE) | \n|---------------|---------------------|--------------------|\n| 0   | ~320 | ~300 |\n| 200 | ~320 | ~300 |\n| 370 | ~320 | ~150 |\n| 500 | ~0   | ~0   |\n| 750 | ~0   | ~0   |",
-        "d": "| Spatial Frequency (nm\u207b\u00b9) | PSD (Before ALE) | PSD  (After ALE) | \n|-----------------------|--------------------|------------------|\n| 0.0 | ~10\u00b3 | ~10\u00b2 |\n| 0.1 | ~10\u2070 | ~10\u2070 |\n| 0.2 | ~5\u00d710\u207b\u00b9 | ~1\u00d710\u207b\u00b9 |\n| 0.3 | ~5\u00d710\u207b\u00b2 | ~1\u00d710\u207b\u00b2 |\n| 0.4 | ~1\u00d710\u207b\u00b2 | ~8\u00d710\u207b\u00b3 |\n| 0.5 | ~1\u00d710\u207b\u00b2 | ~8\u00d710\u207b\u00b3 |"
+      "a": "| Property | Value (nm) |\n| --- | --- |\n| Rq (Roughness) | 0.82 \u00b1 0.25 |",
+      "b": "| Property | Value (nm) |\n| --- | --- |\n| Rq (Roughness) | 0.55 \u00b1 0.13 |",
+      "c": "| Position (nm) | Height (Before ALE) | Height (After ALE) |\n| --- | --- | --- |\n| 0 | ~320 | ~300 |\n| 200 | ~320 | ~300 |\n| 370 | ~320 | ~150 |\n| 500 | ~0 | ~0 |\n| 750 | ~0 | ~0 |",
+      "d": "| Spatial Frequency (nm-\u00b9) | PSD (Before ALE) | PSD  (After ALE) |\n| --- | --- | --- |\n| 0.0 | ~10\u00b3 | ~10\u00b2 |\n| 0.1 | ~10\u2070 | ~10\u2070 |\n| 0.2 | ~5\u00d710-\u00b9 | ~1\u00d710-\u00b9 |\n| 0.3 | ~5\u00d710-\u00b2 | ~1\u00d710-\u00b2 |\n| 0.4 | ~1\u00d710-\u00b2 | ~8\u00d710-\u00b3 |\n| 0.5 | ~1\u00d710-\u00b2 | ~8\u00d710-\u00b3 |"
     },
     "vqa": {
         "a": [

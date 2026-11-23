@@ -7,7 +7,7 @@
         "a": "The line chart shows the relationship between the exposure of WF\u2086 and film thickness at 3 AB cycles and a temperature of 600 K."
     },
     "data_extraction": {
-        "a": "| WF\u2086 Exposure (L) | Film Thickness (\u00c5) |\n|---|---|\n| 0 | 0 |\n| 1000 | 1 |\n| 2000 | 2 |\n| 3000 | 3 |\n| 6000 | 8 |\n| 12000 | 8 |"
+      "a": "| WF\u2086 Exposure (L) | Film Thickness (\u00c5) |\n| --- | --- |\n| 0 | 0 |\n| 1000 | 1 |\n| 2000 | 2 |\n| 3000 | 3 |\n| 6000 | 8 |\n| 12000 | 8 |"
     },
     "vqa": {
         "a": [

@@ -9,8 +9,8 @@
         "b": "HOMO orbitals at the product-like adsorption equilibrium, showing formation of the I\u2082 molecule, lengthened Ti\u2212I bonds, and stabilization through enhanced overlap between I p orbitals and Ti sd orbitals."
     },
     "data_extraction": {
-        "a": "|Orbital Feature|Description|\n|---------------|-----------|\n|Transition State|Ti1\u2212Ti2 bonding interaction observed due to sd orbital overlap; Ti1\u2212I2 bond 3.14 \u00c5; Ti2\u2212I4 bond 2.80 \u00c5; Ti coordination geometry changes from tetrahedral to trigonal bipyramidal.|",
-        "b": "|Orbital Feature|Description|\n|---------------|-----------|\n|Product-like Adsorption Equilibrium|I2 and I4 form I2 molecule; all Ti\u2212I bonds longer than in reactant due to Ti rehybridization; structure stabilized by increased overlap between I p orbitals and Ti sd orbitals.|"
+      "a": "| Orbital Feature | Description |\n| --- | --- |\n| Transition State | Ti1-Ti2 bonding interaction observed due to sd orbital overlap; Ti1-I2 bond 3.14 \u00c5; Ti2-I4 bond 2.80 \u00c5; Ti coordination geometry changes from tetrahedral to trigonal bipyramidal. |",
+      "b": "| Orbital Feature | Description |\n| --- | --- |\n| Product-like Adsorption Equilibrium | I2 and I4 form I2 molecule; all Ti-I bonds longer than in reactant due to Ti rehybridization; structure stabilized by increased overlap between I p orbitals and Ti sd orbitals. |"
     },
     "vqa": {
         "a": [

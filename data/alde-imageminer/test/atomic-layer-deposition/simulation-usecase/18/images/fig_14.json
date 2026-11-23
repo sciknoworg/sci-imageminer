@@ -7,7 +7,7 @@
         "a": "This line chart represents shows a positive linear relationship between the V/III precursor ratio and the GaN growth rate at 1273 K in a specific reactor configuration. Higher ammonia (V) flow relative to the gallium (III) precursor leads to a faster growth rate."
     },
     "data_extraction": {
-        "a": "| V/III | Growth Rate (\u00b5m/hr) |\n|---|---|\n| 500 | 1.4 |\n| 1000 | 1.48 |\n| 1500 | 1.56 |\n| 2000 | 1.63 |"
+      "a": "| V/III | Growth Rate (\u00b5m/hr) |\n| --- | --- |\n| 500 | 1.4 |\n| 1000 | 1.48 |\n| 1500 | 1.56 |\n| 2000 | 1.63 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The figure shows mass spectra recorded at 150 \u00b0C during spontaneous etching of B2O3 by HF, comparing the first and fifth HF exposures. During the first HF exposure, intense peaks corresponding to fluorinated boron oxide and boroxine-related ions are observed, while these signals are strongly suppressed after the fifth HF exposure, consistent with progressive depletion of readily volatilizable reaction products."
     },
     "data_extraction": {
-        "a": "| m/z range | Assigned ion | Relative intensity | HF exposure |\n|-----------|--------------|--------------------|-------------|\n| ~78\u201380    | B2F3\u207a / B2F2(OH)\u207a     | High         |   1st HF  |\n| ~90\u201395    | B2OF3\u207a / B2OF2(OH)\u207a   | Moderate     |   1st HF  |\n| ~115\u2013120  | B3O3F2\u207a / B3O3F(OH)\u207a  | Low\u2013moderate |   1st HF  |\n| ~135\u2013140  | B3O3F3\u207a / B3O3F2(OH)\u207a | Low          |   1st HF  |\n| 70\u2013140    |     -                | Near zero    |   5th HF  |"
+      "a": "| m/z range | Assigned ion | Relative intensity | HF exposure |\n| --- | --- | --- | --- |\n| ~78\u201380 | B2F3\u207a / B2F2(OH)\u207a | High | 1st HF |\n| ~90\u201395 | B2OF3\u207a / B2OF2(OH)\u207a | Moderate | 1st HF |\n| ~115\u2013120 | B3O3F2\u207a / B3O3F(OH)\u207a | Low\u2013moderate | 1st HF |\n| ~135\u2013140 | B3O3F3\u207a / B3O3F2(OH)\u207a | Low | 1st HF |\n| 70\u2013140 | - | Near zero | 5th HF |"
     },
     "vqa": {
         "a": [

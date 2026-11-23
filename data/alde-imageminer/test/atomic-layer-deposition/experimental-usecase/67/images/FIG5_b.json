@@ -7,7 +7,7 @@
         "b": "The figure presents Growth Per Cycle (GPC) measurements as a function of the O\u2082:Ar flow ratio for both in-situ and ex-situ growth rate (GR) methods. Data points for both measurement types show nearly identical values across all tested flow ratios, indicating a high level of agreement between the two methods. Moreover, the GPC remains steady at approximately 0.06 nm/cycle, suggesting that variations in O\u2082:Ar ratio within the tested range have minimal effect on the deposition rate."
     },
     "data_extraction": {
-        "b": "| O\u2082:Ar Flow Ratio | In-situ GR (nm/cy) | Ex-situ GR (nm/cy) |\n|------------------|--------------------|---------------------|\n| 0.05             | 0.062              | 0.063               |\n| 0.10             | 0.060              | 0.061               |\n| 0.30             | 0.057              | 0.058               |\n| 0.50             | 0.054              | 0.055               |"
+      "b": "| O\u2082:Ar Flow Ratio | In-situ GR (nm/cy) | Ex-situ GR (nm/cy) |\n| --- | --- | --- |\n| 0.05 | 0.062 | 0.063 |\n| 0.10 | 0.060 | 0.061 |\n| 0.30 | 0.057 | 0.058 |\n| 0.50 | 0.054 | 0.055 |"
     },
     "vqa": {
         "b": [

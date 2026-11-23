@@ -7,7 +7,7 @@
         "a": "The heatmap shows how the mapped value varies with TMA flow rate and HF flow rate. Values increase strongly with increasing TMA flow rate, while variation across HF flow rate is relatively small. This indicates that TMA flow rate is the dominant parameter influencing the pattern."
     },
     "data_extraction": {
-        "a": "| HF flow rate (sccm) | TMA flow rate (sccm) | Relative value |\n|--------------------|---------------------|----------------|\n| 20                 | 20                  | Low            |\n| 60                 | 20                  | Low            |\n| 100                | 20                  | Low            |\n| 20                 | 60                  | Medium         |\n| 60                 | 60                  | Medium         |\n| 100                | 60                  | Medium         |\n| 20                 | 90                  | High           |\n| 60                 | 90                  | High           |\n| 100                | 90                  | High           |"
+      "a": "| HF flow rate (sccm) | TMA flow rate (sccm) | Relative value |\n| --- | --- | --- |\n| 20 | 20 | Low |\n| 60 | 20 | Low |\n| 100 | 20 | Low |\n| 20 | 60 | Medium |\n| 60 | 60 | Medium |\n| 100 | 60 | Medium |\n| 20 | 90 | High |\n| 60 | 90 | High |\n| 100 | 90 | High |"
     },
     "vqa": {
         "a": [

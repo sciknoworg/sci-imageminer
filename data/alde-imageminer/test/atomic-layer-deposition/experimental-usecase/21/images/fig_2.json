@@ -9,8 +9,8 @@
         "b": "Saturation curves for  plasma-assisted ALD of Li2CO3. The line chart shows the growth per cycle (\u00c5) as a function of LiO'Bu dose and plasma duration."
     },
     "data_extraction": {
-        "a": "| Parameter        | Growth per Cycle (\u00c5) |\n|-------------------|-----------------------|\n| LiO'Bu dose (s)   | 0.6                  |\n| H\u2082O dose (ms)     | 0.6                  |\n| CO\u2082 dose (s)      | 0.6                  |",
-        "b": "| Parameter          | Growth per Cycle (\u00c5) |\n|---------------------|-----------------------|\n| LiO'Bu dose (s)     | 0.8                  |\n| Plasma duration (s) | 0.8                  |"
+      "a": "| Parameter | Growth per Cycle (\u00c5) |\n| --- | --- |\n| LiO'Bu dose (s) | 0.6 |\n| H\u2082O dose (ms) | 0.6 |\n| CO\u2082 dose (s) | 0.6 |",
+      "b": "| Parameter | Growth per Cycle (\u00c5) |\n| --- | --- |\n| LiO'Bu dose (s) | 0.8 |\n| Plasma duration (s) | 0.8 |"
     },
     "vqa": {
         "a": [

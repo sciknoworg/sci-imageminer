@@ -9,8 +9,8 @@
         "b": "SEM Microscopy images of samples deposited at different temperatures demonstrating selectivity"
     },
     "data_extraction": {
-        "a": "| Deposition temperature (\u00b0C) | Selectivity |\n|---|---|\n| 100 | 0.82 |\n| 150 | 0.96 |\n| 200 | 0.99 |\n| 250 | 1.00 |",
-        "b": "| 100 \u00b0C | 150 \u00b0C | 250 \u00b0C |\n|---|---|---|\n| ![](100\u00b0C_image.png) | ![](150\u00b0C_image.png) | ![](250\u00b0C_image.png) |"
+      "a": "| Deposition temperature (\u00b0C) | Selectivity |\n| --- | --- |\n| 100 | 0.82 |\n| 150 | 0.96 |\n| 200 | 0.99 |\n| 250 | 1.00 |",
+      "b": "| 100 \u00b0C | 150 \u00b0C | 250 \u00b0C |\n| --- | --- | --- |\n| ![](100\u00b0C_image.png) | ![](150\u00b0C_image.png) | ![](250\u00b0C_image.png) |"
     },
     "vqa": {
         "b": [

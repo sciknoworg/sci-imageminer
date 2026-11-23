@@ -7,7 +7,7 @@
         "a": "XPS-derived atomic composition of a TiN surface tracked through a full thermal ALE cycle. Oxidation strongly increases surface oxygen (~40 at.%), indicating formation of an oxide layer. Fluorination introduces fluorine (~13 at.%) while reducing oxygen, consistent with formation of a fluorinated surface layer. The final thermal removal step nearly eliminates fluorine (~1 at.%) and restores a TiN-like surface composition with recovered Ti and N fractions."
     },
     "data_extraction": {
-        "a": "| Process step        | Ti (%) | N (%) | O (%) | F (%) | C (%) |\n|---------------------|--------|-------|-------|-------|-------|\n| Reference (TiN)     | ~33    | ~32   | ~19   | ~0    | ~17   |\n| Oxidation           | ~27    | ~18   | ~40   | ~0    | ~15   |\n| Fluorination        | ~27    | ~19   | ~20   | ~13   | ~20   |\n| Removal             | ~34    | ~34   | ~19   | ~1    | ~12   |"
+      "a": "| Process step | Ti (%) | N (%) | O (%) | F (%) | C (%) |\n| --- | --- | --- | --- | --- | --- |\n| Reference (TiN) | ~33 | ~32 | ~19 | ~0 | ~17 |\n| Oxidation | ~27 | ~18 | ~40 | ~0 | ~15 |\n| Fluorination | ~27 | ~19 | ~20 | ~13 | ~20 |\n| Removal | ~34 | ~34 | ~19 | ~1 | ~12 |"
     },
     "vqa": {
         "a": [

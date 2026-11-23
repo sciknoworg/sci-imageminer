@@ -13,10 +13,10 @@
         "d": "Scatter plot for the power conversion efficiency (\u03b7) showing the performance of the 10 nm and 20 nm MoO layers, and the three different plasma exposures, including their mean values with standard deviation."
     },
     "data_extraction": {
-        "a": "| Sample | 10 nm mean | 10 nm best | 20 nm mean | 20 nm best |\n|---|---|---|---|---|\n| 2 second O2 | 30.1 | 30.3 | 28.6 | 28.8 | \n| 2 second O2 & Ar | 30.2 | 30.6 | 29.3 | 29.5 |\n| 1 second O2 | 30.7 | 30.6 | 28.5 | 28.8 |",
-        "b": "| Sample | 10 nm mean | 10 nm best | 20 nm mean | 20 nm best |\n|---|---|---|---|---|\n| 2 second O2 | 630 | 640 | 600 | 620 | \n| 2 second O2 & Ar | 620 | 630 | 640 | 650 |\n| 1 second O2 | 575 | 570 | 560 | 565 |",
-        "c": "| Sample | 10 nm mean | 10 nm best | 20 nm mean | 20 nm best |\n|---|---|---|---|---|\n| 2 second O2 | 53 | 55 | 50 | 51 | \n| 2 second O2 & Ar | 51 | 54 | 51 | 55 |\n| 1 second O2 | 40 | 41 | 35 | 37 |",
-        "d": "| Sample | 10 nm mean | 10 nm best | 20 nm mean | 20 nm best |\n|---|---|---|---|---|\n| 2 second O2 | 10 | 10.5 | 8.5 | 9 | \n| 2 second O2 & Ar | 9.5 | 10 | 9.5 | 10 |\n| 1 second O2 | 7 | 7 | 5.5 | 6 |"
+      "a": "| Sample | 10 nm mean | 10 nm best | 20 nm mean | 20 nm best |\n| --- | --- | --- | --- | --- |\n| 2 second O2 | 30.1 | 30.3 | 28.6 | 28.8 |\n| 2 second O2 & Ar | 30.2 | 30.6 | 29.3 | 29.5 |\n| 1 second O2 | 30.7 | 30.6 | 28.5 | 28.8 |",
+      "b": "| Sample | 10 nm mean | 10 nm best | 20 nm mean | 20 nm best |\n| --- | --- | --- | --- | --- |\n| 2 second O2 | 630 | 640 | 600 | 620 |\n| 2 second O2 & Ar | 620 | 630 | 640 | 650 |\n| 1 second O2 | 575 | 570 | 560 | 565 |",
+      "c": "| Sample | 10 nm mean | 10 nm best | 20 nm mean | 20 nm best |\n| --- | --- | --- | --- | --- |\n| 2 second O2 | 53 | 55 | 50 | 51 |\n| 2 second O2 & Ar | 51 | 54 | 51 | 55 |\n| 1 second O2 | 40 | 41 | 35 | 37 |",
+      "d": "| Sample | 10 nm mean | 10 nm best | 20 nm mean | 20 nm best |\n| --- | --- | --- | --- | --- |\n| 2 second O2 | 10 | 10.5 | 8.5 | 9 |\n| 2 second O2 & Ar | 9.5 | 10 | 9.5 | 10 |\n| 1 second O2 | 7 | 7 | 5.5 | 6 |"
     },
     "vqa": {
         "a": [

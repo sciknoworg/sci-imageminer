@@ -7,7 +7,7 @@
         "a": "The figure compares thickness and RMS roughness of Al\u2082O\u2083 across four processing steps\u2014initial deposition, dry etching, and two pALE cycle conditions. Thickness continuously decreases from ~60 nm to ~10 nm, while roughness first increases after dry etching and then decreases again with pALE, as confirmed by both plotted values and AFM images."
     },
     "data_extraction": {
-        "a": "| Process Condition|Thickness (nm)|RMS Roughness (nm)|\n|------------------|--------------|------------------|\n|as-deposited|55\u201360|0.8\u20131.0|\n|50 W \u2013 5 min|~40|1.3\u20131.4|\n|50 cycles pALE|~25|~1.0|\n|100 cycles pALE|~10\u201312|0.7\u20130.8|"
+      "a": "| Process Condition | Thickness (nm) | RMS Roughness (nm) |\n| --- | --- | --- |\n| as-deposited | 55\u201360 | 0.8\u20131.0 |\n| 50 W \u2013 5 min | ~40 | 1.3\u20131.4 |\n| 50 cycles pALE | ~25 | ~1.0 |\n| 100 cycles pALE | ~10\u201312 | 0.7\u20130.8 |"
     },
     "vqa": {
         "a": [

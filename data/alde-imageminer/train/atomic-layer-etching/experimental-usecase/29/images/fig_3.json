@@ -7,7 +7,7 @@
         "a": "The line chart shows the relationship between etch depth and RMS roughness variation for different treatments, including RIE, ALE with Cl2 gas or Cl2 plasma, with the reference after BT."
     },
     "data_extraction": {
-        "a": "| Etch Depth (nm) | RMS Roughness Variation (nm) RIE |RMS Roughness Variation (nm) Cl2 gas |RMS Roughness Variation (nm) Cl2 plasma |\n|---|---|---|---|\n| 0 | 0 |0 | 0 |\n| 3 | 0.05|0.01|0|\n| 5 | 0.15 |0.05|0|\n| 7 | 0.2|0.05|0|\n| 10 | - |-|-0.01|\n| 15 | - |-|-|"
+      "a": "| Etch Depth (nm) | RMS Roughness Variation (nm) RIE | RMS Roughness Variation (nm) Cl2 gas | RMS Roughness Variation (nm) Cl2 plasma |\n| --- | --- | --- | --- |\n| 0 | 0 | 0 | 0 |\n| 3 | 0.05 | 0.01 | 0 |\n| 5 | 0.15 | 0.05 | 0 |\n| 7 | 0.2 | 0.05 | 0 |\n| 10 | - | - | -0.01 |\n| 15 | - | - | - |"
     },
     "vqa": {
         "a": [

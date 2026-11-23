@@ -9,8 +9,8 @@
         "b": "First-principles (FP) computed energetics as a function of C\u2013C distance, R, along with the optimized C\u2013H bond lengths (excluding the z-oriented H1\u2013C bond). The plot illustrates how steric strain affects both the energy and C\u2013H bond distances at different CH3 surface coverages."
     },
     "data_extraction": {
-        "a": "| Model | Description |\n|---|---|\n| Close-packed CH\u2084 | H1\u2013C constrained along z, representing the surface Al\u2013CH\u2083 bond |",
-        "b": "| R<sub>C\u2013C</sub> (\u00c5) | \u0394E (eV) | Optimized C\u2013H (\u00c5) |\n|---|---|---|\n| 2.5 | 5.0 | 1.10 |\n| 3.0 | 4.5 | 1.09 |\n| 3.5 | 4.0 | 1.08 |\n| 4.0 | 3.0 | 1.07 |\n| 4.5 | 2.0 | 1.06 |\n| 5.0 | 1.5 | 1.05 |\n| 5.5 | 1.0 | 1.04 |"
+      "a": "| Model | Description |\n| --- | --- |\n| Close-packed CH\u2084 | H1\u2013C constrained along z, representing the surface Al\u2013CH\u2083 bond |",
+      "b": "| R<sub>C\u2013C</sub> (\u00c5) | \u0394E (eV) | Optimized C\u2013H (\u00c5) |\n| --- | --- | --- |\n| 2.5 | 5.0 | 1.10 |\n| 3.0 | 4.5 | 1.09 |\n| 3.5 | 4.0 | 1.08 |\n| 4.0 | 3.0 | 1.07 |\n| 4.5 | 2.0 | 1.06 |\n| 5.0 | 1.5 | 1.05 |\n| 5.5 | 1.0 | 1.04 |"
     },
     "vqa": {
         "a": [

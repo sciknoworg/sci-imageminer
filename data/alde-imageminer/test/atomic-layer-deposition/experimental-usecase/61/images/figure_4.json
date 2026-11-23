@@ -9,7 +9,7 @@
         "a": "This figure presents a comparison of ion current signals at specific mass-to-charge ratios (m/z) for three types of processes used in cobalt deposition: AB-NH\u2083, AB-H\u2082/N\u2082, and ABC-N\u2082-H\u2082. Each subfigure shows the evolution of key ions such as NH\u2083\u207a (m/z = 17), HCN\u207a (m/z = 27), and larger hydrocarbon fragments (e.g., m/z = 39, 52, 66) during plasma exposure and precursor pulsing. Signals are compared between conditions with and without the cobalt precursor (CoCp\u2082), allowing for assessment of how precursor chemistry and plasma composition influence ion generation and reaction pathways. The ABC process appears to produce sharper and more defined signals, suggesting more controlled surface reactions"
     },
     "data_extraction": {
-        "a": "| Time (s) | m/z = 17 (NH\u2083\u207a, AB-NH\u2083) | m/z = 27 (C\u2082H\u2083\u207a) | m/z = 39 (C\u2083H\u2083\u207a) |\n|----------|--------------------------|------------------|------------------|\n| 0        | 0.10                     | 0.00             | 0.00             |\n| 5        | 0.15                     | 0.02             | 0.01             |\n| 10       | 0.20                     | 0.05             | 0.04             |\n| 15       | 0.18                     | 0.03             | 0.02             |\n| 20       | 0.12                     | 0.01             | 0.01             |"
+      "a": "| Time (s) | m/z = 17 (NH\u2083\u207a, AB-NH\u2083) | m/z = 27 (C\u2082H\u2083\u207a) | m/z = 39 (C\u2083H\u2083\u207a) |\n| --- | --- | --- | --- |\n| 0 | 0.10 | 0.00 | 0.00 |\n| 5 | 0.15 | 0.02 | 0.01 |\n| 10 | 0.20 | 0.05 | 0.04 |\n| 15 | 0.18 | 0.03 | 0.02 |\n| 20 | 0.12 | 0.01 | 0.01 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The line chart illustrates the relationship between film thickness and pulses/cycles, showing a decreasing trend if both reactants are dosed."
     },
     "data_extraction": {
-        "a": "| Pulses/Cycles | Film thickness (nm) |\n|---|---|\n| 0 | 43 |\n| 25 | 43 |\n| 50 | 42 |\n| 75 | 33 |\n| 100 | 25 |\n| 125 | 18 |"
+      "a": "| Pulses/Cycles | Film thickness (nm) |\n| --- | --- |\n| 0 | 43 |\n| 25 | 43 |\n| 50 | 42 |\n| 75 | 33 |\n| 100 | 25 |\n| 125 | 18 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "A line chart showing a linear relationship between the number of supercycles and thickness in nanometers"
     },
     "data_extraction": {
-        "a": "| Number of supercycles | Thickness (nm) |\n|-----------------------|---------------|\n| 0                     | 0             |\n| 50                    | 20            |\n| 100                   | 40            |\n| 150                   | 60            |"
+      "a": "| Number of supercycles | Thickness (nm) |\n| --- | --- |\n| 0 | 0 |\n| 50 | 20 |\n| 100 | 40 |\n| 150 | 60 |"
     },
     "vqa": {
         "a": [

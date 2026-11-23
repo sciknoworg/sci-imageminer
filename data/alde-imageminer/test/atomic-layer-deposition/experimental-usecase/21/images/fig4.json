@@ -7,7 +7,7 @@
         "a": "Phase shift of the incident light (D) from in situ SE measurements of the reaction of CO2 and H2O with ~50 nm plasma ALD films grown at 250, 275 and 300 \u00b0C"
     },
     "data_extraction": {
-        "a": "| Measurement Number | \u0394 (\u00b0) at 250 \u00b0C | \u0394 (\u00b0) at 275 \u00b0C | \u0394 (\u00b0) at 300 \u00b0C |\n|---------------------|-----------------|-----------------|-----------------|\n| 0                  | 0               | 0               | 0               |\n| 10                 | 1               | 5               | 2               |\n| 20                 | 1               | 10              | 3               |\n| 30                 | 1               | 13              | 6               |\n| 40                 | 1               | 15              | 8               |\n| 50                 | 1               | 18              | 10              |\n| 60                 | 1               | 20              | 12              |"
+      "a": "| Measurement Number | \u0394 (\u00b0) at 250 \u00b0C | \u0394 (\u00b0) at 275 \u00b0C | \u0394 (\u00b0) at 300 \u00b0C |\n| --- | --- | --- | --- |\n| 0 | 0 | 0 | 0 |\n| 10 | 1 | 5 | 2 |\n| 20 | 1 | 10 | 3 |\n| 30 | 1 | 13 | 6 |\n| 40 | 1 | 15 | 8 |\n| 50 | 1 | 18 | 10 |\n| 60 | 1 | 20 | 12 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The line chart illustrates the relationship between film thickness and temperature, showing an increase up to 600 K followed by a plateau."
     },
     "data_extraction": {
-        "a": "| Temperature (K) | Film Thickness (\u00c5) |\n|---|---|\n| 400 | 0.5 |\n| 500 | 3.5 |\n| 550 | 7.0 |\n| 600 | 7.75 |\n| 650 | 8.0 |\n| 700 | 7.75 |\n| 750 | 8.0 |\n| 800 | 8.0 |"
+      "a": "| Temperature (K) | Film Thickness (\u00c5) |\n| --- | --- |\n| 400 | 0.5 |\n| 500 | 3.5 |\n| 550 | 7.0 |\n| 600 | 7.75 |\n| 650 | 8.0 |\n| 700 | 7.75 |\n| 750 | 8.0 |\n| 800 | 8.0 |"
     },
     "vqa": {
         "a": [

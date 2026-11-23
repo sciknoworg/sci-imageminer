@@ -7,7 +7,7 @@
         "a": "The chart shows the growth per cycle of different ALD  processes (Thermal ALD Pt , Remote plasma ALD Pt , Remote plasma ALD PtO2)  at varying deposition temperatures. Remote plasma Pt ALD yields a relatively weak temperature dependence, whereas thermal ALD Pt shows little growth at lower temperatures and increases sharply only above ~200 \u00b0C. Growth per cycle decreases with temperature for remote plasma PtO2 ALD."
     },
     "data_extraction": {
-        "a": "| Deposition temperature (\u00b0C) | Process | Growth per cycle (nm/cycle) |\n|---|---|---|\n| 150 |  Thermal ALD Pt  |  0.001 |\n| 200 |  Thermal ALD Pt  | 0.01 |\n| 225 |  Thermal ALD Pt  | 0.035 |\n| 250 |  Thermal ALD Pt  | 0.037 |\n| 300 |  Thermal ALD Pt  | 0.044 |\n| 150 |  Thermal ALD Pt  |  0.001 |\n| 100 |  Remote plasma ALD Pt  with H2 step | 0.038 |\n| 200 |  Remote plasma ALD Pt  | 0.044 |\n| 300 |  Remote plasma ALD Pt  | 0.046 |\n| 100 |  Remote plasma ALD PtO2 | 0.06 |\n| 200 |  Remote plasma ALD PtO2  | 0.057 |\n| 300 |  Remote plasma ALD PtO2  | 0.047 |"
+      "a": "| Deposition temperature (\u00b0C) | Process | Growth per cycle (nm/cycle) |\n| --- | --- | --- |\n| 150 | Thermal ALD Pt | 0.001 |\n| 200 | Thermal ALD Pt | 0.01 |\n| 225 | Thermal ALD Pt | 0.035 |\n| 250 | Thermal ALD Pt | 0.037 |\n| 300 | Thermal ALD Pt | 0.044 |\n| 150 | Thermal ALD Pt | 0.001 |\n| 100 | Remote plasma ALD Pt  with H2 step | 0.038 |\n| 200 | Remote plasma ALD Pt | 0.044 |\n| 300 | Remote plasma ALD Pt | 0.046 |\n| 100 | Remote plasma ALD PtO2 | 0.06 |\n| 200 | Remote plasma ALD PtO2 | 0.057 |\n| 300 | Remote plasma ALD PtO2 | 0.047 |"
     },
     "vqa": {
         "a": [

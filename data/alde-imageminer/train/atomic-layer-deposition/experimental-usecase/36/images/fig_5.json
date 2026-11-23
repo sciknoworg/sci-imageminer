@@ -7,7 +7,7 @@
         "a": "The chart displays the extinction coefficient and refractive index of a material as a function of wavelength. Both of them decreases as the wavelength value increases."
     },
     "data_extraction": {
-        "a": "| Wavelength (nm) | Extinction coefficient | Refractive index |\n|----------------|------------------------|------------------|\n| 300            | 0                   | 2.2              |\n| 400            | 0                   | 2.0              |\n| 500            | 0                   | 1.9              |\n| 600            | 0                   | 1.9              |\n| 700            | 0                   | 1.9              |\n| 800            | 0                   | 1.9              |\n| 900            | 0                   | 1.9              |"
+      "a": "| Wavelength (nm) | Extinction coefficient | Refractive index |\n| --- | --- | --- |\n| 300 | 0 | 2.2 |\n| 400 | 0 | 2.0 |\n| 500 | 0 | 1.9 |\n| 600 | 0 | 1.9 |\n| 700 | 0 | 1.9 |\n| 800 | 0 | 1.9 |\n| 900 | 0 | 1.9 |"
     },
     "vqa": {
         "a": [

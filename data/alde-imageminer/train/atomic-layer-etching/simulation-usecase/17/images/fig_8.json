@@ -13,7 +13,7 @@
         "d": "The image displays a contours of the pressure of HF (Hydrofluoric acid) over a wafer across four different conditions  for reactor G3."
     },
     "data_extraction": {
-        "a": "| Case | Dominant Pressure Range (Pa) | High-Pressure Region (Pa) |\n|------|------------------------------|----------------------------|\n| G0   | 0 \u2013 28                      | 35 \u2013 49                   |\n| G1   | 0 \u2013 28                      | 28 \u2013 42                   |\n| G2   | 0 \u2013 28                      | 49 \u2013 56                   |\n| G3   | 0 \u2013 28                      | 28 \u2013 42                   |"
+      "a": "| Case | Dominant Pressure Range (Pa) | High-Pressure Region (Pa) |\n| --- | --- | --- |\n| G0 | 0 \u2013 28 | 35 \u2013 49 |\n| G1 | 0 \u2013 28 | 28 \u2013 42 |\n| G2 | 0 \u2013 28 | 49 \u2013 56 |\n| G3 | 0 \u2013 28 | 28 \u2013 42 |"
     },
     "vqa": {
         "c": [

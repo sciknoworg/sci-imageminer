@@ -9,9 +9,9 @@
         "a": "The figure compares atomic density profiles across depth for six or seven different elements under three experimental conditions: Ar (a), Kr (b), and Xe (c) ion exposure. In each case, the profiles illustrate how specific elements (e.g., H, O, C, Si, N) are distributed within and near the surface layers. The presence and penetration depth of each element vary depending on the ion species used, with notable differences in how deeply Ar, Kr, and Xe penetrate the material and affect the distribution of native and implanted species."
     },
     "data_extraction": {
-        "a": "| Depth [nm] | Atomic density [x 10<sup>23</sup>/cm<sup>3</sup>] |\n|---|---|\n|-6 | 0 |\n|-5 | 0 |\n|-4 | 0 |\n|-3 | 0 |\n|-2 | 0 |\n|-1 | 0 |\n| 0 | 0 |\n| 1 | 0 |\n| 2 | 0 |\n| 3 | 0 |\n| 4 | 0 |\n| 5 | 0 |\n| 6 | 0 |",
-        "b": "| Depth [nm] | Atomic density [x 10<sup>23</sup>/cm<sup>3</sup>] |\n|---|---|\n|-6 | 0 |\n|-5 | 0 |\n|-4 | 0 |\n|-3 | 0 |\n|-2 | 0 |\n|-1 | 0 |\n| 0 | 0 |\n| 1 | 0 |\n| 2 | 0 |\n| 3 | 0 |\n| 4 | 0 |\n| 5 | 0 |\n| 6 | 0 |",
-        "c": "| Depth [nm] | Atomic density [x 10<sup>23</sup>/cm<sup>3</sup>] |\n|---|---|\n|-6 | 0 |\n|-5 | 0 |\n|-4 | 0 |\n|-3 | 0 |\n|-2 | 0 |\n|-1 | 0 |\n| 0 | 0 |\n| 1 | 0 |\n| 2 | 0 |\n| 3 | 0 |\n| 4 | 0 |\n| 5 | 0 |\n| 6 | 0 |"
+      "a": "| Depth [nm] | Atomic density [x 10<sup>23</sup>/cm<sup>3</sup>] |\n| --- | --- |\n| -6 | 0 |\n| -5 | 0 |\n| -4 | 0 |\n| -3 | 0 |\n| -2 | 0 |\n| -1 | 0 |\n| 0 | 0 |\n| 1 | 0 |\n| 2 | 0 |\n| 3 | 0 |\n| 4 | 0 |\n| 5 | 0 |\n| 6 | 0 |",
+      "b": "| Depth [nm] | Atomic density [x 10<sup>23</sup>/cm<sup>3</sup>] |\n| --- | --- |\n| -6 | 0 |\n| -5 | 0 |\n| -4 | 0 |\n| -3 | 0 |\n| -2 | 0 |\n| -1 | 0 |\n| 0 | 0 |\n| 1 | 0 |\n| 2 | 0 |\n| 3 | 0 |\n| 4 | 0 |\n| 5 | 0 |\n| 6 | 0 |",
+      "c": "| Depth [nm] | Atomic density [x 10<sup>23</sup>/cm<sup>3</sup>] |\n| --- | --- |\n| -6 | 0 |\n| -5 | 0 |\n| -4 | 0 |\n| -3 | 0 |\n| -2 | 0 |\n| -1 | 0 |\n| 0 | 0 |\n| 1 | 0 |\n| 2 | 0 |\n| 3 | 0 |\n| 4 | 0 |\n| 5 | 0 |\n| 6 | 0 |"
     },
     "vqa": {
         "a": [

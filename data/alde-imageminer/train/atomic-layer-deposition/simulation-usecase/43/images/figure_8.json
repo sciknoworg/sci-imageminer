@@ -19,13 +19,13 @@
         "g": "It is a line chart representing the Interface trap density (D_it) at the valence band edge (E = E_V), extracted from frequency-dependent C\u2013V measurements using the Castagne\u2013Vapaille method."
     },
     "data_extraction": {
-        "a": "",
-        "b": "| V_G (V) | C (\u00b5F/cm\u00b2) |\n|---|---|\n|-1.6 | 0.0 |\n|-0.8 | 0.5 |\n|0.0 | 2.5 |\n|0.8 | 0.0 |\n|1.6 | 0.0 |",
-        "c": "| V_G (V) | J_G (mA/cm\u00b2) |\n|---|---|\n|-1.6 | 10^-7 |\n|-0.8 | 10^-5 |\n|0.0 | 10^-4 |\n|0.8 | 10^-2 |\n|1.6 | 10^-7 |",
-        "d": "| ALD cycles | C_max (\u00b5F/cm\u00b2) |\n|---|---|\n|0 | 2.6 |\n|4 | 2.8 |\n|9 | 2.9 |\n|15 | 2.1 |",
-        "e": "| ALD cycles | J_G (mA/cm\u00b2) |\n|---|---|\n|0 | 10^2 |\n|4 | 10^3 |\n|9 | 10^4 |\n|15 | 10^5 |",
-        "f": "| ALD cycles | \u2211\u0394V_FB |\n|---|---|\n|0 | 0.33 |\n|4 | 0.28 |\n|9 | 0.18 |\n|15 | 0.18 |",
-        "g": "| ALD cycles | D_it (10^12 cm^-2 eV^-1) |\n|---|---|\n|0 | 35 |\n|4 | 6.47 |\n|9 | 4.85 |\n|15 | 4.85 |"
+      "a": "",
+      "b": "| V_G (V) | C (\u00b5F/cm\u00b2) |\n| --- | --- |\n| -1.6 | 0.0 |\n| -0.8 | 0.5 |\n| 0.0 | 2.5 |\n| 0.8 | 0.0 |\n| 1.6 | 0.0 |",
+      "c": "| V_G (V) | J_G (mA/cm\u00b2) |\n| --- | --- |\n| -1.6 | 10^-7 |\n| -0.8 | 10^-5 |\n| 0.0 | 10^-4 |\n| 0.8 | 10^-2 |\n| 1.6 | 10^-7 |",
+      "d": "| ALD cycles | C_max (\u00b5F/cm\u00b2) |\n| --- | --- |\n| 0 | 2.6 |\n| 4 | 2.8 |\n| 9 | 2.9 |\n| 15 | 2.1 |",
+      "e": "| ALD cycles | J_G (mA/cm\u00b2) |\n| --- | --- |\n| 0 | 10^2 |\n| 4 | 10^3 |\n| 9 | 10^4 |\n| 15 | 10^5 |",
+      "f": "| ALD cycles | \u2211\u0394V_FB |\n| --- | --- |\n| 0 | 0.33 |\n| 4 | 0.28 |\n| 9 | 0.18 |\n| 15 | 0.18 |",
+      "g": "| ALD cycles | D_it (10^12 cm^-2 eV^-1) |\n| --- | --- |\n| 0 | 35 |\n| 4 | 6.47 |\n| 9 | 4.85 |\n| 15 | 4.85 |"
     },
     "vqa": {
         "d": [

@@ -9,8 +9,8 @@
         "b": "Same measurement with 20 s purging time. The longer purge slightly increases peak GPC for most samples. Notably, the turning temperature shifts from 200\u00b0C to 150\u00b0C for samples D and E, indicating earlier surface saturation due to extended precursor contact time."
     },
     "data_extraction": {
-        "a": "| Temperature (\u00b0C) | A | B | C | D | E |\n|---|---|---|---|---|---|\n| 100 | 1.05 | 1.02 | 0.98 | 1.00 | 1.00 |\n| 150 | 1.10 | 1.07 | 1.00 | 1.05 | 1.05 |\n| 200 | 1.15 | 1.12 | 1.10 | 1.15 | 1.15 |\n| 250 | 1.10 | 1.08 | 0.95 | 1.10 | 1.05 |",
-        "b": "| Temperature (\u00b0C) | A | B | C | D | E |\n|---|---|---|---|---|---|\n| 100 | 1.10 | 1.05 | 0.98 | 1.00 | 1.00 |\n| 150 | 1.15 | 1.10 | 1.00 | 1.05 | 1.05 |\n| 200 | 1.20 | 1.15 | 1.10 | 1.15 | 1.15 |\n| 250 | 1.10 | 1.08 | 0.95 | 1.10 | 1.05 |"
+      "a": "| Temperature (\u00b0C) | A | B | C | D | E |\n| --- | --- | --- | --- | --- | --- |\n| 100 | 1.05 | 1.02 | 0.98 | 1.00 | 1.00 |\n| 150 | 1.10 | 1.07 | 1.00 | 1.05 | 1.05 |\n| 200 | 1.15 | 1.12 | 1.10 | 1.15 | 1.15 |\n| 250 | 1.10 | 1.08 | 0.95 | 1.10 | 1.05 |",
+      "b": "| Temperature (\u00b0C) | A | B | C | D | E |\n| --- | --- | --- | --- | --- | --- |\n| 100 | 1.10 | 1.05 | 0.98 | 1.00 | 1.00 |\n| 150 | 1.15 | 1.10 | 1.00 | 1.05 | 1.05 |\n| 200 | 1.20 | 1.15 | 1.10 | 1.15 | 1.15 |\n| 250 | 1.10 | 1.08 | 0.95 | 1.10 | 1.05 |"
     },
     "vqa": {
         "a": [

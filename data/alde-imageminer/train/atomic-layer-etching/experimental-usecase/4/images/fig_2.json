@@ -9,8 +9,8 @@
         "b": "The line chart illustrates the synergy percentage at different DC bias voltages."
     },
     "data_extraction": {
-        "a": "| DC bias (-V) | EPC (\u00c5) ALE | EPC (\u00c5) Ar milling only |\n|---|---|---|\n| 0 | 0.1 | 0 |\n| 6 | 0.5 |  |\n| 9 | 1 | 0.1 |\n| 12 | 1.5 | 0.25 |\n| 18 | 1.5 | 0.5 |",
-        "b": "| DC bias (-V) | Synergy (%) |\n|---|---|\n| 0 |  |\n| 6 |  |\n| 9 | 80 |\n| 12 | 75 |\n| 18 | 55 |"
+      "a": "| DC bias (-V) | EPC (\u00c5) ALE | EPC (\u00c5) Ar milling only |\n| --- | --- | --- |\n| 0 | 0.1 | 0 |\n| 6 | 0.5 |  |\n| 9 | 1 | 0.1 |\n| 12 | 1.5 | 0.25 |\n| 18 | 1.5 | 0.5 |",
+      "b": "| DC bias (-V) | Synergy (%) |\n| --- | --- |\n| 0 |  |\n| 6 |  |\n| 9 | 80 |\n| 12 | 75 |\n| 18 | 55 |"
     },
     "vqa": {
         "a": [

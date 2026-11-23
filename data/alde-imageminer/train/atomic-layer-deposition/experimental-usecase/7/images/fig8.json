@@ -7,7 +7,7 @@
         "a": "Scatter plot showing the ratio \u0394m\u2080/(\u0394m\u2081\u2212\u0394m\u2082) as a function of growth temperature (~100\u2013400 \u00b0C) for three different cycle sequences where the first pulse time varies (0.5 s, 2 s, 5 s). The ratio generally decreases with temperature up to ~250\u2013300 \u00b0C for the longer pulse-time conditions before increasing again at higher temperatures."
     },
     "data_extraction": {
-        "a": "| Growth Temp (\u00b0C) | 5s Pulse (Squares) | 0.5s Pulse (Open Circ) | 2s Pulse (Filled Circ) | 2s Pulse (Triangles, TB=100) |\n|---|---|---|---|---|\n| 100 | ~0.56 | ~0.52 | ~0.50 | - |\n| 150 | ~0.50 | ~0.50 | ~0.50 | ~0.53 |\n| 200 | ~0.41 | ~0.40 | ~0.42 | ~0.48 |\n| 250 | ~0.39 | ~0.41 | ~0.39 | ~0.46 |\n| 300 | ~0.44 | ~0.40 | ~0.43 | - |\n| 350 | ~0.45 | ~0.44 | ~0.45 | ~0.47 |\n| 400 | ~0.75 | ~0.58 | ~0.65 | - |"
+      "a": "| Growth Temp (\u00b0C) | 5s Pulse (Squares) | 0.5s Pulse (Open Circ) | 2s Pulse (Filled Circ) | 2s Pulse (Triangles, TB=100) |\n| --- | --- | --- | --- | --- |\n| 100 | ~0.56 | ~0.52 | ~0.50 | - |\n| 150 | ~0.50 | ~0.50 | ~0.50 | ~0.53 |\n| 200 | ~0.41 | ~0.40 | ~0.42 | ~0.48 |\n| 250 | ~0.39 | ~0.41 | ~0.39 | ~0.46 |\n| 300 | ~0.44 | ~0.40 | ~0.43 | - |\n| 350 | ~0.45 | ~0.44 | ~0.45 | ~0.47 |\n| 400 | ~0.75 | ~0.58 | ~0.65 | - |"
     },
     "vqa": {
         "a": [

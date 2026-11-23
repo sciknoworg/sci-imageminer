@@ -7,7 +7,7 @@
         "a": "The line plot represents the  thickness of ZnS film measured against number of ZnS ALE cycles using HF and TMA as reactants at 300 \u00b0C. Initial ZnS ALD films in this study were grown at 100 \u00b0C. The etch rate is approximately 2 \u00c5 per cycle."
     },
     "data_extraction": {
-        "a": "| Number of ALE Cycles | ZnS Thickness (\u00c5) |\n|---|---|\n| 0 | 200 |\n| 10 | 180 |\n| 20 | 160 |\n| 30 | 140 |\n| 40 | 120 |\n| 50 | 100 |"
+      "a": "| Number of ALE Cycles | ZnS Thickness (\u00c5) |\n| --- | --- |\n| 0 | 200 |\n| 10 | 180 |\n| 20 | 160 |\n| 30 | 140 |\n| 40 | 120 |\n| 50 | 100 |"
     },
     "vqa": {
         "a": [

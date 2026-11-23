@@ -7,7 +7,7 @@
         "a": "X-ray photoelectron spectra of Mo 3d spectra of a molybdenum sample  after heating in vacuum at 300 \u00b0C for 20 min."
     },
     "data_extraction": {
-        "a": "| Oxidation State | Peak Assignment | Binding Energy (eV) |\n|-----------------|-----------------|-----------------------|\n| Mo\u2070            | Mo 3d          | ~228                |\n| Mo\u00b3\u207a           | Mo 3d          | ~230                |\n| Mo\u2074\u207a           | Mo 3d          | ~232                |\n| Mo\u2075\u207a           | Mo 3d          | ~234                |\n| Mo\u2076\u207a           | Mo 3d          | ~236                |"
+      "a": "| Oxidation State | Peak Assignment | Binding Energy (eV) |\n| --- | --- | --- |\n| Mo\u2070 | Mo 3d | ~228 |\n| Mo\u00b3\u207a | Mo 3d | ~230 |\n| Mo\u2074\u207a | Mo 3d | ~232 |\n| Mo\u2075\u207a | Mo 3d | ~234 |\n| Mo\u2076\u207a | Mo 3d | ~236 |"
     },
     "vqa": {
         "a": [

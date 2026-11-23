@@ -7,7 +7,7 @@
         "a": "The line chart shows the relationship between the number of cycles and film thickness for TaN (H\u2082 plasma) and TiN (H\u2082-N\u2082 30:4 plasma). Both materials exhibit a linear increase in film thickness with increasing cycle count."
     },
     "data_extraction": {
-        "a": "| Number of cycles | Film thickness (nm) TaN | Film thickness (nm) TiN |\n|---|---|---|\n| 0 | 0 | 0 |\n| 50 | 2.5 | 2 |\n| 100 | 5 | 4 |\n| 150 | 7 | 6 |\n| 200 | 10 | 8 |\n| 250 | 12 | 10 |\n| 300 | 14.5 | 12 |"
+      "a": "| Number of cycles | Film thickness (nm) TaN | Film thickness (nm) TiN |\n| --- | --- | --- |\n| 0 | 0 | 0 |\n| 50 | 2.5 | 2 |\n| 100 | 5 | 4 |\n| 150 | 7 | 6 |\n| 200 | 10 | 8 |\n| 250 | 12 | 10 |\n| 300 | 14.5 | 12 |"
     },
     "vqa": {
         "a": [

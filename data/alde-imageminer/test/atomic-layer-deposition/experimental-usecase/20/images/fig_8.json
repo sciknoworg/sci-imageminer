@@ -7,7 +7,7 @@
         "a": "The chart represents an X-ray diffraction pattern, plotting diffraction intensity (arbitrary units) against the 2\u03b8. The emergence of sharp, distinct peaks confirms that the film is polycrystalline."
     },
     "data_extraction": {
-        "a": "| 2\u03b8 (\u00b0) | Intensity (arbitrary units) | Assigned reflection |\n|---|---|---|\n| 26 | 99 |  (101)? |\n| 27 | 49 |  ? |\n| 29 | 38 |  ? |\n| 32 | 44 |  (110)/(102) |\n| 40 | 20 | (112) |\n| 47 | 19 |  (200)/(004) |\n| 50 | 16 |  ? |\n| 54 | 13 |  (211) |\n| 58 | 11 |  (212)/(114) |\n| 60 | 13 |  (203)/(005) |\n| 68 | 11 |  (220)/(204) |"
+      "a": "| 2\u03b8 (\u00b0) | Intensity (arbitrary units) | Assigned reflection |\n| --- | --- | --- |\n| 26 | 99 | (101)? |\n| 27 | 49 | ? |\n| 29 | 38 | ? |\n| 32 | 44 | (110)/(102) |\n| 40 | 20 | (112) |\n| 47 | 19 | (200)/(004) |\n| 50 | 16 | ? |\n| 54 | 13 | (211) |\n| 58 | 11 | (212)/(114) |\n| 60 | 13 | (203)/(005) |\n| 68 | 11 | (220)/(204) |"
     },
     "vqa": {
         "a": [

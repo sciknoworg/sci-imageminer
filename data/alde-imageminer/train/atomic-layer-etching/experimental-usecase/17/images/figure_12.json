@@ -7,7 +7,7 @@
         "a": "The line chart illustrates mass change (in ng/cm\u00b2) as a function of time during the atomic layer etching (ALE) of VO\u2082 at 200\u00b0C. The etching process involves alternating exposures to SF\u2084 and Sn(acac)\u2082, as labeled by the arrows on the plot. Distinct mass loss and gain events are observed during the SF\u2084 and Sn(acac)\u2082 steps, respectively. The graph captures both the etching half-cycle (mass loss from SF\u2084) and the subsequent precursor adsorption step (mass gain from Sn(acac)\u2082), culminating in a repeatable etch pattern. The label \"MCPC\" denotes the minimum mass point per cycle."
     },
     "data_extraction": {
-        "a": "| Time(s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 1150 | -30 |\n| 1200 | -40 |\n| 1250 | -50 |\n| 1300 | -60 |\n| 1350 | -70 |\n| 1400 | -80 |\n| 1450 | -90 |"
+      "a": "| Time(s) | Mass Change (ng/cm\u00b2) |\n| --- | --- |\n| 1150 | -30 |\n| 1200 | -40 |\n| 1250 | -50 |\n| 1300 | -60 |\n| 1350 | -70 |\n| 1400 | -80 |\n| 1450 | -90 |"
     },
     "vqa": {
         "a": [

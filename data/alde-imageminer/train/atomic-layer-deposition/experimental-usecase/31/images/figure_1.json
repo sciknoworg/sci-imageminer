@@ -7,7 +7,7 @@
         "a": "Figure shows an XPS depth profile of a thermal-ALD Co film deposited on Si(001) using CoCp(CO)\u2082 and H\u2082. The profile reveals a carbon-rich film with ~40\u201350 at% C and only ~45\u201350 at% Co throughout most of the depth, along with a few at% oxygen contamination. The sharp rise in Si near ~25\u201330 min sputtering marks the Co/Si interface, confirming the film thickness. Overall, the data demonstrate that thermal ALD produces a Co\u2013C composite rather than pure metallic Co, indicating poor ligand removal."
     },
     "data_extraction": {
-        "a": "| Element|Trend across film|Interpretation|\n|--------|-----------------|--------------|\n|Co|~45\u201350 at% throughout|Indicates incomplete metal formation|\n|C|~40\u201350 at% throughout|Severe carbon contamination from ligands|\n|O|Low, few at%|Minor oxidation/impurity|\n|Si|Rises sharply at end|Marks Co/Si interface (film thickness)|"
+      "a": "| Element | Trend across film | Interpretation |\n| --- | --- | --- |\n| Co | ~45\u201350 at% throughout | Indicates incomplete metal formation |\n| C | ~40\u201350 at% throughout | Severe carbon contamination from ligands |\n| O | Low, few at% | Minor oxidation/impurity |\n| Si | Rises sharply at end | Marks Co/Si interface (film thickness) |"
     },
     "vqa": {
         "a": [

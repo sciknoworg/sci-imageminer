@@ -9,8 +9,8 @@
         "b": "XRD patterns of Cu/PEALD Ti\u2013Si\u2013N (10 nm)/Si from no annealing to 700 \u00b0C. Cu peaks appear later and grow more slowly than in TiN. This shows improved thermal stability of Ti\u2013Si\u2013N."
     },
     "data_extraction": {
-        "a": "| 2\u03b8 (degree) | Phase / Peak | Intensity |\n|-------------|--------------|------------|\n| ~43.3 | Cu(111) | strongest observed reflection |\n| ~50.4 | Cu(200) | high    |\n| ~74.1 | Cu(220) | medium  |",
-        "b": "| 2\u03b8 (degree) | Phase / Peak | Intensity |\n|-------------|--------------|----------|\n| ~43.3 | Cu(111) | strongest observed reflection |\n| ~50.4 | Cu(200) | medium  |\n| ~74.1 | Cu(220) | low (no annealing) |"
+      "a": "| 2\u03b8 (degree) | Phase / Peak | Intensity |\n| --- | --- | --- |\n| ~43.3 | Cu(111) | strongest observed reflection |\n| ~50.4 | Cu(200) | high |\n| ~74.1 | Cu(220) | medium |",
+      "b": "| 2\u03b8 (degree) | Phase / Peak | Intensity |\n| --- | --- | --- |\n| ~43.3 | Cu(111) | strongest observed reflection |\n| ~50.4 | Cu(200) | medium |\n| ~74.1 | Cu(220) | low (no annealing) |"
     },
     "vqa": {
         "a": [

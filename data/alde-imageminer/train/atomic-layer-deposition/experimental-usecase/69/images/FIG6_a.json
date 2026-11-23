@@ -7,7 +7,7 @@
         "a": "The scatter plot displays the ratio of oxygen to phosphorus (O/P) against various elements (Al, Ti, Ca, Li, Fe, La, Zn, Co, Na, Mg, V, Ni). The points are color-coded, and there's a horizontal dashed line indicating a specific value."
     },
     "data_extraction": {
-        "a": "| M (Element) | TMP | TMP* | DEPA | DEPA* | TDMAP | This work |\n|---|---|---|---|---|---|---|\n| Al | 4.8 | 3.4 |  |  |  | 5.6 |\n| Ti | 3.9 | 2.6 |  | 1.9 |  |  |\n| Ca | 3.7 | 3.3 |  |  |  |  |\n| Li | 3.8 | 2.2 | 2.4 |  |  |  |\n| Fe | 3.9 | 2.5 |  |  |  |  |\n| La | 4.9 |  |  |  |  |  |\n| Zn |  | 2.0 |  |  |  |  |\n| Co | 4.5 | 2.9 |  |  |  |  |\n| Na |  |  | 3.7 |  |  |  |\n| Mg |  |  |  |  | 3.2 |  |\n| V  |  | 3.4 |  |  |  |  |\n| Ni |  | 2.8 |  |  |  |  |"
+      "a": "| M (Element) | TMP | TMP* | DEPA | DEPA* | TDMAP | This work |\n| --- | --- | --- | --- | --- | --- | --- |\n| Al | 4.8 | 3.4 |  |  |  | 5.6 |\n| Ti | 3.9 | 2.6 |  | 1.9 |  |  |\n| Ca | 3.7 | 3.3 |  |  |  |  |\n| Li | 3.8 | 2.2 | 2.4 |  |  |  |\n| Fe | 3.9 | 2.5 |  |  |  |  |\n| La | 4.9 |  |  |  |  |  |\n| Zn |  | 2.0 |  |  |  |  |\n| Co | 4.5 | 2.9 |  |  |  |  |\n| Na |  |  | 3.7 |  |  |  |\n| Mg |  |  |  |  | 3.2 |  |\n| V |  | 3.4 |  |  |  |  |\n| Ni |  | 2.8 |  |  |  |  |"
     },
     "vqa": {
         "a": [

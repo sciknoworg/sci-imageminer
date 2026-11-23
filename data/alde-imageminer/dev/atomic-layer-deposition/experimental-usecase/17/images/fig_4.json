@@ -7,7 +7,7 @@
         "a": "The multilayer plot shows the X-ray diffraction patterns of the as-deposited Ga\u2082O\u2083 thin film and the films annealed at 500 \u00b0C, 700 \u00b0C, and 900 \u00b0C temperatures. Crystallinity seems to improve and newer peaks started to reflect for higher annealing temperatures."
     },
     "data_extraction": {
-        "a": "| 2 Theta (degrees) | As-deposit | 500\u00b0C | 700\u00b0C | 900\u00b0C |\n|---|---|---|---|---|\n| 25 | | | | |\n| 30 | | | | |\n| 35 | | | | |\n| 40 | | | | |\n| 45 | | | | |\n| 50 | | | | |\n| 55 | | | | |\n| 60 | | | | |"
+      "a": "| 2 Theta (degrees) | As-deposit | 500\u00b0C | 700\u00b0C | 900\u00b0C |\n| --- | --- | --- | --- | --- |\n| 25 |  |  |  |  |\n| 30 |  |  |  |  |\n| 35 |  |  |  |  |\n| 40 |  |  |  |  |\n| 45 |  |  |  |  |\n| 50 |  |  |  |  |\n| 55 |  |  |  |  |\n| 60 |  |  |  |  |"
     },
     "vqa": {
         "a": [

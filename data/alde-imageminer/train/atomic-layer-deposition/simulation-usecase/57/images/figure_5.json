@@ -7,7 +7,7 @@
         "a": "The image shows a reaction scheme illustrating the energy changes (\u0394G) associated with various chemical transformations of two Ga(NMe2)3 precursors."
     },
     "data_extraction": {
-        "a": "| Reaction Step | \u0394G (kJ/mol) |\n|---|---|\n| A04 | -106.0 |\n| C01 | -128.1 |\n| C02TS | -104.8 |\n| C03 | -308.6 |\n| C04TS | -302.6 |\n| C05 | -364.8 |"
+      "a": "| Reaction Step | \u0394G (kJ/mol) |\n| --- | --- |\n| A04 | -106.0 |\n| C01 | -128.1 |\n| C02TS | -104.8 |\n| C03 | -308.6 |\n| C04TS | -302.6 |\n| C05 | -364.8 |"
     },
     "vqa": {
         "a": [

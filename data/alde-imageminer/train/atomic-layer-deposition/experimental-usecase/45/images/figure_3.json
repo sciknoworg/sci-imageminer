@@ -7,7 +7,7 @@
         "a": "The figure displays a comparison between the X-ray diffraction patterns of Pt (grown with either plasma or thermal ALD) and PtO\u2082."
     },
     "data_extraction": {
-        "a": "| 2\u03b8 (degrees) | Pt (plasma): intensity (a.u)  | Pt (thermal): intensity (a.u) | PtO\u2082: intensity (a.u | hkl |\n|---|---|---|---|---|\n| 40.31 | 1.76 | 0.16 | 0 | 111 |\n| 46.58 | 0.53 | 0 .86| 0 | 200 |\n| 67.98 | 3.14 | 0.81 | 0 | 220 |\n| 81.73 | 0.39 | 0.06 | 0 | 311 |\n| 86.22 | 0.07 | 0 | 0 | 222 |"
+      "a": "| 2\u03b8 (degrees) | Pt (plasma): intensity (a.u) | Pt (thermal): intensity (a.u) | PtO\u2082: intensity (a.u | hkl |\n| --- | --- | --- | --- | --- |\n| 40.31 | 1.76 | 0.16 | 0 | 111 |\n| 46.58 | 0.53 | 0 .86 | 0 | 200 |\n| 67.98 | 3.14 | 0.81 | 0 | 220 |\n| 81.73 | 0.39 | 0.06 | 0 | 311 |\n| 86.22 | 0.07 | 0 | 0 | 222 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The chart shows in situ FTIR difference spectra following consecutive TMGa-O3 exposures at 350 \u00b0C."
     },
     "data_extraction": {
-        "a": "| ALD Step | Wavenumber (cm\u207b\u00b9) |\n|---|---|\n| 1st TMGa | Trough at 1372, 1586, 3730; Peaks at 1215, 2915, 2975 |\n| 1st Ozone | Troughs at 1215, 2915, 2975; Peaks at 1372, 1586, 3730 |\n| 2nd TMGa | Trough at 1372, 1586, 3730; Peaks at 1215, 2915, 2975 |\n| 2nd Ozone | Troughs at 1215, 2915, 2975; Peaks at 1372, 1586, 3730 |\n| 3rd TMGa | Trough at 1372, 1586, 3730; Peaks at 1215, 2915, 2975 |\n| 3rd Ozone | Troughs at 1215, 2915, 2975; Peaks at 1372, 1586, 3730 |"
+      "a": "| ALD Step | Wavenumber (cm-\u00b9) |\n| --- | --- |\n| 1st TMGa | Trough at 1372, 1586, 3730; Peaks at 1215, 2915, 2975 |\n| 1st Ozone | Troughs at 1215, 2915, 2975; Peaks at 1372, 1586, 3730 |\n| 2nd TMGa | Trough at 1372, 1586, 3730; Peaks at 1215, 2915, 2975 |\n| 2nd Ozone | Troughs at 1215, 2915, 2975; Peaks at 1372, 1586, 3730 |\n| 3rd TMGa | Trough at 1372, 1586, 3730; Peaks at 1215, 2915, 2975 |\n| 3rd Ozone | Troughs at 1215, 2915, 2975; Peaks at 1372, 1586, 3730 |"
     },
     "vqa": {
         "a": [

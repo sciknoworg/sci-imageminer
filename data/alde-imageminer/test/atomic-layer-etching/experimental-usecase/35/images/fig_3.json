@@ -21,14 +21,14 @@
         "h": "In the ZrO\u2082 + TiCl\u2084 system, thickness increases steadily with TiCl\u2084 dose at higher temperatures, showing net film growth or surface chlorination, while lower temperatures exhibit minimal thickness change."
     },
     "data_extraction": {
-        "a": "| Chemistry|Substrate|Temperatures (\u00b0C)|Trend Summary|\n|----------|---------|-----------------|-------------|\n|WF6|TiO2|160, 180, 200, 220, 240|Initial swelling \u2192 etching at high T|",
-        "b": "| Chemistry|Substrate|Temperatures (\u00b0C)|Trend Summary|\n|----------|---------|-----------------|-------------|\n|BCl3|TiO2|200\u2013280|Mild etch; self-limiting behavior|",
-        "c": "| Chemistry|Substrate|Temperatures (\u00b0C)|Trend Summary|\n|----------|---------|-----------------|-------------|\n|SOCl2|TiO2|160\u2013240|Clean etching; strong self-limiting|",
-        "d": "| Chemistry|Substrate|Temperatures (\u00b0C)|Trend Summary|\n|----------|---------|-----------------|-------------|\n|TiCl4|TiO2|160\u2013240|Weak reaction; minimal change|",
-        "e": "| Chemistry|Substrate|Temperatures (\u00b0C)|Trend Summary|\n|----------|---------|-----------------|-------------|\n|WF6|ZrO2|250, 275, 300, 325|Immediate shrinkage \u2192 stronger at high T|",
-        "f": "| Chemistry|Substrate|Temperatures (\u00b0C)|Trend Summary|\n|----------|---------|-----------------|-------------|\n|BCl3|ZrO2|250\u2013325|Best etching at high T|",
-        "g": "| Chemistry|Substrate|Temperatures (\u00b0C)|Trend Summary|\n|----------|---------|-----------------|-------------|\n|SOCl2|ZrO2|250\u2013325|Poor etching; sulfate formation|",
-        "h": "| Chemistry|Substrate|Temperatures (\u00b0C)|Trend Summary|\n|----------|---------|-----------------|-------------|\n|TiCl4|ZrO2|250\u2013325|Slight etching at high T|"
+      "a": "| Chemistry | Substrate | Temperatures (\u00b0C) | Trend Summary |\n| --- | --- | --- | --- |\n| WF6 | TiO2 | 160, 180, 200, 220, 240 | Initial swelling \u2192 etching at high T |",
+      "b": "| Chemistry | Substrate | Temperatures (\u00b0C) | Trend Summary |\n| --- | --- | --- | --- |\n| BCl3 | TiO2 | 200\u2013280 | Mild etch; self-limiting behavior |",
+      "c": "| Chemistry | Substrate | Temperatures (\u00b0C) | Trend Summary |\n| --- | --- | --- | --- |\n| SOCl2 | TiO2 | 160\u2013240 | Clean etching; strong self-limiting |",
+      "d": "| Chemistry | Substrate | Temperatures (\u00b0C) | Trend Summary |\n| --- | --- | --- | --- |\n| TiCl4 | TiO2 | 160\u2013240 | Weak reaction; minimal change |",
+      "e": "| Chemistry | Substrate | Temperatures (\u00b0C) | Trend Summary |\n| --- | --- | --- | --- |\n| WF6 | ZrO2 | 250, 275, 300, 325 | Immediate shrinkage \u2192 stronger at high T |",
+      "f": "| Chemistry | Substrate | Temperatures (\u00b0C) | Trend Summary |\n| --- | --- | --- | --- |\n| BCl3 | ZrO2 | 250\u2013325 | Best etching at high T |",
+      "g": "| Chemistry | Substrate | Temperatures (\u00b0C) | Trend Summary |\n| --- | --- | --- | --- |\n| SOCl2 | ZrO2 | 250\u2013325 | Poor etching; sulfate formation |",
+      "h": "| Chemistry | Substrate | Temperatures (\u00b0C) | Trend Summary |\n| --- | --- | --- | --- |\n| TiCl4 | ZrO2 | 250\u2013325 | Slight etching at high T |"
     },
     "vqa": {
         "d": [

@@ -11,9 +11,9 @@
         "c": "This panel schematically defines discrete exposure zones along the substrate motion direction, showing how the total DEZ exposure can be decomposed into successive incremental contributions as the substrate passes under the injector, providing a basis for modeling growth per cycle in spatial ALD."
     },
     "data_extraction": {
-        "a": "| Gas injector | N\u2082 | Exhaust | DEZ | Exhaust | N\u2082 |\n|---|---|---|---|---|---|\n| 0 cm/s | | | | | |\n| 4 cm/s | | | | | |\n| 12 cm/s | | | | | |\n| 16 cm/s | | | | | |",
-        "b": "| Substrate velocity (cm/s) | [DEZ] at substrate surface (mol/m\u00b3) |\n|---|---|\n| 0 | 1.0 |\n| 4 | 0.95 |\n| 8 | 0.9 |\n| 12 | 0.85 |\n| 16 | 0.8 |",
-        "c": "| Substrate velocity (cm/s) | [DEZ] at substrate surface (mol/m\u00b3) |\n|---|---|\n| 8 | 1.0 |\n| 8 | 0.9 |\n| 8 | 0.8 |\n| 8 | 0.7 |\n| 8 | 0.6 |"
+      "a": "| Gas injector | N\u2082 | Exhaust | DEZ | Exhaust | N\u2082 |\n| --- | --- | --- | --- | --- | --- |\n| 0 cm/s |  |  |  |  |  |\n| 4 cm/s |  |  |  |  |  |\n| 12 cm/s |  |  |  |  |  |\n| 16 cm/s |  |  |  |  |  |",
+      "b": "| Substrate velocity (cm/s) | [DEZ] at substrate surface (mol/m\u00b3) |\n| --- | --- |\n| 0 | 1.0 |\n| 4 | 0.95 |\n| 8 | 0.9 |\n| 12 | 0.85 |\n| 16 | 0.8 |",
+      "c": "| Substrate velocity (cm/s) | [DEZ] at substrate surface (mol/m\u00b3) |\n| --- | --- |\n| 8 | 1.0 |\n| 8 | 0.9 |\n| 8 | 0.8 |\n| 8 | 0.7 |\n| 8 | 0.6 |"
     },
     "vqa": {
         "a": [

@@ -11,9 +11,9 @@
         "c": "Film thickness increases linearly with the number of PEALD cycles."
     },
     "data_extraction": {
-        "a": "| O2 plasma duration (s) | Deposition rate (nm/cycle) |\n|---|---|\n| 2 | 0.020 |\n| 5 | 0.043 |\n| 10 | 0.051 |\n| 20 | 0.053 |\n| 40 | 0.051 |\n| 60 | 0.052 |",
-        "b": "| Temperature (\u00b0C) | Deposition rate (nm/cycle) |\n|---|---|\n| 30 | 0.061 |\n| 100 | 0.054 |\n| 150 | 0.053 |\n| 200 | 0.053 |\n| 250 | 0.053 |\n| 300 | 0.053 |\n| 350 | 0.052 |\n| 400 | 0.053 |",
-        "c": "| Number of PEALD cycles | Film thickness (nm) |\n|---|---|\n| 50 | 3.0 |\n| 150 | 8.0 |\n| 300 | 16.0 |\n| 500 | 26.5 |"
+      "a": "| O2 plasma duration (s) | Deposition rate (nm/cycle) |\n| --- | --- |\n| 2 | 0.020 |\n| 5 | 0.043 |\n| 10 | 0.051 |\n| 20 | 0.053 |\n| 40 | 0.051 |\n| 60 | 0.052 |",
+      "b": "| Temperature (\u00b0C) | Deposition rate (nm/cycle) |\n| --- | --- |\n| 30 | 0.061 |\n| 100 | 0.054 |\n| 150 | 0.053 |\n| 200 | 0.053 |\n| 250 | 0.053 |\n| 300 | 0.053 |\n| 350 | 0.052 |\n| 400 | 0.053 |",
+      "c": "| Number of PEALD cycles | Film thickness (nm) |\n| --- | --- |\n| 50 | 3.0 |\n| 150 | 8.0 |\n| 300 | 16.0 |\n| 500 | 26.5 |"
     },
     "vqa": {
         "a": [

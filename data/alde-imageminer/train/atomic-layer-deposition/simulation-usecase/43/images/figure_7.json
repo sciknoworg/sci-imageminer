@@ -9,8 +9,8 @@
         "b": "XPS measurements of the Ge 3d core level were performed at  15\u00b0 photoelectron takeoff angles for samples with a 1 nm ALD-grown Al\u2082O\u2083 capping layer on Ge:H (black), GeO\u2093 (3 \u00c5)/Ge (red), and GeO\u2093 (5 \u00c5)/Ge (blue) surfaces. The chemical shifts corresponding to different Ge oxidation states are indicated below the spectra."
     },
     "data_extraction": {
-        "a": "| Binding Energy (eV) | Intensity (a.u.) | Oxidation State |\n|---|---|---|\n| 34 | 8.7 | +4 |\n| 33 | 4.2 | +3 |\n| 32 | 2.4 | +2 |\n| 31 | 1.2 | +1 |\n| 30 | 5.1 | 0 |\n| 29 | 0.0 | 0 |\n| 28 | 0.0 | 0 |",
-        "b": "| Binding Energy (eV) | Intensity (a.u.) | Oxidation State |\n|---|---|---|\n| 34 | 8.6 | +4 |\n| 33 | 4.6 | +3 |\n| 32 | 0.4 | +2 |\n| 31 | 0.8 | +1 |\n| 30 | 5.1 | 0 |\n| 29 | 0.0 | 0 |\n| 28 | 0.0 | 0 |"
+      "a": "| Binding Energy (eV) | Intensity (a.u.) | Oxidation State |\n| --- | --- | --- |\n| 34 | 8.7 | +4 |\n| 33 | 4.2 | +3 |\n| 32 | 2.4 | +2 |\n| 31 | 1.2 | +1 |\n| 30 | 5.1 | 0 |\n| 29 | 0.0 | 0 |\n| 28 | 0.0 | 0 |",
+      "b": "| Binding Energy (eV) | Intensity (a.u.) | Oxidation State |\n| --- | --- | --- |\n| 34 | 8.6 | +4 |\n| 33 | 4.6 | +3 |\n| 32 | 0.4 | +2 |\n| 31 | 0.8 | +1 |\n| 30 | 5.1 | 0 |\n| 29 | 0.0 | 0 |\n| 28 | 0.0 | 0 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The chart displays the XPS spectra of three samples (AlO - PO (1-1), AlO - PO (1-3), AlO - PO (1-6)) for the Al 2p region."
     },
     "data_extraction": {
-        "a": "| Sample | Binding Energy (eV) |\n|---|---|\n| AlO - PO (1-6) | Peak at 76 |\n| AlO - PO (1-3) | Peak at 75 |\n| AlO - PO (1-1) | Peak at 74 |"
+      "a": "| Sample | Binding Energy (eV) |\n| --- | --- |\n| AlO - PO (1-6) | Peak at 76 |\n| AlO - PO (1-3) | Peak at 75 |\n| AlO - PO (1-1) | Peak at 74 |"
     },
     "vqa": {
         "a": [

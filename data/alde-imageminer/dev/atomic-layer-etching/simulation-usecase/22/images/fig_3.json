@@ -7,7 +7,7 @@
         "a": "The bar chart illustrates the number of ALE reports per year from 1988 to 2014, showing a significant increase during the 'Resurgence' period (between 2006 and 2014)."
     },
     "data_extraction": {
-        "a": "| Year | Number of ALE Reports Per Year |\n|---|---|\n| 1988 | 2 |\n| 1990 | 4 |\n| 1992 | 15 |\n| 1994 | 16 |\n| 1996 | 8 |\n| 1998 | 7 |\n| 2000 | 8 |\n| 2002 | 8 |\n| 2004 | 5 |\n| 2006 | 17 |\n| 2008 | 22 |\n| 2010 | 5 |\n| 2012 | 28 |\n| 2014 | 55 |"
+      "a": "| Year | Number of ALE Reports Per Year |\n| --- | --- |\n| 1988 | 2 |\n| 1990 | 4 |\n| 1992 | 15 |\n| 1994 | 16 |\n| 1996 | 8 |\n| 1998 | 7 |\n| 2000 | 8 |\n| 2002 | 8 |\n| 2004 | 5 |\n| 2006 | 17 |\n| 2008 | 22 |\n| 2010 | 5 |\n| 2012 | 28 |\n| 2014 | 55 |"
     },
     "vqa": {
         "a": [

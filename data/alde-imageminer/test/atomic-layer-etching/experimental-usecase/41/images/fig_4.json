@@ -11,9 +11,9 @@
         "c": "F 1s peak area as a function of removal temperature, remaining high up to ~120 \u00b0C, dropping sharply near 140 \u00b0C, and becoming negligible above 150 \u00b0C."
     },
     "data_extraction": {
-        "a": "| Binding Energy (eV) | Major Peak Assignment |\n|----------------------|-----------------------|\n| ~456.0               | TiN                  |\n| ~457.0               | TiOxNy               |\n| ~458.2               | TiO2                 |\n| ~462.0               | TiN                  |\n| ~464.0               | TiO2                 |",
-        "b": "| Binding Energy (eV) | Peak Assignment | Observation |\n|----------------------|----------------|-------------|\n| ~685.0               | 80\u00b0C,100\u00b0C,120\u00b0C   | Highest Peak intensity |\n| ~685.0               | 140\u00b0C,150\u00b0C,180\u00b0C,200\u00b0C  | Lowest Peak intensity (near baseline) |",
-        "c": "| Temperature (\u00b0C) | F1s peak area (A.U.) |\n|------------------|----------------------|\n| 80               | 17000                |\n| 100              | 17500                |\n| 120              | 16000                |\n| 140              | 2500                 |\n| 160              | 0                    |\n| 180              | 0                    |\n| 200              | 0                    |"
+      "a": "| Binding Energy (eV) | Major Peak Assignment |\n| --- | --- |\n| ~456.0 | TiN |\n| ~457.0 | TiOxNy |\n| ~458.2 | TiO2 |\n| ~462.0 | TiN |\n| ~464.0 | TiO2 |",
+      "b": "| Binding Energy (eV) | Peak Assignment | Observation |\n| --- | --- | --- |\n| ~685.0 | 80\u00b0C,100\u00b0C,120\u00b0C | Highest Peak intensity |\n| ~685.0 | 140\u00b0C,150\u00b0C,180\u00b0C,200\u00b0C | Lowest Peak intensity (near baseline) |",
+      "c": "| Temperature (\u00b0C) | F1s peak area (A.U.) |\n| --- | --- |\n| 80 | 17000 |\n| 100 | 17500 |\n| 120 | 16000 |\n| 140 | 2500 |\n| 160 | 0 |\n| 180 | 0 |\n| 200 | 0 |"
     },
     "vqa": {
         "a": [

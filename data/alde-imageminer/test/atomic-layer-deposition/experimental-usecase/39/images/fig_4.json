@@ -7,7 +7,7 @@
         "a": "The line chart illustrates the change in QCM mass gain over time, showing a stepwise increase at regular intervals."
     },
     "data_extraction": {
-        "a": "| Time (s) | QCM: Mass gain (Hz) |\n|---|---|\n| 0 | 0 |\n| 100 | 10 |\n| 200 | 18 |\n| 300 | 25 |\n| 400 | 32 |"
+      "a": "| Time (s) | QCM: Mass gain (Hz) |\n| --- | --- |\n| 0 | 0 |\n| 100 | 10 |\n| 200 | 18 |\n| 300 | 25 |\n| 400 | 32 |"
     },
     "vqa": {
         "a": [

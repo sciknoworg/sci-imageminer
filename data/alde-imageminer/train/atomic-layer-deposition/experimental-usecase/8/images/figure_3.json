@@ -11,9 +11,9 @@
         "c": "The line chart demonstrates the increase in thickness with the number of cycles. There's a linear relationship indicating that more cycles lead to thicker layers."
     },
     "data_extraction": {
-        "a": "| T<sub>dep</sub> (\u00b0C) | GPC (\u00c5/cycle) |\n|---|---|\n| 210 | 6.8 |\n| 220 | 6.5 |\n| 230 | 6.0 |\n| 240 | 5.5 |",
-        "b": "| Pulse length (s) | GPC (\u00c5/cycle) |\n|---|---|\n| 1 | 5.7 |\n| 2 | 6.5 |\n| 3 | 7.0 |\n| 4 | 7.2 |\n| 5 | 7.3 |",
-        "c": "| Cycles | Thickness (nm) |\n|---|---|\n| 50 | 50 |\n| 100 | 75 |\n| 150 | 100 |"
+      "a": "| T<sub>dep</sub> (\u00b0C) | GPC (\u00c5/cycle) |\n| --- | --- |\n| 210 | 6.8 |\n| 220 | 6.5 |\n| 230 | 6.0 |\n| 240 | 5.5 |",
+      "b": "| Pulse length (s) | GPC (\u00c5/cycle) |\n| --- | --- |\n| 1 | 5.7 |\n| 2 | 6.5 |\n| 3 | 7.0 |\n| 4 | 7.2 |\n| 5 | 7.3 |",
+      "c": "| Cycles | Thickness (nm) |\n| --- | --- |\n| 50 | 50 |\n| 100 | 75 |\n| 150 | 100 |"
     },
     "vqa": {
         "c": [

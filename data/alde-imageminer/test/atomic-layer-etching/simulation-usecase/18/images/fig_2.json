@@ -7,7 +7,7 @@
         "a": "The figure shows a bar chart of the number of atoms at various coordination numbers for oxygen (O) and hafnium (Hf). Oxygen has a higher count at coordination numbers 3, while hafnium shows a peak at coordination number 7."
     },
     "data_extraction": {
-        "a": "| Coordination Number | O | Hf |\n|---|---|---|\n| 2 | 3 | - |\n| 3 | 98 | - |\n| 4 | 42 | - |\n| 5 | - | 2 |\n| 6 | - | 32 |\n| 7 | - | 34 |\n| 8 | - | 4 |"
+      "a": "| Coordination Number | O | Hf |\n| --- | --- | --- |\n| 2 | 3 | - |\n| 3 | 98 | - |\n| 4 | 42 | - |\n| 5 | - | 2 |\n| 6 | - | 32 |\n| 7 | - | 34 |\n| 8 | - | 4 |"
     },
     "vqa": {
         "a": [

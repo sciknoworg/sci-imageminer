@@ -7,7 +7,7 @@
         "a": "The line chart shows the weight percentage (Wt %) of  Al (DEA)_3 and Al (DIA)_3, as a function of temperature. Both compounds exhibit a sharp decrease in weight percentage starting around 200\u00b0C, with Al (DEA)_3 having a slightly higher initial weight percentage."
     },
     "data_extraction": {
-        "a": "| Temperature | Al (DEA)_3 | Al (DIA)_3 |\n|---|---|---|\n| 0 | 100 | 100 |\n| 100 | 100 | 100 |\n| 200 | 95 | 55 |\n| 300 | 12 | 15 |\n| 400 | 10 | 12 |\n| 500 | 10 | 10 |\n| 600 | 10 | 10 |"
+      "a": "| Temperature | Al (DEA)_3 | Al (DIA)_3 |\n| --- | --- | --- |\n| 0 | 100 | 100 |\n| 100 | 100 | 100 |\n| 200 | 95 | 55 |\n| 300 | 12 | 15 |\n| 400 | 10 | 12 |\n| 500 | 10 | 10 |\n| 600 | 10 | 10 |"
     },
     "vqa": {
         "a": [

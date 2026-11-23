@@ -7,7 +7,7 @@
         "a": "The chart shows the relationship between the number of cycles and film thickness, indicating a linear increase for both TaN x,x\u2a7d1 and Ta3N5."
     },
     "data_extraction": {
-        "a": "| Number of cycles | TaN | Ta3N5 |\n|------------------|--------------------|--------------------|\n| 0                | 0                  | 0                  |\n| 100              | 5                  | 6                  |\n| 200              | 10                 | 12                  |\n| 300              | 15                 | 17                  |\n| 400              | 20                 | 15                  |\n| 500              | 25                 | 30                  |\n| 600              | 30                 | 35                  |\n| 700              | 35                 | 40                  |"
+      "a": "| Number of cycles | TaN | Ta3N5 |\n| --- | --- | --- |\n| 0 | 0 | 0 |\n| 100 | 5 | 6 |\n| 200 | 10 | 12 |\n| 300 | 15 | 17 |\n| 400 | 20 | 15 |\n| 500 | 25 | 30 |\n| 600 | 30 | 35 |\n| 700 | 35 | 40 |"
     },
     "vqa": {
         "a": [

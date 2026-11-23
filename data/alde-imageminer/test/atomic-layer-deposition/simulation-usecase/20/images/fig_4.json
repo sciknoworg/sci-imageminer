@@ -7,7 +7,7 @@
         "a": "The line chart shows the relationship between gap size and relative intermixing ratio at two positions, B and C"
     },
     "data_extraction": {
-        "a": "| Gap size (mm) | Position B (Ratio) | Position C (Ratio) |\n|---|---|---|\n| 1.0 | 0.005 | 0.250 |\n| 1.5 | 0.001 | 0.060 |\n| 2.0 | 0.000 | 0.030 |"
+      "a": "| Gap size (mm) | Position B (Ratio) | Position C (Ratio) |\n| --- | --- | --- |\n| 1.0 | 0.005 | 0.250 |\n| 1.5 | 0.001 | 0.060 |\n| 2.0 | 0.000 | 0.030 |"
     },
     "vqa": {
         "a": [

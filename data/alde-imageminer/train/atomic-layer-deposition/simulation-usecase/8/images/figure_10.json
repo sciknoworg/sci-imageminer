@@ -9,8 +9,8 @@
         "b": "The chart illustrates the mass deposited over time during a ZnO ALD process according to experimental data. It includes labeled phases such as 'Dose DEZ', 'Purge', 'Dose H<sub>2</sub>O', and 'Purge'."
     },
     "data_extraction": {
-        "a": "|Time (s)| Mass deposited / ng cm<sup>-2</sup> | \n|---|---|\n| 0.0 | 155 |\n|0.4| 155 |\n|0.8|160|\n|1.2|155|\n|1.6|155|",
-        "b": "|Time (s)| Mass deposited / ng cm<sup>-2</sup> | \n|---|---|\n| 0 | 120 |\n|2| 115 |\n|4|115|\n|6|110|\n|7|120|\n|8|115|\n|10|115|\n|12|115|"
+      "a": "| Time (s) | Mass deposited / ng cm<sup>-2</sup> |\n| --- | --- |\n| 0.0 | 155 |\n| 0.4 | 155 |\n| 0.8 | 160 |\n| 1.2 | 155 |\n| 1.6 | 155 |",
+      "b": "| Time (s) | Mass deposited / ng cm<sup>-2</sup> |\n| --- | --- |\n| 0 | 120 |\n| 2 | 115 |\n| 4 | 115 |\n| 6 | 110 |\n| 7 | 120 |\n| 8 | 115 |\n| 10 | 115 |\n| 12 | 115 |"
     },
     "vqa": {
         "b": [

@@ -7,7 +7,7 @@
         "a": "The image presents a series of reaction schemes illustrating the interaction between various forms of graphene (pristine, epoxydized, hydroxylated, and GO mixture) with AlMe\u2083, along with the corresponding energy changes in electron volts (eV)."
     },
     "data_extraction": {
-        "a": "| Surface Type | E_ads before (eV) | E_ads after (eV) |\n|---|---|---|\n| Pristine Graphene | -0.53 | 1.84 |\n| Epoxydized GO | -1.70 | -7.37 |\n| Hydroxylated GO | -0.45 | -2.67 |\n| GO Mixture | -0.61 | -5.33 |\n| HG Stirrup Conformation | -0.54 | -2.23 |\n| HG Honeycomb Conformation | -0.44 | -1.39 |"
+      "a": "| Surface Type | E_ads before (eV) | E_ads after (eV) |\n| --- | --- | --- |\n| Pristine Graphene | -0.53 | 1.84 |\n| Epoxydized GO | -1.70 | -7.37 |\n| Hydroxylated GO | -0.45 | -2.67 |\n| GO Mixture | -0.61 | -5.33 |\n| HG Stirrup Conformation | -0.54 | -2.23 |\n| HG Honeycomb Conformation | -0.44 | -1.39 |"
     },
     "vqa": {
         "a": [

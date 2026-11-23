@@ -7,7 +7,7 @@
         "a": "The chart shows the number of Al atoms added per unit area (Al/nm\u00b2) over cycles for both Al<sub>2</sub>O<sub>3</sub> experiment and model, and SiO<sub>2</sub> experiment and model. The Al<sub>2</sub>O<sub>3</sub> experiment and model exhibit a more similar trend, while the SiO<sub>2</sub> experiment and model deviate more from each other."
     },
     "data_extraction": {
-        "a": "| Cycle | Al<sub>2</sub>O<sub>3</sub> Experiment | SiO<sub>2</sub> Experiment | Al<sub>2</sub>O<sub>3</sub> Model | SiO<sub>2</sub> Model |\n|---|---|---|---|---|\n| 1 | 2.5 | 4.5 | 2.8 | 2.4 |\n| 2 | 3.2 | 2.4 | 3.4 | 2.4 |\n| 3 | 3.4 | 2.7 | 3.2 | 2.1 |\n| 4 | 3.2 |- | 3.4 | 2.4 |\n| 5 | 3.6 | - | 3.9 | 2.6 |\n| 6 | 3.3 | 2.9 | 3.7 | 2.5 |\n| 7 | 3.3 | - | 3.7 | 2.7 |\n| 8 | 3.4 | 3.2 | 4.1 | 2.9 |\n| 9 | 3.4 | - | 3.9 | 3.0 |\n| 10 | 3.3 | - | 3.9 | 3.1 |\n| 11 | - | 3.8 | - | - |"
+      "a": "| Cycle | Al<sub>2</sub>O<sub>3</sub> Experiment | SiO<sub>2</sub> Experiment | Al<sub>2</sub>O<sub>3</sub> Model | SiO<sub>2</sub> Model |\n| --- | --- | --- | --- | --- |\n| 1 | 2.5 | 4.5 | 2.8 | 2.4 |\n| 2 | 3.2 | 2.4 | 3.4 | 2.4 |\n| 3 | 3.4 | 2.7 | 3.2 | 2.1 |\n| 4 | 3.2 | - | 3.4 | 2.4 |\n| 5 | 3.6 | - | 3.9 | 2.6 |\n| 6 | 3.3 | 2.9 | 3.7 | 2.5 |\n| 7 | 3.3 | - | 3.7 | 2.7 |\n| 8 | 3.4 | 3.2 | 4.1 | 2.9 |\n| 9 | 3.4 | - | 3.9 | 3.0 |\n| 10 | 3.3 | - | 3.9 | 3.1 |\n| 11 | - | 3.8 | - | - |"
     },
     "vqa": {
         "a": [

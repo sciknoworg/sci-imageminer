@@ -7,7 +7,7 @@
         "a": "The figure shows the growth rate (\u00c5/cycle)  as a function of the Lithd pulse length (s). The growth rate increases linearly with increasing lithd pulse length."
     },
     "data_extraction": {
-        "a": "| Lithd pulse length / s | Growth rate / \u00c5 / cycle |\n|---|---|\n| 1 | 0.75 \u00b1 0.05 |\n| 2 | 1.00 \u00b1 0.05 |\n| 3 | 1.05 \u00b1 0.05 |\n| 4 | 1.10 \u00b1 0.05 |"
+      "a": "| Lithd pulse length / s | Growth rate / \u00c5 / cycle |\n| --- | --- |\n| 1 | 0.75 \u00b1 0.05 |\n| 2 | 1.00 \u00b1 0.05 |\n| 3 | 1.05 \u00b1 0.05 |\n| 4 | 1.10 \u00b1 0.05 |"
     },
     "vqa": {
         "a": [

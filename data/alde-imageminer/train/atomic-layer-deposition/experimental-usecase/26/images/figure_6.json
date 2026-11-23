@@ -7,7 +7,7 @@
         "a": "The line chart displays a direct linear relationship between the number of ALD cycles and ITO film thickness, demonstrating consistent film growth per cycle."
     },
     "data_extraction": {
-        "a": "| ALD Cycles | ITO Thickness (\u00c5) |\n|------------|-------------------|\n| 0          | 0                 |\n| 100        | 200               |\n| 200        | 400               |\n| 300        | 600               |\n| 400        | 800               |\n| 500        | 1000              |\n| 600        | 1200              |\n| 700        | 1400              |\n| 800        | 1600              |\n| 900        | 1800              |\n| 1000       | 2000              |"
+      "a": "| ALD Cycles | ITO Thickness (\u00c5) |\n| --- | --- |\n| 0 | 0 |\n| 100 | 200 |\n| 200 | 400 |\n| 300 | 600 |\n| 400 | 800 |\n| 500 | 1000 |\n| 600 | 1200 |\n| 700 | 1400 |\n| 800 | 1600 |\n| 900 | 1800 |\n| 1000 | 2000 |"
     },
     "vqa": {
         "a": [

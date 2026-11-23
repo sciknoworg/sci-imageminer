@@ -7,7 +7,7 @@
         "a": "The figure displays the absorbance spectra of AlN ALD samples prepared using TDMAA & NH\u2083 at 400\u00b0C, with varying cycles (40, 80, 120, and 160)."
     },
     "data_extraction": {
-        "a": "| Wavenumber (cm\u207b\u00b9) | 160 cycles | 120 cycles | 80 cycles | 40 cycles |\n|---|---|---|---|---|\n| 1400 | - | - | - | - |\n| 1200 | - | - | - | - |\n| 1000 | peak at 1880 cm-1 | peak at 1880 cm-1 | peak at 1880 cm-1 | peak at 1880 cm-1 |\n| 800 | - | - | - | - |\n| 600 | peak at 645 cm-1| peak at 645 cm-1 | peak at 645 cm-1 | peak at 645 cm-1 |\n| 400 | - | - | - | - |"
+      "a": "| Wavenumber (cm-\u00b9) | 160 cycles | 120 cycles | 80 cycles | 40 cycles |\n| --- | --- | --- | --- | --- |\n| 1400 | - | - | - | - |\n| 1200 | - | - | - | - |\n| 1000 | peak at 1880 cm-1 | peak at 1880 cm-1 | peak at 1880 cm-1 | peak at 1880 cm-1 |\n| 800 | - | - | - | - |\n| 600 | peak at 645 cm-1 | peak at 645 cm-1 | peak at 645 cm-1 | peak at 645 cm-1 |\n| 400 | - | - | - | - |"
     },
     "vqa": {
         "a": [

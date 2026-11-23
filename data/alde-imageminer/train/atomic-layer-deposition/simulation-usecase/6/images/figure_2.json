@@ -7,7 +7,7 @@
         "a": "The chart shows the thickness of TiO2 ALD deposited on PMMA and silicon substrates as a function of the number of cycles, showing cycle dependent GPCs."
     },
     "data_extraction": {
-        "a": "| Number of cycles | Thickness (\u00c5) on PMMA |Thickness (\u00c5) on silicon |\n|------------------|---------------|---------------|\n| 0               | 0             |0|\n| 100             | 150           |75|\n| 150             | 250           |100|\n| 200             | 300           |120|\n| 250             | 350           |150|\n| 300             | 360           |160|\n| 400             | 400           |200|\n| 500             | 450           |250|"
+      "a": "| Number of cycles | Thickness (\u00c5) on PMMA | Thickness (\u00c5) on silicon |\n| --- | --- | --- |\n| 0 | 0 | 0 |\n| 100 | 150 | 75 |\n| 150 | 250 | 100 |\n| 200 | 300 | 120 |\n| 250 | 350 | 150 |\n| 300 | 360 | 160 |\n| 400 | 400 | 200 |\n| 500 | 450 | 250 |"
     },
     "vqa": {
         "a": [

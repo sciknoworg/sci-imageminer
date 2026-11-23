@@ -9,8 +9,8 @@
         "b": "The growth per cycle remains constant at approximately 0.05 nm/cycle across various H2O doses ranging from 0 ms to 350 ms."
     },
     "data_extraction": {
-        "a": "| TiCl4 dose (ms) | Growth per cycle (nm/cycle) |\n|---|---|\n| 0 | 0.00 |\n| 50 | 0.05 |\n| 100 | 0.05 |\n| 150 | 0.05 |\n| 200 | 0.05 |\n| 250 | 0.05 |\n| 300 | 0.05 |\n| 350 | 0.05 |",
-        "b": "| H2O Dose (ms) | Growth per cycle (nm/cycle) |\n|---|---|\n| 0 | 0.00 |\n| 50 | 0.04 |\n| 100 | 0.05 |\n| 150 | 0.05 |\n| 200 | 0.05 |\n| 250 | 0.05 |\n| 300 | 0.05 |\n| 350 | 0.05 |"
+      "a": "| TiCl4 dose (ms) | Growth per cycle (nm/cycle) |\n| --- | --- |\n| 0 | 0.00 |\n| 50 | 0.05 |\n| 100 | 0.05 |\n| 150 | 0.05 |\n| 200 | 0.05 |\n| 250 | 0.05 |\n| 300 | 0.05 |\n| 350 | 0.05 |",
+      "b": "| H2O Dose (ms) | Growth per cycle (nm/cycle) |\n| --- | --- |\n| 0 | 0.00 |\n| 50 | 0.04 |\n| 100 | 0.05 |\n| 150 | 0.05 |\n| 200 | 0.05 |\n| 250 | 0.05 |\n| 300 | 0.05 |\n| 350 | 0.05 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The chart shows the relationship between growth temperature and two variables: hydrogen content (in at.%) and oxygen-to-aluminum atom ratio (O/Al). Hydrogen content shows a negative correlation with growth temperature, and the O/Al ratio shows no correlation."
     },
     "data_extraction": {
-        "a": "| Growth Temperature (\u00b0C) | H (atom %) | O/Al atom ratio |\n|---|---|---|\n| 32 | 21,86 | 1,66 |\n| 57 | 19,37 | 1,29 |\n| 79 | 15,99 | 1,41 |\n| 101 | 14,51 | 1,37 |\n| 124 | 10,80 | 1,36 |\n| 177 | 7,09 | 1,42 |"
+      "a": "| Growth Temperature (\u00b0C) | H (atom %) | O/Al atom ratio |\n| --- | --- | --- |\n| 32 | 21,86 | 1,66 |\n| 57 | 19,37 | 1,29 |\n| 79 | 15,99 | 1,41 |\n| 101 | 14,51 | 1,37 |\n| 124 | 10,80 | 1,36 |\n| 177 | 7,09 | 1,42 |"
     },
     "vqa": {
         "a": [

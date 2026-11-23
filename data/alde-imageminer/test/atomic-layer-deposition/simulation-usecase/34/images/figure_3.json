@@ -11,9 +11,9 @@
         "c": "The chart displays the width of the Raman 2D band for different exposure times of H\u2082 and O\u2082 plasmas."
     },
     "data_extraction": {
-        "a": "| Plasma time (min) | D/D' ratio H2 plasma | D/D' ratio O2 plasma |\n|---|---|---|\n| 1 |  | 10 |\n| 2 | 12.5 | 10 |\n| 3 | 9.5 | 6.5 |\n| 4 | 11 |  |\n| 5 | 10 | 5 |\n| 6 | 10 |  |\n| 7 |  |  |\n| 8 | 9.5 |  |",
-        "b": "| Plasma Time (min) | Width G (cm\u207b\u00b9) H2 plasma | Width G (cm\u207b\u00b9) O2 plasma |\n|---|---|---|\n| 0 | 10 | 10 |\n| 1 |  | 20 |\n| 2 | 10 | 25 |\n| 3 | 15 | 40 |\n| 4 | 15 |  |\n| 5 | 15 | 45 |\n| 6 | 20 |  |\n| 7 |  |  |\n| 8 | 25 |  |",
-        "c": "| Plasma Time (min) | Width 2D (cm\u207b\u00b9) H2 plasma | Width 2D (cm\u207b\u00b9) O2 plasma |\n|---|---|---|\n| 0 | 35 | 35 |\n| 1 |  | 50 |\n| 2 | 35 | 50 |\n| 3 | 35 | 70 |\n| 4 | 35 |  |\n| 5 | 40 | 110 |\n| 6 | 40 |  |\n| 7 |  |  |\n| 8 | 45 |  |"
+      "a": "| Plasma time (min) | D/D' ratio H2 plasma | D/D' ratio O2 plasma |\n| --- | --- | --- |\n| 1 |  | 10 |\n| 2 | 12.5 | 10 |\n| 3 | 9.5 | 6.5 |\n| 4 | 11 |  |\n| 5 | 10 | 5 |\n| 6 | 10 |  |\n| 7 |  |  |\n| 8 | 9.5 |  |",
+      "b": "| Plasma Time (min) | Width G (cm-\u00b9) H2 plasma | Width G (cm-\u00b9) O2 plasma |\n| --- | --- | --- |\n| 0 | 10 | 10 |\n| 1 |  | 20 |\n| 2 | 10 | 25 |\n| 3 | 15 | 40 |\n| 4 | 15 |  |\n| 5 | 15 | 45 |\n| 6 | 20 |  |\n| 7 |  |  |\n| 8 | 25 |  |",
+      "c": "| Plasma Time (min) | Width 2D (cm-\u00b9) H2 plasma | Width 2D (cm-\u00b9) O2 plasma |\n| --- | --- | --- |\n| 0 | 35 | 35 |\n| 1 |  | 50 |\n| 2 | 35 | 50 |\n| 3 | 35 | 70 |\n| 4 | 35 |  |\n| 5 | 40 | 110 |\n| 6 | 40 |  |\n| 7 |  |  |\n| 8 | 45 |  |"
     },
     "vqa": {
         "a": [

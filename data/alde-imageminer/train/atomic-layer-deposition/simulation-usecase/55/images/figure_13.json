@@ -7,7 +7,7 @@
         "a": "The figure shows growth per cycle during ALD at 150 \u00b0C and 300 \u00b0C. Growth decreases during the first few cycles at both temperatures. After this, growth increases with cycle number. The increase is stronger at 300 \u00b0C than at 150 \u00b0C."
     },
     "data_extraction": {
-        "a": "| ALD cycles | Growth per cycle (\u00c5), 150 \u00b0C | Growth per cycle (\u00c5), 300 \u00b0C |\n|---|---|---|\n| 1 | ~0.11 | ~0.08 |\n| 2 | ~0.04 | ~0.07 |\n| 3 | ~0.03 | ~0.15 |\n| 4 | ~0.10 | ~0.13 |\n| 5 | ~0.10 | ~0.18 |\n| 6 | ~0.14 | ~0.17 |\n| 7 | ~0.23 | ~0.30 |\n| 8 | ~0.21 | ~0.38 |"
+      "a": "| ALD cycles | Growth per cycle (\u00c5), 150 \u00b0C | Growth per cycle (\u00c5), 300 \u00b0C |\n| --- | --- | --- |\n| 1 | ~0.11 | ~0.08 |\n| 2 | ~0.04 | ~0.07 |\n| 3 | ~0.03 | ~0.15 |\n| 4 | ~0.10 | ~0.13 |\n| 5 | ~0.10 | ~0.18 |\n| 6 | ~0.14 | ~0.17 |\n| 7 | ~0.23 | ~0.30 |\n| 8 | ~0.21 | ~0.38 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The energy diagram depicts the stepwise decomposition of B2H6 on Ti-terminated TiN (111), beginning with B2H6* adsorption at -4.46 eV and proceeding through sequential B-B and B-H bond cleavages. Activation energies range from 0.07 eV (BH3* to BH2*) to 0.93 eV (BH* to B*), with the final B-H dissociation being the rate-determining step. The overall reaction is exothermic, ending at -5.34 eV for adsorbed B*."
     },
     "data_extraction": {
-        "a": "| Reaction Step (Species) | Energy (eV) |\n|---|---|\n| B2H6* | -4.46 |\n| Transition State (B-B) | 0.74 |\n| BH3* | -4.10 |\n| Transition State (B-H) | 0.07 |\n| BH2* | -4.88 |\n| Transition State (B-H) | 0.61 |\n| BH* | -5.00 |\n| Transition State (B-H) | 0.93 |\n| B* | -5.34 |"
+      "a": "| Reaction Step (Species) | Energy (eV) |\n| --- | --- |\n| B2H6* | -4.46 |\n| Transition State (B-B) | 0.74 |\n| BH3* | -4.10 |\n| Transition State (B-H) | 0.07 |\n| BH2* | -4.88 |\n| Transition State (B-H) | 0.61 |\n| BH* | -5.00 |\n| Transition State (B-H) | 0.93 |\n| B* | -5.34 |"
     },
     "vqa": {
         "a": [

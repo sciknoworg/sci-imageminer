@@ -9,8 +9,8 @@
         "b": "The growth per cycle shows a slight increase with increasing Co precursor dosing time, but remains relatively stable"
     },
     "data_extraction": {
-        "a": "| Li precursor dosing time (s) | Growth per cycle (nm) |\n|---|---|\n| 0 | 0.00 |\n| 0.5 | 0.08 |\n| 1 | 0.10 |\n| 2 | 0.12 |\n| 3 | 0.12 |",
-        "b": "| Co precursor dosing time (s) | Growth per cycle (nm) |\n|---|---|\n| 0 | 0.00 |\n| 0.5 | 0.08 |\n| 1 | 0.09 |\n| 2 | 0.08 |\n| 3 | 0.10 |"
+      "a": "| Li precursor dosing time (s) | Growth per cycle (nm) |\n| --- | --- |\n| 0 | 0.00 |\n| 0.5 | 0.08 |\n| 1 | 0.10 |\n| 2 | 0.12 |\n| 3 | 0.12 |",
+      "b": "| Co precursor dosing time (s) | Growth per cycle (nm) |\n| --- | --- |\n| 0 | 0.00 |\n| 0.5 | 0.08 |\n| 1 | 0.09 |\n| 2 | 0.08 |\n| 3 | 0.10 |"
     },
     "vqa": {
         "a": [

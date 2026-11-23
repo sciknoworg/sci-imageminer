@@ -7,7 +7,7 @@
         "a": "The scatter plot shows the relationship between the number of Cl\u2082 impacts and etch per cycle.  The EPC initially increases rapidly with chlorine dose due to incomplete surface coverage, then saturates beyond ~1000 Cl\u2082 i impacts at ~0.9 \u00c5/cycle. This plateau demonstrates the self-limiting behavior of ideal atomic layer etching, where additional chlorine does not increase material removal once the surface is fully chlorinated."
     },
     "data_extraction": {
-        "a": "| Number of Cl\u2082 Impacts | Etch per Cycle (\u00c5/cycle) |\n|----------------------|--------------------------:|\n| 0                    | 14.52                     |\n| 110                  | 0.53                      |\n| 250                  | 0.68                      |\n| 500                  | 0.84                      |\n| 1000                 | 0.85                      |\n| 2265                 | 0.89                      |\n| 3000                 | 0.92                      |"
+      "a": "| Number of Cl\u2082 Impacts | Etch per Cycle (\u00c5/cycle) |\n| --- | --- |\n| 0 | 14.52 |\n| 110 | 0.53 |\n| 250 | 0.68 |\n| 500 | 0.84 |\n| 1000 | 0.85 |\n| 2265 | 0.89 |\n| 3000 | 0.92 |"
     },
     "vqa": {
         "a": [

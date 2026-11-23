@@ -9,8 +9,8 @@
         "b": "This image shows Atomic Layer Etching (ALE) saturation curves for a sequential, two-step Sn(acac)\u2082\u202f/\u202fHF thermal etching process of a metal oxide (likely SnO\u2082). It demonstrates the self-limiting nature of ALE: each reactant exposure saturates, leading to a constant etch rate per cycle once a sufficient exposure dose is reached. Etch rate vs Sn(acac)\u2082 exposure with HF exposure fixed at 1270 mTorr. s."
     },
     "data_extraction": {
-        "a": "| Exposure (mTorr\u00b7s) | Etch Rate (\u00c5/cycle) |\n|---|---|\n| 0 | 0.0 |\n| 300 | 0.1 |\n| 600 | 0.2 |\n| 900 | 0.3 |\n| 1200 | 0.35 |\n| 1500 | 0.35 |\n| 1800 | 0.4 |",
-        "b": "| Exposure (mTorr\u00b7s) | Etch Rate (\u00c5/cycle) |\n|---|---|\n| 0 | 0.0 |\n| 200 | 0.14 |\n| 400 | 0.23 |\n| 600 | 0.26 |\n| 800 | 0.32 |\n| 1000 | 0.35 |\n| 1200 | 0.35 |"
+      "a": "| Exposure (mTorr\u00b7s) | Etch Rate (\u00c5/cycle) |\n| --- | --- |\n| 0 | 0.0 |\n| 300 | 0.1 |\n| 600 | 0.2 |\n| 900 | 0.3 |\n| 1200 | 0.35 |\n| 1500 | 0.35 |\n| 1800 | 0.4 |",
+      "b": "| Exposure (mTorr\u00b7s) | Etch Rate (\u00c5/cycle) |\n| --- | --- |\n| 0 | 0.0 |\n| 200 | 0.14 |\n| 400 | 0.23 |\n| 600 | 0.26 |\n| 800 | 0.32 |\n| 1000 | 0.35 |\n| 1200 | 0.35 |"
     },
     "vqa": {
         "a": [

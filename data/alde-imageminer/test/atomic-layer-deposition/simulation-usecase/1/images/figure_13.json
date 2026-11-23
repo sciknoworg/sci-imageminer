@@ -13,10 +13,10 @@
         "d": "Molecular structure of the final product, illustrating the optimized bond lengths and geometry after reaction completion."
     },
     "data_extraction": {
-        "a": "|Reaction Coordinates|Relative Energy (kcal/mol)|\n|--------------------|--------------------------|\n|H\u2082O + (HO)\u2082SiO(OH)\u2082|0.0|\n|Adsorbed H\u2082O on Ti\u2212O1/H\u2212O2|-5.8|\n|Metastable Intermediate (M)|8.5|\n|Product (HI + SiO2)|-13.0|",
-        "b": "|Atom|Bond Length (\u00c5)|\n|----|---------------|\n|Ti|O1: 2.26|\n|H|O2: 1.90|",
-        "c": "|Atom|Bond Length (\u00c5)|\n|----|---------------|\n|Si|O: 1.85|\n|H|O: 1.90|",
-        "d": "|Atom|Bond Length (\u00c5)|\n|----|---------------|\n|Si|O: 1.64|\n|H|O: 1.90|"
+      "a": "| Reaction Coordinates | Relative Energy (kcal/mol) |\n| --- | --- |\n| H\u2082O + (HO)\u2082SiO(OH)\u2082 | 0.0 |\n| Adsorbed H\u2082O on Ti-O1/H-O2 | -5.8 |\n| Metastable Intermediate (M) | 8.5 |\n| Product (HI + SiO2) | -13.0 |",
+      "b": "| Atom | Bond Length (\u00c5) |\n| --- | --- |\n| Ti | O1: 2.26 |\n| H | O2: 1.90 |",
+      "c": "| Atom | Bond Length (\u00c5) |\n| --- | --- |\n| Si | O: 1.85 |\n| H | O: 1.90 |",
+      "d": "| Atom | Bond Length (\u00c5) |\n| --- | --- |\n| Si | O: 1.64 |\n| H | O: 1.90 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The figure shows the thickness of two TiO2 layers over super-cycles. Both layers are grown on Si-H and are grown at two different precursor exposure times (90/270 ms for TiCl4/H2O, and 270/90 ms for TiCl4/H2O, respectively)."
     },
     "data_extraction": {
-        "a": "| Super-Cycles | Thickness (nm) 0.09 / 45 / 0.27 / 45 s | Thickness (nm) 0.27 / 45 / 0.09 / 45 s |\n|---|---|---|\n| 0 | 1.0 | 0 |\n| 3 | 1.25 | 0.25 |\n| 6 | 1.5 | 0.25 |\n| 9 | 1.5 | 0.25 |\n| 12 | 2.0 | 0.5 |\n| 15 | 2.5 | 0.5 |"
+      "a": "| Super-Cycles | Thickness (nm) 0.09 / 45 / 0.27 / 45 s | Thickness (nm) 0.27 / 45 / 0.09 / 45 s |\n| --- | --- | --- |\n| 0 | 1.0 | 0 |\n| 3 | 1.25 | 0.25 |\n| 6 | 1.5 | 0.25 |\n| 9 | 1.5 | 0.25 |\n| 12 | 2.0 | 0.5 |\n| 15 | 2.5 | 0.5 |"
     },
     "vqa": {
         "a": [

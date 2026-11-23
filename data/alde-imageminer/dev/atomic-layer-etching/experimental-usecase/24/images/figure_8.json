@@ -9,8 +9,8 @@
         "b": "The line chart shows MCPC as a function of temperature. MCPC decreases steadily with increasing temperature, indicating a larger net mass loss per cycle at higher temperatures."
     },
     "data_extraction": {
-        "a": "| Temperature (\u00b0C) | \u0394M_TMA (ng/cm\u00b2\u00b7cycle) | \u0394M_HF (ng/cm\u00b2\u00b7cycle) |\n|------------------|------------------------|-----------------------|\n| 250              | ~-15                   | ~5                    |\n| 275              | ~-20                   | ~10                   |\n| 300              | ~-30                   | ~15                   |\n| 325              | ~-40                   | ~20                   |",
-        "b": "| Temperature (\u00b0C) | MCPC (ng/cm\u00b2\u00b7cycle) |\n|------------------|---------------------|\n| 250              | ~-10                |\n| 275              | ~-15                |\n| 300              | ~-20                |\n| 325              | ~-25                |"
+      "a": "| Temperature (\u00b0C) | \u0394M_TMA (ng/cm\u00b2\u00b7cycle) | \u0394M_HF (ng/cm\u00b2\u00b7cycle) |\n| --- | --- | --- |\n| 250 | ~-15 | ~5 |\n| 275 | ~-20 | ~10 |\n| 300 | ~-30 | ~15 |\n| 325 | ~-40 | ~20 |",
+      "b": "| Temperature (\u00b0C) | MCPC (ng/cm\u00b2\u00b7cycle) |\n| --- | --- |\n| 250 | ~-10 |\n| 275 | ~-15 |\n| 300 | ~-20 |\n| 325 | ~-25 |"
     },
     "vqa": {
         "b": [

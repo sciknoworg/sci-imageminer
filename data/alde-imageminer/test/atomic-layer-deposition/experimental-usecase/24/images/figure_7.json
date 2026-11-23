@@ -7,7 +7,7 @@
         "a": "This spectral chart shows the mass spectrometry (MS) fragmentation pattern of the titanium precursor Cp*Ti(OMe)\u2083. The spectrum reveals the molecule breaks apart under ionization, with the base peak at m/e = 214 corresponding to the TiCp*(OMe) fragment, indicating the Ti\u2013Cp* bond is stronger than the Ti\u2013OMe bonds."
     },
     "data_extraction": {
-        "a": "| m/e | Approximate intensity (a.u.) | Species            |\n|----:|------------------------------|--------------------|\n| 135 | ~10\u207b\u00b3                        | Cp*                |\n| 141 | ~10\u207b\u00b3                        | Ti(OMe)\u2083           |\n| 150 | ~10\u207b\u2074                        | MeCp*              |\n| 166 | ~10\u207b\u2074                        | (OMe)Cp*           |\n| 183 | ~10\u207b\u00b3                        | TiCp*              |\n| 199 | ~10\u207b\u00b3                        | TiCp*O             |\n| 214 | ~10\u207b\u00b2                        | TiCp*(OMe)         |\n| 231 | ~10\u207b\u2074                        | TiCp*O\u2083            |\n| 245 | ~10\u207b\u00b3                        | TiCp*(OMe)\u2082        |\n| 276 | ~10\u207b\u00b3                        | TiCp*(OMe)\u2083        |"
+      "a": "| m/e | Approximate intensity (a.u.) | Species |\n| --- | --- | --- |\n| 135 | ~10-\u00b3 | Cp* |\n| 141 | ~10-\u00b3 | Ti(OMe)\u2083 |\n| 150 | ~10-\u2074 | MeCp* |\n| 166 | ~10-\u2074 | (OMe)Cp* |\n| 183 | ~10-\u00b3 | TiCp* |\n| 199 | ~10-\u00b3 | TiCp*O |\n| 214 | ~10-\u00b2 | TiCp*(OMe) |\n| 231 | ~10-\u2074 | TiCp*O\u2083 |\n| 245 | ~10-\u00b3 | TiCp*(OMe)\u2082 |\n| 276 | ~10-\u00b3 | TiCp*(OMe)\u2083 |"
     },
     "vqa": {
         "a": [

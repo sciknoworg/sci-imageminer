@@ -7,7 +7,7 @@
         "a": "Surface morphology of the trench bottom with 100 ppm Cl2 in the ion bombardment step after 32 s etch time. The color bar indicates the profile height,"
     },
     "data_extraction": {
-        "a": "| Parameter        | Value      |\n|------------------|-----------|\n| Cl\u2082 concentration | 100 ppm   |\n| Surface width     | 27 nm     |\n| Height scale      | Low \u2192 High (color gradient: black \u2192 red \u2192 yellow) |"
+      "a": "| Parameter | Value |\n| --- | --- |\n| Cl\u2082 concentration | 100 ppm |\n| Surface width | 27 nm |\n| Height scale | Low \u2192 High (color gradient: black \u2192 red \u2192 yellow) |"
     },
     "vqa": {
         "a": [

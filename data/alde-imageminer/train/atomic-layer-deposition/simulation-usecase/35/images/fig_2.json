@@ -9,8 +9,8 @@
         "b": "The scatter plot shows analogous data for silica substrates, with \u0394c_Al measured at two reaction temperatures (150\u00b0C: circles; 250\u00b0C: squares) and c_(O)H shown as + markers. The fit gives a = 4.7 \u00b1 0.3 nm\u207b\u00b2 and b = \u22120.0033 \u00b1 0.0005. Both \u0394c_Al and c_(O)H decrease with heat-treatment temperature, with c_(O)H declining more steeply at higher temperatures."
     },
     "data_extraction": {
-        "a": "| Alumina heat-treatment[\u00b0C] | \u0394C<sub>Al</sub><sup>(OH)</sup>[nm<sup>-2</sup>] |\n|---|---|\n| 200 | 6 |\n| 400 | 5 |\n| 600 | 4 |\n| 800 | 2 |",
-        "b": "| Silica heat-treatment[\u00b0C] | \u0394C<sub>Si</sub><sup>(OH)</sup>[nm<sup>-2</sup>] |\n|---|---|\n| 200 | 7 |\n| 400 | 6 |\n| 600 | 5 |\n| 800 | 3 |"
+      "a": "| Alumina heat-treatment[\u00b0C] | \u0394C<sub>Al</sub><sup>(OH)</sup>[nm<sup>-2</sup>] |\n| --- | --- |\n| 200 | 6 |\n| 400 | 5 |\n| 600 | 4 |\n| 800 | 2 |",
+      "b": "| Silica heat-treatment[\u00b0C] | \u0394C<sub>Si</sub><sup>(OH)</sup>[nm<sup>-2</sup>] |\n| --- | --- |\n| 200 | 7 |\n| 400 | 6 |\n| 600 | 5 |\n| 800 | 3 |"
     },
     "vqa": {
         "a": [

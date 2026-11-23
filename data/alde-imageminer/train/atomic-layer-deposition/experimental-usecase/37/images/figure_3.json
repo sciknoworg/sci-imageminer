@@ -15,11 +15,11 @@
         "e": "Spectra charts showing the intensity of reflections as a function of angle for different crystal planes."
     },
     "data_extraction": {
-        "a": "| Layer Descriptio  | Notation         |\n|------------------------|------------------|\n| Bottom I layer         | [2\\bar{1}10] sapphire |\n| PbI\u2082 monolayer (I\u2013Pb\u2013I)| [2\\bar{1}10] PbI\u2082      |",
-        "b": "| Feature       | Description                          |\n|--------------|--------------------------------------|\n| High Intensity | Around \u03b2\u2080 axis (aligned domains)   |\n| Color Scale    | Log Intensity (High = red, Low = blue) |",
-        "c": "| Material      | Peaks (\u00b0 \u03b2)                          |\n|--------------|---------------------------------------|\n| (10\\bar{1}1) PbI\u2082 | ~0, ~60, ~120, ~180, ~240, ~300   |",
-        "d": "| Material      | Peak Position (\u00b0 \u03b1) |\n|--------------|-----------------------|\n| (10\\bar{1}1) PbI\u2082 | ~30                |",
-        "e": "| Material        | Peaks (\u00b0 \u03c6)                          |\n|-----------------|---------------------------------------|\n| (11\\bar{2}0) PbI\u2082 | ~0, ~60, ~120, ~180, ~240, ~300     |\n| (11\\bar{2}0) sapphire | ~0, ~90, ~180, ~270             |"
+      "a": "| Layer Descriptio | Notation |\n| --- | --- |\n| Bottom I layer | [2\\bar{1}10] sapphire |\n| PbI\u2082 monolayer (I\u2013Pb\u2013I) | [2\\bar{1}10] PbI\u2082 |",
+      "b": "| Feature | Description |\n| --- | --- |\n| High Intensity | Around \u03b2\u2080 axis (aligned domains) |\n| Color Scale | Log Intensity (High = red, Low = blue) |",
+      "c": "| Material | Peaks (\u00b0 \u03b2) |\n| --- | --- |\n| (10\\bar{1}1) PbI\u2082 | ~0, ~60, ~120, ~180, ~240, ~300 |",
+      "d": "| Material | Peak Position (\u00b0 \u03b1) |\n| --- | --- |\n| (10\\bar{1}1) PbI\u2082 | ~30 |",
+      "e": "| Material | Peaks (\u00b0 \u03c6) |\n| --- | --- |\n| (11\\bar{2}0) PbI\u2082 | ~0, ~60, ~120, ~180, ~240, ~300 |\n| (11\\bar{2}0) sapphire | ~0, ~90, ~180, ~270 |"
     },
     "vqa": {
         "e": [

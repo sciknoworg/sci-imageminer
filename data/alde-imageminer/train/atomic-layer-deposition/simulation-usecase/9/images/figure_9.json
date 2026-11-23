@@ -7,7 +7,7 @@
         "a": "The figure shows how HfO\u2082 coverage and crystallinity change when the amount and arrangement of surface hydroxyl (OH) groups are varied. As the percentage of randomly placed OH groups increases, the crystalline part and total crystallinity increase strongly. The surface with 100% random OH gives the highest crystallinity. In contrast, OH groups placed mainly on dimers give much lower crystallinity, even though the OH amount is moderate. This shows that how OH groups are arranged on the surface is as important as how many are present."
     },
     "data_extraction": {
-        "a": "| % Hydroxyls Groups        | Crystallinity (%) | Cryst. Groups (%) | Non-Cryst. Groups (%) |\n|---------------------------|-------------------|-------------------|------------------------|\n| 25% random OH             | ~20               | ~17               | ~14                    |\n| 50% random OH             | ~38               | ~32               | ~20                    |\n| 75% random OH             | ~57               | ~43               | ~18                    |\n| 100% random OH            | ~76               | ~56               | ~14                    |\n| Random OH on dimers (47%) | ~23               | ~30               | ~24                    |"
+      "a": "| % Hydroxyls Groups | Crystallinity (%) | Cryst. Groups (%) | Non-Cryst. Groups (%) |\n| --- | --- | --- | --- |\n| 25% random OH | ~20 | ~17 | ~14 |\n| 50% random OH | ~38 | ~32 | ~20 |\n| 75% random OH | ~57 | ~43 | ~18 |\n| 100% random OH | ~76 | ~56 | ~14 |\n| Random OH on dimers (47%) | ~23 | ~30 | ~24 |"
     },
     "vqa": {
         "a": [

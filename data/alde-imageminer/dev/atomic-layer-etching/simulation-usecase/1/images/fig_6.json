@@ -9,8 +9,8 @@
         "b": "The chart shows the number of sputtered O atoms as a function of the number of Ar\u207a ion impacts at different energies (50 eV, 40 eV, and 20 eV). The data points form step-like curves indicating cumulative counts"
     },
     "data_extraction": {
-        "a": "| Number of Ar+ Ion Impacts | 20 eV (Sputtered Si Atoms) | 40 eV (Sputtered Si Atoms) | 50 eV (Sputtered Si Atoms) |\n|---|---|---|---|\n| 0 | 0 | 0 | 0 |\n| 50 | 2 | 4 | 7 |\n| 100 | 4 | 6 | 8 |\n| 200 | 5 | 7 | 12 |\n| 300 | 9 | 8 | 14 |\n| 400 | 9 | 13 | 16 |\n| 500 | 9 | 13 | 16 |\n| 600 | 9 | 13 | 16 |\n| 700 | 9 | 13 | 17 |\n| 800 | 9 | 13 | 18 |",
-        "b": "| Number of Ar+ Ion Impacts | 20 eV (Sputtered O Atoms) | 40 eV (Sputtered O Atoms) | 50 eV (Sputtered O Atoms) |\n|---|---|---|---|\n| 0 | 0 | 0 | 0 |\n| 100 | 2 | 15 | 25 |\n| 200 | 5 | 30 | 45 |\n| 300 | 8 | 42 | 60 |\n| 400 | 10 | 62 | 70 |\n| 500 | 11 | 63 | 78 |\n| 600 | 12 | 65 | 85 |\n| 700 | 13 | 72 | 100 |\n| 800 | 14 | 73 | 115 |"
+      "a": "| Number of Ar+ Ion Impacts | 20 eV (Sputtered Si Atoms) | 40 eV (Sputtered Si Atoms) | 50 eV (Sputtered Si Atoms) |\n| --- | --- | --- | --- |\n| 0 | 0 | 0 | 0 |\n| 50 | 2 | 4 | 7 |\n| 100 | 4 | 6 | 8 |\n| 200 | 5 | 7 | 12 |\n| 300 | 9 | 8 | 14 |\n| 400 | 9 | 13 | 16 |\n| 500 | 9 | 13 | 16 |\n| 600 | 9 | 13 | 16 |\n| 700 | 9 | 13 | 17 |\n| 800 | 9 | 13 | 18 |",
+      "b": "| Number of Ar+ Ion Impacts | 20 eV (Sputtered O Atoms) | 40 eV (Sputtered O Atoms) | 50 eV (Sputtered O Atoms) |\n| --- | --- | --- | --- |\n| 0 | 0 | 0 | 0 |\n| 100 | 2 | 15 | 25 |\n| 200 | 5 | 30 | 45 |\n| 300 | 8 | 42 | 60 |\n| 400 | 10 | 62 | 70 |\n| 500 | 11 | 63 | 78 |\n| 600 | 12 | 65 | 85 |\n| 700 | 13 | 72 | 100 |\n| 800 | 14 | 73 | 115 |"
     },
     "vqa": {
         "b": [

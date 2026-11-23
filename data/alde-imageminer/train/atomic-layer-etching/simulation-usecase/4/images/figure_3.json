@@ -7,7 +7,7 @@
         "a": "Figure 3 shows the effect of etch temperature on the etch per cycle of TiN films for the NbF\u2085\u2013CCl\u2084 binary process and the CCl\u2084-only process. The etch per cycle increases with temperature for both processes, with the binary process consistently exhibiting higher etch rates. No significant etching occurs below 370 \u00b0C, and the trend is approximately linear up to 460 \u00b0C."
     },
     "data_extraction": {
-        "a": "| Etch temperature [\u00b0C] | Etch per cycle NbF\u2085\u2013CCl\u2084 [\u00c5] | Etch per cycle CCl\u2084-only [\u00c5] |\n|---|---|---|\n| 370 | 0.03 | 0.07 |\n| 380 | 0.10 | 0.12 |\n| 390 | 0.20 | 0.18 |\n| 400 | 0.40 | 0.22 |\n| 460 | 0.55 | 0.30 |"
+      "a": "| Etch temperature [\u00b0C] | Etch per cycle NbF\u2085\u2013CCl\u2084 [\u00c5] | Etch per cycle CCl\u2084-only [\u00c5] |\n| --- | --- | --- |\n| 370 | 0.03 | 0.07 |\n| 380 | 0.10 | 0.12 |\n| 390 | 0.20 | 0.18 |\n| 400 | 0.40 | 0.22 |\n| 460 | 0.55 | 0.30 |"
     },
     "vqa": {
         "a": [

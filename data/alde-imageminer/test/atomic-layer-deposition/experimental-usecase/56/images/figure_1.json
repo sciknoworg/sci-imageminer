@@ -7,7 +7,7 @@
         "a": "The figure displays multiple XRD patterns of Li\u2083PO\u2084 at different temperatures (200 \u00b0C, 225 \u00b0C, 250 \u00b0C and 275 \u00b0C) with intensity plotted against 2\u03b8. Vertical blue lines indicate specific peaks."
     },
     "data_extraction": {
-        "a": "| 2\u03b8 | Li\u2083PO\u2084 200\u00b0C | Li\u2083PO\u2084 225\u00b0C | Li\u2083PO\u2084 250\u00b0C | Li\u2083PO\u2084 275\u00b0C | Li\u2083PO\u2084 Orthorom |\n|---|---|---|---|---|---|\n| 15 | - | - | - | - | peak at ~17\u00b0 |\n| 20 | - | - | peak at ~23\u00b0 | peak at ~23\u00b0 | peak at ~20\u00b0,~22\u00b0, ~23\u00b0  |\n| 25 | - | - | - | peak at ~25\u00b0 | peak at ~25\u00b0, 29\u00b0 |\n| 30 | peak at ~34\u00b0 | peak at ~34\u00b0 | peak at ~34\u00b0 | - | peak at ~34\u00b0 |\n| 35 | - | peak at ~37\u00b0 | peak at ~37\u00b0 | peak at ~37\u00b0 | peak at ~36\u00b0, 37 \u00b0 |\n| 40 | - | - | - | - | - |"
+      "a": "| 2\u03b8 | Li\u2083PO\u2084 200\u00b0C | Li\u2083PO\u2084 225\u00b0C | Li\u2083PO\u2084 250\u00b0C | Li\u2083PO\u2084 275\u00b0C | Li\u2083PO\u2084 Orthorom |\n| --- | --- | --- | --- | --- | --- |\n| 15 | - | - | - | - | peak at ~17\u00b0 |\n| 20 | - | - | peak at ~23\u00b0 | peak at ~23\u00b0 | peak at ~20\u00b0,~22\u00b0, ~23\u00b0 |\n| 25 | - | - | - | peak at ~25\u00b0 | peak at ~25\u00b0, 29\u00b0 |\n| 30 | peak at ~34\u00b0 | peak at ~34\u00b0 | peak at ~34\u00b0 | - | peak at ~34\u00b0 |\n| 35 | - | peak at ~37\u00b0 | peak at ~37\u00b0 | peak at ~37\u00b0 | peak at ~36\u00b0, 37 \u00b0 |\n| 40 | - | - | - | - | - |"
     },
     "vqa": {
         "a": [

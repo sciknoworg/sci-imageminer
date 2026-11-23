@@ -13,10 +13,10 @@
         "d": "The figure shows the atomic percent of various elements (C, O, Cl, Si, Ge, Se) as a function of sputtering time, for a sample grown with the DFM-ALD method."
     },
     "data_extraction": {
-        "a": "| Omega (\u00b0) | Intensity (A.U.) |\n|---|---|\n| 0.0 | 0.6 |\n| 0.5 | 0.5 |\n| 1.0 | 0.4 |\n| 1.5 | 0.4 |\n| 2.0 | 0.4 |",
-        "b": "| Omega (\u00b0) | Intensity (A.U.) |\n|---|---|\n| 0.0 | 0.6 |\n| 0.5 | 0.5 |\n| 1.0 | 0.4 |\n| 1.5 | 0.4 |\n| 2.0 | 0.4 |",
-        "c": "| Sputtering Time (min) | Atomic Percent (%) C |Atomic Percent (%) O |Atomic Percent (%) Cl |Atomic Percent (%) Si |Atomic Percent (%) Ge |Atomic Percent (%) Se |\n|---|---|---|---|---|---|---|\n| 0 | 20|35|0|0|25|20|\n| 1 | 10|30|0|0|26|26|\n| 2 | 0|50|0|50|0|0|\n| 3 | 0|50|0|50|0|0|\n| 4 | 0|50|0|50|0|0|\n| 5 | 0|50|0|50|0|0|",
-        "d": "| Sputtering Time (min) | Atomic Percent (%) C |Atomic Percent (%) O |Atomic Percent (%) Cl |Atomic Percent (%) Si |Atomic Percent (%) Ge |Atomic Percent (%) Se |\n|---|---|---|---|---|---|---|\n| 0 | 20|15|0|0|30|37|\n| 1 | 7|7|0|0|43|43|\n| 2 | 10|30|0|20|25|15|\n| 3 | 0|50|0|50|0|0|\n| 4 | 0|50|0|50|0|0|\n| 5 | 0|50|0|50|0|0|"
+      "a": "| Omega (\u00b0) | Intensity (A.U.) |\n| --- | --- |\n| 0.0 | 0.6 |\n| 0.5 | 0.5 |\n| 1.0 | 0.4 |\n| 1.5 | 0.4 |\n| 2.0 | 0.4 |",
+      "b": "| Omega (\u00b0) | Intensity (A.U.) |\n| --- | --- |\n| 0.0 | 0.6 |\n| 0.5 | 0.5 |\n| 1.0 | 0.4 |\n| 1.5 | 0.4 |\n| 2.0 | 0.4 |",
+      "c": "| Sputtering Time (min) | Atomic Percent (%) C | Atomic Percent (%) O | Atomic Percent (%) Cl | Atomic Percent (%) Si | Atomic Percent (%) Ge | Atomic Percent (%) Se |\n| --- | --- | --- | --- | --- | --- | --- |\n| 0 | 20 | 35 | 0 | 0 | 25 | 20 |\n| 1 | 10 | 30 | 0 | 0 | 26 | 26 |\n| 2 | 0 | 50 | 0 | 50 | 0 | 0 |\n| 3 | 0 | 50 | 0 | 50 | 0 | 0 |\n| 4 | 0 | 50 | 0 | 50 | 0 | 0 |\n| 5 | 0 | 50 | 0 | 50 | 0 | 0 |",
+      "d": "| Sputtering Time (min) | Atomic Percent (%) C | Atomic Percent (%) O | Atomic Percent (%) Cl | Atomic Percent (%) Si | Atomic Percent (%) Ge | Atomic Percent (%) Se |\n| --- | --- | --- | --- | --- | --- | --- |\n| 0 | 20 | 15 | 0 | 0 | 30 | 37 |\n| 1 | 7 | 7 | 0 | 0 | 43 | 43 |\n| 2 | 10 | 30 | 0 | 20 | 25 | 15 |\n| 3 | 0 | 50 | 0 | 50 | 0 | 0 |\n| 4 | 0 | 50 | 0 | 50 | 0 | 0 |\n| 5 | 0 | 50 | 0 | 50 | 0 | 0 |"
     },
     "vqa": {
         "a": [

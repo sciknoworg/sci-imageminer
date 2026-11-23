@@ -13,10 +13,10 @@
         "d": "Predicted minimum-energy structure of Pt(acac)\u2082 chemisorbed on pristine graphene, showing non-covalent interactions with Pt remaining above the graphene surface. Chemisorption energy calculated at the PBE-D3 level."
     },
     "data_extraction": {
-        "a": "| Chemisorbed species | Binding type | Graphene interaction distance (\u00c5) |\n|---|---|---|\n| MeCpPtMe\u2082 | Non-covalent | 3.9\u20134.1 |",
-        "b": "| Chemisorbed species | Binding type | Graphene interaction distance (\u00c5) |\n|---|---|---|\n| MeCpPtMe | Covalent | 2.28\u20132.44 |",
-        "c": "| Chemisorbed species | Binding type | Graphene interaction distance (\u00c5) |\n|---|---|---|\n| MeCpPtCH\u2083CH\u2082 | Non-covalent | 3.9\u20134.1 |",
-        "d": "| Chemisorbed species | Binding type | Graphene interaction distance (\u00c5) |\n|---|---|---|\n| Pt(acac)\u2082 | Not explicitly detailed | \u2014 |"
+      "a": "| Chemisorbed species | Binding type | Graphene interaction distance (\u00c5) |\n| --- | --- | --- |\n| MeCpPtMe\u2082 | Non-covalent | 3.9\u20134.1 |",
+      "b": "| Chemisorbed species | Binding type | Graphene interaction distance (\u00c5) |\n| --- | --- | --- |\n| MeCpPtMe | Covalent | 2.28\u20132.44 |",
+      "c": "| Chemisorbed species | Binding type | Graphene interaction distance (\u00c5) |\n| --- | --- | --- |\n| MeCpPtCH\u2083CH\u2082 | Non-covalent | 3.9\u20134.1 |",
+      "d": "| Chemisorbed species | Binding type | Graphene interaction distance (\u00c5) |\n| --- | --- | --- |\n| Pt(acac)\u2082 | Not explicitly detailed | \u2014 |"
     },
     "vqa": {
         "a": [

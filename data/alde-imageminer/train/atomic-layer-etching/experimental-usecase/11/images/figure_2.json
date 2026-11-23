@@ -11,9 +11,9 @@
         "c": "The ZnO thickness remains constant at approximately 585 \u00c5 for O\u2082 plasma treatment."
     },
     "data_extraction": {
-        "a": "| Number of cycles | Hacac + O\u2082 gas |\n|------------------|----------------|\n| 0               | 584            | \n| 10              | 585            | \n| 20              | 585            | \n| 30              | 585            | \n| 40              | 585            |",
-        "b": "| Number of cycles | Hacac + O\u2082 plasma |\n|------------------|--------------------|\n| 0                 | 585                |\n| 10              | 572                |\n| 20              | 560                |\n| 30              | 550                |\n| 40              | 530                |",
-        "c": "| Number of cycles | O\u2082 plasma |\n|------------------|-----------|\n| 0               | 585       |\n| 10              | 585       |\n| 20              | 585       |\n| 30              | 585       |\n| 40              | 585       |"
+      "a": "| Number of cycles | Hacac + O\u2082 gas |\n| --- | --- |\n| 0 | 584 |\n| 10 | 585 |\n| 20 | 585 |\n| 30 | 585 |\n| 40 | 585 |",
+      "b": "| Number of cycles | Hacac + O\u2082 plasma |\n| --- | --- |\n| 0 | 585 |\n| 10 | 572 |\n| 20 | 560 |\n| 30 | 550 |\n| 40 | 530 |",
+      "c": "| Number of cycles | O\u2082 plasma |\n| --- | --- |\n| 0 | 585 |\n| 10 | 585 |\n| 20 | 585 |\n| 30 | 585 |\n| 40 | 585 |"
     },
     "vqa": {
         "c": [

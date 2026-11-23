@@ -9,8 +9,8 @@
         "b": "The chart displays the integrated intensity of different plasma species against the number of Al(CH\u2083) doses."
     },
     "data_extraction": {
-        "a": "| Ta[N(CH\u2083)\u2082\u2085] exposure time (s) | Integrated intensity (a.u.) |\n|---|---|\n|0| 750 | \n|1| 840 | \n|2| 870 | \n|3| 880 | \n|4| 880 | \n|5| 880 |\n|6| 880 | \n|7| 880 |",
-        "b": "| Number of Al(CH\u2083) doses| Integrated intensity (a.u.) O | Integrated intensity (a.u.) H | Integrated intensity (a.u.) CO | \n|---|---|---|---|\n| 0 |60|0|0|\n| 1 |52|23|38|\n| 2 |50|42|60|\n| 3 |42|50|68|\n| 4 |40|58|72|\n| 5 |40|62|80|\n| 6 |40|62|80|\n| 8 |40|62|80|\n| 12 |40|62|80|\n| 16 |40|62|80|"
+      "a": "| Ta[N(CH\u2083)\u2082\u2085] exposure time (s) | Integrated intensity (a.u.) |\n| --- | --- |\n| 0 | 750 |\n| 1 | 840 |\n| 2 | 870 |\n| 3 | 880 |\n| 4 | 880 |\n| 5 | 880 |\n| 6 | 880 |\n| 7 | 880 |",
+      "b": "| Number of Al(CH\u2083) doses | Integrated intensity (a.u.) O | Integrated intensity (a.u.) H | Integrated intensity (a.u.) CO |\n| --- | --- | --- | --- |\n| 0 | 60 | 0 | 0 |\n| 1 | 52 | 23 | 38 |\n| 2 | 50 | 42 | 60 |\n| 3 | 42 | 50 | 68 |\n| 4 | 40 | 58 | 72 |\n| 5 | 40 | 62 | 80 |\n| 6 | 40 | 62 | 80 |\n| 8 | 40 | 62 | 80 |\n| 12 | 40 | 62 | 80 |\n| 16 | 40 | 62 | 80 |"
     },
     "vqa": {
         "a": [

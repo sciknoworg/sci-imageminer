@@ -9,8 +9,8 @@
         "b": "The figure illustrates the atomic layer deposition (ALE) rates when Sn(acac)2 is used for etching for HfO\u2082, ZrO\u2082, and Al\u2082O\u2083 at 200\u00b0C over cycles."
     },
     "data_extraction": {
-        "a": "| Film Thickness (\u00c5) | TiN | SiO\u2082 | Si\u2083N\u2084 | HfO\u2082 | ZrO\u2082 | Al\u2082O\u2083 |\n|-------------------|-----|------|-------|------|------|-------|\n| 0                | 70  | 50   | 40    | 30   | 0    | 30    |\n| 1-30-1-30         | 68  | 48   | 38    | 32   | 0    | 28    |\n| 200\u00b0C             | 66  | 46   | 36    | 30   | 0    | 26    |",
-        "b": "| Number of Cycles | HfO\u2082 ALE: 0.06 \u00c5/cycle | ZrO\u2082 ALE: 0.14 \u00c5/cycle | Al\u2082O\u2083 ALE: 0.23 \u00c5/cycle |\n|------------------|------------------------|------------------------|-------------------------|\n| 0                | 50                     | 50                     | 50                      |\n| 100              | 45                     | 45                     | 40                      |\n| 200              | 40                     | 40                     | 25                      |\n| 400              | 35                     | 35                     | 0                       |"
+      "a": "| Film Thickness (\u00c5) | TiN | SiO\u2082 | Si\u2083N\u2084 | HfO\u2082 | ZrO\u2082 | Al\u2082O\u2083 |\n| --- | --- | --- | --- | --- | --- | --- |\n| 0 | 70 | 50 | 40 | 30 | 0 | 30 |\n| 1-30-1-30 | 68 | 48 | 38 | 32 | 0 | 28 |\n| 200\u00b0C | 66 | 46 | 36 | 30 | 0 | 26 |",
+      "b": "| Number of Cycles | HfO\u2082 ALE: 0.06 \u00c5/cycle | ZrO\u2082 ALE: 0.14 \u00c5/cycle | Al\u2082O\u2083 ALE: 0.23 \u00c5/cycle |\n| --- | --- | --- | --- |\n| 0 | 50 | 50 | 50 |\n| 100 | 45 | 45 | 40 |\n| 200 | 40 | 40 | 25 |\n| 400 | 35 | 35 | 0 |"
     },
     "vqa": {
         "a": [

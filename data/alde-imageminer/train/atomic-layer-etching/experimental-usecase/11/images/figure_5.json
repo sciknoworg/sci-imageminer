@@ -13,10 +13,10 @@
         "d": "The figure shows a high-resolution transmission electron microscopy (TEM) image of the sample's surface after ALE treatment."
     },
     "data_extraction": {
-        "a": "",
-        "b": "",
-        "c": "| Distance from Top (\u00b5m) | Thickness Before ALE (nm) | Thickness After ALE (nm) |\n|-------------------------|---------------------------|---------------------------|\n| 1                      | 60                        | 45                        |\n| 2                      | 60                        | 45                        |\n| 3                      | 60                        | 45                        |\n| 4                      | 60                        | 45                        |\n| 5                      | 60                        | 45                        |\n| 6                     | 60                         | 45                        |",
-        "d": ""
+      "a": "",
+      "b": "",
+      "c": "| Distance from Top (\u00b5m) | Thickness Before ALE (nm) | Thickness After ALE (nm) |\n| --- | --- | --- |\n| 1 | 60 | 45 |\n| 2 | 60 | 45 |\n| 3 | 60 | 45 |\n| 4 | 60 | 45 |\n| 5 | 60 | 45 |\n| 6 | 60 | 45 |",
+      "d": ""
     },
     "vqa": {
         "d": [

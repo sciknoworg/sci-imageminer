@@ -9,8 +9,8 @@
         "b": "The Tauc plot (\ud835\udefc\u210e\ud835\udf08)^2 vs. photon energy shows a linear region, whose extrapolation intersects the energy axis at ~5.5 eV, confirming that CsI is a wide-bandgap insulator with a direct optical bandgap of ~5.5 eV."
     },
     "data_extraction": {
-        "a": "| Wavelength (nm) | Transmittance (%) | Material |\n|----------------|-------------------|------|\n| 200            | 79                 | CsI |\n| 200            | 0                 | Sapphire |\n| 300            | 84                | CsI |\n| 300            | 81                | Sapphire |\n| 400            | 84               | CsI |\n| 400            | 84                | Sapphire |\n| 500            | 85                | CsI |\n| 500            | 85                | Sapphire |\n| 600            | 85                | CsI |\n| 600            | 85                | Sapphire |\n| 700            | 85                | CsI |\n| 700            | 85                | Sapphire |\n| 800            | 85                | CsI |\n| 800            | 85                | Sapphire |\n| 900            | 85               | CsI |\n| 900            | 85               | Sapphire |",
-        "b": "| hv (eV) | (\u03b1hv)^2 (a.u.) |\n|----------|-----------------|\n| 5.0      | 0               |\n| 5.25     | 0               |\n| 5.5      | 1E+16           |\n| 5.62      | 8E+16            |\n| 5.75     | 3.7E+16           |"
+      "a": "| Wavelength (nm) | Transmittance (%) | Material |\n| --- | --- | --- |\n| 200 | 79 | CsI |\n| 200 | 0 | Sapphire |\n| 300 | 84 | CsI |\n| 300 | 81 | Sapphire |\n| 400 | 84 | CsI |\n| 400 | 84 | Sapphire |\n| 500 | 85 | CsI |\n| 500 | 85 | Sapphire |\n| 600 | 85 | CsI |\n| 600 | 85 | Sapphire |\n| 700 | 85 | CsI |\n| 700 | 85 | Sapphire |\n| 800 | 85 | CsI |\n| 800 | 85 | Sapphire |\n| 900 | 85 | CsI |\n| 900 | 85 | Sapphire |",
+      "b": "| hv (eV) | (\u03b1hv)^2 (a.u.) |\n| --- | --- |\n| 5.0 | 0 |\n| 5.25 | 0 |\n| 5.5 | 1E+16 |\n| 5.62 | 8E+16 |\n| 5.75 | 3.7E+16 |"
     },
     "vqa": {
         "a": [

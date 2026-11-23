@@ -9,8 +9,8 @@
         "b": "The chart shows activation energies for the methoxy-SMI intersection reaction with TMA, TEA, and H\u2082O. TMA and TEA barriers increase substantially with SMI density (99 to 173 kJ/mol for TMA; 115 to 203 kJ/mol for TEA), while H\u2082O barriers remain low (97 to 112 kJ/mol) regardless of SMI density."
     },
     "data_extraction": {
-        "a": "| Condition | TMA (Delta E_A, kJ/mol) | TEA (Delta E_A, kJ/mol) |\n|---|---|---|\n| Isolated SMI | 179 (-10) | 160 (-16) |\n| 2.5 SMI per nm^2 | 206 (0) | 193 (-4) |\n| 3.4 SMI per nm^2 | 207 (-5) | 197 (-8) |",
-        "b": "| Condition | TMA (Delta E_A, kJ/mol) | TEA (Delta E_A, kJ/mol) | H2O (Delta E_A, kJ/mol) |\n|---|---|---|---|\n| Isolated SMI | 99 (-17) | 115 (-10) | 97 (-7) |\n| 2.5 SMI per nm^2 | 172 (-12) | 155 (-16) | 112 (-12) |\n| 3.4 SMI per nm^2 | 173 (-25) | 203 (-38) | 106 (-6) |"
+      "a": "| Condition | TMA (Delta E_A, kJ/mol) | TEA (Delta E_A, kJ/mol) |\n| --- | --- | --- |\n| Isolated SMI | 179 (-10) | 160 (-16) |\n| 2.5 SMI per nm^2 | 206 (0) | 193 (-4) |\n| 3.4 SMI per nm^2 | 207 (-5) | 197 (-8) |",
+      "b": "| Condition | TMA (Delta E_A, kJ/mol) | TEA (Delta E_A, kJ/mol) | H2O (Delta E_A, kJ/mol) |\n| --- | --- | --- | --- |\n| Isolated SMI | 99 (-17) | 115 (-10) | 97 (-7) |\n| 2.5 SMI per nm^2 | 172 (-12) | 155 (-16) | 112 (-12) |\n| 3.4 SMI per nm^2 | 173 (-25) | 203 (-38) | 106 (-6) |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "Convergence test for the kinetic energy cutoff (ecutwfc) parameter in DFT calculations for \u03b8-Al2O3. The total energy decreases from approximately -2388 Ry at 20 Ry cutoff to about -2454 Ry, converging when ecutwfc reaches 50 Ry. This determines the minimum plane wave basis set size needed for accurate electronic structure calculations."
     },
     "data_extraction": {
-        "a": "| Kinetic energy cut-off (Ry) | Total energy (Ry) |\n|---|---|\n| 20 | -2390 |\n| 25 | -2430 |\n| 30 | -2450 |\n| 35 | -2450 |\n| 40 | -2450 |\n| 45 | -2450 |\n| 50 | -2450 |\n| 55 | -2450 |\n| 60 | -2450 |\n| 65 | -2450 |\n| 70 | -2450 |\n| 75 | -2450 |\n| 80 | -2450 |"
+      "a": "| Kinetic energy cut-off (Ry) | Total energy (Ry) |\n| --- | --- |\n| 20 | -2390 |\n| 25 | -2430 |\n| 30 | -2450 |\n| 35 | -2450 |\n| 40 | -2450 |\n| 45 | -2450 |\n| 50 | -2450 |\n| 55 | -2450 |\n| 60 | -2450 |\n| 65 | -2450 |\n| 70 | -2450 |\n| 75 | -2450 |\n| 80 | -2450 |"
     },
     "vqa": {
         "a": [

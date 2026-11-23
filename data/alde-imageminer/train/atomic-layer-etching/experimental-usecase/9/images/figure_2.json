@@ -13,10 +13,10 @@
         "d": "The line chart illustrates the change in radius (\u0394Radius) over the number of ALE cycles for InAlAs and InGaAs at different temperatures."
     },
     "data_extraction": {
-        "a": "| Condition       | InGaAs Thickness | InAlAs Thickness |\n|-----------------|-------------------|-------------------|\n| After RIE       | 28 nm            | 28nm              |\n| 300 cycles      | 24 nm            | 18 nm            |\n| 600 cycles      | 24 nm            | 10 nm            |",
-        "b": "| Condition       | InGaAs Thickness | InAlAs Thickness |\n|-----------------|-------------------|-------------------|\n| After RIE       | 35 nm            | 35 nm               |\n| 250 cycles      | 24 nm            | 4 nm             |",
-        "c": "| Cycles    | Density edge intensity |\n|-----------|--------------------|\n| Pristine  |10^9  |\n| 200       |10^7     |\n| 450       |10^5     |",
-        "d": "| Material  | Temperature | Growth Rate (\u00c5/cycle) |\n|-----------|------------|-------------------------|\n| InAlAs    | 300\u00b0C      | 0.62                  |\n| InGaAs    | 300\u00b0C      | \u2014                     |\n| InAlAs    | 250\u00b0C      | \u2014                     |"
+      "a": "| Condition | InGaAs Thickness | InAlAs Thickness |\n| --- | --- | --- |\n| After RIE | 28 nm | 28nm |\n| 300 cycles | 24 nm | 18 nm |\n| 600 cycles | 24 nm | 10 nm |",
+      "b": "| Condition | InGaAs Thickness | InAlAs Thickness |\n| --- | --- | --- |\n| After RIE | 35 nm | 35 nm |\n| 250 cycles | 24 nm | 4 nm |",
+      "c": "| Cycles | Density edge intensity |\n| --- | --- |\n| Pristine | 10^9 |\n| 200 | 10^7 |\n| 450 | 10^5 |",
+      "d": "| Material | Temperature | Growth Rate (\u00c5/cycle) |\n| --- | --- | --- |\n| InAlAs | 300\u00b0C | 0.62 |\n| InGaAs | 300\u00b0C | \u2014 |\n| InAlAs | 250\u00b0C | \u2014 |"
     },
     "vqa": {
         "d": [

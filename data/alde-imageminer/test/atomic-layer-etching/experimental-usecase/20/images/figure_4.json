@@ -7,7 +7,7 @@
         "a": "The scatter plot shows the relationship between temperature and the change in absorption intensity per cycle at 200 \u00b0C, 250 \u00b0C, 300 \u00b0C and 350 \u00b0C. As temperature increases, there is a negative trend in the change in absorption intensity."
     },
     "data_extraction": {
-        "a": "| Temperature (\u00b0C) | \u0394 Int. Abs./ Cycle (cm\u207b\u00b9) |\n|-----------------|--------------------------|\n| 200             | 0                        |\n| 250             | -1.5                     |\n| 300             | -2.2                     |\n| 350             | -3.0                     |"
+      "a": "| Temperature (\u00b0C) | \u0394 Int. Abs./ Cycle (cm-\u00b9) |\n| --- | --- |\n| 200 | 0 |\n| 250 | -1.5 |\n| 300 | -2.2 |\n| 350 | -3.0 |"
     },
     "vqa": {
         "a": [

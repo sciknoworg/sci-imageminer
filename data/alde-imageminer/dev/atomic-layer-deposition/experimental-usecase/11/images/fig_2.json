@@ -7,7 +7,7 @@
         "a": "The figure presents a scatter plot demonstrating that the film thickness increases linearly with the number of ALD deposition cycles. The proportional relationship indicates a constant growth-per-cycle (GPC), confirming stable, self-limiting ALD behavior for the WN\u2093C\u1d67 process."
     },
     "data_extraction": {
-        "a": "| Deposition cycles|Thickness (\u00c5)|\n|------------------|-------------|\n|~70|~50|\n|~120|~75|\n|~200|~150|\n|~300|~240\u2013250|\n|~400|~330|"
+      "a": "| Deposition cycles | Thickness (\u00c5) |\n| --- | --- |\n| ~70 | ~50 |\n| ~120 | ~75 |\n| ~200 | ~150 |\n| ~300 | ~240\u2013250 |\n| ~400 | ~330 |"
     },
     "vqa": {
         "a": [

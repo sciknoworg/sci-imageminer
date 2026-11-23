@@ -9,8 +9,8 @@
         "b": "Determination of the optical bandgap of 4.95 eV by fitting the optical absorption data."
     },
     "data_extraction": {
-        "a": "| Wavelength (nm) | Transmittance |\n|---|---|\n| 250 | 0 |\n| 300 | 100 |\n| 500 | 75 | \n| 1000 | 85 |\n| 1500 | 90 |\n| 2000 | 90 |",
-        "b": "| Energy (eV) | (\u03b1h\u03bd)^2 (ev/cm)^2 |\n|---|---|\n| 4 | 0 |\n| 4.5 | 0 |\n| 5 | 1 |\n| 5.5 | 3 |\n| 6 | 5 |"
+      "a": "| Wavelength (nm) | Transmittance |\n| --- | --- |\n| 250 | 0 |\n| 300 | 100 |\n| 500 | 75 |\n| 1000 | 85 |\n| 1500 | 90 |\n| 2000 | 90 |",
+      "b": "| Energy (eV) | (\u03b1h\u03bd)^2 (ev/cm)^2 |\n| --- | --- |\n| 4 | 0 |\n| 4.5 | 0 |\n| 5 | 1 |\n| 5.5 | 3 |\n| 6 | 5 |"
     },
     "vqa": {
         "a": [

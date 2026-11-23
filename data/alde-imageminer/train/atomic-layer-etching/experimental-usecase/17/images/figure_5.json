@@ -7,7 +7,7 @@
         "a": "The chart presents the mass change over time during atomic layer etching (ALE) of Al\u2082O\u2083 at 200\u202f\u00b0C. The process alternates between SF\u2084 and Sn(acac)\u2082 exposures, with each reagent inducing distinct mass gain or loss steps. The mass increases sharply following each Sn(acac)\u2082 dose and decreases following SF\u2084 exposure, consistent with a ligand-exchange-driven etch mechanism. The repeatability of these mass shifts across cycles demonstrates the controlled and cyclical nature of the ALE process."
     },
     "data_extraction": {
-        "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|----------|----------------------|\n| 0        | 0                    |\n| 50       | 40                   |\n| 100      | 80                   |\n| 150      | 60                   |\n| 200      | 100                  |\n| 250      | 60                   |\n| 300      | 100                  |"
+      "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n| --- | --- |\n| 0 | 0 |\n| 50 | 40 |\n| 100 | 80 |\n| 150 | 60 |\n| 200 | 100 |\n| 250 | 60 |\n| 300 | 100 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The flow chart illustrates the sequential steps involved in modeling argon flow within a reactor and feeding system, including calculating outlet pressure, implementing boundary conditions, and simulating ALD exposure steps."
     },
     "data_extraction": {
-        "a": "| Step | Description |\n|------|-------------|\n| 1    | **Model constant flow of argon** (Outlet pressure = 50 mTorr) |\n| 2    | Get pressure distribution, outlet flow rate, and side inlet pressure |\n| 3    | Implement the calculated flow rate as outlet boundary condition |\n| 4    | Implement the calculated pulses as inlet boundary condition |\n| 5    | **Simulate ALD exposure steps** |\n| 6    | **Model argon flow / Feeding system** (Outlet pressure = Reactor side inlet pressure) |\n| 7    | Simulate valve opening / compute react |"
+      "a": "| Step | Description |\n| --- | --- |\n| 1 | **Model constant flow of argon** (Outlet pressure = 50 mTorr) |\n| 2 | Get pressure distribution, outlet flow rate, and side inlet pressure |\n| 3 | Implement the calculated flow rate as outlet boundary condition |\n| 4 | Implement the calculated pulses as inlet boundary condition |\n| 5 | **Simulate ALD exposure steps** |\n| 6 | **Model argon flow / Feeding system** (Outlet pressure = Reactor side inlet pressure) |\n| 7 | Simulate valve opening / compute react |"
     },
     "vqa": {
         "a": [

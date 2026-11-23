@@ -21,14 +21,14 @@
         "h": "Ball-and-stick model of another epoxy-doped GO variant, highlighting local structural modifications and surface buckling relevant for ALD chemistry."
     },
     "data_extraction": {
-        "a": "| Functionalization | Surface Side | Notes |\n|---|---|---|\n| Epoxy | One side | Ordered, planar GO layer |",
-        "b": "| Functionalization | Surface Side | Notes |\n|---|---|---|\n| Hydroxyl | One side | Ordered, planar GO layer |",
-        "c": "| Functionalization | Surface Side | Notes |\n|---|---|---|\n| Epoxy + Hydroxyl mixture | One side | Ordered, planar GO layer |",
-        "d": "| Functionalization | Surface Side | Notes |\n|---|---|---|\n| Epoxy | Both sides | Ordered, planar GO layer |",
-        "e": "| Functionalization | Surface Side | Notes |\n|---|---|---|\n| Hydroxyl | Both sides | Ordered, planar GO layer |",
-        "f": "| Functionalization | Surface Side | Notes |\n|---|---|---|\n| Epoxy + Hydroxyl mixture | Both sides | Slight buckling due to random distribution |",
-        "g": "| Functionalization | Surface Side | Notes |\n|---|---|---|\n| Epoxy-doped | One side | Oxygen doping, low likelihood, tested for ALD reactivity |",
-        "h": "| Functionalization | Surface Side | Notes |\n|---|---|---|\n| Epoxy-doped | Both sides | Oxygen doping, low likelihood, tested for ALD reactivity |"
+      "a": "| Functionalization | Surface Side | Notes |\n| --- | --- | --- |\n| Epoxy | One side | Ordered, planar GO layer |",
+      "b": "| Functionalization | Surface Side | Notes |\n| --- | --- | --- |\n| Hydroxyl | One side | Ordered, planar GO layer |",
+      "c": "| Functionalization | Surface Side | Notes |\n| --- | --- | --- |\n| Epoxy + Hydroxyl mixture | One side | Ordered, planar GO layer |",
+      "d": "| Functionalization | Surface Side | Notes |\n| --- | --- | --- |\n| Epoxy | Both sides | Ordered, planar GO layer |",
+      "e": "| Functionalization | Surface Side | Notes |\n| --- | --- | --- |\n| Hydroxyl | Both sides | Ordered, planar GO layer |",
+      "f": "| Functionalization | Surface Side | Notes |\n| --- | --- | --- |\n| Epoxy + Hydroxyl mixture | Both sides | Slight buckling due to random distribution |",
+      "g": "| Functionalization | Surface Side | Notes |\n| --- | --- | --- |\n| Epoxy-doped | One side | Oxygen doping, low likelihood, tested for ALD reactivity |",
+      "h": "| Functionalization | Surface Side | Notes |\n| --- | --- | --- |\n| Epoxy-doped | Both sides | Oxygen doping, low likelihood, tested for ALD reactivity |"
     },
     "vqa": {
         "a": [

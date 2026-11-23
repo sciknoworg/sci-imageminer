@@ -11,9 +11,9 @@
         "c": "Atomic accessible surface areas (ASA) computed from the Connolly surface, with Cl atoms showing the largest ASAs (tens of \u00c5^2 per atom) compared with other surface atoms."
     },
     "data_extraction": {
-        "a": "",
-        "b": "| Ar Irradiation Time (sec) | A/O Molar Ratio |\n|---|---|\n| Ref. | 0.55 |\n| 75 | 0.45 |\n| 100 | 0.48 |\n| 125 | 0.55 |",
-        "c": ""
+      "a": "",
+      "b": "| Ar Irradiation Time (sec) | A/O Molar Ratio |\n| --- | --- |\n| Ref. | 0.55 |\n| 75 | 0.45 |\n| 100 | 0.48 |\n| 125 | 0.55 |",
+      "c": ""
     },
     "vqa": {
         "a": [

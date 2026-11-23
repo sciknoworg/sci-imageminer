@@ -7,7 +7,7 @@
         "a": "Figure 7 presents an XPS depth profile of a partially etched TiN film after 300 cycles of the NbF\u2085\u2013CCl\u2084 etch process at 460 \u00b0C, with 0.5 s pulses and 6 s N\u2082 purges. The surface initially contains high carbon (~26%) and oxygen (~31%), along with nitrogen (~20%), titanium (~15%), niobium (~5%), and small amounts of fluorine and silicon (<2%). After 15 s of argon sputtering, carbon decreases to ~4% and further to ~3% after 60 s, while Ti, N, and O stabilize at ~24\u201332%. Nb and F remain at 5\u20136% and 0.9\u20131.7%, respectively, indicating partial incorporation or diffusion within the TiN surface layer. Si originates from the underlying SiO\u2082. The profile confirms the elemental distribution and partial etch depth of the TiN film."
     },
     "data_extraction": {
-        "a": "| Sputter time [s] | C1s (%) | N1s (%) | O1s (%) | F1s (%) | Si2p (%) | Ti2p (%) | Nb3d (%) |\n|---|---|---|---|---|---|---|---|\n| 0 | 26 | 20 | 31 | 1.5 | 1.5 | 15 | 5 |\n| 15 | 4 | 32 | 28 | 1.0 | 1.5 | 24 | 5.5 |\n| 60 | 3 | 32 | 28 | 0.9 | 1.5 | 24 | 6 |"
+      "a": "| Sputter time [s] | C1s (%) | N1s (%) | O1s (%) | F1s (%) | Si2p (%) | Ti2p (%) | Nb3d (%) |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 0 | 26 | 20 | 31 | 1.5 | 1.5 | 15 | 5 |\n| 15 | 4 | 32 | 28 | 1.0 | 1.5 | 24 | 5.5 |\n| 60 | 3 | 32 | 28 | 0.9 | 1.5 | 24 | 6 |"
     },
     "vqa": {
         "a": [

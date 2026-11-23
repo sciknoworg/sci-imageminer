@@ -11,9 +11,9 @@
         "c": "The line chart shows mass change versus time at 325 \u00b0C. The stepwise mass changes are largest at this temperature, reflecting the highest mass change per cycle among the three conditions."
     },
     "data_extraction": {
-        "a": "| Time (s) | Mass change (ng/cm\u00b2) |\n|----------|----------------------|\n| 6150     | ~-320                |\n| 6200     | ~-330                |\n| 6250     | ~-320                |\n| 6300     | ~-330                |",
-        "b": "| Time (s) | Mass change (ng/cm\u00b2) |\n|----------|----------------------|\n| 6150     | ~-950                |\n| 6200     | ~-980                |\n| 6250     | ~-950                |\n| 6300     | ~-980                |",
-        "c": "| Time (s) | Mass change (ng/cm\u00b2) |\n|----------|----------------------|\n| 6150     | ~-2240               |\n| 6200     | ~-2280               |\n| 6250     | ~-2240               |\n| 6300     | ~-2280               |"
+      "a": "| Time (s) | Mass change (ng/cm\u00b2) |\n| --- | --- |\n| 6150 | ~-320 |\n| 6200 | ~-330 |\n| 6250 | ~-320 |\n| 6300 | ~-330 |",
+      "b": "| Time (s) | Mass change (ng/cm\u00b2) |\n| --- | --- |\n| 6150 | ~-950 |\n| 6200 | ~-980 |\n| 6250 | ~-950 |\n| 6300 | ~-980 |",
+      "c": "| Time (s) | Mass change (ng/cm\u00b2) |\n| --- | --- |\n| 6150 | ~-2240 |\n| 6200 | ~-2280 |\n| 6250 | ~-2240 |\n| 6300 | ~-2280 |"
     },
     "vqa": {
         "b": [

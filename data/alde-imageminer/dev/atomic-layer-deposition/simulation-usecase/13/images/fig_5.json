@@ -17,12 +17,12 @@
         "f": "Ball-and-stick model of MeCpPtMe\u2083 chemisorbed on hydrogenated graphene grain boundaries, illustrating adsorption geometry and local surface distortion, with relative energies indicated."
     },
     "data_extraction": {
-        "a": "| Surface type | Binding site / Feature |\n|---|---|\n| Pristine graphene | Basal plane |",
-        "b": "| Surface type | Binding site / Feature |\n|---|---|\n| Graphene MV | Defective site |",
-        "c": "| Surface type | Binding site / Feature |\n|---|---|\n| Graphene DV 585 | Divacancy site |",
-        "d": "| Surface type | Binding site / Feature |\n|---|---|\n| GB | Defect line |",
-        "e": "| Surface type | Binding site / Feature |\n|---|---|\n| GB \u2013 oxygenated | Epoxy or hydroxyl site |",
-        "f": "| Surface type | Binding site / Feature |\n|---|---|\n| GB \u2013 hydrogenated | Hydrogenated site |"
+      "a": "| Surface type | Binding site / Feature |\n| --- | --- |\n| Pristine graphene | Basal plane |",
+      "b": "| Surface type | Binding site / Feature |\n| --- | --- |\n| Graphene MV | Defective site |",
+      "c": "| Surface type | Binding site / Feature |\n| --- | --- |\n| Graphene DV 585 | Divacancy site |",
+      "d": "| Surface type | Binding site / Feature |\n| --- | --- |\n| GB | Defect line |",
+      "e": "| Surface type | Binding site / Feature |\n| --- | --- |\n| GB \u2013 oxygenated | Epoxy or hydroxyl site |",
+      "f": "| Surface type | Binding site / Feature |\n| --- | --- |\n| GB \u2013 hydrogenated | Hydrogenated site |"
     },
     "vqa": {
         "a": [

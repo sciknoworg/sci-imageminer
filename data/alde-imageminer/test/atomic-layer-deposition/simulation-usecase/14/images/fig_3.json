@@ -7,7 +7,7 @@
         "a": "The line chart illustrates the surface coverage % over number of ALD cycles,  comparing experiment  with two KMC simulations (with and without densification). Coverage increases steadily with more cycles for all cases, 'With Densification' achievies the coverage closest to experiment."
     },
     "data_extraction": {
-        "a": "| ALD Cycle | Experimental | Without Densification | With Densification |\n|------------|--------------|----------------------|--------------------|\n| 0          | 0            | 0                  | 0                |\n| 1          | 39           | 39                 | 39                 |\n| 2          | 44           | 40                   | 49                 |\n| 3          | 53           | 41                   | 62                 |\n| 4          | 63           | 42                   | 69                 |\n| 5          | 71           | 43                   | 77                 |\n| 6          | 74           | 43                   | 81                 |\n| 7          | 78           | 44                   | 86                 |\n| 8          | 84           | 45                   | 89                 |\n| 9          | 94           | 47                   | 92                 |\n| 10         | 100          | 47                   | 94                |"
+      "a": "| ALD Cycle | Experimental | Without Densification | With Densification |\n| --- | --- | --- | --- |\n| 0 | 0 | 0 | 0 |\n| 1 | 39 | 39 | 39 |\n| 2 | 44 | 40 | 49 |\n| 3 | 53 | 41 | 62 |\n| 4 | 63 | 42 | 69 |\n| 5 | 71 | 43 | 77 |\n| 6 | 74 | 43 | 81 |\n| 7 | 78 | 44 | 86 |\n| 8 | 84 | 45 | 89 |\n| 9 | 94 | 47 | 92 |\n| 10 | 100 | 47 | 94 |"
     },
     "vqa": {
         "a": [

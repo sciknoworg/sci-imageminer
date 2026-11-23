@@ -7,7 +7,7 @@
         "a": "Nb 3d  XPS spectra after various ALE cycle stages."
     },
     "data_extraction": {
-        "a": "| Feature        | Binding Energy Range (eV) | Peak Positions (eV) |\n|---------------|----------------------------|----------------------|\n| Nb 3d\u2085/\u2082      | 204 \u2013 212                 | ~207.5              |\n| Nb 3d\u2083/\u2082      | 204 \u2013 212                 | ~210.5              |"
+      "a": "| Feature | Binding Energy Range (eV) | Peak Positions (eV) |\n| --- | --- | --- |\n| Nb 3d\u2085/\u2082 | 204 \u2013 212 | ~207.5 |\n| Nb 3d\u2083/\u2082 | 204 \u2013 212 | ~210.5 |"
     },
     "vqa": {
         "a": [

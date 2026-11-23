@@ -7,7 +7,7 @@
         "a": "The figure compares multiple infrared difference spectra of a B2O3 ALD film recorded after the first and ninth HF exposures at 150 \u00b0C, together with an inverted reference spectrum. The progressive loss of the B\u2013O stretching band and the appearance of B\u2013F related features indicate systematic chemical modification and fluorination of the B2O3 film with repeated HF exposure."
     },
     "data_extraction": {
-        "a": "| Wavenumber region (cm\u207b\u00b9) | Assignment | Trend across spectra |\n|--------------------------|------------|----------------------|\n| ~1400\u20131600 | B\u2013O stretch | Strong in B2O3 ALD, progressively reduced after repeated HF exposure |\n| ~1350 | B\u2013F mode | Appears after HF exposure and strengthens with cycling |\n| ~800\u2013900 | Framework modes | Minor changes between spectra |"
+      "a": "| Wavenumber region (cm-\u00b9) | Assignment | Trend across spectra |\n| --- | --- | --- |\n| ~1400\u20131600 | B\u2013O stretch | Strong in B2O3 ALD, progressively reduced after repeated HF exposure |\n| ~1350 | B\u2013F mode | Appears after HF exposure and strengthens with cycling |\n| ~800\u2013900 | Framework modes | Minor changes between spectra |"
     },
     "vqa": {
         "a": [

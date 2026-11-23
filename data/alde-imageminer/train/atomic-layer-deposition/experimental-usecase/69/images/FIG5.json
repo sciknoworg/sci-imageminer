@@ -7,7 +7,7 @@
         "a": "The chart shows the thickness of as a function of the number of ALD cycles for 5 different precursor combinations."
     },
     "data_extraction": {
-        "a": "| ALD Cycle (#) | Thickness (nm) TDMAP - TMA | Thickness (nm) TDMAP - O\u2082* | Thickness (nm) TDMAP - O\u2082* - TMA | Thickness (nm) TDMAP - TMA - O\u2082* | Thickness (nm) TDMAP - O\u2082* - TMA - O\u2082* |\n|---|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 | 0 |\n| 20 | 0 | 2.0 | 2.0 | 2.0 | 3.5 |\n| 40 | 0 | 2.0 | 4.0 | 4.0 | 6.0 |\n| 60 | 0 | 2.0 | 6.0 | 6.0 | 8.0 |\n| 80 | 0 | 2.0 | 7.0 | 7.0 | 10.0 |\n| 100 | 0 | 2.0 | 8.0 | 8.0 | 12.0 |"
+      "a": "| ALD Cycle (#) | Thickness (nm) TDMAP - TMA | Thickness (nm) TDMAP - O\u2082* | Thickness (nm) TDMAP - O\u2082* - TMA | Thickness (nm) TDMAP - TMA - O\u2082* | Thickness (nm) TDMAP - O\u2082* - TMA - O\u2082* |\n| --- | --- | --- | --- | --- | --- |\n| 0 | 0 | 0 | 0 | 0 | 0 |\n| 20 | 0 | 2.0 | 2.0 | 2.0 | 3.5 |\n| 40 | 0 | 2.0 | 4.0 | 4.0 | 6.0 |\n| 60 | 0 | 2.0 | 6.0 | 6.0 | 8.0 |\n| 80 | 0 | 2.0 | 7.0 | 7.0 | 10.0 |\n| 100 | 0 | 2.0 | 8.0 | 8.0 | 12.0 |"
     },
     "vqa": {
         "a": [

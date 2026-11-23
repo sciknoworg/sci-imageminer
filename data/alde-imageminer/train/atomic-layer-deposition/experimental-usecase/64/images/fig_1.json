@@ -7,7 +7,7 @@
         "a": "The figure shows the molecular structure of the palladium ketoiminato precursor Pd(keim2)2, illustrating the Pd center coordinated to two ketoiminato ligands."
     },
     "data_extraction": {
-        "a": "| Precursor | Structure |\n|---|---|\n| Pd(keim\u2082)\u2082 | Palladium ketoiminato complex with a Pd center coordinated to two ketoiminato ligands |"
+      "a": "| Precursor | Structure |\n| --- | --- |\n| Pd(keim\u2082)\u2082 | Palladium ketoiminato complex with a Pd center coordinated to two ketoiminato ligands |"
     },
     "vqa": {
         "a": [

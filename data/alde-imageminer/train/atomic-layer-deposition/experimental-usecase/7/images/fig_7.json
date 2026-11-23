@@ -7,7 +7,7 @@
         "a": "XRD patterns collected at 15 mm and 45 mm from the leading edge of a film grown at 150 \u00b0C show diffraction features characteristic of anatase TiO\u2082. A strong, narrow (101) reflection appears at ~25.3\u00b0, while a weaker (200) reflection is visible near ~48\u00b0. No additional peaks are observed over the 20\u201360\u00b0 range, indicating the absence of secondary crystalline phases. The close similarity between the two stacked patterns suggests lateral uniformity in phase and crystallinity across the sample."
     },
     "data_extraction": {
-        "a": "| 2\u03b8 (deg) | Peak assignment | Relative intensity | Trace |\n|----------|-----------------|--------------------|-------|\n| ~25.3    | Anatase (101)   | Strong, sharp      | 45 mm from leading edge |\n| ~25.3    | Anatase (101)   | Strong, sharp      | 15 mm from leading edge |\n| ~48.0    | Anatase (200)   | Weak               | 45 mm from leading edge |\n| ~48.0    | Anatase (200)   | Weak               | 15 mm from leading edge |\n| 20\u201360    | Background      | Low, featureless   | Both traces |"
+      "a": "| 2\u03b8 (deg) | Peak assignment | Relative intensity | Trace |\n| --- | --- | --- | --- |\n| ~25.3 | Anatase (101) | Strong, sharp | 45 mm from leading edge |\n| ~25.3 | Anatase (101) | Strong, sharp | 15 mm from leading edge |\n| ~48.0 | Anatase (200) | Weak | 45 mm from leading edge |\n| ~48.0 | Anatase (200) | Weak | 15 mm from leading edge |\n| 20\u201360 | Background | Low, featureless | Both traces |"
     },
     "vqa": {
         "a": [

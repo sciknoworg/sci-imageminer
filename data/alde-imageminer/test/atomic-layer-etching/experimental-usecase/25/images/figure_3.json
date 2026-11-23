@@ -7,7 +7,7 @@
         "a": "The line chart illustrates the linear decrease in thickness of WO\u2083 with increasing number of cycles at 207\u00b0C. The text annotations indicate that W acts as an etch stop."
     },
     "data_extraction": {
-        "a": "| Number of Cycles | WO\u2083 Thickness (\u00c5) |\n|---|---|\n| 0 | 150 |\n| 5 | 120 |\n| 10 | 100 |\n| 15 | 75 |\n| 20 | 50 |\n| 25 | 30 |\n| 30 | 10 |\n| 35 | 10 |\n| 40 | 10 |"
+      "a": "| Number of Cycles | WO\u2083 Thickness (\u00c5) |\n| --- | --- |\n| 0 | 150 |\n| 5 | 120 |\n| 10 | 100 |\n| 15 | 75 |\n| 20 | 50 |\n| 25 | 30 |\n| 30 | 10 |\n| 35 | 10 |\n| 40 | 10 |"
     },
     "vqa": {
         "a": [

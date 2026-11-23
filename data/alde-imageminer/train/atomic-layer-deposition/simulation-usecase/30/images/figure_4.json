@@ -21,14 +21,14 @@
         "h": "Transition state III (TS III) for the third condensation forming the TB configuration."
     },
     "data_extraction": {
-        "a": "| Reaction Step | Delta G (kJ/mol) | Delta E (kJ/mol) |\n|---|---|---|\n| PS | 30 | -93 |\n| TS I | (+132) | (+142) |\n| SB | -15 | -56 |\n| TS II | (+96) | (+102) |\n| DB | -60 | -16 |\n| TS III | (+135) | (+129) |\n| TB | -75 | 35 |",
-        "b": "",
-        "c": "",
-        "d": "",
-        "e": "",
-        "f": "",
-        "g": "",
-        "h": ""
+      "a": "| Reaction Step | Delta G (kJ/mol) | Delta E (kJ/mol) |\n| --- | --- | --- |\n| PS | 30 | -93 |\n| TS I | (+132) | (+142) |\n| SB | -15 | -56 |\n| TS II | (+96) | (+102) |\n| DB | -60 | -16 |\n| TS III | (+135) | (+129) |\n| TB | -75 | 35 |",
+      "b": "",
+      "c": "",
+      "d": "",
+      "e": "",
+      "f": "",
+      "g": "",
+      "h": ""
     },
     "vqa": {
         "a": [

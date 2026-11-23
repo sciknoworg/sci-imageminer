@@ -14,11 +14,11 @@
         "e": "The constructed energy band diagram reveals a type-II (staggered) band alignment, where the conduction band minimum of TiO\u2082 lies below that of MoS\u2082, while the valence band maximum of MoS\u2082 lies above that of TiO\u2082. This alignment favors efficient charge separation, with electrons transferring from MoS\u2082 to TiO\u2082 and holes accumulating in MoS\u2082."
     },
     "data_extraction": {
-        "a": "| Kinetic Energy (eV) | Intensity (a.u.) |\n|---|---|\n| 4 | 0 |\n| 5 | 4.92 |\n| 6 | 5.15 |\n| 7 | 0 |",
-        "c": "| Binding Energy (eV) | Intensity (a.u.) |\n|---|---|\n| 4 | 0 |\n| 2 | 3.1 |\n| 0 | 0 |\n|-2 | 0 |",
-        "b": "| Binding Energy (eV) | Intensity (a.u.) |\n|---|---|\n| 468 | 0 |\n| 466 | 0 |\n| 464 | 0 |\n| 462 | 0 |\n| 460 | 0 |\n| 458 | 0 |\n| 456 | 0 |",
-        "d": "| Binding Energy (eV) | Intensity (a.u.) |\n|---|---|\n| 2 | 0 |\n| 1 | 0 |\n| 0 | 0 |\n|-1 | 0 |",
-        "e": "| | VL | CBM | EF | VBM |\n|---|---|---|---|---|\n| TiO2 | 4.9 | 3.1 | 5.1 | 0.2 |\n| MoS2 | 1.1 | 0 | 0 | 0 |"
+      "a": "| Kinetic Energy (eV) | Intensity (a.u.) |\n| --- | --- |\n| 4 | 0 |\n| 5 | 4.92 |\n| 6 | 5.15 |\n| 7 | 0 |",
+      "c": "| Binding Energy (eV) | Intensity (a.u.) |\n| --- | --- |\n| 4 | 0 |\n| 2 | 3.1 |\n| 0 | 0 |\n| -2 | 0 |",
+      "b": "| Binding Energy (eV) | Intensity (a.u.) |\n| --- | --- |\n| 468 | 0 |\n| 466 | 0 |\n| 464 | 0 |\n| 462 | 0 |\n| 460 | 0 |\n| 458 | 0 |\n| 456 | 0 |",
+      "d": "| Binding Energy (eV) | Intensity (a.u.) |\n| --- | --- |\n| 2 | 0 |\n| 1 | 0 |\n| 0 | 0 |\n| -1 | 0 |",
+      "e": "| Category | VL | CBM | EF | VBM |\n| --- | --- | --- | --- | --- |\n| TiO2 | 4.9 | 3.1 | 5.1 | 0.2 |\n| MoS2 | 1.1 | 0 | 0 | 0 |"
     },
     "vqa": {
         "a": [

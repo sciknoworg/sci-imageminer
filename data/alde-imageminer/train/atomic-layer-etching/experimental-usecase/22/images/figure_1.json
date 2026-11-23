@@ -9,8 +9,8 @@
         "b": "The line chart illustrates real-time mass changes during alternating exposures to H\u2082O and MoF\u2086, visualised through stepwise increases and decreases. Annotated bars indicate the timing of each precursor pulse, and labeled \u0394 values quantify the mass gain and loss per cycle."
     },
     "data_extraction": {
-        "a": "| Elapsed Time (s) | Mass Change (ng/cm\u00b2) |\n|------------------|----------------------|\n| 0                | 0                    |\n| 5                | ~13                  |\n| 10               | ~26                  |\n| 15               | ~39                  |\n| 17               | ~42 (peak)           |\n| 20               | ~37                  |\n| 25               | ~25                  |\n| 30               | ~12                  |\n| 35               | ~0                   |",
-        "b": "| Elapsed Time (s) | Mass Change (ng/cm\u00b2) |\n|------------------|----------------------|\n| 0                | 0                    |\n| 10               | ~42                  |\n| 12               | ~23                  |\n| 20               | ~65                  |\n| 22               | ~46                  |\n| 30               | ~88                  |\n| 32               | ~69                  |"
+      "a": "| Elapsed Time (s) | Mass Change (ng/cm\u00b2) |\n| --- | --- |\n| 0 | 0 |\n| 5 | ~13 |\n| 10 | ~26 |\n| 15 | ~39 |\n| 17 | ~42 (peak) |\n| 20 | ~37 |\n| 25 | ~25 |\n| 30 | ~12 |\n| 35 | ~0 |",
+      "b": "| Elapsed Time (s) | Mass Change (ng/cm\u00b2) |\n| --- | --- |\n| 0 | 0 |\n| 10 | ~42 |\n| 12 | ~23 |\n| 20 | ~65 |\n| 22 | ~46 |\n| 30 | ~88 |\n| 32 | ~69 |"
     },
     "vqa": {
         "b": [

@@ -11,9 +11,9 @@
         "c": "Nitrogen mole fraction contour map for reactor R3, showing partial improvement due to asymmetric inlet placement and reduced intermixing."
     },
     "data_extraction": {
-        "a": "| R2 | R3 | R4 |\n|---|---|---|\n| 0.8 (rad/s) | 0.8 (rad/s) | 0.8 (rad/s) |\n| 1.0 (rad/s) | 1.0 (rad/s) | 1.0 (rad/s) |",
-        "b": "| R2 | R3 | R4 |\n|---|---|---|\n| 0.8 (rad/s) | 0.8 (rad/s) | 0.8 (rad/s) |\n| 1.0 (rad/s) | 1.0 (rad/s) | 1.0 (rad/s) |",
-        "c": "| R2 | R3 | R4 |\n|---|---|---|\n| 0.8 (rad/s) | 0.8 (rad/s) | 0.8 (rad/s) |\n| 1.0 (rad/s) | 1.0 (rad/s) | 1.0 (rad/s) |"
+      "a": "| R2 | R3 | R4 |\n| --- | --- | --- |\n| 0.8 (rad/s) | 0.8 (rad/s) | 0.8 (rad/s) |\n| 1.0 (rad/s) | 1.0 (rad/s) | 1.0 (rad/s) |",
+      "b": "| R2 | R3 | R4 |\n| --- | --- | --- |\n| 0.8 (rad/s) | 0.8 (rad/s) | 0.8 (rad/s) |\n| 1.0 (rad/s) | 1.0 (rad/s) | 1.0 (rad/s) |",
+      "c": "| R2 | R3 | R4 |\n| --- | --- | --- |\n| 0.8 (rad/s) | 0.8 (rad/s) | 0.8 (rad/s) |\n| 1.0 (rad/s) | 1.0 (rad/s) | 1.0 (rad/s) |"
     },
     "vqa": {
         "b": [

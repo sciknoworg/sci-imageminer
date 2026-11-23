@@ -9,8 +9,8 @@
         "b": "The image displays spectral data for \u03b2-MnO\u2082 and LiMn\u2082O\u2084 materials, with energy on the x-axis and intensity on the y-axis."
     },
     "data_extraction": {
-        "a": "",
-        "b": "|Energy|Intensity LiMn2O4|\u03b2-MnO2|\n|---|---|---|\n|6535|Baseline|Baseline|\n|6550|Increase|Increase|\n|6575|Leveling|Leveling|\n|6600|Constant|Constant|\n|6615|Constant|Constant|"
+      "a": "",
+      "b": "| Energy | Intensity LiMn2O4 | \u03b2-MnO2 |\n| --- | --- | --- |\n| 6535 | Baseline | Baseline |\n| 6550 | Increase | Increase |\n| 6575 | Leveling | Leveling |\n| 6600 | Constant | Constant |\n| 6615 | Constant | Constant |"
     },
     "vqa": {
         "b": [

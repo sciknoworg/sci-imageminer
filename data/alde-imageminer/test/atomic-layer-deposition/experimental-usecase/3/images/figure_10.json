@@ -7,7 +7,7 @@
         "a": "The line chart illustrates the change in mass over time. Addition of metal precursors produces rapid net mass gain, adding water produces net mass loss."
     },
     "data_extraction": {
-        "a": "| Time (seconds) | Mass (micrograms) | Step |\n|---|---|---|\n| 0  |  0  | - |\n| 4  |  0  | Start Metal doses  |\n| 8  |  0.053  | Start Water doses  |\n| 15 |  0 .037 | Start Metal doses  |\n| 19  |  0.089  | Start Water doses  |\n| 25  |  0.073  | -  |"
+      "a": "| Time (seconds) | Mass (micrograms) | Step |\n| --- | --- | --- |\n| 0 | 0 | - |\n| 4 | 0 | Start Metal doses |\n| 8 | 0.053 | Start Water doses |\n| 15 | 0 .037 | Start Metal doses |\n| 19 | 0.089 | Start Water doses |\n| 25 | 0.073 | - |"
     },
     "vqa": {
         "a": [

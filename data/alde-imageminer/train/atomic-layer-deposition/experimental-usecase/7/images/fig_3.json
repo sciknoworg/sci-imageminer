@@ -9,8 +9,8 @@
         "b": "A similar behavior is observed when varying the second purge time, with \u0394m\u2080 dropping rapidly at short purge times and stabilizing beyond ~2 s. The persistence of a temperature offset indicates that growth temperature influences the net mass increment even after sufficient purging."
     },
     "data_extraction": {
-        "a": "| First purge time x (s) | \u0394m\u2080 at 150 \u00b0C (circles) | \u0394m\u2080 at 350 \u00b0C (squares) |\n|---|---|---|\n| 0.1 | ~56 | ~41 |\n| 0.5 | ~44 | ~35 |\n| 1.0 | ~41 | ~36 |\n| 2.0 | ~41 | ~34 |\n| 5.0 | ~39 | ~30 |\n| 10.0 | ~40 | ~30 |",
-        "b": "| Second purge time x (s) | \u0394m\u2080 at 150 \u00b0C (circles) | \u0394m\u2080 at 350 \u00b0C (squares) |\n|---|---|---|\n| 0.1 | ~54 | ~43 |\n| 0.5 | ~45 | ~38 |\n| 1.0 | ~45 | ~34 |\n| 2.0 | ~42 | ~34 |\n| 5.0 | ~40 | ~35 |\n| 10.0 | ~40 | ~35 |"
+      "a": "| First purge time x (s) | \u0394m\u2080 at 150 \u00b0C (circles) | \u0394m\u2080 at 350 \u00b0C (squares) |\n| --- | --- | --- |\n| 0.1 | ~56 | ~41 |\n| 0.5 | ~44 | ~35 |\n| 1.0 | ~41 | ~36 |\n| 2.0 | ~41 | ~34 |\n| 5.0 | ~39 | ~30 |\n| 10.0 | ~40 | ~30 |",
+      "b": "| Second purge time x (s) | \u0394m\u2080 at 150 \u00b0C (circles) | \u0394m\u2080 at 350 \u00b0C (squares) |\n| --- | --- | --- |\n| 0.1 | ~54 | ~43 |\n| 0.5 | ~45 | ~38 |\n| 1.0 | ~45 | ~34 |\n| 2.0 | ~42 | ~34 |\n| 5.0 | ~40 | ~35 |\n| 10.0 | ~40 | ~35 |"
     },
     "vqa": {
         "b": [

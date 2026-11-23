@@ -7,7 +7,7 @@
         "a": "Multi-axis chart showing growth per cycle (left axis) and silicon atomic content (right axis) in plasma-enhanced ALD Ti\u2013Si\u2013N films deposited using a reversed reactant sequence (SiH\u2084 \u2192 TiCl\u2084 \u2192 N\u2082/H\u2082/Ar plasma). Both quantities increase with SiH\u2084 pulse time at short exposures and saturate at approximately 0.60\u20130.62 \u00c5/cycle and 11\u201312 at.% Si for pulse times of ~8\u201310 s, indicating self-limiting surface reactions under this sequence."
     },
     "data_extraction": {
-        "a": "|SiH4 Pulse Time (s) |Thickness (S-T-N) [\u00c5/cycle]|Si Content (S-T-N) [at.%]|\n|--------------------|-------------------------------|-------------------|\n| 0                   | ~0.46                         |    \u2013              |\n| 2                   | ~0.50                         | ~7.5              |\n| 4                   | ~0.55                         | ~8.0              |\n| 6                   | ~0.60                         | ~10.0             |\n| 8                   | ~0.60                         | ~11.0             |\n| 10                  | ~0.62                         | ~12.0             |\n| 12                  | ~0.60                         | ~12.0             |\n| 14                  | ~0.60                         | ~12.0             |"
+      "a": "| SiH4 Pulse Time (s) | Thickness (S-T-N) [\u00c5/cycle] | Si Content (S-T-N) [at.%] |\n| --- | --- | --- |\n| 0 | ~0.46 | \u2013 |\n| 2 | ~0.50 | ~7.5 |\n| 4 | ~0.55 | ~8.0 |\n| 6 | ~0.60 | ~10.0 |\n| 8 | ~0.60 | ~11.0 |\n| 10 | ~0.62 | ~12.0 |\n| 12 | ~0.60 | ~12.0 |\n| 14 | ~0.60 | ~12.0 |"
     },
     "vqa": {
         "a": [

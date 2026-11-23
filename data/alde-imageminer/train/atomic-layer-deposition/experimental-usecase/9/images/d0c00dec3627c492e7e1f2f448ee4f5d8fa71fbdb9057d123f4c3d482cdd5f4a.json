@@ -17,12 +17,12 @@
         "f": "This panel demonstrates a flexible electronic device incorporating ALD-processed layers, bent without mechanical failure. It illustrates how low-temperature, conformal ALD enables integration of functional thin films into flexible and wearable electronic applications."
     },
     "data_extraction": {
-        "a": "",
-        "b": "| Discrete process step|Nanometer-level thickness (schematic)|\n|----------------------|--------------------------------------|\n|0|~0 nm|\n|1|Increasing|\n|2|Increasing|\n|3|Increasing|\n|4|Increasing|\n|...|...|\n|N|~Linear increase|",
-        "c": "",
-        "d": "",
-        "e": "",
-        "f": ""
+      "a": "",
+      "b": "| Discrete process step | Nanometer-level thickness (schematic) |\n| --- | --- |\n| 0 | ~0 nm |\n| 1 | Increasing |\n| 2 | Increasing |\n| 3 | Increasing |\n| 4 | Increasing |\n| ... | ... |\n| N | ~Linear increase |",
+      "c": "",
+      "d": "",
+      "e": "",
+      "f": ""
     },
     "vqa": {
         "a": [

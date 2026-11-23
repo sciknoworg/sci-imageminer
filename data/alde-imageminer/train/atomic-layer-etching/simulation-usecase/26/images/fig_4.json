@@ -13,10 +13,10 @@
         "d": "The chart shows the depth change and concentration of Cl atoms on Si as a function of ion dose for 50 eV Ar<sup>+</sup> ions for thick Cl layer adsorption."
     },
     "data_extraction": {
-        "a": "| Ion Dose (x10<sup>16</sup> ions/cm<sup>2</sup>) | Depth Change (\u00c5) | Cl Atoms on Si (10<sup>15</sup>/cm<sup>2</sup>) |\n|---|---|---|\n| 0.0 | 0.0 | 1.5 |\n| 5.0 | 0.5 | 1.0 |\n| 10.0 | 1.0 | 0.8 |\n| 15.0 | 1.5 | 0.75 |",
-        "b": "| Ion Dose (x10<sup>16</sup> ions/cm<sup>2</sup>) | Depth Change (\u00c5) | Cl Atoms on Si (10<sup>15</sup>/cm<sup>2</sup>) |\n|---|---|---|\n| 0.0 | 0.0 | 6.2 |\n| 5.0 | 2.2 | 2.2 |\n| 10.0 | 4.4 | 1.2 |\n| 15.0 | 6.6 | 0.4 |",
-        "c": "| Ion Dose (x10<sup>16</sup> ions/cm<sup>2</sup>) | Depth Change (\u00c5) | Cl Atoms on Si (10<sup>15</sup>/cm<sup>2</sup>) |\n|---|---|---|\n| 0.0 | 0.0 | 4.2 |\n| 5.0 | 1.5 | 1.2 |\n| 10.0 | 3.0 | 1 |\n| 15.0 | 4.5 | 0.4 |",
-        "d": "| Ion Dose (x10<sup>16</sup> ions/cm<sup>2</sup>) | Depth Change (\u00c5) | Cl Atoms on Si (10<sup>15</sup>/cm<sup>2</sup>) |\n|---|---|---|\n| 0.0 | 0.0 | 12.5 |\n| 5.0 | 2.5 | 1 |\n| 10.0 | 5.0 | 0.6 |\n| 15.0 | 7.5 | 0.4 |"
+      "a": "| Ion Dose (x10<sup>16</sup> ions/cm<sup>2</sup>) | Depth Change (\u00c5) | Cl Atoms on Si (10<sup>15</sup>/cm<sup>2</sup>) |\n| --- | --- | --- |\n| 0.0 | 0.0 | 1.5 |\n| 5.0 | 0.5 | 1.0 |\n| 10.0 | 1.0 | 0.8 |\n| 15.0 | 1.5 | 0.75 |",
+      "b": "| Ion Dose (x10<sup>16</sup> ions/cm<sup>2</sup>) | Depth Change (\u00c5) | Cl Atoms on Si (10<sup>15</sup>/cm<sup>2</sup>) |\n| --- | --- | --- |\n| 0.0 | 0.0 | 6.2 |\n| 5.0 | 2.2 | 2.2 |\n| 10.0 | 4.4 | 1.2 |\n| 15.0 | 6.6 | 0.4 |",
+      "c": "| Ion Dose (x10<sup>16</sup> ions/cm<sup>2</sup>) | Depth Change (\u00c5) | Cl Atoms on Si (10<sup>15</sup>/cm<sup>2</sup>) |\n| --- | --- | --- |\n| 0.0 | 0.0 | 4.2 |\n| 5.0 | 1.5 | 1.2 |\n| 10.0 | 3.0 | 1 |\n| 15.0 | 4.5 | 0.4 |",
+      "d": "| Ion Dose (x10<sup>16</sup> ions/cm<sup>2</sup>) | Depth Change (\u00c5) | Cl Atoms on Si (10<sup>15</sup>/cm<sup>2</sup>) |\n| --- | --- | --- |\n| 0.0 | 0.0 | 12.5 |\n| 5.0 | 2.5 | 1 |\n| 10.0 | 5.0 | 0.6 |\n| 15.0 | 7.5 | 0.4 |"
     },
     "vqa": {
         "a": [

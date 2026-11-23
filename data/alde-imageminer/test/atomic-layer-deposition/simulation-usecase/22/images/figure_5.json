@@ -11,8 +11,8 @@
         "c": "provides the same analysis for Co(0001). Co exhibits a broader distribution with more mid-range gaps (0.25\u20130.35 nm), reflecting reduced packing efficiency after hydrogenolysis. The RSA inset reveals more open regions than Ru, implying weaker precursor blocking and lower selectivity."
     },
     "data_extraction": {
-        "b": "| Effective gap size (nm) | Surface density (nm^-2) |\n|---|---|\n| 0.20 | 0.11 |\n| 0.25 | 0.05 |\n| 0.30 | 0.00 |\n| 0.35 | 0.00 |\n| 0.40 | 0.00 |\n| 0.45 | 0.00 |\n| 0.50 | 0.00 |",
-        "c": "| Effective gap size (nm) | Surface density (nm^-2) |\n|---|---|\n| 0.20 | 0.06 |\n| 0.25 | 0.00 |\n| 0.30 | 0.00 |\n| 0.35 | 0.00 |\n| 0.40 | 0.00 |\n| 0.45 | 0.00 |\n| 0.50 | 0.00 |"
+      "b": "| Effective gap size (nm) | Surface density (nm^-2) |\n| --- | --- |\n| 0.20 | 0.11 |\n| 0.25 | 0.05 |\n| 0.30 | 0.00 |\n| 0.35 | 0.00 |\n| 0.40 | 0.00 |\n| 0.45 | 0.00 |\n| 0.50 | 0.00 |",
+      "c": "| Effective gap size (nm) | Surface density (nm^-2) |\n| --- | --- |\n| 0.20 | 0.06 |\n| 0.25 | 0.00 |\n| 0.30 | 0.00 |\n| 0.35 | 0.00 |\n| 0.40 | 0.00 |\n| 0.45 | 0.00 |\n| 0.50 | 0.00 |"
     },
     "vqa": {
         "b": [

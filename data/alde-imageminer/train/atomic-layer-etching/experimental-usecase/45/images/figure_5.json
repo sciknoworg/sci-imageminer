@@ -7,7 +7,7 @@
         "a": "The figure demonstrates selective TiN etching using O\u2083/HF at 250\u00b0C. TiN (gray diamonds) shows linear thickness reduction while Al\u2082O\u2083, HfO\u2082, ZrO\u2082, SiO\u2082, and Si\u2083N\u2084 remain essentially unchanged over 400 cycles. This confirms high selectivity of the ALE process for TiN over common dielectrics and barrier materials."
     },
     "data_extraction": {
-        "a": "| Number of Cycles | TiN | Al\u2082O\u2083 | Si\u2083N\u2084 | SiO\u2082 | ZrO\u2082 | HfO\u2082 |\n|-----------------|-----|-------|------|-----|------|------|\n| 0              | 75  | 40    | 40   | 55  | 55   | 55   |\n| 100            | 40  | 40    | 40   | 55  | 55   | 55   |\n| 200            | 20  | 40    | 40   | 55  | 55   | 55   |\n| 300            | 10  | 40    | 40   | 55  | 55   | 55   |\n| 400            | 5   | 40    | 40   | 55  | 55   | 55   |"
+      "a": "| Number of Cycles | TiN | Al\u2082O\u2083 | Si\u2083N\u2084 | SiO\u2082 | ZrO\u2082 | HfO\u2082 |\n| --- | --- | --- | --- | --- | --- | --- |\n| 0 | 75 | 40 | 40 | 55 | 55 | 55 |\n| 100 | 40 | 40 | 40 | 55 | 55 | 55 |\n| 200 | 20 | 40 | 40 | 55 | 55 | 55 |\n| 300 | 10 | 40 | 40 | 55 | 55 | 55 |\n| 400 | 5 | 40 | 40 | 55 | 55 | 55 |"
     },
     "vqa": {
         "a": [

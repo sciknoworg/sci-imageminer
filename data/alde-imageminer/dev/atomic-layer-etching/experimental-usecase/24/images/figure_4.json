@@ -9,8 +9,8 @@
         "b": "\u0394M_HF versus HF exposure time at 300\u00b0C. The mass gain increases rapidly and saturates at ~13 ng/(cm\u00b2 cycle) after about 1.0 s exposure. This sharp saturation indicates that HF fluorinates the Al\u2082O\u2083 surface to form a passivating AlF\u2083 layer that prevents further reaction."
     },
     "data_extraction": {
-        "a": "| TMA exposure time (s) | \u0394M_TMA (ng/cm\u00b2\u00b7cycle) |\n| --------------------- | --------------------- |\n|         0.0           |           ~0          |\n|         0.5           |          ~-6          |\n|         1.0           |         ~-10          |\n|         1.5           |         ~-12          |\n|         2.0           |         ~-14          |\n|         2.5           |         ~-15          |",
-        "b": "| HF exposure time (s) | \u0394M_HF (ng/cm\u00b2\u00b7cycle) |\n| -------------------- | -------------------- |\n|        0.0           |         ~0           |\n|        0.5           |        ~10           |\n|        1.0           |        ~14           |\n|        1.5           |        ~15           |\n|        2.0           |        ~16           |"
+      "a": "| TMA exposure time (s) | \u0394M_TMA (ng/cm\u00b2\u00b7cycle) |\n| --- | --- |\n| 0.0 | ~0 |\n| 0.5 | ~-6 |\n| 1.0 | ~-10 |\n| 1.5 | ~-12 |\n| 2.0 | ~-14 |\n| 2.5 | ~-15 |",
+      "b": "| HF exposure time (s) | \u0394M_HF (ng/cm\u00b2\u00b7cycle) |\n| --- | --- |\n| 0.0 | ~0 |\n| 0.5 | ~10 |\n| 1.0 | ~14 |\n| 1.5 | ~15 |\n| 2.0 | ~16 |"
     },
     "vqa": {
         "a": [

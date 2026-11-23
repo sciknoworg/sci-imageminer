@@ -7,7 +7,7 @@
         "a": "Figure 6 shows the mass changes during the first two Al\u2082O\u2083 ALE cycles at 250, 275, 300, and 325\u202f\u00b0C. The first TMA exposure produces mass gains of 27\u201332\u202fng/cm\u00b2, corresponding to the reaction of surface AlOH* with TMA. The subsequent HF exposure adds 33\u201336\u202fng/cm\u00b2 due to the conversion of AlCH\u2083* species to AlF* and formation of an AlF\u2083 surface layer. Mass changes are nearly constant across the temperatures during these early cycles, and higher temperatures lead to slightly larger gains. The figure highlights the initial nucleation behavior and the temperature-dependent early-stage mass changes."
     },
     "data_extraction": {
-        "a": "| Time (s) | 250\u00b0C (ng/cm^2) | 275\u00b0C (ng/cm^2) | 300\u00b0C (ng/cm^2) | 325\u00b0C (ng/cm^2) |\n|----------|-----------------|-----------------|-----------------|-----------------|\n| 1        | ~25             | ~25             | ~25             | ~25             |\n| 30       | ~65             | ~62             | ~60             | ~58             |\n| 60       | ~68             | ~62             | ~64             | ~60             |\n| 90       | ~60             | ~48             | ~40             | ~20             |\n| 120     | ~70             | ~60             | ~58             | ~40             |"
+      "a": "| Time (s) | 250\u00b0C (ng/cm^2) | 275\u00b0C (ng/cm^2) | 300\u00b0C (ng/cm^2) | 325\u00b0C (ng/cm^2) |\n| --- | --- | --- | --- | --- |\n| 1 | ~25 | ~25 | ~25 | ~25 |\n| 30 | ~65 | ~62 | ~60 | ~58 |\n| 60 | ~68 | ~62 | ~64 | ~60 |\n| 90 | ~60 | ~48 | ~40 | ~20 |\n| 120 | ~70 | ~60 | ~58 | ~40 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The chart shows the relationship between etch temperature and etch per cycle for two different sequences: NbF5 +  CCl4 (3/6/3/6s) and CCl4 (3/6s). CCl4 alone produces no etching."
     },
     "data_extraction": {
-        "a": "| etch temperature [\u00b0C] | NbF5 +  CCl4 (3/6/3/6s): etch per cycle [A/Cycle] |CCl4 (3/6s): etch per cycle [A/Cycle] |\n|---|---|---|\n| 380 | 0.03 | -0.07 |\n| 400 | 0.225 | -0.06 |\n| 460 | 1.45 | -0.06 |"
+      "a": "| etch temperature [\u00b0C] | NbF5 +  CCl4 (3/6/3/6s): etch per cycle [A/Cycle] | CCl4 (3/6s): etch per cycle [A/Cycle] |\n| --- | --- | --- |\n| 380 | 0.03 | -0.07 |\n| 400 | 0.225 | -0.06 |\n| 460 | 1.45 | -0.06 |"
     },
     "vqa": {
         "a": [

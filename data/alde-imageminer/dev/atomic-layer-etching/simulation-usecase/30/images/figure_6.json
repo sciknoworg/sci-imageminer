@@ -7,7 +7,7 @@
         "a": "The chart shows the etched thickness of Al2O3 (ALD), SiO2 (TOx), and Si3N4 (LPCVD) as a function of etch cycles. For  Al2O, the thickness increases linearly with etch cycles. For Si3N4 (LPCVD) and SiO2 (TOx), no etching is observed."
     },
     "data_extraction": {
-        "a": "| etch cycles | etched thickness [nm] | Film |\n|---|---|---|\n| 1 | 0,40 | Al2O3 (ALD) |\n| 60 | 5,49 | Al2O3 (ALD) |\n| 100 | 12,19 | Al2O3 (ALD) |\n| 149 | 17,05 | Al2O3 (ALD) |\n| 0 | 0,51 | SiO2(TOx) |\n| 60 | 0,48 | SiO2(TOx) |\n| 100 | 0,44 | SiO2(TOx) |\n| 150 | 0,44 | SiO2(TOx) |\n| 0 | 0,32 | Si3N4(LPCVD) |\n| 50 | 0,40 | Si3N4(LPCVD) |\n| 100 | 0,44 | Si3N4(LPCVD) |\n| 150 | 0,44 | Si3N4(LPCVD) |"
+      "a": "| etch cycles | etched thickness [nm] | Film |\n| --- | --- | --- |\n| 1 | 0,40 | Al2O3 (ALD) |\n| 60 | 5,49 | Al2O3 (ALD) |\n| 100 | 12,19 | Al2O3 (ALD) |\n| 149 | 17,05 | Al2O3 (ALD) |\n| 0 | 0,51 | SiO2(TOx) |\n| 60 | 0,48 | SiO2(TOx) |\n| 100 | 0,44 | SiO2(TOx) |\n| 150 | 0,44 | SiO2(TOx) |\n| 0 | 0,32 | Si3N4(LPCVD) |\n| 50 | 0,40 | Si3N4(LPCVD) |\n| 100 | 0,44 | Si3N4(LPCVD) |\n| 150 | 0,44 | Si3N4(LPCVD) |"
     },
     "vqa": {
         "a": [

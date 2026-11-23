@@ -9,8 +9,8 @@
         "b": "Step 2 (Etching): Reactant 2 reacts with the modified surface at the same temperature, causing the modified layer to desorb, resulting in precise, isotropic etching of exactly one atomic layer. The process window is the narrow temperature range where both steps proceed in a self-limiting manner, enabling atomic-scale control."
     },
     "data_extraction": {
-        "a": "| Process Window | Temperature |\n|----------------|------------|\n| Chemisorption of reactant 1 | Reaction Rates |\n| Desorption of reaction products 1 | Reaction Rates |",
-        "b": "| Process Window | Temperature |\n|----------------|------------|\n| Chemisorption and reaction of reactant 2 | Reaction Rates |\n| Desorption of reaction products 2 | Reaction Rates |"
+      "a": "| Process Window | Temperature |\n| --- | --- |\n| Chemisorption of reactant 1 | Reaction Rates |\n| Desorption of reaction products 1 | Reaction Rates |",
+      "b": "| Process Window | Temperature |\n| --- | --- |\n| Chemisorption and reaction of reactant 2 | Reaction Rates |\n| Desorption of reaction products 2 | Reaction Rates |"
     },
     "vqa": {
         "b": [

@@ -7,7 +7,7 @@
         "a": "The subfigure shows infrared difference spectra of a B2O3 ALD film recorded after consecutive HF exposures at 40 \u00b0C. A strong loss of the B\u2013O stretching band and a clear B\u2013O\u2013B bending feature indicate progressive removal of the B2O3 film, which is nearly complete after the second HF exposure."
     },
     "data_extraction": {
-        "a": "| Wavenumber (cm\u207b\u00b9) | Feature | Absorbance change |\n|------------------|---------|-------------------|\n| ~1400\u20131550 | B\u2013O stretch | Strong negative band after 2nd HF exposure |\n| ~1000 | Baseline region | Minor change |\n| ~720 | B\u2013O\u2013B bend | Distinct negative peak |"
+      "a": "| Wavenumber (cm-\u00b9) | Feature | Absorbance change |\n| --- | --- | --- |\n| ~1400\u20131550 | B\u2013O stretch | Strong negative band after 2nd HF exposure |\n| ~1000 | Baseline region | Minor change |\n| ~720 | B\u2013O\u2013B bend | Distinct negative peak |"
     },
     "vqa": {
         "a": [

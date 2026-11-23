@@ -7,7 +7,7 @@
         "a": "The line chart shows the energy (E) in kcal/mol during the reaction step where a chlorine group reacts with water, for either the first (A), the second (B), or the third (C) chlorine group."
     },
     "data_extraction": {
-        "a": "| Reaction Step | \u0394E (kcal/mol) A |\u0394E (kcal/mol) B |\u0394E (kcal/mol) C |\n|---|---|---|---|\n| Start | 0 |0 |0 |\n| Complex | -17|-15|-15|\n| TS |3|3|3|\n| HCl (a) | -1| 0|2|\n| HCl (g)| 2| 5|8|"
+      "a": "| Reaction Step | \u0394E (kcal/mol) A | \u0394E (kcal/mol) B | \u0394E (kcal/mol) C |\n| --- | --- | --- | --- |\n| Start | 0 | 0 | 0 |\n| Complex | -17 | -15 | -15 |\n| TS | 3 | 3 | 3 |\n| HCl (a) | -1 | 0 | 2 |\n| HCl (g) | 2 | 5 | 8 |"
     },
     "vqa": {
         "a": [

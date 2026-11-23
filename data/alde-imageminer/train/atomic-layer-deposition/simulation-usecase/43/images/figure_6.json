@@ -11,9 +11,9 @@
         "c": "This  line chart shows the evolution of Growth Per Cycle (GPC) for TMA adsorption over the first 15 ALD cycles, starting from a baseline. The GPC increases from an initial low value before stabilizing, indicating a nucleation period before steady-state growth is achieved."
     },
     "data_extraction": {
-        "a": "| Time (min) | Thickness (\u00c5) |\n|------------|----------------|\n| 0  | 0   |\n| 2  | 1.8 |\n| 4  | 2.7 |\n| 6  | 5   |\n| 8  | 8.2 |\n| 10 | 10  |",
-        "b": "| ALD Cycles | Y (\u00c5) | Parameter |\n|------------|--------|------------------------|\n| 0  | 0    | TMA dose peak (\u00c5) |\n| 0  | 0    | Growth per cycle (\u00c5) |\n| 3  | 1.32 | TMA dose peak (\u00c5) |\n| 3  | 0.04 | Growth per cycle (\u00c5) |\n| 6  | 1.29 | TMA dose peak (\u00c5) |\n| 6  | 0.29 | Growth per cycle (\u00c5) |\n| 9  | 1.9  | TMA dose peak (\u00c5) |\n| 9  | 0.5  | Growth per cycle (\u00c5) |\n| 12 | 2.21 | TMA dose peak (\u00c5) |\n| 12 | 0.86 | Growth per cycle (\u00c5) |\n| 15 | 2.2  | TMA dose peak (\u00c5) |\n| 15 | 0.86 | Growth per cycle (\u00c5) |",
-        "c": "| ALD Cycles | GPC / TMA-Adsorp. |\n|------------|--------------------|\n| 0  | 0    |\n| 3  | 0.04 |\n| 6  | 0.23 |\n| 9  | 0.30 |\n| 12 | 0.40 |\n| 15 | 0.37 |"
+      "a": "| Time (min) | Thickness (\u00c5) |\n| --- | --- |\n| 0 | 0 |\n| 2 | 1.8 |\n| 4 | 2.7 |\n| 6 | 5 |\n| 8 | 8.2 |\n| 10 | 10 |",
+      "b": "| ALD Cycles | Y (\u00c5) | Parameter |\n| --- | --- | --- |\n| 0 | 0 | TMA dose peak (\u00c5) |\n| 0 | 0 | Growth per cycle (\u00c5) |\n| 3 | 1.32 | TMA dose peak (\u00c5) |\n| 3 | 0.04 | Growth per cycle (\u00c5) |\n| 6 | 1.29 | TMA dose peak (\u00c5) |\n| 6 | 0.29 | Growth per cycle (\u00c5) |\n| 9 | 1.9 | TMA dose peak (\u00c5) |\n| 9 | 0.5 | Growth per cycle (\u00c5) |\n| 12 | 2.21 | TMA dose peak (\u00c5) |\n| 12 | 0.86 | Growth per cycle (\u00c5) |\n| 15 | 2.2 | TMA dose peak (\u00c5) |\n| 15 | 0.86 | Growth per cycle (\u00c5) |",
+      "c": "| ALD Cycles | GPC / TMA-Adsorp. |\n| --- | --- |\n| 0 | 0 |\n| 3 | 0.04 |\n| 6 | 0.23 |\n| 9 | 0.30 |\n| 12 | 0.40 |\n| 15 | 0.37 |"
     },
     "vqa": {
         "a": [

@@ -9,7 +9,7 @@
         "b": "The bar chart shows the fluctuating m=48 signal (ozone) intensity over time, with signal decay after each pulse."
     },
     "data_extraction": {
-        "a": "| Time (s) | m=66 Signal (AU) | m=48 Signal (AU) |\n|----------|------------------|------------------|\n| 0        | 0                | 0                |\n| 100      | 2                | 2                |\n| 200      | 4                | 3                |\n| 300      | 6                | 5                |\n| 400      | 9                | 6                |\n| 500      | 12               | 7                |\n| 600      | 15               | 3                |\n| 700      | 13               | 2                |\n| 800      | 14               | 1                |\n| 900      | 15               | 0                |\n| 1000     | 14               | 0                |\n| 1100     | 0                | 0                |"
+      "a": "| Time (s) | m=66 Signal (AU) | m=48 Signal (AU) |\n| --- | --- | --- |\n| 0 | 0 | 0 |\n| 100 | 2 | 2 |\n| 200 | 4 | 3 |\n| 300 | 6 | 5 |\n| 400 | 9 | 6 |\n| 500 | 12 | 7 |\n| 600 | 15 | 3 |\n| 700 | 13 | 2 |\n| 800 | 14 | 1 |\n| 900 | 15 | 0 |\n| 1000 | 14 | 0 |\n| 1100 | 0 | 0 |"
     },
     "vqa": {
         "b": [

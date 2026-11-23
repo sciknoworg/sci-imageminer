@@ -7,7 +7,7 @@
         "a": "This graph shows the growth rate profile for the same reactor as similar figure in this work but under Case II conditions with lower flow, where diffusion dominates transport. The simulation matches very closely with the experimental data across the full wafer radius. This agreement demonstrates the model\u2019s strong accuracy in diffusion-controlled regimes."
     },
     "data_extraction": {
-        "a": "| Radius (cm) | Growth Rate (cm/hr) | Study Type |\n|---|---|---|\n| 0.0 | -- | Numerical (present study) |\n| 0.0 | 2.3 | Experimental |\n| 0.5 | 1.7 | Numerical (present study) |\n| 0.5 | 2.2 | Experimental |\n| 1.0 | 1.76 | Numerical (present study) |\n| 1.0 | 1.78 | Experimental |\n| 1.5 | 1.69 | Numerical (present study) |\n| 1.5 | 1.8 | Experimental |\n| 2.0 | 1.58 | Numerical (present study) |\n| 2.0 | 1.8 | Experimental |\n| 2.5 | 1.47 | Numerical (present study) |\n| 2.5 | 1.9 | Experimental |"
+      "a": "| Radius (cm) | Growth Rate (cm/hr) | Study Type |\n| --- | --- | --- |\n| 0.0 | -- | Numerical (present study) |\n| 0.0 | 2.3 | Experimental |\n| 0.5 | 1.7 | Numerical (present study) |\n| 0.5 | 2.2 | Experimental |\n| 1.0 | 1.76 | Numerical (present study) |\n| 1.0 | 1.78 | Experimental |\n| 1.5 | 1.69 | Numerical (present study) |\n| 1.5 | 1.8 | Experimental |\n| 2.0 | 1.58 | Numerical (present study) |\n| 2.0 | 1.8 | Experimental |\n| 2.5 | 1.47 | Numerical (present study) |\n| 2.5 | 1.9 | Experimental |"
     },
     "vqa": {
         "a": [

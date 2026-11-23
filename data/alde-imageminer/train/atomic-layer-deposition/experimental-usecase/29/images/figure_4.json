@@ -11,9 +11,9 @@
         "c": "The figure displays infrared absorbance spectra for W-Fx Stretch vibrations at different pressures and durations."
     },
     "data_extraction": {
-        "a": "| Sample | Frequency (cm\u207b\u00b9) |\n|---|---|\n| 10 mTorr, 1 min |  |\n| 100 mTorr, 1 min | Peaks at 3290, 3350, 3435 |\n| 1 Torr, 1 min | Peaks at 3290, 3350, 3435, 3515 |\n| 10 Torr, 30 min | Peaks at 3290, 3350, 3435, 3515 |",
-        "b": "| Sample | Frequency (cm\u207b\u00b9) |\n|---|---|\n| 10 mTorr, 1 min |  |\n| 100 mTorr, 1 min | Peaks at 1485, 1610 |\n| 1 Torr, 1 min | Peaks at 1485, 1550, 1610 |\n| 10 Torr, 30 min | Peaks at 1485, 1550, 1610 |",
-        "c": "| Sample | Frequency (cm\u207b\u00b9) |\n|---|---|\n| 10 mTorr, 1 min | Trough at 715 |\n| 100 mTorr, 1 min | Trough at 715 |\n| 1 Torr, 1 min | Trough at 715 |\n| 10 Torr, 30 min | Trough at 715 |"
+      "a": "| Sample | Frequency (cm-\u00b9) |\n| --- | --- |\n| 10 mTorr, 1 min |  |\n| 100 mTorr, 1 min | Peaks at 3290, 3350, 3435 |\n| 1 Torr, 1 min | Peaks at 3290, 3350, 3435, 3515 |\n| 10 Torr, 30 min | Peaks at 3290, 3350, 3435, 3515 |",
+      "b": "| Sample | Frequency (cm-\u00b9) |\n| --- | --- |\n| 10 mTorr, 1 min |  |\n| 100 mTorr, 1 min | Peaks at 1485, 1610 |\n| 1 Torr, 1 min | Peaks at 1485, 1550, 1610 |\n| 10 Torr, 30 min | Peaks at 1485, 1550, 1610 |",
+      "c": "| Sample | Frequency (cm-\u00b9) |\n| --- | --- |\n| 10 mTorr, 1 min | Trough at 715 |\n| 100 mTorr, 1 min | Trough at 715 |\n| 1 Torr, 1 min | Trough at 715 |\n| 10 Torr, 30 min | Trough at 715 |"
     },
     "vqa": {
         "a": [

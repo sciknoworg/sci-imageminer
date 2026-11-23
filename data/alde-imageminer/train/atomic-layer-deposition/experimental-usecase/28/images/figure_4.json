@@ -9,8 +9,8 @@
         "b": "The chart illustrates the growth rate and composition of GeSe<sub>(1-x)</sub> as a function of substrate temperature for SiO<sub>2</sub> and TiN."
     },
     "data_extraction": {
-        "a": "| Cycle Number | Layer Density (\u00b5g/cm\u00b2) | x in GeSe<sub>(1-x)</sub> |\n|---|---|---|\n| 0 | 0 | 0 |\n| 100 | 5 | 0.5 |\n| 200 | 9 | 0.5 |\n| 400 | 17 | 0.5 |",
-        "b": "| Substrate Temperature (\u00b0C) | Growth rate (ngcm<sup>-2</sup>cy<sup>-1</sup>) | x in GeSe<sub>(1-x)</sub> |\n|---|---|---|\n| 70 | 57 | 0.5 |\n| 90 | 26 | 0.5 |\n| 110 | 19 | 0.5 |\n| 130 | 10 | 0.6 |"
+      "a": "| Cycle Number | Layer Density (\u00b5g/cm\u00b2) | x in GeSe<sub>(1-x)</sub> |\n| --- | --- | --- |\n| 0 | 0 | 0 |\n| 100 | 5 | 0.5 |\n| 200 | 9 | 0.5 |\n| 400 | 17 | 0.5 |",
+      "b": "| Substrate Temperature (\u00b0C) | Growth rate (ngcm<sup>-2</sup>cy<sup>-1</sup>) | x in GeSe<sub>(1-x)</sub> |\n| --- | --- | --- |\n| 70 | 57 | 0.5 |\n| 90 | 26 | 0.5 |\n| 110 | 19 | 0.5 |\n| 130 | 10 | 0.6 |"
     },
     "vqa": {
         "a": [

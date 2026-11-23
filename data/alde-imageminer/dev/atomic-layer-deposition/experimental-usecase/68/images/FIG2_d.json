@@ -7,7 +7,7 @@
         "a": "The plot shows growth per cycle as a function of oxygen plasma purge time. Growth values cluster around ~0.29 \u00c5/cycle across the entire purge range. A vertical marker at about 2 seconds indicates the minimum purge time needed to reach saturation. Beyond this point, increasing the oxygen plasma purge does not change the growth per cycle, confirming that the process is self-limiting and fully purged."
     },
     "data_extraction": {
-        "a": "| Oxygen plasma purge (s) | Growth per cycle (\u00c5) |\n|---|---|\n| 0 | 0.28 \u00b1 0.02 |\n| 1 | 0.29 \u00b1 0.02 |\n| 2 | 0.27 \u00b1 0.02 |\n| 5 | 0.29 \u00b1 0.02 |\n| 8 | 0.26 \u00b1 0.02 |"
+      "a": "| Oxygen plasma purge (s) | Growth per cycle (\u00c5) |\n| --- | --- |\n| 0 | 0.28 \u00b1 0.02 |\n| 1 | 0.29 \u00b1 0.02 |\n| 2 | 0.27 \u00b1 0.02 |\n| 5 | 0.29 \u00b1 0.02 |\n| 8 | 0.26 \u00b1 0.02 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The line chart displays intensity values against angles measured in degrees for an XRD measurement."
     },
     "data_extraction": {
-        "a": "| \u03c6 (degree) | Intensity (a.u.) |\n|---|---|\n|-180|0 |\n|-135|1|\n|-90|0 |\n|-45|1|\n|0|0 |\n|45|1|\n|90|0 |\n|135|1|\n|180| 0|"
+      "a": "| \u03c6 (degree) | Intensity (a.u.) |\n| --- | --- |\n| -180 | 0 |\n| -135 | 1 |\n| -90 | 0 |\n| -45 | 1 |\n| 0 | 0 |\n| 45 | 1 |\n| 90 | 0 |\n| 135 | 1 |\n| 180 | 0 |"
     },
     "vqa": {
         "a": [

@@ -9,8 +9,8 @@
         "b": "The muliple line chart shows Poole-Frenkel plots for ZrO\u2082 films of varying thickness (3.6\u201313.1 nm) deposited from two different precursors. The analysis identifies dominant leakage current mechanisms: Poole-Frenkel emission (bulk trap-limited) at higher fields."
     },
     "data_extraction": {
-        "a": "| Voltage, V | Current density, A/cm\u00b2 |\n|---|---|\n| 0 | 10^-9 |\n| 1 | 10^-8 |\n| 2 | 10^-7 |\n| 3 | 10^-6 |\n| 4 | 10^-5 |\n| 5 | 10^-4 |\n| 6 | 10^-3 |\n| 7 | 10^-2 |\n| 8 | 10^-1 |",
-        "b": "| E^(1/2), (MV/cm)^(1/2) | ln(J/E) |\n|---|---|\n| 0.0 | -20 |\n| 0.5 | -15 |\n| 1.0 | -10 |\n| 1.5 | -5 |\n| 2.0 | 0 |\n| 2.5 | 5 |\n| 3.0 | 10 |\n| 3.5 | 15 |\n| 4.0 | 20 |"
+      "a": "| Voltage, V | Current density, A/cm\u00b2 |\n| --- | --- |\n| 0 | 10^-9 |\n| 1 | 10^-8 |\n| 2 | 10^-7 |\n| 3 | 10^-6 |\n| 4 | 10^-5 |\n| 5 | 10^-4 |\n| 6 | 10^-3 |\n| 7 | 10^-2 |\n| 8 | 10^-1 |",
+      "b": "| E^(1/2), (MV/cm)^(1/2) | ln(J/E) |\n| --- | --- |\n| 0.0 | -20 |\n| 0.5 | -15 |\n| 1.0 | -10 |\n| 1.5 | -5 |\n| 2.0 | 0 |\n| 2.5 | 5 |\n| 3.0 | 10 |\n| 3.5 | 15 |\n| 4.0 | 20 |"
     },
     "vqa": {
         "a": [

@@ -9,8 +9,8 @@
         "b": "The line chart illustrates the change in conductivity (Cond) with respect to processing temperature. The Li-ion conductivity decreases as the processing temperature increases."
     },
     "data_extraction": {
-        "a": "| Processing T (\u00b0C) | H content | C content |\n| --- | --- | --- |\n| 200 | 14 | 2 |\n| 250 | 12 | 2.2 |\n| 278 | 10 | 2 |",
-        "b": "| Processing T (\u00b0C) | Cond (nS/cm) |\n|---|---|\n| 200 | 0.14 |\n| 226 | 0.07 |\n| 250 | 0.05 |\n| 280 | 0.05 |"
+      "a": "| Processing T (\u00b0C) | H content | C content |\n| --- | --- | --- |\n| 200 | 14 | 2 |\n| 250 | 12 | 2.2 |\n| 278 | 10 | 2 |",
+      "b": "| Processing T (\u00b0C) | Cond (nS/cm) |\n| --- | --- |\n| 200 | 0.14 |\n| 226 | 0.07 |\n| 250 | 0.05 |\n| 280 | 0.05 |"
     },
     "vqa": {
         "a": [

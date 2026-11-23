@@ -7,7 +7,7 @@
         "a": "The figure illustrates a reaction pathway involving ZrCl\u2084(g) and O\u2083Si-OH*, leading to the formation of O\u2083Si-O-Zr-Cl* and HCl(g). Energy changes are shown at various points along the reaction coordinate."
     },
     "data_extraction": {
-        "a": "| Reaction Coordinate | \u0394E (kcal/mol) |\n|---|---|\n| ZrCl\u2084(g) + O\u2083Si-OH* | 0 |\n| Complex | -16.9 |\n| TS | 0 |\n| O\u2083Si-O-Zr-Cl* + HCl(g) | -11.9 |"
+      "a": "| Reaction Coordinate | \u0394E (kcal/mol) |\n| --- | --- |\n| ZrCl\u2084(g) + O\u2083Si-OH* | 0 |\n| Complex | -16.9 |\n| TS | 0 |\n| O\u2083Si-O-Zr-Cl* + HCl(g) | -11.9 |"
     },
     "vqa": {
         "a": [

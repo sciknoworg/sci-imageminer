@@ -7,7 +7,7 @@
         "a": "The figure compares Al\u2082O\u2083 film thickness across increasing pALE cycle numbers at four different temperatures. Higher temperatures (350\u2013400\u00b0C) show significantly greater film removal per cycle, while lower temperatures (250\u2013300\u00b0C) show slower and less pronounced thinning, indicating a clear temperature-dependent etch rate."
     },
     "data_extraction": {
-        "a": "| Cycle number of pALE|250\u00b0C|300\u00b0C|350\u00b0C|400\u00b0C|\n|---------------------|-----|-----|-----|-----|\n|0|0|0|0|0|\n|50|-5|-7|-9|-18|\n|100|-7|-10|-12|-25|\n|150|-8|-15|-18|-34|"
+      "a": "| Cycle number of pALE | 250\u00b0C | 300\u00b0C | 350\u00b0C | 400\u00b0C |\n| --- | --- | --- | --- | --- |\n| 0 | 0 | 0 | 0 | 0 |\n| 50 | -5 | -7 | -9 | -18 |\n| 100 | -7 | -10 | -12 | -25 |\n| 150 | -8 | -15 | -18 | -34 |"
     },
     "vqa": {
         "a": [

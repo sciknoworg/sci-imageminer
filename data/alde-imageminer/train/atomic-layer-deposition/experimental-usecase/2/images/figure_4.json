@@ -9,8 +9,8 @@
         "b": "Subfigure (b) presents the rocking curve of the (111) reflection, exhibiting a broad FWHM of ~13\u00b0, which reflects substantial mosaic spread and limited long-range crystalline coherence. Together, the data indicate that while the ALD Pt film develops clear (111) texture, the crystalline domains remain moderately disordered or nanocrystalline in nature."
     },
     "data_extraction": {
-        "a": "| 2\u03b8 peak position (\u00b0) | Assigned plane |\n|----------------------|----------------|\n| ~40.0                | (111)          |\n| ~46.2                | (200)          |\n| ~67.4                | (220)          |\n| ~81.2                | (311)          |\n| ~85.6                | (222)          |",
-        "b": "| Parameter | Value      |\n|-----------|------------|\n| FWHM      | ~13\u00b0       |"
+      "a": "| 2\u03b8 peak position (\u00b0) | Assigned plane |\n| --- | --- |\n| ~40.0 | (111) |\n| ~46.2 | (200) |\n| ~67.4 | (220) |\n| ~81.2 | (311) |\n| ~85.6 | (222) |",
+      "b": "| Parameter | Value |\n| --- | --- |\n| FWHM | ~13\u00b0 |"
     },
     "vqa": {
         "b": [

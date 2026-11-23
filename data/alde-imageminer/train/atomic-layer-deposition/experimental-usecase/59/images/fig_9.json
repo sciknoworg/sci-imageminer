@@ -7,7 +7,7 @@
         "a": "The chart shows the relationship between the integrated OES intensity (a.u.) versus the PDMAT dosing (s). Intensity increases with increasing dosing time up to approximately three second, after which it plateaus."
     },
     "data_extraction": {
-        "a": "| PDMAT dosing (s) | Integrated OES intensity (a.u.) |\n|------------------|--------------------------------|\n| 0                | 760                            |\n| 1                | 825                            |\n| 2                | 875                            |\n| 3                | 900                            |\n| 4                | 860                            |\n| 5                | 875                            |\n| 7                | 880                            |"
+      "a": "| PDMAT dosing (s) | Integrated OES intensity (a.u.) |\n| --- | --- |\n| 0 | 760 |\n| 1 | 825 |\n| 2 | 875 |\n| 3 | 900 |\n| 4 | 860 |\n| 5 | 875 |\n| 7 | 880 |"
     },
     "vqa": {
         "a": [

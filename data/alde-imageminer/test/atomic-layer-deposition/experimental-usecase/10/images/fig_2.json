@@ -7,7 +7,7 @@
         "a": "The bar chart presents the number of publications per year referencing plasma-assisted ALD and related terms. It shows minimal activity before 2000, followed by rapid growth after 2005, indicating a strong rise in research interest and adoption of plasma-based ALD methods."
     },
     "data_extraction": {
-        "a": "| Year | Publications per Year |\n|------|-----------------------|\n| 1990 | 1                     |\n| 1995 | 1                     |\n| 2000 | 1                     |\n| 2005 | 10                    |\n| 2010 | 55                    |"
+      "a": "| Year | Publications per Year |\n| --- | --- |\n| 1990 | 1 |\n| 1995 | 1 |\n| 2000 | 1 |\n| 2005 | 10 |\n| 2010 | 55 |"
     },
     "vqa": {
         "a": [

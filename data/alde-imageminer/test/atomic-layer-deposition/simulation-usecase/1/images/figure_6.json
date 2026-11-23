@@ -9,8 +9,8 @@
         "b": "Transition state for the reaction, showing Ti\u2013O bond at 1.95 \u00c5, Ti\u2013I bond broken (3.88 \u00c5), partial formation of the H\u2013I bond, an activation barrier of 20.3 kcal/mol, and slight exothermicity of 0.2 kcal/mol."
     },
     "data_extraction": {
-        "a": "|Atom Pair|Bond Length (\u00c5)|Notes|\n|---------|---------------|-----|\n|Ti - O1|1.95|Adsorption of H2O at apical site of -TiI3 group|\n|Ti - I|3.88|Bond length increased in adsorption state|\n|O lone pair \u2192 Ti-O*|67.44 kcal/mol|Stabilization energy from NBO donation|\n|H2O charge|+0.1 e|Charge transfer from O to Ti|\n|\u0394H_adsorption|6.2 kcal/mol|Heat of adsorption at 0 K|",
-        "b": "|Atom Pair|Bond Length (\u00c5)|Notes|\n|---------|---------------|-----|\n|Ti - O (H2O)|1.95|Bonding in transition state|\n|Ti - I|3.88|Bond broken in transition state|\n|O lone pair \u2192 H-I*|Partial delocalization|Indicates partial O-H bond breakage and H-I formation|\n|\u0394H_reaction|0.2 kcal/mol|Slightly exothermic at 0 K|\n|Activation Barrier|20.3 kcal/mol|From adsorption to transition state|"
+      "a": "| Atom Pair | Bond Length (\u00c5) | Notes |\n| --- | --- | --- |\n| Ti - O1 | 1.95 | Adsorption of H2O at apical site of -TiI3 group |\n| Ti - I | 3.88 | Bond length increased in adsorption state |\n| O lone pair \u2192 Ti-O* | 67.44 kcal/mol | Stabilization energy from NBO donation |\n| H2O charge | +0.1 e | Charge transfer from O to Ti |\n| \u0394H_adsorption | 6.2 kcal/mol | Heat of adsorption at 0 K |",
+      "b": "| Atom Pair | Bond Length (\u00c5) | Notes |\n| --- | --- | --- |\n| Ti - O (H2O) | 1.95 | Bonding in transition state |\n| Ti - I | 3.88 | Bond broken in transition state |\n| O lone pair \u2192 H-I* | Partial delocalization | Indicates partial O-H bond breakage and H-I formation |\n| \u0394H_reaction | 0.2 kcal/mol | Slightly exothermic at 0 K |\n| Activation Barrier | 20.3 kcal/mol | From adsorption to transition state |"
     },
     "vqa": {
         "a": [

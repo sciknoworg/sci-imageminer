@@ -7,7 +7,7 @@
         "a": "This line chart represents the Etch Per Cycle (EPC) \u00c5/cycle for Atomic Layer Etching (ALE) of Al\u2082O\u2083 as a function of substrate temperature. The process uses cycles of NF\u2083 remote plasma followed by TMA exposure(3 s duration). EPC slowly increases with temperature up to a point (~250\u00b0C), then a rapid etch rate is observed and then stabilizes. This thickness loss was measured via ellipsometry."
     },
     "data_extraction": {
-        "a": "| Substrate Temperature (\u00b0C) | Etch Per Cycle (\u00c5/cycle) |\n|----------------------------|--------------------------|\n| 150                        | -0.1                     |\n| 175                        | -0.1                     |\n| 200                        |  0.0                     |\n| 225                        |  0.4                     |\n| 250                        |  1.4                     |\n| 275                        |  2.6                     |\n| 290                        |  3.8                     |\n| 300                        |  4.2                     |\n| 320                        |  4.6                     |"
+      "a": "| Substrate Temperature (\u00b0C) | Etch Per Cycle (\u00c5/cycle) |\n| --- | --- |\n| 150 | -0.1 |\n| 175 | -0.1 |\n| 200 | 0.0 |\n| 225 | 0.4 |\n| 250 | 1.4 |\n| 275 | 2.6 |\n| 290 | 3.8 |\n| 300 | 4.2 |\n| 320 | 4.6 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The chart shows the relationship between the Si content and the film thickness, and the partial pressure of SiH4."
     },
     "data_extraction": {
-        "a": "| Partial pressure of SiH\u2084 [Pa] | Si contents [at.%] | Film thickness per cycle [nm/cycle] |\n|---|---|---|\n| 0.1 | 17 | 0.25 |\n| 1 | 15 | 0.23 |\n| 10 | 18 | 0.21 |\n| 100 | 19 | 0.19 |"
+      "a": "| Partial pressure of SiH\u2084 [Pa] | Si contents [at.%] | Film thickness per cycle [nm/cycle] |\n| --- | --- | --- |\n| 0.1 | 17 | 0.25 |\n| 1 | 15 | 0.23 |\n| 10 | 18 | 0.21 |\n| 100 | 19 | 0.19 |"
     },
     "vqa": {
         "a": [

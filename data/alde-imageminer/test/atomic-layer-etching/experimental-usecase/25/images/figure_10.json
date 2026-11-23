@@ -7,7 +7,7 @@
         "a": "The chart shows the logarithmic relationship between the inverse temperature (1000/T) and the etch rate of WO\u2083, which is called an Arrhenius plot."
     },
     "data_extraction": {
-        "a": "| 1000/T (K\u207b\u00b9) | ln [WO\u2083 Etch Rate (\u00c5/cycle)] |\n|---|---|\n| 2.1 | 1.4 |\n| 2.2 | 0.9 |\n| 2.3 | 0.5 |\n| 2.4 | 0.1 |\n| 2.5 | -0.3 |"
+      "a": "| 1000/T (K-\u00b9) | ln [WO\u2083 Etch Rate (\u00c5/cycle)] |\n| --- | --- |\n| 2.1 | 1.4 |\n| 2.2 | 0.9 |\n| 2.3 | 0.5 |\n| 2.4 | 0.1 |\n| 2.5 | -0.3 |"
     },
     "vqa": {
         "a": [

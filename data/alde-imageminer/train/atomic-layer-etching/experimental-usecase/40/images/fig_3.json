@@ -11,9 +11,9 @@
         "c": "The etch rate increases with in-situ HF exposure time up to 15 seconds, then plateaus"
     },
     "data_extraction": {
-        "a": "| Temperature (\u00b0C) | Etch rate (\u00c5/cycle) |\n|---|---|\n| 150 | 1.10 |\n| 175 | 1.90 |\n| 200 | 2.45 |\n| 250 | 3.10 |\n| 300 | 3.30 |\n| 350 | 3.28 |",
-        "b": "| Oxygen exposure time (s) | Etch rate (\u00c5/cycle) |\n|---|---|\n| 0.0 | 0.10 |\n| 0.5 | 1.65 |\n| 1.0 | 2.40 |\n| 2.0 | 2.95 |\n| 4.0 | 2.95 |\n| 6.0 | 2.92 |",
-        "c": "| In-situ HF exposure time (s) | Etch rate (\u00c5/cycle) |\n|---|---|\n| 0.0 | -0.20 |\n| 1.0 | 0.55 |\n| 2.5 | 1.25 |\n| 5.0 | 2.30 |\n| 10.0 | 3.05 |\n| 15.0 | 3.10 |\n| 20.0 | 3.05 |"
+      "a": "| Temperature (\u00b0C) | Etch rate (\u00c5/cycle) |\n| --- | --- |\n| 150 | 1.10 |\n| 175 | 1.90 |\n| 200 | 2.45 |\n| 250 | 3.10 |\n| 300 | 3.30 |\n| 350 | 3.28 |",
+      "b": "| Oxygen exposure time (s) | Etch rate (\u00c5/cycle) |\n| --- | --- |\n| 0.0 | 0.10 |\n| 0.5 | 1.65 |\n| 1.0 | 2.40 |\n| 2.0 | 2.95 |\n| 4.0 | 2.95 |\n| 6.0 | 2.92 |",
+      "c": "| In-situ HF exposure time (s) | Etch rate (\u00c5/cycle) |\n| --- | --- |\n| 0.0 | -0.20 |\n| 1.0 | 0.55 |\n| 2.5 | 1.25 |\n| 5.0 | 2.30 |\n| 10.0 | 3.05 |\n| 15.0 | 3.10 |\n| 20.0 | 3.05 |"
     },
     "vqa": {
         "c": [

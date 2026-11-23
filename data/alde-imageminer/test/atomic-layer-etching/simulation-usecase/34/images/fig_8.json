@@ -7,7 +7,7 @@
         "a": "The heatmap shows how the mapped value varies with TMA flow rate and HF flow rate. A pronounced high-value region appears at low HF flow rates and low TMA flow rates. Outside this region, values remain low across most of the parameter space, indicating a localized dependence on both parameters."
     },
     "data_extraction": {
-        "a": "| HF flow rate (sccm) | TMA flow rate (sccm) | Relative value |\n|--------------------|---------------------|----------------|\n| 20                 | 20                  | Low            |\n| 60                 | 20                  | Low            |\n| 100                | 20                  | Low            |\n| 20                 | 60                  | Medium         |\n| 60                 | 60                  | Medium         |\n| 100                | 60                  | Medium         |\n| 20                 | 90                  | High           |\n| 60                 | 90                  | High           |\n| 100                | 90                  | High           |"
+      "a": "| HF flow rate (sccm) | TMA flow rate (sccm) | Relative value |\n| --- | --- | --- |\n| 20 | 20 | Low |\n| 60 | 20 | Low |\n| 100 | 20 | Low |\n| 20 | 60 | Medium |\n| 60 | 60 | Medium |\n| 100 | 60 | Medium |\n| 20 | 90 | High |\n| 60 | 90 | High |\n| 100 | 90 | High |"
     },
     "vqa": {
         "a": [

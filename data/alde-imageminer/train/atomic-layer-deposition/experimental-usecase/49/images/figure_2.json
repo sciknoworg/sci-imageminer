@@ -9,8 +9,8 @@
         "b": "\u2013 S 2p: Low-temperature films exhibit peak broadening toward higher binding energies (S\u2070 or S\u2082\u00b2\u207b), suggesting incomplete sulfidation. At higher temperatures, the spectra evolve into a clean S\u00b2\u207b doublet, confirming the formation of a well-defined MoS\u2082 lattice."
     },
     "data_extraction": {
-        "a": "| Binding Energy (eV) | Mo 3d |\n|---|---|\n| 236 | Mo^{6+} |\n| 232 | Mo^{4+} |\n| 228 | 300 \u00b0C |\n| 225 | 275 \u00b0C |\n| 220 | 250 \u00b0C |\n| 215 | 225 \u00b0C |\n| 210 | 200 \u00b0C |",
-        "b": "| Binding Energy (eV) | S 2p |\n|---|---|\n| 166 | S^{0}/S^{2-} |\n| 164 | S^{2-} |\n| 162 | 300 \u00b0C |\n| 160 | 275 \u00b0C |\n| 158 | 250 \u00b0C |\n| 156 | 225 \u00b0C |\n| 154 | 200 \u00b0C |"
+      "a": "| Binding Energy (eV) | Mo 3d |\n| --- | --- |\n| 236 | Mo^{6+} |\n| 232 | Mo^{4+} |\n| 228 | 300 \u00b0C |\n| 225 | 275 \u00b0C |\n| 220 | 250 \u00b0C |\n| 215 | 225 \u00b0C |\n| 210 | 200 \u00b0C |",
+      "b": "| Binding Energy (eV) | S 2p |\n| --- | --- |\n| 166 | S^{0}/S^{2-} |\n| 164 | S^{2-} |\n| 162 | 300 \u00b0C |\n| 160 | 275 \u00b0C |\n| 158 | 250 \u00b0C |\n| 156 | 225 \u00b0C |\n| 154 | 200 \u00b0C |"
     },
     "vqa": {
         "a": [

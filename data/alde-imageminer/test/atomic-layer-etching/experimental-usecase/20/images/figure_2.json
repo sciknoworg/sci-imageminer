@@ -7,7 +7,7 @@
         "a": "The chart displays the absorbance spectra of AlN ALE samples prepared using HF & BCl\u2083 at 350\u00b0C, with different number of cycles."
     },
     "data_extraction": {
-        "a": "| Wavenumber (cm\u207b\u00b9) | 1 cycle | 3 cycles | 12 cycles | 15 cycles | 27 cycles |\n|------------------|------------|------------|------------|------------|------------|\n| 1400             |    -       |    -       |    -       |    -       |    -       |\n| 1200             |    -       |    -       |    -       |    -       |    -       |\n| 1000             |     -      |     -      |     -      |     -      |     -      |\n| 800              |     -      |     -      |     -      |     -      |     -      |\n| 600              | - | peak at 650 | peak at 650 | peak at 650 | peak at 650 |\n| 400              |     -    |     -    |     -    |     -    |     -    |"
+      "a": "| Wavenumber (cm-\u00b9) | 1 cycle | 3 cycles | 12 cycles | 15 cycles | 27 cycles |\n| --- | --- | --- | --- | --- | --- |\n| 1400 | - | - | - | - | - |\n| 1200 | - | - | - | - | - |\n| 1000 | - | - | - | - | - |\n| 800 | - | - | - | - | - |\n| 600 | - | peak at 650 | peak at 650 | peak at 650 | peak at 650 |\n| 400 | - | - | - | - | - |"
     },
     "vqa": {
         "a": [

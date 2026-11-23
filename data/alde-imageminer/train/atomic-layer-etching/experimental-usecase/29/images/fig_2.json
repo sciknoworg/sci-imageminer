@@ -7,7 +7,7 @@
         "a": "The scatter plot shows the relationship between Ar plasma exposure time and etch depth per cycle. As the exposure time increases, the etch depth also increases, till it soft-saturates."
     },
     "data_extraction": {
-        "a": "| Ar Plasma Exposure Time (s) | Etch Depth per Cycle (nm) |\n|---|---|\n| 0 | 0 |\n|10|0.3|\n| 25 | 0.43 |\n|30|0.55|\n| 50 | 0.5 |\n| 100 | 0.6 |"
+      "a": "| Ar Plasma Exposure Time (s) | Etch Depth per Cycle (nm) |\n| --- | --- |\n| 0 | 0 |\n| 10 | 0.3 |\n| 25 | 0.43 |\n| 30 | 0.55 |\n| 50 | 0.5 |\n| 100 | 0.6 |"
     },
     "vqa": {
         "a": [

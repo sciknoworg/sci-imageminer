@@ -13,10 +13,10 @@
         "d": "The C 1s spectrum displays only a very low-intensity background signal, demonstrating minimal carbon contamination and high chemical purity of the cobalt film."
     },
     "data_extraction": {
-        "a": "| Binding Energy (eV)|Intensity (a.u.)|\n|--------------------|----------------|\n|780|1|\n|795|2|\n|800|3|",
-        "b": "| Binding Energy (eV)|Intensity (a.u.)|\n|--------------------|----------------|\n|526|1|\n|528|2|\n|534|3|",
-        "c": "| Binding Energy (eV)|Intensity (a.u.)|\n|--------------------|----------------|\n|396|1|\n|398|2|\n|404|3|",
-        "d": "| Binding Energy (eV)|Intensity (a.u.)|\n|--------------------|----------------|\n|280|1|\n|282|2|\n|288|3|"
+      "a": "| Binding Energy (eV) | Intensity (a.u.) |\n| --- | --- |\n| 780 | 1 |\n| 795 | 2 |\n| 800 | 3 |",
+      "b": "| Binding Energy (eV) | Intensity (a.u.) |\n| --- | --- |\n| 526 | 1 |\n| 528 | 2 |\n| 534 | 3 |",
+      "c": "| Binding Energy (eV) | Intensity (a.u.) |\n| --- | --- |\n| 396 | 1 |\n| 398 | 2 |\n| 404 | 3 |",
+      "d": "| Binding Energy (eV) | Intensity (a.u.) |\n| --- | --- |\n| 280 | 1 |\n| 282 | 2 |\n| 288 | 3 |"
     },
     "vqa": {
         "a": [

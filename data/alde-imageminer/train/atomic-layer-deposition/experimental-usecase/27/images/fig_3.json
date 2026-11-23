@@ -7,7 +7,7 @@
         "a": "The chart displays the intensity of peaks at specific binding energies, indicating the presence of Ti-C and C-H bonds."
     },
     "data_extraction": {
-        "a": "| Binding Energy (eV) | Intensity (CPS) |\n|---|---|\n| 276 | 0 |\n| 278 | 0 |\n| 280 | 0 |\n| 282 | 1800 |\n| 284 | 500 |\n| 286 | 200 |\n| 288 | 0 |\n| 290 | 0 |\n| 292 | 0 |\n| 294 | 0 |"
+      "a": "| Binding Energy (eV) | Intensity (CPS) |\n| --- | --- |\n| 276 | 0 |\n| 278 | 0 |\n| 280 | 0 |\n| 282 | 1800 |\n| 284 | 500 |\n| 286 | 200 |\n| 288 | 0 |\n| 290 | 0 |\n| 292 | 0 |\n| 294 | 0 |"
     },
     "vqa": {
         "a": [

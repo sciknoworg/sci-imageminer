@@ -7,7 +7,7 @@
         "a": "The figure presents the evolution of surface \u2013OH concentration and surface roughness of an Al2O3 film during ALD at 300 \u00b0C as a function of cycle number. The \u2013OH concentration increases progressively with ALD cycles, with a pronounced acceleration at later stages. Surface roughness also increases with cycle number, but shows a slower rise and partial saturation compared to the \u2013OH concentration. This indicates that chemical surface activation and morphological roughening evolve at different rates during film growth."
     },
     "data_extraction": {
-        "a": "| ALD cycles | \u2013OH concentration (nm\u207b\u00b2) | Roughness (\u00c5) |\n|---|---|---|\n| 1 | 0.20 | 0.95 |\n| 2 | 0.25 | 1.00 |\n| 3 | 0.40 | 1.10 |\n| 4 | 0.60 | 1.70 |\n| 5 | 0.90 | 2.15 |\n| 6 | 1.10 | 2.30 |\n| 7 | 1.50 | 2.60 |\n| 8 | 1.90 | 3.00 |\n| 9 | 2.00 | 2.85 |\n| 10 | 2.50 | 3.10 |\n| 11 | 2.80 | 3.10 |\n| 12 | 3.40 | 3.20 |"
+      "a": "| ALD cycles | \u2013OH concentration (nm-\u00b2) | Roughness (\u00c5) |\n| --- | --- | --- |\n| 1 | 0.20 | 0.95 |\n| 2 | 0.25 | 1.00 |\n| 3 | 0.40 | 1.10 |\n| 4 | 0.60 | 1.70 |\n| 5 | 0.90 | 2.15 |\n| 6 | 1.10 | 2.30 |\n| 7 | 1.50 | 2.60 |\n| 8 | 1.90 | 3.00 |\n| 9 | 2.00 | 2.85 |\n| 10 | 2.50 | 3.10 |\n| 11 | 2.80 | 3.10 |\n| 12 | 3.40 | 3.20 |"
     },
     "vqa": {
         "a": [

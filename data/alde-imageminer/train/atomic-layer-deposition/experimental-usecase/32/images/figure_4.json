@@ -7,7 +7,7 @@
         "a": "The figure shows growth rate of thermal ALD TiO\u2082 as a function of TDMAT exposure time at 200\u00b0C. Unlike Ta\u2082O\u2085 from PDMAT, the growth rate does not saturate but continues to increase with exposure time, indicating incomplete self-limiting behavior. This non-ideal ALD characteristic is attributed to the low thermal decomposition temperature of TDMAT (~180\u00b0C)."
     },
     "data_extraction": {
-        "a": "| t_S (s) | Growth rate (\u00c5/cycle) |\n|---|---|\n| 0 | 0 |\n| 1 | 1.5 |\n| 2 | 2 |\n| 3 | 2.5 |\n| 4 | 3 |"
+      "a": "| t_S (s) | Growth rate (\u00c5/cycle) |\n| --- | --- |\n| 0 | 0 |\n| 1 | 1.5 |\n| 2 | 2 |\n| 3 | 2.5 |\n| 4 | 3 |"
     },
     "vqa": {
         "a": [

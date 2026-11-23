@@ -7,7 +7,7 @@
         "a": "The chart shows the relationship between purge time (in seconds) and thickness per cycle (in nanometers). As purge time increases, the thickness per cycle decreases."
     },
     "data_extraction": {
-        "a": "| Purge Time (seconds) | Thickness per Cycle (nm) |\n|---|---|\n| 5  | 0.17 |\n| 10 | 0.15 |\n| 30 | 0.13 |\n| 45 | 0.11 |\n| 120 | 0.10 |"
+      "a": "| Purge Time (seconds) | Thickness per Cycle (nm) |\n| --- | --- |\n| 5 | 0.17 |\n| 10 | 0.15 |\n| 30 | 0.13 |\n| 45 | 0.11 |\n| 120 | 0.10 |"
     },
     "vqa": {
         "a": [

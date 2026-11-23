@@ -7,7 +7,7 @@
         "a": "The area chart illustrates the relationship between etch per cycle (EPC) with respect to passivation time (\\(T_p\\)) and ion bombardment time (\\(T_I\\)), with shaded regions indicating specific ranges of EPC."
     },
     "data_extraction": {
-        "a": "| Passivation Time (Tp, ms) | Ion Bombardment Time (Ti, s) AR=2 | AR=4 | AR=6 |\n|---------------------------|------------------------------------|------|------|\n| 5                         | 1.30                               | 1.30 | 1.30 |\n| 25                        | 0.70                               | 0.90 | 1.10 |\n| 45                        | 0.40                               | 0.60 | 0.90 |\n| 64                        | 0.30                               | 0.45 | 0.70 |\n| 84                        | 0.25                               | 0.35 | 0.55 |\n| 104                       | 0.20                               | 0.30 | 0.45 |"
+      "a": "| Passivation Time (Tp, ms) | Ion Bombardment Time (Ti, s) AR=2 | AR=4 | AR=6 |\n| --- | --- | --- | --- |\n| 5 | 1.30 | 1.30 | 1.30 |\n| 25 | 0.70 | 0.90 | 1.10 |\n| 45 | 0.40 | 0.60 | 0.90 |\n| 64 | 0.30 | 0.45 | 0.70 |\n| 84 | 0.25 | 0.35 | 0.55 |\n| 104 | 0.20 | 0.30 | 0.45 |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "The line graph represents the energy variation for the bis-diethylaminosilane(BDEAS)  reaction  with -OH on the Si (0 0 1) surface resulting in DEAS group and DEA.  The various conditions of the reaction state represented here are BDEAS away from the surface, BDEAS adsorption, transition state and DEAS group formation."
     },
     "data_extraction": {
-        "a": "| Energy [eV] | reaction state |\n|----------------|--------------------|\n|     0.0     | BDEAS away from surface |\n|   -0.6     | BDEAS adsorption | \n|     0.0    | Transition state | \n|   -0.95   | DEAS group formation |"
+      "a": "| Energy [eV] | reaction state |\n| --- | --- |\n| 0.0 | BDEAS away from surface |\n| -0.6 | BDEAS adsorption |\n| 0.0 | Transition state |\n| -0.95 | DEAS group formation |"
     },
     "vqa": {
         "a": [

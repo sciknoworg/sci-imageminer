@@ -11,9 +11,9 @@
         "c": "The figure presents shows XP-Spectrum of C1s region  measured on a TiO\u2082 surface before and after C\u2084F\u2088 + O\u2082 plasma treatment, highlighting peaks for C-C and  O-C=O."
     },
     "data_extraction": {
-        "a": "| Measurement | Binding energy (eV) | Peak Intensity, a.u. |  Assignment | \n|---|---|---|---|\n| as TiO\u2082 deposited |  464.4  | 21  | TiO\u2082 |\n| as TiO\u2082 deposited | 458.7  | 71  | TiO\u2082 |\n| Ti2p after C\u2084F\u2088 + O\u2082 plasma treatment | 465.0  | 16  | TiO\u2082 |\n| Ti2p after C\u2084F\u2088 + O\u2082 plasma treatment | 459.1  | 54  | TiO\u2082 |",
-        "b": "| Measurement | Binding energy (eV) | Peak intensity, a.u. |  Assignment | \n|---|---|---|---|\n| Ti2p after C\u2084F\u2088 + O\u2082 plasma treatment | 684.8  | 60  | F1s |",
-        "c": "| Measurement | Binding energy (eV) | Peak intensity, a.u. |  Assignment | \n|---|---|---|---|\n| as TiO\u2082 deposited |  288.8  |  8  | O-C=O |\n| as TiO\u2082 deposited |  284.8  | 67  | C-C |\n| Ti2p after C\u2084F\u2088 + O\u2082 plasma treatment | 288.9  | 9  | O-C=O |\n| Ti2p after C\u2084F\u2088 + O\u2082 plasma treatment | 284.8  | 63  | C-C |"
+      "a": "| Measurement | Binding energy (eV) | Peak Intensity, a.u. | Assignment |\n| --- | --- | --- | --- |\n| as TiO\u2082 deposited | 464.4 | 21 | TiO\u2082 |\n| as TiO\u2082 deposited | 458.7 | 71 | TiO\u2082 |\n| Ti2p after C\u2084F\u2088 + O\u2082 plasma treatment | 465.0 | 16 | TiO\u2082 |\n| Ti2p after C\u2084F\u2088 + O\u2082 plasma treatment | 459.1 | 54 | TiO\u2082 |",
+      "b": "| Measurement | Binding energy (eV) | Peak intensity, a.u. | Assignment |\n| --- | --- | --- | --- |\n| Ti2p after C\u2084F\u2088 + O\u2082 plasma treatment | 684.8 | 60 | F1s |",
+      "c": "| Measurement | Binding energy (eV) | Peak intensity, a.u. | Assignment |\n| --- | --- | --- | --- |\n| as TiO\u2082 deposited | 288.8 | 8 | O-C=O |\n| as TiO\u2082 deposited | 284.8 | 67 | C-C |\n| Ti2p after C\u2084F\u2088 + O\u2082 plasma treatment | 288.9 | 9 | O-C=O |\n| Ti2p after C\u2084F\u2088 + O\u2082 plasma treatment | 284.8 | 63 | C-C |"
     },
     "vqa": {
         "a": [

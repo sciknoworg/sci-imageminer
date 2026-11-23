@@ -7,7 +7,7 @@
         "a": "The etch per cycle EPC  is plotted against the pulse length of NbCl\u2085. The EPC increases slightly with increasing pulse length."
     },
     "data_extraction": {
-        "a": "| NbCl\u2085 Pulse Length (s) | EPC (\u00c5) | Error Range (\u00c5) |\n|-------------------------|---------|-----------------|\n| 0.5                     | 0.95    | \u00b10.15          |\n| 1.0                     | 1.05    | \u00b10.15          |\n| 1.5                     | 1.10    | \u00b10.15          |\n| 2.0                     | 1.20    | \u00b10.15          |\n| 4.0                     | 1.20    | \u00b10.15          |"
+      "a": "| NbCl\u2085 Pulse Length (s) | EPC (\u00c5) | Error Range (\u00c5) |\n| --- | --- | --- |\n| 0.5 | 0.95 | \u00b10.15 |\n| 1.0 | 1.05 | \u00b10.15 |\n| 1.5 | 1.10 | \u00b10.15 |\n| 2.0 | 1.20 | \u00b10.15 |\n| 4.0 | 1.20 | \u00b10.15 |"
     },
     "vqa": {
         "a": [

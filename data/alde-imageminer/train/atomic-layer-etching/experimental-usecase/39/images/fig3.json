@@ -15,11 +15,11 @@
         "e": "Stacked bar chart showing surface atomic concentrations of Nb, O, Li, F, and Mg for untreated LN, 1 cycle H\u2082 plasma exposure, 10 ALE cycles, and 50 ALE cycles."
     },
     "data_extraction": {
-        "a": "|   Plot    | Component | Binding Energy (eV) |\n|-----------|-----------|---------------------|\n| Original  |   Nb3d    | ~208\u2013209, ~210\u2013211 |\n| Etched    |   Nb3d    | ~208\u2013209, ~210\u2013211 |",
-        "b": "| Plot | Component | Binding Energy (eV) |  \n|------|-----------|---------------------| \n| Original | O-LN  | ~532.5 | \n| Original | O-C   | ~531.0 | \n| Etched   | O-LN  | ~532.5 | \n| Etched   | O-C   | ~531.0 |",
-        "c": "| Plot | Component | Binding Energy (eV) |\n|------|-----------|----------|\n| Original    | F-LN    | Absent/near baseline |\n| Original    | F-C     | Absent/near baseline |\n| Etched      | F-LN    | Present (~685.5 eV) |\n| Etched      | F-C     | Present (~687.5 eV) |",
-        "d": "| Plot | Component | Binding Energy (eV) | \n|------|-----------|---------------------| \n| Original  | Mg 2p | ~60.5 | \n| Original  | Nb 4s | ~55.5 | \n| Original  | Li 1s | ~50.5 | \n| Etched    | Mg 2p | ~61.0 | \n| Etched    | Nb 4s | ~55.5 | \n| Etched    | Li 1s | ~52.0 |",
-        "e": "| Sample | Nb (%) | O (%) | Li (%) | F (%) | Mg (%) |\n|--------|--------|-------|--------|-------|--------|\n| Untreated | ~20 | ~60 | ~15 | ~<1 | ~1 |\n| 1 cyc. H2 plasma | ~18 | ~52 | 25 | ~7 | <2 |\n| 10 cyc. ALE | ~19 | ~52 | 22 | 6 | <2 |\n| 50 cyc. ALE | ~20 | 55 | 16 | 6 | <2 |"
+      "a": "| Plot | Component | Binding Energy (eV) |\n| --- | --- | --- |\n| Original | Nb3d | ~208\u2013209, ~210\u2013211 |\n| Etched | Nb3d | ~208\u2013209, ~210\u2013211 |",
+      "b": "| Plot | Component | Binding Energy (eV) |\n| --- | --- | --- |\n| Original | O-LN | ~532.5 |\n| Original | O-C | ~531.0 |\n| Etched | O-LN | ~532.5 |\n| Etched | O-C | ~531.0 |",
+      "c": "| Plot | Component | Binding Energy (eV) |\n| --- | --- | --- |\n| Original | F-LN | Absent/near baseline |\n| Original | F-C | Absent/near baseline |\n| Etched | F-LN | Present (~685.5 eV) |\n| Etched | F-C | Present (~687.5 eV) |",
+      "d": "| Plot | Component | Binding Energy (eV) |\n| --- | --- | --- |\n| Original | Mg 2p | ~60.5 |\n| Original | Nb 4s | ~55.5 |\n| Original | Li 1s | ~50.5 |\n| Etched | Mg 2p | ~61.0 |\n| Etched | Nb 4s | ~55.5 |\n| Etched | Li 1s | ~52.0 |",
+      "e": "| Sample | Nb (%) | O (%) | Li (%) | F (%) | Mg (%) |\n| --- | --- | --- | --- | --- | --- |\n| Untreated | ~20 | ~60 | ~15 | ~<1 | ~1 |\n| 1 cyc. H2 plasma | ~18 | ~52 | 25 | ~7 | <2 |\n| 10 cyc. ALE | ~19 | ~52 | 22 | 6 | <2 |\n| 50 cyc. ALE | ~20 | 55 | 16 | 6 | <2 |"
     },
     "vqa": {
         "c": [

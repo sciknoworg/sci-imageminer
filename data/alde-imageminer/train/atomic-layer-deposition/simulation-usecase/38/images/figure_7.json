@@ -7,7 +7,7 @@
         "a": "Figure 7 shows a line chart of Hacac partial pressure at a mesh node over time as a wafer rotates. The pressure rises around 0.8 s, reaches a plateau, and falls to zero around 3.6 s. The red line segment highlights the exposure time, representing the duration a wafer section is exposed to the reactant. This figure demonstrates how wafer rotation and reaction zone geometry determine exposure time distribution, which is crucial for achieving uniform surface coverage."
     },
     "data_extraction": {
-        "a": "| Time (s)|Hacac Pressure (Pa)|\n|---------|-------------------|\n|0|0|\n|0.8|60|\n|1.5|60|\n|3.6|0|"
+      "a": "| Time (s) | Hacac Pressure (Pa) |\n| --- | --- |\n| 0 | 0 |\n| 0.8 | 60 |\n| 1.5 | 60 |\n| 3.6 | 0 |"
     },
     "vqa": {
         "a": [

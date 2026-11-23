@@ -9,8 +9,8 @@
         "b": "The figure shows the energy changes (\u0394E) during the reaction involving TMA and TEA with O4 and O1 of A.1-O:123/45/6 at different stages: Adsorption (Ads), Transition State (TS), and Product (Prod)."
     },
     "data_extraction": {
-        "a": "| Reaction Step | TMA with O1 of A.1-O:123 | TEA with O1 of A.1-O:13 |\n|---|---|---|\n| Ads | -55 (-60) | -77 (-88) |\n| TS | +38 (-65) | +28 (-101) |\n| Prod | -92 (-59) | -147 (-86) |",
-        "b": "| Reaction Step | TMA with O4 of A.1-O:123/45/6 | TMA with O1 of A.1-O:123/45/6 | TEA with O1 of A.1-O:123/45/6 |\n|---|---|---|---|\n| Ads | -9 (-81) | -97 (-77) | -107 (-118) |\n| TS | +110 (-118) | +93 (-86) | +83 (-83) |\n| Prod | -18 (-133) | -101 (-94) | -134 (-86) |"
+      "a": "| Reaction Step | TMA with O1 of A.1-O:123 | TEA with O1 of A.1-O:13 |\n| --- | --- | --- |\n| Ads | -55 (-60) | -77 (-88) |\n| TS | +38 (-65) | +28 (-101) |\n| Prod | -92 (-59) | -147 (-86) |",
+      "b": "| Reaction Step | TMA with O4 of A.1-O:123/45/6 | TMA with O1 of A.1-O:123/45/6 | TEA with O1 of A.1-O:123/45/6 |\n| --- | --- | --- | --- |\n| Ads | -9 (-81) | -97 (-77) | -107 (-118) |\n| TS | +110 (-118) | +93 (-86) | +83 (-83) |\n| Prod | -18 (-133) | -101 (-94) | -134 (-86) |"
     },
     "vqa": {
         "a": [

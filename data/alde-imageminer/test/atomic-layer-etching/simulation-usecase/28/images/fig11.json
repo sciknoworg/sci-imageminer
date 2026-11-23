@@ -9,8 +9,8 @@
         "b": "Mass spectrometry trace tracking H2O+ evolution during repeated HF exposure. The signal increases over the first few cycles and then levels off, indicating saturation in water release behavior."
     },
     "data_extraction": {
-        "a": "|HF Cycle |\tTime (min)\t|BF\u2082\u207a (m/z 49amu) mV\t|BFOH\u207a (m/z 47amu) mV|\n|---|---|---|---|\n|1st\t|~2.5-5.00\t|~60 mV\t    |~45 mV|\n|2nd\t|~7.5-10.00\t|~95 mV\t    |~40 mV|\n|3rd\t|~12.5-15.00 |~110 mV\t|~30 mV|\n|4th\t|~17.5-20.00 |~110 mV\t|~20 mV|\n|5th\t|~22.5-25.00 |~100 mV\t|~20 mV|",
-        "b": "|HF Cycle\t|Time (min)\t|H\u2082O\u207a (m/z 18amu) mV|\n|---|---|---|\n|1st\t|~2.5-5.00\t|~300 mV|\n|2nd\t|~7.5-10.00\t|~450 mV|\n|3rd\t|~12.5-15.00 |~480 mV|\n|4th\t|~17.5-20.00 |~460 mV|\n|5th\t|~22.5-25.00 |~430 mV|"
+      "a": "| HF Cycle | Time (min) | BF\u2082\u207a (m/z 49amu) mV | BFOH\u207a (m/z 47amu) mV |\n| --- | --- | --- | --- |\n| 1st | ~2.5-5.00 | ~60 mV | ~45 mV |\n| 2nd | ~7.5-10.00 | ~95 mV | ~40 mV |\n| 3rd | ~12.5-15.00 | ~110 mV | ~30 mV |\n| 4th | ~17.5-20.00 | ~110 mV | ~20 mV |\n| 5th | ~22.5-25.00 | ~100 mV | ~20 mV |",
+      "b": "| HF Cycle | Time (min) | H\u2082O\u207a (m/z 18amu) mV |\n| --- | --- | --- |\n| 1st | ~2.5-5.00 | ~300 mV |\n| 2nd | ~7.5-10.00 | ~450 mV |\n| 3rd | ~12.5-15.00 | ~480 mV |\n| 4th | ~17.5-20.00 | ~460 mV |\n| 5th | ~22.5-25.00 | ~430 mV |"
     },
     "vqa": {
         "a": [

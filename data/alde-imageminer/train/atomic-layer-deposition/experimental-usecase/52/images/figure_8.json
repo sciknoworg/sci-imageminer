@@ -7,7 +7,7 @@
         "a": "The chart displays Raman spectra of LiCoO\u2082 in two states: 'as-deposited' and 'annealed'. Peaks at 486 cm\u207b\u00b9, 520 cm\u207b\u00b9, and 596 cm\u207b\u00b9 are labeled, along with a Si peak at 520 cm\u207b\u00b9"
     },
     "data_extraction": {
-        "a": "| Raman shift, cm\u207b\u00b9 | Peak assignment | LiCoO\u2082 as-deposited | LiCoO\u2082 annealed |\n|---|---|---|---|\n| 200 | baseline | 0.05 | 0.05 |\n| 486 | LiCoO\u2082 HT | 0.25 | 0.35 |\n| 520 | Si | 1.0 | 0.85 |\n| 596 | LiCoO\u2082 HT | 0.45 | 0.70 |\n| 800 | baseline | 0.05 | 0.08 |\n| 1000 | baseline | 0.05 | 0.08 |"
+      "a": "| Raman shift, cm-\u00b9 | Peak assignment | LiCoO\u2082 as-deposited | LiCoO\u2082 annealed |\n| --- | --- | --- | --- |\n| 200 | baseline | 0.05 | 0.05 |\n| 486 | LiCoO\u2082 HT | 0.25 | 0.35 |\n| 520 | Si | 1.0 | 0.85 |\n| 596 | LiCoO\u2082 HT | 0.45 | 0.70 |\n| 800 | baseline | 0.05 | 0.08 |\n| 1000 | baseline | 0.05 | 0.08 |"
     },
     "vqa": {
         "a": [

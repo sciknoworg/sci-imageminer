@@ -7,7 +7,7 @@
         "a": "The figure displays X-ray diffraction patterns for 500nm Ba0.6Sr0.4TiO3 (BST) thin films deposited on Si substrates with different buffer layers, i) Buffer layer of 50nm TiO2 ii) Buffer layer of 50nm Ta2O5"
     },
     "data_extraction": {
-        "a": "| 2\u03b8 (degree) | Intensity (arb. units) a BST/TiO2/Si | Intensity (arb. units) a BST/Ta2O5/Si |\n|---|---|---|\n| 22 | BST (100) | BST (100) |\n|27 | TiO\u2082 (101) |  -                 |\n| 33 | BST (110) | BST (110) |\n| 38 |  -                 | Ta\u2082O\u2085 (200) |\n| 40 | BST (111) |  BST (111) |\n| 45 | BST (200) | BST (200) | \n| 52 | BST (210) | BST (210) |\n| 56 | BST (211) | BST (211) |"
+      "a": "| 2\u03b8 (degree) | Intensity (arb. units) a BST/TiO2/Si | Intensity (arb. units) a BST/Ta2O5/Si |\n| --- | --- | --- |\n| 22 | BST (100) | BST (100) |\n| 27 | TiO\u2082 (101) | - |\n| 33 | BST (110) | BST (110) |\n| 38 | - | Ta\u2082O\u2085 (200) |\n| 40 | BST (111) | BST (111) |\n| 45 | BST (200) | BST (200) |\n| 52 | BST (210) | BST (210) |\n| 56 | BST (211) | BST (211) |"
     },
     "vqa": {
         "a": [

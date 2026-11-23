@@ -11,9 +11,9 @@
         "c": "BF-TEM cross-section after complete removal of the TiN film, showing intact SiO\u2082 fins and confirming etch selectivity."
     },
     "data_extraction": {
-        "a": "|Description|\n|-----------|\n| TEM image of SiO\u2082 fin structure coated with ~3.3 nm pristine TiN film, showing high conformality. |",
-        "b": "|Description|\n|-----------|\n| TEM image after ~0.8 nm TiN conformally etched by the NbF\u2085\u2013CCl\u2084 process, with no significant surface defects. |",
-        "c": "|Description|\n|-----------|\n| TEM image after complete removal of the TiN film (over\u2011etch), with SiO\u2082 fins remaining intact, confirming etch selectivity. |"
+      "a": "| Description |\n| --- |\n| TEM image of SiO\u2082 fin structure coated with ~3.3 nm pristine TiN film, showing high conformality. |",
+      "b": "| Description |\n| --- |\n| TEM image after ~0.8 nm TiN conformally etched by the NbF\u2085\u2013CCl\u2084 process, with no significant surface defects. |",
+      "c": "| Description |\n| --- |\n| TEM image after complete removal of the TiN film (over\u2011etch), with SiO\u2082 fins remaining intact, confirming etch selectivity. |"
     },
     "vqa": {
         "a": [

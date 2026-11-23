@@ -7,7 +7,7 @@
         "a": "This line graph displays the mass change of a VO\u2082 film during atomic layer deposition (ALD) at 150\u202f\u00b0C over the course of 125 cycles. The increase in mass is linear with respect to time, indicating a highly consistent and reproducible deposition process. The graph annotates a growth rate of 0.63\u202f\u00c5/cycle, and the pulse sequence for the precursors (TEMAV and H\u2082O) is noted as part of the experimental procedure. The steady mass gain confirms the self-limiting, layer-by-layer nature of ALD and supports the reliability of the chosen conditions for high-quality VO\u2082 film growth."
     },
     "data_extraction": {
-        "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|----------|-----------------------|\n| 0        | 0                     |\n| 5000     | 1400                  |\n| 10000    | 2100                  |\n| 15000    | 2800                  |\n| 20000    | 3500                  |"
+      "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n| --- | --- |\n| 0 | 0 |\n| 5000 | 1400 |\n| 10000 | 2100 |\n| 15000 | 2800 |\n| 20000 | 3500 |"
     },
     "vqa": {
         "a": [

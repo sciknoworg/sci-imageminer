@@ -11,9 +11,9 @@
         "c": "Plot shows variation of capacitance (C) as a function of  applied voltage for different frequencies (100kHz, 1MHz) and materials (Co, Fe, Ni)."
     },
     "data_extraction": {
-        "a": "| frequency (Hz) | dielectric constant, \u03b5<sub>r</sub>  of Co | Fe | Ni |\n| --- | --- | --- | --- | \n| 10<sup>3</sup>  | 50 | 50 | 75 |\n| 10<sup>4</sup>  | 50 | 50 | 50 |\n| 10<sup>5</sup>  | 50 | 40 | 30 |\n| 10<sup>6</sup>  | 50 | 20 | 10 |",
-        "b": "| frequency (Hz) | tan\u03b4 of Co | Fe | Ni |\n| --- | --- | --- | --- | \n| 10<sup>3</sup> | 800 | 200 | 200 | \n| 10<sup>4</sup> | 400 | 100 | 100 | \n| 10<sup>5</sup> | 200 | 50 | 50 | \n| 10<sup>6</sup> |  80 | 20 | 20 |",
-        "c": "| Applied Voltage (V) | C (Co, 100kHz) | C (Fe, 100kHz) | C (Ni, 100kHz) | C (Co, 1MHz) | C (Fe, 1MHz) | C (Ni, 1MHz) |\n|---|---|---|---|---|---|---|\n| -4 | 220 | 230 | 480 | 40 | 50 | 70 |\n| -2 | 230 | 260 | 500 | 45 | 55 | 75 |\n| 0  | 200 | 320 | 520 | 50 | 60| 100 |\n| 2  | 200 | 320 | 520 | 50 | 60 | 80 |\n| 2  | 260 | 280 | 500 | 45 | 55 | 75 |"
+      "a": "| frequency (Hz) | dielectric constant, \u03b5<sub>r</sub>  of Co | Fe | Ni |\n| --- | --- | --- | --- |\n| 10<sup>3</sup> | 50 | 50 | 75 |\n| 10<sup>4</sup> | 50 | 50 | 50 |\n| 10<sup>5</sup> | 50 | 40 | 30 |\n| 10<sup>6</sup> | 50 | 20 | 10 |",
+      "b": "| frequency (Hz) | tan\u03b4 of Co | Fe | Ni |\n| --- | --- | --- | --- |\n| 10<sup>3</sup> | 800 | 200 | 200 |\n| 10<sup>4</sup> | 400 | 100 | 100 |\n| 10<sup>5</sup> | 200 | 50 | 50 |\n| 10<sup>6</sup> | 80 | 20 | 20 |",
+      "c": "| Applied Voltage (V) | C (Co, 100kHz) | C (Fe, 100kHz) | C (Ni, 100kHz) | C (Co, 1MHz) | C (Fe, 1MHz) | C (Ni, 1MHz) |\n| --- | --- | --- | --- | --- | --- | --- |\n| -4 | 220 | 230 | 480 | 40 | 50 | 70 |\n| -2 | 230 | 260 | 500 | 45 | 55 | 75 |\n| 0 | 200 | 320 | 520 | 50 | 60 | 100 |\n| 2 | 200 | 320 | 520 | 50 | 60 | 80 |\n| 2 | 260 | 280 | 500 | 45 | 55 | 75 |"
     },
     "vqa": {
         "a": [

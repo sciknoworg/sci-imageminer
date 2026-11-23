@@ -7,7 +7,7 @@
         "a": "The figure displays three spectra charts labeled a, b, and c, each showing intensity against binding energy before modifaction, after modification, and after anneal."
     },
     "data_extraction": {
-        "a": "| Binding Energy (eV) | Intensity (a.u.) a |Intensity (a.u.) b |Intensity (a.u.) c |\n|---|---|---|---|\n| 390 | null |null|null|\n| 395 | null |null|null|\n| 396 | 2 |null|2|\n| 397 | 3 |1|2|\n| 398 | 2 |null|null|\n| 399 | null |null|null|\n| 400 | null |null|null|\n| 405 | null |null|null|"
+      "a": "| Binding Energy (eV) | Intensity (a.u.) a | Intensity (a.u.) b | Intensity (a.u.) c |\n| --- | --- | --- | --- |\n| 390 | null | null | null |\n| 395 | null | null | null |\n| 396 | 2 | null | 2 |\n| 397 | 3 | 1 | 2 |\n| 398 | 2 | null | null |\n| 399 | null | null | null |\n| 400 | null | null | null |\n| 405 | null | null | null |"
     },
     "vqa": {
         "a": [

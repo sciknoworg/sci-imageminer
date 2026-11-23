@@ -9,8 +9,8 @@
         "b": "The figure illustrates a reaction pathway. B+A/s/ transformed into AB/s/ after energy Ead is released. A transition state is reached after enough energy is added to the system, releasing D+C/s/."
     },
     "data_extraction": {
-        "a": "|qr|Urp|\n|---|---|\n|B+A/s/|0|\n|AB/s/|-Ead|\n|TCf|-Ef|\n|D+C/s/|-Er|",
-        "b": "|qr|Urp|\n|---|---|\n|B+A/s/|0|\n|AB/s/|-Ead|\n|D+C/s/|Er|"
+      "a": "| qr | Urp |\n| --- | --- |\n| B+A/s/ | 0 |\n| AB/s/ | -Ead |\n| TCf | -Ef |\n| D+C/s/ | -Er |",
+      "b": "| qr | Urp |\n| --- | --- |\n| B+A/s/ | 0 |\n| AB/s/ | -Ead |\n| D+C/s/ | Er |"
     },
     "vqa": {
         "a": [

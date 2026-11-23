@@ -11,9 +11,9 @@
         "c": "The figure shows the absorption spectra of MnO2, 10cLi-MnO2,  50cLi-MnO2, MnO2 ref, LiMn2O4 ref, and MnO ref samples, as a function of the energy (eV), highlighting the Mn+3 and Mn+4."
     },
     "data_extraction": {
-        "a": "| Sample          | Energy Range (eV) | Key Features                                  |\n|-----------------|--------------------|-----------------------------------------------|\n| MnO\u2082           | 6540\u20136580         | Strong edge at ~6555 eV; post-edge oscillations |\n| 10cLi-MnO\u2082     | 6540\u20136580         | Slight edge shift; reduced intensity          |\n| 50cLi-MnO\u2082     | 6540\u20136580         | Further edge shift; more pronounced changes   |\n| MnO\u2082 ref.      | 6540\u20136580         | Baseline for Mn\u2074\u207a                             |\n| LiMn\u2082O\u2084 ref.   | 6540\u20136580         | Spinel reference                              |",
-        "b": "| Peak Position (\u00c5) | Assignment |\n|--------------------|-----------|\n| ~1.5              | Mn\u2013O      |\n| ~2.8              | Mn\u2013Mn1    |\n| ~3.4              | Mn\u2013Mn2    |",
-        "c": "| Energy (eV) | Feature  |\n|-------------|----------|\n| ~641        | Mn\u00b3\u207a (LIII) |\n| ~644        | Mn\u2074\u207a (LIII) |\n| ~652        | LII region |"
+      "a": "| Sample | Energy Range (eV) | Key Features |\n| --- | --- | --- |\n| MnO\u2082 | 6540\u20136580 | Strong edge at ~6555 eV; post-edge oscillations |\n| 10cLi-MnO\u2082 | 6540\u20136580 | Slight edge shift; reduced intensity |\n| 50cLi-MnO\u2082 | 6540\u20136580 | Further edge shift; more pronounced changes |\n| MnO\u2082 ref. | 6540\u20136580 | Baseline for Mn\u2074\u207a |\n| LiMn\u2082O\u2084 ref. | 6540\u20136580 | Spinel reference |",
+      "b": "| Peak Position (\u00c5) | Assignment |\n| --- | --- |\n| ~1.5 | Mn\u2013O |\n| ~2.8 | Mn\u2013Mn1 |\n| ~3.4 | Mn\u2013Mn2 |",
+      "c": "| Energy (eV) | Feature |\n| --- | --- |\n| ~641 | Mn\u00b3\u207a (LIII) |\n| ~644 | Mn\u2074\u207a (LIII) |\n| ~652 | LII region |"
     },
     "vqa": {
         "b": [

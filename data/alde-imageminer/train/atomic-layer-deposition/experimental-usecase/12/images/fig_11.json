@@ -7,7 +7,7 @@
         "a": "The line graph represents the tungsten film thickness deposited after 3 AB cycles against substrate temperature (300\u2013600 K). The curve shows a distinct peak: thickness initially rises with temperature, reaches a maximum near 425 K, and then saturates at higher temperatures. WF\u2086 and Si\u2082H\u2086 reactant exposures at each temperature were sufficient for complete half-reactions."
     },
     "data_extraction": {
-        "a": "| Temperature (K) | Tungsten Film Thickness (\u00c5) |\n|---|---|\n| 300 | 3.4 |\n| 400 | 6.7 |\n| 500 | 7.5 |\n| 600 | 7.8 |"
+      "a": "| Temperature (K) | Tungsten Film Thickness (\u00c5) |\n| --- | --- |\n| 300 | 3.4 |\n| 400 | 6.7 |\n| 500 | 7.5 |\n| 600 | 7.8 |"
     },
     "vqa": {
         "a": [

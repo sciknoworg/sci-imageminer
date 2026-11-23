@@ -7,7 +7,7 @@
         "a": "The scatter plot shows the fraction of ethyl-ligands persisting at various temperatures. The simulated data points are represented by red squares, while the experimental data points are shown by gray triangles. The graph shows the fraction of ethyl-ligands persisting decreasing with increasing temperature."
     },
     "data_extraction": {
-        "a": "| Temperature / \u00b0C | Fraction of ethylligands persisting Simulated |Fraction of ethylligands persisting Long exposure |Fraction of ethylligands persisting short exposure |\n|---|---|---|---|\n| 25 | 0.83 |-|-|\n| 50 | 0.6 |-|-|\n| 75 | 0.5 |-|-|\n| 100 | 0.45 |0.3|0.75|\n| 120 | 0.45 |-|-|\n| 150 | 0.45 |0.15|0.55|\n| 180 | 0.45 |-|-|\n| 200 | - |0.05|0.12|"
+      "a": "| Temperature / \u00b0C | Fraction of ethylligands persisting Simulated | Fraction of ethylligands persisting Long exposure | Fraction of ethylligands persisting short exposure |\n| --- | --- | --- | --- |\n| 25 | 0.83 | - | - |\n| 50 | 0.6 | - | - |\n| 75 | 0.5 | - | - |\n| 100 | 0.45 | 0.3 | 0.75 |\n| 120 | 0.45 | - | - |\n| 150 | 0.45 | 0.15 | 0.55 |\n| 180 | 0.45 | - | - |\n| 200 | - | 0.05 | 0.12 |"
     },
     "vqa": {
         "a": [

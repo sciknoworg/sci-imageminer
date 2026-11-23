@@ -7,7 +7,7 @@
         "a": "A scatter plot showing the linear increase in thickness (in nm) as a function of ALD cycle number."
     },
     "data_extraction": {
-        "a": "| ALD Cycle (#) | Thickness (nm) |\n|---|---|\n| 0 | 0 |\n| 20 | 2.5 |\n| 40 | 5 |\n| 60 | 7 |\n| 80 | 9 |\n| 100 | 11 |"
+      "a": "| ALD Cycle (#) | Thickness (nm) |\n| --- | --- |\n| 0 | 0 |\n| 20 | 2.5 |\n| 40 | 5 |\n| 60 | 7 |\n| 80 | 9 |\n| 100 | 11 |"
     },
     "vqa": {
         "a": [

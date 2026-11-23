@@ -7,7 +7,7 @@
         "a": "This figure presents stacked XRD spectra of NiO films deposited using different precursors over the same 2\u03b8 range, together with a reference NiO pattern. Each film exhibits a dominant diffraction peak that coincides with the reference reflections, indicating formation of crystalline NiO. The relative peak positions are consistent across samples, while peak intensities differ between precursors. The reference spectrum at the bottom provides indexing of the (111) and (200) planes for comparison."
     },
     "data_extraction": {
-        "a": "| 2\u03b8 (\u00b0) | NiO_Alanis Intensity (cps) | NiO_MeCp Intensity (cps) | NiO_Bu-MeAMD Intensity (cps) | Reference Intensity (cps) |\n|---|---|---|---|---|\n| 35.0 | ~0.00 | ~0.00 | ~0.00 | 0 |\n| 37.1 | ~0.12 |  | ~1.55 |  |\n| 37.2 |  |  |  | ~9000 |\n| 40.0 | ~0.00 | ~0.00 | ~0.00 | 0 |\n| 43.3 | ~1.15 | ~3.9 |  | ~12000 |\n| 45.0 | ~0.00 | ~0.00 | ~0.00 | 0 |\n| 50.0 | ~0.00 | ~0.00 | ~0.00 | 0 |"
+      "a": "| 2\u03b8 (\u00b0) | NiO_Alanis Intensity (cps) | NiO_MeCp Intensity (cps) | NiO_Bu-MeAMD Intensity (cps) | Reference Intensity (cps) |\n| --- | --- | --- | --- | --- |\n| 35.0 | ~0.00 | ~0.00 | ~0.00 | 0 |\n| 37.1 | ~0.12 |  | ~1.55 |  |\n| 37.2 |  |  |  | ~9000 |\n| 40.0 | ~0.00 | ~0.00 | ~0.00 | 0 |\n| 43.3 | ~1.15 | ~3.9 |  | ~12000 |\n| 45.0 | ~0.00 | ~0.00 | ~0.00 | 0 |\n| 50.0 | ~0.00 | ~0.00 | ~0.00 | 0 |"
     },
     "vqa": {
         "a": [

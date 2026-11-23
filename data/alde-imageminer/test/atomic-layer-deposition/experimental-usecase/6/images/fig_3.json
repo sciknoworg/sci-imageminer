@@ -7,7 +7,7 @@
         "a": "The chart presents a linear relationship between the number of SnO\u2082 ALD cycles and film thickness, highlighting consistent growth per cycle. The trend demonstrates self-limiting behavior typical of ALD, where each cycle deposits a nearly constant thickness of material. At 700 cycles, the film reaches approximately 480 \u00c5, implying a growth rate of roughly 0.69 \u00c5/cycle. This confirms a stable ALD process, with high conformity and control over thickness scaling."
     },
     "data_extraction": {
-        "a": "| Number of SnO\u2082 ALD cycles | Film Thickness (\u00c5) |\n|---|---|\n| 0 | 0 |\n| 100 | 50 |\n| 200 | 100 |\n| 500 | 350 |\n| 700 | 480 |"
+      "a": "| Number of SnO\u2082 ALD cycles | Film Thickness (\u00c5) |\n| --- | --- |\n| 0 | 0 |\n| 100 | 50 |\n| 200 | 100 |\n| 500 | 350 |\n| 700 | 480 |"
     },
     "vqa": {
         "a": [

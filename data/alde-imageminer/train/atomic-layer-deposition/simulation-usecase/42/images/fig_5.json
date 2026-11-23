@@ -7,7 +7,7 @@
         "a": "The figure displays X-ray diffraction patterns of the samples prepared with 3, 5 and 10 second H2O feeding time and one sample without H2O feeding."
     },
     "data_extraction": {
-        "a": "| Sample | 2\u03b8 [degree] |\n|---|---|\n| w/o H2O | Peaks at 27.5, 38.5, 42, 44 |\n| 3 s | Peaks at 27.5, 38.5, 42, 44 |\n| 5 s | Peaks at 27.5, 38.5, 42, 44 |\n| 10 s | Peaks at 27.5, 38.5, 42, 44 |"
+      "a": "| Sample | 2\u03b8 [degree] |\n| --- | --- |\n| w/o H2O | Peaks at 27.5, 38.5, 42, 44 |\n| 3 s | Peaks at 27.5, 38.5, 42, 44 |\n| 5 s | Peaks at 27.5, 38.5, 42, 44 |\n| 10 s | Peaks at 27.5, 38.5, 42, 44 |"
     },
     "vqa": {
         "a": [

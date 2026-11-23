@@ -17,12 +17,12 @@
         "f": "The image panel includes three AFM images showing the surface topography of InGaAs after RIE and after different cycles of thermal ALE at 40 mT and 300\u00b0C."
     },
     "data_extraction": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "",
-        "e": "| Number of Cycles | RMS Surface Roughness (nm) |\n|-----------------|--------------------------|\n| 0               | 0.5                      |\n| 150             | 0.5                      |\n| 200             | 0.48                      |\n| 250             | 0.7                      |",
-        "f": ""
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": "",
+      "e": "| Number of Cycles | RMS Surface Roughness (nm) |\n| --- | --- |\n| 0 | 0.5 |\n| 150 | 0.5 |\n| 200 | 0.48 |\n| 250 | 0.7 |",
+      "f": ""
     },
     "vqa": {
         "a": [

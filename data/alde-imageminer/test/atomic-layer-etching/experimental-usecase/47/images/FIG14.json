@@ -7,7 +7,7 @@
         "a": "The figure relates scattering yield with scattering energy for various cycles of etching and stopping at different pulses."
     },
     "data_extraction": {
-        "a": "| Element | Scattering Energy (eV) |\n|---------|--------------------------|\n| C       | ~1000                   |\n| O       | ~1500                   |\n| Cl      | ~2000                   |\n| Nb/Mo   | ~2500                   |"
+      "a": "| Element | Scattering Energy (eV) |\n| --- | --- |\n| C | ~1000 |\n| O | ~1500 |\n| Cl | ~2000 |\n| Nb/Mo | ~2500 |"
     },
     "vqa": {
         "a": [

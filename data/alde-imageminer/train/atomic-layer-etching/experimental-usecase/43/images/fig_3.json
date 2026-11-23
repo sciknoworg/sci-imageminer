@@ -9,8 +9,8 @@
         "b": "Mass Change Per Cycle (MCPC) (ng/(cm\u00b2\u00b7cycle)) varies the TMA pulse time (with fixed 4s NF\u2083). Both plots show the mass loss saturating, proving each half-reaction is self-limiting."
     },
     "data_extraction": {
-        "a": "| NF\u2083 Remote Plasma Time (s) | MCPC (ng/(cm\u00b2\u00b7cycle)) | Symbol    |\n|---|---|---|\n| 0 | 0 |NF\u2083 remote plasma (square) |\n| 1.5 | -25 | NF\u2083 remote plasma (square) |\n| 2.0 | -60 | NF\u2083 remote plasma (square) |\n| 3.0 | -70 | NF\u2083 remote plasma (square) |\n| 4.0 | -60 | NF\u2083 remote plasma (square) |\n| 4.0 | -2  | NF\u2083 gas (circle) |",
-        "b": "| TMA Pulse Time (s) | MCPC (ng/(cm\u00b2\u00b7cycle)) |\n|---|---|\n| 0.0 | 0 |\n| 0.5 | -25 |\n| 1.5 | -45 |\n| 3.0 | -55 |\n| 4.5 | -58 |"
+      "a": "| NF\u2083 Remote Plasma Time (s) | MCPC (ng/(cm\u00b2\u00b7cycle)) | Symbol |\n| --- | --- | --- |\n| 0 | 0 | NF\u2083 remote plasma (square) |\n| 1.5 | -25 | NF\u2083 remote plasma (square) |\n| 2.0 | -60 | NF\u2083 remote plasma (square) |\n| 3.0 | -70 | NF\u2083 remote plasma (square) |\n| 4.0 | -60 | NF\u2083 remote plasma (square) |\n| 4.0 | -2 | NF\u2083 gas (circle) |",
+      "b": "| TMA Pulse Time (s) | MCPC (ng/(cm\u00b2\u00b7cycle)) |\n| --- | --- |\n| 0.0 | 0 |\n| 0.5 | -25 |\n| 1.5 | -45 |\n| 3.0 | -55 |\n| 4.5 | -58 |"
     },
     "vqa": {
         "a": [

@@ -9,8 +9,8 @@
         "b": "XPS As 3d peak with (i) representing unpassivated InGaAs,   in situ H2S passivated InGaAs at (ii) 50 \u00b0C, (iii) 200 \u00b0C and (iv) 350 \u00b0C. (v) represents ex situ aqueous (NH4)2S passivated InGaAs."
     },
     "data_extraction": {
-        "a": "| Spectrum | Peak Positions (eV)      |\n|----------|---------------------------|\n| (v)      | 218, 225                 |\n| (iv)     | 218, 225                 |\n| (iii)    | 218                           |\n| (ii)     | 218                           |\n| (i)      | 218                           |",
-        "b": "| Spectrum | Peak Position & Range (eV) |\n|----------|-----------------------------|\n| (v)      | 40 (~38\u201343)                |\n| (iv)     | 40 (~38\u201343)                |\n| (iii)    | 40 (~38\u201343)                |\n| (ii)     | 40 (~38\u201342)                |\n| (i)      | 40 (~40\u201342)     , 45    |"
+      "a": "| Spectrum | Peak Positions (eV) |\n| --- | --- |\n| (v) | 218, 225 |\n| (iv) | 218, 225 |\n| (iii) | 218 |\n| (ii) | 218 |\n| (i) | 218 |",
+      "b": "| Spectrum | Peak Position & Range (eV) |\n| --- | --- |\n| (v) | 40 (~38\u201343) |\n| (iv) | 40 (~38\u201343) |\n| (iii) | 40 (~38\u201343) |\n| (ii) | 40 (~38\u201342) |\n| (i) | 40 (~40\u201342)     , 45 |"
     },
     "vqa": {
         "b": [

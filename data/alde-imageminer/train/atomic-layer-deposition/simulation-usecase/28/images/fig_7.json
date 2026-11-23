@@ -7,7 +7,7 @@
         "a": "The chart shows the relationship between temperature (T \u00b0C) and the thickness and mass increment per cycle, experimentally measured and calculated using minimum and extended mechanisms."
     },
     "data_extraction": {
-        "a": "| T \u00b0C |average increment |\n|---|---|\n| 0 | 0.4 | \n| 100 | 1.2 | \n| 200 | 1.0 | \n| 300 | 0.9 |\n| 400 | 0.75 | \n| 500 | 0.7 | \n| 600 | 0.55 |"
+      "a": "| T \u00b0C | average increment |\n| --- | --- |\n| 0 | 0.4 |\n| 100 | 1.2 |\n| 200 | 1.0 |\n| 300 | 0.9 |\n| 400 | 0.75 |\n| 500 | 0.7 |\n| 600 | 0.55 |"
     },
     "vqa": {
         "a": [

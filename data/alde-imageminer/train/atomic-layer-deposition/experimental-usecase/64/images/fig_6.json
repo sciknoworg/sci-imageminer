@@ -7,7 +7,7 @@
         "a": "The figure shows XRD patterns of ruthenium films grown from RuCp2 and Ru(thd)3 on iridium at 250 \u00b0C, highlighting the preferred crystal orientations. Films from RuCp2 are slightly (101)-oriented, while films from Ru(thd)3 show a slightly preferred (002) orientation, indicating that the choice of precursor influences the crystallinity of the films."
     },
     "data_extraction": {
-        "a": "| 2\u03b8 (\u00b0) | Intensity / Peak Assignment |\n|---|---|\n| 35 | RuCp\u2082 (101) |\n| 37 | Ru (100) |\n| 39 | Ir (111) |\n| 41 | Ru (002) |\n| 43 | Ru (101) |\n| 45 | Ir (200) |\n| 47 | Ru (102) |\n| 50 | Ru(thd)\u2083 (002) |"
+      "a": "| 2\u03b8 (\u00b0) | Intensity / Peak Assignment |\n| --- | --- |\n| 35 | RuCp\u2082 (101) |\n| 37 | Ru (100) |\n| 39 | Ir (111) |\n| 41 | Ru (002) |\n| 43 | Ru (101) |\n| 45 | Ir (200) |\n| 47 | Ru (102) |\n| 50 | Ru(thd)\u2083 (002) |"
     },
     "vqa": {
         "a": [

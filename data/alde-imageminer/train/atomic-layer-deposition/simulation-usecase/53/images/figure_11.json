@@ -7,7 +7,7 @@
         "a": "The line chart illustrates the energy changes ($\\Delta E$ in kJ/mol) for two compounds, SiH<sub>2</sub>(NH<sub>2</sub>)<sub>2</sub> and SiH<sub>2</sub>DMA<sub>2</sub>, across four stages: UR, BR, TS, BP, and UP. The chart also includes surface types (NH<sub>2</sub> and OH) for comparison."
     },
     "data_extraction": {
-        "a": "| Step | SiH\u2082(NH\u2082)\u2082 on NH\u2082 Surface | SiH\u2082DMA\u2082 on NH\u2082 Surface | SiH\u2082(NH\u2082)\u2082 on OH Surface | SiH\u2082DMA\u2082 on OH Surface |\n|------|---------------------------|--------------------------|---------------------------|--------------------------|\n| UR   | 0                         | 0                        | 0                         | 0                        |\n| BR   | -10                     | -30                    | -65                     | -50                    |\n| TS   | +70                     | +70                   | +10                    | 0                        |\n| BP   | 20                       | 20                      | -30                    | -80                    |\n| UP   | 5                         | 5                         | -90                    | -50                      |"
+      "a": "| Step | SiH\u2082(NH\u2082)\u2082 on NH\u2082 Surface | SiH\u2082DMA\u2082 on NH\u2082 Surface | SiH\u2082(NH\u2082)\u2082 on OH Surface | SiH\u2082DMA\u2082 on OH Surface |\n| --- | --- | --- | --- | --- |\n| UR | 0 | 0 | 0 | 0 |\n| BR | -10 | -30 | -65 | -50 |\n| TS | +70 | +70 | +10 | 0 |\n| BP | 20 | 20 | -30 | -80 |\n| UP | 5 | 5 | -90 | -50 |"
     },
     "vqa": {
         "a": [

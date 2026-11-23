@@ -7,7 +7,7 @@
         "a": "The figure illustrates the energy profile of a chemical reaction involving BDEAS, its adsorption onto a surface, transition state (TS), and the formation of the DEAS group. The energy decreases from the initial state to the final one, associated with the formation of the DEAS group."
     },
     "data_extraction": {
-        "a": "| Energy [eV] | BDEAS adsorption | DEAS group formation |\n| --- | --- | --- | \n| 1.0 | - | - |\n| 0.5 | - | - | \n| 0.0 | - | - | \n| -0.5 | -0.60 | - |\n| -1.0 | - | -0.95 | \n| -1.5 | - | - |"
+      "a": "| Energy [eV] | BDEAS adsorption | DEAS group formation |\n| --- | --- | --- |\n| 1.0 | - | - |\n| 0.5 | - | - |\n| 0.0 | - | - |\n| -0.5 | -0.60 | - |\n| -1.0 | - | -0.95 |\n| -1.5 | - | - |"
     },
     "vqa": {
         "a": [

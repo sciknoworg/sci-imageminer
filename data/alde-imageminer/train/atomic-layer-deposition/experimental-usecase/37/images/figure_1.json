@@ -15,11 +15,11 @@
         "e": "A molecular structure diagram illustrating the coincidence site lattices (CSL) between Mica and MS2"
     },
     "data_extraction": {
-        "a": "| Peak Position (\u00b0 2\u03b8) | Assignment |\n|-----------------------|------------------|\n| ~8                   | ZrS\u2082 (0001)     |\n| ~15                  | ZrS\u2082 (0002)     |\n| ~28                  | Mica (004)      |\n| ~30                  | Mica (006)      |\n| ~45                  | Mica (0010)     |\n| ~47                  | Mica (023)      |",
-        "b": "| Material        | Peaks (\u00b0 \u03c6)                          |\n|-----------------|---------------------------------------|\n| (10\\bar{1}0) ZrS\u2082 | ~0, ~60, ~120, ~180, ~240, ~300     |\n| (020) mica        | ~0, ~90, ~180, ~270                |",
-        "c": "| Parameter     | Value  |\n|--------------|----------|\n| R\u2090           | 0.53 nm  |\n| Scan Size    | 100 nm   |\n| Height Range | 12.5 nm  |",
-        "d": "| Angle | Relation |\n|-------|--------------|\n| 0\u00b0    | [010] mica   |\n| 30\u00b0   | [2110] ZrS\u2082  |\n| 60\u00b0   | [1210] ZrS\u2082  |\n| 90\u00b0   | [2110] ZrS\u2082  |",
-        "e": "| Parameter        | Value |\n|------------------|--------------|\n| a (mica)         | ~5 \u00c5        |\n| a (ZrS\u2082)         | ~3.7 \u00c5      |\n| Matching Ratio   | ~7 (mica) : 5 (ZrS\u2082)   |"
+      "a": "| Peak Position (\u00b0 2\u03b8) | Assignment |\n| --- | --- |\n| ~8 | ZrS\u2082 (0001) |\n| ~15 | ZrS\u2082 (0002) |\n| ~28 | Mica (004) |\n| ~30 | Mica (006) |\n| ~45 | Mica (0010) |\n| ~47 | Mica (023) |",
+      "b": "| Material | Peaks (\u00b0 \u03c6) |\n| --- | --- |\n| (10\\bar{1}0) ZrS\u2082 | ~0, ~60, ~120, ~180, ~240, ~300 |\n| (020) mica | ~0, ~90, ~180, ~270 |",
+      "c": "| Parameter | Value |\n| --- | --- |\n| R\u2090 | 0.53 nm |\n| Scan Size | 100 nm |\n| Height Range | 12.5 nm |",
+      "d": "| Angle | Relation |\n| --- | --- |\n| 0\u00b0 | [010] mica |\n| 30\u00b0 | [2110] ZrS\u2082 |\n| 60\u00b0 | [1210] ZrS\u2082 |\n| 90\u00b0 | [2110] ZrS\u2082 |",
+      "e": "| Parameter | Value |\n| --- | --- |\n| a (mica) | ~5 \u00c5 |\n| a (ZrS\u2082) | ~3.7 \u00c5 |\n| Matching Ratio | ~7 (mica) : 5 (ZrS\u2082) |"
     },
     "vqa": {
         "a": [

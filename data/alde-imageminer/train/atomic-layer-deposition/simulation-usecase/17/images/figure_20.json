@@ -7,7 +7,7 @@
         "a": "The line chart image represents the fraction of Nitrogen(N) in terms of percentage as a function of various nitrogen-to-aluminium flux ratios (N : Al), values of a range from 0.8 to 2.8. The values of N fraction steadily seems to increase till 2 and then saturates at close to 50% of N fraction. The image also shows the molecular representation computed using Molecular dynamics at temperature of 1800K"
     },
     "data_extraction": {
-        "a": "| N : Al flux ratio | N fraction (%) |\n|---|---|\n| 0.8 | 42 |\n| 1.2 | 44 |\n| 1.6 | 49 |\n| 2.0 | 51 |\n| 2.4 | 51 |\n| 2.8 | 52 |"
+      "a": "| N : Al flux ratio | N fraction (%) |\n| --- | --- |\n| 0.8 | 42 |\n| 1.2 | 44 |\n| 1.6 | 49 |\n| 2.0 | 51 |\n| 2.4 | 51 |\n| 2.8 | 52 |"
     },
     "vqa": {
         "a": [

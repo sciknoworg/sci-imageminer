@@ -9,9 +9,9 @@
         "c": "In contrast, panel (c) demonstrates a steady linear decrease in film thickness when both Hhfac and H\u2082 plasma are applied in combination, highlighting the synergistic effect of this treatment for etching. These results suggest that neither precursor nor plasma alone is sufficient to etch the surface, but their combination results in controlled material removal."
     },
     "data_extraction": {
-        "a": "| Number of pulses/cycles | Thickness change (nm) |\n|--------------------------|------------------------|\n| 0                        | 0                      |\n| 5                        | 0                      |\n| 10                       | 0                      |\n| 15                       | 0                      |\n| 20                       | 0                      |",
-        "b": "| Number of pulses/cycles | Thickness change (nm) |\n|--------------------------|------------------------|\n| 0                        | 0                      |\n| 5                        | 0                      |\n| 10                       | 0                      |\n| 15                       | 0                      |\n| 20                       | 0                      |",
-        "c": "| Number of pulses/cycles | Thickness change (nm) |\n|--------------------------|------------------------|\n| 0                        | 0                      |\n| 5                        | -0.5                   |\n| 10                       | -1.0                   |\n| 15                       | -1.5                   |\n| 20                       | -2.0                   |"
+      "a": "| Number of pulses/cycles | Thickness change (nm) |\n| --- | --- |\n| 0 | 0 |\n| 5 | 0 |\n| 10 | 0 |\n| 15 | 0 |\n| 20 | 0 |",
+      "b": "| Number of pulses/cycles | Thickness change (nm) |\n| --- | --- |\n| 0 | 0 |\n| 5 | 0 |\n| 10 | 0 |\n| 15 | 0 |\n| 20 | 0 |",
+      "c": "| Number of pulses/cycles | Thickness change (nm) |\n| --- | --- |\n| 0 | 0 |\n| 5 | -0.5 |\n| 10 | -1.0 |\n| 15 | -1.5 |\n| 20 | -2.0 |"
     },
     "vqa": {
         "a": [

@@ -15,11 +15,11 @@
         "e": "A molecular structure diagram illustrating the stationary point of the adsorbed complex."
     },
     "data_extraction": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "| Energy (kcal/mol) | Slab Model | Cluster Model |\n|------------------|------------|--------------|\n| 0 | 0 | 0 |\n| -5 | -2.5 | -5 |\n| -10 | -6 | -9 |\n| -25 | -26 | -24 |",
-        "e": ""
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": "| Energy (kcal/mol) | Slab Model | Cluster Model |\n| --- | --- | --- |\n| 0 | 0 | 0 |\n| -5 | -2.5 | -5 |\n| -10 | -6 | -9 |\n| -25 | -26 | -24 |",
+      "e": ""
     },
     "vqa": {
         "d": [

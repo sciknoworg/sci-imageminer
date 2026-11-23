@@ -7,7 +7,7 @@
         "a": "The figure displays infrared absorption spectra for two samples labeled as HF-BCl\u2083 and BCl3-HF, at 350\u00b0C during the 10th cycle."
     },
     "data_extraction": {
-        "a": "| Wavenumber (cm\u207b\u00b9) | HF-BCl3 | BCl3-HF |\n| --- | --- | --- |\n| 1750 | - | - |\n| 1500 | - | - |\n| 1250 | B-N | B-N |\n| 1000 | - | - |\n| 750 | Al-N | Al-F |\n| 500 | - | Al-F |"
+      "a": "| Wavenumber (cm-\u00b9) | HF-BCl3 | BCl3-HF |\n| --- | --- | --- |\n| 1750 | - | - |\n| 1500 | - | - |\n| 1250 | B-N | B-N |\n| 1000 | - | - |\n| 750 | Al-N | Al-F |\n| 500 | - | Al-F |"
     },
     "vqa": {
         "a": [

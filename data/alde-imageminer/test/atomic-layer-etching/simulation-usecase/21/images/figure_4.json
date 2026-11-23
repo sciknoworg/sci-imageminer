@@ -9,8 +9,8 @@
         "b": "At 0 \u00b0C, Ta ALE shows an ALE window with EPC near ~0.35\u20130.45 nm/cycle across roughly 20\u201390 eV, followed by a rise at higher energy. Ar-only sputtering increases steadily with ion energy and lacks a plateau, consistent with non-self-limiting removal."
     },
     "data_extraction": {
-        "a": "| Wafer temperature (\u00b0C) | Etch rate (nm/s) |\n|---|---|\n| 0  | ~0.00 |\n| 10 | ~0.10 |\n| 30 | ~0.50 |\n| 60 | ~2.00 |",
-        "b": "| Ion energy (eV) | EPC in ALE mode (nm/cycle) | EPC in Ar-only mode (nm/cycle) |\n|---|---|---|\n| 0   | ~0.00 | ~0.00 |\n| 20  | ~0.42 | ~0.00 |\n| 40  | ~0.36 | ~0.02 |\n| 60  | ~0.44 | ~0.06 |\n| 90  | ~0.43 | ~0.25 |\n| 115 | ~0.65 | ~0.40 |"
+      "a": "| Wafer temperature (\u00b0C) | Etch rate (nm/s) |\n| --- | --- |\n| 0 | ~0.00 |\n| 10 | ~0.10 |\n| 30 | ~0.50 |\n| 60 | ~2.00 |",
+      "b": "| Ion energy (eV) | EPC in ALE mode (nm/cycle) | EPC in Ar-only mode (nm/cycle) |\n| --- | --- | --- |\n| 0 | ~0.00 | ~0.00 |\n| 20 | ~0.42 | ~0.00 |\n| 40 | ~0.36 | ~0.02 |\n| 60 | ~0.44 | ~0.06 |\n| 90 | ~0.43 | ~0.25 |\n| 115 | ~0.65 | ~0.40 |"
     },
     "vqa": {
         "a": [

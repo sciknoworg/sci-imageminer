@@ -7,7 +7,7 @@
         "a": "The Fourier-Transform Infrared Spectroscopy(FTIR)  spectra chart spectrum shows how disilane (Si\u2082H\u2086)acts with hydroxylated silica at 650 K. The negative peak near 3750 cm\u207b\u00b9 indicates that surface Si\u2013OH groups are being consumed. The positive peaks\u2014around 2250 cm\u207b\u00b9 (Si\u2013H stretch) and 900 cm\u207b\u00b9 (Si\u2013H bending)\u2014show that silicon hydride species form and attach to the silica surface during the reaction."
     },
     "data_extraction": {
-        "a": "| Frequency (cm\u207b\u00b9) | Infrared Absorbance | Remark |\n|----------------|----------------------|---------|\n| 3750           | -0.15                | SiO-H Stretch |\n| 3000           | 0.004               | -|\n| 2250           | 0.06                 | - |\n| 2000           | 0.35                 | SiO-H Stretch |\n| 1500           | 0.004              |  -|\n| 1000           | 0.60                 | Si-H Scissors |\n| 950            | -0.17                 | SiO-H Stretch |\n| 750            | 0.004                |  - |"
+      "a": "| Frequency (cm-\u00b9) | Infrared Absorbance | Remark |\n| --- | --- | --- |\n| 3750 | -0.15 | SiO-H Stretch |\n| 3000 | 0.004 | - |\n| 2250 | 0.06 | - |\n| 2000 | 0.35 | SiO-H Stretch |\n| 1500 | 0.004 | - |\n| 1000 | 0.60 | Si-H Scissors |\n| 950 | -0.17 | SiO-H Stretch |\n| 750 | 0.004 | - |"
     },
     "vqa": {
         "a": [

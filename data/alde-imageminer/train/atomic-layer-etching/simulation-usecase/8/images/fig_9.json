@@ -7,7 +7,7 @@
         "a": "The line chart shows the relationship between etched thickness and RMS roughness, with experimental data points and a curvature-dependent model curve."
     },
     "data_extraction": {
-        "a": "| Etched thickness (nm) | RMS roughness (nm) |\n|---|---|\n| 0 | 2.65 |\n| 5 | 2.4 |\n| 10 | 2.2 |\n| 15 | 2.0 |\n| 20 | 2.0 |\n| 25 | 1.9 |"
+      "a": "| Etched thickness (nm) | RMS roughness (nm) |\n| --- | --- |\n| 0 | 2.65 |\n| 5 | 2.4 |\n| 10 | 2.2 |\n| 15 | 2.0 |\n| 20 | 2.0 |\n| 25 | 1.9 |"
     },
     "vqa": {
         "a": [

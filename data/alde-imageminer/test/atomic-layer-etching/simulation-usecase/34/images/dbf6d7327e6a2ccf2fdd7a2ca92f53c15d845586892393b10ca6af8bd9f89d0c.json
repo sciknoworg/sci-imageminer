@@ -7,7 +7,7 @@
         "a": "The heatmap shows how the mapped value varies with HF flow rate and substrate velocity. Most of the field remains at low values, indicated by dark blue colors. Only minor variations appear at intermediate substrate velocities, while changes across HF flow rate are weak."
     },
     "data_extraction": {
-        "a": "| HF flow rate (sccm) | Substrate velocity (mm/s) | Relative value |\n|--------------------|--------------------------|----------------|\n| 20                 | 90                       | Low            |\n| 60                 | 90                       | Low            |\n| 100                | 90                       | Low            |\n| 20                 | 60                       | Low            |\n| 60                 | 60                       | Medium         |\n| 100                | 60                       | Low            |\n| 20                 | 30                       | Low            |\n| 60                 | 30                       | Low            |\n| 100                | 30                       | Low            |"
+      "a": "| HF flow rate (sccm) | Substrate velocity (mm/s) | Relative value |\n| --- | --- | --- |\n| 20 | 90 | Low |\n| 60 | 90 | Low |\n| 100 | 90 | Low |\n| 20 | 60 | Low |\n| 60 | 60 | Medium |\n| 100 | 60 | Low |\n| 20 | 30 | Low |\n| 60 | 30 | Low |\n| 100 | 30 | Low |"
     },
     "vqa": {
         "a": [

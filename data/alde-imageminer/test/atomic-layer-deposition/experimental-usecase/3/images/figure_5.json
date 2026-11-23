@@ -7,7 +7,7 @@
         "a": "The scatter plot shows the relationship between deposition temperature and film thickness, with white points indicating films with RMS roughness <1% and black points indicating films with RMS roughness >5%."
     },
     "data_extraction": {
-        "a": "| Deposition Temperature (\u00b0C) | Film Thickness (nm) | RMS Roughness |\n|---|---|---|\n| 50  | 120,4 | <1% |\n| 100 | 70,4  | <1%|\n| 125 | 50,3  | <1% |\n| 150 | 34,9  | <1% |\n| 150 | 80,3  | >5%  |\n| 150 | 100,8 | >5% |\n| 150 | 120,8 | >5% |\n| 200 | 24,5  | <1%  |\n| 200 | 50,1  | >5% |\n| 200 | 120,8 | >5% |\n| 250 | 9,7   | <1%  |\n| 250 | 40,1  | >5% |\n| 300 | 10,1  | <1%  |\n| 300 | 35,1  | >5% |"
+      "a": "| Deposition Temperature (\u00b0C) | Film Thickness (nm) | RMS Roughness |\n| --- | --- | --- |\n| 50 | 120,4 | <1% |\n| 100 | 70,4 | <1% |\n| 125 | 50,3 | <1% |\n| 150 | 34,9 | <1% |\n| 150 | 80,3 | >5% |\n| 150 | 100,8 | >5% |\n| 150 | 120,8 | >5% |\n| 200 | 24,5 | <1% |\n| 200 | 50,1 | >5% |\n| 200 | 120,8 | >5% |\n| 250 | 9,7 | <1% |\n| 250 | 40,1 | >5% |\n| 300 | 10,1 | <1% |\n| 300 | 35,1 | >5% |"
     },
     "vqa": {
         "a": [

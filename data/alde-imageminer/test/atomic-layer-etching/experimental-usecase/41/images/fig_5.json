@@ -9,8 +9,8 @@
         "b": "The subfigure plots estimated TiO\u2082 thickness and EPC versus RF power at 100 \u00b0C. Increasing RF power leads to larger TiO\u2082 thickness and EPC, indicating a close correlation between oxide growth and etch-per-cycle performance."
     },
     "data_extraction": {
-        "a": "| Temperature (\u00b0C) | Estimated TiO\u2082 thickness (nm) | TiN Etch per cycle (nm/cycle) |\n|------------------|-------------------------------|---------------------------|\n| 50               | 0.30                          | 0.25                      |\n| 100              | 0.50                          | 0.45                      |\n| 150              | 0.80                          | 0.75                      |\n| 200              | 1.20                          | 1.10                      |",
-        "b": "| RF power (W) | Estimated TiO\u2082 thickness (nm) | TiN Etch per cycle (nm/cycle) |\n|--------------|-------------------------------|---------------------------|\n| 10           | 0.25                          | 0.25                      |\n| 15           | 0.50                          | 0.50                      |\n| 25           | 0.90                          | 0.85                      |\n| 50           | 1.95                          | 1.75                      |"
+      "a": "| Temperature (\u00b0C) | Estimated TiO\u2082 thickness (nm) | TiN Etch per cycle (nm/cycle) |\n| --- | --- | --- |\n| 50 | 0.30 | 0.25 |\n| 100 | 0.50 | 0.45 |\n| 150 | 0.80 | 0.75 |\n| 200 | 1.20 | 1.10 |",
+      "b": "| RF power (W) | Estimated TiO\u2082 thickness (nm) | TiN Etch per cycle (nm/cycle) |\n| --- | --- | --- |\n| 10 | 0.25 | 0.25 |\n| 15 | 0.50 | 0.50 |\n| 25 | 0.90 | 0.85 |\n| 50 | 1.95 | 1.75 |"
     },
     "vqa": {
         "a": [

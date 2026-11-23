@@ -9,8 +9,8 @@
         "b": "The spectra chart shows RBS spectrum with backscattered-ion counts versus energy for a hafnium-containing film on a carbon substrate, with features attributed to C (substrate), O, and Hf."
     },
     "data_extraction": {
-        "a": "| Energy (MeV) | Counts | Assignment |\n|---|---|---|\n| 0 | 0 | - |\n| 0.098 | 1273 | Carbon Substrate |\n| 0.46 | 443 | Carbon Substrate |\n| 0.7 | 318 | Oxygen |\n| 1.65 | 3987 | Zirconium |\n| 2 | 0 | - |",
-        "b": "| Energy (MeV) | Counts | Assignment |\n|---|---|---|\n| 0 | 0 | - |\n| 0.098 | 2096 | Carbon Substrate |\n| 0.46 | 578 | Carbon Substrate |\n| 0.7 | 253 | Oxygen |\n| 1.65 | 11240 | Hafnium |\n| 2 | 0 | - |"
+      "a": "| Energy (MeV) | Counts | Assignment |\n| --- | --- | --- |\n| 0 | 0 | - |\n| 0.098 | 1273 | Carbon Substrate |\n| 0.46 | 443 | Carbon Substrate |\n| 0.7 | 318 | Oxygen |\n| 1.65 | 3987 | Zirconium |\n| 2 | 0 | - |",
+      "b": "| Energy (MeV) | Counts | Assignment |\n| --- | --- | --- |\n| 0 | 0 | - |\n| 0.098 | 2096 | Carbon Substrate |\n| 0.46 | 578 | Carbon Substrate |\n| 0.7 | 253 | Oxygen |\n| 1.65 | 11240 | Hafnium |\n| 2 | 0 | - |"
     },
     "vqa": {
         "a": [

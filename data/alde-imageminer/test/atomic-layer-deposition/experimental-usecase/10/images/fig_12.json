@@ -7,7 +7,7 @@
         "a": "The figure shows the relationship between film thickness and the number of ALD cycles for different deposition methods. Both Plasma ALD Pt and Plasma ALD PtO\u2082 display nearly linear growth with increasing cycles, while Thermal ALD Pt shows negligible thickness change, indicating limited film deposition. Plasma-enhanced processes thus exhibit higher growth rates and efficiency"
     },
     "data_extraction": {
-        "a": "| Number of ALD Cycles | Plasma ALD Pt (nm) | Thermal ALD Pt (nm) | Plasma ALD PtO\u2082 (nm) |\n|----------------------|--------------------|---------------------|----------------------|\n| 0                    | 0                  | 0                   | 0                    |\n| 50                   | 2                  | 0                   | 1.8                  |\n| 100                  | 4                  | 0                   | 3.5                  |\n| 150                  | 6                  | 0                   | 5.5                  |\n| 200                  | 8                  | 0                   | 7.5                  |\n| 250                  | 10                 | 0                   | 9.5                  |"
+      "a": "| Number of ALD Cycles | Plasma ALD Pt (nm) | Thermal ALD Pt (nm) | Plasma ALD PtO\u2082 (nm) |\n| --- | --- | --- | --- |\n| 0 | 0 | 0 | 0 |\n| 50 | 2 | 0 | 1.8 |\n| 100 | 4 | 0 | 3.5 |\n| 150 | 6 | 0 | 5.5 |\n| 200 | 8 | 0 | 7.5 |\n| 250 | 10 | 0 | 9.5 |"
     },
     "vqa": {
         "a": [

@@ -13,10 +13,10 @@
         "d": "A line chart showing EPC change with Ar plasma exposure time for two conditions."
     },
     "data_extraction": {
-        "a": "| Reaction | Etch per cycle (\u00c5) |\n|---|---|\n| Reaction A | 0.15 |\n| Reaction A+B | 1.10 |\n| Reaction B | 0.20 |",
-        "b": "| Number of cycles | EPC (\u00c5) | Etch depth (\u00c5) |\n|---|---|---|\n| 50 | 0.90 | 50 |\n| 100 | 1.10 | 100 |\n| 150 | 1.30 | 200 |\n| 200 | 1.00 | 210 |",
-        "c": "| BCl3 exposure (s) | EPC (\u00c5) |\n|---|---|\n| 0 | 0.10 |\n| 5 | 0.60 |\n| 10 | 0.80 |\n| 15 | 0.90 |\n| 20 | 1.00 |",
-        "d": "| Ar plasma exposure (s) | EPC (\u00c5) ALE | EPC (\u00c5) Ar milling only |\n|---|---|---|\n| 0 | 0.10 | 0 |\n| 5 | 0.30 |  |\n| 10 | 0.90 | 0.10 |\n| 15 | 1.10 |  |\n| 20 | 1.90 | 0.25 |"
+      "a": "| Reaction | Etch per cycle (\u00c5) |\n| --- | --- |\n| Reaction A | 0.15 |\n| Reaction A+B | 1.10 |\n| Reaction B | 0.20 |",
+      "b": "| Number of cycles | EPC (\u00c5) | Etch depth (\u00c5) |\n| --- | --- | --- |\n| 50 | 0.90 | 50 |\n| 100 | 1.10 | 100 |\n| 150 | 1.30 | 200 |\n| 200 | 1.00 | 210 |",
+      "c": "| BCl3 exposure (s) | EPC (\u00c5) |\n| --- | --- |\n| 0 | 0.10 |\n| 5 | 0.60 |\n| 10 | 0.80 |\n| 15 | 0.90 |\n| 20 | 1.00 |",
+      "d": "| Ar plasma exposure (s) | EPC (\u00c5) ALE | EPC (\u00c5) Ar milling only |\n| --- | --- | --- |\n| 0 | 0.10 | 0 |\n| 5 | 0.30 |  |\n| 10 | 0.90 | 0.10 |\n| 15 | 1.10 |  |\n| 20 | 1.90 | 0.25 |"
     },
     "vqa": {
         "a": [

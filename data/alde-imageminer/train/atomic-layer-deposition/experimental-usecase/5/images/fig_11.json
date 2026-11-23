@@ -9,8 +9,8 @@
         "b": "Increasing TDMAT exposure at 180 \u00b0C raises oxygen content and reduces nitrogen content, while titanium stays stable, suggesting that excess precursor exposure promotes oxygen incorporation rather than additional nitridation. Overall, deposition temperature appears to be the dominant parameter governing TiN film stoichiometry."
     },
     "data_extraction": {
-        "a": "| Deposition Temperature (\u00b0C) | O (at.%) | Ti (at.%) | N (at.%) | C (at.%) |\n|---|---|---|---|---|\n| ~60 | ~56 | ~31 | ~9 | ~3 |\n| ~120 | ~44 | ~32 | ~19 | ~5 |\n| ~180 | ~39 | ~32 | ~23 | ~5 |\n| ~240 | ~37 | ~33 | ~28 | ~6 |",
-        "b": "| TDMAT Exposure (s) | O (at.%) | Ti (at.%) | N (at.%) | C (at.%) |\n|---|---|---|---|---|\n| 0 | ~40 | ~32 | ~23 | ~5 |\n| ~20 | ~45 | ~31 | ~18 | ~6 |\n| ~100  | ~46 | ~31 | ~17 | ~7 |"
+      "a": "| Deposition Temperature (\u00b0C) | O (at.%) | Ti (at.%) | N (at.%) | C (at.%) |\n| --- | --- | --- | --- | --- |\n| ~60 | ~56 | ~31 | ~9 | ~3 |\n| ~120 | ~44 | ~32 | ~19 | ~5 |\n| ~180 | ~39 | ~32 | ~23 | ~5 |\n| ~240 | ~37 | ~33 | ~28 | ~6 |",
+      "b": "| TDMAT Exposure (s) | O (at.%) | Ti (at.%) | N (at.%) | C (at.%) |\n| --- | --- | --- | --- | --- |\n| 0 | ~40 | ~32 | ~23 | ~5 |\n| ~20 | ~45 | ~31 | ~18 | ~6 |\n| ~100 | ~46 | ~31 | ~17 | ~7 |"
     },
     "vqa": {
         "b": [

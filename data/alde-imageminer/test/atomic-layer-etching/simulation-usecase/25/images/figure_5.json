@@ -9,8 +9,8 @@
         "b": "Free-energy profiles for the SE1 and SL1 reactions of ZrO\u2082 showing analogous temperature-dependent behavior, with transitions at lower temperatures (T\u2081 = 534 K and T\u2082 = 770 K). Compared to HfO\u2082, ZrO\u2082 enters the preferred and purely etching regimes at lower temperatures, indicating reduced thermal stability of the self-limiting state."
     },
     "data_extraction": {
-        "a": "| Temperature [K] | \u0394G (SE1 - Blue) [eV] | \u0394G (SL1 - Orange) [eV] | Condition |\n|---|---|---|---|\n| 0 | ~ -0.75 | ~ -3.0 | Start |\n| 657 | ~ -0.6 | ~ -0.6 | T1 (Crossover) |\n| 813 | ~ -0.55 | 0.0 | T2 (Zero crossing) |\n| 1000 | ~ -0.45 | ~ +0.7 | End |",
-        "b": "| Temperature [K] | \u0394G (SE1 - Blue) [eV] | \u0394G (SL1 - Orange) [eV] | Condition | \n|---|---|---|---| \n| 0 | ~ -1.0 | ~ -2.8 | Start | \n| 534 | ~ -0.9 | ~ -0.9 | T1 (Crossover) | \n| 770 | ~ -0.8 | 0.0 | T2 (Zero crossing) | \n| 1000 | ~ -0.7 | ~ +0.8 | End |"
+      "a": "| Temperature [K] | \u0394G (SE1 - Blue) [eV] | \u0394G (SL1 - Orange) [eV] | Condition |\n| --- | --- | --- | --- |\n| 0 | ~ -0.75 | ~ -3.0 | Start |\n| 657 | ~ -0.6 | ~ -0.6 | T1 (Crossover) |\n| 813 | ~ -0.55 | 0.0 | T2 (Zero crossing) |\n| 1000 | ~ -0.45 | ~ +0.7 | End |",
+      "b": "| Temperature [K] | \u0394G (SE1 - Blue) [eV] | \u0394G (SL1 - Orange) [eV] | Condition |\n| --- | --- | --- | --- |\n| 0 | ~ -1.0 | ~ -2.8 | Start |\n| 534 | ~ -0.9 | ~ -0.9 | T1 (Crossover) |\n| 770 | ~ -0.8 | 0.0 | T2 (Zero crossing) |\n| 1000 | ~ -0.7 | ~ +0.8 | End |"
     },
     "vqa": {
         "a": [

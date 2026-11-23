@@ -13,8 +13,8 @@
         "d": "Energy level and device concept for FRET based bio detection, where Eu HQA acts as the donor and AF 647 as the acceptor, leading to acceptor emission near 660 nm after energy transfer."
     },
     "data_extraction": {
-        "b": "| Wavelength (nm) | Intensity (Norm.) |\n|---|---|\n| 500 | 0.05 |\n| 615 | 1.00 |\n| 700 | 0.10 |",
-        "c": "| Wavelength (nm) | Intensity (Norm.) |\n|---|---|\n| 500 | 0.02 |\n| 590 | 0.15 |\n| 615 | 1.00 |\n| 630 | 0.10 |\n| 700 | 0.10 |"
+      "b": "| Wavelength (nm) | Intensity (Norm.) |\n| --- | --- |\n| 500 | 0.05 |\n| 615 | 1.00 |\n| 700 | 0.10 |",
+      "c": "| Wavelength (nm) | Intensity (Norm.) |\n| --- | --- |\n| 500 | 0.02 |\n| 590 | 0.15 |\n| 615 | 1.00 |\n| 630 | 0.10 |\n| 700 | 0.10 |"
     },
     "vqa": {
         "d": [

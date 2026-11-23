@@ -7,7 +7,7 @@
         "a": "The plot shows atomic concentrations of W, C, N, Ti, O, F and Si as a function of sputter time through the 9\u00d7(WN\u2093C\u1d67 (2 nm) + TiN (2 nm)) nanolaminate. W and C are high and oscillatory (peaks at the WN\u2093C\u1d67 layers), Ti and N show complementary oscillations (peaks at the TiN layers), and the periodic waveform confirms the multilayer architecture is preserved. Fluorine is essentially negligible, oxygen is low in the bulk but rises at the surface (air exposure), and silicon sharply increases at the end when the substrate is reached \u2014 together indicating well-defined interfaces, low contamination, and minimal interdiffusion."
     },
     "data_extraction": {
-        "a": "| Sputter Time (min)|W (%)|C (%)|N (%)|Ti (%)|O (%)|F (%)|Si (%)|\n|-------------------|-----|-----|-----|------|-----|-----|------|\n|0|~10|~15|~8|~5|~2|~0.5|~0|\n|5|~48|~30|~10|~6|~1|~0.3|~0|\n|10|~52|~32|~11|~7|~1|~0.3|~0|\n|15|~50|~30|~10|~6|~1|~0.2|~0|\n|20|~45|~25|~9|~5|~1|~0.2|~0|\n|25|~2|~5|~3|~1|~10\u201350 rising|~0.2|sharply rising|"
+      "a": "| Sputter Time (min) | W (%) | C (%) | N (%) | Ti (%) | O (%) | F (%) | Si (%) |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 0 | ~10 | ~15 | ~8 | ~5 | ~2 | ~0.5 | ~0 |\n| 5 | ~48 | ~30 | ~10 | ~6 | ~1 | ~0.3 | ~0 |\n| 10 | ~52 | ~32 | ~11 | ~7 | ~1 | ~0.3 | ~0 |\n| 15 | ~50 | ~30 | ~10 | ~6 | ~1 | ~0.2 | ~0 |\n| 20 | ~45 | ~25 | ~9 | ~5 | ~1 | ~0.2 | ~0 |\n| 25 | ~2 | ~5 | ~3 | ~1 | ~10\u201350 rising | ~0.2 | sharply rising |"
     },
     "vqa": {
         "a": [

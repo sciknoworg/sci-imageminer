@@ -7,7 +7,7 @@
         "a": "Figure 2 presents a conceptual diagram of a multiscale modeling framework that connects mesoscopic simulations (ab initio quantum, statistical mechanics, kinetic Monte Carlo) with macroscopic simulations (reactor modeling and computational fluid dynamics). The framework captures multiple time and length scales and can integrate machine learning or regression methods to optimize operating conditions and achieve high synergy."
     },
     "data_extraction": {
-        "a": "|Description|\n|-----------|\n|Conceptual diagram showing the multiscale modeling approach, integrating mesoscopic simulations (ab initio quantum, statistical mechanics, kinetic Monte Carlo) with macroscopic simulations (reactor modeling and computational fluid dynamics). The framework links different time and length scales and can incorporate machine learning or regression methods to optimize operating conditions|"
+      "a": "| Description |\n| --- |\n| Conceptual diagram showing the multiscale modeling approach, integrating mesoscopic simulations (ab initio quantum, statistical mechanics, kinetic Monte Carlo) with macroscopic simulations (reactor modeling and computational fluid dynamics). The framework links different time and length scales and can incorporate machine learning or regression methods to optimize operating conditions |"
     },
     "vqa": {
         "a": [

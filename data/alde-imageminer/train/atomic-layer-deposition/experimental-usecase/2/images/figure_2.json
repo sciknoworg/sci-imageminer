@@ -7,7 +7,7 @@
         "a": "The chart shows the evolution of film thickness as a function of the total number of ALD reaction cycles. The relationship is strongly linear, with thickness increasing from ~35 nm at 1000 cycles to ~105 nm at 3000 cycles. The linear fit and narrow error bars suggest a stable, fully saturated ALD process in which the growth per cycle (GPC) remains constant throughout the experiment."
     },
     "data_extraction": {
-        "a": "| Number of reaction cycles | Film thickness (nm) |\n|---------------------------|----------------------|\n| 1000                      | ~35                  |\n| 1500                      | ~50                  |\n| 2000                      | ~70                  |\n| 3000                      | ~105                 |"
+      "a": "| Number of reaction cycles | Film thickness (nm) |\n| --- | --- |\n| 1000 | ~35 |\n| 1500 | ~50 |\n| 2000 | ~70 |\n| 3000 | ~105 |"
     },
     "vqa": {
         "a": [

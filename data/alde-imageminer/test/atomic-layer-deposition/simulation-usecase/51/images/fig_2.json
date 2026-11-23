@@ -9,8 +9,8 @@
         "b": "Optimized structures for N\u2082 dissociative chemisorption on the Ti-terminated TiN (111) surface, showing adsorption, N\u2261N bond dissociation, and N atoms occupying the same three-fold hollow Ti sites. The figure highlights the high reactivity of the Ti-terminated (111) surface compared to TiN (001)."
     },
     "data_extraction": {
-        "a": "|Description|\n|-----------|\n|Optimized initial state (IS), transition state (TS), and final state (FS) structures showing H\u2013H bond dissociation and adsorption of H atoms at the three-fold hollow Ti site on the Ti-terminated TiN (111) surface.|",
-        "b": "|Description|\n|-----------|\n|Optimized initial state (IS), transition state (TS), and final state (FS) structures illustrating N\u2013N bond dissociation and adsorption of N atoms at the three-fold hollow Ti site on the Ti-terminated TiN (111) surface.|"
+      "a": "| Description |\n| --- |\n| Optimized initial state (IS), transition state (TS), and final state (FS) structures showing H\u2013H bond dissociation and adsorption of H atoms at the three-fold hollow Ti site on the Ti-terminated TiN (111) surface. |",
+      "b": "| Description |\n| --- |\n| Optimized initial state (IS), transition state (TS), and final state (FS) structures illustrating N\u2013N bond dissociation and adsorption of N atoms at the three-fold hollow Ti site on the Ti-terminated TiN (111) surface. |"
     },
     "vqa": {
         "b": [

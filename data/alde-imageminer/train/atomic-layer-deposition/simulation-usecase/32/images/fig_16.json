@@ -7,7 +7,7 @@
         "a": "The line chart plot the maximum reactant mole fraction as a function of time for TMA and water."
     },
     "data_extraction": {
-        "a": "| Time (s) | Water Mole Fraction | TMA Mole Fraction |\n|----------|----------------------|--------------------|\n| 0.0      | 1.00                | 1.00              |\n| 0.1      | 0.70                | 0.30              |\n| 0.2      | 0.40                | 0.20              |\n| 0.3      | 0.25                | 0.15              |\n| 0.5      | 0.10                | 0.05              |\n| 1.0      | 0.02                | 0.02              |\n| 2.0      | 0.00                | 0.01              |\n| 5.0      | 0.00                | 0.01             |"
+      "a": "| Time (s) | Water Mole Fraction | TMA Mole Fraction |\n| --- | --- | --- |\n| 0.0 | 1.00 | 1.00 |\n| 0.1 | 0.70 | 0.30 |\n| 0.2 | 0.40 | 0.20 |\n| 0.3 | 0.25 | 0.15 |\n| 0.5 | 0.10 | 0.05 |\n| 1.0 | 0.02 | 0.02 |\n| 2.0 | 0.00 | 0.01 |\n| 5.0 | 0.00 | 0.01 |"
     },
     "vqa": {
         "a": [

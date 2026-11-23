@@ -9,8 +9,8 @@
         "b": "The figure shows the subsequent fluorination of Al2O3 surface."
     },
     "data_extraction": {
-        "a": "| Description                | Reactants/Conditions       | Products/Surface State            |\n|---------------------------|----------------------------------|---------------------------------------|\n|Removal step: Ligand Exchange | Surface: Al\u2082O\u2083 with Al\u2013F species; Sn precursor (O\u2013Sn\u2013O ligand) | Sn species bonded to surface; Al\u2013F partially removed |\n| Reaction                  | O\u2013Sn\u2013O ligand exchanges with Al\u2013F groups | Formation of O\u2013SnF species on surface |",
-        "b": "| Description                | Reactants/Conditions       | Products/Surface State            |\n|---------------------------|----------------------------------|---------------------------------------|\n| Modification Step: Fluorination | Surface: Al\u2082O\u2083 with Sn species; HF introduced | Surface becomes fluorinated (Al\u2013F groups restored); H\u2082O byproduct |\n| Reaction                  | HF reacts with Sn species | Sn removed; Al\u2013F coverage increased |"
+      "a": "| Description | Reactants/Conditions | Products/Surface State |\n| --- | --- | --- |\n| Removal step: Ligand Exchange | Surface: Al\u2082O\u2083 with Al\u2013F species; Sn precursor (O\u2013Sn\u2013O ligand) | Sn species bonded to surface; Al\u2013F partially removed |\n| Reaction | O\u2013Sn\u2013O ligand exchanges with Al\u2013F groups | Formation of O\u2013SnF species on surface |",
+      "b": "| Description | Reactants/Conditions | Products/Surface State |\n| --- | --- | --- |\n| Modification Step: Fluorination | Surface: Al\u2082O\u2083 with Sn species; HF introduced | Surface becomes fluorinated (Al\u2013F groups restored); H\u2082O byproduct |\n| Reaction | HF reacts with Sn species | Sn removed; Al\u2013F coverage increased |"
     },
     "vqa": {
         "a": [

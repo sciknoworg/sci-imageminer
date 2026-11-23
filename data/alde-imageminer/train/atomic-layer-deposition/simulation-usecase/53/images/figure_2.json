@@ -7,7 +7,7 @@
         "a": "The chart shows the per cycle deposition rate of SiO2 and Si3N4 as a function of exposure time in Torr\u00b7s."
     },
     "data_extraction": {
-        "a": "| Exposure (Torr\u00b7s) | Per cycle Dep. Rate (\u00c5) SiO\u2082 | Per cycle Dep. Rate (\u00c5) Si\u2083N\u2084 |\n|--------------------|-------------------------------|---------------------------------|\n| 0.02              | 0.4                           | -                               |\n| 0.05              | 0.8                           | -                               |\n| 0.10              | 1.0                           | -                               |\n| 1.0               | -                             | 0.5                             |\n| 3.0               | -                             | 0.9                             |\n| 10.0              | -                             | 1.1                             |"
+      "a": "| Exposure (Torr\u00b7s) | Per cycle Dep. Rate (\u00c5) SiO\u2082 | Per cycle Dep. Rate (\u00c5) Si\u2083N\u2084 |\n| --- | --- | --- |\n| 0.02 | 0.4 | - |\n| 0.05 | 0.8 | - |\n| 0.10 | 1.0 | - |\n| 1.0 | - | 0.5 |\n| 3.0 | - | 0.9 |\n| 10.0 | - | 1.1 |"
     },
     "vqa": {
         "a": [

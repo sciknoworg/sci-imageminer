@@ -9,8 +9,8 @@
         "b": "XPS spectra of the In 3d region comparing activated (black) and non-activated (red) areas. The activated area shows strong In 3d5/2 (approximately 444.5 eV) and In 3d3/2 (approximately 452 eV) peaks, while the non-activated area shows negligible indium signal, confirming excellent selectivity."
     },
     "data_extraction": {
-        "a": "",
-        "b": "| Binding energy (eV) | activated area (10^5 counts/s) | non-activated area (10^5 counts/s) |\n|---|---|---|\n| 439 | 0.05 | 0.05 |\n| 441 | 0.10 | 0.05 |\n| 442 | 0.15 | 0.05 |\n| 443 | 0.50 | 0.05 |\n| 444 | 1.80 | 0.05 |\n| 445 | 2.90 | 0.05 |\n| 446 | 1.60 | 0.05 |\n| 447 | 0.50 | 0.05 |\n| 448 | 0.20 | 0.05 |\n| 449 | 0.15 | 0.05 |\n| 450 | 0.30 | 0.05 |\n| 451 | 1.00 | 0.05 |\n| 452 | 1.90 | 0.05 |\n| 452.5 | 2.10 | 0.05 |\n| 453 | 1.80 | 0.05 |\n| 454 | 0.70 | 0.05 |\n| 455 | 0.25 | 0.05 |\n| 457 | 0.10 | 0.05 |\n| 459 | 0.10 | 0.05 |"
+      "a": "",
+      "b": "| Binding energy (eV) | activated area (10^5 counts/s) | non-activated area (10^5 counts/s) |\n| --- | --- | --- |\n| 439 | 0.05 | 0.05 |\n| 441 | 0.10 | 0.05 |\n| 442 | 0.15 | 0.05 |\n| 443 | 0.50 | 0.05 |\n| 444 | 1.80 | 0.05 |\n| 445 | 2.90 | 0.05 |\n| 446 | 1.60 | 0.05 |\n| 447 | 0.50 | 0.05 |\n| 448 | 0.20 | 0.05 |\n| 449 | 0.15 | 0.05 |\n| 450 | 0.30 | 0.05 |\n| 451 | 1.00 | 0.05 |\n| 452 | 1.90 | 0.05 |\n| 452.5 | 2.10 | 0.05 |\n| 453 | 1.80 | 0.05 |\n| 454 | 0.70 | 0.05 |\n| 455 | 0.25 | 0.05 |\n| 457 | 0.10 | 0.05 |\n| 459 | 0.10 | 0.05 |"
     },
     "vqa": {
         "b": [

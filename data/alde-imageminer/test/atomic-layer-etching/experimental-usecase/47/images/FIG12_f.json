@@ -7,7 +7,7 @@
         "a": "XPS spectra chart displaying Mo 3d binding energy peaks after 4th cycle oxidation."
     },
     "data_extraction": {
-        "a": "| Oxidation State | Peak Assignment | Binding Energy (eV) |\n|-----------------|-----------------|-----------------------|\n| Mo\u2070            | Mo 3d          | ~228                |\n| Mo\u00b3\u207a           | Mo 3d          | ~230                |\n| Mo\u2074\u207a           | Mo 3d          | ~231                |\n| Mo\u2075\u207a           | Mo 3d          | ~232                |\n| Mo\u2076\u207a           | Mo 3d          | ~234                |\n| Additional Mo\u2076\u207a component | -        | ~236                |"
+      "a": "| Oxidation State | Peak Assignment | Binding Energy (eV) |\n| --- | --- | --- |\n| Mo\u2070 | Mo 3d | ~228 |\n| Mo\u00b3\u207a | Mo 3d | ~230 |\n| Mo\u2074\u207a | Mo 3d | ~231 |\n| Mo\u2075\u207a | Mo 3d | ~232 |\n| Mo\u2076\u207a | Mo 3d | ~234 |\n| Additional Mo\u2076\u207a component | - | ~236 |"
     },
     "vqa": {
         "a": [

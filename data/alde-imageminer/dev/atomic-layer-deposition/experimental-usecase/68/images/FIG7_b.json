@@ -7,7 +7,7 @@
         "a": "The figure compares the optical absorption coefficients of NiO films deposited using three different precursors. All films show strong absorption in the UV region followed by a gradual decrease toward the visible and near-infrared. Across the full wavelength range, NiO_Alanis exhibits the highest absorption, NiO_MeCp shows intermediate behavior, and NiO_Bu-MeAMD displays the weakest absorption. The systematic separation between the curves indicates that precursor chemistry influences film density, defect concentration, or electronic structure, which in turn affects optical absorption."
     },
     "data_extraction": {
-        "a": "| Wavelength (nm) | NiO_Alanis (cm\u207b\u00b9) | NiO_MeCp (cm\u207b\u00b9) | NiO_Bu-MeAMD (cm\u207b\u00b9) |\n|---|---|---|---|\n| 300 | ~3.5\u00d710\u2075 | ~3.0\u00d710\u2075 | ~1.5\u00d710\u2075 |\n| 350 | ~1.2\u00d710\u2075 | ~8\u00d710\u2074 |  0  |\n| 400 | ~1.1\u00d710\u2075 | ~7\u00d710\u2074 |  0  |\n| 500 | ~1.0\u00d710\u2075 | ~6\u00d710\u2074 |   0   |\n| 700 | ~8\u00d710\u2074  | ~5\u00d710\u2074 |   0    |\n| 1000| ~6\u00d710\u2074  | ~4\u00d710\u2074 |  0    |"
+      "a": "| Wavelength (nm) | NiO_Alanis (cm-\u00b9) | NiO_MeCp (cm-\u00b9) | NiO_Bu-MeAMD (cm-\u00b9) |\n| --- | --- | --- | --- |\n| 300 | ~3.5e+5 | ~3.0e+5 | ~1.5e+5 |\n| 350 | ~1.2e+5 | ~8e+4 | 0 |\n| 400 | ~1.1e+5 | ~7e+4 | 0 |\n| 500 | ~1.0e+5 | ~6e+4 | 0 |\n| 700 | ~8e+4 | ~5e+4 | 0 |\n| 1000 | ~6e+4 | ~4e+4 | 0 |"
     },
     "vqa": {
         "a": [

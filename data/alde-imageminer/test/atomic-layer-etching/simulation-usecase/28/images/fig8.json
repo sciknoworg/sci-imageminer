@@ -9,8 +9,8 @@
         "b": "Panel (b) shows the 5th HF exposure, displaying significantly sharper and more intense peaks with the same fragment pattern, indicating that steady-state etching has been reached with cleaner, more reproducible release of BF\u2083 and BF(OH)\u2082 as the primary volatile boron-containing products."
     },
     "data_extraction": {
-        "a": "| Ion Species | Approximate m/z | 1st Exposure (mV) |\n|-------------|-----------------|-------------------|\n| BF(OH)+     | 47              |  ~140             |\n| BF2 +       | 49              |  ~190             |\n| BF2(OH)+    | 66              |  ~45              |\n| BF2 +       | 68              |  ~10              |",
-        "b": "| Ion Species | Approximate m/z | 5th Exposure (mV) |\n|-------------|-----------------|-------------------|\n| BF(OH)+     | 47              |  ~90             |\n| BF2 +       | 49              |  ~390             |\n| BF2(OH)+    | 66              |  ~20              |\n| BF2 +       | 68              |  ~15              |"
+      "a": "| Ion Species | Approximate m/z | 1st Exposure (mV) |\n| --- | --- | --- |\n| BF(OH)+ | 47 | ~140 |\n| BF2 + | 49 | ~190 |\n| BF2(OH)+ | 66 | ~45 |\n| BF2 + | 68 | ~10 |",
+      "b": "| Ion Species | Approximate m/z | 5th Exposure (mV) |\n| --- | --- | --- |\n| BF(OH)+ | 47 | ~90 |\n| BF2 + | 49 | ~390 |\n| BF2(OH)+ | 66 | ~20 |\n| BF2 + | 68 | ~15 |"
     },
     "vqa": {
         "a": [

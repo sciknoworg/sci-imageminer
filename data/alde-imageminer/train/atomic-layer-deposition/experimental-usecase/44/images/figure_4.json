@@ -7,7 +7,7 @@
         "a": "The chart is an XRD pattern plotting diffracted intensity (arbitrary units) versus 2\u03b8, showing the characteristic reflections of  PbSe ((200), (400), (220))  and PbTe ( (200), (400)) and the substrate Si peaks."
     },
     "data_extraction": {
-        "a": "| Measurement | Angle (2\u03b8) | Intensity in 10^3 (arb.u) | hkl | Assignment |\n|---|---|---|---|---|\n|PbTe film for 2000 cycles |27.55 |15.3|200 | PbTe |\n|PbTe film for 2000 cycles |32.89|1.7|-|Si|\n|PbTe film for 2000 cycles |39.47|1.7|400|PbTe|\n|PbTe film for 2000 cycles |56.85|2.33|220|PbTe|\n|PbSe film for 2000 cycles|29.15|87.9|200| PbSe|\n|PbSe film for 2000 cycles|32.95|1.39|-|Si|\n|PbSe film for 2000 cycles|60.29|7.92|400|PbSe|"
+      "a": "| Measurement | Angle (2\u03b8) | Intensity in 10^3 (arb.u) | hkl | Assignment |\n| --- | --- | --- | --- | --- |\n| PbTe film for 2000 cycles | 27.55 | 15.3 | 200 | PbTe |\n| PbTe film for 2000 cycles | 32.89 | 1.7 | - | Si |\n| PbTe film for 2000 cycles | 39.47 | 1.7 | 400 | PbTe |\n| PbTe film for 2000 cycles | 56.85 | 2.33 | 220 | PbTe |\n| PbSe film for 2000 cycles | 29.15 | 87.9 | 200 | PbSe |\n| PbSe film for 2000 cycles | 32.95 | 1.39 | - | Si |\n| PbSe film for 2000 cycles | 60.29 | 7.92 | 400 | PbSe |"
     },
     "vqa": {
         "a": [

@@ -7,7 +7,7 @@
         "a": "Figure 2 illustrates the etch per cycle (EPC) of TiN films as a function of CCl\u2084 pulse time at 460 \u00b0C, comparing two etching processes: the NbF\u2085\u2013CCl\u2084 binary process and the CCl\u2084-only CVE process. The EPC increases with CCl\u2084 pulse time for both processes, with the binary process showing higher etch rates (up to ~0.8 \u00c5 at 3 s) compared to the CVE process (~0.5 \u00c5 at 3 s). No clear saturation of EPC is observed for either process, and no etching occurs when only NbF\u2085 is applied, consistent with computational predictions."
     },
     "data_extraction": {
-        "a": "| CCl\u2084 pulse time [s] | Etch per cycle NbF\u2085\u2013CCl\u2084 [\u00c5] | Etch per cycle CCl\u2084-only CVE [\u00c5] |\n|---|---|---|\n| 0.0 | 0.0 | 0.0 |\n| 0.5 | 0.3 | 0.3 |\n| 1.0 | 0.4 | 0.4 |\n| 3.0 | 0.8 | 0.5 |"
+      "a": "| CCl\u2084 pulse time [s] | Etch per cycle NbF\u2085\u2013CCl\u2084 [\u00c5] | Etch per cycle CCl\u2084-only CVE [\u00c5] |\n| --- | --- | --- |\n| 0.0 | 0.0 | 0.0 |\n| 0.5 | 0.3 | 0.3 |\n| 1.0 | 0.4 | 0.4 |\n| 3.0 | 0.8 | 0.5 |"
     },
     "vqa": {
         "a": [

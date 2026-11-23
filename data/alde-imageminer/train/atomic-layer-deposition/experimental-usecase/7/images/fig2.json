@@ -7,7 +7,7 @@
         "a": "Scatter plot comparing mass increments \u0394m\u2080 and \u0394m\u2081 vs. growth temperature for films grown on buffer layers deposited at 100 \u00b0C (circles) and 300 \u00b0C (squares). It shows that the 300 \u00b0C buffer layer generally results in higher or increasing \u0394m\u2081 values, particularly above 200 \u00b0C."
     },
     "data_extraction": {
-        "a": "| Growth Temp (\u00b0C) | Buffer 100\u00b0C: \u0394m0 (\u25cf) | Buffer 100\u00b0C: \u0394m1 (\u25cb) | Buffer 300\u00b0C: \u0394m0 (\u25a0) | Buffer 300\u00b0C: \u0394m1 (\u25a1) |\n|---|---|---|---|---|\n| 100 | ~50 | ~95 | ~45 | ~92 |\n| 150 | ~35 | ~75 | ~40 | ~85 |\n| 200 | ~30 | ~68 | ~38 | ~92 |\n| 250 | ~25 | ~60 | ~38 | ~105 |\n| 350 | ~28 | ~62 | ~40 | ~100 |"
+      "a": "| Growth Temp (\u00b0C) | Buffer 100\u00b0C: \u0394m0 (\u25cf) | Buffer 100\u00b0C: \u0394m1 (\u25cb) | Buffer 300\u00b0C: \u0394m0 (\u25a0) | Buffer 300\u00b0C: \u0394m1 (\u25a1) |\n| --- | --- | --- | --- | --- |\n| 100 | ~50 | ~95 | ~45 | ~92 |\n| 150 | ~35 | ~75 | ~40 | ~85 |\n| 200 | ~30 | ~68 | ~38 | ~92 |\n| 250 | ~25 | ~60 | ~38 | ~105 |\n| 350 | ~28 | ~62 | ~40 | ~100 |"
     },
     "vqa": {
         "a": [

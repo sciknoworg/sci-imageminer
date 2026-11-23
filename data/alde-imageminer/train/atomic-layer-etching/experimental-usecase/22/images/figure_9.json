@@ -7,7 +7,7 @@
         "a": "The bar chart compares the etch rates of materials in crystalline and amorphous phases. The etch rate for the amorphous phase is significantly higher (0.5 \u00c5/cycle) than that of the crystalline phase (0.2 \u00c5/cycle), indicating that amorphous materials are more susceptible to etching under the same process conditions"
     },
     "data_extraction": {
-        "a": "| Phase | Etch Rate (\u00c5/cyc) |\n|---|---|\n| Crystalline | 0.2 |\n| Amorphous | 0.5 |"
+      "a": "| Phase | Etch Rate (\u00c5/cyc) |\n| --- | --- |\n| Crystalline | 0.2 |\n| Amorphous | 0.5 |"
     },
     "vqa": {
         "a": [

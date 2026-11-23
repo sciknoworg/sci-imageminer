@@ -9,8 +9,8 @@
         "b": "The figure depicts a equivalent circuits used to fit data with resistors (R_s, R_1) and capacitors (CPE_1, CPE_war)."
     },
     "data_extraction": {
-        "a": "| Condition | Z_Re (k\u03a9) Range | Z_Im (k\u03a9) Peak |\n|-----------|------------------|---------------|\n| Plasma    | 0 \u2013 15          | ~5            |\n| Thermal   | 0 \u2013 30          | ~15           |",
-        "b": "| Model | Description                                      |\n|-------|--------------------------------------------------|\n| I     | Rs \u2013 (R1 II CPE1) \u2013 CPEwar                      |\n| II    | Rs \u2013 (R1 II CPE1) \u2013 (R2 II CPE2) \u2013 CPEwar       |"
+      "a": "| Condition | Z_Re (k\u03a9) Range | Z_Im (k\u03a9) Peak |\n| --- | --- | --- |\n| Plasma | 0 \u2013 15 | ~5 |\n| Thermal | 0 \u2013 30 | ~15 |",
+      "b": "| Model | Description |\n| --- | --- |\n| I | Rs \u2013 (R1 II CPE1) \u2013 CPEwar |\n| II | Rs \u2013 (R1 II CPE1) \u2013 (R2 II CPE2) \u2013 CPEwar |"
     },
     "vqa": {
         "a": [

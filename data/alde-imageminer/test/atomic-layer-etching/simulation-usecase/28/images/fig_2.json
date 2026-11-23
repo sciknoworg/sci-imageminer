@@ -7,7 +7,7 @@
         "a": "The figure shows infrared absorbance spectra of B2O3 films grown by ALD using BCl3 and H2O at 40 \u00b0C after 1, 5, 10, and 15 cycles. The progressive increase in the B\u2013O stretching and B\u2013O\u2013B bending bands reflects steady film growth with increasing number of ALD cycles."
     },
     "data_extraction": {
-        "a": "| Wave number |      Features       | 1 Cycle | 5 Cycles | 10 Cycles | 15 Cycles|\n|-------------|---------------------|---------|---------|-----------|----------|\n| ~1450       | B-O stretch (Peak 1)|\t0.15  |  0.43\t|  0.60    |   0.71   |\n| ~1350       | Valley between peaks|\t0.08  |  0.22\t|  0.41    |   0.54   |\n| ~1260       | B-O stretch (Peak 2)|\t0.10  |  0.30\t|  0.50    |   0.63   |\n| ~1100       | Minor shoulder\t    |   0.05  |  0.10\t|  0.15    |   0.18   |\n| ~920        | Baseline region\t    |   0.02  |  0.04\t|  0.06    |   0.08   |\n| ~720        | B-O-B bend (Sharp)  |\t0.04  |  0.13\t|  0.22    |   0.30   |"
+      "a": "| Wave number | Features | 1 Cycle | 5 Cycles | 10 Cycles | 15 Cycles |\n| --- | --- | --- | --- | --- | --- |\n| ~1450 | B-O stretch (Peak 1) | 0.15 | 0.43 | 0.60 | 0.71 |\n| ~1350 | Valley between peaks | 0.08 | 0.22 | 0.41 | 0.54 |\n| ~1260 | B-O stretch (Peak 2) | 0.10 | 0.30 | 0.50 | 0.63 |\n| ~1100 | Minor shoulder | 0.05 | 0.10 | 0.15 | 0.18 |\n| ~920 | Baseline region | 0.02 | 0.04 | 0.06 | 0.08 |\n| ~720 | B-O-B bend (Sharp) | 0.04 | 0.13 | 0.22 | 0.30 |"
     },
     "vqa": {
         "a": [

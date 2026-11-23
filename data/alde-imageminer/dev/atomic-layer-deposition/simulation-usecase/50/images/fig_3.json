@@ -7,7 +7,7 @@
         "a": "The figure shows the DFT-D3BJ reaction energy profile for DCS decomposition, tracking the relative energies of intermediates and the transition state along the reaction pathway. The overall trend is downhill, with a small energy barrier at the transition state and a significantly stabilized final state."
     },
     "data_extraction": {
-        "a": "| Reaction state | Relative energy (eV) |\n|----------------|----------------------|\n| (a) | 0.0 |\n| (b) | -0.6 |\n| TS  | -0.3 |\n| (c) | -0.8 |\n| (d) | -1.2 |\n| (e) | -1.3 |"
+      "a": "| Reaction state | Relative energy (eV) |\n| --- | --- |\n| (a) | 0.0 |\n| (b) | -0.6 |\n| TS | -0.3 |\n| (c) | -0.8 |\n| (d) | -1.2 |\n| (e) | -1.3 |"
     },
     "vqa": {
         "a": [

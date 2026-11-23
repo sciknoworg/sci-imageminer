@@ -7,7 +7,7 @@
         "a": "The figure presents fluorine (F) and oxygen (O) atomic concentrations measured in WN\u2093C\u1d67 films across deposition temperatures from ~225\u00b0C to 400\u00b0C. Fluorine remains consistently low (<2 at.%), reaching its minimum near 300\u2013350\u00b0C, while oxygen remains higher (3\u20135 at.%), largely from post-deposition air exposure. The trends highlight the temperature region where impurity control is optimal."
     },
     "data_extraction": {
-        "a": "| Deposition Temperature (\u00b0C)|O Content (at-%)|F Content (at-%)|\n|----------------------------|----------------|----------------|\n|~225|~4.8|~1.2|\n|~250|~4.5|~1.0|\n|~275|~5.2|~0.2|\n|~300|~4.0|~0.0|\n|~325|~3.5|~0.8|\n|~350|~2.5\u20133.0|~0.2|\n|~375|~3.2|~0.7|\n|~400|~3.8|~1.0|"
+      "a": "| Deposition Temperature (\u00b0C) | O Content (at-%) | F Content (at-%) |\n| --- | --- | --- |\n| ~225 | ~4.8 | ~1.2 |\n| ~250 | ~4.5 | ~1.0 |\n| ~275 | ~5.2 | ~0.2 |\n| ~300 | ~4.0 | ~0.0 |\n| ~325 | ~3.5 | ~0.8 |\n| ~350 | ~2.5\u20133.0 | ~0.2 |\n| ~375 | ~3.2 | ~0.7 |\n| ~400 | ~3.8 | ~1.0 |"
     },
     "vqa": {
         "a": [

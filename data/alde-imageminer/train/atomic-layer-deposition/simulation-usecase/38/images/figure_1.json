@@ -7,7 +7,7 @@
         "a": "A schematic of a sheet-to-sheet spatial atomic layer deposition reactor, showing separate reaction zones for different reagents and a conveyor belt transporting plate-shaped substrates to enable continuous, high-throughput deposition without lengthy purging steps."
     },
     "data_extraction": {
-        "a": "|Description|\n|-----------|\n|Sheet-to-sheet type reactor design for a two-step, spatial atomic layer deposition process. Reagents are continuously introduced in separate reaction zones, and a plate shaped substrate is transported via a conveyor belt through each zone|"
+      "a": "| Description |\n| --- |\n| Sheet-to-sheet type reactor design for a two-step, spatial atomic layer deposition process. Reagents are continuously introduced in separate reaction zones, and a plate shaped substrate is transported via a conveyor belt through each zone |"
     },
     "vqa": {
         "a": [

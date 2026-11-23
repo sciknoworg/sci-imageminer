@@ -7,7 +7,7 @@
         "a": "The chart shows the change in mass over time. A linear decrease in mass change can be seen over time at 200 \u00b0C on Al2O3. The process was performed with an exposure time of 1 s for Sn(acac)2 and 1 s of HF, with a 30 s purge between each step."
     },
     "data_extraction": {
-        "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n|---|---|\n| 0 | 80 |\n| 2000 | -200 |\n| 4000 | -450 |\n| 6000 | -700 |"
+      "a": "| Time (s) | Mass Change (ng/cm\u00b2) |\n| --- | --- |\n| 0 | 80 |\n| 2000 | -200 |\n| 4000 | -450 |\n| 6000 | -700 |"
     },
     "vqa": {
         "a": [

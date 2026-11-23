@@ -9,8 +9,8 @@
         "b": "Depth-profiling XPS data for the ALE-treated TiN film. The surface shows significantly lower oxygen (~8%) compared to the original film, while fluorine is slightly elevated (~6.5%). Bulk composition remains essentially unchanged from the original film, confirming that ALE affects only the top few nanometers."
     },
     "data_extraction": {
-        "a": "| Sputtering time, s | Estimated depth, nm | Ti (%) | N (%) | F (%) | O (%) | C (%) |\n|---|---|---|---|---|---|---|\n| 0 | 0 | 32 | 38 | 3 | 15 | 12 |\n| 60 | 2 | 46 | 45 | 3 | 5 | 2 |\n| 120 | 3 | 48 | 43 | 2 | 6 | 2 |\n| 180 | 5 | 48 | 43 | 2 | 6 | 2 |\n| 240 | 7 | 48 | 42 | 2 | 6 | 2 |\n| 300 | 8 | 50 | 42 | 2 | 6 | 2 |\n| 360 | 10 | 48 | 41 | 2 | 6 | 2 |",
-        "b": "| Sputtering time, s | Estimated depth, nm | Ti (%) | N (%) | F (%) | O (%) | C (%) |\n|---|---|---|---|---|---|---|\n| 0 | 0 | 34 | 41 | 6 | 7 | 12 |\n| 60 | 2 | 47 | 46 | 2 | 5 | 2 |\n| 120 | 3 | 49 | 44 | 2 | 5 | 2 |\n| 180 | 5 | 49 | 43 | 2 | 5 | 2 |\n| 240 | 7 | 50 | 43 | 1 | 6 | 2 |\n| 300 | 8 | 50 | 43 | 1 | 6 | 2 |\n| 360 | 10 | 49 | 42 | 1 | 6 | 2 |"
+      "a": "| Sputtering time, s | Estimated depth, nm | Ti (%) | N (%) | F (%) | O (%) | C (%) |\n| --- | --- | --- | --- | --- | --- | --- |\n| 0 | 0 | 32 | 38 | 3 | 15 | 12 |\n| 60 | 2 | 46 | 45 | 3 | 5 | 2 |\n| 120 | 3 | 48 | 43 | 2 | 6 | 2 |\n| 180 | 5 | 48 | 43 | 2 | 6 | 2 |\n| 240 | 7 | 48 | 42 | 2 | 6 | 2 |\n| 300 | 8 | 50 | 42 | 2 | 6 | 2 |\n| 360 | 10 | 48 | 41 | 2 | 6 | 2 |",
+      "b": "| Sputtering time, s | Estimated depth, nm | Ti (%) | N (%) | F (%) | O (%) | C (%) |\n| --- | --- | --- | --- | --- | --- | --- |\n| 0 | 0 | 34 | 41 | 6 | 7 | 12 |\n| 60 | 2 | 47 | 46 | 2 | 5 | 2 |\n| 120 | 3 | 49 | 44 | 2 | 5 | 2 |\n| 180 | 5 | 49 | 43 | 2 | 5 | 2 |\n| 240 | 7 | 50 | 43 | 1 | 6 | 2 |\n| 300 | 8 | 50 | 43 | 1 | 6 | 2 |\n| 360 | 10 | 49 | 42 | 1 | 6 | 2 |"
     },
     "vqa": {
         "a": [

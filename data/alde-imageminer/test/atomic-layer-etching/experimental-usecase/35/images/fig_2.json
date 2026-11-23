@@ -21,14 +21,14 @@
         "h": "In the ZrO\u2082 + TiCl\u2084 system, multiple solid intermediates such as ZrOCl\u2082(s) and Zr\u2082O\u2083Cl\u2082(s) appear at intermediate temperatures before stabilizing as ZrO\u2082(s), indicating competitive chlorination and oxygen exchange reactions"
     },
     "data_extraction": {
-        "a": "| Temperature range | TiF4(s) | TiF4(g) | WO3(s) | WF6(g) | WF2O2(g) |\n|-------------------|---------|---------|--------|--------|----------|\n| Low T             | High    | 0       | High   | Medium | 0        |\n| Mid T             | \u2193       | \u2191       | \u2193      | \u2193      | \u2191        |\n| High T            | 0       | High    | 0      | 0      | High     |",
-        "b": "| Temperature range | TiCl4(g) | B2O3(s) |\n|-------------------|----------|---------|\n| All T             | High     | Medium  |",
-        "c": "| Temperature range | SO2(g) | TiCl4(g) |\n|-------------------|--------|----------|\n| All T             | High   | Medium   |",
-        "d": "| Temperature range | TiCl4(g) | TiO2(s) |\n|-------------------|----------|---------|\n| All T             | High     | High    |",
-        "e": "| Temperature range | ZrF4(s) | WO3(s) | WF6(g) | WF2O2(g) |\n|-------------------|---------|--------|--------|----------|\n| Low T             | High    | High   | Medium | 0        |\n| Mid T             | \u2193       | \u2193      | \u2193      | \u2191        |\n| High T            | 0       | 0      | 0      | High     |",
-        "f": "| Temperature range | ZrCl4(s) | ZrCl4(g) | B2O3(s) |\n|-------------------|----------|----------|---------|\n| Low T             | High     | 0        | Medium  |\n| Mid T             | \u2193        | \u2191        | Medium  |\n| High T            | 0        | High     | Medium  |",
-        "g": "| Temperature range | SOCl2(g) | SO2(g) | Zr(SO3)2(s) | ZrCl4(s) | ZrCl4(g) |\n|-------------------|----------|--------|-------------|----------|----------|\n| Low T             | High     | 0      | Medium      | Medium   | 0        |\n| Mid T             | \u2193        | \u2191      | \u2193           | \u2193        | \u2191        |\n| High T            | 0        | High   | 0           | 0        | Medium   |",
-        "h": "| Temperature range | ZrOCl2(s) | TiCl4(g) | TiO2(s) | ZrO2(s) | Zr2O3Cl2(s) |\n|-------------------|-----------|----------|---------|---------|-------------|\n| Low T             | High      | Medium   | Low     | Low     | Low         |\n| Mid T             | \u2193         | \u2191        | Peak    | \u2191       | Peak        |\n| High T            | 0         | High     | 0       | High    | 0           |"
+      "a": "| Temperature range | TiF4(s) | TiF4(g) | WO3(s) | WF6(g) | WF2O2(g) |\n| --- | --- | --- | --- | --- | --- |\n| Low T | High | 0 | High | Medium | 0 |\n| Mid T | \u2193 | \u2191 | \u2193 | \u2193 | \u2191 |\n| High T | 0 | High | 0 | 0 | High |",
+      "b": "| Temperature range | TiCl4(g) | B2O3(s) |\n| --- | --- | --- |\n| All T | High | Medium |",
+      "c": "| Temperature range | SO2(g) | TiCl4(g) |\n| --- | --- | --- |\n| All T | High | Medium |",
+      "d": "| Temperature range | TiCl4(g) | TiO2(s) |\n| --- | --- | --- |\n| All T | High | High |",
+      "e": "| Temperature range | ZrF4(s) | WO3(s) | WF6(g) | WF2O2(g) |\n| --- | --- | --- | --- | --- |\n| Low T | High | High | Medium | 0 |\n| Mid T | \u2193 | \u2193 | \u2193 | \u2191 |\n| High T | 0 | 0 | 0 | High |",
+      "f": "| Temperature range | ZrCl4(s) | ZrCl4(g) | B2O3(s) |\n| --- | --- | --- | --- |\n| Low T | High | 0 | Medium |\n| Mid T | \u2193 | \u2191 | Medium |\n| High T | 0 | High | Medium |",
+      "g": "| Temperature range | SOCl2(g) | SO2(g) | Zr(SO3)2(s) | ZrCl4(s) | ZrCl4(g) |\n| --- | --- | --- | --- | --- | --- |\n| Low T | High | 0 | Medium | Medium | 0 |\n| Mid T | \u2193 | \u2191 | \u2193 | \u2193 | \u2191 |\n| High T | 0 | High | 0 | 0 | Medium |",
+      "h": "| Temperature range | ZrOCl2(s) | TiCl4(g) | TiO2(s) | ZrO2(s) | Zr2O3Cl2(s) |\n| --- | --- | --- | --- | --- | --- |\n| Low T | High | Medium | Low | Low | Low |\n| Mid T | \u2193 | \u2191 | Peak | \u2191 | Peak |\n| High T | 0 | High | 0 | High | 0 |"
     },
     "vqa": {
         "d": [

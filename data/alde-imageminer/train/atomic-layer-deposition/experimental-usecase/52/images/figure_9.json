@@ -11,9 +11,9 @@
         "c": "Capacity versus cycle number comparing x = 2 and x = 4 films, showing higher capacity for x = 4 and fairly stable cycling behavior over the shown cycles, with areal capacity on the left axis and gravimetric capacity on the right axis."
     },
     "data_extraction": {
-        "a": "| Q, mAh/g | E (V) vs Li/Li\u207a (Charge) | E (V) vs Li/Li\u207a (Discharge) |\n|---|---|---|\n| 5 | 3.20 | 3.00 |\n| 10 | 3.55 | 3.20 |\n| 20 | 3.70 | 3.50 |\n| 40 | 3.85 | 3.70 |\n| 60 | 3.92 | 3.85 |\n| 80 | 4.00 | 3.92 |\n| 95 | 4.15 | 4.00 |",
-        "b": "| E (V) vs Li/Li\u207a | dQ/dE (mAh/Vg) Charge | dQ/dE (mAh/Vg) Discharge |\n|---|---|---|\n| 3.2 | 0 | 0 |\n| 3.4 | 0 | 0 |\n| 3.6 | 0.05 | -0.05 |\n| 3.8 | 0.10 | -0.10 |\n| 3.9 | 0.35 | -0.40 |\n| 3.95 | 0.80 | -0.75 |\n| 4.0 | 0.40 | -0.30 |\n| 4.05 | 0.20 | -0.15 |",
-        "c": "| (Dis)charge cycles | Capacity Co/Li (x)=4 (\u03bcAh \u03bcm\u207b\u00b9cm\u207b\u00b2) | Capacity Co/Li (x)=4 (mAh/g) | Capacity Co/Li (x)=2 (\u03bcAh \u03bcm\u207b\u00b9cm\u207b\u00b2) | Capacity Co/Li (x)=2 (mAh/g) |\n|---|---|---|---|---|\n| 1 | 26 | 95 | 11.5 | 42 |\n| 2 | 25.5 | 93 | 11.5 | 42 |\n| 3 | 25 | 92 | 11.5 | 42 |\n| 5 | 25 | 91 | 11 | 40 |\n| 7 | 24.5 | 90 | 11 | 40 |\n| 10 | 24.5 | 89 | 10.5 | 38 |\n| 12 | 24 | 88 | 10 | 37 |\n| 14 | 24 | 88 | 10 | 37 |"
+      "a": "| Q, mAh/g | E (V) vs Li/Li\u207a (Charge) | E (V) vs Li/Li\u207a (Discharge) |\n| --- | --- | --- |\n| 5 | 3.20 | 3.00 |\n| 10 | 3.55 | 3.20 |\n| 20 | 3.70 | 3.50 |\n| 40 | 3.85 | 3.70 |\n| 60 | 3.92 | 3.85 |\n| 80 | 4.00 | 3.92 |\n| 95 | 4.15 | 4.00 |",
+      "b": "| E (V) vs Li/Li\u207a | dQ/dE (mAh/Vg) Charge | dQ/dE (mAh/Vg) Discharge |\n| --- | --- | --- |\n| 3.2 | 0 | 0 |\n| 3.4 | 0 | 0 |\n| 3.6 | 0.05 | -0.05 |\n| 3.8 | 0.10 | -0.10 |\n| 3.9 | 0.35 | -0.40 |\n| 3.95 | 0.80 | -0.75 |\n| 4.0 | 0.40 | -0.30 |\n| 4.05 | 0.20 | -0.15 |",
+      "c": "| (Dis)charge cycles | Capacity Co/Li (x)=4 (\u03bcAh \u03bcm-\u00b9cm-\u00b2) | Capacity Co/Li (x)=4 (mAh/g) | Capacity Co/Li (x)=2 (\u03bcAh \u03bcm-\u00b9cm-\u00b2) | Capacity Co/Li (x)=2 (mAh/g) |\n| --- | --- | --- | --- | --- |\n| 1 | 26 | 95 | 11.5 | 42 |\n| 2 | 25.5 | 93 | 11.5 | 42 |\n| 3 | 25 | 92 | 11.5 | 42 |\n| 5 | 25 | 91 | 11 | 40 |\n| 7 | 24.5 | 90 | 11 | 40 |\n| 10 | 24.5 | 89 | 10.5 | 38 |\n| 12 | 24 | 88 | 10 | 37 |\n| 14 | 24 | 88 | 10 | 37 |"
     },
     "vqa": {
         "a": [

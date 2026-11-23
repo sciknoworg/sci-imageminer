@@ -7,7 +7,7 @@
         "a": "Figure 5 shows an X-ray photoelectron spectroscopy (XPS) survey scan of the SiO\u2082 surface after complete removal of the TiN film by the CCl\u2084-based CVE process at 460 \u00b0C. The surface is primarily composed of silicon and oxygen, with small amounts of carbon (~5.1 at%) and nitrogen (~1.2 at%). Titanium and chlorine are below the detection limit (<0.1 at%). The nitrogen and carbon signals likely arise from surface contamination."
     },
     "data_extraction": {
-        "a": "| Binding energy [eV] | Element | Relative intensity [a.u.] |\n|---|---|---|\n| 284.8 | C 1s | Detected |\n| 399.1 | N 1s | Detected |\n| 532.0 | O 1s | Detected |\n| 103.3 | Si 2p | Detected |"
+      "a": "| Binding energy [eV] | Element | Relative intensity [a.u.] |\n| --- | --- | --- |\n| 284.8 | C 1s | Detected |\n| 399.1 | N 1s | Detected |\n| 532.0 | O 1s | Detected |\n| 103.3 | Si 2p | Detected |"
     },
     "vqa": {
         "a": [

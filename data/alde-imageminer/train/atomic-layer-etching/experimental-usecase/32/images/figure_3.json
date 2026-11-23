@@ -9,8 +9,8 @@
         "b": "Multiple line chart showing InGaAs etch depth as a function of Cl species exposure time at acceleration voltages of 15 V and 10 V. Etching proceeds more rapidly at 15 V, while the 10 V condition shows a delayed onset and substantially lower etch depth over the same time range."
     },
     "data_extraction": {
-        "a": "| Acceleration Voltage (V) | Etch Depth (\u00c5) |\n|---|---|\n| 0 | 0 |\n| 5 | 0 |\n| 10 | 0 |\n| 15 | ~45 |\n| 20 | ~75 |\n| 30 | ~150 |",
-        "b": "| Exposure Time (min) | 15V Etch Depth (\u00c5) | 10V Etch Depth (\u00c5) | \n|---|---|---| \n| 0 | 0 | 0 | \n| 5 | 0 | 0 | \n| 10 | 0 | 0 | \n| 15 | ~5 | 0 | \n| 25 | ~20 | ~5 | \n| 35 | ~65 | ~15 |"
+      "a": "| Acceleration Voltage (V) | Etch Depth (\u00c5) |\n| --- | --- |\n| 0 | 0 |\n| 5 | 0 |\n| 10 | 0 |\n| 15 | ~45 |\n| 20 | ~75 |\n| 30 | ~150 |",
+      "b": "| Exposure Time (min) | 15V Etch Depth (\u00c5) | 10V Etch Depth (\u00c5) |\n| --- | --- | --- |\n| 0 | 0 | 0 |\n| 5 | 0 | 0 |\n| 10 | 0 | 0 |\n| 15 | ~5 | 0 |\n| 25 | ~20 | ~5 |\n| 35 | ~65 | ~15 |"
     },
     "vqa": {
         "b": [

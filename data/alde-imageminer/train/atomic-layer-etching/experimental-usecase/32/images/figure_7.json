@@ -7,7 +7,7 @@
         "a": "Multi-axis chart comparing surface composition (atomic %) and RMS roughness for Reference (Ref.), ALE, and RIE treated InGaAs. The RIE sample shows a measurable chlorine signal (7.8%) and the highest roughness on the right axis, while both Ref. and ALE show no detectable chlorine and lower roughness levels. The composition of In, Ga, and As remains broadly comparable between Ref. and ALE, indicating limited surface modification under ALE conditions."
     },
     "data_extraction": {
-        "a": "|    Metric     | Ref. | ALE  |  RIE |\n|---------------|------|------|-------|\n| In (Atomic %) | 29.4 | 29.5 | 38.0  |\n| Ga (Atomic %) | 20.6 | 21.8 | 18.4  |\n| As (Atomic %) | 6.6  | 5.3  | 2.4   |\n| Cl (Atomic %) | ~0   | ~0   | 7.8   |\n| C (Atomic %)  | 43.4 | 43.4 | ~33.4 |\n| Rq (nm)       | ~60  | ~68  | ~78   |"
+      "a": "| Metric | Ref. | ALE | RIE |\n| --- | --- | --- | --- |\n| In (Atomic %) | 29.4 | 29.5 | 38.0 |\n| Ga (Atomic %) | 20.6 | 21.8 | 18.4 |\n| As (Atomic %) | 6.6 | 5.3 | 2.4 |\n| Cl (Atomic %) | ~0 | ~0 | 7.8 |\n| C (Atomic %) | 43.4 | 43.4 | ~33.4 |\n| Rq (nm) | ~60 | ~68 | ~78 |"
     },
     "vqa": {
         "a": [

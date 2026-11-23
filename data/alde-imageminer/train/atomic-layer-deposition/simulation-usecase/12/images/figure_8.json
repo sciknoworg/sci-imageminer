@@ -7,7 +7,7 @@
         "a": "The line chart shows a stepwise increase in temperature over time, starting at 100 K and reaching a plateau at 300 K and 580 K."
     },
     "data_extraction": {
-        "a": "| Time (ps) | Temperature (K) |\n|---|---|\n| 0 | 100 |\n| 2 | 250 |\n| 4 | 300 |\n| 6 | 480 |\n| 8 | 580 |"
+      "a": "| Time (ps) | Temperature (K) |\n| --- | --- |\n| 0 | 100 |\n| 2 | 250 |\n| 4 | 300 |\n| 6 | 480 |\n| 8 | 580 |"
     },
     "vqa": {
         "a": [

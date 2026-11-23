@@ -7,7 +7,7 @@
         "a": "The plot shows growth per cycle as a function of precursor purge time. Growth varies slightly at very short purge times but rapidly stabilizes. Beyond approximately 2 s of purge, the growth per cycle remains constant at ~0.28 \u00c5 within experimental uncertainty. Increasing the purge time further does not affect growth, indicating complete removal of excess precursor and self-limiting ALD behavior."
     },
     "data_extraction": {
-        "a": "| Precursor purge (s) | Growth per cycle (\u00c5) | \n|--------------------------|----------------------------|\n| ~0.5 | ~0.27 |  \n| ~1.0 | ~0.29 |   \n| ~2.0 | ~0.28 | \n| ~3.0 | ~0.27 | \n| ~5.0 | ~0.28 | \n| ~14\u201315 | ~0.27 |"
+      "a": "| Precursor purge (s) | Growth per cycle (\u00c5) |\n| --- | --- |\n| ~0.5 | ~0.27 |\n| ~1.0 | ~0.29 |\n| ~2.0 | ~0.28 |\n| ~3.0 | ~0.27 |\n| ~5.0 | ~0.28 |\n| ~14\u201315 | ~0.27 |"
     },
     "vqa": {
         "a": [

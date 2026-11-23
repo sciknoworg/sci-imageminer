@@ -9,8 +9,8 @@
         "b": "Shows film thickness versus ALE cycles using TMA and HF at 300\u00b0C. Al\u2082O\u2083 and HfO\u2082 are etched, ZrO\u2082 shows slight etching, while SiO\u2082, Si\u2083N\u2084, and TiN are not etched, demonstrating different selectivity compared to Sn(acac)\u2082."
     },
     "data_extraction": {
-        "a": "| Number of Cycles | TiN (\u00c5) | SiO2 (\u00c5) | HfO2 (\u00c5) | Si3N4 (\u00c5) | ZrO2 (\u00c5) | Al2O3 (\u00c5) |\n|---|---|---|---|---|---|---|\n| 0 | 68 | 49 | 52 | 39 | 48 | 47 |\n| 50 | 70 | 48 | 52 | 40 | 47 | 35 |\n| 100 | 69 | 47 | 50 | 40 | 42 | 23 |\n| 200 | 69 | 47 | 45 | 40 | 28 | 0 |\n| 400 | 69 | 46 | 33 | 39 | 0 | - |",
-        "b": "| Number of Cycles | TiN (\u00c5) | SiO2 (\u00c5) | HfO2 (\u00c5) | Si3N4 (\u00c5) | ZrO2 (\u00c5) | Al2O3 (\u00c5) |\n|---|---|---|---|---|---|---|\n| 0 | 68 | 50 | 52 | 39 | 48 | 47 |\n| 50 | - | 49 | 51 | - | 52 | 34 |\n| 100 | - | 48 | 49 | - | 51 | 21 |\n| 200 | - | - | 44 | - | 52 | 0 |\n| 400 | 71 | 45 | 33 | 36 | 50 | 0 |"
+      "a": "| Number of Cycles | TiN (\u00c5) | SiO2 (\u00c5) | HfO2 (\u00c5) | Si3N4 (\u00c5) | ZrO2 (\u00c5) | Al2O3 (\u00c5) |\n| --- | --- | --- | --- | --- | --- | --- |\n| 0 | 68 | 49 | 52 | 39 | 48 | 47 |\n| 50 | 70 | 48 | 52 | 40 | 47 | 35 |\n| 100 | 69 | 47 | 50 | 40 | 42 | 23 |\n| 200 | 69 | 47 | 45 | 40 | 28 | 0 |\n| 400 | 69 | 46 | 33 | 39 | 0 | - |",
+      "b": "| Number of Cycles | TiN (\u00c5) | SiO2 (\u00c5) | HfO2 (\u00c5) | Si3N4 (\u00c5) | ZrO2 (\u00c5) | Al2O3 (\u00c5) |\n| --- | --- | --- | --- | --- | --- | --- |\n| 0 | 68 | 50 | 52 | 39 | 48 | 47 |\n| 50 | - | 49 | 51 | - | 52 | 34 |\n| 100 | - | 48 | 49 | - | 51 | 21 |\n| 200 | - | - | 44 | - | 52 | 0 |\n| 400 | 71 | 45 | 33 | 36 | 50 | 0 |"
     },
     "vqa": {
         "a": [

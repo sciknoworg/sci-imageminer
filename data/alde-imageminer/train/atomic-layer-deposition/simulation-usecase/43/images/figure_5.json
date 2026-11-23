@@ -11,9 +11,9 @@
         "c": "Panel (c) contrasts this behavior with the reaction on a Ge dangling-bond defect, which proceeds via barrier-less, spontaneous adsorption followed by ligand elimination.The line chart illustrates the percentage of oxygen diffusion over time for two different systems: GeOx/Ge and [Al2O3/GeOx]/Ge."
     },
     "data_extraction": {
-        "a": "",
-        "b": "",
-        "c": "| Time (ns) | Oxygen Diffusion (%) | Structure |\n|-----------|-----------------------|------------|\n| 0   | 0     | GeO\u2093/Ge |\n| 0   | 0     | [Al\u2082O\u2083/GeO\u2093]/Ge |\n| 0.5 | 12.2  | GeO\u2093/Ge |\n| 0.5 | 6.05  |[Al\u2082O\u2083/GeO\u2093]/Ge |\n| 1   | 12.3  |  GeO\u2093/Ge |\n| 1   | 8.28  | [Al\u2082O\u2083/GeO\u2093]/Ge |\n| 1.5 | 18.62 | GeO\u2093/Ge |\n| 1.5 | 10.31 | [Al\u2082O\u2083/GeO\u2093]/Ge |\n| 2   | 20.77 |  GeO\u2093/Ge |\n| 2   | 10.4  | [Al\u2082O\u2083/GeO\u2093]/Ge |"
+      "a": "",
+      "b": "",
+      "c": "| Time (ns) | Oxygen Diffusion (%) | Structure |\n| --- | --- | --- |\n| 0 | 0 | GeO\u2093/Ge |\n| 0 | 0 | [Al\u2082O\u2083/GeO\u2093]/Ge |\n| 0.5 | 12.2 | GeO\u2093/Ge |\n| 0.5 | 6.05 | [Al\u2082O\u2083/GeO\u2093]/Ge |\n| 1 | 12.3 | GeO\u2093/Ge |\n| 1 | 8.28 | [Al\u2082O\u2083/GeO\u2093]/Ge |\n| 1.5 | 18.62 | GeO\u2093/Ge |\n| 1.5 | 10.31 | [Al\u2082O\u2083/GeO\u2093]/Ge |\n| 2 | 20.77 | GeO\u2093/Ge |\n| 2 | 10.4 | [Al\u2082O\u2083/GeO\u2093]/Ge |"
     },
     "vqa": {
         "c": [

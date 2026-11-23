@@ -7,7 +7,7 @@
         "a": "Figure 6 shows an image panel of three wafers mounted on a rotating plate, with each wafer divided into 10 equiangular sections. This segmentation is used to compute surface area\u2013averaged pressures, surface coverage, and source generation and consumption rates, enabling parallel mesoscopic simulations within the multiscale modeling framework."
     },
     "data_extraction": {
-        "a": "|Description|\n|-----------|\n|Image panel showing three wafers mounted on a rotating plate. Each wafer is divided into 10 equiangular sections to evaluate surface area\u2013averaged pressures, surface coverage, and source generation and consumption rates. The segmentation enables parallel mesoscopic simulations and area-weighted averaging for multiscale modeling.|"
+      "a": "| Description |\n| --- |\n| Image panel showing three wafers mounted on a rotating plate. Each wafer is divided into 10 equiangular sections to evaluate surface area\u2013averaged pressures, surface coverage, and source generation and consumption rates. The segmentation enables parallel mesoscopic simulations and area-weighted averaging for multiscale modeling. |"
     },
     "vqa": {
         "a": [

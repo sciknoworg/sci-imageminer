@@ -7,7 +7,7 @@
         "a": "The atomic concentration of Ti, N, O, and C changes over sputtering time, with Ti and N reaching a plateau at 50% while O and C decrease significantly."
     },
     "data_extraction": {
-        "a": "| Sputtering Time (min.) | Atomic Concentration (%) |\n|---|---|\n| 0 | Ti: 25, N: 25, O: 28, C: 22 |\n| 1 | Ti: 44, N: 44, O: 12, C: 0 |\n| 2 | Ti: 49, N: 46, O: 5, C: 0 |\n| 3 | Ti: 49, N: 46, O: 5, C: 0 |\n| 4 | Ti: 49, N: 46, O: 5, C: 0 |"
+      "a": "| Sputtering Time (min.) | Atomic Concentration (%) |\n| --- | --- |\n| 0 | Ti: 25, N: 25, O: 28, C: 22 |\n| 1 | Ti: 44, N: 44, O: 12, C: 0 |\n| 2 | Ti: 49, N: 46, O: 5, C: 0 |\n| 3 | Ti: 49, N: 46, O: 5, C: 0 |\n| 4 | Ti: 49, N: 46, O: 5, C: 0 |"
     },
     "vqa": {
         "a": [

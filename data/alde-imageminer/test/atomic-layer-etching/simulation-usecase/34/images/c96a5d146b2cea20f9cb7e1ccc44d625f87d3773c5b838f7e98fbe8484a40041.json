@@ -7,7 +7,7 @@
         "a": "The heatmap shows how the mapped value varies with HF flow rate and substrate velocity. Values are highest at low substrate velocities and decrease steadily as substrate velocity increases. In contrast, changes across HF flow rate are relatively small, indicating that substrate velocity is the dominant parameter influencing the pattern."
     },
     "data_extraction": {
-        "a": "| HF flow rate (sccm) | Substrate velocity (mm/s) | Relative value |\n|--------------------|--------------------------|----------------|\n| 20                 | 30                       | High           |\n| 60                 | 30                       | High           |\n| 100                | 30                       | High           |\n| 20                 | 60                       | Medium         |\n| 60                 | 60                       | Medium         |\n| 100                | 60                       | Medium         |\n| 20                 | 90                       | Low            |\n| 60                 | 90                       | Low            |\n| 100                | 90                       | Low            |"
+      "a": "| HF flow rate (sccm) | Substrate velocity (mm/s) | Relative value |\n| --- | --- | --- |\n| 20 | 30 | High |\n| 60 | 30 | High |\n| 100 | 30 | High |\n| 20 | 60 | Medium |\n| 60 | 60 | Medium |\n| 100 | 60 | Medium |\n| 20 | 90 | Low |\n| 60 | 90 | Low |\n| 100 | 90 | Low |"
     },
     "vqa": {
         "a": [

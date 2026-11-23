@@ -9,8 +9,8 @@
         "b": "The line chart displays the surface roughness  in \u00c5 vs. cycle number for two studies, 'Present Study' and 'Hu et al.', over 12 cycles. The roughness from the present study is less rough."
     },
     "data_extraction": {
-        "a": "| Cycle | Growth per cycle, \u00c5 : Present Study | Growth per cycle, \u00c5: Hu et al. |\n| --- | --- | --- | \n| 1 | 1.04 | 0.49 |\n| 2 | 0.88 | 0.48 |\n| 3 | 0.83 | 0.54 |\n| 4 | 0.89 | 0.38 |\n| 5 | 1.06 | 0.48 |\n| 6 | 0.76 | 0.59 |\n| 7 | 1.17 | 0.68 |\n| 8 | 1.17 | 0.46 |\n| 9 | 1.00 | 0.49 |\n| 10 | 1.07 | 0.46 |\n| 11 | 1.19 | 0.57 |\n| 12 | 0.97 | 0.45 |",
-        "b": "| Cycle | Surface Roughness, \u00c5: Present Study | Surface Roughness, \u00c5: Hu et al. |\n| --- | --- | --- | \n| 1 | 0.78 | 1.4 |\n| 2 | 1.13 | 1.5 |\n| 3 | 1.28 | 1.56; 1.66 |\n| 4 | 1.31 | 1.73 |\n| 5 | 1.44 | 1.80 |\n| 6 | 1.33 | 2.0 |\n| 7 | 1.35 | 2.0 |\n| 8 | 1.42 | 1.89 |\n| 9 | 1.44 | 1.89 |\n| 10 | 1.36 | 1.70 |\n| 11 | 1.51 | 1.68 |\n| 12 | 1.58 | 1.65 |"
+      "a": "| Cycle | Growth per cycle, \u00c5 : Present Study | Growth per cycle, \u00c5: Hu et al. |\n| --- | --- | --- |\n| 1 | 1.04 | 0.49 |\n| 2 | 0.88 | 0.48 |\n| 3 | 0.83 | 0.54 |\n| 4 | 0.89 | 0.38 |\n| 5 | 1.06 | 0.48 |\n| 6 | 0.76 | 0.59 |\n| 7 | 1.17 | 0.68 |\n| 8 | 1.17 | 0.46 |\n| 9 | 1.00 | 0.49 |\n| 10 | 1.07 | 0.46 |\n| 11 | 1.19 | 0.57 |\n| 12 | 0.97 | 0.45 |",
+      "b": "| Cycle | Surface Roughness, \u00c5: Present Study | Surface Roughness, \u00c5: Hu et al. |\n| --- | --- | --- |\n| 1 | 0.78 | 1.4 |\n| 2 | 1.13 | 1.5 |\n| 3 | 1.28 | 1.56; 1.66 |\n| 4 | 1.31 | 1.73 |\n| 5 | 1.44 | 1.80 |\n| 6 | 1.33 | 2.0 |\n| 7 | 1.35 | 2.0 |\n| 8 | 1.42 | 1.89 |\n| 9 | 1.44 | 1.89 |\n| 10 | 1.36 | 1.70 |\n| 11 | 1.51 | 1.68 |\n| 12 | 1.58 | 1.65 |"
     },
     "vqa": {
         "a": [

@@ -9,8 +9,8 @@
         "b": "BF-TEM image of the same sample after 600 cycles of 3 s CCl\u2084 pulses with 6 s N\u2082 purges, showing complete removal of the TiN film and a clean SiO\u2082 surface without residues."
     },
     "data_extraction": {
-        "a": "| Description |\n|---|\n| Reference unetched 25 nm TiN film on 22 nm SiO\u2082. Shows the original TiN layer for comparison. |",
-        "b": "| Description |\n|---|\n| TiN film completely removed after 600 cycles of 3 s CCl\u2084 pulses with 6 s N\u2082 purges. The SiO\u2082 surface appears clean and free of residues. |"
+      "a": "| Description |\n| --- |\n| Reference unetched 25 nm TiN film on 22 nm SiO\u2082. Shows the original TiN layer for comparison. |",
+      "b": "| Description |\n| --- |\n| TiN film completely removed after 600 cycles of 3 s CCl\u2084 pulses with 6 s N\u2082 purges. The SiO\u2082 surface appears clean and free of residues. |"
     },
     "vqa": {
         "a": [

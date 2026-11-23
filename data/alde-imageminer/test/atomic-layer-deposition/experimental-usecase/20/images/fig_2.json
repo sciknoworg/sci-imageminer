@@ -7,7 +7,7 @@
         "a": "The chart displays X-ray Reflectivity (XRR) measurements plotted as the logarithm of intensity (in arbitrary units) versus the incident angle (in degrees). It compares the experimental reflectivity profiles against theoretical simulations for two lanthanum titanate films deposited with 33% and 25% TiO2 sub-cycles."
     },
     "data_extraction": {
-        "a": "| Angle (\u00b0) | Log(intensity) (a.u.): 33% TiO2 sub-cycles | Log(intensity) (a.u.): Simulation for 33% TiO2 sub-cycles | Log(intensity) (a.u.):25 % TiO2 sub-cycles |Log(intensity) (a.u.): Simulation for 25% TiO2 sub-cycles | \n|---|---|---|---|---|\n| 0.0 | 16096 | 100000 | 1517 | 8284 |\n| 0.5 | 36248 | 69142 | 3233 | 5419 |\n| 1.0 | 974 | 974 | 110 | 110 |\n| 1.5 | 154 | 154 | 41 | 41 | \n| 2.0 | 34 | 34 | 3 | 3 |\n| 2.5 | 42 | 42 | 1 | 1 |"
+      "a": "| Angle (\u00b0) | Log(intensity) (a.u.): 33% TiO2 sub-cycles | Log(intensity) (a.u.): Simulation for 33% TiO2 sub-cycles | Log(intensity) (a.u.):25 % TiO2 sub-cycles | Log(intensity) (a.u.): Simulation for 25% TiO2 sub-cycles |\n| --- | --- | --- | --- | --- |\n| 0.0 | 16096 | 100000 | 1517 | 8284 |\n| 0.5 | 36248 | 69142 | 3233 | 5419 |\n| 1.0 | 974 | 974 | 110 | 110 |\n| 1.5 | 154 | 154 | 41 | 41 |\n| 2.0 | 34 | 34 | 3 | 3 |\n| 2.5 | 42 | 42 | 1 | 1 |"
     },
     "vqa": {
         "a": [

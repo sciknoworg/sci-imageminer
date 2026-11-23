@@ -9,8 +9,8 @@
         "b": "With reduced TMA pressure and increased Ar purge, the same three substrates again converge rapidly to ~45\u00b0 and remain stable over the entire 370-cycle range. ODPA/Ti shows only a slight decrease from ~110\u00b0 to ~105\u00b0, indicating strong resistance to long-term hydrophilization under these conditions."
     },
     "data_extraction": {
-        "a": "| ALD cycles | ODPA/Ti (deg) | HF-treated Si (deg) | SiO\u2082 (deg) | Ti (deg) |\n|-----------|----------------|----------------------|------------|----------|\n| 0         | ~110           | ~90                  | ~70        | ~60      |\n| 25        | ~110           | ~45                  | ~45        | ~45      |\n| 50        | ~110           | ~45                  | ~45        | ~45      |\n| 100       | ~105           | ~45                  | ~45        | ~45      |\n| 150       | ~90            | ~45                  | ~45        | ~45      |",
-        "b": "| ALD cycles | ODPA/Ti (deg) | HF-treated Si (deg) | SiO\u2082 (deg) | Ti (deg) |\n|-----------|----------------|----------------------|------------|----------|\n| 0         | ~110           | ~90                  | ~70        | ~60      |\n| 25        | ~110           | ~45                  | ~45        | ~45      |\n| 150       | ~105           | ~45                  | ~45        | ~45      |\n| 370       | ~105           | ~45                  | ~45        | ~45      |"
+      "a": "| ALD cycles | ODPA/Ti (deg) | HF-treated Si (deg) | SiO\u2082 (deg) | Ti (deg) |\n| --- | --- | --- | --- | --- |\n| 0 | ~110 | ~90 | ~70 | ~60 |\n| 25 | ~110 | ~45 | ~45 | ~45 |\n| 50 | ~110 | ~45 | ~45 | ~45 |\n| 100 | ~105 | ~45 | ~45 | ~45 |\n| 150 | ~90 | ~45 | ~45 | ~45 |",
+      "b": "| ALD cycles | ODPA/Ti (deg) | HF-treated Si (deg) | SiO\u2082 (deg) | Ti (deg) |\n| --- | --- | --- | --- | --- |\n| 0 | ~110 | ~90 | ~70 | ~60 |\n| 25 | ~110 | ~45 | ~45 | ~45 |\n| 150 | ~105 | ~45 | ~45 | ~45 |\n| 370 | ~105 | ~45 | ~45 | ~45 |"
     },
     "vqa": {
         "a": [

@@ -9,8 +9,8 @@
         "b": "The scatter plot displays the composition of a Ge, Sb, and Te film at various cycles of GeTe/(GeTe+Sb\u2082Te\u2083)."
     },
     "data_extraction": {
-        "a": "| GeCl\u2084-dioxane pulse length (s) | Composition (at.%)  Ge|Composition (at.%)  Sb|Composition (at.%)  Te|\n|---|---|---|---|\n| 1 | 15 |35|50|\n| 2 | 25 |25|50|\n| 3 | 30 |20|50|\n| 4 | 30 |20|50|\n| 6 | 30 |20|50|",
-        "b": "| GeTe/(GeTe+Sb\u2082Te\u2083) cycling | Composition (at.%)  Ge|Composition (at.%)  Sb|Composition (at.%)  Te|\n|---|---|---|---|\n| 0.25 | 20 |30|50|\n| 0.33 | 22 |28|50|\n|0.36|28|22|50|\n| 0.5 | 30 |20|50|"
+      "a": "| GeCl\u2084-dioxane pulse length (s) | Composition (at.%)  Ge | Composition (at.%)  Sb | Composition (at.%)  Te |\n| --- | --- | --- | --- |\n| 1 | 15 | 35 | 50 |\n| 2 | 25 | 25 | 50 |\n| 3 | 30 | 20 | 50 |\n| 4 | 30 | 20 | 50 |\n| 6 | 30 | 20 | 50 |",
+      "b": "| GeTe/(GeTe+Sb\u2082Te\u2083) cycling | Composition (at.%)  Ge | Composition (at.%)  Sb | Composition (at.%)  Te |\n| --- | --- | --- | --- |\n| 0.25 | 20 | 30 | 50 |\n| 0.33 | 22 | 28 | 50 |\n| 0.36 | 28 | 22 | 50 |\n| 0.5 | 30 | 20 | 50 |"
     },
     "vqa": {
         "a": [

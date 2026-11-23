@@ -7,7 +7,7 @@
         "a": "The line chart illustrates the dielectric function \u03b5\u2082 of Pt and PtO\u2082 as a function of photon energy in electron volts (eV). The data points for Pt follow a Drude-Lorentz model, while those for PtO\u2082 follow a Tauc-Lorentz model."
     },
     "data_extraction": {
-        "a": "| Photon energy (eV) | Dielectric function \u03b5\u2082: Pt (Drude-Lorentz) | Dielectric function \u03b5\u2082: PtO2 (Tauc-Lorentz) |\n|---|---|---|\n| 0.7 | 100 | 0 |\n| 1 | 72 | 0 |\n| 2 | 21 | 2 |\n| 3 | 11 | 6 |\n| 4 | 7 | 9 |\n| 5 | 5 | 8 |\n| 6 | 4 | 6 |\n| 6.5 | 5.4 | 4.8 |"
+      "a": "| Photon energy (eV) | Dielectric function \u03b5\u2082: Pt (Drude-Lorentz) | Dielectric function \u03b5\u2082: PtO2 (Tauc-Lorentz) |\n| --- | --- | --- |\n| 0.7 | 100 | 0 |\n| 1 | 72 | 0 |\n| 2 | 21 | 2 |\n| 3 | 11 | 6 |\n| 4 | 7 | 9 |\n| 5 | 5 | 8 |\n| 6 | 4 | 6 |\n| 6.5 | 5.4 | 4.8 |"
     },
     "vqa": {
         "a": [

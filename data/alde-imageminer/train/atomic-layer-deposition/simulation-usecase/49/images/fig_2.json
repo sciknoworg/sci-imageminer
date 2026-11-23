@@ -8,7 +8,7 @@
         "b": "The figure shows the molecular structures of boron-hydrogen complexes at different energy levels"
     },
     "data_extraction": {
-        "a": "| Reaction Step (Species) | Energy (eV) |\n|---|---|\n| B2H6* | -0.06 |\n| Transition State (B-B) | 1.11 |\n| BH3* | -1.95 |\n| Transition State (B-H) | 1.65 |\n| BH2* | -0.66 |\n| Transition State (B-H) | 1.75 |\n| BH* | 0.79 |\n| Transition State (B-H) | 1.83 |\n| B* | 2.30 |"
+      "a": "| Reaction Step (Species) | Energy (eV) |\n| --- | --- |\n| B2H6* | -0.06 |\n| Transition State (B-B) | 1.11 |\n| BH3* | -1.95 |\n| Transition State (B-H) | 1.65 |\n| BH2* | -0.66 |\n| Transition State (B-H) | 1.75 |\n| BH* | 0.79 |\n| Transition State (B-H) | 1.83 |\n| B* | 2.30 |"
     },
     "vqa": {
         "a": [

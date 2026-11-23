@@ -9,8 +9,8 @@
         "b": "The figure shows the spectral response of Al-F after BCl3 treatment, with a fitted curve overlaid. Also, Al-F bond is highlighted at 77.0 eV."
     },
     "data_extraction": {
-        "a": "| B. E. (eV) | Counts |\n| --- | --- |\n| 85 | - |\n| 80 | peak at 77 eV, 78 eV|\n| 75 | peak at 74 eV |\n| 70 | peak at 73 eV |",
-        "b": "| B. E. (eV) | Counts |\n| --- | --- |\n| 85 | - |\n| 80 | - |\n| 75 | - |\n| 70 | peak at 73 eV |"
+      "a": "| B. E. (eV) | Counts |\n| --- | --- |\n| 85 | - |\n| 80 | peak at 77 eV, 78 eV |\n| 75 | peak at 74 eV |\n| 70 | peak at 73 eV |",
+      "b": "| B. E. (eV) | Counts |\n| --- | --- |\n| 85 | - |\n| 80 | - |\n| 75 | - |\n| 70 | peak at 73 eV |"
     },
     "vqa": {
         "a": [

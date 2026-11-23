@@ -7,7 +7,7 @@
         "a": "The ALD reaction sequence for alumina growth from TMA and H\u2082O under optimal conditions, showing that one TMA molecule reacts per surface cell ([Me] = 1/cell) and two H atoms per cell ([H] = 2/cell), leading to CH\u2084 desorption and regeneration of the hydroxylated surface. The figure highlights the stoichiometry and steric constraints governing monolayer formation."
     },
     "data_extraction": {
-        "a": "|Description|\n|-----------|\n|ALD reaction portrait for optimum growth of alumina from TMA and H\u2082O, subject to the constraints of [Me] = 1/cell and [H] = 2/cell|"
+      "a": "| Description |\n| --- |\n| ALD reaction portrait for optimum growth of alumina from TMA and H\u2082O, subject to the constraints of [Me] = 1/cell and [H] = 2/cell |"
     },
     "vqa": {
         "a": [

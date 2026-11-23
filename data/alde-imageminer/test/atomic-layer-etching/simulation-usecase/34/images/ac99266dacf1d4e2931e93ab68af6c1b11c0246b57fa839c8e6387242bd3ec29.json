@@ -7,7 +7,7 @@
         "a": "The heatmap shows how the mapped value varies with TMA flow rate and substrate velocity. The color distribution forms horizontal bands, indicating a strong dependence on substrate velocity. A higher-value band appears at intermediate velocities, while both low and high velocities show lower values, with relatively little variation across TMA flow rate."
     },
     "data_extraction": {
-        "a": "| TMA flow rate (sccm)| Substrate velocity (mm/s)| Relative value |\n|---------------------|--------------------------|----------------|\n| 20                  | 90                       | Low            |\n| 60                  | 90                       | Low            |\n| 100                 | 90                       | Low            |\n| 20                  | 60                       | High           |\n| 60                  | 60                       | High           |\n| 100                 | 60                       | High           |\n| 20                  | 30                       | Low            |\n| 60                  | 30                       | Low            |\n| 100                 | 30                       | Low            |"
+      "a": "| TMA flow rate (sccm) | Substrate velocity (mm/s) | Relative value |\n| --- | --- | --- |\n| 20 | 90 | Low |\n| 60 | 90 | Low |\n| 100 | 90 | Low |\n| 20 | 60 | High |\n| 60 | 60 | High |\n| 100 | 60 | High |\n| 20 | 30 | Low |\n| 60 | 30 | Low |\n| 100 | 30 | Low |"
     },
     "vqa": {
         "a": [

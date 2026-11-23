@@ -7,7 +7,7 @@
         "a": "The chart shows that optical transmission increases with a higher percentage of Sn cycles, rising steeply at first before plateauing around 92%"
     },
     "data_extraction": {
-        "a": "| % of Sn Cycles | Optical Transmission (%) |\n|----------------|--------------------------|\n| 0              | 80                       |\n| 1              | 82                       |\n| 3              | 87                       |\n| 5              | 88                       |\n| 10             | 92                       |\n| 15             | 92                       |"
+      "a": "| % of Sn Cycles | Optical Transmission (%) |\n| --- | --- |\n| 0 | 80 |\n| 1 | 82 |\n| 3 | 87 |\n| 5 | 88 |\n| 10 | 92 |\n| 15 | 92 |"
     },
     "vqa": {
         "a": [

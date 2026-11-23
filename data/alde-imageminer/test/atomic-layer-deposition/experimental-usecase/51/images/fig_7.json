@@ -7,7 +7,7 @@
         "a": "The figure displays an XPS chart of the O 1s energy region of MoOx with the results of three samples superimposed."
     },
     "data_extraction": {
-        "a": "| Sample | Binding energy (eV) |\n|---|---|\n| 2 second O2 | Peaks at 530.2 and 531.8 |\n| 2 second O2 & Ar | Peaks at 530.2 and 531.8 |\n| 1 second O2 | Peaks at 530.2 and 531.2 |"
+      "a": "| Sample | Binding energy (eV) |\n| --- | --- |\n| 2 second O2 | Peaks at 530.2 and 531.8 |\n| 2 second O2 & Ar | Peaks at 530.2 and 531.8 |\n| 1 second O2 | Peaks at 530.2 and 531.2 |"
     },
     "vqa": {
         "a": [

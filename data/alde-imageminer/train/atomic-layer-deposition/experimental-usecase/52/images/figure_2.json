@@ -9,8 +9,8 @@
         "b": "A layer stack schematic of the sample showing a LiCoO2 electrode on a platinum current collector with a TiO2 adhesion layer on a silicon substrate."
     },
     "data_extraction": {
-        "a": "",
-        "b": "| Layer | Description |\n|---|---|\n| LiCoO\u2082 electrode | Lithium cobalt oxide electrode layer |\n| Platinum current collector | Conductive layer made of platinum |\n| TiO\u2082 adhesion layer | Adhesive layer of titanium dioxide |\n| Silicon substrate | Base material of silicon |"
+      "a": "",
+      "b": "| Layer | Description |\n| --- | --- |\n| LiCoO\u2082 electrode | Lithium cobalt oxide electrode layer |\n| Platinum current collector | Conductive layer made of platinum |\n| TiO\u2082 adhesion layer | Adhesive layer of titanium dioxide |\n| Silicon substrate | Base material of silicon |"
     },
     "vqa": {
         "a": [

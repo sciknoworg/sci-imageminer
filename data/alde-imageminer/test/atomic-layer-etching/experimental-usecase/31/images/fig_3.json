@@ -8,8 +8,8 @@
         "a": "This figure illustrates the effects of different ALE processing conditions on film etching and mass loss. Panel (a) compares HfO\u2082, ZrO\u2082, and Al\u2082O\u2083 across three treatments: Hhfac only, Hhfac + O\u2082 gas, and Hhfac + O radicals. In the first two cases, film thickness remains constant over 50 cycles, indicating negligible etching. However, when O radicals are introduced, HfO\u2082 film thickness decreases steadily with each cycle, while ZrO\u2082 and Al\u2082O\u2083 remain unchanged\u2014demonstrating material selectivity and process activation via radical chemistry. Panel (b) tracks the mass change during a similar ALE sequence at 300\u202f\u00b0C, with a sharp mass decrease occurring only after the O radical step is introduced. The inset FTIR spectra confirm removal of Hhfac and reaction byproducts, supporting the proposed etch mechanism."
     },
     "data_extraction": {
-        "a": "| Number of process cycles | HfO\u2082 (nm) |\n|--------------------------|-----------|\n| 0                        | 20        |\n| 10                       | 18        |\n| 20                       | 16        |\n| 30                       | 14        |\n| 40                       | 12        |\n| 50                       | 10        |",
-        "b": "| Number of process cycles | HfO\u2082 (nm) |\n|--------------------------|-----------|\n| 0                        | 20        |\n| 10                       | 18        |\n| 20                       | 16        |\n| 30                       | 14        |\n| 40                       | 12        |\n| 50                       | 10        |"
+      "a": "| Number of process cycles | HfO\u2082 (nm) |\n| --- | --- |\n| 0 | 20 |\n| 10 | 18 |\n| 20 | 16 |\n| 30 | 14 |\n| 40 | 12 |\n| 50 | 10 |",
+      "b": "| Number of process cycles | HfO\u2082 (nm) |\n| --- | --- |\n| 0 | 20 |\n| 10 | 18 |\n| 20 | 16 |\n| 30 | 14 |\n| 40 | 12 |\n| 50 | 10 |"
     },
     "vqa": {
         "b": [

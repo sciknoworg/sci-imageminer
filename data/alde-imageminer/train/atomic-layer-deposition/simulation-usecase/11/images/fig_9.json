@@ -13,10 +13,10 @@
         "d": "A line chart showing the normalized pressure of ligand and precursor species over time after microdose sequence, \u03b2_02 = 10^-3."
     },
     "data_extraction": {
-        "a": "| Time (s) | Norm. pressure (p/p0) Ligand | Norm. pressure (p/p0) Precursor |\n|---|---|---|\n| 0.0 | 0.0 | 0.0 |\n| 0.2 | 0.0 | 0.0 |\n| 0.4 | 0.4 | 0.0 |\n| 0.6 | 0.2 | 0.2 |\n| 0.8 | 0.1 | 0.1 |\n| 1.0 | 0.0 | 0.0 |\n| 1.2 | 0.0 | 0.0 |",
-        "b": "| Time (s) | Norm. pressure (p/p0) Precursor | Norm. pressure (p/p0) Ligand |\n|---|---|---|\n| 0.0 | 0.0 | 0.0 |\n| 0.5 | 0.35 | 0.25 |\n| 1.0 | 0.75 | 0.1 |\n| 1.5 | 0.0 | 0.0 |",
-        "c": "| Time (s) | Norm. pressure (p/p0) Precursor | Norm. pressure (p/p0) Ligand |\n|---|---|---|\n| 0.0 | 0.0 | 0.0 |\n| 1.0 | 0.08 | 0.14 |\n| 2.0 | 0.02 | 0.02 |\n| 3.0 | 0.14 | 0.0 |\n| 4.0 | 0.16 | 0.0 |\n| 5.0 | 0.0 | 0.0 |",
-        "d": "| Time (s) | Norm. pressure (p/p0) Precursor | Norm. pressure (p/p0) Ligand |\n|---|---|---|\n| 0.0 | 0.0 | 0.0 |\n| 1.0 | 0.08 | 0.08 |\n| 2.0 | 0.01 | 0.02 |\n| 3.0 | 0.05 | 0.02 |\n| 4.0 | 0.15 | 0.03 |\n| 5.0 | 0.0 | 0.0 |"
+      "a": "| Time (s) | Norm. pressure (p/p0) Ligand | Norm. pressure (p/p0) Precursor |\n| --- | --- | --- |\n| 0.0 | 0.0 | 0.0 |\n| 0.2 | 0.0 | 0.0 |\n| 0.4 | 0.4 | 0.0 |\n| 0.6 | 0.2 | 0.2 |\n| 0.8 | 0.1 | 0.1 |\n| 1.0 | 0.0 | 0.0 |\n| 1.2 | 0.0 | 0.0 |",
+      "b": "| Time (s) | Norm. pressure (p/p0) Precursor | Norm. pressure (p/p0) Ligand |\n| --- | --- | --- |\n| 0.0 | 0.0 | 0.0 |\n| 0.5 | 0.35 | 0.25 |\n| 1.0 | 0.75 | 0.1 |\n| 1.5 | 0.0 | 0.0 |",
+      "c": "| Time (s) | Norm. pressure (p/p0) Precursor | Norm. pressure (p/p0) Ligand |\n| --- | --- | --- |\n| 0.0 | 0.0 | 0.0 |\n| 1.0 | 0.08 | 0.14 |\n| 2.0 | 0.02 | 0.02 |\n| 3.0 | 0.14 | 0.0 |\n| 4.0 | 0.16 | 0.0 |\n| 5.0 | 0.0 | 0.0 |",
+      "d": "| Time (s) | Norm. pressure (p/p0) Precursor | Norm. pressure (p/p0) Ligand |\n| --- | --- | --- |\n| 0.0 | 0.0 | 0.0 |\n| 1.0 | 0.08 | 0.08 |\n| 2.0 | 0.01 | 0.02 |\n| 3.0 | 0.05 | 0.02 |\n| 4.0 | 0.15 | 0.03 |\n| 5.0 | 0.0 | 0.0 |"
     },
     "vqa": {
         "b": [
